@@ -21,9 +21,9 @@
 
 ## 추천 빌드 제보
 
-추천 빌드 데이터는 이 리포에 포함되지 않으며 PR로 받지 않습니다.
-제보 시, 사용하는 영상 (유튜브면 OK.), 빌드의 설명 및 목적, 본인의 점수대를 말씀해주세요. 점수대는 어느정도 믿을만한 실력을 증명하기 위함입니다.
-(개인적으론 World Match 8000점 이상 / Legend Competition 1950점 이상만 받고 싶습니다. 8000점은 게임을 오랫동안 해야 도달할 수 있는 점수니까요.)
+- 추천 빌드 데이터는 이 리포에 포함되지 않으며 PR로 받지 않습니다.
+- 제보 시, 사용하는 영상 (유튜브면 OK.), 빌드의 설명 및 목적, 본인의 점수대를 말씀해주세요. 점수대는 어느정도 믿을만한 실력을 증명하기 위함입니다.
+- (개인적으론 World Match 8000점 이상 / Legend Competition 1950점 이상만 받고 싶습니다. 8000점은 게임을 오랫동안 해야 도달할 수 있는 점수니까요.)
 
  아래 경로로 제보해 주세요.
 - 이메일: busimh001@gmail.com
@@ -93,9 +93,9 @@ If you find a typo, translation issue, or wrong value, please open a PR.
 
 ### Recommended build submissions
 
-Recommended build data is not included in this repository and is not accepted via PR. 
-When submitting, please include the video you used (YouTube is fine), a description and the purpose of the build, and your score range. The score range is to show that your skill is reasonably reliable.
-(Personally, I'd like to accept submissions only from players with '8000+ in World Match' / '1950+ in Legend Competition', since 8000 points is a score you can only reach after playing the game for a long time.)
+- Recommended build data is not included in this repository and is not accepted via PR. 
+- When submitting, please include the video you used (YouTube is fine), a description and the purpose of the build, and your score range. The score range is to show that your skill is reasonably reliable.
+- (Personally, I'd like to accept submissions only from players with '8000+ in World Match' / '1950+ in Legend Competition', since 8000 points is a score you can only reach after playing the game for a long time.)
 
 Please send submissions through:
 - Email: busimh001@gmail.com
@@ -165,9 +165,9 @@ This is an unofficial fan project and is not affiliated with SEGA.
 
 ### おすすめビルドの情報提供
 
-おすすめビルドのデータはこのリポジトリに含まれておらず、PR では受け付けていません。
-情報提供の際は、使用している動画（YouTubeでOK）、ビルドの説明と目的、ご自身のスコア帯をお伝えください。スコア帯は、ある程度信頼できる実力を証明していただくためのものです。
-（個人的には、'ワールドマッチ8000点以上'/ 'レジェンドコンペ1950点以上'の方からのみ受け付けたいと考えています。8000点は、ゲームを長くプレイしないと到達できないスコアだからです。）
+- おすすめビルドのデータはこのリポジトリに含まれておらず、PR では受け付けていません。
+- 情報提供の際は、使用している動画（YouTubeでOK）、ビルドの説明と目的、ご自身のスコア帯をお伝えください。スコア帯は、ある程度信頼できる実力を証明していただくためのものです。
+- （個人的には、'ワールドマッチ8000点以上'/ 'レジェンドコンペ1950点以上'の方からのみ受け付けたいと考えています。8000点は、ゲームを長くプレイしないと到達できないスコアだからです。）
 
 以下の窓口からお寄せください。
 
