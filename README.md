@@ -40,6 +40,17 @@
 
 PR을 보내면 해당 기여분을 아래 라이선스로 제공하는 데 동의한 것으로 간주합니다.
 
+## 편집과 반영 과정
+
+1. 기여자가 이 리포를 Fork 하고, 자신의 포크에서 JSON을 수정한 뒤 이 리포로 PR을 보냅니다.
+2. 사이트 제작자가 PR 내용을 검토합니다. 필요하면 PR 코멘트로 수정을 요청합니다.
+3. 검토가 끝난 PR은 이 리포의 `main` 브랜치에 머지됩니다.
+4. 머지된 데이터는 바로 사이트에 반영되지 않습니다. 사이트 제작자가 사이트에서 사용하는 데이터 버전을 갱신하고 배포할 때 함께 반영됩니다.
+5. 이미지가 필요한 항목은 사이트 제작자가 이미지를 따로 추가합니다.
+
+- PR 진행 상황은 이 리포의 [Pull requests](https://github.com/Meo-Hong/Crossworlds_Builders_Datasets/pulls) 탭에서 확인할 수 있습니다.
+- 직접 수정하기 어렵다면 [Issues](https://github.com/Meo-Hong/Crossworlds_Builders_Datasets/issues)에 오류나 수정 제안을 남겨 주세요.
+
 ## 라이선스
 
 이 리포의 데이터는 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko) 라이선스를 따릅니다.
@@ -98,6 +109,17 @@ Recommended build data is not included in this repository and is not accepted vi
 
 By submitting a PR, you agree to license your contribution under the license below.
 
+### How changes are reviewed and applied
+
+1. A contributor forks this repository, edits the JSON in their fork, and opens a PR to this repository.
+2. The site maintainer reviews the PR and may request changes through PR comments.
+3. Approved PRs are merged into the `main` branch of this repository.
+4. Merged data is not reflected on the site immediately. It goes live when the site maintainer updates the data version used by the site and deploys it.
+5. For entries that need images, the site maintainer adds the images separately.
+
+- You can follow the progress of PRs in the [Pull requests](https://github.com/Meo-Hong/Crossworlds_Builders_Datasets/pulls) tab.
+- If you can't edit the data yourself, please report errors or suggestions in [Issues](https://github.com/Meo-Hong/Crossworlds_Builders_Datasets/issues).
+
 ### License
 
 Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -155,6 +177,17 @@ This is an unofficial fan project and is not affiliated with SEGA.
 5. いつも関心を寄せていただき、本当にありがとうございます。
 
 PR を送信した時点で、その貢献内容を以下のライセンスで提供することに同意したものとみなします。
+
+### 編集と反映の流れ
+
+1. 貢献者はこのリポジトリを Fork し、自分のフォークで JSON を修正してから、このリポジトリへ PR を作成します。
+2. サイト制作者が PR の内容を確認します。必要に応じて PR のコメントで修正をお願いします。
+3. 確認が終わった PR は、このリポジトリの `main` ブランチにマージされます。
+4. マージされたデータはすぐにはサイトに反映されません。サイト制作者がサイトで使用するデータのバージョンを更新し、デプロイした時点で反映されます。
+5. 画像が必要な項目は、サイト制作者が別途画像を追加します。
+
+- PR の進行状況は、このリポジトリの [Pull requests](https://github.com/Meo-Hong/Crossworlds_Builders_Datasets/pulls) タブで確認できます。
+- 自分で修正するのが難しい場合は、[Issues](https://github.com/Meo-Hong/Crossworlds_Builders_Datasets/issues) にエラーや修正案を残してください。
 
 ### ライセンス
 
