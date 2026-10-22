@@ -1,4 +1,62 @@
 {
+  "speedTypes": {
+    "title": {
+      "en": "Speed types and caps",
+      "jp": "速度の種類と上限",
+      "kr": "속도 종류와 상한"
+    },
+    "columns": {
+      "en": ["Type", "Examples", "Cap / Stacking"],
+      "jp": ["種類", "主な例", "上限 / 重複"],
+      "kr": ["종류", "대표 예시", "상한 / 중첩"]
+    },
+    "rows": {
+      "en": [
+        ["Boost", "Drift Charge Boost, Air Trick Boost, Dash Panels, Boost / King Boost items, Collision Boost", "+40km/h in total, each extra boost adds +10km/h (Lv1 Drift / Air Trick: +5km/h)"],
+        ["Additional Speed", "Ring count, Slipstream, Ring Gain Boost, Shield, Ring Engine gadgets", "+38km/h (Power +48km/h), added as is"],
+        ["Base Speed", "Speed stat, drift speed correction", "No cap (Speed stat up to 100), added as is"]
+      ],
+      "jp": [
+        ["ブースト", "ドリフトチャージダッシュ、エアトリックブースト、ダッシュパネル、ブースト・キングブーストアイテム、ぶつかりダッシュ", "合計+40km/h、重なるたびに+10km/h（Lv1ドリフト・エアトリックは+5km/h）"],
+        ["追加速度", "リング数、スリップストリーム、リングゲットダッシュ、シールド、リングエンジン系ガジェット", "+38km/h（パワー+48km/h）、そのまま加算"],
+        ["基本速度", "スピードのパラメータ、ドリフト中の速度補正", "上限なし（スピードは100まで）、そのまま加算"]
+      ],
+      "kr": [
+        ["부스트", "드리프트 차지 대시, 에어 트릭 부스트, 대시 패널, 부스트·킹 부스트 아이템, 범프 대시", "합계 +40km/h, 겹칠 때마다 +10km/h (Lv1 드리프트·에어 트릭은 +5km/h)"],
+        ["추가 속도", "링 개수, 슬립스트림, 링 획득 대시, 방패, 링 엔진 계열 가젯", "+38km/h (파워 +48km/h), 그대로 합산"],
+        ["기본 속도", "스피드 스탯, 드리프트 중 속도 보정", "상한 없음 (스피드 스탯은 100까지), 그대로 합산"]
+      ]
+    },
+    "notes": {
+      "en": [
+        "The three types are calculated separately and added together.",
+        "Drift Charge Boost and Air Trick Boost show orange (Lv1) / purple (Lv2) / blue (Lv3) / rainbow (Lv4) flames by level, while Additional Speed has no visual effect.",
+        "Boosts and Base Speed build up gradually and decay at a set rate.",
+        "A Perfect Boost grants a momentary +40km/h boost and +10km/h Additional Speed for 0.5 seconds at the same time.",
+        "Based on Sonic Speed. Higher speed modes have smaller speed increases and lower caps.",
+        "The in-game speedometer flickers between two whole numbers when the value has a decimal; the number it stays on longer is closer to the actual value.",
+        "Based on the Speed Document by Yoshister."
+      ],
+      "jp": [
+        "3種類の速度はそれぞれ別に計算され、合算されます。",
+        "ドリフトチャージダッシュとエアトリックブーストは、レベルに応じてオレンジ色(Lv1) / 紫色(Lv2) / 青色(Lv3) / 虹色(Lv4)の炎が出ます。追加速度には目に見える効果がありません。",
+        "ブーストと基本速度は徐々に上がり、一定の速度で徐々に下がります。",
+        "ジャストダッシュは、瞬間的な+40km/hのブーストと0.5秒間+10km/hの追加速度を同時に得ます。",
+        "「ソニックスピード」基準です。速度モードが高いほど、速度増加量と上限は小さくなります。",
+        "ゲーム内の速度計は、小数点の値のとき2つの整数の間で点滅し、長く留まる方が実際の値に近いです。",
+        "Speed Document by Yoshister を基準としています。"
+      ],
+      "kr": [
+        "세 종류의 속도는 서로 따로 계산되어 더해집니다.",
+        "드리프트 차지 대시와 에어 트릭 부스트는 레벨에 따라 주황색(Lv1) / 자주색(Lv2) / 파란색(Lv3) / 무지개색(Lv4) 불꽃이 나오고, 추가 속도는 눈에 보이는 효과가 없습니다.",
+        "부스트와 기본 속도는 서서히 올랐다가 일정한 속도로 서서히 줄어듭니다.",
+        "저스트 대시는 순간 +40km/h 부스트와 0.5초 동안 +10km/h 추가 속도를 함께 받습니다.",
+        "소닉 스피드 기준입니다. 속도 모드가 높을수록 속도 증가량과 상한이 작아집니다.",
+        "게임 속도계는 소수점 값일 때 두 정수 사이를 깜빡이며, 더 오래 머무는 쪽이 실제 값에 가깝습니다.",
+        "스피드 문서 (Speed Document by Yoshister) 기준입니다."
+      ]
+    }
+  },
   "slipstreamRingDashCap": {
     "sectionTitle": {
       "en": "Additional speed increase tables",
@@ -18,38 +76,38 @@
     "rows": {
       "en": [
         ["Slipstream", "+20km/h"],
-        ["Ring Gain Dash", "+14km/h ~ +16km/h"],
-        ["Accel Character Kit", "+14km/h ~ +16km/h"],
-        ["Ring Gain Dash Mini", "+7km/h ~ +8km/h"],
-        ["Speed Machine Kit", "+7km/h ~ +8km/h"]
+        ["Ring Gain Dash", "+15km/h"],
+        ["Accel Character Kit", "+15km/h"],
+        ["Ring Gain Dash Mini", "+7km/h"],
+        ["Speed Machine Kit", "+7km/h"]
       ],
       "jp": [
         ["スリップストリーム", "+20km/h"],
-        ["リングゲットダッシュ", "+14km/h ~ +16km/h"],
-        ["アクセルキャラキット", "+14km/h ~ +16km/h"],
-        ["リングゲットダッシュミニ", "+7km/h ~ +8km/h"],
-        ["スピードマシンキット", "+7km/h ~ +8km/h"]
+        ["リングゲットダッシュ", "+15km/h"],
+        ["アクセルキャラキット", "+15km/h"],
+        ["リングゲットダッシュミニ", "+7km/h"],
+        ["スピードマシンキット", "+7km/h"]
       ],
       "kr": [
         ["슬립스트림", "+20km/h"],
-        ["링 획득 대시", "+14km/h ~ +16km/h"],
-        ["액셀 캐릭터 키트", "+14km/h ~ +16km/h"],
-        ["링 획득 대시 미니", "+7km/h ~ +8km/h"],
-        ["스피드 머신 키트", "+7km/h ~ +8km/h"]
+        ["링 획득 대시", "+15km/h"],
+        ["액셀 캐릭터 키트", "+15km/h"],
+        ["링 획득 대시 미니", "+7km/h"],
+        ["스피드 머신 키트", "+7km/h"]
       ]
     },
     "notes": {
       "en": [
         "When activated simultaneously, the speeds stack, and together with the speed boost from rings, they are subject to an additional speed cap.",
-        "Since this is based on 'Sonic Speed,' the speed increase effect may vary in other speed modes."
+        "Based on Sonic Speed. Higher speed modes have smaller speed increases and lower caps."
       ],
       "jp": [
         "同時に発動すると速度が加算され、リングによる速度増加も含めた合計値に対して、追加速度の上限が存在します。",
-        "「ソニックスピード」を基準としているため、他の速度モードでは速度増加効果が異なる場合があります。"
+        "「ソニックスピード」基準です。速度モードが高いほど、速度増加量と上限は小さくなります。"
       ],
       "kr": [
         "동시에 활성화되면 속도가 합산되며, 링으로 인한 속도 증가와 같이 합계되어 추가속도 상한이 존재합니다.",
-        "소닉 스피드 기준이므로 다른 속도 모드에서는 속도 증가 효과가 다를 수 있습니다."
+        "소닉 스피드 기준입니다. 속도 모드가 높을수록 속도 증가량과 상한이 작아집니다."
       ]
     }
   },
@@ -68,17 +126,20 @@
       "en": [
         ["~99 rings", "+0.07km/h ~ per ring (7km/h at 99 rings)"],
         ["100 rings or more", "+14km/h (7km/h at 100 rings, then X)"],
-        ["0 ring", "\"Spin Down\" effect applied when hit"]
+        ["0 ring", "\"Spin Down\" effect applied when hit"],
+        ["On ring pickup", "+1km/h per ring (0.3 sec)"]
       ],
       "jp": [
         ["~99 リング", "リングあたり0.07km/h ~ 増加 (99リングで7km/h増加)"],
         ["100~ リング", "14km/h 増加 (100リングで7km/h増加, 以降X)"],
-        ["0 リング", "ヒット時に \"スピンダウン\" 効果適用"]
+        ["0 リング", "ヒット時に \"スピンダウン\" 効果適用"],
+        ["リング獲得時", "リング1個ごとに+1km/h (0.3秒)"]
       ],
       "kr": [
         ["~99개까지", "링 당 0.07km/h ~ 씩 속도 증가 (99개 모을 시, 7km/h 증가)"],
         ["100개 이상", "+14km/h 속도 증가 (100링 도달 시 +7km/h 증가, 이후 X)"],
-        ["0개", "피격 시, \"스핀 다운\" 효과 적용"]
+        ["0개", "피격 시, \"스핀 다운\" 효과 적용"],
+        ["링 획득 순간", "링 1개마다 +1km/h (0.3초)"]
       ]
     },
     "notes": {
@@ -86,19 +147,19 @@
         "Indicates the amount of speed increase gained upon acquiring rings.",
         "This effect is applied together with Slipstream and Ring Dash. However, effects from Boosts, Dash Panels, and similar sources are applied separately.",
         "\"Spin Down\" refers to the phenomenon where your speed is drastically reduced while spinning upon taking damage. It primarily occurs when getting hit with 0 rings, or when struck by \"King Boom Boo\"'s attack.",
-        "Since this is based on 'Sonic Speed,' the speed increase effect may vary in other speed modes."
+        "Based on Sonic Speed. Higher speed modes have smaller speed increases and lower caps."
       ],
       "jp": [
         "リングを獲得した際に増加する、速度の増加量を意味します。",
         "「スリップストリーム」, 「リングダッシュ」と共に適用される効果です。ただし、ブーストやダッシュパネルなどは別途適用されます。",
         "「スピンダウン」とは、被弾時にスピンしながら速度が大幅に減速する現象です。主にリング0個での被弾、または「キングブーブー」の攻撃を受けた際に発生します。",
-        "「ソニックスピード」を基準としているため、他の速度モードでは速度増加効果が異なる場合があります。"
+        "「ソニックスピード」基準です。速度モードが高いほど、速度増加量と上限は小さくなります。"
       ],
       "kr": [
         "링을 얻을 시, 증가하는 속도 증가량을 의미합니다.",
         "슬립스트림, 링 대시 와 함께 적용되는 효과입니다. 단, 부스트, 대시 패널 등은 별개로 적용됩니다.",
         "\"스핀 다운\" 이란, 피격 시 스핀하면서 속도가 크게 감속하는 현상입니다. 주로 링 0개에서 피격 혹은 \"킹 부부\"의 공격을 맞을 시 발생합니다.",
-        "소닉 스피드 기준이므로 다른 속도 모드에서는 속도 증가 효과가 다를 수 있습니다."
+        "소닉 스피드 기준입니다. 속도 모드가 높을수록 속도 증가량과 상한이 작아집니다."
       ]
     }
   },
@@ -115,75 +176,85 @@
     },
     "rows": {
       "en": [
-        ["Speed type", "+38km/h ~ +40km/h"],
-        ["Acceleration type", "+38km/h ~ +40km/h"],
-        ["Handling type", "+38km/h ~ +40km/h"],
-        ["Power type", "+48km/h ~ +50km/h"],
-        ["Boost type", "+38km/h ~ +40km/h"]
+        ["Speed type", "+38km/h"],
+        ["Acceleration type", "+38km/h"],
+        ["Handling type", "+38km/h"],
+        ["Power type", "+48km/h"],
+        ["Boost type", "+38km/h"]
       ],
       "jp": [
-        ["スピードタイプ", "+38km/h ~ +40km/h"],
-        ["アクセルタイプ", "+38km/h ~ +40km/h"],
-        ["ハンドリングタイプ", "+38km/h ~ +40km/h"],
-        ["パワータイプ", "+48km/h ~ +50km/h"],
-        ["ダッシュタイプ", "+38km/h ~ +40km/h"]
+        ["スピードタイプ", "+38km/h"],
+        ["アクセルタイプ", "+38km/h"],
+        ["ハンドリングタイプ", "+38km/h"],
+        ["パワータイプ", "+48km/h"],
+        ["ダッシュタイプ", "+38km/h"]
       ],
       "kr": [
-        ["스피드", "+38km/h ~ +40km/h"],
-        ["액셀", "+38km/h ~ +40km/h"],
-        ["핸들링", "+38km/h ~ +40km/h"],
-        ["파워", "+48km/h ~ +50km/h"],
-        ["대시", "+38km/h ~ +40km/h"]
+        ["스피드", "+38km/h"],
+        ["액셀", "+38km/h"],
+        ["핸들링", "+38km/h"],
+        ["파워", "+48km/h"],
+        ["대시", "+38km/h"]
       ]
     },
     "notes": {
       "en": [
         "This indicates the maximum additional speed gained from the combined effects of the speed increase from rings + Slipstream + Ring Dash extra speed. (Boost speed is added separately.)",
+        "The Speed stat and drift speed correction are Base Speed, so they are not affected by this cap and are added separately.",
         "Since v1.2.0, a stealth patch has increased the speed cap to +20.",
-        "Based on Sonic Speed, the additional speed effect may differ in other speed modes.",
-        "The values are based on self-measured values."
+        "Based on Sonic Speed. Higher speed modes have smaller speed increases and lower caps.",
+        "Based on the Speed Document by Yoshister."
       ],
       "jp": [
         "リングによる速度増加 ＋ スリップストリーム ＋ リングダッシュの追加速度増加効果を合わせた、最大の追加速度量を意味します。（ブーストは別途増加）",
+        "スピードのパラメータとドリフト中の速度補正は「基本速度」のため、この上限の影響を受けず、別途加算されます。",
         "v1.2.0以降、サイレント修正により速度上限が+20に増加しました。",
-        "「ソニックスピード」を基準としているため、他の速度モードでは速度増加効果が異なる場合があります。",
-        "直接測定した値を基準としています。"
+        "「ソニックスピード」基準です。速度モードが高いほど、速度増加量と上限は小さくなります。",
+        "Speed Document by Yoshister を基準としています。"
       ],
       "kr": [
         "링으로 인한 속도 증가 + 슬립스트림 + 링 대시 추가 속도 증가 효과의 최대 추가 속도량을 의미합니다. (부스트는 별도로 증가)",
+        "스피드 스탯과 드리프트 중 속도 보정은 '기본 속도'이므로, 이 상한의 영향을 받지 않고 별도로 더해집니다.",
         "v1.2.0 이후, 잠수함 패치로 인해 속도 상한이 +20 증가했습니다.",
-        "소닉 스피드 기준이므로 다른 속도 모드에서는 속도 증가 효과가 다를 수 있습니다.",
-        "직접 측정 했을 때 기준입니다."
+        "소닉 스피드 기준입니다. 속도 모드가 높을수록 속도 증가량과 상한이 작아집니다.",
+        "스피드 문서 (Speed Document by Yoshister) 기준입니다."
       ]
     }
   },
   "driftSpeedCorrection": {
-    "title": {
+    "sectionTitle": {
       "en": "Speed correction during drift",
       "jp": "ドリフト中の速度補正",
       "kr": "드리프트 중 속도 보정"
+    }
+  },
+  "driftSpeedCorrectionSonic": {
+    "title": {
+      "en": "Sonic Speed",
+      "jp": "ソニックスピード",
+      "kr": "소닉 스피드"
     },
     "columns": {
-      "en": ["Machine type", "Speed effect (normal)", "Speed effect (boost)"],
-      "jp": ["マシンタイプ", "速度効果（通常）", "速度効果（ブースト）"],
-      "kr": ["머신 타입", "속도 증가 효과 (노멀)", "속도 증가 효과 (부스트)"]
+      "en": ["Machine type", "Speed effect (normal)", "Speed effect (during boost)"],
+      "jp": ["マシンタイプ", "速度効果（通常）", "速度効果（ブースト中）"],
+      "kr": ["머신 타입", "속도 증가 효과 (노멀)", "속도 증가 효과 (부스트 중)"]
     },
     "rows": {
       "en": [
         ["Handling", "+2km/h", "+4km/h"],
-        ["Acceleration, Boost", "+1km/h", "+2km/h"],
+        ["Acceleration, Boost", "+0.5km/h", "+2km/h"],
         ["Speed", "0", "+2km/h"],
         ["Power", "-4km/h", "-2km/h"]
       ],
       "jp": [
         ["ハンドリング", "+2km/h", "+4km/h"],
-        ["アクセル・ダッシュ", "+1km/h", "+2km/h"],
+        ["アクセル・ダッシュ", "+0.5km/h", "+2km/h"],
         ["スピード", "0", "+2km/h"],
         ["パワー", "-4km/h", "-2km/h"]
       ],
       "kr": [
         ["핸들링", "+2km/h", "+4km/h"],
-        ["액셀, 대시", "+1km/h", "+2km/h"],
+        ["액셀, 대시", "+0.5km/h", "+2km/h"],
         ["스피드", "0", "+2km/h"],
         ["파워", "-4km/h", "-2km/h"]
       ]
@@ -191,15 +262,73 @@
     "notes": {
       "en": [
         "Only Power type is slowed during drift.",
-        "Values apply to ground (car) form only; not applied in air/water modes."
+        "Values apply to ground (car) form only; not applied in air/water modes.",
+        "Drift speed correction is Base Speed, so it is not affected by the Additional Speed cap or the boost cap."
       ],
       "jp": [
         "ドリフト中はパワーマシンのみ減速が発生します。",
-        "数値は地上型（車型）のみに適用され、空中・水上モードには適用されません。"
+        "数値は地上型（車型）のみに適用され、空中・水上モードには適用されません。",
+        "ドリフト中の速度補正は「基本速度」のため、追加速度の上限やブーストの上限の影響を受けません。"
       ],
       "kr": [
         "드리프트 중에 파워 머신만 드리프트 중 감속이 발생합니다.",
-        "위 수치는 지상형(자동차형)에만 적용되며, 공중/수상 모드에는 적용되지 않습니다."
+        "위 수치는 지상형(자동차형)에만 적용되며, 공중/수상 모드에는 적용되지 않습니다.",
+        "드리프트 중 속도 보정은 '기본 속도'이므로, 추가 속도 상한과 부스트 상한의 영향을 받지 않습니다."
+      ]
+    }
+  },
+  "driftSpeedCorrectionSuperSonic": {
+    "title": {
+      "en": "Super Sonic Speed",
+      "jp": "スーパーソニックスピード",
+      "kr": "슈퍼 소닉 스피드"
+    },
+    "columns": {
+      "en": ["Machine type", "Speed effect (normal)", "Speed effect (during boost)"],
+      "jp": ["マシンタイプ", "速度効果（通常）", "速度効果（ブースト中）"],
+      "kr": ["머신 타입", "속도 증가 효과 (노멀)", "속도 증가 효과 (부스트 중)"]
+    },
+    "rows": {
+      "en": [
+        ["Handling", "+2km/h", "0"],
+        ["Acceleration", "-4km/h", "-2km/h"],
+        ["Boost", "-2km/h?", "0?"],
+        ["Speed", "-4km/h", "-2km/h"],
+        ["Power", "-4km/h", "-3km/h"]
+      ],
+      "jp": [
+        ["ハンドリング", "+2km/h", "0"],
+        ["アクセル", "-4km/h", "-2km/h"],
+        ["ダッシュ", "-2km/h?", "0?"],
+        ["スピード", "-4km/h", "-2km/h"],
+        ["パワー", "-4km/h", "-3km/h"]
+      ],
+      "kr": [
+        ["핸들링", "+2km/h", "0"],
+        ["액셀", "-4km/h", "-2km/h"],
+        ["대시", "-2km/h?", "0?"],
+        ["스피드", "-4km/h", "-2km/h"],
+        ["파워", "-4km/h", "-3km/h"]
+      ]
+    },
+    "notes": {
+      "en": [
+        "All types except Handling are slowed during drift.",
+        "Values apply to ground (car) form only; not applied in air/water modes.",
+        "Values marked with ? (Boost type) have not been verified yet.",
+        "In Super Sonic Speed, speed tends to drop further the longer you drift, so Handling machines have the advantage."
+      ],
+      "jp": [
+        "ドリフト中はハンドリングマシン以外のすべてのマシンで減速が発生します。",
+        "数値は地上型（車型）のみに適用され、空中・水上モードには適用されません。",
+        "?が付いた数値（ダッシュタイプ）はまだ確認されていない値です。",
+        "スーパーソニックスピードでは、ドリフトを長く続けるほど速度がさらに落ちる傾向があるため、ハンドリングマシンが有利です。"
+      ],
+      "kr": [
+        "드리프트 중에 핸들링 머신을 제외한 모든 머신에서 드리프트 중 감속이 발생합니다.",
+        "위 수치는 지상형(자동차형)에만 적용되며, 공중/수상 모드에는 적용되지 않습니다.",
+        "?가 붙은 수치(대시 타입)는 아직 확인되지 않은 값입니다.",
+        "슈퍼 소닉 스피드에서는 드리프트를 오래 할수록 속도가 더 떨어지는 경향이 있어, 핸들링 머신이 유리합니다."
       ]
     }
   },
@@ -223,40 +352,43 @@
     },
     "rows": {
       "en": [
-        ["Level 1", "+20km/h (1.5 sec)"],
-        ["Level 2", "+25km/h (2.5 sec)"],
+        ["Level 1", "+20km/h (0.12 sec)"],
+        ["Level 2", "+25km/h (1.75 sec)"],
         ["Level 3", "+25km/h (3.5 sec)"],
-        ["Level 4", "+25km/h (5 sec)"]
+        ["Level 4", "+25km/h (4 sec)"]
       ],
       "jp": [
-        ["Lv1", "+20km/h (1.5 秒)"],
-        ["Lv2", "+25km/h (2.5 秒)"],
+        ["Lv1", "+20km/h (0.12 秒)"],
+        ["Lv2", "+25km/h (1.75 秒)"],
         ["Lv3", "+25km/h (3.5 秒)"],
-        ["Lv4", "+25km/h (5 秒)"]
+        ["Lv4", "+25km/h (4 秒)"]
       ],
       "kr": [
-        ["레벨 1", "+20km/h (1.5초)"],
-        ["레벨 2", "+25km/h (2.5초)"],
+        ["레벨 1", "+20km/h (0.12초)"],
+        ["레벨 2", "+25km/h (1.75초)"],
         ["레벨 3", "+25km/h (3.5초)"],
-        ["레벨 4", "+25km/h (5초)"]
+        ["레벨 4", "+25km/h (4초)"]
       ]
     },
     "notes": {
       "en": [
         "Indicates the speed increase and duration of the boost from drift charging.",
         "The duration of the boost varies depending on the level.",
+        "Duration is the time spent at the maximum speed gained; the boost then decays at a set rate. (Based on the Speed Document by Yoshister)",
         "The Level 4 boost can be used by equipping the 'Ultimate Charge' gadget or during Drift Charge Frenzy Time (Crossworlds Frenzy Time).",
         "In Boat Mode, it changes to a 'Charge Jump Boost,' and the jump height increases depending on the level."
       ],
       "jp": [
         "ドリフトチャージによるブーストの速度増加と持続時間を表します。",
         "ブーストの持続時間はレベルによって異なります。",
+        "持続時間は最高速度を維持する時間で、その後は一定の速度で徐々に下がります。（Speed Document by Yoshister 基準）",
         "レベル4ブーストは、ガジェット「アルティメットチャージ」を装備するか、ドリフトチャージフィーバータイム(クロスワールドフィーバータイム)中に使用可能です。",
         "水上モードでは「チャージジャンプブースト」に変化し、レベルに応じてジャンプする高さが増加します。"
       ],
       "kr": [
         "드리프트 차지를 통한 부스트의 속도 증가와 지속시간을 나타냅니다.",
         "부스트의 지속 시간은 레벨에 따라 다릅니다.",
+        "지속 시간은 최고 속도를 유지하는 시간이며, 이후 일정한 속도로 서서히 줄어듭니다. (스피드 문서 · Speed Document by Yoshister 기준)",
         "레벨 4 부스트는 가젯「얼티밋 차지」를 장착하거나, 드리프트 차지 피버 타임(크로스월드 피버 타임)에서 사용 가능합니다.",
         "수상 모드에서는 \"차지 점프 부스트\"로 바뀌며, 레벨에 따라 점프하는 높이가 증가합니다."
       ]
@@ -275,33 +407,42 @@
     },
     "rows": {
       "en": [
-        ["Level 1", "+20km/h (2.4 sec)"],
-        ["Level 2", "+25km/h (3.0 sec)"],
-        ["Level 3", "+25km/h (3.3 sec)"]
+        ["Level 1", "+20km/h (0.12 sec)"],
+        ["Level 2", "+25km/h (0.5 sec)"],
+        ["Level 3", "+25km/h (2 sec)"],
+        ["Level 4", "+25km/h (4 sec)"]
       ],
       "jp": [
-        ["Lv1", "+20km/h (2.4 秒)"],
-        ["Lv2", "+25km/h (3.0 秒)"],
-        ["Lv3", "+25km/h (3.3 秒)"]
+        ["Lv1", "+20km/h (0.12 秒)"],
+        ["Lv2", "+25km/h (0.5 秒)"],
+        ["Lv3", "+25km/h (2 秒)"],
+        ["Lv4", "+25km/h (4 秒)"]
       ],
       "kr": [
-        ["레벨 1", "+20km/h (2.4초)"],
-        ["레벨 2", "+25km/h (3.0초)"],
-        ["레벨 3", "+25km/h (3.3초)"]
+        ["레벨 1", "+20km/h (0.12초)"],
+        ["레벨 2", "+25km/h (0.5초)"],
+        ["레벨 3", "+25km/h (2초)"],
+        ["레벨 4", "+25km/h (4초)"]
       ]
     },
     "notes": {
       "en": [
         "Indicates the speed increase and duration of the Air Trick Boost.",
-        "The Air Trick Boost has a total of 3 stages, and the speed increase and duration increase depending on the level."
+        "The Air Trick Boost has a total of 4 stages, and the speed increase and duration increase depending on the level.",
+        "The Level 4 Air Trick Boost can be used by equipping the 'Ultimate Air Trick' gadget.",
+        "Duration is the time spent at the maximum speed gained; the boost then decays at a set rate. (Based on the Speed Document by Yoshister)"
       ],
       "jp": [
         "エアトリックブーストの速度増加と持続時間を表します。",
-        "エアトリックブーストは全3段階があり、レベルに応じて速度増加と持続時間が増加します。"
+        "エアトリックブーストは全4段階があり、レベルに応じて速度増加と持続時間が増加します。",
+        "レベル4のエアトリックブーストは、ガジェット「アルティメットエアトリック」を装着すると使用可能です。",
+        "持続時間は最高速度を維持する時間で、その後は一定の速度で徐々に下がります。（Speed Document by Yoshister 基準）"
       ],
       "kr": [
         "에어 트릭 부스트의 속도 증가와 지속시간을 나타냅니다.",
-        "에어 트릭 부스트는 총 3단계로 존재하며, 레벨에 따라 속도 증가와 지속시간이 증가합니다."
+        "에어 트릭 부스트는 총 4단계로 존재하며, 레벨에 따라 속도 증가와 지속시간이 증가합니다.",
+        "레벨 4 에어 트릭 부스트는 가젯「얼티밋 에어 트릭」을 장착하면 사용 가능합니다.",
+        "지속 시간은 최고 속도를 유지하는 시간이며, 이후 일정한 속도로 서서히 줄어듭니다. (스피드 문서 · Speed Document by Yoshister 기준)"
       ]
     }
   },
@@ -318,60 +459,115 @@
     },
     "rows": {
       "en": [
-        ["Shield", "+10km/h (until disappears)", "X"],
-        ["Boost", "+25km/h (4.4 sec)", "O"],
-        ["King Boost", "+30km/h (6.2 sec)", "O"],
-        ["Monster Truck", "+40km/h (until disappears)", "O"],
+        ["Shield", "+10km/h (5 sec)", "X"],
+        ["Boost", "+25km/h (2.67 sec)", "O"],
+        ["King Boost", "+30km/h (4 sec)", "O"],
+        ["Monster Truck", "+30km/h (until disappears)", "O"],
         ["Drill", "Set 360km/h, after 240km/h", "-"],
         ["Laser", "Set 500km/h, after 240km/h", "-"],
-        ["Dash Panels (Pink)", "+25km/h (2.8 sec)", "Δ (slightly ignored run-off)"],
-        ["Special Dash Panels (Blue)", "+25km/h (2.8 sec)", "O"]
+        ["Dash Panel", "+25km/h (1 sec)", "Δ (slightly ignored run-off)"],
+        ["Special Dash Panel", "+25km/h (1.67 sec)", "O"]
       ],
       "jp": [
-        ["シールド", "+10km/h (消えるまで)", "X"],
-        ["ブースト", "+25km/h (4.4 秒)", "O"],
-        ["キングブースト", "+30 (6.2 秒)", "O"],
-        ["モンスタートラック", "+40km/h (消えるまで)", "O"],
+        ["シールド", "+10km/h (5 秒)", "X"],
+        ["ブースト", "+25km/h (2.67 秒)", "O"],
+        ["キングブースト", "+30km/h (4 秒)", "O"],
+        ["モンスタートラック", "+30km/h (消えるまで)", "O"],
         ["ドリル", "360km/hに設定, その後240km/h", "-"],
         ["レーザー", "500km/hに設定, その後240km/h", "-"],
-        ["ダッシュパネル (ピンク)", "+25 (2.8 秒)", "Δ (軽微なランオフ無視)"],
-        ["スペシャルダッシュパネル (ブル)", "+25km/h (2.8 秒)", "O"]
+        ["ダッシュパネル", "+25km/h (1 秒)", "Δ (軽微なランオフ無視)"],
+        ["スペシャルダッシュパネル", "+25km/h (1.67 秒)", "O"]
       ],
       "kr": [
-        ["방패", "+10km/h (사라질 때까지)", "X"],
-        ["부스트", "+25km/h (4.4초)", "O"],
-        ["킹 부스트", "+30km/h (6.2초)", "O"],
-        ["몬스터 트럭", "+40km/h (사라질 때까지)", "O"],
+        ["방패", "+10km/h (5초)", "X"],
+        ["부스트", "+25km/h (2.67초)", "O"],
+        ["킹 부스트", "+30km/h (4초)", "O"],
+        ["몬스터 트럭", "+30km/h (사라질 때까지)", "O"],
         ["드릴", "360km/h에 설정, 그 후 240km/h", "-"],
         ["레이저", "500km/h에 설정, 그 후 240km/h", "-"],
-        ["대시 패널 (핑크)", "+25km/h (2.8초)", "Δ (아주 잠깐 존재)"],
-        ["스페셜 대시 패널 (블루)", "+25km/h (2.8초)", "O"]
+        ["대시 패널", "+25km/h (1초)", "Δ (아주 잠깐 존재)"],
+        ["스페셜 대시 패널", "+25km/h (1.67초)", "O"]
       ]
     },
     "notes": {
       "en": [
         "Indicates the speed increases, durations, and other effects of items.",
-        "The 'Monster Truck' increases speed while ignoring game balance.",
+        "Duration is the time spent at the maximum speed gained; the boost then decays at a set rate. (Based on the Speed Document by Yoshister)",
+        "The 'Monster Truck' gives the same +30km/h boost as the 'King Boost' and lasts until the item disappears.",
         "'Drill' and 'Laser' run at a constant speed, then adjust their speed to 240 before the item effect ends.",
-        "Please note that the 'Shield' also provides a slight speed boost.",
-        "Dash Panels feature both 'Dash Panels (Pink)' and 'Special Dash Panels (Blue),' and the 'Special Dash Panels' only appears on LAP 3.",
-        "The 'Dash Panels (Pink)' has a very slight run-off ignore effect, which can be seen in the 'Pumpkin Mansion' final lap."
+        "The 'Drill' changes to 240km/h once you reach 1st-4th place or pass 2 racers.",
+        "The 'Shield' +10km/h is Additional Speed, not a boost, so it counts toward the Additional Speed cap (+38km/h, Power +48km/h).",
+        "There are two kinds: 'Dash Panel' and 'Special Dash Panel', and the 'Special Dash Panel' only appears on LAP 3.",
+        "The 'Dash Panel' has a very slight run-off ignore effect, which can be seen in the 'Pumpkin Mansion' final lap."
       ],
       "jp": [
         "アイテムによる速度増加と持続時間などを表します。",
-        "「モンスタートラック」はゲームバランスを無視して速度を増加させます。",
+        "持続時間は最高速度を維持する時間で、その後は一定の速度で徐々に下がります。（Speed Document by Yoshister 基準）",
+        "「モンスタートラック」は「キングブースト」と同じ+30km/hのブーストで、アイテムが消えるまで持続します。",
         "「ドリル」や「レーザー」は一定の速度で走行した後、速度を240に調整してからアイテムの使用が終了します。",
-        "「シールド」にも微かな速度ブースト効果があるため、参考にしてください。",
-        "ダッシュパネルは「ピンクパネル」と「ブルパネル」が存在し、「ブルパネル」はLAP 3でのみ登場します。",
-        "「ダッシュパネル(ピンク)」は非常に軽微なランオフ無視効果があり、 \"パンプキンマンション\" のファイナルラップで確認できます。"
+        "「ドリル」は1〜4位に入るか、レーサーを2人追い抜くと240km/hに変わります。",
+        "「シールド」の+10km/hはブーストではなく「追加速度」のため、追加速度の上限（+38km/h、パワー+48km/h）に含まれます。",
+        "ダッシュパネルは「ダッシュパネル」と「スペシャルダッシュパネル」が存在し、「スペシャルダッシュパネル」はLAP 3でのみ登場します。",
+        "「ダッシュパネル」は非常に軽微なランオフ無視効果があり、 \"パンプキンマンション\" のファイナルラップで確認できます。"
       ],
       "kr": [
         "아이템을 통한 속도 증가와 지속시간 등을 나타냅니다.",
-        "\"몬스터 트럭\"은 게임 디자인을 무시하고 속도 증가합니다.",
+        "지속 시간은 최고 속도를 유지하는 시간이며, 이후 일정한 속도로 서서히 줄어듭니다. (스피드 문서 · Speed Document by Yoshister 기준)",
+        "\"몬스터 트럭\"은 \"킹 부스트\"와 같은 +30km/h 부스트이며, 아이템이 사라질 때까지 유지됩니다.",
         "\"드릴\", \"레이저\"는 일정한 속도로 달린 후, 240으로 속도를 조절하다가 아이템 사용이 종료됩니다.",
-        "\"방패\" 또한 미약한 속도 부스트 효과가 있으니 참고하기 바랍니다.",
-        "대시 패널은 \"대시 패널(핑크색)\"과 \"스페셜 대시 패널(블루색)\"이 존재하며, \"스페셜 대시 패널\"은 LAP 3에서만 등장합니다.",
-        "\"대시 패널(핑크색)\"은 아주 잠깐 런오프 무시 효과가 있습니다. 이는 '펌킨 맨션' 파이널 랩에서 확인 가능합니다."
+        "\"드릴\"은 1~4위에 들어서거나 레이서 2명을 추월하면 240km/h로 바뀝니다.",
+        "\"방패\"의 +10km/h는 부스트가 아닌 '추가 속도'이므로, 추가 속도 상한(+38km/h, 파워 +48km/h)에 포함됩니다.",
+        "대시 패널은 \"대시 패널\"과 \"스페셜 대시 패널\"이 존재하며, \"스페셜 대시 패널\"은 LAP 3에서만 등장합니다.",
+        "\"대시 패널\"은 아주 잠깐 런오프 무시 효과가 있습니다. 이는 '펌킨 맨션' 파이널 랩에서 확인 가능합니다."
+      ]
+    }
+  },
+  "speedLoss": {
+    "title": {
+      "en": "Speed Loss Table",
+      "jp": "速度減少の表",
+      "kr": "속도 감소 표"
+    },
+    "columns": {
+      "en": ["Source", "Speed lost", "Notes"],
+      "jp": ["要因", "速度減少", "備考"],
+      "kr": ["원인", "속도 감소", "비고"]
+    },
+    "rows": {
+      "en": [
+        ["Damage", "-120km/h", "-168km/h in Super Sonic Speed"],
+        ["Obstacle Hit", "-120km/h", "-168km/h in Super Sonic Speed"],
+        ["Friction Drift", "-10km/h", "Builds up in increments of 2km/h"],
+        ["Spin Dash Kit", "-25km/h", "Builds up in increments of 10km/h"]
+      ],
+      "jp": [
+        ["被弾", "-120km/h", "スーパーソニックスピードでは -168km/h"],
+        ["障害物による被弾", "-120km/h", "スーパーソニックスピードでは -168km/h"],
+        ["フリクションドリフト", "-10km/h", "2km/hずつ段階的に減少"],
+        ["スピンダッシュキット", "-25km/h", "10km/hずつ段階的に減少"]
+      ],
+      "kr": [
+        ["피격", "-120km/h", "슈퍼 소닉 스피드에서는 -168km/h"],
+        ["장애물 피격", "-120km/h", "슈퍼 소닉 스피드에서는 -168km/h"],
+        ["프릭션 드리프트", "-10km/h", "2km/h씩 단계적으로 감소"],
+        ["스핀 대시 키트", "-25km/h", "10km/h씩 단계적으로 감소"]
+      ]
+    },
+    "notes": {
+      "en": [
+        "Indicates the amount of speed lost from each source.",
+        "Based on Sonic Speed. Damage and Obstacle Hit lose more speed in Super Sonic Speed.",
+        "Based on the Speed Document by Yoshister."
+      ],
+      "jp": [
+        "各要因によって減少する速度量を表します。",
+        "「ソニックスピード」を基準としています。被弾と障害物による被弾は、スーパーソニックスピードでは減少量が大きくなります。",
+        "Speed Document by Yoshister を基準としています。"
+      ],
+      "kr": [
+        "각 원인으로 인해 감소하는 속도량을 나타냅니다.",
+        "소닉 스피드 기준이며, 피격과 장애물 피격은 슈퍼 소닉 스피드에서 감소량이 더 커집니다.",
+        "스피드 문서 (Speed Document by Yoshister) 기준입니다."
       ]
     }
   }

@@ -307,9 +307,9 @@
                 "kr": "링 엔진"
             },
             "description": {
-                "en": "When holding 1 or more Rings, '+3km/h to maximum speed' and '+12 to all stats'. Instead of losing 1 Ring per second.",
-                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 +3km/h 上昇' + '全体のマシンスタット +12 上昇'。",
-                "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 3km/h 증가' + '머신의 스탯 +12 상승'합니다."
+                "en": "When holding 1 or more Rings, '+3km/h to maximum speed' and '+12 to all stats'. Instead of losing 1 Ring per second. Equipping it together with Hyper Ring Engine (Double Ring Engine) increases top speed by +9km/h.",
+                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 +3km/h 上昇' + '全体のマシンスタット +12 上昇'。ハイパーリングエンジンと同時に装着すると（ダブルリングエンジン）、最高速度が+9km/h上昇します。",
+                "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 3km/h 증가' + '머신의 스탯 +12 상승'합니다. 하이퍼 링 엔진과 함께 장착하면(더블 링 엔진) 최고속도가 +9km/h 증가합니다."
             },
             "gadget_type": "Ring Ability",
             "slots": 1,
@@ -414,9 +414,9 @@
                 "kr": "링 획득 대시 미니"
             },
             "description": {
-                "en": "Get 7~8km/h speed boost for 0.12s when obtaining Rings. and 300% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
-                "jp": "リング獲得時、0.12秒間 約7~8km/hほど加速する。リング獲得時に300%のアクセルエフェクトが適用される。 (他のガジェットと重複可能)",
-                "kr": "링 획득 시 0.12초간 약 7~8km/h 정도 가속합니다. 링을 얻을 순간 300% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
+                "en": "Get 7km/h speed boost for 0.12s when obtaining Rings. and 300% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
+                "jp": "リング獲得時、0.12秒間 7km/h加速する。リング獲得時に300%のアクセルエフェクトが適用される。 (他のガジェットと重複可能)",
+                "kr": "링 획득 시 0.12초간 7km/h 가속합니다. 링을 얻을 순간 300% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
             },
             "gadget_type": "Ring Ability",
             "slots": 1,
@@ -433,9 +433,9 @@
                 ]
             },
             "effect": {
-                "en": "Get 7~8km/h speed boost for 0.12s when obtaining Rings.",
-                "jp": "リング獲得時、0.12秒間 約7~8km/h加速",
-                "kr": "링 획득 시 0.12초간 약 7~8km/h 가속"
+                "en": "Get 7km/h speed boost for 0.12s when obtaining Rings.",
+                "jp": "リング獲得時、0.12秒間 7km/h加速",
+                "kr": "링 획득 시 0.12초간 7km/h 가속"
             },
             "stat_table": null
         },
@@ -581,9 +581,9 @@
                 "kr": "저스트 착지"
             },
             "description": {
-                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants an additional +10km/h speed and a 7x acceleration effect for 0.5 seconds.",
-                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、0.5秒間+10km/hの追加加速と7倍の加速効果を付与します。",
-                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 0.5초동안 +10km/h 가속 효과와 7배 가속 효과를 부여합니다."
+                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants a momentary +40km/h boost and +10km/h Additional Speed for 0.5 seconds.",
+                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、瞬間的な+40km/hのブースト加速と0.5秒間+10km/hの追加速度を付与します。",
+                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 순간 +40km/h 부스트 가속과 0.5초 동안 +10km/h 추가 속도를 부여합니다."
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
@@ -600,9 +600,9 @@
                 ]
             },
             "effect": {
-                "en": "Pressing accelerate again the moment you land: +10km/h speed + 7x acceleration effect(?) for 0.5 seconds",
-                "jp": "着地した瞬間、アクセルを再度押すと0.5秒間+10km/h加速 ＋ 7倍の加速効果(?)",
-                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 0.5초동안 +10km/h 가속 + 7배 가속 효과(?)"
+                "en": "Pressing accelerate again the moment you land: momentary +40km/h boost + 0.5s of +10km/h Additional Speed",
+                "jp": "着地した瞬間、アクセルを再度押すと瞬間+40km/hのブースト加速 ＋ 0.5秒間+10km/hの追加速度",
+                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 순간 +40km/h 부스트 가속 + 0.5초 동안 +10km/h 추가 속도"
             },
             "stat_table": null
         },

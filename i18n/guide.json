@@ -17,9 +17,9 @@
         "kr": "테크닉"
       },
       "speed": {
-        "en": "Additional Speed",
-        "jp": "追加速度",
-        "kr": "추가 속도"
+        "en": "Speed",
+        "jp": "速度",
+        "kr": "속도"
       },
       "shortcut": {
         "en": "Shortcut",
@@ -39,9 +39,9 @@
         "kr": "테크닉"
       },
       "speed": {
-        "en": "Add. Speed",
-        "jp": "追加速度",
-        "kr": "추가속도"
+        "en": "Speed",
+        "jp": "速度",
+        "kr": "속도"
       }
     },
     "comingSoon": {
@@ -79,6 +79,11 @@
         "en": "Open Google Sheets",
         "jp": "Googleスプレッドシートを開く",
         "kr": "구글 스프레드시트 열기"
+      },
+      "noteLinkDocs": {
+        "en": "Open Google Docs",
+        "jp": "Googleドキュメントを開く",
+        "kr": "구글 문서 열기"
       },
       "noteLinkYoutube": {
         "en": "Watch on YouTube",

@@ -486,9 +486,9 @@
                 "kr": "로우 링 스피드 UP"
             },
             "description": {
-                "en": "Increase the Machine's top speed when holding fewer Rings. ( +15 when 0 rings, +7.5 when 1 ring, 0 when 100 rings )",
-                "jp": "リングを少なくするほど、マシンの最高速度が増加します。( 0リング 時は +15 , 1リング 時は +7.5, 100リング 時は 0 )",
-                "kr": "링을 적게 보유할수록 머신의 최고 속도가 증가합니다. (0링 일 때는 +15 , 1링 일 때는 +7.5, 100링 일 때는 0)"
+                "en": "Increase the Machine's top speed when holding fewer Rings. ( +14 when 0 rings, +7 when 1 ring, 0 when 100 rings )",
+                "jp": "リングを少なくするほど、マシンの最高速度が増加します。( 0リング 時は +14 , 1リング 時は +7, 100リング 時は 0 )",
+                "kr": "링을 적게 보유할수록 머신의 최고 속도가 증가합니다. (0링 일 때는 +14 , 1링 일 때는 +7, 100링 일 때는 0)"
             },
             "gadget_type": "Ring Ability",
             "slots": 3,
@@ -505,9 +505,9 @@
                 ]
             },
             "effect": {
-                "en": "Top speed increases with fewer Rings (+15km/h at 0 / +7.5km/h at 1 / 0 at 100)",
-                "jp": "リングが少ないほど最高速度が増加 (0リング時 +15km/h / 1リング時 +7.5km/h / 100リング時 0)",
-                "kr": "링이 적을수록 최고속도 증가 (0링 +15km/h / 1링 +7.5km/h / 100링 0)"
+                "en": "Top speed increases with fewer Rings (+14km/h at 0 / +7km/h at 1 / 0 at 100)",
+                "jp": "リングが少ないほど最高速度が増加 (0リング時 +14km/h / 1リング時 +7km/h / 100リング時 0)",
+                "kr": "링이 적을수록 최고속도 증가 (0링 +14km/h / 1링 +7km/h / 100링 0)"
             },
             "patch": {},
             "stat_table": null
@@ -520,9 +520,9 @@
                 "kr": "링 엔진"
             },
             "description": {
-                "en": "When holding 1 or more Rings, '+3km/h to maximum speed' and '+12 to all stats'. Instead of losing 1 Ring per second.",
-                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 +3km/h 上昇' + '全体のマシンスタット +12 上昇'。",
-                "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 3km/h 증가' + '머신의 스탯 +12 상승'합니다."
+                "en": "When holding 1 or more Rings, '+3km/h to maximum speed' and '+12 to all stats'. Instead of losing 1 Ring per second. Equipping it together with Hyper Ring Engine (Double Ring Engine) increases top speed by +9km/h.",
+                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 +3km/h 上昇' + '全体のマシンスタット +12 上昇'。ハイパーリングエンジンと同時に装着すると（ダブルリングエンジン）、最高速度が+9km/h上昇します。",
+                "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 3km/h 증가' + '머신의 스탯 +12 상승'합니다. 하이퍼 링 엔진과 함께 장착하면(더블 링 엔진) 최고속도가 +9km/h 증가합니다."
             },
             "gadget_type": "Ring Ability",
             "slots": 1,
@@ -568,9 +568,9 @@
                 "kr": "하이퍼 링 엔진"
             },
             "description": {
-                "en": "When holding 1 or more Rings, +4km/h to maximum speed + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second)",
-                "jp": "リングが1つ以上あるとき、'最高速度 +4km/h 上昇' + '全体のマシンスタットがリングの数だけ上昇'（最大スタット増加は100まで上昇し、1秒にリング1つを消費します）",
-                "kr": "링이 1개 이상 일 때, '최고속도 4km/h 증가' + '머신의 스탯이 링 개수만큼 상승' (최대 스탯 상승 100까지 상승, 1초에 링 1개씩 소비)"
+                "en": "When holding 1 or more Rings, +4km/h to maximum speed + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second). Equipping it together with Ring Engine (Double Ring Engine) increases top speed by +9km/h.",
+                "jp": "リングが1つ以上あるとき、'最高速度 +4km/h 上昇' + '全体のマシンスタットがリングの数だけ上昇'（最大スタット増加は100まで上昇し、1秒にリング1つを消費します）。リングエンジンと同時に装着すると（ダブルリングエンジン）、最高速度が+9km/h上昇します。",
+                "kr": "링이 1개 이상 일 때, '최고속도 4km/h 증가' + '머신의 스탯이 링 개수만큼 상승' (최대 스탯 상승 100까지 상승, 1초에 링 1개씩 소비). 링 엔진과 함께 장착하면(더블 링 엔진) 최고속도가 +9km/h 증가합니다."
             },
             "gadget_type": "Ring Ability",
             "slots": 2,
@@ -752,9 +752,9 @@
                 "kr": "링 획득 대시 미니"
             },
             "description": {
-                "en": "Get 7~8km/h speed boost for 0.12s when obtaining Rings. and 300% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
-                "jp": "リング獲得時、0.12秒間 約7~8km/hほど加速する。リング獲得時に300%のアクセルエフェクトが適用される。 (他のガジェットと重複可能)",
-                "kr": "링 획득 시 0.12초간 약 7~8km/h 정도 가속합니다. 링을 얻을 순간 300% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
+                "en": "Get 7km/h speed boost for 0.12s when obtaining Rings. and 300% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
+                "jp": "リング獲得時、0.12秒間 7km/h加速する。リング獲得時に300%のアクセルエフェクトが適用される。 (他のガジェットと重複可能)",
+                "kr": "링 획득 시 0.12초간 7km/h 가속합니다. 링을 얻을 순간 300% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
             },
             "gadget_type": "Ring Ability",
             "slots": 1,
@@ -771,9 +771,9 @@
                 ]
             },
             "effect": {
-                "en": "Get 7~8km/h speed boost for 0.12s when obtaining Rings.",
-                "jp": "リング獲得時、0.12秒間 約7~8km/h加速",
-                "kr": "링 획득 시 0.12초간 약 7~8km/h 가속"
+                "en": "Get 7km/h speed boost for 0.12s when obtaining Rings.",
+                "jp": "リング獲得時、0.12秒間 7km/h加速",
+                "kr": "링 획득 시 0.12초간 7km/h 가속"
             },
             "patch": {},
             "stat_table": null
@@ -786,9 +786,9 @@
                 "kr": "링 획득 대시"
             },
             "description": {
-                "en": "Get 14~16km/h speed boost for 0.12s when obtaining Rings. and 500% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
-                "jp": "リング獲得時、0.12秒間 約14~16km/hほど加速する。リング獲得時に500%のアクセルエフェクトが適用される。(他のガジェットと重複可能)",
-                "kr": "링 획득 시 0.12초간 약 14~16km/h 정도 가속합니다. 링을 얻는 순간 500% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
+                "en": "Get 15km/h speed boost for 0.12s when obtaining Rings. and 500% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
+                "jp": "リング獲得時、0.12秒間 15km/h加速する。リング獲得時に500%のアクセルエフェクトが適用される。(他のガジェットと重複可能)",
+                "kr": "링 획득 시 0.12초간 15km/h 가속합니다. 링을 얻는 순간 500% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
             },
             "gadget_type": "Ring Ability",
             "slots": 2,
@@ -805,9 +805,9 @@
                 ]
             },
             "effect": {
-                "en": "Get 14~16km/h speed boost for 0.12s when obtaining Rings.",
-                "jp": "リング獲得時、0.12秒間 約14~16km/h加速",
-                "kr": "링 획득 시 0.12초간 약 14~16km/h 정도 가속"
+                "en": "Get 15km/h speed boost for 0.12s when obtaining Rings.",
+                "jp": "リング獲得時、0.12秒間 15km/h加速",
+                "kr": "링 획득 시 0.12초간 15km/h 가속"
             },
             "patch": {},
             "stat_table": null
@@ -958,9 +958,9 @@
                 "kr": "얼티밋 에어 트릭"
             },
             "description": {
-                "en": "Successfully performing 3 or more air tricks grants invincibility for 2 seconds and activates a Lv4 Air Trick Boost upon landing. (5-second duration)",
-                "jp": "3回以上エアトリックを成功させると2秒間無敵状態になり、着地時にLv4エアトリックブーストが発動します。（持続時間5秒）",
-                "kr": "3번 이상 에어트릭을 성공하면 2초동안 무적 상태가 되며, Lv4 에어 트릭 부스트가 착지 시 발동됩니다. (5초 지속 시간)"
+                "en": "Successfully performing 3 or more air tricks grants invincibility for 2 seconds and activates a Lv4 Air Trick Boost upon landing. (Top speed held for 4 seconds)",
+                "jp": "3回以上エアトリックを成功させると2秒間無敵状態になり、着地時にLv4エアトリックブーストが発動します。（最高速度 4秒維持）",
+                "kr": "3번 이상 에어트릭을 성공하면 2초동안 무적 상태가 되며, Lv4 에어 트릭 부스트가 착지 시 발동됩니다. (최고 속도 4초 유지)"
             },
             "gadget_type": "Technique Upgrade",
             "slots": 2,
@@ -992,9 +992,9 @@
                 "kr": "저스트 착지"
             },
             "description": {
-                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants an additional +10km/h speed and a 7x acceleration effect for 0.5 seconds.",
-                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、0.5秒間+10km/hの追加加速と7倍の加速効果を付与します。",
-                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 0.5초동안 +10km/h 가속 효과와 7배 가속 효과를 부여합니다."
+                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants a momentary +40km/h boost and +10km/h Additional Speed for 0.5 seconds.",
+                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、瞬間的な+40km/hのブースト加速と0.5秒間+10km/hの追加速度を付与します。",
+                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 순간 +40km/h 부스트 가속과 0.5초 동안 +10km/h 추가 속도를 부여합니다."
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
@@ -1011,9 +1011,9 @@
                 ]
             },
             "effect": {
-                "en": "Pressing accelerate again the moment you land: +10km/h speed + 7x acceleration effect(?) for 0.5 seconds",
-                "jp": "着地した瞬間、アクセルを再度押すと0.5秒間+10km/h加速 ＋ 7倍の加速効果(?)",
-                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 0.5초동안 +10km/h 가속 + 7배 가속 효과(?)"
+                "en": "Pressing accelerate again the moment you land: momentary +40km/h boost + 0.5s of +10km/h Additional Speed",
+                "jp": "着地した瞬間、アクセルを再度押すと瞬間+40km/hのブースト加速 ＋ 0.5秒間+10km/hの追加速度",
+                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 순간 +40km/h 부스트 가속 + 0.5초 동안 +10km/h 추가 속도"
             },
             "patch": {},
             "stat_table": null
@@ -1280,7 +1280,7 @@
             "description": {
                 "en": "Adds a 4th level to Drift Charge. Become invincible when using a Charge Level 4 Boost. (1.5 seconds)",
                 "jp": "Lv4ドリフトを追加。Lv4ドリフトチャージを使用すると、約1.5秒間無敵になります。",
-                "kr": "4단계 드리프트가 추가됩니다. 4단계 차지 대시는 빠르고 지속 시간이 길어집니다. (약 5초), 발동 중 약 1.5초 동안 무적입니다."
+                "kr": "4단계 드리프트가 추가됩니다. 4단계 차지 대시는 빠르고 지속 시간이 길어집니다. (최고 속도 4초 유지), 발동 중 약 1.5초 동안 무적입니다."
             },
             "gadget_type": "Charge Upgrade",
             "slots": 2,
@@ -1318,9 +1318,9 @@
                 "kr": "저스트 차지 대시"
             },
             "description": {
-                "en": "Release the drift immediately after charging grants an additional +10km/h speed and a 7x acceleration effect(?) for 0.5 seconds, on top of the drift boost acceleration. (Based on Sonic Speed)",
-                "jp": "チャージ直後にドリフトを解除した際、ドリフトブースト加速に加えて0.5秒間+10km/hの追加加速＋7倍の加速効果(?)を付与します。（ソニックスピード基準）",
-                "kr": "차지 즉시 드리프트를 해제하였을 때, 드리프트 부스트 가속에 더해 0.5초 동안 +10km/h 추가 가속 + 7배 가속 효과(?)를 부여합니다. (소닉 스피드 기준)"
+                "en": "Releasing the drift immediately after charging grants a momentary +40km/h boost and +10km/h Additional Speed for 0.5 seconds, on top of the drift boost acceleration. (Based on Sonic Speed)",
+                "jp": "チャージ直後にドリフトを解除した際、ドリフトブースト加速に加えて、瞬間的な+40km/hのブースト加速と0.5秒間+10km/hの追加速度を付与します。（ソニックスピード基準）",
+                "kr": "차지 즉시 드리프트를 해제하였을 때, 드리프트 부스트 가속에 더해 순간 +40km/h 부스트 가속과 0.5초 동안 +10km/h 추가 속도를 부여합니다. (소닉 스피드 기준)"
             },
             "gadget_type": "Charge Upgrade",
             "slots": 2,
@@ -1337,9 +1337,9 @@
                 ]
             },
             "effect": {
-                "en": "+10km/h extra boosting and 7x acceleration effect(?) for 0.5 seconds upon immediate drift release after charging",
-                "jp": "チャージ直後のドリフト解除時、0.5秒間+10km/hの追加加速 + 7倍の加速効果(?)",
-                "kr": "차지 즉시 드리프트 해제 시, 0.5초 동안 +10km/h 추가 가속 + 7배 가속 효과(?)"
+                "en": "Momentary +40km/h boost + 0.5s of +10km/h Additional Speed upon immediate drift release after charging",
+                "jp": "チャージ直後のドリフト解除時、瞬間+40km/hのブースト加速 + 0.5秒間+10km/hの追加速度",
+                "kr": "차지 즉시 드리프트 해제 시, 순간 +40km/h 부스트 가속 + 0.5초 동안 +10km/h 추가 속도"
             },
             "patch": {
                 "v1.4.1":{
@@ -4535,9 +4535,9 @@
                 "kr": "스핀 대시 키트"
             },
             "description": {
-                "en": "A kit that recreates the 'Spin Dash'. When equipped, the drift charge method changes to 'button mashing', the charge dash duration increases by 5x, and grip cornering during a charge dash is improved. However, you slow down by 25km/h over 2.5 seconds while drifting. (Note: Gadget Data Excel Sheet by Yoshister)",
-                "jp": "「スピンダッシュ」を再現するキットです。装着するとドリフトのチャージ方式が「ボタン連打式」に切り替わり、チャージダッシュの持続時間が5倍に増加し、チャージダッシュ中のグリップ走行の旋回力が増加します。代わりに、ドリフト時2.5秒かけて徐々に25km/h減速します。（参考：ガジェットデータ Excelシート by Yoshister）",
-                "kr": "「스핀 대시」를 재현하는 키트입니다. 착용하면 드리프트 차지 방식이 '버튼 연타식'으로 전환되며, 차지 대시 지속 시간이 5배 증가하고, 차지 대시 중 그립 주행 선회력이 증가합니다. 대신 드리프트 시 2.5초에 걸쳐 25km/h 감속됩니다. (참고 : 가젯 데이터 Excel 시트 by Yoshister)"
+                "en": "A kit that recreates the 'Spin Dash'. When equipped, the drift charge method changes to 'button mashing', the duration of all boosts increases by 5x (up to 20 seconds), and grip cornering during a charge dash is improved. However, you slow down by 25km/h over 2.5 seconds while drifting. (Note: Gadget Data Excel Sheet by Yoshister)",
+                "jp": "「スピンダッシュ」を再現するキットです。装着するとドリフトのチャージ方式が「ボタン連打式」に切り替わり、すべてのブーストの持続時間が5倍に増加し（最大20秒）、チャージダッシュ中のグリップ走行の旋回力が増加します。代わりに、ドリフト時2.5秒かけて徐々に25km/h減速します。（参考：ガジェットデータ Excelシート by Yoshister）",
+                "kr": "「스핀 대시」를 재현하는 키트입니다. 착용하면 드리프트 차지 방식이 '버튼 연타식'으로 전환되며, 모든 부스트의 지속 시간이 5배 증가하고(최대 20초), 차지 대시 중 그립 주행 선회력이 증가합니다. 대신 드리프트 시 2.5초에 걸쳐 25km/h 감속됩니다. (참고 : 가젯 데이터 Excel 시트 by Yoshister)"
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -4554,9 +4554,9 @@
                 ]
             },
             "effect": {
-                "en": "「Button Mash Charge」 + 「5x Increased Charge Dash Duration」 + 「Increased Grip Cornering during Charge Dash」 + 「Slow down by -25km/h over 2.5s when drifting」",
-                "jp": "「ボタン連打式チャージ」 + 「チャージダッシュ持続時間5倍増加」 + 「チャージダッシュ中のグリップ走行旋回力増加」 + 「ドリフト時2.5秒かけて徐々に25km/h減速」",
-                "kr": "「버튼 연타식 차지」 + 「차지 대시의 지속 시간 5배 증가」 + 「차지 대시 중 그립 주행 선회력 증가」 + 「드리프트 시 2.5초에 걸쳐 25km/h 감속」"
+                "en": "「Button Mash Charge」 + 「5x Boost Duration (up to 20s)」 + 「Increased Grip Cornering during Charge Dash」 + 「Slow down by -25km/h over 2.5s when drifting」",
+                "jp": "「ボタン連打式チャージ」 + 「ブースト持続時間5倍増加（最大20秒）」 + 「チャージダッシュ中のグリップ走行旋回力増加」 + 「ドリフト時2.5秒かけて徐々に25km/h減速」",
+                "kr": "「버튼 연타식 차지」 + 「부스트 지속 시간 5배 증가 (최대 20초)」 + 「차지 대시 중 그립 주행 선회력 증가」 + 「드리프트 시 2.5초에 걸쳐 25km/h 감속」"
             },
             "patch": {},
             "stat_table": null,

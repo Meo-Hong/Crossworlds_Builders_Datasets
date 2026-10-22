@@ -112,9 +112,9 @@
           "kr": "드리프트 속도 보정"
         },
         "detail": {
-          "en": "There is an additional speed correction effect during drift. It receives speed correction similar to dash type. (Ground mode only)",
-          "jp": "ドリフト時に追加の速度補正効果があります。 ダッシュタイプと似た速度補正を受けます。 (地上モードのみ適用)",
-          "kr": "드리프트 시 추가 속도 보정 효과가 있습니다. 대시 타입과 비슷한 속도 보정을 받습니다. (지상형만 적용)"
+          "en": "There is a speed correction effect during drift. It receives speed correction similar to dash type. (Ground mode only)",
+          "jp": "ドリフト時に速度補正効果があります。 ダッシュタイプと似た速度補正を受けます。 (地上モードのみ適用)",
+          "kr": "드리프트 시 속도 보정 효과가 있습니다. 대시 타입과 비슷한 속도 보정을 받습니다. (지상형만 적용)"
         },
         "tone": "good"
       }
@@ -197,14 +197,14 @@
     "highlight": [
       {
         "title": {
-          "en": "Drift speed correction (higher additional speed)",
-          "jp": "ドリフト速度補正（より高い追加速度）",
-          "kr": "드리프트 속도 보정 (더 높은 추가 속도)"
+          "en": "Drift speed correction (highest correction)",
+          "jp": "ドリフト速度補正（最も高い補正）",
+          "kr": "드리프트 속도 보정 (가장 높은 보정)"
         },
         "detail": {
-          "en": "During drift, the speed increase is corrected for speed increase, the handling type receives the highest additional speed (ground type only)",
-          "jp": "ドリフト中は速度増加補正を受けて速度が速くなります。 ハンドリングタイプが最も高い追加速度を得ます。 (地上型のみ適用)",
-          "kr": "드리프트 중에는 속도 증가 보정을 받아 속도가 빨라집니다. 핸들링 타입이 가장 높은 추가 속도를 받습니다. (지상형만 적용)"
+          "en": "During drift, the speed increase is corrected for speed increase, the handling type receives the highest correction (ground type only)",
+          "jp": "ドリフト中は速度増加補正を受けて速度が速くなります。 ハンドリングタイプが最も高い補正を受けます。 (地上型のみ適用)",
+          "kr": "드리프트 중에는 속도 증가 보정을 받아 속도가 빨라집니다. 핸들링 타입이 가장 높은 보정을 받습니다. (지상형만 적용)"
         },
         "tone": "good"
       },
@@ -234,17 +234,20 @@
       "en": [
         "The high handling value allows you to corner well at a high speed.",
         "Drift charge is fast due to high dash value.",
-        "Speed increase correction during drift allows you to break through corners quickly."
+        "Speed increase correction during drift allows you to break through corners quickly.",
+        "It is the only type whose speed increases while drifting in Super Sonic Speed. (+2km/h)"
       ],
       "jp": [
         "ハンドリング性能が高く、高速でコーナリングをうまく回すことができます。",
         "ダッシュの数値が高く、ドリフトのチャージが速いです。",
-        "ドリフト中に速度増加補正を受けて、コーナーを素早く突破できます。"
+        "ドリフト中に速度増加補正を受けて、コーナーを素早く突破できます。",
+        "スーパーソニックスピードでドリフト中に速度が上がる唯一のタイプです。（+2km/h）"
       ],
       "kr": [
         "핸들링 수치가 높아 높은 속도로 코너링을 잘 돌 수 있습니다.",
         "대시 수치가 높아 드리프트 차지가 빠릅니다.",
-        "드리프트 중 속도 증가 보정을 받아 코너를 빠르게 돌파할 수 있습니다."
+        "드리프트 중 속도 증가 보정을 받아 코너를 빠르게 돌파할 수 있습니다.",
+        "슈퍼 소닉 스피드에서 드리프트 중 속도가 오르는 유일한 타입입니다. (+2km/h)"
       ]
     },
     "cons": {
@@ -263,19 +266,22 @@
     },
     "notes": {
       "en": [     
-        "The synergy of high handling, dash figures and drift additional speed correction allows you to run cornering quickly and reliably.",
+        "The synergy of high handling, dash figures and drift speed correction allows you to run cornering quickly and reliably.",
         "Snaking in a straight line (continuous left and right drift in straight line) allows you to effectively maintain maximum speed and take advantage of drift boost.",
-        "The advantage of drift additional speed correction is very important in the racing genre, so it is very advantageous for strategic use."
+        "The advantage of drift speed correction is very important in the racing genre, so it is very advantageous for strategic use.",
+        "In Super Sonic Speed, speed tends to drop further the longer you drift, but only the Handling type keeps a positive drift correction, making it especially advantageous."
       ],
       "jp": [
-        "高いハンドリング、ダッシュ数値とドリフト追加速度補正のシナジーにより、コーナリングを速く安定して行うことができます",
+        "高いハンドリング、ダッシュ数値とドリフト速度補正のシナジーにより、コーナリングを速く安定して行うことができます",
         "直線でスネーキング（直線で左右に連続ドリフト）を行うことで、最高速度を維持し、ドリフトブーストを効果的に活用できます。",
-        "ドリフト追加速度補正の利点はレースジャンルで非常に重要な要素であるため、戦略的な運用に非常に有利です。"
+        "ドリフト速度補正の利点はレースジャンルで非常に重要な要素であるため、戦略的な運用に非常に有利です。",
+        "スーパーソニックスピードではドリフトを長く続けるほど速度がさらに落ちる傾向がありますが、ハンドリングタイプだけはドリフト補正がプラスのままなので、特に有利です。"
       ],
       "kr": [
-        "높은 핸들링, 대시 수치와 드리프트 추가 속도 보정의 시너지로 코너링을 빠르고 안정적으로 주파할 수 있습니다.",
+        "높은 핸들링, 대시 수치와 드리프트 속도 보정의 시너지로 코너링을 빠르고 안정적으로 주파할 수 있습니다.",
         "직선에서 스네이킹(직선에서 좌우로 연속 드리프트)를 통해 최고속도 유지 및 드리프트 부스트를 효과적으로 활용할 수 있습니다.",
-        "드리프트 추가 속도 보정이라는 어드밴티지는 레이싱 장르에서 매우 중요한 요소이기 때문에 전략적인 활용에 매우 유리합니다."
+        "드리프트 속도 보정이라는 어드밴티지는 레이싱 장르에서 매우 중요한 요소이기 때문에 전략적인 활용에 매우 유리합니다.",
+        "슈퍼 소닉 스피드에서는 드리프트를 오래 할수록 속도가 더 떨어지는 경향이 있는데, 핸들링 타입만 드리프트 보정이 플러스로 남아 있어 특히 유리합니다."
       ]
     }
   },
@@ -460,9 +466,9 @@
           "kr": "드리프트 속도 보정"
         },
         "detail": {
-          "en": "There is an additional speed correction effect during drift. It receives speed correction similar to acceleration type. (Ground mode only)",
-          "jp": "ドリフト時に追加の速度補正効果があります。 アクセルタイプと似た速度補正を受けます。 (地上モードのみ適用)",
-          "kr": "드리프트 시 추가 속도 보정 효과가 있습니다. 액셀 타입과 비슷한 속도 보정을 받습니다. (지상형만 적용)"
+          "en": "There is a speed correction effect during drift. It receives speed correction similar to acceleration type. (Ground mode only)",
+          "jp": "ドリフト時に速度補正効果があります。 アクセルタイプと似た速度補正を受けます。 (地上モードのみ適用)",
+          "kr": "드리프트 시 속도 보정 효과가 있습니다. 액셀 타입과 비슷한 속도 보정을 받습니다. (지상형만 적용)"
         },
         "tone": "good"
       },

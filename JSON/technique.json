@@ -52,27 +52,27 @@
                     "When you drift, you start charging. Filling the charge gauge and releasing the drift key activates the 'Drift Boost'.",
                     "There are a total of 4 levels of Drift Boost: Lv1, Lv2, Lv3, and Lv4. The length and speed of the Drift Boost vary slightly depending on the level.",
                     "Lv1 'Drift Boost' adds +20km/h, Lv2~Lv4 'Drift Boost' adds +25km/h speed increase effect.",
-                    "Lv1 lasts for 1.5 seconds, Lv2 for 2.5 seconds, Lv3 for 3.5 seconds, and Lv4 for 5 seconds.",
+                    "The top speed is held for 0.12 seconds at Lv1, 1.75 seconds at Lv2, 3.5 seconds at Lv3, and 4 seconds at Lv4. (Based on the Speed Document by Yoshister)",
                     "Lv4 Drift Boost can be used by equipping the 'Ultimate Charge' gadget or during Crossworlds Frenzy Time (Drift Charge Frenzy Time).",
-                    "The boost colors are distinguished as yellow for Lv1, purple for Lv2, blue for Lv3, and rainbow for Lv4.",
+                    "The boost colors are distinguished as orange for Lv1, purple for Lv2, blue for Lv3, and rainbow for Lv4.",
                     "In the air, when you perform a Drift Charge Boost, 'Barrel Roll' effect occurs, but this rolling has the effect of pulling the rings."
                 ],
                 "jp": [
                     "ドリフトを行うと「チャージ」を開始します。チャージゲージを溜めてドリフトキーを離すと、「ドリフトブースト」が発動します。",
                     "ドリフトブーストのレベルは全4段階（Lv1、Lv2、Lv3、Lv4）あります。レベルに応じて、ドリフトブーストの長さと速度がわずかに変化します。",
                     "Lv1のドリフトブーストは+20km/h、Lv2～Lv4のドリフトブーストは+25km/hの速度増加効果があります。",
-                    "Lv1は1.5秒、Lv2は2.5秒、Lv3は3.5秒、Lv4は5秒間持続します。",
+                    "最高速度はLv1で0.12秒、Lv2で1.75秒、Lv3で3.5秒、Lv4で4秒間維持されます。（Speed Document by Yoshister 基準）",
                     "Lv4のドリフトブーストは、ガジェット「アルティメットチャージ」を装備するか、クロスワールドフィーバータイム（ドリフトチャージフィーバータイム）中に使用可能です。",
-                    "ブーストの色は、Lv1が黄色、Lv2が紫色、Lv3が青色、Lv4が虹色に区別されます。",
+                    "ブーストの色は、Lv1がオレンジ色、Lv2が紫色、Lv3が青色、Lv4が虹色に区別されます。",
                     "空中ではドリフトチャージダッシュを行うと、回転する効果が発生しますが、この回転はリングを引き寄せる効果があります。"
                 ],
                 "kr": [
                     "드리프트를 하게 되면 '차지'를 시작합니다. 차지 게이지를 채우고 드리프트 키를 해제하면 '드리프트 부스트'가 발동됩니다.",
                     "드리프트 부스트의 레벨은 총 4가지, Lv1, Lv2, Lv3, Lv4 가 있습니다. 레벨에 따라 드리프트 부스트의 길이와 속도가 살짝 달라집니다.",
                     "Lv1 드리프트 부스트는 +20km/h, Lv2~Lv4 드리프트는 +25km/h 속도 증가 효과가 있습니다.",
-                    "Lv1은 1.5초, Lv2는 2.5초, Lv3는 3.5초, Lv4는 5초동안 지속됩니다.",
+                    "최고 속도는 Lv1은 0.12초, Lv2는 1.75초, Lv3는 3.5초, Lv4는 4초 동안 유지됩니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                     "Lv4 드리프트 부스트는 가젯 '얼티밋 차지'를 장착하거나, 크로스월드 피버 타임(드리프트 차지 피버 타임)에서 사용 가능합니다.",
-                    "Lv1은 노란색, Lv2는 자주색, Lv3는 파란색, Lv4는 무지개색으로 부스트의 색상이 구분됩니다.",
+                    "Lv1은 주황색, Lv2는 자주색, Lv3는 파란색, Lv4는 무지개색으로 부스트의 색상이 구분됩니다.",
                     "공중에서는 드리프트 차지 대시 시, 회전하는 효과가 발생하는데 이 회전은 링을 끌어당기는 효과가 있습니다."
                 ]
             },
@@ -106,7 +106,7 @@
                     "The 'Air Trick Boost' is a boost that activates when you perform an Air Trick.",
                     "There are a total of 4 levels of Air Trick Boost: Lv1, Lv2, Lv3, and Lv4. The speed and duration of the Air Trick Boost vary slightly depending on the level. Lv4 requires an additional gadget to activate.",
                     "The Lv1 Air Trick Boost provides a +20km/h speed increase effect, while Lv2 to Lv4 Air Trick Boosts provide a +25km/h speed increase effect.",
-                    "The Lv1 Air Trick Boost lasts for 2.4 seconds, Lv2 for 3.0 seconds, Lv3 for 3.3 seconds, and Lv4 for 5 seconds.",
+                    "The top speed of the Air Trick Boost is held for 0.12 seconds at Lv1, 0.5 seconds at Lv2, 2 seconds at Lv3, and 4 seconds at Lv4. (Based on the Speed Document by Yoshister)",
                     "It only goes up to a maximum of Lv4, and performing more Air Tricks beyond that will not increase the boost duration.",
                     "Equipping 'Ultimate Air Trick' replaces Lv3 Air Tricks with Lv4 Air Tricks. Successfully performing 3 or more air tricks grants invincibility for 2 seconds and activates a Lv4 Air Trick Boost upon landing."
                 ],
@@ -114,7 +114,7 @@
                     "「エアトリックブースト」は エアトリックを行うと発動するブーストです。",
                     "エアトリックブーストのレベルは全4段階（Lv1、Lv2、Lv3、Lv4）あります。レベルに応じて、エアトリックブーストの速度と持続時間がわずかに変化します。Lv4は追加のガジェットが必要です。",
                     "Lv1のエアトリックブーストは+20km/h、Lv2～Lv4のエアトリックブーストは+25km/hの速度増加効果があります。",
-                    "Lv1のエアトリックブーストは2.4秒、Lv2は3.0秒、Lv3は3.3秒、Lv4は5秒間持続します。",
+                    "エアトリックブーストの最高速度は、Lv1で0.12秒、Lv2で0.5秒、Lv3で2秒、Lv4で4秒間維持されます。（Speed Document by Yoshister 基準）",
                     "最大Lv4までしか上がらず、それ以上エアトリックを行ってもブーストの持続時間は増加しません。",
                     "「アルティメットエアトリック」を装着すると、Lv3エアトリックがLv4エアトリックに置き換わります。3回以上エアトリックを成功させると2秒間無敵状態になり、着地時にLv4エアトリックブーストが発動します。"
                 ],
@@ -122,7 +122,7 @@
                     "에어 트릭 부스트는 에어 트릭을 하게 되면 발동하는 부스트입니다.",
                     "에어 트릭 부스트의 레벨은 총 4가지, Lv1, Lv2, Lv3, Lv4 가 있습니다. 레벨에 따라 에어 트릭 부스트의 속도와 지속 시간이 살짝 달라집니다. Lv4는 추가 가젯을 착용해야 발동할 수 있습니다.",
                     "Lv1 에어 트릭 부스트는 +20km/h, Lv2~Lv4 에어 트릭 부스트는 +25km/h 속도 증가 효과가 있습니다.",
-                    "Lv1 에어 트릭 부스트는 2.4초, Lv2는 3.0초, Lv3는 3.3초, Lv4는 5초동안 지속됩니다.",
+                    "에어 트릭 부스트의 최고 속도는 Lv1은 0.12초, Lv2는 0.5초, Lv3는 2초, Lv4는 4초 동안 유지됩니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                     "최대 Lv4 까지만 올라가고, 그 이상은 에어 트릭을 해도 부스트의 지속 시간이 올라가지 않습니다.",
                     "「얼티밋 에어 트릭」을 착용하면 Lv3 에어 트릭이 Lv4 에어 트릭으로 대체됩니다. 3번 이상 에어 트릭을 성공하면 2초동안 무적 상태가 되며, 착지 시 Lv4 에어 트릭 부스트가 발동됩니다."
                 ]
@@ -195,7 +195,7 @@
                     "Unlike the 'Mario Kart' series' instant acceleration system—where you 'charge power behind an opponent for a set time to get a sudden burst of speed'—this is a sustained acceleration system where you 'continuously gain extra speed as long as you stay within a certain range behind the opponent.'",
                     "This effect can be seen as a reinterpretation of real-world slipstreaming (a phenomenon where following behind an opponent lowers the aerodynamic pressure on the trailing driver. By utilizing this, the trailing car experiences less air resistance and can accelerate more easily).",
                     "In the game, following behind a machine gives you an 'Extra Speed +20km/h' effect.",
-                    "This can stack with the extra speed from collecting rings and the acceleration from ring-collection dashes, but there is a cap. For more details, please refer to the 'Extra Speed Table' and 'Extra Speed Cap by Type' in the 'Extra Speed' tab.",
+                    "This can stack with the extra speed from collecting rings and the acceleration from ring-collection dashes, but there is a cap. For more details, please refer to 'Additional Speed Increase' and 'Type Speed Cap' in the 'Speed' tab.",
                     "Equipping the 'Slipstream Bounty' gadget allows you to continuously gain 1 ring every 0.5 seconds while in a slipstream state.",
                     "'Extended Slipstream' is a gadget that 'extends the horizontal width of the slipstream activation range by 100%.' Please note that it does not 'extend the longitudinal distance (vertical length) by 100%.'",
                     "Since this is the most basic technique for overtaking opponents throughout the race, it is essential to master it."
@@ -205,7 +205,7 @@
                     "「マリオカート」シリーズのような「一定時間相手の後ろでパワーをチャージし、一度に爆発的な加速をする」瞬間加速システムとは異なり、「相手マシンの後方の一定範囲内に入ると、その間持続的に追加速度を得る」維持型の加速システムです。",
                     "この効果は、現実のスリップストリーム（相手の後ろにつくと、空気力学により後続車の受ける空気圧が下がる現象。これを利用することで、後続車は空気抵抗を減らし、加速しやすくなる）を再解釈したものと言えます。",
                     "ゲーム内では、マシンの後ろを走ると「追加速度+20km/h」の効果を得られます。",
-                    "リング獲得時の追加速度や、リング獲得ダッシュによる加速と重複可能ですが、上限が存在します。詳細は「追加速度」タブの「追加速度表」および「タイプ別追加速度上限」をご参照ください。",
+                    "リング獲得時の追加速度や、リング獲得ダッシュによる加速と重複可能ですが、上限が存在します。詳細は「速度」タブの「追加速度上昇の表」および「タイプ別追加速度上限」をご参照ください。",
                     "ガジェット「スリップストリームボーナス」を装備すると、スリップストリーム状態で0.5秒ごとにリングを1個ずつ継続的に獲得できるようになります。",
                     "「ロングスリップストリーム」は、「スリップストリームの発動横幅（横方向の範囲）を100%延長」するガジェットです。「縦方向（距離）の範囲が100%延長されるわけではない」ので、この点にご注意ください。",
                     "レース全般にわたって相手を追い抜くための最も基本的なテクニックであるため、必ず知っておくべきです。"
@@ -215,7 +215,7 @@
                     "'마리오 카트 시리즈'의 '일정 시간 동안 상대 뒤에서 파워를 충전하여 한번에 폭발적인 가속을 하는 '순간 가속 시스템과 달리, '상대 머신 뒤의 일정 범위 내에 들어오면 잠깐동안 추가 속도를 지속적으로 얻는' 유지형 가속 시스템 입니다.",
                     "이러한 효과는 현실의 슬립스트림(상대 뒤에 있으면 공기역학에 의해 뒷 선수의 공기압력이 낮아지는 현상. 이를 이용해 뒷차는 공기 저항을 덜 받고 가속을 하기 쉬워진다.)을 재해석한 것으로 볼 수 있습니다.",
                     "게임 내에서는 머신 뒤를 따라가면 '추가속도 +20km/h'의 효과를 얻습니다.",
-                    "링 획득 시 추가속도, 링 획득 대시로 얻는 가속도와 중첩할 수 있지만 상한선이 존재합니다. 자세한 것은 '추가 속도'탭의 '추가 속도 표'와 '타입별 추가 속도 상한'을 참고하세요.",
+                    "링 획득 시 추가속도, 링 획득 대시로 얻는 가속도와 중첩할 수 있지만 상한선이 존재합니다. 자세한 것은 '속도' 탭의 '추가 속도 증가 표'와 '타입별 추가 속도 상한'을 참고하세요.",
                     "'슬립스트림 보너스'를 착용하면 슬립스트림 상태에서 0.5초 동안 링을 1개씩, 지속적으로 획득 가능합니다.",
                     "'롱 슬립스트림'은 '슬립스트림 발동 너비 범위를 100% 연장'하는 가젯입니다. '수직 방향 범위 100% 연장'이 아니므로, 이 점을 유의하기 바랍니다.",
                     "경기 전반에 걸쳐서 상대방을 추월하는데에 가장 기초적인 테크닉이므로, 꼭 알고 있어야합니다.",
@@ -465,33 +465,33 @@
                 "en": [
                     "'Ring Gain Boost' refers to 'the effect of gaining momentary acceleration upon collecting a ring'.",
                     "You can gain this effect through exclusive gadgets like 'Ring Gain Boost' and 'Ring Gain Boost Mini'.",
-                    "The 'Ring Gain Boost' grants 'Additional Speed +14~+16km/h', and the 'Ring Gain Boost Mini' grants 'Additional Speed +7~+8km/h'.",
+                    "The 'Ring Gain Boost' grants 'Additional Speed +15km/h', and the 'Ring Gain Boost Mini' grants 'Additional Speed +7km/h'.",
                     "It activates immediately upon collecting even a single ring, and it can also be triggered by rings obtained through gadgets such as 'Slipstream Bonus' and 'Just Charge Bonus'.",
                     "It has great synergy with the item 'Omochao' because it 'scatters rings in front of the user'.",
                     "By applying the 'momentary acceleration upon collecting a ring' effect, it is also suggested to 'collect rings to quickly recover top speed when slowed down by an item hit'. You can utilize 'Omochao' for this purpose as well.",
-                    "The 'Ring Gain Boost' can be stacked with slipstreams and the extra speed from rings, but there is an 'Additional Speed Cap' associated with this. For more details, please refer to the 'Additional Speed Increase Table' in the 'Additional Speed' tab.",
+                    "The 'Ring Gain Boost' can be stacked with slipstreams and the extra speed from rings, but there is an 'Additional Speed Cap' associated with this. For more details, please refer to 'Additional Speed Increase' in the 'Speed' tab.",
                     "For the reasons mentioned above, it can be utilized in a wide variety of situations.",
                     "The video below shows an example of the speed increase from a 'Ring Gain Boost'."
                 ],
                 "jp": [ 
                     "「リングゲットダッシュ」とは、「リングを獲得すると瞬間的な加速を得る効果」のことです。",
                     "専用ガジェット「リングゲットダッシュ」や「リングゲットダッシュミニ」などでこの効果を得ることができ、一般的には「リングダッシュ」と通称されています。",
-                    "「リング獲得ダッシュ」は「追加速度+14〜+16km/hの加速」を得て、「リング獲得ダッシュミニ」は「追加速度+7〜+8km/hの加速」を得ます。",
+                    "「リング獲得ダッシュ」は「追加速度+15km/hの加速」を得て、「リング獲得ダッシュミニ」は「追加速度+7km/hの加速」を得ます。",
                     "リングを1個でも獲得すると即座に発動し、「スリップストリームボーナス」や「ジャストチャージボーナス」などのガジェットを通じて獲得したリングに対しても発動可能です。",
                     "アイテム「オモチャオ」は「リングをユーザーの前にばらまく」効果があるため、非常に相性が良いです。",
                     "「リングを獲得すると瞬間的に加速する」効果を応用し、「アイテムに当たって減速した状況でリングを獲得し、最高速度へ素早く復帰する」という使い方も提案されています。「オモチャオ」をこの用途に活用することも可能です。",
-                    "「リングゲットダッシュ」は、スリップストリームやリングによる追加速度と重複可能ですが、それに伴う「追加速度の上限」が存在します。詳細は「追加速度」タブの「追加速度増加表」をご参照ください。",
+                    "「リングゲットダッシュ」は、スリップストリームやリングによる追加速度と重複可能ですが、それに伴う「追加速度の上限」が存在します。詳細は「速度」タブの「追加速度上昇の表」をご参照ください。",
                     "上記の理由から、非常に多岐にわたる場面で利用が可能です。",
                     "以下の動画は「リングゲットダッシュ」による速度増加の例を示しています。"
                 ],
                 "kr": [
                     "링 획득 대시는 '링을 획득하면 순간적인 가속을 얻는 효과'를 말합니다.",
                     "전용 가젯 '링 획득 대시', '링 획득 대시 미니' 등으로 효과를 얻을 수 있으며, 일반적으로는 '링 대시'라고 통용합니다.",
-                    "'링 획득 대시'는 '추가속도 +14~+16km/h'의 가속을 얻고, '링 획득 대시 미니'는 '추가속도 +7~+8km/h'의 가속을 얻습니다.",
+                    "'링 획득 대시'는 '추가 속도 +15km/h'의 가속을 얻고, '링 획득 대시 미니'는 '추가 속도 +7km/h'의 가속을 얻습니다.",
                     "링을 한개라도 얻으면 즉시 발동하며, '슬립스트림 보너스', '저스트 차지 보너스' 등 가젯을 통해 얻는 링에 대해서도 발동이 가능합니다.",
                     "아이템 '오모챠오'가 '링을 사용자 앞에 흩뿌리기' 때문에 궁합이 매우 좋습니다.",
                     "'링을 얻으면 순간적으로 가속'하는 효과를 응용하여 '아이템에 맞아 감속된 상황에서 링을 얻어 최고속도로 빠르게 복구'하는 응용안을 제시하기도 합니다. '오모챠오'를 여기에 활용할 수도 있습니다.",
-                    "'링 대시'는 슬립스트림, 링으로 얻는 추가속도와 중첩할 수 있고, 이에 따른 '추가 속도 상한'이 존재합니다. 자세한 사항은 '추가 속도'탭의 '추가 속도 증가 표'를 참조합니다.",
+                    "'링 대시'는 슬립스트림, 링으로 얻는 추가속도와 중첩할 수 있고, 이에 따른 '추가 속도 상한'이 존재합니다. 자세한 사항은 '속도' 탭의 '추가 속도 증가 표'를 참조합니다.",
                     "상기한 사유로 인해 매우 다양한 방면에서 활용이 가능합니다.",
                     "아래의 영상은 '링 획득 대시'의 속도 증가 예시를 보여줍니다."
                 ]
@@ -539,21 +539,21 @@
             "description": {
                 "en": [
                     "This is an acceleration effect that triggers when equipping specific gadgets (such as 'Perfect Charge Boost' or 'Perfect Landing') and successfully performing certain actions on the exact frame.",
-                    "The common effect is '+10km/h speed + 7x acceleration effect for 0.5 seconds'. (The acceleration effect has not been fully verified yet).  ",
+                    "The common effect is a momentary '+40km/h multiplier acceleration (boost)' together with '+10km/h for 0.5 seconds (Additional Speed)'. The multiplier lasts only 0.05 seconds for 'Perfect Landing', and its duration is inconsistent for 'Perfect Charge Boost'. (Based on the Speed Document by Yoshister)",
                     "'Perfect Charge Boost' is a method of gaining additional acceleration by releasing the charge at the exact timing the drift charge increases by one level.",
                     "'Perfect Landing' is a method of gaining additional acceleration by pressing the 'accelerate key/button' right before hitting the ground after successfully performing an air trick in mid-air.",
                     "The video below captures the moment a Perfect Boost is successfully performed."
                 ],
                 "jp": [
                     "特定のガジェット（「ジャストチャージダッシュ」、「ジャスト着地」など）を装着後、特定の動作を正確なフレームで成功させた時に発動する加速効果です。",
-                    "共通効果として「0.5秒間+10km/h加速 ＋ 7倍の加速効果」があります。（加速効果についてはまだ完全に検証されていません）",
+                    "共通効果として、瞬間的な「倍率加速 +40km/h（ブースト）」と「0.5秒間 +10km/h（追加速度）」が同時に発動します。倍率加速は「ジャスト着地」では0.05秒と非常に短く、「ジャストチャージダッシュ」では持続時間が一定ではありません。（Speed Document by Yoshister 基準）",
                     "「ジャストチャージダッシュ」は、ドリフトチャージが1段階溜まるタイミングでチャージを終了し、追加加速を得る方式です。",
                     "「ジャスト着地」は、空中でエアトリックを成功させた後、地面に着地する直前に「アクセルキー/ボタン」を押して追加加速を得る方式です。",
                     "以下の映像は、ジャストダッシュに成功した瞬間を撮影したものです。"
                 ],
                 "kr": [
                     "특정 가젯 (「저스트 차지 대시」, 「저스트 착지」 등)을 착용 후, 특정 동작을 정확한 프레임에 성공했을 때 발동되는 가속 효과입니다.",
-                    "공통 효과로 '0.5초 동안 +10km/h 가속 + 7배 가속 효과'가 있습니다. (가속 효과는 증명이 아직 덜 됨)",
+                    "공통 효과로 순간적인 '배율 가속 +40km/h(부스트)'와 '0.5초 동안 +10km/h(추가 속도)'가 함께 발동됩니다. 배율 가속은 「저스트 착지」에서는 0.05초로 아주 짧고, 「저스트 차지 대시」에서는 지속 시간이 일정하지 않습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                     "「저스트 차지 대시」는 드리프트 차지가 한 단계 채워지는 타이밍에 차지를 종료하여 추가 가속을 얻는 방식입니다.",
                     "「저스트 착지」는 공중에서 에어 트릭을 성공한 후, 바닥에 착지하기 바로 전에 '액셀 키/버튼'을 눌러서 추가 가속을 얻는 방식입니다.",
                     "아래 영상은 저스트 대시에 성공하였을 때 나오는 순간을 촬영한 것입니다."
@@ -582,6 +582,7 @@
                     "The button-mashing method for the accelerate button is also an homage to the original mechanic of 'pressing the button multiple times to charge'.",
                     "Rather than mashing the accelerate button as fast as possible, it is most efficient to tap it rhythmically at a rate of 3 to 4 times per second. Because it is a system where 'it only charges a certain amount while the accelerate button is held down', pressing it too quickly reduces the amount charged per tap.",
                     "The duration of the 'Charge Boost' becomes 5 times longer. In other words, even a Lv1 Charge Boost lasts for 5 seconds, and a Lv3 Charge Boost lasts for a whopping 17 seconds. (Excerpt from Official X).",
+                    "The 5x duration applies to all boosts, not just Charge Boosts, and is capped at 20 seconds. This lets you stack three Lv3 Charge Boosts and keep driving at the +40km/h boost cap. (Based on the Speed Document by Yoshister)",
                     "When activated, a blue 'Sonic spinning effect' appears on the rear wheels. In the case of 'Boost Type', a blue spin effect appears on both sides of the rear parts."
                 ],
                 "jp": [
@@ -592,6 +593,7 @@
                     "アクセルボタンを連打する方式も、原作の「ボタンを何度も押してチャージする」ギミックをオマージュしたものです。",
                     "アクセルボタンを素早く連打するよりも、リズムに合わせて1秒間に3～4回押すスピードで連打するのが最も効率的です。「アクセルボタンを押している間だけ一定量チャージされる方式」であるため、素早く連打しすぎると1回あたりのチャージ量が減少します。",
                     "「チャージダッシュ」の持続時間が5倍長くなります。つまり、Lv1チャージダッシュだけでも5秒間持続し、Lv3チャージダッシュはなんと17秒間も持続します。（公式Xより抜粋）",
+                    "持続時間5倍の効果はチャージダッシュだけでなくすべてのブーストに適用され、最大20秒に制限されます。そのため、Lv3チャージダッシュを3つ重ねて、ブーストの上限である+40km/hの状態で走り続けることができます。（Speed Document by Yoshister 基準）",
                     "発動時、後輪に青い「ソニックがスピンするエフェクト」が表示されます。'ダッシュタイプ'の場合は、リアパーツの両脇に青いスピンエフェクトが表示されます。"
                 ],
                 "kr": [
@@ -602,6 +604,7 @@
                     "액셀 버튼을 연타하는 방식 또한 원작의 '버튼을 여러 번 눌러 차지'를 오마쥬한 방식입니다.",
                     "액셀 버튼을 빠르게 연타하는 것보다, 리듬에 맞춰 1초에 3~4번 누르는 속도로 연타하는 것이 가장 효율이 좋습니다. '액셀 버튼을 누르는 동안에만 일정량 만큼 차지되는 방식'이기 때문에 빠르게 연타하면 한번에 차지되는 양이 줄어듭니다.",
                     "'차지 대시'의 지속 시간이 5배 길어집니다. 즉, Lv1 차지 대시만 해도 5초동안 지속되며, Lv3 차지 대시는 무려 17초 동안 지속 됩니다. (공식 X 발췌)",
+                    "지속 시간 5배 효과는 차지 대시뿐 아니라 모든 부스트에 적용되며, 최대 20초로 제한됩니다. 그래서 Lv3 차지 대시 3개를 겹쳐 부스트 상한인 +40km/h 상태로 계속 달릴 수 있습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                     "시전 시, 뒷바퀴가 파란 색의 '소닉이 스핀하는 효과'가 나타납니다. '대시 타입'의 경우에는 리어 파츠 양 옆으로 파란 스핀 효과가 나타납니다."
                 ]
             },
@@ -611,6 +614,9 @@
             ],
             "twitter": [
                 "https://x.com/RaceCrossWorlds/status/2070326443020873924?s=20"
+            ],
+            "note_links": [
+                "https://docs.google.com/document/d/1aDX8yf3Q0ZpbSn4LEvO-kRPyKS1dzLQ2l9XnpGF9RU8/edit?tab=t.0"
             ]
         },
        
@@ -692,6 +698,9 @@
                     "A phenomenon where acceleration stacks if you successfully activate another boost within a short time during a Boost or a 'Drift Charge Boost'.",
                     "This is possible with the item 'Boost', 'Drift Charge Boost', 'Dash Panels', 'Dash Gates', and so on.",
                     "For example, if you activate a 'Drift Charge Boost' while a 'Boost' is already active, it means you gain additional acceleration on top of the Boost speed.",
+                    "Stacked boosts are added with a reduced value. Each additional boost adds +10km/h, except Lv1 Drift Charge Boost and Lv1 Air Trick Boost, which add +5km/h.",
+                    "The total speed increase from stacked boosts is capped at +40km/h. (Based on the Speed Document by Yoshister)",
+                    "Normally, stacking boosts accelerates you back up to top speed, but if a Lv3/Lv4 boost is active, triggering another boost keeps your current speed. As a result, you stay above 230km/h for longer.",
                     "Lv1 Drift Charge Boost and Lv1 Air Trick Boost serve to 'Prolong 'high gear' state'.",
                     "Lv2 Drift Charge Boost, Lv2 Air Trick Boost, Dash Panels, and Lv4 Drift Charge Boost serve to 'Accelerate to a higher gear'.",
                     "Lv3 Drift Charge Boost, Special Dash Panels, Lv3 Air Trick Boost, and the 'Boost' item combine both 'Prolong high gear' state and 'Accelerate to a higher gear'. In other words, frequently triggering 'Lv3 Charge Boost' is a very important factor for Boost Stacking.",
@@ -702,6 +711,9 @@
                     "ブーストや「ドリフトチャージダッシュ」中、短い時間内にもう一度ブーストを発動することに成功すると、加速が重複する現象です。",
                     "これはアイテムの「ブースト」や「ドリフトチャージダッシュ」、「ダッシュパネル」、「ダッシュゲート」など、すべてにおいて可能です。",
                     "例えば、「ブースト」を発動している最中に「ドリフトチャージダッシュ」を発動した場合、ブースト中の速度に加えて、さらなる加速を得られるという意味です。",
+                    "重複したブーストは、減少した値で加算されます。追加されるブーストごとに+10km/hずつ加算され、Lv1ドリフトチャージダッシュとLv1エアトリックブーストは+5km/hのみ加算されます。",
+                    "ブーストが重複した状態の速度増加量は、合計+40km/hが上限です。（Speed Document by Yoshister 基準）",
+                    "通常はブーストを重ねると最高速度まで再び加速しますが、Lv3・Lv4のブースト中に別のブーストを発動すると、現在の速度がそのまま維持されます。そのため、230km/h以上の区間により長く留まることができます。",
                     "Lv1ドリフトチャージダッシュ、Lv1エアトリックブーストは「ギアの最高速度状態を延長する」役割をします。",
                     "Lv2ドリフトチャージダッシュ、Lv2エアトリックブースト、ダッシュパネル、Lv4ドリフトチャージダッシュは「より高いギアへ加速する」役割をします。",
                     "Lv3ドリフトチャージダッシュ、スペシャルダッシュパネル、Lv3エアトリックブースト、「ブースト」アイテムは、上記の「ギアの最高速度状態を延長する」と「より高いギアへ加速する」の両方の役割を果たします。つまり、「Lv3チャージダッシュ」を頻繁に発動させることが、ブーストの重複において非常に重要な要素です。",
@@ -712,6 +724,9 @@
                     "부스트나 '드리프트 차지 대시' 중 짧은 시간 안에 한 번 더 부스트를 발동하는 데 성공하면 가속이 중첩되는 현상입니다.",
                     "이는 아이템 '부스트'나 '드리프트 차지 대시', '대시 패널', '대시 게이트' 등에 모두 가능합니다.",
                     "예를 들어, '부스트'를 발동하고 있는 중에 '드리프트 차지 대시'를 발동했다면, 부스트 중의 속도에 더해 추가적인 가속을 얻는다는 의미입니다.",
+                    "중첩되는 부스트는 줄어든 값으로 더해집니다. 추가되는 부스트마다 +10km/h씩 더해지며, Lv1 드리프트 차지 대시와 Lv1 에어 트릭 부스트는 +5km/h만 더해집니다.",
+                    "부스트가 중첩된 상태의 속도 증가량은 합계 +40km/h가 상한입니다. (스피드 문서 · Speed Document by Yoshister 기준)",
+                    "보통은 부스트를 겹치면 최고 속도까지 다시 가속하지만, Lv3·Lv4 부스트가 진행 중일 때 다른 부스트를 발동하면 지금 속도가 그대로 유지됩니다. 그래서 230km/h 이상 구간에 더 오래 머물 수 있습니다.",
                     "Lv1 드리프트 차지 대시, Lv1 에어 트릭 부스트는 '기어의 최고 속도 상태 연장' 역할을 합니다.",
                     "Lv2 드리프트 차지 대시, Lv2 에어 트릭 부스트, 대시 패널, Lv4 드리프트 차지 대시는 '더 높은 기어로 가속' 역할을 합니다.",
                     "Lv3 드리프트 차지 대시, 스페셜 대시 패널, Lv3 에어 트릭 부스트, '부스트' 아이템은 위의 '기어의 최고속도 상태 연장'과 '더 높은 기어로 가속' 역할을 모두 합니다. 즉, 'Lv3 차지 대시'를 자주 발동시키는 것이 부스트 중첩에 매우 중요한 요소입니다.",
@@ -725,6 +740,9 @@
             "youtube": [
                 "https://youtu.be/Aga-uTw2P_8?si=oppBLKAAGJ6alkE4&t=320",
                 "https://youtu.be/1c5qaYvknC4?si=2vNCdXYJ7sbGpaCQ&t=340"
+            ],
+            "note_links": [
+                "https://docs.google.com/document/d/1aDX8yf3Q0ZpbSn4LEvO-kRPyKS1dzLQ2l9XnpGF9RU8/edit?tab=t.0"
             ]
         },
         "short_hop_jump":{

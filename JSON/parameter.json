@@ -13,23 +13,32 @@
         "detail":{
             "en": [
                 "Based on \"Sonic Speed\", speed increases by 0.05 km/h per 1 parameter. In other words, there is a 1 km/h difference for every 20 parameters.",
+                "The Speed stat caps at 100; going above 100 does not increase speed further. (Speed 100 = +5km/h)",
+                "Speed gained from the Speed stat is Base Speed, so it is not affected by the Additional Speed cap (+38km/h, Power +48km/h) or the boost cap (+40km/h). (Based on the Speed Document by Yoshister)",
                 "The example video below shows the difference between (left: Speed 0, right: Speed 100).",
                 "The video was recorded in v1.3.1 version.",
                 "Based on 100 rings, Speed 0 = 194~195 km/h, Speed 100 = 199~200 km/h"
             ],
             "jp": [
                 "「ソニックスピード」を基準に、パラメータ1につき0.05km/h増加します。つまり、パラメータ20ごとに1km/hの差が生じます。",
+                "スピードのパラメータは100で頭打ちとなり、100を超えても速度はそれ以上上がりません。（スピード100 = +5km/h）",
+                "スピードのパラメータによる速度は「基本速度」のため、追加速度の上限（+38km/h、パワー+48km/h）やブーストの上限（+40km/h）の影響を受けません。（Speed Document by Yoshister 基準）",
                 "以下の例動画は (左: スピード 0, 右: スピード 100) の差を示しています。",
                 "該当動画はv1.3.1バージョンで撮影されました。",
                 "100リング状態では、スピード 0 = 194~195 km/h, スピード 100 = 199~200 km/h"
             ],
             "kr": [
                 "소닉 스피드 기준 파라미터 1당 0.05 km/h 증가. 즉, 파라미터 20 당 1km/h 차이가 납니다.",
+                "스피드 스탯은 100에서 멈추며, 100을 넘겨도 속도가 더 오르지 않습니다. (스피드 100 = +5km/h)",
+                "스피드 스탯으로 얻는 속도는 '기본 속도'이므로, 추가 속도 상한(+38km/h, 파워 +48km/h)과 부스트 상한(+40km/h)의 영향을 받지 않습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                 "아래 예시 영상은 (왼쪽 : 스피드 0, 오른쪽 : 스피드 100)의 차이를 보여줍니다.",
                 "해당 영상은 v1.3.1 버전에서 촬영되었습니다.",
                 "링 100개 상태 기준, 스피드 0 = 194~195km/h, 스피드 100 = 199~200km/h"
             ]
         },
+        "note_links" : [
+            "https://docs.google.com/document/d/1aDX8yf3Q0ZpbSn4LEvO-kRPyKS1dzLQ2l9XnpGF9RU8/edit?tab=t.0"
+        ],
         "example":[
             "speed_param_0.mp4",
             "speed_param_100.mp4"
