@@ -3,7 +3,7 @@
 [Crossworld Gadget Builder](https://www.srcgadgetbuilder.com)에서 사용하는 데이터와 번역 파일입니다.
 오타, 번역, 수치 오류를 발견하면 PR로 수정해 주세요.
 
-[English](#english)
+[English](#english) · [日本語](#日本語)
 
 ## 구조
 
@@ -61,10 +61,12 @@ If you find a typo, translation issue, or wrong value, please open a PR.
 
 1. Fork this repository.
 2. Edit the JSON files.
-   - Do not change `id` values or key names.
-   - Keep all three language keys: `en`, `jp`, `kr`.
+   - Do not change `id` values or key names. Keep the ID format (e.g. `gadget_xxx`, `character_xxx`, `map_dlcxxx`).
+   - Keep all three language keys: `en`, `jp`, `kr`. For translation contributions, providing just one language is fine.
    - Follow the existing indentation.
 3. Open a PR describing the reason or source (e.g. an in-game screenshot).
+4. Images are added separately by the site maintainer. For a new gadget image, you can use `gadget_default.png` / `gadget_kit_default.png` / `gadget_super_default.png`, or just leave the number.
+5. Thank you always for your interest.
 
 By submitting a PR, you agree to license your contribution under the license below.
 
@@ -83,3 +85,47 @@ Factual in-game information such as numeric values is not covered.
 
 Sonic Racing CrossWorlds and all related names, images, and in-game text are the property of SEGA.
 This is an unofficial fan project and is not affiliated with SEGA.
+
+---
+
+## 日本語
+
+[Crossworld Gadget Builder](https://www.srcgadgetbuilder.com) で使用しているデータと翻訳ファイルです。
+誤字、翻訳、数値の誤りを見つけた場合は、PR で修正をお願いします。
+
+### 構成
+
+| パス | 内容 |
+|---|---|
+| `i18n/` | UI 翻訳（`en` / `jp` / `kr`） |
+| `JSON/` | キャラクター、ガジェット、アイテム、マシン、マップなどのゲームデータ |
+| `JSON/meta/` | 大会ラウンドごとのメタデータ |
+
+### 貢献方法
+
+1. このリポジトリを Fork します。
+2. JSON ファイルを修正します。
+   - `id` の値やキー名は変更しないでください。ID の形式（`gadget_xxx`、`character_xxx`、`map_dlcxxx` など）を守ってください。
+   - 翻訳は `en`、`jp`、`kr` の 3 言語のキーをすべて残してください。翻訳の提供は 1 言語分だけでも大丈夫です。
+   - 既存のインデント形式に合わせてください。
+3. 修正の理由や根拠（ゲーム内のスクリーンショットなど）を記載して PR を作成します。
+4. 画像はサイト制作者が別途追加します。新しいガジェットの画像を記載する場合は、`gadget_default.png` / `gadget_kit_default.png` / `gadget_super_default.png` を指定するか、番号だけ残していただいても構いません。
+5. いつも関心を寄せていただき、本当にありがとうございます。
+
+PR を送信した時点で、その貢献内容を以下のライセンスで提供することに同意したものとみなします。
+
+### ライセンス
+
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja) のもとで提供されます。
+
+- クレジット表記：`Crossworld Gadget Builder (https://www.srcgadgetbuilder.com)`
+- 非営利目的でのみ利用できます。
+- 改変・加工して配布する場合は、同じライセンスを適用してください。
+
+このライセンスは、貢献者が自ら作成した説明文・翻訳とデータの構成にのみ適用されます。
+ゲーム内の数値などの事実情報はライセンスの対象外です。
+
+### 免責事項
+
+ソニックレーシング クロスワールド（Sonic Racing CrossWorlds）および関連する名称、画像、ゲーム内テキストの権利は SEGA に帰属します。
+本プロジェクトは SEGA とは関係のない非公式のファンプロジェクトです。
