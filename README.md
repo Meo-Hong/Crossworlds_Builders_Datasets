@@ -13,6 +13,12 @@
 | `JSON/` | 캐릭터, 가젯, 아이템, 머신, 맵 등 게임 데이터 |
 | `JSON/meta/` | 대회 라운드별 메타 데이터 |
 
+## 메타 데이터 안내 (`JSON/meta/LC_round*.json`)
+
+- 순위 데이터(`rankings`)는 게임 내 순위를 보고 직접 수기로 기록했습니다.
+- 빌드 유형 분류(`clusters`, `clustering_rules`)와 사용률 같은 통계·분석은 Claude를 활용한 클러스터링과 분석으로 만들었습니다.
+- 수정할 때는 이 점을 인지하고 바꿔 주세요. 순위 기록 오류는 그대로 고치면 되고, 분류·분석 결과는 AI 분석 결과라는 점을 감안해 수정해 주시면 됩니다.
+
 ## 기여 방법
 
 1. 이 리포를 Fork 합니다.
@@ -57,6 +63,12 @@ If you find a typo, translation issue, or wrong value, please open a PR.
 | `JSON/` | Game data: characters, gadgets, items, machines, maps |
 | `JSON/meta/` | Meta data per tournament round |
 
+### About the meta data (`JSON/meta/LC_round*.json`)
+
+- Ranking data (`rankings`) was recorded manually from the in-game rankings.
+- Build type classification (`clusters`, `clustering_rules`) and statistics such as usage rates were produced through clustering and analysis using Claude.
+- Please keep this in mind when editing. Ranking errors can be fixed directly, and classification and analysis results should be edited with the understanding that they are AI-generated.
+
 ### Contributing
 
 1. Fork this repository.
@@ -100,6 +112,12 @@ This is an unofficial fan project and is not affiliated with SEGA.
 | `i18n/` | UI 翻訳（`en` / `jp` / `kr`） |
 | `JSON/` | キャラクター、ガジェット、アイテム、マシン、マップなどのゲームデータ |
 | `JSON/meta/` | 大会ラウンドごとのメタデータ |
+
+### メタデータについて（`JSON/meta/LC_round*.json`）
+
+- 順位データ（`rankings`）は、ゲーム内の順位を見て手作業で記録したものです。
+- ビルドタイプの分類（`clusters`、`clustering_rules`）や使用率などの統計・分析は、Claude を活用したクラスタリングと分析によって作成しています。
+- 修正の際はこの点をご理解のうえでお願いします。順位の記録ミスはそのまま修正し、分類・分析結果は AI による分析結果であることを踏まえて修正してください。
 
 ### 貢献方法
 
