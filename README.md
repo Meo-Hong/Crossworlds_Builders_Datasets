@@ -19,6 +19,14 @@
 - 빌드 유형 분류(`clusters`, `clustering_rules`)와 사용률 같은 통계·분석은 Claude를 활용한 클러스터링과 분석으로 만들었습니다.
 - 수정할 때는 이 점을 인지하고 바꿔 주세요. 순위 기록 오류는 그대로 고치면 되고, 분류·분석 결과는 AI 분석 결과라는 점을 감안해 수정해 주시면 됩니다.
 
+## 추천 빌드 제보
+
+추천 빌드 데이터는 이 리포에 포함되지 않으며 PR로 받지 않습니다. 아래 경로로 제보해 주세요.
+
+- 이메일: busimh001@gmail.com
+- X DM: [@Meo__hong](https://x.com/Meo__hong)
+- Discord: [Meo-Hong](https://discordapp.com/users/534945564387966987)
+
 ## 기여 방법
 
 1. 이 리포를 Fork 합니다.
@@ -69,6 +77,14 @@ If you find a typo, translation issue, or wrong value, please open a PR.
 - Build type classification (`clusters`, `clustering_rules`) and statistics such as usage rates were produced through clustering and analysis using Claude.
 - Please keep this in mind when editing. Ranking errors can be fixed directly, and classification and analysis results should be edited with the understanding that they are AI-generated.
 
+### Recommended build submissions
+
+Recommended build data is not included in this repository and is not accepted via PR. Please send submissions through:
+
+- Email: busimh001@gmail.com
+- X DM: [@Meo__hong](https://x.com/Meo__hong)
+- Discord: [Meo-Hong](https://discordapp.com/users/534945564387966987)
+
 ### Contributing
 
 1. Fork this repository.
@@ -118,6 +134,14 @@ This is an unofficial fan project and is not affiliated with SEGA.
 - 順位データ（`rankings`）は、ゲーム内の順位を見て手作業で記録したものです。
 - ビルドタイプの分類（`clusters`、`clustering_rules`）や使用率などの統計・分析は、Claude を活用したクラスタリングと分析によって作成しています。
 - 修正の際はこの点をご理解のうえでお願いします。順位の記録ミスはそのまま修正し、分類・分析結果は AI による分析結果であることを踏まえて修正してください。
+
+### おすすめビルドの情報提供
+
+おすすめビルドのデータはこのリポジトリに含まれておらず、PR では受け付けていません。以下の窓口からお寄せください。
+
+- メール：busimh001@gmail.com
+- X DM：[@Meo__hong](https://x.com/Meo__hong)
+- Discord：[Meo-Hong](https://discordapp.com/users/534945564387966987)
 
 ### 貢献方法
 
