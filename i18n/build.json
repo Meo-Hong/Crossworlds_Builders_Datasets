@@ -1,0 +1,649 @@
+{
+  "gadget": {
+    "equip": {
+      "en": "Equip Gadget",
+      "jp": "装備",
+      "kr": "장착"
+    },
+    "unequip": {
+      "en": "Unequip",
+      "jp": "外す",
+      "kr": "해제"
+    },
+    "patchNotes": {
+      "en": "Patch Notes",
+      "jp": "パッチ履歴",
+      "kr": "패치 내역"
+    },
+    "patchNotesEmpty": {
+      "en": "No patch notes recorded yet.",
+      "jp": "記録されたパッチ履歴はまだありません。",
+      "kr": "아직 기록된 패치 내역이 없습니다."
+    },
+    "statSectionTitle": {
+      "en": "Stat Changes",
+      "jp": "ステータス変化",
+      "kr": "스탯 변화"
+    },
+    "effectTitle": {
+      "en": "Effect",
+      "jp": "効果",
+      "kr": "효과"
+    },
+    "unlockCondition": {
+      "en": "Unlock Condition",
+      "jp": "解禁条件",
+      "kr": "해금 조건"
+    },
+    "noDescription": {
+      "en": "No description available.",
+      "jp": "説明がありません。",
+      "kr": "설명이 없습니다."
+    },
+    "slot": {
+      "en": "Slot",
+      "jp": "スロット",
+      "kr": "슬롯"
+    },
+    "noGadgetsFound": {
+      "en": "No gadgets found.",
+      "jp": "ガジェットが見つかりません。",
+      "kr": "가젯을 찾을 수 없습니다."
+    },
+    "notEnoughSlots": {
+      "en": "Not enough slots!",
+      "jp": "スロットが足りません！",
+      "kr": "슬롯이 부족합니다!"
+    },
+    "reset": {
+      "en": "Reset Gadgets",
+      "jp": "ガジェットリセット",
+      "kr": "가젯 초기화"
+    },
+    "resetConfirm": {
+      "en": "Are you sure you want to remove all gadgets?",
+      "jp": "すべてのガジェットを外しますか？",
+      "kr": "모든 가젯을 해제하시겠습니까?"
+    },
+    "resetBuild": {
+      "en": "Reset Build",
+      "jp": "ビルド全体をリセット",
+      "kr": "빌드 초기화"
+    },
+    "resetBuildConfirm": {
+      "en": "Reset your entire build (character, machine, and gadgets)?",
+      "jp": "ビルド全体（キャラクター・マシン・ガジェット）をリセットしますか？",
+      "kr": "빌드 전체(캐릭터, 머신, 가젯)를 초기화하시겠습니까?"
+    },
+    "applyBuild": {
+      "en": "Apply this build",
+      "jp": "このビルドを適用",
+      "kr": "이 빌드 적용"
+    },
+    "buildApplied": {
+      "en": "Build applied.",
+      "jp": "ビルドを適用しました。",
+      "kr": "빌드가 적용되었습니다."
+    },
+    "includedGadgets": {
+      "en": "Included gadgets",
+      "jp": "含まれるガジェット",
+      "kr": "포함 가젯"
+    },
+    "exGadget": {
+      "en": "EX Gadget",
+      "jp": "EXガジェット",
+      "kr": "EX 가젯"
+    },
+    "detailTitle": {
+      "en": "Detail",
+      "jp": "詳細",
+      "kr": "상세"
+    },
+    "wcsMetaBadge": {
+      "en": "WCS Meta",
+      "jp": "世界大会メタ",
+      "kr": "WCS 메타"
+    },
+    "legendMetaBadge": {
+      "en": "{n} Meta",
+      "jp": "{n} メタ",
+      "kr": "{n} 메타"
+    },
+    "wcsWinnerBadge": {
+      "en": "WCS Winner",
+      "jp": "世界大会優勝",
+      "kr": "WCS 우승"
+    },
+    "wcsWinnerMetaBadge": {
+      "en": "WCS Winner & Meta",
+      "jp": "世界大会優勝＆メタ",
+      "kr": "WCS 우승·메타"
+    },
+    "viewDetails": {
+      "en": "View details",
+      "jp": "詳細を見る",
+      "kr": "자세히보기"
+    },
+    "descriptionDetail": {
+      "en": "Description (detail)",
+      "jp": "詳細説明",
+      "kr": "상세 설명"
+    },
+    "buildDescription": {
+      "en": "Description",
+      "jp": "説明",
+      "kr": "설명"
+    },
+    "alternativeBuilds": {
+      "en": "Alternative builds",
+      "jp": "代替ビルド",
+      "kr": "대체 빌드"
+    },
+    "alternativeBuildN": {
+      "en": "Alt. {n}",
+      "jp": "代替 {n}",
+      "kr": "대체 {n}"
+    },
+    "noAlternativeBuilds": {
+      "en": "No alternative builds.",
+      "jp": "代替ビルドはありません。",
+      "kr": "대체 빌드가 없습니다."
+    },
+    "filterAll": {
+      "en": "All",
+      "jp": "すべて",
+      "kr": "전체"
+    },
+    "slotFilterExcludeLabel": {
+      "en": "Exclude filtering :",
+      "jp": "除外フィルター :",
+      "kr": "제외 필터링 :"
+    },
+    "slotFilterExcludeShort": {
+      "en": "Excl.",
+      "jp": "除外",
+      "kr": "제외"
+    },
+    "filterTypeShort": {
+      "en": "Type",
+      "jp": "タイプ",
+      "kr": "유형"
+    },
+    "slotFilterExcludeTitle": {
+      "en": "Exclude slots",
+      "jp": "スロット除外",
+      "kr": "슬롯 제외"
+    },
+    "superSlotFilter": {
+      "en": "Super Slot",
+      "jp": "スーパースロット",
+      "kr": "슈퍼 슬롯"
+    },
+    "superSlotFilterPending": {
+      "en": "Super slot gadget data is coming soon.",
+      "jp": "スーパースロット対応ガジェットのデータは準備中です。",
+      "kr": "슈퍼 슬롯 가젯 데이터 준비 중입니다."
+    },
+    "filterExpand": {
+      "en": "More",
+      "jp": "もっと",
+      "kr": "더보기"
+    },
+    "filterCollapse": {
+      "en": "Less",
+      "jp": "閉じる",
+      "kr": "접기"
+    },
+    "filterTypeTitle": {
+      "en": "Gadget type",
+      "jp": "ガジェットタイプ",
+      "kr": "가젯 유형"
+    },
+    "gadgetRemoveNotice": {
+      "en": "(Click a gadget to remove it individually)",
+      "jp": "（ガジェットをクリックすると個別に削除できます）",
+      "kr": "(가젯을 누르면 개별 삭제가 가능합니다)"
+    },
+    "appliedGadgetEffectsTitle": {
+      "en": "Applied Gadget Effects",
+      "jp": "適用されたガジェット効果",
+      "kr": "적용된 가젯 효과"
+    },
+    "noAppliedEffects": {
+      "en": "No effects applied.",
+      "jp": "適用された効果はありません。",
+      "kr": "적용된 효과가 없습니다."
+    },
+    "exportingGadgetImage": {
+      "en": "Exporting gadget image...",
+      "jp": "ガジェット画像を出力中...",
+      "kr": "가젯 이미지 추출 중..."
+    },
+    "noGadgetsMatchFilters": {
+      "en": "No gadgets match the current filters.",
+      "jp": "条件に合うガジェットがありません。",
+      "kr": "조건에 맞는 가젯이 없습니다."
+    },
+    "resetLabel": {
+      "en": "(Reset)",
+      "jp": "(リセット)",
+      "kr": "(초기화)"
+    },
+    "dummySectionDescription": {
+      "en": "This category describes gadgets that are included as dummy data in the game.",
+      "jp": "この分類は、ゲーム内のダミーデータとして含まれるガジェットをまとめたものです。",
+      "kr": "이 분류는 게임 내의 더미 데이터로 들어있는 가젯들을 설명합니다."
+    }
+  },
+  "gadgetTypes": {
+    "Ring Gain": {
+      "en": "Ring Gain",
+      "jp": "リングゲット",
+      "kr": "링 획득"
+    },
+    "Ring Ability": {
+      "en": "Ring Ability",
+      "jp": "リングアビリティ",
+      "kr": "링 능력"
+    },
+    "Technique Upgrade": {
+      "en": "Technique Upgrade",
+      "jp": "テクニック強化",
+      "kr": "테크닉 강화"
+    },
+    "Charge Upgrade": {
+      "en": "Charge Upgrade",
+      "jp": "チャージ強化",
+      "kr": "차지 강화"
+    },
+    "Stat Upgrade": {
+      "en": "Stat Upgrade",
+      "jp": "パラメータ強化",
+      "kr": "성능 강화"
+    },
+    "Support": {
+      "en": "Support",
+      "jp": "サポート",
+      "kr": "서포트"
+    },
+    "Item Control": {
+      "en": "Item Control",
+      "jp": "アイテムコントロール",
+      "kr": "아이템 컨트롤"
+    },
+    "Upgrade/Add Item": {
+      "en": "Upgrade/Add Item",
+      "jp": "アイテム強化・追加",
+      "kr": "아이템 강화/추가"
+    },
+    "Standard Kit": {
+      "en": "Standard Kit",
+      "jp": "スタンダードキット",
+      "kr": "스탠더드 키트"
+    },
+    "Machine Type Kit": {
+      "en": "Machine Type Kit",
+      "jp": "マシンタイプキット",
+      "kr": "머신 타입 키트"
+    },
+    "Character Type Kit": {
+      "en": "Character Type Kit",
+      "jp": "キャラタイプキット",
+      "kr": "캐릭터 타입 키트"
+    },
+    "Advanced Kit": {
+      "en": "Advanced Kit",
+      "jp": "アドバンスドキット",
+      "kr": "어드밴스 키트"
+    },
+    "Dummy": {
+      "en": "Dummy",
+      "jp": "ダミー",
+      "kr": "더미"
+    },
+    "Others": {
+      "en": "Others",
+      "jp": "その他",
+      "kr": "기타"
+    }
+  },
+  "machine": {
+    "noMachines": {
+      "en": "No machines available yet.",
+      "jp": "マシンはまだ利用できません。",
+      "kr": "머신은 아직 이용할 수 없습니다."
+    },
+    "searchQuery": {
+      "en": "Search query:",
+      "jp": "検索クエリ:",
+      "kr": "검색어:"
+    },
+    "selectType": {
+      "en": "Select Machine Type",
+      "jp": "マシンタイプを選択してください",
+      "kr": "머신 타입을 선택하세요"
+    },
+    "changeType": {
+      "en": "Change Type",
+      "jp": "タイプ変更",
+      "kr": "타입 변경"
+    },
+    "sortLabel": {
+      "en": "Sort",
+      "jp": "並び替え",
+      "kr": "정렬"
+    },
+    "sortLabel": {
+      "en": "Sort",
+      "jp": "並び替え",
+      "kr": "정렬"
+    },
+    "sortByEfficiency": {
+      "en": "Efficiency",
+      "jp": "効率順",
+      "kr": "효율순"
+    },
+    "sortDesc": {
+      "en": "↓ High",
+      "jp": "↓ 高い順",
+      "kr": "↓ 높은 순"
+    },
+    "sortAsc": {
+      "en": "↑ Low",
+      "jp": "↑ 低い順",
+      "kr": "↑ 낮은 순"
+    },
+    "sortDefault": {
+      "en": "Default",
+      "jp": "標準順",
+      "kr": "기본 순"
+    },
+    "sortDefault": {
+      "en": "Default",
+      "jp": "標準順",
+      "kr": "기본 순"
+    },
+    "efficiencySourceAuthor": {
+      "en": "Efficiency sort by Unexsitance (author)",
+      "jp": "効率ソート出典: Unexsitance（作者）",
+      "kr": "효율 정렬 출처: Unexsitance (만든이)"
+    },
+    "efficiencySourceRef": {
+      "en": "Reference spreadsheet",
+      "jp": "参照スプレッドシート",
+      "kr": "참조 파일"
+    },
+    "front": {
+      "en": "Front",
+      "jp": "フロント",
+      "kr": "프론트"
+    },
+    "rear": {
+      "en": "Rear",
+      "jp": "リア",
+      "kr": "리어"
+    },
+    "tire": {
+      "en": "Tire",
+      "jp": "タイヤ",
+      "kr": "타이어"
+    },
+    "showMechanicTables": {
+      "en": "View speed/drift tables",
+      "jp": "速度・ドリフト関連表を見る",
+      "kr": "속도/드리프트 관련 표 보기"
+    },
+    "sectionLabel": {
+      "en": "Machine Selection",
+      "jp": "マシン選択",
+      "kr": "머신 선택"
+    },
+    "recommendLabel": {
+      "en": "Recommended",
+      "jp": "おすすめ度",
+      "kr": "추천도"
+    },
+    "signatureTraitLabel": {
+      "en": "Signature Trait",
+      "jp": "固有特徴",
+      "kr": "고유 특징"
+    },
+    "prosLabel": {
+      "en": "Advantages",
+      "jp": "長所",
+      "kr": "장점"
+    },
+    "consLabel": {
+      "en": "Disadvantages",
+      "jp": "短所",
+      "kr": "단점"
+    },
+    "featuresLabel": {
+      "en": "Features",
+      "jp": "特徴",
+      "kr": "특징"
+    }
+  },
+  "machineTypeTableHeader": {
+    "stat": {
+      "en": "Stat",
+      "jp": "ステータス",
+      "kr": "능력치"
+    },
+    "tendency": {
+      "en": "Tendency",
+      "jp": "傾向",
+      "kr": "경향"
+    }
+  },
+  "statTable": {
+    "not": {
+      "en": "Default Stats",
+      "jp": "基本ステータス",
+      "kr": "기본 스탯"
+    },
+    "equal": {
+      "en": "Matching Type",
+      "jp": "タイプ一致",
+      "kr": "타입 일치"
+    },
+    "mode": {
+      "en": "Transformed",
+      "jp": "変形時",
+      "kr": "변형 시"
+    },
+    "burning": {
+      "en": "Ring Burn",
+      "jp": "リングバーニング",
+      "kr": "링 버닝"
+    },
+    "evolution": {
+      "en": "Evolution",
+      "jp": "進化",
+      "kr": "진화"
+    },
+    "perRing": {
+      "en": "+ rings",
+      "jp": "+リング",
+      "kr": "+ 링"
+    }
+  },
+  "sidebar": {
+    "yourBuilds": {
+      "en": "Your Builds",
+      "jp": "ビルド構成",
+      "kr": "나의 빌드"
+    },
+    "character": {
+      "en": "Character",
+      "jp": "キャラクター",
+      "kr": "캐릭터"
+    },
+    "gadget": {
+      "en": "Gadget",
+      "jp": "ガジェット",
+      "kr": "가젯"
+    },
+    "machine": {
+      "en": "Machine",
+      "jp": "マシン",
+      "kr": "머신"
+    },
+    "selectCharacter": {
+      "en": "Select character",
+      "jp": "キャラクター選択",
+      "kr": "캐릭터 선택"
+    },
+    "noGadget": {
+      "en": "No gadget selected",
+      "jp": "ガジェット未選択",
+      "kr": "가젯이 선택되지 않았습니다"
+    },
+    "selectMachine": {
+      "en": "Select machine",
+      "jp": "マシン選択",
+      "kr": "머신 선택"
+    },
+    "checkGadgetShort": {
+      "en": "Preview",
+      "jp": "プレビュー",
+      "kr": "가젯 확인"
+    },
+    "exportGadgetOnlyShort": {
+      "en": "Export Image",
+      "jp": "画像出力",
+      "kr": "가젯만 출력"
+    },
+    "imageExtractingShort": {
+      "en": "Exporting…",
+      "jp": "出力中…",
+      "kr": "추출 중…"
+    },
+    "noCharacterShort": {
+      "en": "No Character",
+      "jp": "キャラクター未選択",
+      "kr": "캐릭터 미선택"
+    },
+    "checkBuild": {
+      "en": "Check Build",
+      "jp": "ビルド確認",
+      "kr": "빌드 확인"
+    },
+    "exportGadgetOnly": {
+      "en": "Export Gadgets Only",
+      "jp": "ガジェットのみ出力",
+      "kr": "가젯만 출력"
+    },
+    "checkGadget": {
+      "en": "Check Gadgets",
+      "jp": "ガジェット確認",
+      "kr": "가젯 확인"
+    },
+    "buildConfirmation": {
+      "en": "Build",
+      "jp": "ビルド",
+      "kr": "빌드"
+    },
+    "activeEffects": {
+      "en": "Active Effects",
+      "jp": "発動効果",
+      "kr": "적용된 효과"
+    },
+    "noActiveEffects": {
+      "en": "No active effects.",
+      "jp": "発動中の効果はありません。",
+      "kr": "적용된 효과가 없습니다."
+    },
+    "showActiveEffects": {
+      "en": "Show active effects",
+      "jp": "発動効果を表示",
+      "kr": "적용된 효과 표시"
+    },
+    "showActiveEffectsShort": {
+      "en": "Effects",
+      "jp": "効果表示",
+      "kr": "효과 표시"
+    },
+    "imageExtracting": {
+      "en": "Exporting image...",
+      "jp": "画像を出力中...",
+      "kr": "이미지 추출 중..."
+    },
+    "saveImage": {
+      "en": "Save Image",
+      "jp": "画像を保存",
+      "kr": "이미지 저장"
+    },
+    "itemDetail": {
+      "en": "Item Detail",
+      "jp": "アイテム詳細",
+      "kr": "아이템 상세"
+    },
+    "mapDetail": {
+      "en": "Map Detail",
+      "jp": "マップ詳細",
+      "kr": "맵 상세"
+    },
+    "noItemSelected": {
+      "en": "No item selected.",
+      "jp": "アイテムが選択されていません。",
+      "kr": "선택된 아이템이 없습니다."
+    },
+    "noMapSelected": {
+      "en": "No map selected.",
+      "jp": "マップが選択されていません。",
+      "kr": "선택된 맵이 없습니다."
+    },
+    "detailLabel": {
+      "en": "Detail",
+      "jp": "詳細",
+      "kr": "디테일"
+    },
+    "attackType": {
+      "en": "Attack type",
+      "jp": "攻撃タイプ",
+      "kr": "공격 타입"
+    },
+    "ringDamage": {
+      "en": "Ring damage",
+      "jp": "リングダメージ",
+      "kr": "링 대미지"
+    },
+    "sameTimeCount": {
+      "en": "Multiple stocks allowed",
+      "jp": "複数ストック可能",
+      "kr": "동시 스톡 가능"
+    },
+    "useCaseButton": {
+      "en": "Use cases",
+      "jp": "活用例",
+      "kr": "활용 예시"
+    },
+    "itemUseAvoidButton": {
+      "en": "Item use / dodge",
+      "jp": "アイテム活用・回避",
+      "kr": "아이템 활용/회피"
+    },
+    "useCaseModalTitle": {
+      "en": "Use cases",
+      "jp": "活用例",
+      "kr": "활용 예시"
+    },
+    "useCaseRecordingNote": {
+      "en": "Recorded on Nintendo Switch 2. (Nintendo Switch ver. also exists)",
+      "jp": "撮影はNintendo Switch 2で行われました。(Nintendo Switch バージョンも存在します)",
+      "kr": "촬영은 Nintendo Switch 2로 진행되었습니다. (Nintendo Switch 버전도 존재)"
+    },
+    "affectedGadgetsLabel": {
+      "en": "Affected gadgets",
+      "jp": "影響を受けるガジェット",
+      "kr": "영향 받는 가젯"
+    },
+    "gadgetPlateFanMade": {
+      "en": "The gadget plate is fan-made.",
+      "jp": "ガジェットプレートは自作です。",
+      "kr": "가젯 플레이트는 자작입니다."
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+    "speed":{
+        "title":{
+            "en": "Speed",
+            "jp": "スピード",
+            "kr": "스피드"
+        },
+        "description":{
+            "en": "A parameter that affects the machine's top speed.",
+            "jp": "マシンの最高速度に影響を与えるパラメータです。",
+            "kr": "머신의 최고속도에 영향을 주는 파라미터입니다."
+        },
+        "detail":{
+            "en": [
+                "Based on \"Sonic Speed\", speed increases by 0.05 km/h per 1 parameter. In other words, there is a 1 km/h difference for every 20 parameters.",
+                "The example video below shows the difference between (left: Speed 0, right: Speed 100).",
+                "The video was recorded in v1.3.1 version.",
+                "Based on 100 rings, Speed 0 = 194~195 km/h, Speed 100 = 199~200 km/h"
+            ],
+            "jp": [
+                "「ソニックスピード」を基準に、パラメータ1につき0.05km/h増加します。つまり、パラメータ20ごとに1km/hの差が生じます。",
+                "以下の例動画は (左: スピード 0, 右: スピード 100) の差を示しています。",
+                "該当動画はv1.3.1バージョンで撮影されました。",
+                "100リング状態では、スピード 0 = 194~195 km/h, スピード 100 = 199~200 km/h"
+            ],
+            "kr": [
+                "소닉 스피드 기준 파라미터 1당 0.05 km/h 증가. 즉, 파라미터 20 당 1km/h 차이가 납니다.",
+                "아래 예시 영상은 (왼쪽 : 스피드 0, 오른쪽 : 스피드 100)의 차이를 보여줍니다.",
+                "해당 영상은 v1.3.1 버전에서 촬영되었습니다.",
+                "링 100개 상태 기준, 스피드 0 = 194~195km/h, 스피드 100 = 199~200km/h"
+            ]
+        },
+        "example":[
+            "speed_param_0.mp4",
+            "speed_param_100.mp4"
+        ]
+    },
+    "acceleration":{
+        "title":{
+            "en": "Acceleration",
+            "jp": "アクセル",
+            "kr": "액셀"
+        },
+        "description":{
+            "en": "A parameter that affects the time it takes to reach the machine's top speed.",
+            "jp": "マシンが最高速度に達するまでの時間に影響を与えるパラメータです。",
+            "kr": "머신의 최고속도에 도달하는데 걸리는 시간에 영향을 주는 파라미터입니다."
+        },
+        "detail":{
+            "en": [
+                "This is one of the stats where the difference per parameter is not easily noticeable visually. (The other is Handling. However, the difference definitely exists.)",
+                "Although not shown on the surface, this game features a hidden 'Gear Shifting System'. (This refers to the realistic mechanics of shifting gears to accelerate.)",
+                "Please note that it only affects the time it takes to reach the machine's top speed, and has no effect on speed recovery after being hit by an item.",
+                "The example video below shows the difference between (Left: Accel 0, Right: Accel 100).",
+                "There is an important bug regarding the Acceleration value. In certain Acceleration value ranges, the time it takes to reach top speed is actually delayed.",
+                "For more details, please refer to the 'Acceleration stat table references' below.",
+                "The video was recorded in v1.3.1 version."
+            ],
+            "jp": [
+                "パラメータごとの違いが、見た目には大きく表れないステータスの一つです。（もう一つはハンドリング。ただし、違いは確実に存在します。）",
+                "このゲームには表面上は表れませんが、「ギア変速システム」が存在します。（ギアを変更して加速するという現実の要素を再現したものです。）",
+                "マシンの最高速度に到達するまでの時間にのみ影響し、アイテム被弾後の速度回復には影響しないため、ご留意ください。",
+                "以下のサンプル動画は（左：アクセル0、右：アクセル100）の違いを示しています。",
+                "アクセル数値に関して、重要なバグの報告があります。特定のアクセル数値の区間では、逆に最高速度に達するまでの時間が遅くなる現象が発生します。",
+                "詳細は、以下の「アクセル数値表の参考資料」をご参照ください。",
+                "該当動画はv1.3.1バージョンで撮影されました。"
+            ],
+            "kr": [
+                "파라미터 당 차이가 겉보기에는 크게 두드러지지 않는 스탯 중 하나입니다. (다른 하나는 핸들링. 다만 차이는 분명하게 납니다.)",
+                "이 게임에는 표면적으로는 드러나지 않지만 '기어 변속 시스템'이 존재합니다. (기어를 변경하여 가속하는 현실의 고증을 의미합니다.)",
+                "머신의 최고속도에 도달하는 시간에만 영향을 주고, 아이템 피격 후 속도 회복에는 영향이 없으므로 이 점을 유의하기 바랍니다.",
+                "아래 예시 영상은 (왼쪽 : 액셀 0, 오른쪽 : 액셀 100)의 차이를 보여줍니다.",
+                "액셀 수치와 관련하여 중요한 버그 사항이 있습니다. 특정 액셀 수치 구간에서는 오히려 최고속도에 도달하는 시간이 늦어지는 현상이 있습니다.",
+                "자세한 사항은 아래의 '액셀 수치 테이블 참고 자료'를 참고하기 바랍니다.",
+                "해당 영상은 v1.3.1 버전에서 촬영되었습니다."
+            ]
+        },
+        "note_links" : [
+            "https://docs.google.com/spreadsheets/d/10teib1WF_OMFJ2d_3haf9xyyqSw6XL_H4Btl5b0SXzY/edit?gid=560641318#gid=560641318",
+            "https://youtu.be/GhK4nJ5ZR8w?si=Ik4mTc0SfPDzsY41"
+        ],
+        "example":[
+            "acceleration_param_0.mp4",
+            "acceleration_param_100.mp4"
+        ]
+    },
+    "handling":{
+        "title":{
+            "en": "Handling",
+            "jp": "ハンドリング",
+            "kr": "핸들링"
+        },
+        "description":{
+            "en": "A parameter that determines the machine's cornering. The higher the value, the sharper you can turn, and left/right steering during a drift becomes easier.",
+            "jp": "マシンのコーナリングを決定するパラメータです。数値が高いほどより鋭く曲がることができ、ドリフト時の左右の操作が容易になります。",
+            "kr": "머신의 코너링을 결정하는 파라미터 입니다. 수치가 높을수록 더 많이 꺾을 수 있고, 드리프트 시 좌우 조작이 쉬워집니다."
+        },
+        "detail":{
+            "en": [
+                "While improved cornering is actually noticeable in gameplay, it can be difficult to show a clear difference in a visual example.",
+                "However, if you change your stats using gadgets like the \"Hyper Ring Engine\", the difference becomes clearly noticeable.",
+                "During a drift, you can finely control the drift angle depending on your left/right stick adjustments.",
+                "A common misconception is that higher Handling increases your cornering speed; it does not. This is actually a phenomenon caused by the inherent characteristics of Handling Type machines."
+            ],
+            "jp": [
+                "コーナリングの向上は実際に体感できますが、例として見せられるほどの明確な違いを示すのは難しい場合があります。",
+                "「ハイパーリングエンジン」などでステータスを変化させると、確実に体感できるようになります。",
+                "ドリフト時、左右のスティック操作によって、ドリフトの角度を細かく調整することが可能です。",
+                "誤解されがちですが、ハンドリングが高くてもコーナーを突破する速度は速くなりません。これは、ハンドリングタイプのマシン固有の特徴による現象です。"
+            ],
+            "kr": [ 
+                "코너링이 좋아진다는 것은 실제로 체감이 가능은 하나 예시로 보여줄 수 있을 만큼의 체감은 보이기 어려울 수 있습니다.",
+                "「하이퍼 링 엔진」 등으로 스탯을 변화시키면 확실히 체감이 가능해집니다.",
+                "드리프트 시, 좌/우 스틱 조절에 따라 드리프트 각도를 세밀하게 조작이 가능합니다.",
+                "오해 사항으로 핸들링이 높아도 코너를 돌파하는 속도는 빨라지지 않습니다. 이 사항은 핸들링 머신의 고유 특징에 의한 현상입니다."
+            ]
+        }
+    },
+    "power":{
+        "title":{
+            "en": "Power",
+            "jp": "パワー",
+            "kr": "파워"
+        },
+        "description":{
+            "en": "A parameter that compares this value upon collision with another machine to determine who loses more rings. The one with the higher value does not lose rings.",
+            "jp": "マシンと衝突した際にこの値を比較し、どちらがより多くのリングを失うかを決定するパラメータです。数値が高い方がリングを失いません。",
+            "kr": "머신과 부딪혔을 때 이 값을 비교하여 링을 더 많이 잃는지를 결정하는 파라미터입니다. 수치가 높은 쪽이 링을 잃지 않습니다."
+        },
+        "detail":{
+            "en": [
+                "The Power stat purely determines 'who loses more rings upon collision with a machine.' You should not think of it in a 'Mario Kart' style, where it dictates 'who gets knocked back further when colliding.",
+                "Therefore, you must always be aware that you might lose in a collision against Dash Type machines (Extreme Gear) that 'look weak in physical collisions.' (This is due to the game's collision physics, such as bumping.)",
+                "When comparing Power values, the one with the higher value does not lose any rings, while the lower one loses 2 rings.",
+                "If the Power values are equal, both sides lose 1 ring.",
+                "The example video below shows the difference between (Left: When Power values are different, Right: When Power values are the same).",
+                "The video was recorded in v1.3.1 version."
+            ],  
+            "jp": [
+                "パワー数値は純粋に「マシンと衝突した際にどちらがより多くのリングを失うか」のみを決定します。「ぶつかった時にどちらがより遠くへ弾き飛ばされるか」といった、「マリオカート」のような感覚で考えてはいけません。",
+                "したがって、「当たり合いに弱そうに見える」ダッシュタイプのマシン（エクストリームギア）との競り合いで押し負ける可能性があることに常に注意する必要があります。（これは、ゲーム内のバンプなどの衝突特性によるものです。）",
+                "パワー数値を比較し、高い方はリングを消費せず、低い方はリングを2個失います。",
+                "パワー数値が互いに等しい場合は、両者ともリングを1個失います。",
+                "以下の動画は（左：パワーが異なる場合、右：パワー数値が同じ場合）の違いを示しています。",
+                "該当動画はv1.3.1バージョンで撮影されました。"
+            ],
+            "kr": [
+                "파워 수치는 온전히 '머신과 부딪혔을 때 링을 더 많이 잃는지'만을 결정합니다. '부딪혔을 때 누가 더 멀리 튕겨져나가는지' 식의 '마리오 카트'식으로 생각하면 안됩니다.",
+                "따라서, '몸싸움에 약해보이는' 대시 타입 머신 (익스트림 기어)와의 몸싸움에서 밀릴 수도 있음을 항상 유의해야 합니다. (이는 게임의 범프와 같은 충돌 물리 특성에 의해 이루어집니다.)",
+                "파워 수치를 비교해서 더 높은 쪽이 링을 소모하지 않고, 낮은 쪽이 링을 2개 잃습니다.",
+                "파워 수치가 서로 동등한 경우에는 양쪽 모두 링을 1개 잃습니다.",
+                "아래 예시 영상은 (왼쪽 : 파워가 서로 다른 경우, 오른쪽 : 파워 수치가 같은 경우)의 차이를 보여줍니다.",
+                "스핀 드리프트에도 파워 수치가 영향을 받습니다. 파워 수치가 높을수록 '스핀 드리프트'로 상대방을 더 멀리 튕겨낼 수 있습니다.",
+                "해당 영상은 v1.3.1 버전에서 촬영되었습니다."
+            ]
+        },
+        "example":[
+            "power_param_diff.mp4",
+            "power_param_same.mp4"
+        ],
+        "note_links":[
+            "https://youtu.be/nKfQbYp2-IE?si=93_1mY071d7QsSFP&t=476"
+        ]
+    },
+    "boost":{
+        "title":{
+            "en": "Boost",
+            "jp": "ダッシュ",
+            "kr": "대시"
+        },
+        "description":{
+            "en": "A parameter that affects the drift charge speed. It does not affect the length of the Charge Boost.",
+            "jp": "ドリフトのチャージ速度に影響を与えるパラメータです。チャージダッシュの距離には影響しません。",
+            "kr": "드리프트 차지 속도에 영향을 주는 파라미터입니다. 차지 대시의 길이에는 영향을 주지 않습니다."
+        },
+        "detail":{
+            "en": [
+                "The Dash value does not affect the length or speed of the Charge Boost. Please note this, as it is easy to confuse.",
+                "The charge speed increases by 0.05% per 1 Dash value. (There is a 1.5x difference in charge speed between a value of 0 and 100.)",
+                "The example video below shows the difference between (Left: Dash value 2, Right: Dash value 100).",
+                "The video was recorded in v1.3.1 version."
+            ],
+            "jp": [
+                "ダッシュ数値は、チャージダッシュの距離や速度には影響を与えません。誤解しやすいため、ご留意ください。",
+                "ダッシュ数値1につき、チャージ速度が0.05%速くなります。（数値0と100のチャージ速度の差は1.5倍です。）",
+                "以下のサンプル動画は（左：ダッシュ数値2、右：ダッシュ数値100）の違いを示しています。",
+                "該当動画はv1.3.1バージョンで撮影されました。"
+            ],
+            "kr": [
+                "대시 수치는 차지 대시의 길이에는 영향을 주지 않습니다. 헷갈리기 쉽기 때문에 유의하기 바랍니다.",
+                "대시 수치 1당 0.05%씩 차지 속도가 빨라집니다. (0과 100의 차지 속도 차이는 1.5배 차이 입니다.)",
+                "아래 예시 영상은 (왼쪽 : 대시 수치 2, 오른쪽 : 대시 수치 100)의 차이를 보여줍니다.",
+                "해당 영상은 v1.3.1 버전에서 촬영되었습니다."
+            ]
+        },
+        "example":[
+            "boost_param_2.mp4",
+            "boost_param_100.mp4"
+        ]
+    }
+}

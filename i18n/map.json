@@ -1,0 +1,59 @@
+{
+  "grandPrixNames": {
+    "Donpa": {
+      "en": "Donpa Grand Prix",
+      "jp": "ドンパグランプリ",
+      "kr": "돈파 그랑프리"
+    },
+    "Wisp": {
+      "en": "Wisp Grand Prix",
+      "jp": "ウィスプグランプリ",
+      "kr": "위스프 그랑프리"
+    },
+    "BoomBoo": {
+      "en": "Boom Boo Grand Prix",
+      "jp": "ブーグランプリ",
+      "kr": "부우 그랑프리"
+    },
+    "Pumpkin": {
+      "en": "Pumpkin Grand Prix",
+      "jp": "パンプキングランプリ",
+      "kr": "펌킨 그랑프리"
+    },
+    "Coral": {
+      "en": "Coral Grand Prix",
+      "jp": "コーラルグランプリ",
+      "kr": "코럴 그랑프리"
+    },
+    "Chao": {
+      "en": "Chao Grand Prix",
+      "jp": "チャオグランプリ",
+      "kr": "챠오 그랑프리"
+    },
+    "Egg": {
+      "en": "Egg Grand Prix",
+      "jp": "エッググランプリ",
+      "kr": "에그 그랑프리"
+    },
+    "Secret": {
+      "en": "Secret Grand Prix",
+      "jp": "シークレットグランプリ",
+      "kr": "시크릿 그랑프리"
+    },
+    "Crossover1": {
+      "en": "Crossover Grand Prix 1 ",
+      "jp": "クロスオーバーグランプリ1",
+      "kr": "크로스오버 그랑프리 1"
+    },
+    "Crossover2": {
+      "en": "Crossover Grand Prix 2",
+      "jp": "クロスオーバーグランプリ2",
+      "kr": "크로스오버 그랑프리 2"
+    },
+    "Crossworld": {
+      "en": "Crossworld",
+      "jp": "クロスワールド",
+      "kr": "크로스월드"
+    }
+  }
+}

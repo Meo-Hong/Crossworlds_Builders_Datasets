@@ -1,0 +1,1299 @@
+[
+    {
+        "id" : "character_001",
+        "name": {
+            "en": "Sonic the Hedgehog",
+            "jp": "ソニック・ザ・ヘッジホッグ",
+            "kr" : "소닉 더 헤지혹"
+        },
+        "icon" : "sonic_icon.png",
+        "type": "speed",
+        "team" : "sonic",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 20,
+            "acceleration" : 5,
+            "handling" : 13,
+            "power" : 15,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_002",
+        "name": {
+            "en": "Miles 'Tails' Prower",
+            "jp": "マイルス 'テイルス' パウアー",
+            "kr" : "마일즈 '테일즈' 프로워"
+        },
+        "icon" : "tails_icon.png",
+        "type": "acceleration",
+        "team" : "sonic",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 15,
+            "acceleration" : 20,
+            "handling" : 7,
+            "power" : 13,
+            "boost" : 5
+        }
+    },
+    {
+        "id" : "character_003",
+        "name": {
+            "en": "Knuckles the Echidna",
+            "jp": "ナックルズ・ザ・エキドゥナ",
+            "kr" : "너클즈 디 에키드나"
+        },
+        "icon" : "knuckles_icon.png",
+        "type": "power",
+        "team" : "sonic",
+        "from" : "Sonic the Hedgehog",
+        "stat table" : {
+            "speed" : 13,
+            "acceleration" : 8,
+            "handling" : 5,
+            "power" : 18,
+            "boost" : 16
+        }
+    },
+    {
+        "id" : "character_004",
+        "name": {
+            "en": "Amy Rose",
+            "jp": "エミー・ローズ",
+            "kr" : "에이미 로즈"
+        },
+        "icon" : "amy_icon.png",
+        "type": "handling",
+        "team" : "rose",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 5,
+            "acceleration" : 15,
+            "handling" : 20,
+            "power" : 7,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_005",
+        "name": {
+            "en": "Cream the Rabbit & Cheese",
+            "jp": "クリーム・ザ・ラビット & チーズ",
+            "kr" : "크림 더 래빗 & 치즈"
+        },
+        "icon" : "cream_icon.png",
+        "type": "handling",
+        "team" : "rose",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 14,
+            "handling" : 19,
+            "power" : 9,
+            "boost" :11
+        }
+    },
+    {
+        "id" : "character_006",
+        "name": {
+            "en": "Big the Cat",
+            "jp": "ビッグ・ザ・キャット",
+            "kr" : "빅 더 캣"
+        },
+        "icon" : "big_icon.png",
+        "type": "power",
+        "team" : "rose",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 12,
+            "acceleration" : 10,
+            "handling" : 7,
+            "power" : 17,
+            "boost" : 14
+        }
+    },
+    {
+        "id" : "character_007",
+        "name": {
+            "en": "Silver the Hedgehog",
+            "jp": "シルバー・ザ・ヘッジホッグ",
+            "kr" : "실버 더 헤지혹"
+        },
+        "icon" : "silver_icon.png",
+        "type": "handling",
+        "team" : "dimensions",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 13,
+            "handling" : 20,
+            "power" : 9,
+            "boost" : 11
+        }
+    },
+    {
+        "id" : "character_008",
+        "name": {
+            "en": "Blaze the Cat",
+            "jp": "ブレイズ・ザ・キャット",
+            "kr" : "블레이즈 더 캣"
+        },
+        "icon" : "blaze_icon.png",
+        "type": "speed",
+        "team" : "dimensions",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 20,
+            "acceleration" : 7,
+            "handling" : 11,
+            "power" : 13,
+            "boost" : 9
+        }
+    },
+    {
+        "id" : "character_009",
+        "name": {
+            "en": "Shadow the Hedgehog",
+            "jp": "シャドウ・ザ・ヘッジホッグ",
+            "kr" : "섀도우 더 헤지혹"
+        },
+        "icon" : "shadow_icon.png",
+        "type": "speed",
+        "team" : "dark",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 20,
+            "acceleration" : 7,
+            "handling" : 11,
+            "power" : 13,
+            "boost" : 9
+        }
+    },
+    {
+        "id" : "character_010",
+        "name": {
+            "en": "Rouge the Bat",
+            "jp": "ルージュ・ザ・バット",
+            "kr" : "루즈 더 뱃"
+        },
+        "icon" : "rouge_icon.png",
+        "type": "handling",
+        "team" : "dark",
+        "from" : "Sonic the Hedgehog",
+        "stat table" : {
+            "speed" : 5,
+            "acceleration" : 16,
+            "handling" : 19,
+            "power" : 7,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_011",
+        "name": {
+            "en": "E-123 Omega",
+            "jp": "E-123 オメガ",
+            "kr": "E-123 오메가"
+        },
+        "icon" : "omega_icon.png",
+        "type": "power",
+        "team" : "dark",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 11,
+            "acceleration" : 9,
+            "handling" : 7,
+            "power" : 20,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_012",
+        "name": {
+            "en": "Vector the Crocodile",
+            "jp": "ベクター・ザ・クロコダイル",
+            "kr" : "벡터 더 크로커다일"
+        },
+        "icon" : "vector_icon.png",
+        "type": "power",
+        "team" : "chaotix",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 13,
+            "acceleration" : 7,
+            "handling" : 5,
+            "power" : 19,
+            "boost" : 16
+        }
+    },
+    {
+        "id" : "character_013",
+        "name": {
+            "en": "Espio the Chameleon",
+            "jp": "エスピオ・ザ・カメレオン",
+            "kr" : "에스피오 더 카멜레온"
+        },
+        "icon" : "espio_icon.png",
+        "type": "speed",
+        "team" : "chaotix",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 17,
+            "acceleration" : 5,
+            "handling" : 14,
+            "power" : 16,
+            "boost" : 8
+        }
+    },
+    {
+        "id" : "character_014",
+        "name": {
+            "en": "Charmy Bee",
+            "jp": "チャーミー・ビー",
+            "kr" : "차미 비"
+        },
+        "icon" : "charmy_icon.png",
+        "type": "acceleration",
+        "team" : "chaotix",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 14,
+            "acceleration" : 18,
+            "handling" : 10,
+            "power" : 11,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_015",
+        "name": {
+            "en": "Zavok",
+            "jp": "ザボック",
+            "kr" : "자보크"
+        },
+        "icon" : "zavok_icon.png",
+        "type": "power",
+        "team" : "deadly six",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 13,
+            "acceleration" : 7,
+            "handling" : 5,
+            "power" : 20,
+            "boost" : 15
+        }
+    },
+    {
+        "id" : "character_016",
+        "name": {
+            "en": "Zazz",
+            "jp": "ザズ",
+            "kr" : "자즈"
+        },
+        "icon" : "zazz_icon.png",
+        "type": "acceleration",
+        "team" : "deadly six",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 16,
+            "acceleration" : 18,
+            "handling" : 8,
+            "power" : 13,
+            "boost" : 5
+        }
+    },
+    {
+        "id" : "character_017",
+        "name": {
+            "en": "Dr. EGGMAN",
+            "jp": "Dr. エッグマン",
+            "kr" : "닥터 에그맨"
+        },
+        "icon" : "eggman_icon.png",
+        "type": "power",
+        "team" : "eggman",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 14,
+            "acceleration" : 8,
+            "handling" : 5,
+            "power" : 17,
+            "boost" : 16
+        }
+    },
+    {
+        "id" : "character_018",
+        "name": {
+            "en": "Metal Sonic",
+            "jp": "メタルソニック",
+            "kr" : "메탈 소닉"
+        },
+        "icon" : "metal_icon.png",
+        "type": "speed",
+        "team" : "eggman",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 19,
+            "acceleration" : 5,
+            "handling" : 13,
+            "power" : 16,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_019",
+        "name": {
+            "en": "Egg Pawn",
+            "jp": "エッグポーン",
+            "kr" : "에그 폰"
+        },
+        "icon" : "pawn_icon.png",
+        "type": "acceleration",
+        "team" : "eggman",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 16,
+            "acceleration" : 17,
+            "handling" : 8,
+            "power" : 14,
+            "boost" : 5
+        }
+    },
+    {
+        "id" : "character_020",
+        "name": {
+            "en": "Sage",
+            "jp": "セージ",
+            "kr" : "세이지"
+        },
+        "icon" : "sage_icon.png",
+        "type": "acceleration",
+        "team" : "eggman",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 14,
+            "acceleration" : 17,
+            "handling" : 10,
+            "power" : 12,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_021",
+        "name": {
+            "en": "Jet the Hawk",
+            "jp": "ジェット・ザ・ホーク",
+            "kr" : "제트 더 호크"
+        },
+        "icon" : "jet_icon.png",
+        "type": "speed",
+        "team" : "babylonian",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 19,
+            "acceleration" : 7,
+            "handling" : 11,
+            "power" : 14,
+            "boost" : 9
+        }
+    },
+    {
+        "id" : "character_022",
+        "name": {
+            "en": "Wave the Swallow",
+            "jp": "ウェーブ・ザ・スワロー",
+            "kr" : "웨이브 더 스왈로"
+        },
+        "icon" : "wave_icon.png",
+        "type": "acceleration",
+        "team" : "babylonian",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 16,
+            "acceleration" : 19,
+            "handling" : 7,
+            "power" : 13,
+            "boost" : 5
+        }
+    },
+    {
+        "id" : "character_023",
+        "name": {
+            "en": "Storm the Albatross",
+            "jp": "ストーム・ザ・アルバトロス",
+            "kr" : "스톰 디 앨버트로스"
+        },
+        "icon" : "storm_icon.png",
+        "type": "power",
+        "team" : "babylonian",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 11,
+            "acceleration" : 9,
+            "handling" : 7,
+            "power" : 19,
+            "boost" : 14
+        }
+    },
+    {
+        "id" : "character_024",
+        "name": {
+            "en": "Super Sonic",
+            "jp": "スーパーソニック",
+            "kr" : "슈퍼 소닉"
+        },
+        "icon" : "super_sonic_icon.png",
+        "type": "speed",
+        "team" : "supersonic",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 20,
+            "acceleration" : 20,
+            "handling" : 20,
+            "power" : 20,
+            "boost" : 20
+        }
+    },
+    {
+        "id" : "character_024_2",
+        "name": {
+            "en": "Super Shadow",
+            "jp": "スーパーソニック",
+            "kr" : "슈퍼 섀도우"
+        },
+        "icon" : "super_shadow_icon.png",
+        "type": "speed",
+        "team" : "supersonic",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 20,
+            "acceleration" : 20,
+            "handling" : 20,
+            "power" : 20,
+            "boost" : 20
+        }
+    },
+    {
+        "id" : "character_025",
+        "name": {
+            "en": "Nine",
+            "jp": "ナイン",
+            "kr" : "나인"
+        },
+        "icon" : "sonic_prime_icon.png",
+        "type": "acceleration",
+        "team" : "prime",
+        "from" : {
+            "en": "Sonic Prime",
+            "jp": "ソニック プライム",
+            "kr" : "소닉 프라임"
+        },
+        "stat table" : {
+            "speed" : 15,
+            "acceleration" : 20,
+            "handling" : 7,
+            "power" : 13,
+            "boost" : 5
+        }
+    },
+    {
+        "id" : "character_026",
+        "name": {
+            "en": "Knuckles the Dread",
+            "jp": "ナックルズ・ザ・ドレッド",
+            "kr" : "너클즈 더 드레드"
+        },
+        "icon" : "sonic_prime_icon.png",
+        "type": "power",
+        "team" : "prime",
+        "from" : {
+            "en": "Sonic Prime",
+            "jp": "ソニック プライム",
+            "kr" : "소닉 프라임"
+        },
+        "stat table" : {
+            "speed" : 13,
+            "acceleration" : 7,
+            "handling" : 5,
+            "power" : 20,
+            "boost" : 15
+        }
+    },
+    {
+        "id" : "character_027",
+        "name": {
+            "en": "Rusty Rose",
+            "jp": "ラスティ・ローズ",
+            "kr" : "러스티 로즈"
+        },
+        "icon" : "sonic_prime_icon.png",
+        "type": "handling",
+        "team" : "prime",
+        "from" : {
+            "en": "Sonic Prime",
+            "jp": "ソニック プライム",
+            "kr" : "소닉 프라임"
+        },
+        "stat table" : {
+            "speed" : 5,
+            "acceleration" : 15,
+            "handling" : 20,
+            "power" : 7,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_028",
+        "name": {
+            "en": "Werehog",
+            "jp": "ウェアホッグ",
+            "kr" : "웨어혹"
+        },
+        "icon" : "werehog_icon.png",
+        "type": "power",
+        "team" : "werehog",
+        "from" : {
+            "en": "Sonic Unleashed",
+            "jp": "ソニック ワールドアドベンチャー",
+            "kr" : "소닉 언리쉬드"
+        },
+        "stat table" : {
+            "speed" : 14,
+            "acceleration" : 9,
+            "handling" : 6,
+            "power" : 16,
+            "boost" : 15
+        }
+    },
+    {
+        "id" : "character_029",
+        "name": {
+            "en": "Hatsune Miku",
+            "jp": "初音ミク",
+            "kr" : "하츠네 미쿠"
+        },
+        "icon" : "miku_icon.png",
+        "type": "boost",
+        "team" : "update",
+        "from" : {
+            "en": "Hatsune Miku -Project DIVA-",
+            "jp": "初音ミク -Project DIVA-",
+            "kr" : "하츠네 미쿠 -Project DIVA-"
+        },
+        "stat table" : {
+            "speed" : 9,
+            "acceleration" : 14,
+            "handling" : 15,
+            "power" : 6,
+            "boost" : 16
+        }
+    },
+    {
+        "id" : "character_030",
+        "name": {
+            "en": "Joker",
+            "jp": "ジョーカー",
+            "kr" : "조커"
+        },
+        "icon" : "persona5_icon.png",
+        "type": "handling",
+        "team" : "update",
+        "from" : {
+            "en": "Persona 5",
+            "jp": "ペルソナ5",
+            "kr" : "페르소나5"
+        },
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 14,
+            "handling" : 18,
+            "power" : 10,
+            "boost" : 11
+        }
+    },
+    {
+        "id" : "character_031",
+        "name": {
+            "en": "Ichiban Kasuga",
+            "jp": "春日 一番",
+            "kr" : "카스가 이치반" 
+        },
+        "icon" : "like_a_dragon_icon.png",
+        "type": "power",
+        "team" : "update",
+        "from" : {
+            "en": "Yakuza Series",
+            "jp": "龍が如く シリーズ",
+            "kr" : "용과 같이 시리즈"
+        },
+        "stat table" : {
+            "speed" : 12,
+            "acceleration" : 11,
+            "handling" : 8,
+            "power" : 16,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_032",
+        "name": {
+            "en": "NiGHTS",
+            "jp": "ナイツ",
+            "kr" : "나이츠"
+        },
+        "icon" : "nights_icon.png",
+        "type": "speed",
+        "team" : "update",
+        "from" : {
+            "en": "NiGHTS Series",
+            "jp": "ナイツ シリーズ",
+            "kr" : "나이츠 시리즈"
+        },
+        "stat table" : {
+            "speed" : 17,
+            "acceleration" : 6,
+            "handling" : 13,
+            "power" : 15,
+            "boost" : 9
+        }
+    },
+    {
+        "id" : "character_033",
+        "name": {
+            "en": "AiAi",
+            "jp": "アイアイ",
+            "kr" : "아이아이"
+        },
+        "icon" : "aiai_icon.png",
+        "type": "handling",
+        "team" : "update",
+        "from" : {
+            "en": "Super Monkey Ball Series",
+            "jp": "スーパーモンキーボール シリーズ",
+            "kr" : "슈퍼 몽키 볼 시리즈"
+        },
+        "stat table" : {
+            "speed" : 5,
+            "acceleration" : 16,
+            "handling" : 17,
+            "power" : 8,
+            "boost" : 14
+        }
+    },
+    {
+        "id" : "character_034",
+        "name": {
+            "en": "Tangle the Lemur",
+            "jp": "タングル・ザ・リーマー",
+            "kr" : "탱글 더 리머"
+        },
+        "icon" : "tangle_icon.png",
+        "type": "acceleration",
+        "team" : "update",
+        "from" : {
+            "en": "Sonic IDW Comics",
+            "jp": "ソニック IDW コミックス",
+            "kr" : "소닉 IDW 코믹스"
+        },
+        "stat table" : {
+            "speed" : 15,
+            "acceleration" : 16,
+            "handling" : 9,
+            "power" : 14,
+            "boost" : 6
+        }
+    },
+    {
+        "id" : "character_035",
+        "name": {
+            "en": "Whisper the Wolf",
+            "jp": "ウィスパー・ザ・ウルフ",
+            "kr" : "위스퍼 더 울프"
+        },
+        "icon" : "whisper_icon.png",
+        "type": "boost",
+        "team" : "update",
+        "from" : {
+            "en": "Sonic IDW Comics",
+            "jp": "ソニック IDW コミックス",
+            "kr" : "소닉 IDW 코믹스"
+        },
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 13,
+            "handling" : 16,
+            "power" : 5,
+            "boost" : 19
+        }
+    },
+    {
+        "id" : "character_036",
+        "name": {
+            "en": "Red J. Bird",
+            "jp": "レッド J. バード",
+            "kr" : "레드 J. 버드"
+        },
+        "icon" : "angry_bird_icon.png",
+        "type": "speed",
+        "team" : "update",
+        "from" : {
+            "en": "Angry Birds Series",
+            "jp": "アングリーバード シリーズ",
+            "kr" : "앵그리 버드 시리즈"
+        },
+        "stat table" : {
+            "speed" : 17,
+            "acceleration" : 7,
+            "handling" : 12,
+            "power" : 14,
+            "boost" : 10
+        }
+    },
+    {
+        "id" : "character_037",
+        "name": {
+            "en": "Goro Majima",
+            "jp": "真島 吾朗",
+            "kr" : "마지마 고로"
+        },
+        "icon" : "like_a_dragon_icon.png",
+        "type": "acceleration",
+        "team" : "update",
+        "from" : {
+            "en": "Yakuza Series",
+            "jp": "龍が如く シリーズ",
+            "kr" : "용과 같이 시리즈"
+        },
+        "stat table" : {
+            "speed" : 13,
+            "acceleration" : 16,
+            "handling" : 11,
+            "power" : 12,
+            "boost" : 8
+        }
+    },
+    {
+        "id" : "character_038",
+        "name": {
+            "en": "Arle Nadja",
+            "jp": "アルル・ナジャ",
+            "kr" : "아르르 나쟈"
+        },
+        "icon" : "puyopuyo_icon.png",
+        "type": "handling",
+        "team" : "update",
+        "from" : {
+            "en": "Puyo Puyo Series",
+            "jp": "ぷよぷよシリーズ",
+            "kr" : "뿌요뿌요 시리즈"
+        },
+        "stat table" : {
+            "speed" : 6,   
+            "acceleration" : 15,
+            "handling" : 16,
+            "power" : 9,
+            "boost" : 14
+        }
+    },
+    {
+        "id" : "character_039",
+        "name": {
+            "en": "Classic Sonic",
+            "jp": "クラシックソニック",
+            "kr" : "클래식 소닉"
+        },
+        "icon" : "classic_sonic_icon.png",
+        "type": "speed",
+        "team" : "update",
+        "from" : {
+            "en": "Sonic Series",
+            "jp": "ソニック シリーズ",
+            "kr" : "소닉 시리즈"
+        },
+        "stat table" : {
+            "speed" : 20,
+            "acceleration" : 5,
+            "handling" : 13,
+            "power" : 15,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_040",
+        "name": {
+            "en": "Axel",
+            "jp": "アクセル",
+            "kr" : "액셀"
+        },
+        "icon" : "crazy_taxi_icon.png",
+        "type": "acceleration",
+        "team" : "update",
+        "from" : {
+            "en": "Crazy Taxi Series",
+            "jp": "クレイジータクシー シリーズ",
+            "kr" : "크레이지 택시 시리즈"
+        },
+        "stat table" : {
+            "speed" : 14,
+            "acceleration" : 17,
+            "handling" : 10,
+            "power" : 12,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_041",
+        "name": {
+            "en": "Amigo",
+            "jp": "アミーゴ",
+            "kr" : "아미고"
+        },
+        "icon" : "amigo_icon.png",
+        "type": "handling",
+        "team" : "update",
+        "from" : {
+            "en": "Samba de Amigo Series",
+            "jp": "サンバDEアミーゴ シリーズ",
+            "kr" : "삼바 데 아미고 시리즈"
+        },
+        "stat table" : {
+            "speed" : 6,
+            "acceleration" : 15,
+            "handling" : 17,
+            "power" : 9,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_dlc_001",
+        "name": {
+            "en": "Steve",
+            "jp": "スティーブ",
+            "kr" : "스티브"
+        },
+        "icon" : "minecraft_icon.png",
+        "type": "power",
+        "team" : "DLC",
+        "from" : {
+            "en": "Minecraft",
+            "jp": "Minecraft",
+            "kr" : "Minecraft"
+        },
+        "stat table" : {
+            "speed" : 12,
+            "acceleration" : 9,
+            "handling" : 6,
+            "power" : 18,
+            "boost" : 15
+        }
+    },
+    {
+        "id" : "character_dlc_002",
+        "name": {
+            "en": "Alex",
+            "jp": "アレックス",
+            "kr" : "알렉스"
+        },
+        "icon" : "minecraft_icon.png",
+        "type": "power",
+        "team" : "DLC",
+        "from" : {
+            "en": "Minecraft",
+            "jp": "Minecraft",
+            "kr": "Minecraft"
+        },
+        "stat table" : {
+            "speed" : 11,
+            "acceleration" : 10,
+            "handling" : 7,
+            "power" : 18,
+            "boost" : 14
+        }
+    },
+    {
+        "id" : "character_dlc_003",
+        "name": {
+            "en": "Creeper",
+            "jp": "クリーパー",
+            "kr" : "크리퍼"
+        },
+        "icon" : "creeper_icon.png",
+        "type": "acceleration",
+        "team" : "DLC",
+        "from" : {
+            "en": "Minecraft",
+            "jp": "Minecraft",
+            "kr": "Minecraft"
+        },
+        "stat table" : {
+            "speed" : 14,
+            "acceleration" : 19,
+            "handling" : 9,
+            "power" : 11,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_dlc_004",
+        "name": {
+            "en": "SpongeBob",
+            "jp": "スポンジ・ボブ",
+            "kr" : "스폰지밥"
+        },
+        "icon" : "spongebob_icon.png",
+        "type": "handling",
+        "team" : "DLC",
+        "from" : {
+            "en": "SpongeBob SquarePants",
+            "jp": "スポンジ・ボブ",
+            "kr" : "네모바지 스폰지밥"
+        },
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 14,
+            "handling" : 16,
+            "power" : 10,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_dlc_005",
+        "name": {
+            "en": "Patrick",
+            "jp": "パトリック",
+            "kr" : "뚱이"
+        },
+        "icon" : "patrick_icon.png",
+        "type": "power",
+        "team" : "DLC",
+        "from" : {
+            "en": "SpongeBob SquarePants",
+            "jp": "スポンジ・ボブ",
+            "kr" : "네모바지 스폰지밥"
+        },
+        "stat table" : {
+            "speed" : 13,
+            "acceleration" : 9,
+            "handling" : 6,
+            "power" : 17,
+            "boost" : 15
+        }
+    },
+    {
+        "id" : "character_dlc_006",
+        "name": {
+            "en": "PAC-MAN",
+            "jp": "パックマン",
+            "kr" : "팩맨"
+        },
+        "icon" : "pacman_icon.png",
+        "type": "acceleration",
+        "team" : "DLC",
+        "from" : {
+            "en": "Pac-Man Series",
+            "jp": "パックマン シリーズ",
+            "kr" : "팩맨 시리즈"
+        },
+        "stat table" : {
+            "speed" : 15,
+            "acceleration" : 18,
+            "handling" : 9,
+            "power" : 12,
+            "boost" : 6
+        }
+    },
+    {
+        "id" : "character_dlc_007",
+        "name": {
+            "en": "Ghost",
+            "jp": "ゴースト",
+            "kr" : "고스트"
+        },
+        "icon" : "ghost_icon.png",
+        "type": "speed",
+        "team" : "DLC",
+        "from" : "Pac-Man Series",
+        "stat table" : {
+            "speed" : 18,
+            "acceleration" : 6,
+            "handling" : 12,
+            "power" : 15,
+            "boost" : 9
+        },
+        "character" : [
+            {
+                "sub_id" : "character_dlc_007_1",
+                "sub_icon" : "blinky_icon.png",
+                "en": "Blinky",
+                "jp": "ブリンキー",
+                "kr" : "블링키"
+            },
+            {
+                "sub_id" : "character_dlc_007_2",
+                "sub_icon" : "inky_icon.png",
+                "en": "Inky",
+                "jp": "インキー",
+                "kr" : "잉키"
+            },
+            {
+                "sub_id" : "character_dlc_007_3",
+                "sub_icon" : "pinky_icon.png",
+                "en": "Pinky",
+                "jp": "ピンキー",
+                "kr" : "핑키"
+            },
+            {
+                "sub_id" : "character_dlc_007_4",
+                "sub_icon" : "clyde_icon.png",
+                "en": "Clyde",
+                "jp": "クライド",
+                "kr" : "클라이드"
+            }
+        ]
+    },
+    {
+        "id" : "character_dlc_008",
+        "name": {
+            "en": "Mega Man",
+            "jp": "ロックマン",
+            "kr" : "록맨"
+        },
+        "icon" : "megaman_icon.png",
+        "type": "power",
+        "team" : "DLC",
+        "from" : "Mega Man Series",
+        "stat table" : {
+            "speed" : 12,
+            "acceleration" : 8,
+            "handling" : 6,
+            "power" : 19,
+            "boost" : 15
+        }
+    },
+    {
+        "id" : "character_dlc_009",
+        "name": {
+            "en": "Proto Man",
+            "jp": "ブルース",
+            "kr" : "블루스"
+        },
+        "icon" : "protoman_icon.png",
+        "type": "speed",
+        "team" : "DLC",
+        "from" : "Mega Man Series",
+        "stat table" : {
+            "speed" : 17,
+            "acceleration" : 7,
+            "handling" : 12,
+            "power" : 14,
+            "boost" : 10
+        }
+    },
+    {
+        "id" : "character_dlc_010",
+        "name": {
+            "en": "Leonardo",
+            "jp": "レオナルド",
+            "kr" : "레오나르도"
+        },
+        "icon" : "tmnt_leo_icon.png",
+        "type": "speed",
+        "team" : "DLC",
+        "from" : "Teenage Mutant Ninja Turtles",
+        "stat table" : {
+            "speed" : 17,
+            "acceleration" : 5,
+            "handling" : 14,
+            "power" : 16,
+            "boost" : 8
+        }
+    },
+    {
+        "id" : "character_dlc_011",
+        "name": {
+            "en": "Raphael",
+            "jp": "ラファエル",
+            "kr" : "라파엘"
+        },
+        "icon" : "tmnt_raphael_icon.png",
+        "type": "power",
+        "team" : "DLC",
+        "from" : "Teenage Mutant Ninja Turtles",
+        "stat table" : {
+            "speed" : 11,
+            "acceleration" : 9,
+            "handling" : 7,
+            "power" : 20,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_dlc_012",
+        "name": {
+            "en": "Donatello",
+            "jp": "ドナテロ",
+            "kr" : "도나텔로"
+        },
+        "icon" : "tmnt_dona_icon.png",
+        "type": "handling",
+        "team" : "DLC",
+        "from" : "Teenage Mutant Ninja Turtles",
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 14,
+            "handling" : 19,
+            "power" : 9,
+            "boost" : 11
+        }
+    },
+    {
+        "id" : "character_dlc_013",
+        "name": {
+            "en": "Michelangelo",
+            "jp": "ミケランジェロ",
+            "kr" : "미켈란젤로"
+        },
+        "icon" : "tmnt_mike_icon.png",
+        "type": "acceleration",
+        "team" : "DLC",
+        "from" : "Teenage Mutant Ninja Turtles",
+        "stat table" : {
+            "speed" : 14,
+            "acceleration" : 18,
+            "handling" : 10,
+            "power" : 11,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_dlc_014",
+        "name": {
+            "en": "Aang",
+            "jp": "アン",
+            "kr" : "아앙"
+        },
+        "icon" : "avatar_icon.png",
+        "type": "speed",
+        "team" : "DLC",
+        "from" : "Avatar: The Last Airbender",
+        "stat table" : {
+            "speed" : 19,
+            "acceleration" : 7,
+            "handling" : 11,
+            "power" : 14,
+            "boost" : 9
+        }
+    },
+    {
+        "id" : "character_dlc_015",
+        "name": {
+            "en": "Katara",
+            "jp": "カタラ",
+            "kr" : "카타라"
+        },
+        "icon" : "avatar_icon.png",
+        "type": "handling",
+        "team" : "DLC",
+        "from" : "Avatar: The Last Airbender",
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 13,
+            "handling" : 20,
+            "power" : 9,
+            "boost" : 11
+        }
+    }
+]

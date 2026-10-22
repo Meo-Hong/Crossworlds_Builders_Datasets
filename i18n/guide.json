@@ -1,0 +1,225 @@
+{
+  "guide": {
+    "title": {
+      "en": "Guide",
+      "jp": "ガイド",
+      "kr": "가이드"
+    },
+    "miniTabs": {
+      "parameter": {
+        "en": "Parameter",
+        "jp": "パラメータ",
+        "kr": "파라미터"
+      },
+      "drift": {
+        "en": "Technique",
+        "jp": "テクニック",
+        "kr": "테크닉"
+      },
+      "speed": {
+        "en": "Additional Speed",
+        "jp": "追加速度",
+        "kr": "추가 속도"
+      },
+      "shortcut": {
+        "en": "Shortcut",
+        "jp": "ショートカット",
+        "kr": "숏컷"
+      }
+    },
+    "miniTabsMobile": {
+      "parameter": {
+        "en": "Parameter",
+        "jp": "パラメータ",
+        "kr": "파라미터"
+      },
+      "drift": {
+        "en": "Technique",
+        "jp": "テクニック",
+        "kr": "테크닉"
+      },
+      "speed": {
+        "en": "Add. Speed",
+        "jp": "追加速度",
+        "kr": "추가속도"
+      }
+    },
+    "comingSoon": {
+      "en": "Guide content is coming soon.",
+      "jp": "攻略コンテンツは準備中です。",
+      "kr": "공략 콘텐츠를 준비 중입니다."
+    },
+    "parameter": {
+      "detailTitle": {
+        "en": "Detail",
+        "jp": "詳細",
+        "kr": "디테일 (Detail)"
+      },
+      "exampleTitle": {
+        "en": "Example video",
+        "jp": "例示動画",
+        "kr": "예시 영상"
+      },
+      "showVideo": {
+        "en": "Show video",
+        "jp": "動画を見る",
+        "kr": "영상 보기"
+      },
+      "hideVideo": {
+        "en": "Hide video",
+        "jp": "動画を閉じる",
+        "kr": "영상 닫기"
+      },
+      "noteLinksTitle": {
+        "en": "References",
+        "jp": "参考資料",
+        "kr": "참고 자료"
+      },
+      "noteLinkSheets": {
+        "en": "Open Google Sheets",
+        "jp": "Googleスプレッドシートを開く",
+        "kr": "구글 스프레드시트 열기"
+      },
+      "noteLinkYoutube": {
+        "en": "Watch on YouTube",
+        "jp": "YouTubeで見る",
+        "kr": "YouTube에서 보기"
+      },
+      "noteLinkTwitter": {
+        "en": "Open on X",
+        "jp": "Xで見る",
+        "kr": "X에서 보기"
+      },
+      "noteLinkExternal": {
+        "en": "Open link",
+        "jp": "リンクを開く",
+        "kr": "링크 열기"
+      }
+    },
+    "drift": {
+      "subTabs": {
+        "basic": {
+          "en": "Basic",
+          "jp": "基本",
+          "kr": "기본"
+        },
+        "skilled": {
+          "en": "Skilled",
+          "jp": "熟練",
+          "kr": "숙련"
+        },
+        "advanced": {
+          "en": "Advanced",
+          "jp": "応用",
+          "kr": "심화"
+        }
+      },
+      "exampleTitle": {
+        "en": "Examples by level",
+        "jp": "レベル別の例示",
+        "kr": "레벨 별 예시"
+      },
+      "showLevelVideo": {
+        "en": "Show example",
+        "jp": "例示を見る",
+        "kr": "예시 보기"
+      },
+      "hideLevelVideo": {
+        "en": "Hide example",
+        "jp": "例示を閉じる",
+        "kr": "예시 닫기"
+      },
+      "failureLabel": {
+        "en": "Fail",
+        "jp": "失敗",
+        "kr": "실패"
+      },
+      "referenceTitle": {
+        "en": "References",
+        "jp": "参考資料",
+        "kr": "참고 자료"
+      },
+      "advancedComingSoon": {
+        "en": "Advanced drift content is coming soon.",
+        "jp": "応用ドリフトのコンテンツは準備中です。",
+        "kr": "심화 드리프트 콘텐츠를 준비 중입니다."
+      }
+    },
+    "shortcut": {
+      "subTabs": {
+        "basic": {
+          "en": "Shortcut basics",
+          "jp": "ショートカットの基本",
+          "kr": "숏컷 기본 사항"
+        },
+        "main": {
+          "en": "Grand Prix maps",
+          "jp": "グランプリマップ",
+          "kr": "그랑프리 맵"
+        },
+        "crossworld": {
+          "en": "Crossworld maps",
+          "jp": "クロスワールドマップ",
+          "kr": "크로스월드 맵"
+        }
+      },
+      "subTabsMobile": {
+        "basic": {
+          "en": "Basics",
+          "jp": "基本",
+          "kr": "숏컷 기본"
+        },
+        "main": {
+          "en": "Grand Prix",
+          "jp": "グランプリ",
+          "kr": "그랑프리"
+        },
+        "crossworld": {
+          "en": "Crossworld",
+          "jp": "クロスワールド",
+          "kr": "크로스월드"
+        }
+      },
+      "sectionMain": {
+        "en": "Grand Prix (main) maps",
+        "jp": "グランプリ（本編）マップ",
+        "kr": "그랑프리(본편) 맵"
+      },
+      "sectionCrossworld": {
+        "en": "Crossworld maps",
+        "jp": "クロスワールドマップ",
+        "kr": "크로스월드 맵"
+      },
+      "mainEmpty": {
+        "en": "No Grand Prix shortcut entries yet.",
+        "jp": "グランプリのショートカット項目がまだありません。",
+        "kr": "그랑프리 맵 숏컷 항목이 아직 없습니다."
+      },
+      "crossworldEmpty": {
+        "en": "Crossworld shortcut notes will be added here.",
+        "jp": "クロスワールドのショートカット情報は順次追加予定です。",
+        "kr": "크로스월드 숏컷 정보는 순차적으로 추가될 예정입니다."
+      },
+      "crossworldPreparing": {
+        "en": "Crossworld map guides are being prepared.",
+        "jp": "クロスワールドマップ攻略は準備中です。",
+        "kr": "크로스월드 맵 공략은 아직 준비 중입니다."
+      },
+      "shortcutsSection": {
+        "en": "Shortcuts",
+        "jp": "ショートカット",
+        "kr": "숏컷"
+      },
+      "tipsSection": {
+        "en": "Tips",
+        "jp": "Tips",
+        "kr": "팁"
+      },
+      "referenceVideoTitle": {
+        "en": "Reference video",
+        "jp": "参考動画",
+        "kr": "참고 영상"
+      }
+    }
+  }
+}

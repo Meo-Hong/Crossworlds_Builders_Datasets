@@ -1,0 +1,303 @@
+{
+  "common": {
+    "notice": {
+      "en": "Notice",
+      "jp": "通知",
+      "kr": "알림"
+    },
+    "confirm": {
+      "en": "Confirm",
+      "jp": "確認",
+      "kr": "확인"
+    }
+  },
+  "nav": {
+    "builder": {
+      "en": "Builder",
+      "jp": "ビルダー",
+      "kr": "빌더"
+    },
+    "stats": {
+      "en": "Stats",
+      "jp": "ステータス",
+      "kr": "스탯"
+    }
+  },
+  "stats": {
+    "title": {
+      "en": "Stats",
+      "jp": "ステータス",
+      "kr": "스탯"
+    },
+    "speed": {
+      "en": "Speed",
+      "jp": "スピード",
+      "kr": "스피드"
+    },
+    "acceleration": {
+      "en": "Acceleration",
+      "jp": "アクセル",
+      "kr": "액셀"
+    },
+    "handling": {
+      "en": "Handling",
+      "jp": "ハンドリング",
+      "kr": "핸들링"
+    },
+    "power": {
+      "en": "Power",
+      "jp": "パワー",
+      "kr": "파워"
+    },
+    "boost": {
+      "en": "Boost",
+      "jp": "ダッシュ",
+      "kr": "대시"
+    },
+    "coinScaling": {
+      "en": "Coin scaling",
+      "jp": "コイン補正",
+      "kr": "코인 보정"
+    },
+    "coinScalingDesc": {
+      "en": "Total Speed increase (%) from collecting coins.",
+      "jp": "コイン取得によるスピード上昇率(%)",
+      "kr": "코인 획득에 따른 스피드 증가율 (%)"
+    }
+  },
+  "stats_short": {
+    "speed": {
+      "en": "Spd.",
+      "jp": "Spd.",
+      "kr": "스피드"
+    },
+    "acceleration": {
+      "en": "Acc.",
+      "jp": "Acc.",
+      "kr": "액셀"
+    },
+    "handling": {
+      "en": "Han.",
+      "jp": "Han.",
+      "kr": "핸들링"
+    },
+    "power": {
+      "en": "Pow.",
+      "jp": "Pow.",
+      "kr": "파워"
+    },
+    "boost": {
+      "en": "Bst.",
+      "jp": "Bst.",
+      "kr": "대시"
+    }
+  },
+  "stats_filter": {
+    "speed": {
+      "en": "Speed",
+      "jp": "スピード",
+      "kr": "스피드"
+    },
+    "acceleration": {
+      "en": "Accel.",
+      "jp": "アクセル",
+      "kr": "액셀"
+    },
+    "handling": {
+      "en": "Handling",
+      "jp": "ハンドル",
+      "kr": "핸들링"
+    },
+    "power": {
+      "en": "Power",
+      "jp": "パワー",
+      "kr": "파워"
+    },
+    "boost": {
+      "en": "Boost",
+      "jp": "ダッシュ",
+      "kr": "대시"
+    }
+  },
+  "stats_compact": {
+    "speed": {
+      "en": "Spd.",
+      "jp": "スピード",
+      "kr": "스피드"
+    },
+    "acceleration": {
+      "en": "Acc.",
+      "jp": "アクセル",
+      "kr": "액셀"
+    },
+    "handling": {
+      "en": "Han.",
+      "jp": "ハンドル",
+      "kr": "핸들링"
+    },
+    "power": {
+      "en": "Pow.",
+      "jp": "パワー",
+      "kr": "파워"
+    },
+    "boost": {
+      "en": "Bst.",
+      "jp": "ダッシュ",
+      "kr": "대시"
+    }
+  },
+  "footer": {
+    "producedBy": {
+      "en": "Created by",
+      "jp": "制作",
+      "kr": "제작"
+    },
+    "producerName": {
+      "en": "Meohong",
+      "jp": "Meohong",
+      "kr": "머홍(Meohong)"
+    },
+    "copyright": {
+      "en": "Copyright © SEGA CORPORATION.\nThis is unofficial fan-made site and generates no revenue.\nContact : busimh001@gmail.com",
+      "jp": "著作権: © SEGA CORPORATION.\nこのサイトは非公式ファンメイドサイトであり、収益は発生しません。\nE-mail : busimh001@gmail.com",
+      "kr": "저작권: © SEGA CORPORATION.\n이 사이트는 비공식 팬 메이드 사이트이며, 수익을 창출하지 않습니다.\nE-mail : busimh001@gmail.com"
+    },
+    "creditsButton": {
+      "en": "Data Sources & Credits",
+      "jp": "データソース & クレジット",
+      "kr": "데이터 소스 & 크레딧"
+    },
+    "creditsTitle": {
+      "en": "Data Sources & Credits",
+      "jp": "データソース & クレジット",
+      "kr": "데이터 소스 & 크레딧"
+    },
+    "gameVersion": {
+      "en": "Game",
+      "jp": "ゲーム",
+      "kr": "게임"
+    },
+    "builderVersion": {
+      "en": "Builder",
+      "jp": "ビルダー",
+      "kr": "빌더"
+    },
+    "resources": {
+      "en": "Resources",
+      "jp": "リソース",
+      "kr": "참고 자료"
+    },
+    "official": {
+      "en": "Official",
+      "jp": "公式",
+      "kr": "공식"
+    },
+    "officialSite": {
+      "en": "Official Website",
+      "jp": "公式サイト",
+      "kr": "공식 사이트"
+    },
+    "officialX": {
+      "en": "Official X (@RaceCrossWorlds)",
+      "jp": "公式X（@RaceCrossWorlds）",
+      "kr": "공식 X (@RaceCrossWorlds)"
+    },
+    "officialXJp": {
+      "en": "Official Japan X (@CrossWorldsJPN)",
+      "jp": "日本公式X（@CrossWorldsJPN）",
+      "kr": "일본 공식 X (@CrossWorldsJPN)"
+    },
+    "aboutBuilder": {
+      "en": "About \"SRCW Gadget Builders\"",
+      "jp": "「SRCWガジェットビルダー」について",
+      "kr": "「SRCW Gadget Builders」에 대하여"
+    },
+    "aboutText": {
+      "en": "「SRCW Gadget Builders」 is a comprehensive tool for analyzing and optimizing character, machine, and gadget combinations in Sonic Racing Crossworlds. Simulate various builds to find your perfect setup.",
+      "jp": "「SRCWガジェットビルダー」は、ソニックレーシングクロスワールドのキャラクター、マシン、ガジェットの組み合わせを分析・最適化するための総合ツールです。様々なビルドをシミュレーションして、あなただけの最高のセッティングを見つけましょう。",
+      "kr": "「SRCW Gadget Builders」는 소닉 레이싱 크로스월드의 캐릭터, 머신, 가젯 조합을 분석하고 최적화할 수 있는 툴입니다. 다양한 빌드를 시뮬레이션하여 당신만의 최고의 세팅을 찾아보세요."
+    },
+    "wordFromCreatorTitle": {
+      "en": "Note",
+      "jp": "ひとこと",
+      "kr": "드리는 말"
+    },
+    "wordFromCreatorText": {
+      "en": "Languages other than Korean are translated with a translation tool. If you find errors or awkward wording, please contact busimh001@gmail.com or send a DM on X (@Meo__hong) or Discord.",
+      "jp": "韓国語以外の言語は翻訳ツールを使用しています。誤訳や不自然な表現を見つけた場合は、busimh001@gmail.com または X（@Meo__hong）・Discord の DM までご連絡ください。",
+      "kr": "한국어 외의 다른 언어는 번역기를 이용해 번역했습니다. 오역이나 어색한 표현이 있다면 busimh001@gmail.com 또는 X(@Meo__hong), Discord DM으로 문의해주세요."
+    },
+    "srcWiki": {
+      "en": "SRCW Japanese Wiki",
+      "jp": "ソニックレーシング クロスワールド 攻略@ ウィキ",
+      "kr": "SRCW 일본 위키"
+    },
+    "fandomWiki": {
+      "en": "Sonic Wiki Zone (Fandom)",
+      "jp": "Sonic Wiki Zone (Fandom)",
+      "kr": "Sonic Wiki Zone (Fandom)"
+    },
+    "gadgetDataExcel": {
+      "en": "Gadget Data Excel Sheet",
+      "jp": "ガジェットデータ Excelシート",
+      "kr": "가젯 데이터 Excel 시트"
+    },
+    "itemDataExcel": {
+      "en": "Item Probability Table",
+      "jp": "アイテム確率表",
+      "kr": "아이템 확률 정보 표"
+    },
+    "machineStatsDoc": {
+      "en": "Machine Stat Data",
+      "jp": "マシンステータス資料",
+      "kr": "머신 스탯 자료"
+    },
+    "machineBoostMeasureSheet": {
+      "en": "Machine Boost Measurement Table",
+      "jp": "マシン別ブースト測定表",
+      "kr": "머신 별 부스트 측정 표"
+    },
+    "machineAccelerationSheet": {
+      "en": "Machine Acceleration Stats Table",
+      "jp": "マシンアクセルステータス表",
+      "kr": "머신 액셀 스탯 표"
+    },
+    "statsSortTableReference": {
+      "en": "Character / Machine Stats Sort Table Reference",
+      "jp": "キャラクター・マシンステータスソート表の参考資料",
+      "kr": "캐릭터/머신 스탯 정렬 표 참고 자료"
+    },
+    "support": {
+      "en": "Buy me a coffee",
+      "jp": "コーヒーを贈る",
+      "kr": "커피 한 잔 후원하기"
+    }
+  },
+  "installBanner": {
+    "title": {
+      "en": "SRCW Builders App",
+      "jp": "SRCWビルダーズアプリ",
+      "kr": "SRCW 빌더즈 앱"
+    },
+    "desc": {
+      "en": "Skip finding the URL next time—launch instantly.",
+      "jp": "次からはアドレスを探さずすぐ始められます。",
+      "kr": "다음부터 주소를 찾지 않고 바로 시작해요."
+    },
+    "install": {
+      "en": "Install",
+      "jp": "アプリを追加",
+      "kr": "앱 설치"
+    },
+    "dismiss": {
+      "en": "Dismiss",
+      "jp": "閉じる",
+      "kr": "닫기"
+    },
+    "manualHint": {
+      "en": "Use your browser menu → 'Install app'.",
+      "jp": "ブラウザのメニューから「アプリをインストール」を選択してください。",
+      "kr": "브라우저 메뉴에서 '앱 설치'를 선택해 주세요."
+    }
+  }
+}

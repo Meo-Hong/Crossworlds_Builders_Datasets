@@ -1,0 +1,1302 @@
+{
+  "schema_version": 1,
+  "id": "WCS_2026",
+  "series": "WCS",
+  "year": 2026,
+  "vod_url": "https://www.youtube.com/live/Jf_vx0rryIY",
+  "points": [
+    15,
+    12,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "countries": {
+    "AU": {
+      "en": "Australia",
+      "jp": "オーストラリア",
+      "kr": "호주"
+    },
+    "ES": {
+      "en": "Spain",
+      "jp": "スペイン",
+      "kr": "스페인"
+    },
+    "FR": {
+      "en": "France",
+      "jp": "フランス",
+      "kr": "프랑스"
+    },
+    "GB": {
+      "en": "United Kingdom",
+      "jp": "イギリス",
+      "kr": "영국"
+    },
+    "JP": {
+      "en": "Japan",
+      "jp": "日本",
+      "kr": "일본"
+    },
+    "MX": {
+      "en": "Mexico",
+      "jp": "メキシコ",
+      "kr": "멕시코"
+    },
+    "NL": {
+      "en": "Netherlands",
+      "jp": "オランダ",
+      "kr": "네덜란드"
+    },
+    "PH": {
+      "en": "Philippines",
+      "jp": "フィリピン",
+      "kr": "필리핀"
+    },
+    "RO": {
+      "en": "Romania",
+      "jp": "ルーマニア",
+      "kr": "루마니아"
+    },
+    "US": {
+      "en": "United States",
+      "jp": "アメリカ",
+      "kr": "미국"
+    }
+  },
+  "players": [
+    {
+      "id": "exponso",
+      "name": "Exponso",
+      "country": "MX",
+      "x_account": "Exponso_",
+      "group": "group_a",
+      "character_id": "character_009",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "key1dr",
+      "name": "KEY1DR",
+      "country": "US",
+      "x_account": "KEY1DR_",
+      "group": "group_a",
+      "character_id": "character_003",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "sayjonny",
+      "name": "SayJonny",
+      "country": "US",
+      "x_account": "SayJonny_",
+      "group": "group_a",
+      "character_id": "character_013",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "sneaky",
+      "name": "Sneaky",
+      "country": "US",
+      "x_account": "not_sneaky_",
+      "group": "group_a",
+      "character_id": "character_003",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "ultimatefaststar",
+      "name": "UltimateFastStar",
+      "country": "US",
+      "x_account": "UltFastStar",
+      "group": "group_a",
+      "character_id": "character_003",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "nemeon",
+      "name": "NeMeon",
+      "country": "PH",
+      "x_account": null,
+      "group": "group_a",
+      "character_id": "character_029",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "nickels",
+      "name": "Nickels",
+      "country": "US",
+      "x_account": "na_nickels",
+      "group": "group_a",
+      "character_id": "character_008",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "cerise",
+      "name": "Cerise",
+      "country": "JP",
+      "x_account": "cerise1867438",
+      "group": "group_a",
+      "character_id": "character_029",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "eternum",
+      "name": "Eternum",
+      "country": "RO",
+      "x_account": "eternumwasd",
+      "group": "group_a",
+      "character_id": "character_003",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "laggy",
+      "name": "Laggy",
+      "country": "AU",
+      "x_account": "LaggyPerson",
+      "group": "group_a",
+      "character_id": "character_028",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "nv",
+      "name": "nV",
+      "country": "US",
+      "x_account": "iLLuZheN",
+      "group": "group_a",
+      "character_id": "character_003",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "diamalix",
+      "name": "DiaMalix",
+      "country": "FR",
+      "x_account": "DiaMaLixTV",
+      "group": "group_a",
+      "character_id": "character_035",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "lazyzach",
+      "name": "LazyZach",
+      "country": "US",
+      "x_account": "LazyZach_S06",
+      "group": "group_b",
+      "character_id": "character_001",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "yuubi",
+      "name": "Yuubi",
+      "country": "US",
+      "x_account": "YuubiShugoki",
+      "group": "group_b",
+      "character_id": "character_001",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "mattypal",
+      "name": "MattyPal",
+      "country": "ES",
+      "x_account": "PalMatty96943",
+      "group": "group_b",
+      "character_id": "character_026",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "professor_shyguy",
+      "name": "Professor ShyGuy",
+      "country": "GB",
+      "x_account": "Prof_ShyGuy",
+      "group": "group_b",
+      "character_id": "character_006",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "wooter",
+      "name": "Wooter",
+      "country": "NL",
+      "x_account": "Wooter66",
+      "group": "group_b",
+      "character_id": "character_009",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "skia",
+      "name": "Skia",
+      "country": "JP",
+      "x_account": "skia0406",
+      "group": "group_b",
+      "character_id": "character_029",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "ghostman",
+      "name": "Ghostman",
+      "country": "US",
+      "x_account": "KebbyBeep",
+      "group": "group_b",
+      "character_id": "character_029",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "monity",
+      "name": "Monity",
+      "country": "US",
+      "x_account": "Monity__",
+      "group": "group_b",
+      "character_id": "character_009",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "floppyz",
+      "name": "Floppyz",
+      "country": "US",
+      "x_account": null,
+      "group": "group_b",
+      "character_id": "character_035",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "mr_lag",
+      "name": "Mr.Lag",
+      "country": "US",
+      "x_account": "MrLag525",
+      "group": "group_b",
+      "character_id": "character_028",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "sadamun",
+      "name": "Sadamun",
+      "name_jp": "さだむん",
+      "country": "JP",
+      "x_account": "sadamun3588",
+      "group": "group_b",
+      "character_id": "character_020",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    },
+    {
+      "id": "shinds",
+      "name": "Shinds",
+      "country": "US",
+      "x_account": "Shinds_",
+      "group": "group_b",
+      "character_id": "character_014",
+      "front_id": "handling_010",
+      "rear_id": "handling_010",
+      "tire_id": "handling_010",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_008",
+        "gadget_027",
+        "gadget_012"
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "id": "group_a",
+      "advance": 6,
+      "maps": [
+        {
+          "map_id": "006",
+          "image_header": "006_ColorfulMall",
+          "name": {
+            "en": "Colorful Mall",
+            "jp": "カラフルモール",
+            "kr": "컬러풀 몰"
+          }
+        },
+        {
+          "map_id": "010",
+          "image_header": "010_CrystalMine",
+          "name": {
+            "en": "Crystal Mine",
+            "jp": "クリスタルマイン",
+            "kr": "크리스털 마인"
+          }
+        },
+        {
+          "map_id": "005",
+          "image_header": "005_SandRoad",
+          "name": {
+            "en": "Sand Road",
+            "jp": "サンドロード",
+            "kr": "샌드 로드"
+          }
+        },
+        {
+          "map_id": "dlc005",
+          "image_header": "dlc005_NewYorkCity",
+          "name": {
+            "en": "New York City",
+            "jp": "ニューヨークシティ",
+            "kr": "뉴욕 시티"
+          }
+        },
+        {
+          "map_id": "dlc003",
+          "image_header": "dlc003_PACVillageMaze",
+          "name": {
+            "en": "PAC-Village & Maze",
+            "jp": "パックビレッジ&メイズ",
+            "kr": "PAC-Village & Maze"
+          }
+        },
+        {
+          "map_id": "012",
+          "image_header": "012_PumpkinMansion",
+          "name": {
+            "en": "Pumpkin Mansion",
+            "jp": "パンプキンマンション",
+            "kr": "펌킨 맨션"
+          }
+        },
+        {
+          "map_id": "004",
+          "image_header": "004_MetalHarbor",
+          "name": {
+            "en": "Metal Harbor",
+            "jp": "メタルハーバー",
+            "kr": "메탈 하버"
+          }
+        },
+        {
+          "map_id": "024",
+          "image_header": "024_WhiteSpace",
+          "name": {
+            "en": "White Space",
+            "jp": "ホワイトスペース",
+            "kr": "화이트 스페이스"
+          }
+        }
+      ],
+      "results": [
+        {
+          "player": "exponso",
+          "points": [
+            1,
+            10,
+            4,
+            2,
+            6,
+            7,
+            15,
+            15
+          ]
+        },
+        {
+          "player": "key1dr",
+          "points": [
+            15,
+            2,
+            12,
+            10,
+            9,
+            12,
+            10,
+            6
+          ]
+        },
+        {
+          "player": "sayjonny",
+          "points": [
+            12,
+            8,
+            1,
+            8,
+            10,
+            2,
+            4,
+            1
+          ]
+        },
+        {
+          "player": "sneaky",
+          "points": [
+            10,
+            15,
+            15,
+            12,
+            8,
+            10,
+            12,
+            2
+          ]
+        },
+        {
+          "player": "ultimatefaststar",
+          "points": [
+            9,
+            5,
+            9,
+            6,
+            2,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "player": "nemeon",
+          "points": [
+            8,
+            12,
+            5,
+            1,
+            5,
+            8,
+            3,
+            8
+          ]
+        },
+        {
+          "player": "nickels",
+          "points": [
+            7,
+            3,
+            3,
+            15,
+            7,
+            1,
+            8,
+            10
+          ]
+        },
+        {
+          "player": "cerise",
+          "points": [
+            6,
+            7,
+            10,
+            4,
+            15,
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "player": "eternum",
+          "points": [
+            5,
+            9,
+            2,
+            5,
+            4,
+            15,
+            9,
+            5
+          ]
+        },
+        {
+          "player": "laggy",
+          "points": [
+            4,
+            6,
+            8,
+            3,
+            12,
+            5,
+            7,
+            7
+          ]
+        },
+        {
+          "player": "nv",
+          "points": [
+            3,
+            1,
+            7,
+            7,
+            3,
+            4,
+            5,
+            9
+          ]
+        },
+        {
+          "player": "diamalix",
+          "points": [
+            2,
+            4,
+            6,
+            9,
+            1,
+            9,
+            6,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_b",
+      "advance": 6,
+      "maps": [
+        {
+          "map_id": "006",
+          "image_header": "006_ColorfulMall",
+          "name": {
+            "en": "Colorful Mall",
+            "jp": "カラフルモール",
+            "kr": "컬러풀 몰"
+          }
+        },
+        {
+          "map_id": "010",
+          "image_header": "010_CrystalMine",
+          "name": {
+            "en": "Crystal Mine",
+            "jp": "クリスタルマイン",
+            "kr": "크리스털 마인"
+          }
+        },
+        {
+          "map_id": "005",
+          "image_header": "005_SandRoad",
+          "name": {
+            "en": "Sand Road",
+            "jp": "サンドロード",
+            "kr": "샌드 로드"
+          }
+        },
+        {
+          "map_id": "dlc005",
+          "image_header": "dlc005_NewYorkCity",
+          "name": {
+            "en": "New York City",
+            "jp": "ニューヨークシティ",
+            "kr": "뉴욕 시티"
+          }
+        },
+        {
+          "map_id": "dlc003",
+          "image_header": "dlc003_PACVillageMaze",
+          "name": {
+            "en": "PAC-Village & Maze",
+            "jp": "パックビレッジ&メイズ",
+            "kr": "PAC-Village & Maze"
+          }
+        },
+        {
+          "map_id": "012",
+          "image_header": "012_PumpkinMansion",
+          "name": {
+            "en": "Pumpkin Mansion",
+            "jp": "パンプキンマンション",
+            "kr": "펌킨 맨션"
+          }
+        },
+        {
+          "map_id": "004",
+          "image_header": "004_MetalHarbor",
+          "name": {
+            "en": "Metal Harbor",
+            "jp": "メタルハーバー",
+            "kr": "메탈 하버"
+          }
+        },
+        {
+          "map_id": "024",
+          "image_header": "024_WhiteSpace",
+          "name": {
+            "en": "White Space",
+            "jp": "ホワイトスペース",
+            "kr": "화이트 스페이스"
+          }
+        }
+      ],
+      "results": [
+        {
+          "player": "lazyzach",
+          "points": [
+            15,
+            2,
+            6,
+            12,
+            3,
+            4,
+            7,
+            15
+          ]
+        },
+        {
+          "player": "yuubi",
+          "points": [
+            1,
+            12,
+            1,
+            6,
+            6,
+            7,
+            4,
+            10
+          ]
+        },
+        {
+          "player": "mattypal",
+          "points": [
+            2,
+            10,
+            7,
+            2,
+            7,
+            8,
+            8,
+            2
+          ]
+        },
+        {
+          "player": "professor_shyguy",
+          "points": [
+            10,
+            9,
+            8,
+            7,
+            2,
+            5,
+            15,
+            6
+          ]
+        },
+        {
+          "player": "wooter",
+          "points": [
+            5,
+            1,
+            9,
+            3,
+            10,
+            15,
+            10,
+            1
+          ]
+        },
+        {
+          "player": "skia",
+          "points": [
+            3,
+            5,
+            10,
+            15,
+            8,
+            9,
+            9,
+            7
+          ]
+        },
+        {
+          "player": "ghostman",
+          "points": [
+            8,
+            4,
+            2,
+            8,
+            9,
+            1,
+            1,
+            4
+          ]
+        },
+        {
+          "player": "monity",
+          "points": [
+            12,
+            3,
+            3,
+            10,
+            12,
+            12,
+            3,
+            9
+          ]
+        },
+        {
+          "player": "floppyz",
+          "points": [
+            6,
+            7,
+            4,
+            9,
+            1,
+            3,
+            6,
+            3
+          ]
+        },
+        {
+          "player": "mr_lag",
+          "points": [
+            9,
+            6,
+            15,
+            4,
+            15,
+            2,
+            12,
+            5
+          ]
+        },
+        {
+          "player": "sadamun",
+          "points": [
+            7,
+            8,
+            12,
+            1,
+            5,
+            6,
+            5,
+            8
+          ]
+        },
+        {
+          "player": "shinds",
+          "points": [
+            4,
+            15,
+            5,
+            5,
+            4,
+            10,
+            2,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "advance": 0,
+      "maps": [
+        {
+          "map_id": "017",
+          "image_header": "017_RadicalHighway",
+          "name": {
+            "en": "Radical Highway",
+            "jp": "ラジカルハイウェイ",
+            "kr": "래디컬 하이웨이"
+          }
+        },
+        {
+          "map_id": "009",
+          "image_header": "009_WonderMuseum",
+          "name": {
+            "en": "Wonder Museum",
+            "jp": "ワンダーミュージアム",
+            "kr": "원더 뮤지엄"
+          }
+        },
+        {
+          "map_id": "022",
+          "image_header": "022_KronosIsland",
+          "name": {
+            "en": "Kronos Island",
+            "jp": "クロノス島",
+            "kr": "크로노스섬"
+          }
+        },
+        {
+          "map_id": "dlc001",
+          "image_header": "dlc001_MinecraftWorld",
+          "name": {
+            "en": "Minecraft World",
+            "jp": "マインクラフトワールド",
+            "kr": "Minecraft World"
+          }
+        },
+        {
+          "map_id": "008",
+          "image_header": "008_Apotos",
+          "name": {
+            "en": "Apotos",
+            "jp": "アポトス",
+            "kr": "아포토스"
+          }
+        },
+        {
+          "map_id": "015",
+          "image_header": "015_CoralTown",
+          "name": {
+            "en": "Coral Town",
+            "jp": "コーラルタウン",
+            "kr": "코럴 타운"
+          }
+        },
+        {
+          "map_id": "dlc002",
+          "image_header": "dlc002_BikiniBottom",
+          "name": {
+            "en": "Bikini Bottom",
+            "jp": "ビキニタウン",
+            "kr": "비키니시티"
+          }
+        },
+        {
+          "map_id": "023",
+          "image_header": "023_NorthstarIslands",
+          "name": {
+            "en": "Northstar Islands",
+            "jp": "ノーススター諸島",
+            "kr": "노스스타 제도"
+          }
+        },
+        {
+          "map_id": "dlc004",
+          "image_header": "dlc004_WilyCastle",
+          "name": {
+            "en": "Wily Castle",
+            "jp": "ワイリーキャッスル",
+            "kr": "와일리 성"
+          }
+        },
+        {
+          "map_id": "007",
+          "image_header": "007_MysticJungle",
+          "name": {
+            "en": "Mystic Jungle",
+            "jp": "ミスティックジャングル",
+            "kr": "미스틱 정글"
+          }
+        },
+        {
+          "map_id": "016",
+          "image_header": "016_BlizzardValley",
+          "name": {
+            "en": "Blizzard Valley",
+            "jp": "ブリザードバレー",
+            "kr": "블리자드 밸리"
+          }
+        },
+        {
+          "map_id": "001",
+          "image_header": "001_EStadium",
+          "name": {
+            "en": "E-Stadium",
+            "jp": "E-スタジアム",
+            "kr": "E-스타디움"
+          }
+        }
+      ],
+      "results": [
+        {
+          "player": "sneaky",
+          "points": [
+            8,
+            9,
+            3,
+            8,
+            7,
+            5,
+            9,
+            6,
+            2,
+            4,
+            1,
+            4
+          ]
+        },
+        {
+          "player": "key1dr",
+          "points": [
+            6,
+            7,
+            5,
+            1,
+            5,
+            6,
+            15,
+            8,
+            12,
+            6,
+            5,
+            3
+          ]
+        },
+        {
+          "player": "exponso",
+          "points": [
+            7,
+            6,
+            9,
+            10,
+            10,
+            9,
+            4,
+            12,
+            10,
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "player": "nickels",
+          "points": [
+            1,
+            8,
+            10,
+            9,
+            2,
+            8,
+            3,
+            4,
+            5,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "player": "eternum",
+          "points": [
+            3,
+            5,
+            6,
+            3,
+            12,
+            2,
+            5,
+            10,
+            6,
+            9,
+            4,
+            6
+          ]
+        },
+        {
+          "player": "laggy",
+          "points": [
+            9,
+            12,
+            1,
+            7,
+            8,
+            1,
+            2,
+            9,
+            3,
+            12,
+            8,
+            1
+          ]
+        },
+        {
+          "player": "mr_lag",
+          "points": [
+            5,
+            10,
+            8,
+            4,
+            3,
+            3,
+            6,
+            1,
+            8,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "player": "skia",
+          "points": [
+            4,
+            2,
+            7,
+            12,
+            9,
+            15,
+            8,
+            5,
+            15,
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "player": "monity",
+          "points": [
+            2,
+            15,
+            12,
+            2,
+            1,
+            12,
+            10,
+            7,
+            9,
+            8,
+            3,
+            12
+          ]
+        },
+        {
+          "player": "lazyzach",
+          "points": [
+            10,
+            1,
+            4,
+            15,
+            6,
+            10,
+            12,
+            3,
+            4,
+            3,
+            12,
+            2
+          ]
+        },
+        {
+          "player": "professor_shyguy",
+          "points": [
+            15,
+            3,
+            2,
+            6,
+            15,
+            7,
+            7,
+            2,
+            7,
+            10,
+            10,
+            7
+          ]
+        },
+        {
+          "player": "shinds",
+          "points": [
+            12,
+            4,
+            15,
+            5,
+            4,
+            4,
+            1,
+            15,
+            1,
+            2,
+            7,
+            9
+          ]
+        }
+      ]
+    }
+  ]
+}

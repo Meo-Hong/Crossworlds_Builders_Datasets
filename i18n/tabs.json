@@ -1,0 +1,944 @@
+{
+  "tabs": {
+    "mainBuild": {
+      "en": "Build",
+      "jp": "ビルド",
+      "kr": "빌드"
+    },
+    "mainMeta": {
+      "en": "Meta",
+      "jp": "メタ分析",
+      "kr": "메타 분석"
+    },
+    "mainItem": {
+      "en": "Item",
+      "jp": "アイテム",
+      "kr": "아이템"
+    },
+    "mainMap": {
+      "en": "Map",
+      "jp": "マップ",
+      "kr": "맵"
+    },
+    "mainShortcut": {
+      "en": "Shortcut",
+      "jp": "ショートカット",
+      "kr": "숏컷"
+    },
+    "mainGuide": {
+      "en": "Guide",
+      "jp": "ガイド",
+      "kr": "가이드"
+    },
+    "characters": {
+      "en": "Characters",
+      "jp": "キャラクター",
+      "kr": "캐릭터"
+    },
+    "gadgets": {
+      "en": "Gadgets",
+      "jp": "ガジェット",
+      "kr": "가젯"
+    },
+    "machines": {
+      "en": "Machines",
+      "jp": "マシン",
+      "kr": "머신"
+    },
+    "recommendedBuilds": {
+      "en": "Recommended",
+      "jp": "おすすめビルド",
+      "kr": "추천 빌드"
+    },
+    "buildTabMobile": {
+      "characters": {
+        "en": "Character",
+        "jp": "キャラ",
+        "kr": "캐릭터"
+      },
+      "gadgets": {
+        "en": "Gadget",
+        "jp": "ガジェット",
+        "kr": "가젯"
+      },
+      "machines": {
+        "en": "Machine",
+        "jp": "マシン",
+        "kr": "머신"
+      },
+      "recommendedBuilds": {
+        "en": "Recommend",
+        "jp": "おすすめ",
+        "kr": "추천빌드"
+      }
+    },
+    "metaAnalysisRound": {
+      "en": "Legend Competition · Round {round}",
+      "jp": "レジェンドコンペ · ラウンド{round}",
+      "kr": "레전드 대회 · 라운드 {round}"
+    },
+    "metaAnalysisRoundListLabel": {
+      "en": "Meta",
+      "jp": "メタ",
+      "kr": "메타"
+    },
+    "metaAnalysisRoundOption": {
+      "en": "LC Round {round}",
+      "jp": "LC ラウンド{round}",
+      "kr": "LC 라운드 {round}"
+    },
+    "metaAnalysisWcsTitle": {
+      "en": "World Championship {year}",
+      "jp": "世界大会 {year}",
+      "kr": "월드 챔피언십 {year}"
+    },
+    "metaAnalysisWcsOption": {
+      "en": "WCS {year}",
+      "jp": "世界大会 {year}",
+      "kr": "WCS {year}"
+    },
+    "metaAnalysisWcsYearLabel": {
+      "en": "Year",
+      "jp": "開催年",
+      "kr": "개최 연도"
+    },
+    "metaAnalysisWcsStatPlayers": {
+      "en": "Players",
+      "jp": "出場選手",
+      "kr": "출전 선수"
+    },
+    "metaAnalysisWcsStatCountries": {
+      "en": "Countries",
+      "jp": "国・地域",
+      "kr": "국가"
+    },
+    "metaAnalysisWcsStatRaces": {
+      "en": "Races",
+      "jp": "レース数",
+      "kr": "레이스"
+    },
+    "metaAnalysisWcsSample": {
+      "en": "{players} players · {countries} countries · {races} races",
+      "jp": "出場選手{players}名 · {countries}か国・地域 · {races}レース",
+      "kr": "출전 선수 {players}명 · {countries}개국 · 레이스 {races}회"
+    },
+    "metaAnalysisWcsVod": {
+      "en": "Watch replay",
+      "jp": "アーカイブを見る",
+      "kr": "다시보기"
+    },
+    "metaAnalysisWcsPodiumTitle": {
+      "en": "Grand Final Top 3",
+      "jp": "Grand Final TOP3",
+      "kr": "그랜드 파이널 TOP 3"
+    },
+    "metaAnalysisWcsPointsUnit": {
+      "en": "{points} pts",
+      "jp": "{points}pt",
+      "kr": "{points}점"
+    },
+    "metaAnalysisWcsResultsTitle": {
+      "en": "Match Results",
+      "jp": "試合結果",
+      "kr": "경기 결과"
+    },
+    "metaAnalysisWcsStageGroupA": {
+      "en": "Group A",
+      "jp": "Group A",
+      "kr": "그룹 A"
+    },
+    "metaAnalysisWcsStageGroupB": {
+      "en": "Group B",
+      "jp": "Group B",
+      "kr": "그룹 B"
+    },
+    "metaAnalysisWcsStageFinal": {
+      "en": "Grand Final",
+      "jp": "Grand Final",
+      "kr": "그랜드 파이널"
+    },
+    "metaAnalysisWcsStagesLabel": {
+      "en": "Stage",
+      "jp": "ステージ",
+      "kr": "스테이지"
+    },
+    "metaAnalysisWcsPlayerCol": {
+      "en": "Player",
+      "jp": "選手",
+      "kr": "선수"
+    },
+    "metaAnalysisWcsTotalCol": {
+      "en": "Total",
+      "jp": "合計",
+      "kr": "합계"
+    },
+    "metaAnalysisWcsAdvanceCut": {
+      "en": "Top {count} advance to the Grand Final",
+      "jp": "上位{count}名がGrand Final進出",
+      "kr": "상위 {count}명 그랜드 파이널 진출"
+    },
+    "metaAnalysisWcsCellTitle": {
+      "en": "{map} · #{place} · {points} pts",
+      "jp": "{map} · {place}位 · {points}pt",
+      "kr": "{map} · {place}위 · {points}점"
+    },
+    "metaAnalysisWcsPointsNote": {
+      "en": "Race points: 1st 15 · 2nd 12 · 3rd 10 · 4th 9 · 5th 8 … 12th 1. Tied totals share a rank.",
+      "jp": "レースポイント：1位 15 · 2位 12 · 3位 10 · 4位 9 · 5位 8 … 12位 1。合計が同点の場合は同順位で表示します。",
+      "kr": "레이스 점수: 1위 15 · 2위 12 · 3위 10 · 4위 9 · 5위 8 … 12위 1. 합계 동점은 같은 순위로 표시합니다."
+    },
+    "metaAnalysisWcsBuildsTitle": {
+      "en": "Player Builds",
+      "jp": "選手ビルド",
+      "kr": "선수 빌드"
+    },
+    "metaAnalysisWcsCommonBuild": {
+      "en": "Common build",
+      "jp": "共通ビルド",
+      "kr": "공통 빌드"
+    },
+    "metaAnalysisWcsCommonBuildNote": {
+      "en": "All {count} players used the same machine and gadgets.",
+      "jp": "出場選手{count}名全員が同じマシン・ガジェットを使用しました。",
+      "kr": "출전 선수 {count}명 전원이 같은 머신·가젯을 사용했습니다."
+    },
+    "metaAnalysisWcsCountryCol": {
+      "en": "Country",
+      "jp": "国・地域",
+      "kr": "국가"
+    },
+    "metaAnalysisWcsResultCol": {
+      "en": "Result",
+      "jp": "成績",
+      "kr": "성적"
+    },
+    "metaAnalysisWcsResultPlace": {
+      "en": "{stage} #{place}",
+      "jp": "{stage} {place}位",
+      "kr": "{stage} {place}위"
+    },
+    "metaAnalysisStatRange": {
+      "en": "Rank range",
+      "jp": "順位範囲",
+      "kr": "순위 범위"
+    },
+    "metaAnalysisStatRangeValue": {
+      "en": "#{from}–{to}",
+      "jp": "{from}〜{to}位",
+      "kr": "{from}~{to}위"
+    },
+    "metaAnalysisStatSample": {
+      "en": "Builds tallied",
+      "jp": "集計ビルド",
+      "kr": "집계 빌드"
+    },
+    "metaAnalysisStatUnique": {
+      "en": "Unique builds",
+      "jp": "ユニークビルド",
+      "kr": "유니크 빌드"
+    },
+    "metaAnalysisWcsResultTop": {
+      "en": "TOP {count}",
+      "jp": "TOP {count}",
+      "kr": "TOP {count}"
+    },
+    "metaAnalysisSample": {
+      "en": "Ranks {from}–{to} · {count} builds · {unique} unique",
+      "jp": "{from}〜{to}位 · {count}ビルド · ユニーク{unique}",
+      "kr": "{from}~{to}위 · {count}빌드 · 유니크 {unique}"
+    },
+    "metaAnalysisRangeLabel": {
+      "en": "Rank range",
+      "jp": "順位範囲",
+      "kr": "순위 범위"
+    },
+    "metaAnalysisRangeOption": {
+      "en": "1–{to}",
+      "jp": "1〜{to}",
+      "kr": "1~{to}"
+    },
+    "metaAnalysisRuleTitle": {
+      "en": "Rule",
+      "jp": "ルール",
+      "kr": "룰"
+    },
+    "metaAnalysisClustersTitle": {
+      "en": "Main builds share",
+      "jp": "主要ビルド比率",
+      "kr": "주요 빌드 비중"
+    },
+    "metaAnalysisClusterTopTitle": {
+      "en": "Top builds by type",
+      "jp": "主要ビルド別上位",
+      "kr": "주요 빌드별 상위"
+    },
+    "metaAnalysisPickCluster": {
+      "en": "Change main build",
+      "jp": "主要ビルドを変更",
+      "kr": "주요 빌드 변경"
+    },
+    "metaAnalysisPickClusterTitle": {
+      "en": "Select main build",
+      "jp": "主要ビルドを選択",
+      "kr": "주요 빌드 선택"
+    },
+    "metaAnalysisBandsTitle": {
+      "en": "By 100-rank band",
+      "jp": "100位帯別",
+      "kr": "100위 컷별"
+    },
+    "metaAnalysisBandsScrollHint": {
+      "en": "Swipe sideways to see more columns",
+      "jp": "左右にスワイプして列を見る",
+      "kr": "좌우로 밀어 더 보기"
+    },
+    "metaAnalysisBandsOpen": {
+      "en": "View full table",
+      "jp": "全区間の表を見る",
+      "kr": "전체 표 보기"
+    },
+    "metaAnalysisWcsResultsOpen": {
+      "en": "View full results",
+      "jp": "全試合結果を見る",
+      "kr": "전체 경기 결과 보기"
+    },
+    "metaAnalysisShowAll": {
+      "en": "Show all",
+      "jp": "すべて表示",
+      "kr": "전체 보기"
+    },
+    "metaAnalysisShowLess": {
+      "en": "Show less",
+      "jp": "閉じる",
+      "kr": "접기"
+    },
+    "metaAnalysisGadgetsTitle": {
+      "en": "Gadget usage",
+      "jp": "ガジェット使用率",
+      "kr": "가젯 사용률"
+    },
+    "metaAnalysisPctToneLegend": {
+      "en": "Usage color",
+      "jp": "使用率の色",
+      "kr": "사용률 색상"
+    },
+    "metaAnalysisGadgetsOpen": {
+      "en": "View full list",
+      "jp": "一覧を見る",
+      "kr": "전체 목록 보기"
+    },
+    "metaAnalysisGadgetsCount": {
+      "en": "{count} gadgets",
+      "jp": "{count}件",
+      "kr": "{count}개 가젯"
+    },
+    "metaAnalysisRulesTitle": {
+      "en": "Main-build rules",
+      "jp": "主要ビルド基準",
+      "kr": "주요 빌드 판정 기준"
+    },
+    "metaAnalysisOther": {
+      "en": "Other",
+      "jp": "その他",
+      "kr": "기타"
+    },
+    "metaAnalysisMetaBadge": {
+      "en": "Meta build",
+      "jp": "メタビルド",
+      "kr": "메타 빌드"
+    },
+    "metaAnalysisMetaBadgeShort": {
+      "en": "META",
+      "jp": "META",
+      "kr": "META"
+    },
+    "metaAnalysisOfRound": {
+      "en": "of round",
+      "jp": "全体",
+      "kr": "전체"
+    },
+    "metaAnalysisDetails": {
+      "en": "Details",
+      "jp": "詳細",
+      "kr": "자세히보기"
+    },
+    "metaAnalysisDetailsTitle": {
+      "en": "{cluster}",
+      "jp": "{cluster}",
+      "kr": "{cluster}"
+    },
+    "metaAnalysisAllBuilds": {
+      "en": "Unique builds",
+      "jp": "ユニークビルド",
+      "kr": "유니크 빌드"
+    },
+    "metaAnalysisCharUsageTitle": {
+      "en": "Character usage",
+      "jp": "キャラ使用率",
+      "kr": "캐릭터 사용률"
+    },
+    "metaAnalysisCharTypeTitle": {
+      "en": "Character type",
+      "jp": "キャラタイプ",
+      "kr": "캐릭터 타입"
+    },
+    "metaAnalysisMachineTypeTitle": {
+      "en": "Machine type",
+      "jp": "マシンタイプ",
+      "kr": "머신 타입"
+    },
+    "metaAnalysisTypeComboTitle": {
+      "en": "Character × machine type",
+      "jp": "キャラ×マシンタイプ",
+      "kr": "캐릭터×머신 타입"
+    },
+    "metaAnalysisMachineUsageTitle": {
+      "en": "Machine usage",
+      "jp": "マシン使用率",
+      "kr": "머신 사용률"
+    },
+    "metaAnalysisPartFront": {
+      "en": "Front",
+      "jp": "フロント",
+      "kr": "프론트"
+    },
+    "metaAnalysisPartRear": {
+      "en": "Rear",
+      "jp": "リア",
+      "kr": "리어"
+    },
+    "metaAnalysisPartTire": {
+      "en": "Tire",
+      "jp": "タイヤ",
+      "kr": "바퀴"
+    },
+    "metaAnalysisTypeFilterAll": {
+      "en": "All",
+      "jp": "すべて",
+      "kr": "전체"
+    },
+    "metaAnalysisTypeFilterHint": {
+      "en": "Filter by type",
+      "jp": "タイプで絞り込み",
+      "kr": "타입별 보기"
+    },
+    "metaAnalysisUsageEmpty": {
+      "en": "No data for this type.",
+      "jp": "このタイプのデータがありません。",
+      "kr": "이 타입 데이터 없음."
+    },
+    "metaAnalysisTireNoBoostNote": {
+      "en": "(No {type}-type tire parts — not counted)",
+      "jp": "（{type}タイプにタイヤパーツが無いため集計なし）",
+      "kr": "({type} 타입은 바퀴 파츠가 없기 때문에 집계 X)"
+    },
+    "metaAnalysisTabBuilds": {
+      "en": "Builds",
+      "jp": "ビルド",
+      "kr": "빌드"
+    },
+    "metaAnalysisTabChars": {
+      "en": "Chars",
+      "jp": "キャラ",
+      "kr": "캐릭"
+    },
+    "metaAnalysisTabCombo": {
+      "en": "Combo",
+      "jp": "組合せ",
+      "kr": "조합"
+    },
+    "metaAnalysisTabTypes": {
+      "en": "Types",
+      "jp": "タイプ",
+      "kr": "타입"
+    },
+    "metaAnalysisTabMachine": {
+      "en": "Machine",
+      "jp": "マシン",
+      "kr": "머신"
+    },
+    "metaAnalysisUsageTabsLabel": {
+      "en": "Usage sections",
+      "jp": "使用率セクション",
+      "kr": "사용률 탭"
+    },
+    "metaAnalysisRankingsOpen": {
+      "en": "View ranking data",
+      "jp": "順位データを見る",
+      "kr": "순위 데이터 보기"
+    },
+    "metaAnalysisRankingsDownload": {
+      "en": "Download all rankings",
+      "jp": "全順位データをダウンロード",
+      "kr": "전체 순위 데이터 다운로드"
+    },
+    "metaAnalysisRankingsDownloadHintShort": {
+      "en": "All rounds · xlsx",
+      "jp": "全ラウンド · xlsx",
+      "kr": "전 라운드 · xlsx"
+    },
+    "metaAnalysisRankingsDownloadHint": {
+      "en": "All Legend Competition rounds · English Excel file (.xlsx)",
+      "jp": "レジェンドコンペ全ラウンド · 英語版Excelファイル (.xlsx)",
+      "kr": "레전드 대회 전 라운드 · 영문 엑셀 파일 (.xlsx)"
+    },
+    "metaAnalysisScoreRange": {
+      "en": "Rank 1 {first} pts · Rank {lastRank} {last} pts",
+      "jp": "1位 {first}点 · {lastRank}位 {last}点",
+      "kr": "1위 {first}점 · {lastRank}위 {last}점"
+    },
+    "metaAnalysisScoreCutRow": {
+      "en": "{score} pts — through rank {rank}",
+      "jp": "{score}点 — {rank}位まで",
+      "kr": "{score}점 — {rank}위까지"
+    },
+    "metaAnalysisActionsCol": {
+      "en": "Build tools",
+      "jp": "ビルド操作",
+      "kr": "빌드 도구"
+    },
+    "metaAnalysisLoadBuild": {
+      "en": "Load into my build",
+      "jp": "マイビルドに読み込む",
+      "kr": "내 빌드로 불러오기"
+    },
+    "metaAnalysisLoadBuildShort": {
+      "en": "Load",
+      "jp": "読み込み",
+      "kr": "불러오기"
+    },
+    "metaAnalysisLoadBuildDone": {
+      "en": "Build loaded into My Build",
+      "jp": "マイビルドに読み込みました",
+      "kr": "나의 빌드로 불러왔습니다"
+    },
+    "metaAnalysisViewBuild": {
+      "en": "View build",
+      "jp": "ビルド確認",
+      "kr": "빌드 확인"
+    },
+    "metaAnalysisExportBuild": {
+      "en": "Open as build image",
+      "jp": "ビルド画像で開く",
+      "kr": "빌드 이미지로 열기"
+    },
+    "metaAnalysisExportBuildShort": {
+      "en": "Image",
+      "jp": "画像",
+      "kr": "이미지"
+    },
+    "metaAnalysisRankingsLoading": {
+      "en": "Loading ranking data\u2026",
+      "jp": "順位データを読み込み中…",
+      "kr": "순위 데이터를 불러오는 중…"
+    },
+    "metaAnalysisRankingsTitle": {
+      "en": "Ranking data (top {to})",
+      "jp": "順位データ（上位{to}）",
+      "kr": "순위 데이터 (상위 {to}위)"
+    },
+    "metaAnalysisRankCol": {
+      "en": "Rank",
+      "jp": "順位",
+      "kr": "순위"
+    },
+    "metaAnalysisCharCol": {
+      "en": "Character",
+      "jp": "キャラ",
+      "kr": "캐릭터"
+    },
+    "metaAnalysisMachineCol": {
+      "en": "Machine",
+      "jp": "マシン",
+      "kr": "머신"
+    },
+    "metaAnalysisBuildCol": {
+      "en": "Build",
+      "jp": "ビルド",
+      "kr": "빌드"
+    },
+    "metaAnalysisClusterCol": {
+      "en": "Main build",
+      "jp": "主要ビルド",
+      "kr": "주요 빌드"
+    },
+    "gadgetSubMobile": {
+      "list": {
+        "en": "List",
+        "jp": "一覧",
+        "kr": "목록"
+      },
+      "recommended": {
+        "en": "Recommended",
+        "jp": "おすすめ",
+        "kr": "추천"
+      }
+    },
+    "noCharactersFound": {
+      "en": "No characters found.",
+      "jp": "キャラクターが見つかりません。",
+      "kr": "캐릭터를 찾을 수 없습니다."
+    },
+    "gadgetSubList": {
+      "en": "Gadget List",
+      "jp": "ガジェット一覧",
+      "kr": "가젯 목록"
+    },
+    "gadgetSubRecommended": {
+      "en": "Recommended Builds",
+      "jp": "おすすめビルド",
+      "kr": "추천 빌드"
+    },
+    "gadgetRecommendedNote": {
+      "en": "Tier updates may lag slightly. Check Legend Competition and WCS tabs for event meta builds.",
+      "jp": "ティア反映はやや遅れる場合があります。「レジェンドコンペ」「世界大会」タブで大会メタビルドを確認できます。",
+      "kr": "티어 반영은 다소 지연될 수 있습니다. 「레전드 대회」「WCS」 탭에서 대회 메타 빌드를 확인하세요."
+    },
+    "gadgetRecommendedFlagWinnerHint": {
+      "en": "WCS Winner",
+      "jp": "世界大会優勝",
+      "kr": "WCS 우승"
+    },
+    "gadgetRecommendedFlagMetaHint": {
+      "en": "Meta build",
+      "jp": "メタビルド",
+      "kr": "메타 빌드"
+    },
+    "gadgetRecommendedVersionLabel": {
+      "en": "Version",
+      "jp": "バージョン",
+      "kr": "버전"
+    },
+    "gadgetRecommendedVersionEmpty": {
+      "en": "Coming soon",
+      "jp": "準備中です",
+      "kr": "준비 중입니다"
+    },
+    "gadgetRecommendedFilterGroupAria": {
+      "en": "Filter recommended builds",
+      "jp": "おすすめビルドの表示を切り替え",
+      "kr": "추천 빌드 표시 필터"
+    },
+    "gadgetRecommendedFilterAll": {
+      "en": "All",
+      "jp": "すべて",
+      "kr": "전체"
+    },
+    "gadgetRecommendedFilterLegend": {
+      "en": "Legend Comp.",
+      "jp": "レジェンドコンペ",
+      "kr": "레전드 대회"
+    },
+    "gadgetRecommendedFilterWcs": {
+      "en": "World Championship",
+      "jp": "世界大会",
+      "kr": "월드 챔피언십"
+    },
+    "gadgetRecommendedFilterWcsShort": {
+      "en": "WCS",
+      "jp": "世界大会",
+      "kr": "월챔"
+    },
+    "gadgetRecommendedLcEmpty": {
+      "en": "No builds with Legend Competition data are listed yet.",
+      "jp": "レジェンドコンペ採用のビルドがまだありません。",
+      "kr": "레전드 대회에 등록된 빌드가 아직 없습니다."
+    },
+    "gadgetRecommendedWcsEmpty": {
+      "en": "No builds with WCS data are listed yet.",
+      "jp": "世界大会採用のビルドがまだありません。",
+      "kr": "WCS에 등록된 빌드가 아직 없습니다."
+    },
+    "gadgetRecommendedRoundFilterAria": {
+      "en": "Filter by Legend Competition round or WCS year",
+      "jp": "レジェンドコンペのラウンド／世界大会年で絞り込み",
+      "kr": "레전드 대회 라운드 또는 WCS 연도로 필터"
+    },
+    "gadgetRecommendedRoundAll": {
+      "en": "All rounds",
+      "jp": "全ラウンド",
+      "kr": "전체 라운드"
+    },
+    "gadgetRecommendedRoundN": {
+      "en": "Round {n}",
+      "jp": "第{n}ラウンド",
+      "kr": "{n}라운드"
+    },
+    "gadgetRecommendedYearN": {
+      "en": "WCS {n}",
+      "jp": "世界大会 {n}",
+      "kr": "WCS {n}"
+    },
+    "gadgetRecommendedLcRoundEmpty": {
+      "en": "No builds are listed for this round.",
+      "jp": "このラウンドのビルドはありません。",
+      "kr": "이 라운드에 해당하는 빌드가 없습니다."
+    },
+    "gadgetRecommendedWcsYearEmpty": {
+      "en": "No builds are listed for this WCS year.",
+      "jp": "この世界大会年度のビルドはありません。",
+      "kr": "이 WCS 연도에 해당하는 빌드가 없습니다."
+    },
+    "gadgetRecommendedRuleBoxKicker": {
+      "en": "Round rule",
+      "jp": "ラウンドルール",
+      "kr": "라운드 룰"
+    },
+    "gadgetRecommendedWcsRuleBoxKicker": {
+      "en": "WCS rule",
+      "jp": "世界大会ルール",
+      "kr": "WCS 룰"
+    },
+    "gadgetRecommendedBannedGadgets": {
+      "en": "Banned gadgets",
+      "jp": "使用禁止ガジェット",
+      "kr": "금지 가젯"
+    },
+    "gadgetRecommendedHeldPeriod": {
+      "en": "Held",
+      "jp": "開催期間",
+      "kr": "개최 기간"
+    },
+    "gadgetRecommendedPrelimPeriod": {
+      "en": "Prelims",
+      "jp": "予選",
+      "kr": "예선"
+    },
+    "gadgetRecommendedFinalPeriod": {
+      "en": "Finals",
+      "jp": "決勝",
+      "kr": "결선"
+    },
+    "gadgetRecommendedGameVersion": {
+      "en": "Ver.",
+      "jp": "Ver.",
+      "kr": "Ver."
+    },
+    "gadgetRecommendedBaseVersion": {
+      "en": "Ver.",
+      "jp": "Ver.",
+      "kr": "Ver."
+    },
+    "searchPlaceholder": {
+      "character": {
+        "en": "Search characters...",
+        "jp": "キャラクターを検索...",
+        "kr": "캐릭터 검색..."
+      },
+      "gadget": {
+        "en": "Search gadgets...",
+        "jp": "ガジェットを検索...",
+        "kr": "가젯 검색..."
+      },
+      "machine": {
+        "en": "Search machines...",
+        "jp": "マシンを検索...",
+        "kr": "머신 검색..."
+      },
+      "map": {
+        "en": "Search maps...",
+        "jp": "マップを検索...",
+        "kr": "맵 검색..."
+      }
+    },
+    "itemSubInfo": {
+      "en": "Item Info",
+      "jp": "アイテム情報",
+      "kr": "아이템 정보"
+    },
+    "itemSubProbability": {
+      "en": "Item Probability",
+      "jp": "アイテム確率",
+      "kr": "아이템 확률 정보"
+    },
+    "itemProbOpenButton": {
+      "en": "Open probability tool",
+      "jp": "確率ツールを開く",
+      "kr": "확률 정보 열기"
+    },
+    "itemProbSource": {
+      "en": "Source:",
+      "jp": "出典:",
+      "kr": "출처:"
+    },
+    "itemProbModalClose": {
+      "en": "Close",
+      "jp": "閉じる",
+      "kr": "닫기"
+    },
+    "itemProbOpenNewTab": {
+      "en": "Open in new tab",
+      "jp": "新しいタブで開く",
+      "kr": "새 탭에서 열기"
+    },
+    "itemSubTabMobile": {
+      "itemSubInfo": {
+        "en": "Info",
+        "jp": "情報",
+        "kr": "아이템 정보"
+      },
+      "itemSubProbability": {
+        "en": "Probability",
+        "jp": "確率",
+        "kr": "확률 정보"
+      }
+    },
+    "noItemsFound": {
+      "en": "No items found.",
+      "jp": "アイテムが見つかりません。",
+      "kr": "아이템을 찾을 수 없습니다."
+    },
+    "noMapsFound": {
+      "en": "No maps found.",
+      "jp": "マップが見つかりません。",
+      "kr": "맵을 찾을 수 없습니다."
+    },
+    "mapTable": {
+      "track": {
+        "en": "Track",
+        "jp": "コース",
+        "kr": "트랙"
+      },
+      "grandPrix": {
+        "en": "Grand Prix",
+        "jp": "グランプリ",
+        "kr": "그랑프리"
+      },
+      "timeTrial": {
+        "en": "Time attack",
+        "jp": "タイムアタック",
+        "kr": "타임어택"
+      },
+      "sonic": {
+        "en": "Sonic Speed",
+        "jp": "ソニックスピード",
+        "kr": "소닉 스피드"
+      },
+      "superSonic": {
+        "en": "Super Sonic Speed",
+        "jp": "スーパーソニックスピード",
+        "kr": "슈퍼 소닉 스피드"
+      },
+      "mapLayoutHeading": {
+        "en": "Course map",
+        "jp": "コースマップ",
+        "kr": "코스 맵"
+      },
+      "mapViewStandard": {
+        "en": "Standard",
+        "jp": "通常",
+        "kr": "일반"
+      },
+      "mapViewFinal": {
+        "en": "Final",
+        "jp": "ファイナル",
+        "kr": "파이널"
+      },
+      "noThumbnail": {
+        "en": "No Thumbnail",
+        "jp": "サムネイルなし",
+        "kr": "썸네일 없음"
+      },
+      "filterMapsAria": {
+        "en": "Filter maps by Grand Prix",
+        "jp": "グランプリでマップを絞り込む",
+        "kr": "그랑프리로 맵 필터"
+      },
+      "filterCrossworldMapsAria": {
+        "en": "Show Crossworld maps",
+        "jp": "クロスワールドのマップを表示",
+        "kr": "크로스월드 맵 보기"
+      },
+      "mapDetailOriginalHeading": {
+        "en": "Original map",
+        "jp": "オリジナルマップ",
+        "kr": "원작 맵"
+      },
+      "mapDetailDescriptionHeading": {
+        "en": "Description",
+        "jp": "説明",
+        "kr": "설명"
+      },
+      "mapDetailInteractionHeading": {
+        "en": "Interaction characters",
+        "jp": "インタラクション キャラクター",
+        "kr": "상호 작용 대사가 있는 캐릭터"
+      },
+      "mapMusicHeading": {
+        "en": "Course BGM",
+        "jp": "コースBGM",
+        "kr": "코스 BGM"
+      },
+      "mapMusicOpenYoutube": {
+        "en": "Listen on YouTube",
+        "jp": "YouTubeで聴く",
+        "kr": "YouTube에서 듣기"
+      },
+      "mapMusicTrackIntro": {
+        "en": "Intro",
+        "jp": "イントロ",
+        "kr": "인트로"
+      },
+      "mapMusicTrackLap1": {
+        "en": "LAP 1",
+        "jp": "LAP 1",
+        "kr": "LAP 1"
+      },
+      "mapMusicTrackFinal": {
+        "en": "Final lap",
+        "jp": "ファイナル",
+        "kr": "파이널"
+      },
+      "mapMusicTrackFinalNoChant": {
+        "en": "Final (no chant)",
+        "jp": "ファイナル（コーラスなし）",
+        "kr": "파이널 (코러스 없음)"
+      },
+      "mapMusicTrackVillageLap1": {
+        "en": "Pac-Village",
+        "jp": "パックビレッジ",
+        "kr": "팩 빌리지"
+      },
+      "mapMusicTrackMazeLap1": {
+        "en": "Maze",
+        "jp": "メイズ",
+        "kr": "메이즈"
+      },
+      "mapMusicTrackVillageFinal": {
+        "en": "Pac-Village (final)",
+        "jp": "パックビレッジ（ファイナル）",
+        "kr": "팩 빌리지 (파이널)"
+      },
+      "mapMusicTrackMazeFinal": {
+        "en": "Maze (final)",
+        "jp": "メイズ（ファイナル）",
+        "kr": "메이즈 (파이널)"
+      },
+      "mapMusicTrackOverworldLap1": {
+        "en": "Overworld",
+        "jp": "オーバーワールド",
+        "kr": "오버월드"
+      },
+      "mapMusicTrackNetherLap1": {
+        "en": "Nether",
+        "jp": "ネザー",
+        "kr": "네더"
+      },
+      "mapMusicTrackOverworldFinal": {
+        "en": "Overworld (final)",
+        "jp": "オーバーワールド（ファイナル）",
+        "kr": "오버월드 (파이널)"
+      },
+      "mapMusicTrackEndFinal": {
+        "en": "The End (final)",
+        "jp": "エンド（ファイナル）",
+        "kr": "엔드 (파이널)"
+      }
+    },
+    "metaAnalysisDataNotice": {
+      "en": "Rankings are tallied by hand, so human error is possible. Cross-checking is ongoing — if you spot a mistake, please email busimh001@gmail.com.",
+      "jp": "順位データは手作業で集計しているため、ミスが発生する可能性があります。現在もクロスチェック中です。誤りを見つけたら busimh001@gmail.com までご連絡ください。",
+      "kr": "수기로 데이터를 집계하므로 휴먼 에러가 발생할 수 있습니다. 지금도 크로스체크를 하고 있습니다. 발견 시 꼭 정정 문의 메일을 보내주시면 감사하겠습니다."
+    }
+  }
+}

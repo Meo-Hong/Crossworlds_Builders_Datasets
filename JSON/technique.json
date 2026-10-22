@@ -1,0 +1,887 @@
+{
+    "basic":{
+        "start_boost":{
+            "title": {
+                "en": "Start Boost",
+                "jp": "スタートダッシュ",
+                "kr": "스타트 대시"
+            },
+            "description": {
+                "en": [
+                    "A technique used at the start of the race to quickly reach top speed through a 'Start Boost'.",
+                    "If the marker lands within the designated range within 3 seconds, the boost level is determined accordingly.",
+                    "The ideal Start Boost is achieved by pressing the accelerate key right after the 2-second countdown sounds.",
+                    "If the marker lands in the red area, the Start Boost fails, and you will be temporarily unable to control the machine. Please be careful."
+                ],
+                "jp": [
+                    "ゲーム開始時に、「スタートダッシュ」によって素早く最高速度に到達できるようにするテクニックです。",
+                    "3秒以内に指定された範囲内に目盛りが合うと、それに応じてブーストの段階が決まります。",
+                    "理想的なスタートダッシュは、残り2秒のカウントが鳴った直後にアクセルキーを押すことです。",
+                    "もし赤いエリアに目盛りが合ってしまうと、スタートダッシュに失敗し、しばらくの間操作不能になります。ご注意ください。"
+                ],
+                "kr": [
+                    "게임을 시작하기 앞서, 스타트 대시를 통해 빠르게 최고속도에 도달할 수 있도록 하는 테크닉입니다.",
+                    "3초 내에 지정된 범위 내에 눈금이 맞으면 그에 따라 부스트의 단계가 맞춰집니다.",
+                    "이상적인 스타트 대시는 2초 카운트가 울리고나서 바로 액셀 키를 누르는 것입니다.",
+                    "만약 빨간색 영역에 눈금이 맞으면 스타트 대시가 실패하여 잠시동안 조작 불능이 됩니다. 유의하기 바랍니다."
+                ]
+            },
+            "example":{
+                "level1" : {
+                    "video" : "start_boost_lv1.mp4"
+                },
+                "level2" : {
+                    "video" : "start_boost_lv2.mp4"
+                },
+                "level3" : {
+                    "video" : "start_boost_lv3.mp4"
+                },
+                "failure" : {
+                    "video" : "start_boost_failure.mp4"
+                }
+            }
+        },
+        "drift_level":{
+            "title": {
+                "en": "Drift Charge Boost",
+                "jp": "ドリフト チャージ ダッシュ",
+                "kr": "드리프트 차지 대시"
+            },
+            "description": {
+                "en": [
+                    "When you drift, you start charging. Filling the charge gauge and releasing the drift key activates the 'Drift Boost'.",
+                    "There are a total of 4 levels of Drift Boost: Lv1, Lv2, Lv3, and Lv4. The length and speed of the Drift Boost vary slightly depending on the level.",
+                    "Lv1 'Drift Boost' adds +20km/h, Lv2~Lv4 'Drift Boost' adds +25km/h speed increase effect.",
+                    "Lv1 lasts for 1.5 seconds, Lv2 for 2.5 seconds, Lv3 for 3.5 seconds, and Lv4 for 5 seconds.",
+                    "Lv4 Drift Boost can be used by equipping the 'Ultimate Charge' gadget or during Crossworlds Frenzy Time (Drift Charge Frenzy Time).",
+                    "The boost colors are distinguished as yellow for Lv1, purple for Lv2, blue for Lv3, and rainbow for Lv4.",
+                    "In the air, when you perform a Drift Charge Boost, 'Barrel Roll' effect occurs, but this rolling has the effect of pulling the rings."
+                ],
+                "jp": [
+                    "ドリフトを行うと「チャージ」を開始します。チャージゲージを溜めてドリフトキーを離すと、「ドリフトブースト」が発動します。",
+                    "ドリフトブーストのレベルは全4段階（Lv1、Lv2、Lv3、Lv4）あります。レベルに応じて、ドリフトブーストの長さと速度がわずかに変化します。",
+                    "Lv1のドリフトブーストは+20km/h、Lv2～Lv4のドリフトブーストは+25km/hの速度増加効果があります。",
+                    "Lv1は1.5秒、Lv2は2.5秒、Lv3は3.5秒、Lv4は5秒間持続します。",
+                    "Lv4のドリフトブーストは、ガジェット「アルティメットチャージ」を装備するか、クロスワールドフィーバータイム（ドリフトチャージフィーバータイム）中に使用可能です。",
+                    "ブーストの色は、Lv1が黄色、Lv2が紫色、Lv3が青色、Lv4が虹色に区別されます。",
+                    "空中ではドリフトチャージダッシュを行うと、回転する効果が発生しますが、この回転はリングを引き寄せる効果があります。"
+                ],
+                "kr": [
+                    "드리프트를 하게 되면 '차지'를 시작합니다. 차지 게이지를 채우고 드리프트 키를 해제하면 '드리프트 부스트'가 발동됩니다.",
+                    "드리프트 부스트의 레벨은 총 4가지, Lv1, Lv2, Lv3, Lv4 가 있습니다. 레벨에 따라 드리프트 부스트의 길이와 속도가 살짝 달라집니다.",
+                    "Lv1 드리프트 부스트는 +20km/h, Lv2~Lv4 드리프트는 +25km/h 속도 증가 효과가 있습니다.",
+                    "Lv1은 1.5초, Lv2는 2.5초, Lv3는 3.5초, Lv4는 5초동안 지속됩니다.",
+                    "Lv4 드리프트 부스트는 가젯 '얼티밋 차지'를 장착하거나, 크로스월드 피버 타임(드리프트 차지 피버 타임)에서 사용 가능합니다.",
+                    "Lv1은 노란색, Lv2는 자주색, Lv3는 파란색, Lv4는 무지개색으로 부스트의 색상이 구분됩니다.",
+                    "공중에서는 드리프트 차지 대시 시, 회전하는 효과가 발생하는데 이 회전은 링을 끌어당기는 효과가 있습니다."
+                ]
+            },
+            "example":{
+                "level1" : {
+                    "picture" : "drift_boost_lv1_cap.jpg",
+                    "video" : "drift_boost_lv1.mp4"
+                },
+                "level2" : {
+                    "picture" : "drift_boost_lv2_cap.jpg",
+                    "video" : "drift_boost_lv2.mp4"
+                },
+                "level3" : {
+                    "picture" : "drift_boost_lv3_cap.jpg",
+                    "video" : "drift_boost_lv3.mp4"
+                },
+                "level4" : {
+                    "picture" : "drift_boost_lv4_cap.jpg",
+                    "video" : "drift_boost_lv4.mp4"
+                }
+            }
+        },
+        "air_trick_boost":{
+            "title": {
+                "en": "Air Trick Boost",
+                "jp": "エアトリックブースト",
+                "kr": "에어 트릭 부스트"
+            },
+            "description": {
+                "en": [
+                    "The 'Air Trick Boost' is a boost that activates when you perform an Air Trick.",
+                    "There are a total of 4 levels of Air Trick Boost: Lv1, Lv2, Lv3, and Lv4. The speed and duration of the Air Trick Boost vary slightly depending on the level. Lv4 requires an additional gadget to activate.",
+                    "The Lv1 Air Trick Boost provides a +20km/h speed increase effect, while Lv2 to Lv4 Air Trick Boosts provide a +25km/h speed increase effect.",
+                    "The Lv1 Air Trick Boost lasts for 2.4 seconds, Lv2 for 3.0 seconds, Lv3 for 3.3 seconds, and Lv4 for 5 seconds.",
+                    "It only goes up to a maximum of Lv4, and performing more Air Tricks beyond that will not increase the boost duration.",
+                    "Equipping 'Ultimate Air Trick' replaces Lv3 Air Tricks with Lv4 Air Tricks. Successfully performing 3 or more air tricks grants invincibility for 2 seconds and activates a Lv4 Air Trick Boost upon landing."
+                ],
+                "jp": [
+                    "「エアトリックブースト」は エアトリックを行うと発動するブーストです。",
+                    "エアトリックブーストのレベルは全4段階（Lv1、Lv2、Lv3、Lv4）あります。レベルに応じて、エアトリックブーストの速度と持続時間がわずかに変化します。Lv4は追加のガジェットが必要です。",
+                    "Lv1のエアトリックブーストは+20km/h、Lv2～Lv4のエアトリックブーストは+25km/hの速度増加効果があります。",
+                    "Lv1のエアトリックブーストは2.4秒、Lv2は3.0秒、Lv3は3.3秒、Lv4は5秒間持続します。",
+                    "最大Lv4までしか上がらず、それ以上エアトリックを行ってもブーストの持続時間は増加しません。",
+                    "「アルティメットエアトリック」を装着すると、Lv3エアトリックがLv4エアトリックに置き換わります。3回以上エアトリックを成功させると2秒間無敵状態になり、着地時にLv4エアトリックブーストが発動します。"
+                ],
+                "kr": [
+                    "에어 트릭 부스트는 에어 트릭을 하게 되면 발동하는 부스트입니다.",
+                    "에어 트릭 부스트의 레벨은 총 4가지, Lv1, Lv2, Lv3, Lv4 가 있습니다. 레벨에 따라 에어 트릭 부스트의 속도와 지속 시간이 살짝 달라집니다. Lv4는 추가 가젯을 착용해야 발동할 수 있습니다.",
+                    "Lv1 에어 트릭 부스트는 +20km/h, Lv2~Lv4 에어 트릭 부스트는 +25km/h 속도 증가 효과가 있습니다.",
+                    "Lv1 에어 트릭 부스트는 2.4초, Lv2는 3.0초, Lv3는 3.3초, Lv4는 5초동안 지속됩니다.",
+                    "최대 Lv4 까지만 올라가고, 그 이상은 에어 트릭을 해도 부스트의 지속 시간이 올라가지 않습니다.",
+                    "「얼티밋 에어 트릭」을 착용하면 Lv3 에어 트릭이 Lv4 에어 트릭으로 대체됩니다. 3번 이상 에어 트릭을 성공하면 2초동안 무적 상태가 되며, 착지 시 Lv4 에어 트릭 부스트가 발동됩니다."
+                ]
+            },
+            "example":{
+                "level1" : {
+                    "video" : "air_trick_boost_lv1.mp4"
+                },
+                "level2" : {
+                    "video" : "air_trick_boost_lv2.mp4"
+                },
+                "level3" : {
+                    "video" : "air_trick_boost_lv3.mp4"
+                },
+                "level4" : {
+                    "video" : "air_trick_boost_lv4.mp4"
+                }
+            }
+        },
+        "charge_jump":{
+            "title": {
+                "en": "Charge Jump",
+                "jp": "チャージジャンプ",
+                "kr": "차지 점프"
+            },
+            "description": {
+                "en": [
+                    "'Charge Jump' is a technique used in \"Water Mode\" where you charge by holding the drift key and jump by releasing it.",
+                    "Filling the charge gauge to increase your jump level will increase your jump height.",
+                    "The boost generated by a Charge Jump grants an acceleration effect equivalent to Lv1, regardless of the level. However, the duration increases depending on the level.",
+                    "While charging, a slight deceleration may occur, similar to when drifting."
+                ],
+                "jp": [ 
+                    "「チャージジャンプ」は、水上モードでドリフトキーを押しながらチャージを行い、ドリフトキーを離してジャンプするテクニックです。",
+                    "チャージゲージを溜めてジャンプレベルを上げると、ジャンプの高さが増加します。",
+                    "チャージジャンプで発生するブーストは、レベルに関係なくLv1程度の加速効果を得ます。ただし、持続時間はレベルに応じて長くなります。",
+                    "チャージ中はドリフトと同様に、若干の減速が生じる場合があります。"
+                ],
+                "kr": [
+                    "「차지 점프」는, 수상 모드에서 드리프트 키를 누르면서 차지를 하고, 드리프트 키를 해제하여 점프하는 테크닉입니다.",
+                    "차지 게이지를 채워 점프 레벨을 올리면 점프하는 높이가 증가합니다.",
+                    "차지 점프로 나오는 부스트는 레벨과 상관없이 lv1 정도의 가속 효과를 얻습니다. 다만, 지속시간은 레벨에 따라 길어집니다.",
+                    "차지 중에서는 드리프트와 마찬가지로 약간의 감속이 들어갈 수 있습니다."
+                ]
+            },
+            "example":{
+                "level1" : {
+                    "video" : "charge_jump_lv1.mp4"
+                },
+                "level2" : {
+                    "video" : "charge_jump_lv2.mp4"
+                },
+                "level3" : {
+                    "video" : "charge_jump_lv3.mp4"
+                },
+                "level4" : {
+                    "video" : "charge_jump_lv4.mp4"
+                }
+            }
+        },
+        "slipstream":{
+            "title": {
+                "en": "Slipstream",
+                "jp": "スリップストリーム",
+                "kr": "슬립스트림"
+            },
+            "description": {
+                "en": [
+                    "'Slipstream' is a technique that grants extra speed when you follow closely behind an opponent's machine." ,
+                    "Unlike the 'Mario Kart' series' instant acceleration system—where you 'charge power behind an opponent for a set time to get a sudden burst of speed'—this is a sustained acceleration system where you 'continuously gain extra speed as long as you stay within a certain range behind the opponent.'",
+                    "This effect can be seen as a reinterpretation of real-world slipstreaming (a phenomenon where following behind an opponent lowers the aerodynamic pressure on the trailing driver. By utilizing this, the trailing car experiences less air resistance and can accelerate more easily).",
+                    "In the game, following behind a machine gives you an 'Extra Speed +20km/h' effect.",
+                    "This can stack with the extra speed from collecting rings and the acceleration from ring-collection dashes, but there is a cap. For more details, please refer to the 'Extra Speed Table' and 'Extra Speed Cap by Type' in the 'Extra Speed' tab.",
+                    "Equipping the 'Slipstream Bounty' gadget allows you to continuously gain 1 ring every 0.5 seconds while in a slipstream state.",
+                    "'Extended Slipstream' is a gadget that 'extends the horizontal width of the slipstream activation range by 100%.' Please note that it does not 'extend the longitudinal distance (vertical length) by 100%.'",
+                    "Since this is the most basic technique for overtaking opponents throughout the race, it is essential to master it."
+                ],
+                "jp": [
+                    "「スリップストリーム」とは、相手マシンの後ろを追従することで追加速度を得られるテクニックです。",
+                    "「マリオカート」シリーズのような「一定時間相手の後ろでパワーをチャージし、一度に爆発的な加速をする」瞬間加速システムとは異なり、「相手マシンの後方の一定範囲内に入ると、その間持続的に追加速度を得る」維持型の加速システムです。",
+                    "この効果は、現実のスリップストリーム（相手の後ろにつくと、空気力学により後続車の受ける空気圧が下がる現象。これを利用することで、後続車は空気抵抗を減らし、加速しやすくなる）を再解釈したものと言えます。",
+                    "ゲーム内では、マシンの後ろを走ると「追加速度+20km/h」の効果を得られます。",
+                    "リング獲得時の追加速度や、リング獲得ダッシュによる加速と重複可能ですが、上限が存在します。詳細は「追加速度」タブの「追加速度表」および「タイプ別追加速度上限」をご参照ください。",
+                    "ガジェット「スリップストリームボーナス」を装備すると、スリップストリーム状態で0.5秒ごとにリングを1個ずつ継続的に獲得できるようになります。",
+                    "「ロングスリップストリーム」は、「スリップストリームの発動横幅（横方向の範囲）を100%延長」するガジェットです。「縦方向（距離）の範囲が100%延長されるわけではない」ので、この点にご注意ください。",
+                    "レース全般にわたって相手を追い抜くための最も基本的なテクニックであるため、必ず知っておくべきです。"
+                ],
+                "kr": [
+                    "'슬립스트림'이란 상대 머신 뒤를 따라가면 추가 속도를 얻는 효과를 지닌 테크닉입니다.",
+                    "'마리오 카트 시리즈'의 '일정 시간 동안 상대 뒤에서 파워를 충전하여 한번에 폭발적인 가속을 하는 '순간 가속 시스템과 달리, '상대 머신 뒤의 일정 범위 내에 들어오면 잠깐동안 추가 속도를 지속적으로 얻는' 유지형 가속 시스템 입니다.",
+                    "이러한 효과는 현실의 슬립스트림(상대 뒤에 있으면 공기역학에 의해 뒷 선수의 공기압력이 낮아지는 현상. 이를 이용해 뒷차는 공기 저항을 덜 받고 가속을 하기 쉬워진다.)을 재해석한 것으로 볼 수 있습니다.",
+                    "게임 내에서는 머신 뒤를 따라가면 '추가속도 +20km/h'의 효과를 얻습니다.",
+                    "링 획득 시 추가속도, 링 획득 대시로 얻는 가속도와 중첩할 수 있지만 상한선이 존재합니다. 자세한 것은 '추가 속도'탭의 '추가 속도 표'와 '타입별 추가 속도 상한'을 참고하세요.",
+                    "'슬립스트림 보너스'를 착용하면 슬립스트림 상태에서 0.5초 동안 링을 1개씩, 지속적으로 획득 가능합니다.",
+                    "'롱 슬립스트림'은 '슬립스트림 발동 너비 범위를 100% 연장'하는 가젯입니다. '수직 방향 범위 100% 연장'이 아니므로, 이 점을 유의하기 바랍니다.",
+                    "경기 전반에 걸쳐서 상대방을 추월하는데에 가장 기초적인 테크닉이므로, 꼭 알고 있어야합니다.",
+                    "예시 영상은 좌→우로 (1. 일반 슬립스트림, 2.롱 슬립스트림, 3.멀리 떨어진 상태에서 롱 슬립스트림 실험)을 보여주고 있습니다.",
+                    "한국 전용 설명) 카트라이더의 '드래프트' 시스템과는 완전히 다르고(이쪽은 마리오카트의 슬립스트림과 닮음), 오히려 '견인 속도' 시스템(1등과 비교하여 뒷 순위에 있으면 추가 속도 보정을 받는 시스템)과 유사하다고 볼 수 있습니다."
+                ]
+            },
+            "sample":[
+                "normal_slipstream.mp4",
+                "extended_slipstream.mp4",
+                "extended_slipstream_farther.mp4"
+            ]
+        },
+        "item_defense": {
+            "title": {
+                "en": "Item Defense",
+                "jp": "アイテム防御",
+                "kr": "아이템 방어"
+            },
+            "description": {
+                "en": [
+                    "'Item Defense' is a technique where you use an item backwards to defend against incoming item attacks.",
+                    "It refers to the technique of defending by utilizing 'attack items' or 'trap items', rather than just using standard defensive items.",
+                    "The execution is to 'use the item while pulling the L-stick down at the right timing'.",
+                    "Pressing a specific button (varies depending on your control layout) allows you to 'look behind the racer', and it is crucial to use this to assess the situation behind you and defend accordingly.",
+                    "Defending while drifting is especially difficult. This is because, when you fire an item, it is launched in the opposite direction of your car during the drift.",
+                    "In addition, items travel along the course's center line, but while drifting your car almost never faces toward the center, instead it faces toward the drift corner's direction.",
+                    "Because items are incredibly powerful in this game, item defense is one of the most critical techniques to learn.",
+                    "The video below shows an example of 'defending by utilizing items' (performed)."
+                ],
+                "jp": [
+                    "「アイテム防御」は、アイテム攻撃を防ぐためにアイテムを後方へ使用するテクニックです。",
+                    "防御アイテムを使用して防ぐこと以外の、「攻撃アイテム」や「設置アイテム」を活用して防御するテクニックを指します。",
+                    "やり方は、「適切なタイミングに合わせてLスティックを下に倒しながらアイテムを使用する」というものです。",
+                    "特定のボタン（使用しているボタン配置によって異なります）を押すと「レーサーの後方」を見ることができるので、これを活用して後ろの状況を把握し、防御することが重要です。",
+                    "ドリフト中は防御がかなり難しくなります。その理由は、アイテムを発射する際に、ドリフト中の車体の反対方向へ向かって発射されるためです。",
+                    "また、アイテムはコース中央のラインを飛んできますが、ドリフト中はコース中央を向くことがほとんどなく、ドリフトコーナーの方向を向くためです。",
+                    "このゲームではアイテムの威力が非常に強力なため、アイテム防御は極めて重要なテクニックの一つです。",
+                    "以下の動画は、「アイテムを活用して防御」する例を示しています。(演出されています)"
+                ],
+                "kr": [
+                    "'아이템 방어'는 아이템 공격을 방어하기 위해 아이템을 후방으로 사용하는 테크닉입니다.",
+                    "방어 아이템을 사용하여 방어하는 것외의 '공격 아이템'이나 '설치 아이템'을 활용하여 방어하는 테크닉을 의미합니다.",
+                    "방법은 '적당한 타이밍에 맞춰서 L스틱을 아래로 밀면서 아이템을 사용'입니다.",
+                    "특정 버튼(배열마다 다름)을 누르면 '레이서의 후방'을 볼 수 있는데, 이를 활용하여 뒤의 상황을 파악하고 방어하는 것이 중요합니다.",
+                    "드리프트 중에서는 방어하기가 굉장히 까다롭습니다. 그 이유는 '아이템 발사 시, 드리프트 중의 차체의 반대 방향으로 발사'되기 때문입니다.",
+                    "아이템은 코스의 중앙 라인을 타고 오나, 드리프트는 코스의 중앙 방향을 향하는 경우가 거의 없이 드리프트 코너의 방향을 바라보기 때문입니다.",
+                    "이 게임에서 아이템의 위력이 너무 강하기 때문에, 아이템 방어는 매우 중요한 테크닉 중 하나입니다.",
+                    "아래 영상은 '아이템을 활용해 방어'하는 예시(연출됨)입니다."
+                ]
+            },
+            "sample": [
+                "item_defense.mp4",
+                "item_defense_2.mp4"
+            ]
+        },
+        "stat upgrade": {
+            "title": {
+                "en": "Stat Upgrade",
+                "jp": "パラメータ強化",
+                "kr": "스탯 강화"
+            },
+            "description": {
+                "en": [
+                    "Equipping specific gadgets (such as 'Ring Engine', 'Tune', or 'Evolution') allows you to increase your parameter values.",
+                    "Since parameters affect various performances in the game, please refer to the 'Parameter' tab in the 'Guide'.",
+                    "Enhancing parameters through gadgets can compensate for a machine's lacking performance or maximize its potential. (e.g., enhancing 'Handling' to improve cornering performance, enhancing 'Dash' to increase drift charge speed, etc.)",
+                    "Parameter enhancements do not usually have visual effects. However, the recently added 'Evolution' gadget series displays visual effects based on the enhancement state.",
+                    "The images below show the 4 states that appear when parameter performance is increased using the 'Evolution' gadget.",
+                    "Lv1 Enhancement State (Yellow): All parameters +10 or more",
+                    "Lv2 Enhancement State (Pink): All parameters +20 or more",
+                    "Lv3 Enhancement State (Blue): All parameters +40 or more",
+                    "Lv4 Enhancement State (Rainbow): All parameters +60 or more"
+                ],
+                "jp": [
+                    "特定のガジェット（「リングエンジン」、「チューン」、「進化」など）を装着すると、パラメーターの値を上げることができます。",
+                    "ゲーム内でパラメーターが各性能に影響を与えるため、「ガイド」の「パラメーター」タブをご参照ください。",
+                    "ガジェットを通じてパラメーターを強化することで、不足しているマシンの性能を補ったり、マシンの性能を極大化させることができます。（『ハンドリング』を強化してコーナリング性能を高める、『ダッシュ』を強化してドリフトチャージ速度を高めるなど）",
+                    "パラメーターの性能強化は通常、視覚的なエフェクトとしては現れません。ただし、最近追加された「進化」ガジェットシリーズは、性能強化状態を視覚的エフェクトとして表示します。",
+                    "以下の写真は、「進化」ガジェットでパラメーターの性能を上げた際に現れる4つの状態を示しています。",
+                    "Lv1強化状態 (黄色)：全パラメーター+10以上強化",
+                    "Lv2強化状態 (ピンク)：全パラメーター+20以上強化",
+                    "Lv3強化状態 (青)：全パラメーター+40以上強化",
+                    "Lv4強化状態 (虹)：全パラメーター+60以上強化"
+                ],
+                "kr": [
+                    "특정 가젯(「링 엔진」, 「튠」, 「진화」 등)을 착용하면 파라미터의 값을 올릴 수 있습니다.",
+                    "게임 내에서 파라미터가 각 성능에 영향이 있으므로, '가이드'의 '파라미터' 탭을 참고하시면 됩니다.",
+                    "가젯을 통해 파라미터를 강화시키면 부족한 머신의 성능을 보완하거나 머신의 성능을 극대화 할 수 있습니다. ('핸들링'을 강화시켜 코너링 성능을 높이기, '대시'를 강화시켜 드리프트 차지 속도를 높이기 등)",
+                    "파라미터의 성능 강화는 원래는 시각적인 효과로 드러나지 않습니다. 다만, 최근 추가된 「진화」가젯 시리즈는 성능 강화 상태의 시각적 효과를 보여줍니다.",
+                    "아래의 사진은 「진화」가젯으로 파라미터의 성능을 올렸을 때, 나타나는 4개의 상태를 보여줍니다.",
+                    "Lv1 강화 상태 (노란색) : 모든 파라미터 +10 이상 강화",
+                    "Lv2 강화 상태 (분홍색) : 모든 파라미터 +20 이상 강화",
+                    "Lv3 강화 상태 (파란색) : 모든 파라미터 +40 이상 강화",
+                    "Lv4 강화 상태 (무지개색) : 모든 파라미터 +60 이상 강화"
+                ]
+            },
+            "example":{
+                "level1": { "picture": "stat_upgrade_lv1.jpg" },
+                "level2": { "picture": "stat_upgrade_lv2.jpg" },
+                "level3": { "picture": "stat_upgrade_lv3.jpg" },
+                "level4": { "picture": "stat_upgrade_lv4.jpg" }
+            }
+        }
+    },
+    "skilled":{
+        "counter_drift" : {
+            "title": {
+                "en": "Counter Drift",
+                "jp": "切り返しドリフト",
+                "kr": "방향 전환 드리프트"
+            },
+            "description": {
+                "en": [
+                    "'Counter Drift' is an advanced technique where you release the drift key mid-drift, immediately steer in the opposite direction, and start drifting again.",
+                    "By utilizing this, you can drift on straight courses and easily activate a Drift Charge Boost.",
+                    "If you activate \"Counter Drift\" in charging, it will consume a certain amount of your charge gauge before drifting again. Therefore, you can minimize this gauge consumption by fully completing one charge stage before activating the technique.",
+                    "Officially, this is named \"Chain Drifting\". In Korea, it is also commonly called \"Cutting Drift\" for convenience (a term borrowed from another racing game).",
+                    "As a technique that allows you to trigger boosts at will, it is one of the most crucial techniques for shaving off time and overall race management."
+                ],
+                "jp": [
+                    "「切り返しドリフト」は、ドリフト中にドリフトキーを離して解除した直後、反対方向にハンドルを切ってすぐに再びドリフトを行う高度なテクニックです。",
+                    "これを活用することで、直線コースでもドリフトを行い、ドリフトチャージブーストを簡単に発動することができます。",
+                    "「切り返しドリフト」をチャージ途中で発動すると、一定量のチャージゲージを消費して再びドリフトを行います。したがって、可能な限りチャージを1段階完全に溜めきった後に発動することで、チャージの消費を最小限に抑えることができます。",
+                    "公式ではこれを「直線ドリフト」と呼称しています。韓国では便宜上「カッティングドリフト」とも呼ばれています。（別のレースゲームから引用された用語です。）",
+                    "ブーストを自由自在に発動できるテクニックであるため、タイム短縮やレース運びにおいて非常に重要なテクニックの一つです。"
+                ], 
+                "kr": [
+                    "「방향 전환 드리프트」는 드리프트 중에 드리프트 키를 떼서 해제하자마자 반대 방향으로 핸들을 틀고 바로 다시 드리프트하는 심화 테크닉입니다.",
+                    "이를 활용하면 직선 코스에서 드리프트를 하여 드리프트 차지 부스트를 쉽게 발동할 수 있습니다.",
+                    "방향 전환 드리프트를 차지 도중에 발동하면 일정량의 차지 게이지를 소모하고 다시 드리프트를 합니다. 따라서, 최대한 차지를 한 단계 모두 채운 후에 이걸 발동하면 차지 소모를 최소화 할 수 있습니다.",
+                    "이를 공식에서는 「직선 드리프트」라고 명명합니다. 한국에서는 편의상 「커팅 드리프트」라고 부르기도 합니다. (용어가 사용된 다른 레이싱 게임에서 따온 용어입니다.)",
+                    "부스트를 자유자재로 발동하는 테크닉이므로 시간 단축과 게임 운영에 매우 중요한 테크닉 중 하나입니다."
+                ]
+            },
+            "sample":[
+                "counter_drift.mp4"
+            ]
+        },
+        "accel_control" :{
+            "title": {
+                "en": "Acceleration Control",
+                "jp": "アクセルコントロール",
+                "kr": "액셀 조절"
+            },
+            "description": {
+                "en": [
+                    "\"Acceleration Control\" is a technique where you release or press the accelerator key during a drift to adjust the cornering speed. (Sometimes the brake key is also used.)",
+                    "This control is necessary to prevent drifting too wide toward the outside of the corner due to excessive speed.",
+                    "For example, you would use this control to avoid falling off the edge in the fenceless corner sections of 'Chao Park'.",
+                    "There are many opportunities to utilize this during a race, so it is highly recommended to master this technique.",
+                    "The example video below shows the difference between (Left: Accel Control X, Right: Accel Control O)."
+                ],
+                "jp": [
+                    "「アクセルコントロール」は、ドリフト中にアクセルキーを離したり押したりすることで、コーナリングの速度を調節するテクニックです。(偶々ブレーキキーを使うこともあります。)",
+                    "このようなコントロールが必要な理由は、コーナーを曲がる際、スピードが出すぎて外側に膨らんでしまうのを防ぐためです。",
+                    "例として、「チャオパーク」の柵がないコーナー区間で落下しないように調整するといった使い方が挙げられます。",
+                    "レース中で活用できる場面が非常に多いため、このテクニックをしっかり身につけておくことをお勧めします。",
+                    "以下のサンプル動画は（左：アクセル調整なし、右：アクセル調整あり）の違いを示しています。"
+                ],
+                "kr": [
+                    "'액셀 조절'은 드리프트 중 액셀 키를 떼었다가 누르면서 코너링 속도를 조절하는 테크닉입니다. (간혹 브레이크 키도 사용하기도 합니다.)",
+                    "이러한 컨트롤이 필요한 이유는 코너를 돌 때, 너무 높은 속도에 의해 바깥으로 나가는 것을 방지하기 위해서입니다.",
+                    "예시로, '챠오 파크'의 난간이 없는 코너 구간에서 떨어지지 않기 위해 조절하는 것입니다.",
+                    "경기 중에서 매우 활용할 여지가 많으므로, 이 테크닉을 잘 익히는 것이 좋습니다.",
+                    "아래 예시 영상은 (왼쪽 : 엑셀 조절 X, 오른쪽 : 엑셀 조절 O)의 차이를 보여줍니다."
+                ]
+            },
+            "sample":[
+                "accel_control_failure.mp4",
+                "accel_control_success.mp4"
+            ]
+        },
+        "jump_drift" : {
+            "title": {
+                "en": "Jump Drift",
+                "jp": "ジャンプドリフト",
+                "kr": "점프 드리프트"
+            },
+            "description": {
+                "en": [
+                    "\"Jump Drift\" is a technique where you jump while drifting and maintain the drift in mid-air to accumulate charge.",
+                    "The execution is very simple: you just need to be drifting before launching into the air.",
+                    "Because you retain your pre-jump speed and movement direction while drifting in mid-air, there is a risk of going off-course if you make a mistake.",
+                    "This risk is reduced when using \"Jump Panels\" or \"Springs\", which launch you along a fixed direction and trajectory."
+                ],
+                "jp": [ 
+                    "「ジャンプドリフト」は、ドリフト中に坂などでジャンプし、空中でドリフトを維持してチャージを溜めるテクニックです。",
+                    "方法は非常にシンプルで、宙に浮く前にドリフトをしておくだけです。",
+                    "空中でドリフトを維持している間は、ジャンプ前の速度とマシンの進行方向が保持されるため、ミスをするとコースアウトの危険があります。",
+                    "決められた方向と軌道でのみジャンプする「ジャンプパネル」や「スプリング」では、このような危険性が少なくなります。"
+                ],
+                "kr": [
+                    "「점프 드리프트」는 드리프트 도중에 언덕에서 점프하고, 공중에서 드리프트를 유지하여 차지를 모으는 테크닉입니다.",
+                    "하는 방법은 매우 단순하게 공중으로 뜨기 전에 드리프트를 하고 있으면 됩니다.",
+                    "공중에서 드리프트를 유지하는동안 점프 전의 속도 / 차의 이동 방향을 유지하기 때문에 잘못하다가는 코스 아웃의 위험이 있습니다.",
+                    "정해진 방향과 경로로만 점프하는 점프 패널 / 스프링에서는 이런 위험이 적어집니다."
+                ]
+            },
+            "sample":[
+                "jump_drift.mp4"
+            ]
+        },
+        "spin_drift" :{
+            "title": {
+                "en": "Spin Drift",
+                "jp": "スピンドリフト",
+                "kr": "스핀 드리프트"
+            },
+            "description": {
+                "en": [
+                    "\"Spin Drift\" is a drift that can only be activated by equipping the exclusive gadget \"Spin Drift\".",
+                    "It is a gimmick where you spin at high speed during a drift and collide with other machines to knock them into the air, disrupting their racing line and build.",
+                    "It is fully activated only when the Lv1 Drift Charge is filled, and it is canceled if you perform a 'Counter Drift'.",
+                    "Because it is affected by the Lv1 charge, it has great synergy with the 'Lv1 Quick Charge' gadget, much like the 'Drift Spinner Kit'.",
+                    "In the v1.4.1 update, Spin Drift was changed to be more affected by the 'Power' parameter. The higher the Power value, the farther you send opponents flying."
+                ],
+                "jp": [ 
+                    "「スピンドリフト」は、専用ガジェット「スピンドリフト」を装備している場合のみ発動可能なドリフトです。",
+                    "ドリフト中に高速で回転し、他のマシンと衝突して相手をジャンプさせ、相手のビルドを妨害するギミックです。",
+                    "Lv1ドリフトチャージが溜まって初めて完全に発動し、「切り返しドリフト」を行うと解除されます。",
+                    "Lv1チャージに影響を受けるため、「ドリフト大回転キット」と同様に、ガジェット「ファーストファストチャージ」と相性が良いです。",
+                    "v1.4.1アップデートで、スピンドリフトは「パワー」パラメータの影響をより強く受けるように変更されました。パワー数値が高いほど、相手をより遠くへ飛ばします。"
+                ],
+                "kr": [
+                    "「스핀 드리프트」는 전용 가젯 '스핀 드리프트'를 착용해야 발동 가능한 드리프트입니다.",
+                    "드리프트 중 높은 속도로 회전하여 다른 머신과 충돌하여 상대방을 점프시켜 상대의 빌드를 방해하는 기믹입니다.",
+                    "Lv1 드리프트 차지가 채워져야 스핀 드리프트가 완전히 발동하며, '방향 전환 드리프트' 시, 스핀 드리프트는 해제 됩니다.",
+                    "Lv1 차지에 영향을 받으므로, 「드리프트 대회전 키트」처럼 가젯 '퍼스트 패스트 차지'와 궁합이 좋습니다.",
+                    "v1.4.1 업데이트에 스핀 드리프트가 '파워' 파라미터의 영향을 더욱 받도록 변경되었습니다. 파워 수치가 높을수록 상대를 더욱 멀리 날려보냅니다."
+                ]
+            },
+            "sample":[
+                "spin_drift.mp4"
+            ],
+            "youtube":[
+                "https://youtu.be/nKfQbYp2-IE?si=mgGwJJGZyspFEQ49&t=473"
+            ]
+        },
+        "ring_gain_dash":{
+            "title":{
+                "en": "Ring Gain Boost",
+                "jp": "リングゲットダッシュ",
+                "kr": "링 획득 대시"   
+            },
+            "description":{
+                "en": [
+                    "'Ring Gain Boost' refers to 'the effect of gaining momentary acceleration upon collecting a ring'.",
+                    "You can gain this effect through exclusive gadgets like 'Ring Gain Boost' and 'Ring Gain Boost Mini'.",
+                    "The 'Ring Gain Boost' grants 'Additional Speed +14~+16km/h', and the 'Ring Gain Boost Mini' grants 'Additional Speed +7~+8km/h'.",
+                    "It activates immediately upon collecting even a single ring, and it can also be triggered by rings obtained through gadgets such as 'Slipstream Bonus' and 'Just Charge Bonus'.",
+                    "It has great synergy with the item 'Omochao' because it 'scatters rings in front of the user'.",
+                    "By applying the 'momentary acceleration upon collecting a ring' effect, it is also suggested to 'collect rings to quickly recover top speed when slowed down by an item hit'. You can utilize 'Omochao' for this purpose as well.",
+                    "The 'Ring Gain Boost' can be stacked with slipstreams and the extra speed from rings, but there is an 'Additional Speed Cap' associated with this. For more details, please refer to the 'Additional Speed Increase Table' in the 'Additional Speed' tab.",
+                    "For the reasons mentioned above, it can be utilized in a wide variety of situations.",
+                    "The video below shows an example of the speed increase from a 'Ring Gain Boost'."
+                ],
+                "jp": [ 
+                    "「リングゲットダッシュ」とは、「リングを獲得すると瞬間的な加速を得る効果」のことです。",
+                    "専用ガジェット「リングゲットダッシュ」や「リングゲットダッシュミニ」などでこの効果を得ることができ、一般的には「リングダッシュ」と通称されています。",
+                    "「リング獲得ダッシュ」は「追加速度+14〜+16km/hの加速」を得て、「リング獲得ダッシュミニ」は「追加速度+7〜+8km/hの加速」を得ます。",
+                    "リングを1個でも獲得すると即座に発動し、「スリップストリームボーナス」や「ジャストチャージボーナス」などのガジェットを通じて獲得したリングに対しても発動可能です。",
+                    "アイテム「オモチャオ」は「リングをユーザーの前にばらまく」効果があるため、非常に相性が良いです。",
+                    "「リングを獲得すると瞬間的に加速する」効果を応用し、「アイテムに当たって減速した状況でリングを獲得し、最高速度へ素早く復帰する」という使い方も提案されています。「オモチャオ」をこの用途に活用することも可能です。",
+                    "「リングゲットダッシュ」は、スリップストリームやリングによる追加速度と重複可能ですが、それに伴う「追加速度の上限」が存在します。詳細は「追加速度」タブの「追加速度増加表」をご参照ください。",
+                    "上記の理由から、非常に多岐にわたる場面で利用が可能です。",
+                    "以下の動画は「リングゲットダッシュ」による速度増加の例を示しています。"
+                ],
+                "kr": [
+                    "링 획득 대시는 '링을 획득하면 순간적인 가속을 얻는 효과'를 말합니다.",
+                    "전용 가젯 '링 획득 대시', '링 획득 대시 미니' 등으로 효과를 얻을 수 있으며, 일반적으로는 '링 대시'라고 통용합니다.",
+                    "'링 획득 대시'는 '추가속도 +14~+16km/h'의 가속을 얻고, '링 획득 대시 미니'는 '추가속도 +7~+8km/h'의 가속을 얻습니다.",
+                    "링을 한개라도 얻으면 즉시 발동하며, '슬립스트림 보너스', '저스트 차지 보너스' 등 가젯을 통해 얻는 링에 대해서도 발동이 가능합니다.",
+                    "아이템 '오모챠오'가 '링을 사용자 앞에 흩뿌리기' 때문에 궁합이 매우 좋습니다.",
+                    "'링을 얻으면 순간적으로 가속'하는 효과를 응용하여 '아이템에 맞아 감속된 상황에서 링을 얻어 최고속도로 빠르게 복구'하는 응용안을 제시하기도 합니다. '오모챠오'를 여기에 활용할 수도 있습니다.",
+                    "'링 대시'는 슬립스트림, 링으로 얻는 추가속도와 중첩할 수 있고, 이에 따른 '추가 속도 상한'이 존재합니다. 자세한 사항은 '추가 속도'탭의 '추가 속도 증가 표'를 참조합니다.",
+                    "상기한 사유로 인해 매우 다양한 방면에서 활용이 가능합니다.",
+                    "아래의 영상은 '링 획득 대시'의 속도 증가 예시를 보여줍니다."
+                ]
+            },
+            "sample":[
+                "ring_gain_boost.mp4"
+            ]
+        },
+        "collision_boost": {
+            "title": {
+                "en": "Collision Boost",
+                "jp": "ぶつかりダッシュ",
+                "kr": "범프 대시"
+            },
+            "description": {
+                "en": [
+                    "'Collision Boost' is a technique where you gain a momentary acceleration by colliding with another machine when equipping the exclusive gadget 'Collision Boost' or in special modes like 'Group Match'.",
+                    "When Collision Boost is activated, you gain an acceleration of Extra Speed +25km/h for 0.5 seconds. This acceleration is applied independently from the values in the 'Extra Speed Table'.",
+                    "This is an adapted version of the 'Skimboost' system from the previous game, 'Team Sonic Racing'. (In 'Team Sonic Racing', it is a technique where skimming past a teammate who was slowed down by an item grants them a boost to recover their top speed.)",
+                    "In Group Match, rule that called 'Tap Dash' is exists (Official Name: Tap Your Allies!), and when this is active, touching a teammate will activate a 'Collision Boost' for both of you, just like in 'Team Sonic Racing'."
+                ],
+                "jp": [
+                    "「ぶつかりダッシュ」は、専用ガジェット「ぶつかりダッシュ」などを装備するか、「グループ戦」などの特殊なモードで他のマシンと衝突して瞬間的な加速を得るテクニックです。",
+                    "「ぶつかりダッシュ」発動時、0.5秒間「追加速度 +25km/h」の加速を得ます。これは「追加速度表」の数値とは別枠で加速がかかります。",
+                    "前作『チームソニックレーシング』の「タッチダッシュ」システムを改良したものです。（『チームソニックレーシング』において、アイテムに当たって減速したチームメイトをかすめると、そのチームメイトが最高速度に復帰できるようブースト状態で加速させるテクニックです。）",
+                    "グループ戦にはルール「タッチダッシュ」が存在し（正式名称：とにかく味方にタッチせよ！）、この時は『チームソニックレーシング』と同様に同じチームメイトにタッチすると、両者に「ぶつかりダッシュ」が発動します。"
+                ],
+                "kr": [
+                    "범프 대시는 전용 가젯 '범프 대시' 등을 장착하거나 '그룹전' 등 특수한 모드에서 다른 머신과 충돌하여 순간적인 가속을 얻는 테크닉입니다.",
+                    "범프 대시 발동 시, 0.5초 동안 추가 속도 +25km/h의 가속을 얻습니다. 이는 '추가 속도 표'의 값들과는 별개로 가속을 받습니다.",
+                    "전작 '팀 소닉 레이싱'에서의 '터치 대시' 시스템을 개량한 시스템입니다. ('팀 소닉 레이싱'에서 아이템에 맞아 감속된 팀원을 스치면 그 팀원이 최고속도를 복구할 수 있도록 부스트 상태로 가속시키는 테크닉입니다.)",
+                    "그룹전 룰 '터치 대시'가 존재하며 (정식 명칭 : 어떻게든 같은 팀에게 터치하라!), 이 때는 '팀 소닉 레이싱'과 같이 같은 팀원을 터치하면 둘 모두에게 '범프 대시'가 발동됩니다."
+                ]
+            },
+            "sample":[
+                "collision_boost.mp4"
+            ]
+        },
+        "perfect_boost":{
+            "title": {
+                "en": "Perfect Boost",
+                "jp": "ジャストダッシュ",
+                "kr": "저스트 대시"
+            },
+            "description": {
+                "en": [
+                    "This is an acceleration effect that triggers when equipping specific gadgets (such as 'Perfect Charge Boost' or 'Perfect Landing') and successfully performing certain actions on the exact frame.",
+                    "The common effect is '+10km/h speed + 7x acceleration effect for 0.5 seconds'. (The acceleration effect has not been fully verified yet).  ",
+                    "'Perfect Charge Boost' is a method of gaining additional acceleration by releasing the charge at the exact timing the drift charge increases by one level.",
+                    "'Perfect Landing' is a method of gaining additional acceleration by pressing the 'accelerate key/button' right before hitting the ground after successfully performing an air trick in mid-air.",
+                    "The video below captures the moment a Perfect Boost is successfully performed."
+                ],
+                "jp": [
+                    "特定のガジェット（「ジャストチャージダッシュ」、「ジャスト着地」など）を装着後、特定の動作を正確なフレームで成功させた時に発動する加速効果です。",
+                    "共通効果として「0.5秒間+10km/h加速 ＋ 7倍の加速効果」があります。（加速効果についてはまだ完全に検証されていません）",
+                    "「ジャストチャージダッシュ」は、ドリフトチャージが1段階溜まるタイミングでチャージを終了し、追加加速を得る方式です。",
+                    "「ジャスト着地」は、空中でエアトリックを成功させた後、地面に着地する直前に「アクセルキー/ボタン」を押して追加加速を得る方式です。",
+                    "以下の映像は、ジャストダッシュに成功した瞬間を撮影したものです。"
+                ],
+                "kr": [
+                    "특정 가젯 (「저스트 차지 대시」, 「저스트 착지」 등)을 착용 후, 특정 동작을 정확한 프레임에 성공했을 때 발동되는 가속 효과입니다.",
+                    "공통 효과로 '0.5초 동안 +10km/h 가속 + 7배 가속 효과'가 있습니다. (가속 효과는 증명이 아직 덜 됨)",
+                    "「저스트 차지 대시」는 드리프트 차지가 한 단계 채워지는 타이밍에 차지를 종료하여 추가 가속을 얻는 방식입니다.",
+                    "「저스트 착지」는 공중에서 에어 트릭을 성공한 후, 바닥에 착지하기 바로 전에 '액셀 키/버튼'을 눌러서 추가 가속을 얻는 방식입니다.",
+                    "아래 영상은 저스트 대시에 성공하였을 때 나오는 순간을 촬영한 것입니다."
+                ]
+            },
+            "sample":[
+                "perfect_charge_boost.mp4",
+                "perfect_landing.mp4"
+            ],
+            "youtube": [
+                "https://youtu.be/3SabzpR9CYE?si=86DOCi2NksAoAi3r"
+            ]
+        },
+        "spin_dash":{
+            "title": {
+                "en": "Spin Dash",
+                "jp": "スピンダッシュ",
+                "kr": "스핀 대시"
+            },
+            "description": {
+                "en": [
+                    "This is an exclusive acceleration effect that can be activated by equipping the 'Spin Dash Kit'.",
+                    "When equipping the 'Spin Dash Kit', the drift charge method changes to 'button mashing', the charge boost duration increases by 5x, and Grip cornering during a charge dash is improved. However, you suffer a 25km/h deceleration over 2.5s while drifting.",
+                    "The 25km/h deceleration effect over 2.5s while drifting is an homage to the original 'Spin Dash' mechanic of 'stopping and spinning to charge'.",
+                    "To offset the demerit of decelerating while drifting, a unique effect is applied making 'Grip Driving' easier during a charge boost. Therefore, it is best to navigate corners without drifting as much as possible while the charge boost is active.",
+                    "The button-mashing method for the accelerate button is also an homage to the original mechanic of 'pressing the button multiple times to charge'.",
+                    "Rather than mashing the accelerate button as fast as possible, it is most efficient to tap it rhythmically at a rate of 3 to 4 times per second. Because it is a system where 'it only charges a certain amount while the accelerate button is held down', pressing it too quickly reduces the amount charged per tap.",
+                    "The duration of the 'Charge Boost' becomes 5 times longer. In other words, even a Lv1 Charge Boost lasts for 5 seconds, and a Lv3 Charge Boost lasts for a whopping 17 seconds. (Excerpt from Official X).",
+                    "When activated, a blue 'Sonic spinning effect' appears on the rear wheels. In the case of 'Boost Type', a blue spin effect appears on both sides of the rear parts."
+                ],
+                "jp": [
+                    "「スピンダッシュキット」を装着することで発動できる専用の加速効果です。",
+                    "「スピンダッシュキット」装着時、ドリフトのチャージ方式が「ボタン連打式」に切り替わり、チャージダッシュの持続時間が5倍に増加し、チャージダッシュ中のグリップ走行の旋回力が増加します。代わりに、ドリフト時に2.5秒かけて25km/h減速します。",
+                    "ドリフト時に2.5秒かけて25km/h減速する効果は、原作の「スピンダッシュ」である「立ち止まってスピンしながらチャージする方式」をオマージュしたものです。",
+                    "ドリフト時の減速というデメリットを相殺するため、「チャージダッシュ中は『グリップ走行』が容易になる」という固有効果が適用されています。したがって、チャージダッシュ発動中は可能な限りドリフトを使わずにコーナーを突破するのが最適です。",
+                    "アクセルボタンを連打する方式も、原作の「ボタンを何度も押してチャージする」ギミックをオマージュしたものです。",
+                    "アクセルボタンを素早く連打するよりも、リズムに合わせて1秒間に3～4回押すスピードで連打するのが最も効率的です。「アクセルボタンを押している間だけ一定量チャージされる方式」であるため、素早く連打しすぎると1回あたりのチャージ量が減少します。",
+                    "「チャージダッシュ」の持続時間が5倍長くなります。つまり、Lv1チャージダッシュだけでも5秒間持続し、Lv3チャージダッシュはなんと17秒間も持続します。（公式Xより抜粋）",
+                    "発動時、後輪に青い「ソニックがスピンするエフェクト」が表示されます。'ダッシュタイプ'の場合は、リアパーツの両脇に青いスピンエフェクトが表示されます。"
+                ],
+                "kr": [
+                    "「스핀 대시 키트」를 착용하게 되면 발동할 수 있는 전용 가속 효과입니다.",
+                    "「스핀 대시 키트」착용 시, 드리프트 차지 방식이 '버튼 연타식'으로 전환되며, 차지 대시 지속 시간이 5배 증가하고, 차지 대시 중 그립 주행 선회력이 증가합니다. 대신 드리프트 시 2.5초에 걸쳐 25km/h 감속됩니다.",
+                    "드리프트 시, 2.5초에 걸쳐 25km/h 감속하는 효과는 원작의 「스핀 대시」의 방식인 '멈춰서 스핀하면서 차지하는 방식'을 오마쥬한 방식입니다.",
+                    "드리프트 시 감속하는 디메리트를 상쇄하기 위해, '차지 대시 중에는 '그립 주행'이 수월하게 되는' 고유 효과가 적용되어 있습니다. 따라서, 차지 대시를 발동 중에는 최대한 드리프트를 하지 않으면서 코너를 돌파하는 것이 가장 좋습니다.",
+                    "액셀 버튼을 연타하는 방식 또한 원작의 '버튼을 여러 번 눌러 차지'를 오마쥬한 방식입니다.",
+                    "액셀 버튼을 빠르게 연타하는 것보다, 리듬에 맞춰 1초에 3~4번 누르는 속도로 연타하는 것이 가장 효율이 좋습니다. '액셀 버튼을 누르는 동안에만 일정량 만큼 차지되는 방식'이기 때문에 빠르게 연타하면 한번에 차지되는 양이 줄어듭니다.",
+                    "'차지 대시'의 지속 시간이 5배 길어집니다. 즉, Lv1 차지 대시만 해도 5초동안 지속되며, Lv3 차지 대시는 무려 17초 동안 지속 됩니다. (공식 X 발췌)",
+                    "시전 시, 뒷바퀴가 파란 색의 '소닉이 스핀하는 효과'가 나타납니다. '대시 타입'의 경우에는 리어 파츠 양 옆으로 파란 스핀 효과가 나타납니다."
+                ]
+            },
+            "sample":[
+                "spin_dash.jpg",
+                "spin_dash_2.mp4"
+            ],
+            "twitter": [
+                "https://x.com/RaceCrossWorlds/status/2070326443020873924?s=20"
+            ]
+        },
+       
+        "angled_landing":{
+            "title":{
+                "en": "Angled Landing",
+                "jp": "斜め着地",
+                "kr": "비스듬히 착지"
+            },
+            "description":{
+                "en": [
+                    "'Angled Landing' is a technique where you 'land with your machine tilted diagonally when transforming from Air Mode to Ground Mode'.",
+                    "The execution is to 'input a drift with the left stick and perform an air trick with the right stick while transforming from Air Mode to Ground Mode to land'.",
+                    "To perform this effectively, it is highly recommended to 'assign the R button as the accelerate button'.",
+                    "The video below compares the two methods (Left: Angled Landing, Right: No Angled Landing)."
+                ],
+                "jp": [ 
+                    "「斜め着地」は、「空中モードから地上モードへ変形する際、マシンを斜めにして着地する」テクニックです。",
+                    "やり方は、「左スティックでドリフトを入力し、右スティックでエアトリックを行いながら、空中モードから地上モードへ変形して着地する」というものです。",
+                    "このテクニックを効果的に行うためには、「Rボタンをアクセルボタンに割り当てる」のが最適です。",
+                    "以下の動画は（左：斜め着地、右：斜め着地なし）の2つの方法を比較したものです。"
+                ],
+                "kr": [
+                    "'비스듬히 착지'는 '비행 모드에서 지상 모드로 변할 때, 머신을 비스듬하게 하여 착지하는' 테크닉입니다.",
+                    "방법은 '왼쪽 스틱으로 드리프트를 하고, 오른쪽 스틱으로 에어트릭을 하면서 비행 모드에서 지상 모드로 변신하여 착지'입니다.",
+                    "이러한 방법을 효과적으로 하기 위해서는 'R버튼을 액셀 버튼으로 지정'하는 것이 가장 좋습니다.",
+                    "아래 영상은 (왼쪽 : 비스듬히 착지, 오른쪽 : 비스듬히 착지 안함) 두 가지 방법을 비교한 영상입니다."
+                ]
+            },
+            "sample":[
+                "angled_landing.mp4",
+                "non_angled_landing.mp4"
+            ]
+        },
+        "hazard_item_throw":{
+            "title":{
+                "en": "Hazard Item Throw for Attack",
+                "jp": "設置アイテム投擲で攻撃",
+                "kr": "설치 아이템 던지기로 공격"
+            },
+            "description":{
+                "en": [
+                    "Besides 'Attack items', you can also use 'Hazard Items' to damage the machine ahead or disrupt their racing line and build.",
+                    "The method is to 'throw the item forward while pushing the \"L stick\" forward while holding the installed item'.",
+                    "Since you can use this to make a comeback, it is highly recommended to master the knack of throwing items forward.",
+                    "Because you cannot accurately judge the distance, you need to practice throwing them yourself to get a feel for it.",
+                    "The example video shows how to disrupt the machine ahead or make a comeback using a 'Magnet'."
+                ],
+                "jp": [
+                    "攻撃アイテム以外にも、『設置アイテム』を使って前方のマシンにダメージを与えたり、ライン取りを妨害したりすることができます。",
+                    "使用方法は『設置アイテムを持った状態で「Lスティック」を前に押し出しながらアイテムを使用』です。",
+                    "これを活用して逆転を狙うことができるため、前方に投げるコツを身につけておくことをお勧めします。",
+                    "距離を正確に測ることはできないため、実際に投げながら感覚を掴むプロセスが必要です。",
+                    "例の映像では、『マグネット』を使って前方のマシンの走行を妨害したり、逆転した例を示しています。"
+                ],
+                "kr": [
+                    "'공격 아이템 외에 '설치 아이템'으로도 전방의 머신에 데미지를 주거나 라인 빌드를 방해할 수 있습니다.",
+                    "방법은 '설치 아이템을 든 상태에서 「L스틱」을 앞으로 밀면서 아이템 사용'입니다.",
+                    "이를 활용해 역전을 가져올 수 있기 때문에 전방으로 던지는 요령을 몸에 익히는 것이 좋습니다.",
+                    "거리를 정확하게 가늠할 수는 없기 때문에 직접 던지면서 요령을 터득하는 과정이 필요합니다.",
+                    "예시의 영상은 '자석'을 통해 전방 머신의 빌드를 방해하거나 역전을 가져온 예시를 보여줍니다."
+                ]
+            },
+            "sample":[
+                "hazard_item_throw_1.mp4",
+                "hazard_item_throw_2.mp4"
+            ]
+        }
+    },
+    "advanced":{
+        "stack_boost" :{
+            "title": {
+                "en": "Boost Stacking",
+                "jp": "ブーストの重複",
+                "kr": "부스트 중첩"
+            },
+            "description": {
+                "en": [
+                    "A phenomenon where acceleration stacks if you successfully activate another boost within a short time during a Boost or a 'Drift Charge Boost'.",
+                    "This is possible with the item 'Boost', 'Drift Charge Boost', 'Dash Panels', 'Dash Gates', and so on.",
+                    "For example, if you activate a 'Drift Charge Boost' while a 'Boost' is already active, it means you gain additional acceleration on top of the Boost speed.",
+                    "Lv1 Drift Charge Boost and Lv1 Air Trick Boost serve to 'Prolong 'high gear' state'.",
+                    "Lv2 Drift Charge Boost, Lv2 Air Trick Boost, Dash Panels, and Lv4 Drift Charge Boost serve to 'Accelerate to a higher gear'.",
+                    "Lv3 Drift Charge Boost, Special Dash Panels, Lv3 Air Trick Boost, and the 'Boost' item combine both 'Prolong high gear' state and 'Accelerate to a higher gear'. In other words, frequently triggering 'Lv3 Charge Boost' is a very important factor for Boost Stacking.",
+                    "It is one of the factors that can help you make a comeback in a race, so it is good to know.",
+                    "The sample image below is a composite of Boost Stacking effects, taken from Matt Beach's video 'Sonic Racing CrossWorlds Has Forever Changed'."
+                ],
+                "jp": [
+                    "ブーストや「ドリフトチャージダッシュ」中、短い時間内にもう一度ブーストを発動することに成功すると、加速が重複する現象です。",
+                    "これはアイテムの「ブースト」や「ドリフトチャージダッシュ」、「ダッシュパネル」、「ダッシュゲート」など、すべてにおいて可能です。",
+                    "例えば、「ブースト」を発動している最中に「ドリフトチャージダッシュ」を発動した場合、ブースト中の速度に加えて、さらなる加速を得られるという意味です。",
+                    "Lv1ドリフトチャージダッシュ、Lv1エアトリックブーストは「ギアの最高速度状態を延長する」役割をします。",
+                    "Lv2ドリフトチャージダッシュ、Lv2エアトリックブースト、ダッシュパネル、Lv4ドリフトチャージダッシュは「より高いギアへ加速する」役割をします。",
+                    "Lv3ドリフトチャージダッシュ、スペシャルダッシュパネル、Lv3エアトリックブースト、「ブースト」アイテムは、上記の「ギアの最高速度状態を延長する」と「より高いギアへ加速する」の両方の役割を果たします。つまり、「Lv3チャージダッシュ」を頻繁に発動させることが、ブーストの重複において非常に重要な要素です。",
+                    "レース中に逆転を狙える要素の一つなので、知っておくと良いでしょう。",
+                    "以下のサンプル画像は、Matt Beach氏の「Sonic Racing CrossWorlds Has Forever Changed」動画から取った、ブーストの重複効果の集合画像です。"
+                ],
+                "kr": [
+                    "부스트나 '드리프트 차지 대시' 중 짧은 시간 안에 한 번 더 부스트를 발동하는 데 성공하면 가속이 중첩되는 현상입니다.",
+                    "이는 아이템 '부스트'나 '드리프트 차지 대시', '대시 패널', '대시 게이트' 등에 모두 가능합니다.",
+                    "예를 들어, '부스트'를 발동하고 있는 중에 '드리프트 차지 대시'를 발동했다면, 부스트 중의 속도에 더해 추가적인 가속을 얻는다는 의미입니다.",
+                    "Lv1 드리프트 차지 대시, Lv1 에어 트릭 부스트는 '기어의 최고 속도 상태 연장' 역할을 합니다.",
+                    "Lv2 드리프트 차지 대시, Lv2 에어 트릭 부스트, 대시 패널, Lv4 드리프트 차지 대시는 '더 높은 기어로 가속' 역할을 합니다.",
+                    "Lv3 드리프트 차지 대시, 스페셜 대시 패널, Lv3 에어 트릭 부스트, '부스트' 아이템은 위의 '기어의 최고속도 상태 연장'과 '더 높은 기어로 가속' 역할을 모두 합니다. 즉, 'Lv3 차지 대시'를 자주 발동시키는 것이 부스트 중첩에 매우 중요한 요소입니다.",
+                    "경기 중에서 역전할 수 있는 요소 중 하나이므로 알고 있는 것이 좋습니다.",
+                    "다음 예시 사진은 'Matt Beach'의 'Sonic Racing CrossWorlds Has Forever Changed' 영상 중 부스트 중첩 효과 집합 사진을 가져왔습니다."
+                ]
+            },
+            "sample":[
+                "boost_stacking.png"
+            ],
+            "youtube": [
+                "https://youtu.be/Aga-uTw2P_8?si=oppBLKAAGJ6alkE4&t=320",
+                "https://youtu.be/1c5qaYvknC4?si=2vNCdXYJ7sbGpaCQ&t=340"
+            ]
+        },
+        "short_hop_jump":{
+            "title": {
+                "en": "ShortHop Jump",
+                "jp": "ショートホップジャンプ",
+                "kr": "숏 홉 점프"
+            },
+            "description": {
+                "en": [
+                    "'ShortHop Jump' is a bug-like technique that 'makes the jump lower' when you trigger a jump with a 'Perfect Charge' in 'Water Form'.",
+                    "This effect activates even without equipping 'Perfect Charge-related gadgets'. (For convenience, the examples were tested with 'Perfect Charge Bounty' / 'Perfect Charge Boost' equipped.)",
+                    "The method is: if you hit the exact frame at the moment the 'charge level' changes (within a few frames), you jump only as high as before the 'charge level' changed.",
+                    "A commonly used example is when you trigger an 'Lv3 Charge Jump' at the 'perfect timing' (frame), you jump only as high as an 'Lv2 Charge Jump'.",
+                    "The significance of 'making the jump lower' is that you reach the ground faster, allowing you to trigger boosts more frequently.",
+                    "It is important to trigger this effect by hitting the exact frame at the moment the charge level changes. In other words, even if you trigger a 'Perfect Charge' effect, there is no guarantee that this effect will activate.",
+                    "It is important to accurately grasp the timing when the charge level changes, such as 'Lv1 / Lv2, Lv2 / Lv3, etc.'"
+                ],
+                "jp": [
+                    "「ショートホップジャンプ」は、「水上モード」で「ジャストチャージ」によってジャンプを発動した際に『ジャンプを低くする』バグ性のテクニックです。",
+                    "「ジャストチャージ関連ガジェット」を装着していなくても発動する効果です。（例は便宜上、「ジャストチャージボーナス」／「ジャストチャージダッシュ」を装着して実験しています。）",
+                    "やり方は、「チャージレベル」が切り替わるまさにその瞬間のフレームに正確に合わせると（数フレーム以内）、「チャージレベル」が切り替わる前の高さ分だけジャンプする、というものです。",
+                    "よく使われる例は、「Lv3チャージジャンプ」を「完璧なタイミングで発動」した際に、「Lv2チャージジャンプ」の高さ分だけジャンプすることです。",
+                    "「ジャンプを低くする」ことの意義は、地面により早く接地することで、ブーストをより頻繁に発動できるという点にあります。",
+                    "この効果は、チャージレベルが切り替わる瞬間のフレームに正確に合わせて発動することが重要です。つまり、「ジャストチャージ」効果を発動させても、この効果が発動する保証はありません。",
+                    "「Lv1 / Lv2、Lv2 / Lv3など」チャージレベルが正確に切り替わるタイミングを把握することが重要です。"
+                ],
+                "kr": [
+                    "「숏 홉 점프」는 「수상 형태」에서 「저스트 차지」로 점프를 발동했을 때 '점프를 낮게 하는' 버그성 테크닉입니다.",
+                    "'저스트 차지 관련 가젯'을 착용하지 않아도 발동하는 효과입니다. (예시는 편의를 위해 '저스트 차지 보너스' / '저스트 차지 대시'를 착용하고 실험했습니다.)",
+                    "방법은 '차지 레벨'이 바뀌는 바로 그 순간의 프레임에 정확히 맞추면 (몇 프레임 이내) '차지 레벨'이 바뀌기 전의 높이 만큼만 점프합니다.' 입니다.",
+                    "자주 쓰이는 예시는 'Lv3 차지 점프'를 '완벽한 타이밍에 발동'하였을 때 'Lv2 차지 점프'의 높이 만큼만 점프하는 것입니다.",
+                    "'점프를 낮게 한다'의 의의는 '바닥에 더 빨리 닿게 하여 부스트를 자주 발동시킬 수 있음을 의미합니다.",
+                    "이 효과는 차지 레벨이 바뀌는 순간의 프레임에 정확히 맞추어 발동하는 것이 중요합니다. 즉, '저스트 차지' 효과를 발동시켜도 이 효과가 발동할 수 있는 보장이 없습니다.",
+                    "'Lv1 / Lv2, Lv2 / Lv3 등' 차지 레벨이 정확히 바뀌는 타이밍을 잘 파악하는 것이 중요합니다."
+                ]
+            },
+            "sample":[
+                "short_hop_jump_no.jpg",
+                "short_hop_jump_yes.jpg",
+                "short_hop_jump_no.mp4",
+                "short_hop_jump_yes.mp4"
+            ],
+            "youtube": [
+                "https://youtu.be/Zuy8VilwIZs?si=VZtAhEhRJO6EN9O8&t=358",
+                "https://youtu.be/1c5qaYvknC4?si=IRxeLJznw7c5qGBF&t=274"
+            ]
+        },
+        "ryu_turn":{
+            "title": {
+                "en": "OverSteer Drift",
+                "jp": "オーバーステアドリフト",
+                "kr": "오버스티어 드리프트"
+            },
+            "description": {
+                "en": [
+                    "'Oversteer Drift' is an application of the 'Jump Drift' and a bug-like technique. (The name is tentative.)",
+                    "It is also called 'Ryu-Turn', named after the person who introduced it. (A pun on U-Turn.)",
+                    "The execution is to 'Start a Jump Drift the moment your Ground Mode machine launches into the air, and maintain the drift until you land'.",
+                    "This will cause the machine to suddenly curve in the direction of the drift when it lands.",
+                    "If you properly utilize this sharp cornering effect, you can expect to shave off your time in Time Attack.",
+                    "However, since it can sometimes happen unintentionally, you must keep in mind that this phenomenon exists.",
+                    "The sections where you can use this technique are after a jump, such as in 'Sky Road' or 'Ocean View'."
+                ],
+                "jp": [
+                    "「オーバーステアドリフト」は、「ジャンプドリフト」の応用技であり、バグ性のテクニックです。（名前は仮称です。）",
+                    "紹介者の名前を取って「Ryu-Turn」という名称も使用されています。（Uターンのダジャレです。）",
+                    "やり方は、「地上モードで宙に浮いた瞬間に『ジャンプドリフト』を開始し、着地するまでドリフトを維持する」というものです。",
+                    "そうすることで、着地した瞬間に「ドリフトをした方向へマシンが急激に曲がる現象」が発生します。",
+                    "この急激なコーナリング効果を適切に利用すれば、タイムアタックでのタイム短縮が期待できます。",
+                    "ただし、意図せず発生してしまう場合もあるため、このような現象があることを必ず覚えておきましょう。",
+                    "主に活用できるのは、「スカイロード」や「オーシャンビュー」などの、ジャンプ後にターンが続く区間です。"
+                ],
+                "kr": [
+                    "'오버스티어 드리프트'는 '점프 드리프트'의 응용기이자 버그성 테크닉입니다. (이름은 가칭입니다.)",
+                    "소개한 사람의 이름을 따서 'Ryu-Turn'이라는 명칭을 사용합니다. (유턴(U-Turn)의 말장난입니다.)",
+                    "방법은 '지상 형태에서 공중으로 떠오르자마자 '점프 드리프트'를 시작하여 착지하기까지 드리프트를 유지하기' 입니다.",
+                    "이렇게하면, 착지하자마자 '드리프트를 한 방향으로 확 꺾이는 현상'이 발생합니다.",
+                    "이런 급격한 코너링 효과를 적절히 이용하면 타임어택에서의 기록 단축을 기대할 수 있습니다.",
+                    "다만, 의도치않게 일어나는 경우가 있을 수 있으므로, 이런 현상이 있다는 것을 꼭 기억해야 합니다.",
+                    "주로 사용할 수 있는 구간은 '스카이 로드'나 '오션 뷰'같은 점프 후, 턴 구간에서 사용할 수 있습니다."
+                ]
+            },
+            "sample":[
+                "oversteer_drift_1.mp4",
+                "oversteer_drift_2.mp4"
+            ],
+            "twitter":[
+                "https://x.com/Ryuukunn_CA/status/2047498082838004223"
+            ]
+        },
+        "drif_landing":{
+            "title": {
+                "en": "Drift Landing",
+                "jp": "ドリフト着地",
+                "kr": "드리프트 착지"
+            },
+            "description": {
+                "en": [
+                    "'Drift Landing' is a bug-like technique where you maintain your charge while landing during the transition from Air Mode to Ground Mode.",
+                    "This technique is only possible with 'Dash Type' machines (Extreme Gear), and cannot be done with other machines.",
+                    "The execution is to 'adjust your direction in advance and input a left/right drift while passing through the exit gate that switches you from Air Mode to Ground Mode'.",
+                    "By passing through the exit gate this way, you will land while maintaining your 'charging state'.",
+                    "This technique also helps adjust the timing of your charge, allowing you to use the Drift Charge Boost more quickly and effectively.",
+                    "The sample videos below show the difference between (left: Dash Type, right: other types)."
+                ],
+                "jp": [
+                    "「ドリフト着地」は、空中モードから地上モードへ移行する際、チャージを維持したまま着地するバグ性のテクニックです。",
+                    "このテクニックは「ダッシュタイプ」のマシン（エクストリームギア）でのみ可能であり、他のマシンでは不可能です。",
+                    "やり方は、「空中モードから通常モードに切り替わる出口ゲートを通過する前に、あらかじめ方向を合わせて左右のドリフトを入力しながらゲートを通過する」というものです。",
+                    "このように出口ゲートを通過すると、「チャージ中の状態」を維持したまま着地することになります。",
+                    "このテクニックはチャージダッシュを行うタイミングを調整する役割も果たし、ドリフトチャージブーストをより早く、効果的に使用することができます。",
+                    "以下のサンプル動画は（左：ダッシュタイプ、右：その他タイプ）の違いを示しています。"
+                ],
+                "kr": [
+                    "'드리프트 착지'는 비행 모드에서 지상 모드로 전환할 때, 차지를 유지하며 착지하는 버그성 테크닉입니다.",
+                    "이 테크닉은 오직 '대시 타입 머신'(익스트림 기어)에서만 가능하며, 다른 머신은 불가능합니다.",
+                    "방법은 '비행 모드에서 통상 모드로 바뀌는 출구 게이트를 지나가기 전에 미리 방향을 맞춰서 좌/우드리프트를 넣으면서 게이트를 통과'입니다.",
+                    "이렇게 출구 게이트를 통과하면 '차지 중인 상태'를 유지하면서 착지를 하게 됩니다.",
+                    "이 테크닉은 차지 대시를 할 타이밍을 조절하는 역할도 하여, 드리프트 차지 부스트를 좀 더 빠르고 효과적으로 사용할 수 있습니다.",
+                    "아래 예시 영상은 (왼쪽 : 대시 타입, 오른쪽 : 다른 타입)의 차이를 보여줍니다."
+                ]
+            },
+            "sample":[
+                "drift_landing.mp4",
+                "drift_landing_failure.mp4"
+            ]
+        },
+        "snap_drift" : {
+            "title": {
+                "en": "Snap Drift",
+                "jp": "スナップドリフト",
+                "kr": "스냅 드리프트"
+            },
+            "description": {
+                "en": [
+                    "\"Snap Drift\" is an advanced technique that applies \"Counter Drift\".",
+                    "The execution is to 'momentarily perform a Direction Change Drift in the opposite direction mid-drift, immediately switch the drift back in the other direction, and then release the key'.",
+                    "This technique is highly effective in circular turn sections. However, it is very difficult to master and easy to make mistakes.",
+                    "As I was fail to properly reproduce it, the example video has been replaced with a YouTube tutorial video from another person."
+                ],
+                "jp": [
+                    "「スナップドリフト」は、「切り返しドリフト」を応用した高度なテクニックです。",
+                    "やり方は、「ドリフト中に瞬間的に反対方向へ方向転換ドリフトを行い、すぐにもう一度反対方向へドリフトを切り替えてからキーを離す」というものです。",
+                    "このテクニックは円形のターン区間で非常に有効です。ただし、習熟するのが非常に難しく、ミスをしやすいです。",
+                    "プレイの再現に失敗したため、動画は別の人のYouTube解説動画で代用しています。"
+                ],
+                "kr": [
+                    "「스냅 드리프트」는 '방향 전환 드리프트'를 응용한 고급 테크닉입니다.",
+                    "하는 방법은 '드리프트 중에 순간적으로 반대방향으로 방향 전환 드리프트 후, 바로 다시 반대 방향으로 드리프트 전환 후 떼기' 입니다.",
+                    "이 테크닉은 원형 턴 구간에서 매우 효과적입니다. 다만 숙달하기 매우 까다롭고, 실수하기 쉽습니다.",
+                    "재현에 실패해서 영상은 다른 사람의 유튜브 강의 영상으로 대체합니다."
+                ]
+            },
+            "youtube": [
+                "https://youtu.be/gLvgLCtD9Gs?si=NZE88HjzBgqdo3KN"
+            ]
+        }
+    }
+}

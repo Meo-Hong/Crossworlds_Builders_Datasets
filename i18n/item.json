@@ -1,0 +1,108 @@
+{
+  "attackTypes": {
+    "hit": {
+      "en": "Hit",
+      "jp": "ヒット",
+      "kr": "히트"
+    },
+    "hit(weak)": {
+      "en": "Hit (Weak)",
+      "jp": "ヒット (弱)",
+      "kr": "히트 (약)"
+    },
+    "hit(strong)": {
+      "en": "Hit (Strong)",
+      "jp": "ヒット (強)",
+      "kr": "히트 (강)"
+    },
+    "slam": {
+      "en": "Crush",
+      "jp": "クラッシュ",
+      "kr": "짓뭉개기"
+    },
+    "slow down": {
+      "en": "Slow Down",
+      "jp": "減速",
+      "kr": "감속"
+    },
+    "blind": {
+      "en": "Blind",
+      "jp": "盲目",
+      "kr": "시야 가리기"
+    },
+    "item loss": {
+      "en": "Item Loss",
+      "jp": "アイテムロス",
+      "kr": "아이템 떨구기"
+    },
+    "item change": {
+      "en": "Item Change",
+      "jp": "アイテム変更",
+      "kr": "아이템 변경"
+    },
+    "none": {
+      "en": "-",
+      "jp": "-",
+      "kr": "-"
+    }
+  },
+  "itemTypes": {
+    "Attack": {
+      "en": "Attack",
+      "jp": "攻撃",
+      "kr": "공격"
+    },
+    "Defense": {
+      "en": "Defense",
+      "jp": "防御",
+      "kr": "방어"
+    },
+    "Boost": {
+      "en": "Boost",
+      "jp": "加速",
+      "kr": "가속"
+    },
+    "Hazard": {
+      "en": "Hazard",
+      "jp": "設置",
+      "kr": "설치"
+    },
+    "Wisp": {
+      "en": "Wisp",
+      "jp": "ウィスプ",
+      "kr": "위스프"
+    },
+    "Special": {
+      "en": "Special",
+      "jp": "スペシャル",
+      "kr": "특수"
+    }
+  },
+  "itemTable": {
+    "name": {
+      "en": "Name",
+      "jp": "名前",
+      "kr": "이름"
+    },
+    "type": {
+      "en": "Type",
+      "jp": "分類",
+      "kr": "분류"
+    },
+    "attack": {
+      "en": "Attack",
+      "jp": "攻撃タイプ",
+      "kr": "공격 유형"
+    },
+    "damage": {
+      "en": "Damage",
+      "jp": "ダメージ",
+      "kr": "데미지"
+    },
+    "description": {
+      "en": "Description",
+      "jp": "説明",
+      "kr": "설명"
+    }
+  }
+}

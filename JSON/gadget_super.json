@@ -1,0 +1,1833 @@
+{
+    "Ring Gain": [
+        {
+            "id": "gadget_096",
+            "name": {
+                "en": "Route Planner Bounty",
+                "jp": "トラベルチョイスボーナス",
+                "kr": "트래블 초이스 보너스"
+            },
+            "description": {
+                "en": "Get Bonus when choosing a Travel Ring. (100 rings + rings maximum increase to 200)",
+                "jp": "トラベルリングを選択するとボーナスを獲得します。 (100リング + リング上限が200に増加)",
+                "kr": "트래블 링을 선택하면 링 100개를 획득하고, 추가로 링 상한이 200으로 증가합니다. "
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_096.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Master Plate\""
+                ],
+                "jp": [
+                    "「マスタープレート」に到達"
+                ],
+                "kr": [
+                    "「마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "Get Bonus when choosing a Travel Ring (100 rings + rings maximum increase to 200)",
+                "jp": "トラベルリングを選択するとボーナスを獲得します。 (100リング + リング上限が200に増加)",
+                "kr": "트래블 링을 선택 시, 링 100개를 획득 + 링 상한 200으로 증가"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_001",
+            "name": {
+                "en": "Starting Boost Bounty",
+                "jp": "スタート成功ボーナス",
+                "kr": "스타트 성공 보너스"
+            },
+            "description": {
+                "en": "Get Rings with a successful Starting Boost. (Ring 30)",
+                "jp": "スタートダッシュ成功時にリングを30枚入手する",
+                "kr": "스타트 대시를 성공 시, 링 30개를 획득합니다."
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_001.png",
+            "unlock": {
+                "en": [
+                    "Finish a Grand Prix"
+                ],
+                "jp": [
+                    "最初から所持"
+                ],
+                "kr": [
+                    "그랑프리 첫 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get 30 Rings when a Starting Boost is successful.",
+                "jp": "スタートダッシュ成功時、リング30個を獲得",
+                "kr": "스타트 대시 성공 시, 링 30개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_002",
+            "name": {
+                "en": "Air Trick Bounty",
+                "jp": "エアトリックボーナス",
+                "kr": "에어 트릭 보너스"
+            },
+            "description": {
+                "en": "Get Rings for each Air Trick. (Ring 2)",
+                "jp": "エアトリック1回につきリングを2枚入手する。",
+                "kr": "에어 트릭 1회당 링 2개를 획득합니다."
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_002.png",
+            "unlock": {
+                "en": [
+                    "Finish 46 races"
+                ],
+                "jp": [
+                    "レース46回完走"
+                ],
+                "kr": [
+                    "레이스 46회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get 2 Rings for each Air Trick",
+                "jp": "エアトリック1回につき2枚のリングを獲得",
+                "kr": "에어 트릭 1회당 링 2개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_003",
+            "name": {
+                "en": "Item Attack Bounty",
+                "jp": "アイテム攻撃リングボーナス",
+                "kr": "아이템 공격 링 보너스"
+            },
+            "description": {
+                "en": "Get Rings when hitting an opponent with items. (Ring 10)",
+                "jp": "他のレーサーにアイテムがヒットするとリングを10枚獲得する。",
+                "kr": "아이템으로 다른 레이서를 공격하여 명중 시 링 10개를 획득합니다."
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_003.png",
+            "unlock": {
+                "en": [
+                    "Finish 46 races"
+                ],
+                "jp": [
+                    "レース46回完走"
+                ],
+                "kr": [
+                    "레이스 46회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get 10 Rings when hitting others with items",
+                "jp": "アイテム攻撃的中時、リング10個獲得",
+                "kr": "아이템 공격 적중 시, 링 10개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_004",
+            "name": {
+                "en": "Runoff Bounty",
+                "jp": "ランオフボーナス",
+                "kr": "런 오프 보너스"
+            },
+            "description": {
+                "en": "Get Rings every 0.24 seconds when using Speed items to cross deceleration areas. (Ring 5) (Have to be at 170+km/h to get rings)",
+                "jp": "加速アイテムで減速エリアを通っている間、0.24秒ごとにリングを5枚獲得する。 (170km/h以上でなければリングは獲得できない)",
+                "kr": "가속 아이템을 사용하여 런 오프 구역을 통과하면 0.24초마다 링 5개 획득 (170km/h 이상으로 런 오프 구역을 통과 시 링 획득 가능)"
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_004.png",
+            "unlock": {
+                "en": [
+                    "Finish 46 races"
+                ],
+                "jp": [
+                    "レース46回完走"
+                ],
+                "kr": [
+                    "레이스 46회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Gain 5 rings every 0.24s in run-off area at 170+km/h.",
+                "jp": "170km/h以上でランオフエリアを通過時、0.24秒ごとにリングを5個獲得",
+                "kr": "170km/h 이상으로 런 오프 구역을 통과 시, 0.24초마다 링 5개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_005",
+            "name": {
+                "en": "Slipstream Bounty",
+                "jp": "スリップストリームボーナス",
+                "kr": "슬립스트림 보너스"
+            },
+            "description": {
+                "en": "Continuously get Rings while a slipstream is occurring. (Ring 1 per 0.5 seconds) (When linked with Acceleration Character Kit, get 1 Ring every 0.25 seconds)",
+                "jp": "スリップストリーム発動中、約0.5秒毎にリングを1枚ずつ獲得し続ける。(アクセルタイプのキャラクターとリンクすると0.25秒ごとにリング1個獲得)",
+                "kr": "슬립스트림이 발생하면 0.5초마다 링 1개를 획득 (액셀 캐릭터 키트와 연동 시, 0.25초마다 링 1개 획득)"
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_005.png",
+            "unlock": {
+                "en": [
+                    "Finish 94 races"
+                ],
+                "jp": [
+                    "レース94回完走"
+                ],
+                "kr": [
+                    "레이스 94회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get 1 Ring every 0.5 seconds while a slipstream is occurring",
+                "jp": "スリップストリーム発動中、0.5秒毎に1枚のリングを獲得",
+                "kr": "슬립스트림이 발생하면 0.5초마다 링 1개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_006",
+            "name": {
+                "en": "Travel Ring Bounty",
+                "jp": "トラベルリングボーナス",
+                "kr": "트래블 링 보너스"
+            },
+            "description": {
+                "en": "Get Rings when passing through a Travel Ring (at the start of LAP2 and LAP3). (Ring 15)",
+                "jp": "トラベルリング(LAP2開始時とLAP3開始時)を通った時、リングを15枚獲得する。",
+                "kr": "트래블 링을 통과하면 (LAP2와 LAP3 시작 시) 링 15개를 획득합니다."
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_006.png",
+            "unlock": {
+                "en": [
+                    "Finish 46 races"
+                ],
+                "jp": [
+                    "レース46回完走"
+                ],
+                "kr": [
+                    "레이스 46회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get 15 Rings when passing through a Travel Ring.",
+                "jp": "トラベルリングを通った時、15枚のリングを獲得",
+                "kr": "트래블 링을 통과 시, 링 15개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_007",
+            "name": {
+                "en": "Morph Action Bounty",
+                "jp": "変形時アクションボーナス",
+                "kr": "변형 시 액션 보너스"
+            },
+            "description": {
+                "en": "Do a Charge Dash in water or in flight to get Rings. ( Only Ring 4 )",
+                "jp": "水上、空中でチャージアクションをするとリングを4枚獲得する。(一回のアクションで手に入るリングは4枚で固定)",
+                "kr": "차지 대시를 수상 또는 공중에서 수행하면 링 4개를 획득합니다.(한 번의 액션으로 얻는 링은 4개로 고정됩니다.)"
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_007.png",
+            "unlock": {
+                "en": [
+                    "Reach Rank E+ in World Match"
+                ],
+                "jp": [
+                    "ワールドマッチでE+ランクに到達"
+                ],
+                "kr": [
+                    "월드 매치 랭크 E+ 이상 도달"
+                ]
+            },
+            "effect": {
+                "en": "Get 4 Rings when doing a Charge Dash in water or in flight.",
+                "jp": "水上、空中でチャージアクションをすると4枚のリングを獲得",
+                "kr": "차지 대시를 수상 또는 공중에서 수행 시, 링 4개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_010",
+            "name": {
+                "en": "Dash Panel Mini Bounty",
+                "jp": "ダッシュパネルボーナスミニ",
+                "kr": "대시 패널 보너스 미니"
+            },
+            "description": {
+                "en": "Get 2 Rings when using a Dash Panel or Dash Gate. (another gadget can be used simultaneously.) (Gain 2x rings when using Special Dash Panel)",
+                "jp": "ダッシュパネルに乗るとリングを2枚獲得できる。他のダッシュパネル系とも重複可能。(スペシャルダッシュパネルを使用すると、リングを2倍獲得)",
+                "kr": "대시 패널 또는 대시 게이트를 사용하면 링 2개를 획득할 수 있습니다. 다른 대시 패널 가젯과도 중복 가능. (스페셜 대시 패널을 사용하면 링을 2배로 획득)"
+            },
+            "gadget_type": "Ring Gain",
+            "slots": 1,
+            "image": "gadget_010.png",
+            "unlock": {
+                "en": [
+                    "Finish 94 races"
+                ],
+                "jp": [
+                    "レース94回完走"
+                ],
+                "kr": [
+                    "레이스 94회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get 2 Rings when using a Dash Panel or Dash Gate.",
+                "jp": "ダッシュパネル / ダッシュゲート使用時、リングを2個獲得",
+                "kr": "대시 패널/대시 게이트 사용 시, 링 2개 획득"
+            },
+            "stat_table": null
+        }
+    ],
+    "Ring Ability": [
+        {
+            "id": "gadget_099",
+            "name": {
+                "en": "Ring Engine",
+                "jp": "リングエンジン",
+                "kr": "링 엔진"
+            },
+            "description": {
+                "en": "When holding 1 or more Rings, '+3km/h to maximum speed' and '+12 to all stats'. Instead of losing 1 Ring per second.",
+                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 +3km/h 上昇' + '全体のマシンスタット +12 上昇'。",
+                "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 3km/h 증가' + '머신의 스탯 +12 상승'합니다."
+            },
+            "gadget_type": "Ring Ability",
+            "slots": 1,
+            "image": "gadget_099.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Master Plate\""
+                ],
+                "jp": [
+                    "「マスタープレート」に到達"
+                ],
+                "kr": [
+                    "「마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "When holding 1 or more Rings, +3km/h to maximum speed and +12 to all stats. (losing 1 Ring per second)",
+                "jp": "リングが1つ以上あるとき、'最高速度 +3km/h 上昇' + '全体のパラメーター +12' (1秒に 1リングを消費)",
+                "kr": "링이 1개 이상 일 때, '최고속도 +3km/h 상승' + '머신의 파라미터가 +12 상승' (1초당 링 1개씩 소비)"
+            },
+            "stat_table": {
+                "burning": {
+                    "speed": 12,
+                    "acceleration": 12,
+                    "handling": 12,
+                    "power": 12,
+                    "boost": 12
+                }
+            }
+        },
+        {
+            "id": "gadget_012",
+            "name": {
+                "en": "130 Ring Limit",
+                "jp": "リング上限130",
+                "kr": "링 상한 130"
+            },
+            "description": {
+                "en": "Hold up to 130 Rings. (Cannot be used in combination with Ring Limit 200, Ring Limit 200 takes precedence.)",
+                "jp": "リングの所持上限を130枚にする。 (リング上限200とは重複不可, リング上限200が優先適用されます.)",
+                "kr": "링을 최대 130개까지 보관할 수 있습니다. (링 상한 200과는 중첩 불가능, 링 상한 200이 우선 적용됩니다.)"
+            },
+            "gadget_type": "Ring Ability",
+            "slots": 1,
+            "image": "gadget_012.png",
+            "unlock": {
+                "en": [
+                    "Finish a Grand Prix"
+                ],
+                "jp": [
+                    "グランプリ1回完走"
+                ],
+                "kr": [
+                    "그랑프리 1회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Hold up to 130 Rings",
+                "jp": "最大130個のリングを所持可能",
+                "kr": "최대 130개 링 소지 가능"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_014",
+            "name": {
+                "en": "Mini Ring Thief",
+                "jp": "リングスティールミニ",
+                "kr": "링 스틸 미니"
+            },
+            "description": {
+                "en": "Steal a small amount of Rings when colliding with other machines. (another gadget can be used simultaneously.) (Ring 2) (1.3 second delay after obtaining)",
+                "jp": "他のレーサーに接触した時、リングを2枚奪う。(他のガジェットと重複可能, 1.3秒のディレイが存在する)",
+                "kr": "다른 레이서와 충돌 시, 상대의 링 2개를 훔칩니다. (가젯 효과와 중복 가능, 한 번 훔친 후 1.3초 딜레이 존재)"
+            },
+            "gadget_type": "Ring Ability",
+            "slots": 1,
+            "image": "gadget_014.png",
+            "unlock": {
+                "en": [
+                    "Finish 30 races"
+                ],
+                "jp": [
+                    "レース30回完走"
+                ],
+                "kr": [
+                    "레이스 30회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Steal 2 Rings when colliding with other racers.",
+                "jp": "他のレーサーに接触した時、2枚のリングを奪う",
+                "kr": "다른 레이서와 충돌 시, 링 2개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_016",
+            "name": {
+                "en": "Ring Gain Mini Boost",
+                "jp": "リングゲットダッシュミニ",
+                "kr": "링 획득 대시 미니"
+            },
+            "description": {
+                "en": "Get 7~8km/h speed boost for 0.12s when obtaining Rings. and 300% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
+                "jp": "リング獲得時、0.12秒間 約7~8km/hほど加速する。リング獲得時に300%のアクセルエフェクトが適用される。 (他のガジェットと重複可能)",
+                "kr": "링 획득 시 0.12초간 약 7~8km/h 정도 가속합니다. 링을 얻을 순간 300% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
+            },
+            "gadget_type": "Ring Ability",
+            "slots": 1,
+            "image": "gadget_016.png",
+            "unlock": {
+                "en": [
+                    "Finish 30 races"
+                ],
+                "jp": [
+                    "レース30回完走"
+                ],
+                "kr": [
+                    "레이스 30회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get 7~8km/h speed boost for 0.12s when obtaining Rings.",
+                "jp": "リング獲得時、0.12秒間 約7~8km/h加速",
+                "kr": "링 획득 시 0.12초간 약 7~8km/h 가속"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_018",
+            "name": {
+                "en": "Ring Range UP",
+                "jp": "リング獲得範囲アップ",
+                "kr": "링 획득 범위 UP"
+            },
+            "description": {
+                "en": "Increases the range to pick up Rings by 100% ( another gadget can be used simultaneously. )",
+                "jp": "リング獲得判定を100%拡大する。(他のガジェットと重複可能)",
+                "kr": "링 획득 범위를 100% 증가합니다. (가젯 효과와 중복 가능)"
+            },
+            "gadget_type": "Ring Ability",
+            "slots": 1,
+            "image": "gadget_018.png",
+            "unlock": {
+                "en": [
+                    "Finish 30 races"
+                ],
+                "jp": [
+                    "レース30回完走"
+                ],
+                "kr": [
+                    "레이스 30회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increases the range to pick up Rings. (100% increase)",
+                "jp": "リング獲得範囲100%増加",
+                "kr": "링 획득 범위 100% 증가"
+            },
+            "stat_table": null
+        }
+    ],
+    "Technique Upgrade": [
+        {
+            "id": "gadget_019",
+            "name": {
+                "en": "Extended Slipstream",
+                "jp": "ロングスリップストリーム",
+                "kr": "롱 슬립스트림"
+            },
+            "description": {
+                "en": "Slipstreams occur more often. (Slipstream width range 100% longer)",
+                "jp": "スリップストリームの発生範囲を延長する。(スリップストリーム 発生範囲 100% 延長)",
+                "kr": "슬립스트림의 발생 가로범위를 연장합니다. (슬립스트림 발생 가로범위가 100% 연장)"
+            },
+            "gadget_type": "Technique Upgrade",
+            "slots": 1,
+            "image": "gadget_019.png",
+            "unlock": {
+                "en": [
+                    "Finish 30 races"
+                ],
+                "jp": [
+                    "レース30回完走"
+                ],
+                "kr": [
+                    "레이스 30회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increases the width range of slipstream (100% longer width range)",
+                "jp": "スリップストリームの発生横範囲を延長 (100%延長)",
+                "kr": "슬립스트림 발생 가로범위를 100% 연장"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_020",
+            "name": {
+                "en": "Air Drift Mobility UP",
+                "jp": "空中ドリフト自由度アップ",
+                "kr": "공중 드리프트 자유도 증가"
+            },
+            "description": {
+                "en": "While in flight form, Air Drifts can turn more sharply. Directional drifts move further. Gain a boost in air drift's direction upon release. (Increased moving distance)",
+                "jp": "エアドリフト中、より鋭く旋回できます。方向転換ドリフト時、従来よりも大きく移動し、ドリフト解除時、ドリフトを切った方向へブーストが発動します。（従来よりも大きな移動幅を持ちます）",
+                "kr": "공중 드리프트 중 더 급격하게 회전할 수 있습니다. 방향 전환 드리프트 시 기존보다 더욱 크게 이동하며, 드리프트 해제 시, 드리프트를 꺾은 방향으로 부스트가 발동합니다. (기존보다 더 큰 이동폭을 가짐)"
+            },
+            "gadget_type": "Technique Upgrade",
+            "slots": 1,
+            "image": "gadget_020.png",
+            "unlock": {
+                "en": [
+                    "Finish 94 races"
+                ],
+                "jp": [
+                    "レース94回完走"
+                ],
+                "kr": [
+                    "레이스 94회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increases the angle of air drift. (more sharply) + Gain a boost in air drift's direction upon release",
+                "jp": "空中ドリフトの回転角の増加 (より急に) + ドリフト解除時、ドリフトした方向へチャージダッシュ発動",
+                "kr": "공중 드리프트의 회전각도 증가 (더 급격하게) + 드리프트 해제 시 드리프트한 방향으로 차지 대시 발동"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_021",
+            "name": {
+                "en": "Charge Jump Mobility UP",
+                "jp": "チャージジャンプ自由度アップ",
+                "kr": "차지 점프 자유도 증가"
+            },
+            "description": {
+                "en": "While Charge Jumping in water form, left and right Air Tricks gain more distance.",
+                "jp": "水上でチャージジャンプした時、左右入力でエアトリックを行うとその方向へ少し移動する。",
+                "kr": "수상 모드 중 차지 점프 중에 좌우 입력으로 에어 트릭을 하면 해당 방향으로 조금 이동합니다."
+            },
+            "gadget_type": "Technique Upgrade",
+            "slots": 1,
+            "image": "gadget_021.png",
+            "unlock": {
+                "en": [
+                    "Finish 94 races"
+                ],
+                "jp": [
+                    "レース94回完走"
+                ],
+                "kr": [
+                    "레이스 94회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase air trick travel distance during charge jump in water mode",
+                "jp": "水上モードのチャージジャンプ中、エアトリックの移動距離の増加",
+                "kr": "수상 모드의 차지 점프 중, 에어 트릭의 이동 거리 증가"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_106",
+            "name": {
+                "en": "Perfect Landing",
+                "jp": "ジャスト着地",
+                "kr": "저스트 착지"
+            },
+            "description": {
+                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants an additional +10km/h speed and a 7x acceleration effect for 0.5 seconds.",
+                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、0.5秒間+10km/hの追加加速と7倍の加速効果を付与します。",
+                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 0.5초동안 +10km/h 가속 효과와 7배 가속 효과를 부여합니다."
+            },
+            "gadget_type": "Technique Upgrade",
+            "slots": 1,
+            "image": "gadget_106.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Pressing accelerate again the moment you land: +10km/h speed + 7x acceleration effect(?) for 0.5 seconds",
+                "jp": "着地した瞬間、アクセルを再度押すと0.5秒間+10km/h加速 ＋ 7倍の加速効果(?)",
+                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 0.5초동안 +10km/h 가속 + 7배 가속 효과(?)"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_022",
+            "name": {
+                "en": "Air Trick Adept",
+                "jp": "高速エアトリック",
+                "kr": "고속 에어 트릭"
+            },
+            "description": {
+                "en": "Air trick speed is increased by 25%. ( Can be stacked with gadget effects )",
+                "jp": "エアトリック速度が25%増加します。(ガジェット効果とネスト可能)",
+                "kr": "에어 트릭 속도가 25% 빨라집니다. (가젯 효과와 중첩 가능)"
+            },
+            "gadget_type": "Technique Upgrade",
+            "slots": 1,
+            "image": "gadget_022.png",
+            "unlock": {
+                "en": [
+                    "Finish 30 races"
+                ],
+                "jp": [
+                    "レース30回完走"
+                ],
+                "kr": [
+                    "레이스 30회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase air trick speed by 25%.",
+                "jp": "エアトリックの速度を25%増加",
+                "kr": "에어 트릭의 속도를 25% 증가"
+            },
+            "stat_table": null
+        }
+    ],
+    "Charge Upgrade": [
+        {
+            "id": "gadget_027",
+            "name": {
+                "en": "Lv2 Quick Charge",
+                "jp": "セカンドファストチャージ",
+                "kr": "세컨드 패스트 차지"
+            },
+            "description": {
+                "en": "Level 2 Drift Charge fills 50% faster.",
+                "jp": "ドリフト時のチャージ2段階目を50%高速化する",
+                "kr": "드리프트 차지 2단계가 50% 빨리 채워집니다."
+            },
+            "gadget_type": "Charge Upgrade",
+            "slots": 1,
+            "image": "gadget_027.png",
+            "unlock": {
+                "en": [
+                    "Finish 30 races"
+                ],
+                "jp": [
+                    "レース30回完走"
+                ],
+                "kr": [
+                    "레이스 30회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase the speed of Level 2 Drift Charge by 50%.",
+                "jp": "2段階ドリフトチャージ速度50%増加",
+                "kr": "2단계 드리프트 차지 속도를 50% 증가"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_028",
+            "name": {
+                "en": "Lv3 Quick Charge",
+                "jp": "サードファストチャージ",
+                "kr": "서드 패스트 차지"
+            },
+            "description": {
+                "en": "Level 3 Drift Charge fills 50% faster.",
+                "jp": "ドリフト時のチャージ3段階目を50%高速化する",
+                "kr": "드리프트 차지 3단계가 50% 빨리 채워집니다."
+            },
+            "gadget_type": "Charge Upgrade",
+            "slots": 1,
+            "image": "gadget_028.png",
+            "unlock": {
+                "en": [
+                    "Finish 30 races"
+                ],
+                "jp": [
+                    "レース30回完走"
+                ],
+                "kr": [
+                    "레이스 30회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase the speed of Level 3 Drift Charge by 50%.",
+                "jp": "3段階ドリフトチャージ速度50%増加",
+                "kr": "3단계 드리프트 차지 속도를 50% 증가"
+            },
+            "stat_table": null
+        }
+    ],
+    "Stat Upgrade": [
+        {
+            "id": "gadget_109",
+            "name": {
+                "en": "Ring Evolution",
+                "jp": "リング進化",
+                "kr": "링 진화"
+            },
+            "description": {
+                "en": "Gain +1 in all stats each time you gain 10 rings. (Upgrade Effect is applied)",
+                "jp": "リングを10個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
+                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.) "
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_109.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Gain +1 in all stats each time you gain 10 rings.",
+                "jp": "リングを10個獲得するごとに全パラメーター +1",
+                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1."
+            },
+            "stat_table": {
+                "evolution": {
+                    "speed": "+ n",
+                    "acceleration": "+ n",
+                    "handling": "+ n",
+                    "power": "+ n",
+                    "boost": "+ n"
+                }
+            }
+        },
+        {
+            "id": "gadget_110",
+            "name": {
+                "en": "Collision Evolution",
+                "jp": "ぶつかり進化",
+                "kr": "범프 진화"
+            },
+            "description": {
+                "en": "Gain +1 in all stats each time you bump another player. (Upgrade Effect is applied)",
+                "jp": "他のレーサーとぶつかるごとに全パラメーター +1。(アップグレード効果が適用されます.)",
+                "kr": "다른 레이서와 충돌할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_110.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Gain +1 in all stats each time you bump another player.",
+                "jp": "他のレーサーとぶつかるごとに全パラメーター +1",
+                "kr": "다른 레이서와 충돌할 때마다 모든 파라미터 +1"
+            },
+            "stat_table": {
+                "evolution": {
+                    "speed": "+n",
+                    "acceleration": "+n",
+                    "handling": "+n",
+                    "power": "+n",
+                    "boost": "+n"
+                }
+            }
+        },
+        {
+            "id": "gadget_111",
+            "name": {
+                "en": "Damage Evolution",
+                "jp": "ダメージ進化",
+                "kr": "대미지 진화"
+            },
+            "description": {
+                "en": "Gain +7 in all stats each time you take damage. (Upgrade Effect is applied)",
+                "jp": "ダメージを受けた時、全パラメーター +7。(アップグレード効果が適用されます.)",
+                "kr": "대미지를 받을 때마다 모든 파라미터 +7. (업그레이드 이펙트가 적용됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_111.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Gain +7 in all stats each time you take damage.",
+                "jp": "ダメージを受けた時、全パラメーター +7",
+                "kr": "대미지를 받을 때마다 모든 파라미터 +7"
+            },
+            "stat_table": {
+                "evolution": {
+                    "speed": "+7n",
+                    "acceleration": "+7n",
+                    "handling": "+7n",
+                    "power": "+7n",
+                    "boost": "+7n"
+                }
+            }
+        },
+        {
+            "id": "gadget_112",
+            "name": {
+                "en": "Item Hit Evolution",
+                "jp": "アイテムヒット進化",
+                "kr": "아이템 명중 진화"
+            },
+            "description": {
+                "en": "Gain +7 in all stats each time you get land an item hit. (Upgrade Effect is applied)",
+                "jp": "アイテムヒット的中時、全パラメーター +7。(アップグレード効果が適用されます.)",
+                "kr": "아이템 명중 적중 시 모든 파라미터 +7. (업그레이드 이펙트가 적용됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_112.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Gain +7 in all stats each time you get land an item hit.",
+                "jp": "アイテムヒット的中時、全パラメーター +7",
+                "kr": "아이템 명중 적중 시 모든 파라미터 +7"
+            },
+            "stat_table": {
+                "evolution": {
+                    "speed": "+7n",
+                    "acceleration": "+7n",
+                    "handling": "+7n",
+                    "power": "+7n",
+                    "boost": "+7n"
+                }
+            }
+        },
+        {
+            "id": "gadget_034",
+            "name": {
+                "en": "Quick Starter",
+                "jp": "スターター",
+                "kr": "스타터"
+            },
+            "description": {
+                "en": "+20 to all stats during Lap 1.",
+                "jp": "LAP1の間、すべてのパラメータを+20。",
+                "kr": "LAP 1 동안 모든 스탯을 20 올립니다."
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_034.png",
+            "unlock": {
+                "en": [
+                    "Reach Rank E in World Match"
+                ],
+                "jp": [
+                    "ワールドマッチでEランクに到達"
+                ],
+                "kr": [
+                    "월드 매치 랭크 E 이상 도달"
+                ]
+            },
+            "effect": {
+                "en": "All stat +20 (during LAP 1)",
+                "jp": "すべての スタット +20 ( LAP 1 間 )",
+                "kr": "모든 스탯 +20 ( LAP 1 동안 )"
+            },
+            "stat_table": {
+                "LAP1": {
+                    "speed": 20,
+                    "acceleration": 20,
+                    "handling": 20,
+                    "power": 20,
+                    "boost": 20
+                }
+            }
+        },
+        {
+            "id": "gadget_038",
+            "name": {
+                "en": "Speed Tuner 1",
+                "jp": "スピードチューン1",
+                "kr": "스피드 튠 1"
+            },
+            "description": {
+                "en": "Slightly increases Speed. Speed Machines get additional stat adjustments. (If two of the same type of tuner are equipped, the effect will be duplicated.)",
+                "jp": "スピードをわずかに上げる。スピードマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "스피드를 약간 올립니다. 스피드 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_038.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase speed by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけスピード増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 스피드 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 8,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                },
+                "equal": {
+                    "speed": 20,
+                    "acceleration": -4,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                }
+            }
+        },
+        {
+            "id": "gadget_039",
+            "name": {
+                "en": "Speed Tuner 2",
+                "jp": "スピードチューン2",
+                "kr": "스피드 튠 2"
+            },
+            "description": {
+                "en": "Slightly increases Speed. Speed Machines get additional stat adjustments.",
+                "jp": "スピードをわずかに上げる。スピードマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "스피드를 약간 올립니다. 스피드 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_039.png",
+            "unlock": {
+                "en": [
+                    "Finish 62 races"
+                ],
+                "jp": [
+                    "レース62回完走"
+                ],
+                "kr": [
+                    "레이스 62회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase speed by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけスピード増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 스피드 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 8,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                },
+                "equal": {
+                    "speed": 20,
+                    "acceleration": -2,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": -2
+                }
+            }
+        },
+        {
+            "id": "gadget_040",
+            "name": {
+                "en": "Acceleration Tuner 1",
+                "jp": "アクセルチューン1",
+                "kr": "액셀 튠 1"
+            },
+            "description": {
+                "en": "Slightly increases Acceleration. Acceleration Machines get additional stat adjustments.",
+                "jp": "アクセルをわずかに上げる。アクセルマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "액셀을 약간 올립니다. 액셀 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_040.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase acceleration by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけアクセル増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 액셀 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 8,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                },
+                "equal": {
+                    "speed": 0,
+                    "acceleration": 20,
+                    "handling": -4,
+                    "power": 0,
+                    "boost": 0
+                }
+            }
+        },
+        {
+            "id": "gadget_041",
+            "name": {
+                "en": "Acceleration Tuner 2",
+                "jp": "アクセルチューン2",
+                "kr": "액셀 튠 2"
+            },
+            "description": {
+                "en": "Slightly increases Acceleration. Acceleration Machines get additional stat adjustments.",
+                "jp": "アクセルをわずかに上げる。アクセルマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "액셀을 약간 올립니다. 액셀 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_041.png",
+            "unlock": {
+                "en": [
+                    "Finish 62 races"
+                ],
+                "jp": [
+                    "レース62回完走"
+                ],
+                "kr": [
+                    "레이스 62회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase acceleration by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけアクセル増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 액셀 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 8,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                },
+                "equal": {
+                    "speed": 0,
+                    "acceleration": 20,
+                    "handling": -2,
+                    "power": 0,
+                    "boost": -2
+                }
+            }
+        },
+        {
+            "id": "gadget_042",
+            "name": {
+                "en": "Handling Tuner 1",
+                "jp": "ハンドリングチューン1",
+                "kr": "핸들링 튠 1"
+            },
+            "description": {
+                "en": "Slightly increases Handling. Handling Machines get additional stat adjustments.",
+                "jp": "ハンドリングをわずかに上げる。ハンドリングマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "핸들링을 약간 올립니다. 핸들링 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_042.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase handling by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけハンドリング増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 핸들링 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 8,
+                    "power": 0,
+                    "boost": 0
+                },
+                "equal": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 20,
+                    "power": -4,
+                    "boost": 0
+                }
+            }
+        },
+        {
+            "id": "gadget_043",
+            "name": {
+                "en": "Handling Tuner 2",
+                "jp": "ハンドリングチューン2",
+                "kr": "핸들링 튠 2"
+            },
+            "description": {
+                "en": "Slightly increases Handling. Handling Machines get additional stat adjustments.",
+                "jp": "ハンドリングをわずかに上げる。ハンドリングマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "핸들링을 약간 올립니다. 핸들링 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_043.png",
+            "unlock": {
+                "en": [
+                    "Finish 62 races"
+                ],
+                "jp": [
+                    "レース62回完走"
+                ],
+                "kr": [
+                    "레이스 62회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase handling by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけハンドリング増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 핸들링 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 8,
+                    "power": 0,
+                    "boost": 0
+                },
+                "equal": {
+                    "speed": -2,
+                    "acceleration": 0,
+                    "handling": 20,
+                    "power": -2,
+                    "boost": 0
+                }
+            }
+        },
+        {
+            "id": "gadget_044",
+            "name": {
+                "en": "Power Tuner 1",
+                "jp": "パワーチューン1",
+                "kr": "파워 튠 1"
+            },
+            "description": {
+                "en": "Slightly increases Power. Power Machines get additional stat adjustments.",
+                "jp": "パワーをわずかに上げる。パワーマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "파워를 약간 올립니다. 파워 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_044.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase power by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけパワー増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 파워 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 8,
+                    "boost": 0
+                },
+                "equal": {
+                    "speed": 0,
+                    "acceleration": -4,
+                    "handling": 0,
+                    "power": 20,
+                    "boost": 0
+                }
+            }
+        },
+        {
+            "id": "gadget_045",
+            "name": {
+                "en": "Power Tuner 2",
+                "jp": "パワーチューン2",
+                "kr": "파워 튠 2"
+            },
+            "description": {
+                "en": "Slightly increases Power. Power Machines get additional stat adjustments.",
+                "jp": "パワーをわずかに上げる。パワーマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "파워를 약간 올립니다. 파워 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_045.png",
+            "unlock": {
+                "en": [
+                    "Finish 62 races"
+                ],
+                "jp": [
+                    "レース62回完走"
+                ],
+                "kr": [
+                    "레이스 62회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase power by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけパワー増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 파워 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 8,
+                    "boost": 0
+                },
+                "equal": {
+                    "speed": 0,
+                    "acceleration": -2,
+                    "handling": -2,
+                    "power": 20,
+                    "boost": 0
+                }
+            }
+        },
+        {
+            "id": "gadget_046",
+            "name": {
+                "en": "Boost Tuner 1",
+                "jp": "ダッシュチューン1",
+                "kr": "대시 튠 1"
+            },
+            "description": {
+                "en": "Slightly increases Boost. Boost Machines get additional stat adjustments.",
+                "jp": "ダッシュをわずかに上げる。ダッシュマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "대시를 약간 올립니다. 대시 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_046.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase boost by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけダッシュ増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 대시 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 8
+                },
+                "equal": {
+                    "speed": -4,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 20
+                }
+            }
+        },
+        {
+            "id": "gadget_047",
+            "name": {
+                "en": "Boost Tuner 2",
+                "jp": "ダッシュチューン2",
+                "kr": "대시 튠 2"
+            },
+            "description": {
+                "en": "Slightly increases Boost. Boost Machines get additional stat adjustments.",
+                "jp": "ダッシュをわずかに上げる。ダッシュマシーンは追加のステータス調整を受ける。(同系統のチューンを2つ装備すると効果が重複する。)",
+                "kr": "대시를 약간 올립니다. 대시 머신은 추가 스탯 조정을 받습니다. (동일 종류의 튠을 2개 장착하면 효과가 중복됩니다.)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 1,
+            "image": "gadget_047.png",
+            "unlock": {
+                "en": [
+                    "Finish 62 races"
+                ],
+                "jp": [
+                    "レース62回完走"
+                ],
+                "kr": [
+                    "레이스 62회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Increase boost by specified number (stat change when wearing the same type of machine)",
+                "jp": "指定された数値だけダッシュ増加 (同一種類のマシン着用時のスタット変化)",
+                "kr": "지정된 수치만큼 대시 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 8
+                },
+                "equal": {
+                    "speed": -2,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": -2,
+                    "boost": 20
+                }
+            }
+        }
+    ],
+    "Support": [
+        {
+            "id": "gadget_048",
+            "name": {
+                "en": "Ring Mercy",
+                "jp": "リングリカバリー",
+                "kr": "링 리커버리"
+            },
+            "description": {
+                "en": "Get Rings after taking damage (Ring 10)",
+                "jp": "ダメージを受けた後、リングを10枚獲得する。",
+                "kr": "데미지를 받은 후, 링 10개를 획득합니다."
+            },
+            "gadget_type": "Support",
+            "slots": 1,
+            "image": "gadget_048.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get 10 Rings after taking damage",
+                "jp": "ダメージを受けた後、リング10個獲得",
+                "kr": "피격 후, 링 10개 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_051",
+            "name": {
+                "en": "Maximum Traction",
+                "jp": "グリップ力強化",
+                "kr": "접지력 강화"
+            },
+            "description": {
+                "en": "Prevents slipping on sand and ice. (Technical drift negates this effect.)",
+                "jp": "砂と氷でスリップしないようにする。(テクニカルドリフトではこの効果が無効化されます。)",
+                "kr": "모래와 얼음에서 잘 미끄러지지 않도록 합니다. (테크니컬 드리프트는 이 효과를 무효화합니다.)"
+            },
+            "gadget_type": "Support",
+            "slots": 1,
+            "image": "gadget_051.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Prevent slipping on sand and ice",
+                "jp": "砂と氷でスリップしない",
+                "kr": "모래와 얼음에서 잘 미끄러지지 않습니다."
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_052",
+            "name": {
+                "en": "Second Wind",
+                "jp": "落下時ブーストリカバー",
+                "kr": "낙하 시 부스트 리커버"
+            },
+            "description": {
+                "en": "After falling off course, get a 'Boost'. (Can get 2 Boost items if you use the Damage Support Kit simultaneously.)",
+                "jp": "コースから落下した後、'ブースト'を獲得する。(ダメージサポートキットと重複すると、'ブースト'を2つ獲得できる。)",
+                "kr": "코스에서 떨어져서 복귀하면 부스트를 획득합니다. (데미지 서포트 키트와 중복해 '부스트' 2개 획득 가능)"
+            },
+            "gadget_type": "Support",
+            "slots": 1,
+            "image": "gadget_052.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Get a 'Boost' when falling off course",
+                "jp": "コースから落下した後、'ブースト'獲得",
+                "kr": "코스에서 떨어지면 '부스트' 획득"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_053",
+            "name": {
+                "en": "Bumper Guard",
+                "jp": "壁リングガード",
+                "kr": "벽 링 가드"
+            },
+            "description": {
+                "en": "Prevents Rings from being dropped when bumping into walls.",
+                "jp": "壁に接触した時、リングが落ちないようにする。",
+                "kr": "벽에 부딪혀 링이 떨어지지 않도록 합니다."
+            },
+            "gadget_type": "Support",
+            "slots": 1,
+            "image": "gadget_053.png",
+            "unlock": {
+                "en": [
+                    "Finish 18 races"
+                ],
+                "jp": [
+                    "レース18回完走"
+                ],
+                "kr": [
+                    "레이스 18회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Prevent Rings from being dropped when bumping into walls",
+                "jp": "壁に接触した時、リングが落ちない",
+                "kr": "벽에 부딪힐 때, 링이 떨어지지 않습니다."
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_058",
+            "name": {
+                "en": "Crash Pads",
+                "jp": "リングガード",
+                "kr": "링 가드"
+            },
+            "description": {
+                "en": "Halves the number of Rings lost when taking damage. (Also halves the number of Rings lost by \"Ring Steal\") (Changed to 1 slot gadget in v1.4.1)`",
+                "jp": "ダメージを受けて落下するリングの数を半分に減らします。「リングスティール」によるリング奪取も半分に減少します。v1.4.1で1スロットのガジェットに変更されました。",
+                "kr": "데미지를 받아 떨어지는 링의 개수를 절반으로 줄입니다. 「링 스틸」에 의한 링 손실도 절반으로 감소합니다. v1.4.1 패치로 1슬롯 가젯으로 변경되었습니다."
+            },
+            "gadget_type": "Support",
+            "slots": 1,
+            "image": "gadget_058.png",
+            "unlock": {
+                "en": [
+                    "Reach Rank D- in World Match"
+                ],
+                "jp": [
+                    "ワールドマッチでランクD-に達成"
+                ],
+                "kr": [
+                    "월드 매치에서 랭크 D- 도달"
+                ]
+            },
+            "effect": {
+                "en": "Halve the number of Rings lost when taking damage",
+                "jp": "ダメージを受けて落ちるリングを半分に減少",
+                "kr": "데미지를 받아 떨어지는 링을 절반으로 감소"
+            },
+            "stat_table": null
+        }
+    ],
+    "Item Control": [
+        {
+            "id": "gadget_063",
+            "name": {
+                "en": "Hazard Item Chance UP",
+                "jp": "設置アイテム確率アップ",
+                "kr": "설치 아이템 확률 UP"
+            },
+            "description": {
+                "en": "Hazard items appear more often. (4x increase in appearance rate)",
+                "jp": "設置アイテムがより多く出現する。(出現率4倍増加)",
+                "kr": "설치 아이템이 더 자주 등장합니다. (등장 확률이 4배 증가)"
+            },
+            "gadget_type": "Item Control",
+            "slots": 1,
+            "image": "gadget_063.png",
+            "unlock": {
+                "en": [
+                    "Finish 6 races"
+                ],
+                "jp": [
+                    "レース6回完走"
+                ],
+                "kr": [
+                    "레이스 6회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Hazard items appearance rate increased (4x increase)",
+                "jp": "設置アイテム出現率アップ (4倍増加)",
+                "kr": "설치 아이템 확률 상승 (4배 증가)"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_064",
+            "name": {
+                "en": "Attack Item Chance UP",
+                "jp": "攻撃アイテム確率アップ",
+                "kr": "공격 아이템 확률 UP"
+            },
+            "description": {
+                "en": "Attack items appear more often. (4x increase in appearance rate)",
+                "jp": "攻撃アイテムがより多く出現する。(出現率4倍増加)",
+                "kr": "공격 아이템이 더 자주 등장합니다. (등장 확률이 4배 증가)"
+            },
+            "gadget_type": "Item Control",
+            "slots": 1,
+            "image": "gadget_064.png",
+            "unlock": {
+                "en": [
+                    "Finish 6 races"
+                ],
+                "jp": [
+                    "レース6回完走"
+                ],
+                "kr": [
+                    "레이스 6회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Attack items appearance rate increased (4x increase)",
+                "jp": "攻撃アイテム出現率アッUP (4倍増加)",
+                "kr": "공격 아이템 확률 상승 (4배 증가)"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_067",
+            "name": {
+                "en": "Wisp Chance UP",
+                "jp": "ウィスプ確率アップ",
+                "kr": "위스프 확률 UP"
+            },
+            "description": {
+                "en": "Boost, Laser, Drill, Bomb, Void items appear more often. ( 1.5x increase in appearance rate per wisp item )",
+                "jp": "ブースト・レーザー・ドリル・ボム・ヴォイドの5種が入手しやすくなるガジェット。(ウィスプアイテム1つにつき1.5倍増加)",
+                "kr": "부스트, 레이저, 드릴, 폭탄봇, 보이드 5종류의 위스프 아이템이 더 자주 등장합니다. (위스프 아이템 1개당 1.5배 증가)"
+            },
+            "gadget_type": "Item Control",
+            "slots": 1,
+            "image": "gadget_067.png",
+            "unlock": {
+                "en": [
+                    "Reach Rank D+ in World Match"
+                ],
+                "jp": [
+                    "ワールドマッチでD+ランクに到達"
+                ],
+                "kr": [
+                    "월드 매치 랭크 D+ 이상 도달"
+                ]
+            },
+            "effect": {
+                "en": "Wisp items appearance rate increased (1.5x increase)",
+                "jp": "ウィスプアイテム出現率アッUP (1.5倍増加)",
+                "kr": "위스프 아이템 확률 상승 (1.5배 증가)"
+            },
+            "stat_table": null
+        }
+    ],
+    "Upgrade/Add Item": [
+        {
+            "id": "gadget_068",
+            "name": {
+                "en": "Boost Starter",
+                "jp": "最初からブースト",
+                "kr": "처음부터 부스트"
+            },
+            "description": {
+                "en": "Start the race with 'Boost'.",
+                "jp": "'ブースト'を持ってレースを始める。",
+                "kr": "'부스트'를 가지고 레이스를 시작합니다."
+            },
+            "gadget_type": "Upgrade/Add Item",
+            "slots": 1,
+            "image": "gadget_068.png",
+            "unlock": {
+                "en": [
+                    "Finish 6 races"
+                ],
+                "jp": [
+                    "レース6回完走"
+                ],
+                "kr": [
+                    "레이스 6회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Start the race with 'Boost'.",
+                "jp": "'ブースト'を持ってレースを始める。",
+                "kr": "'부스트'를 가지고 레이스를 시작합니다."
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_070",
+            "name": {
+                "en": "Dark Chao Starter",
+                "jp": "最初からダークチャオ",
+                "kr": "처음부터 다크챠오"
+            },
+            "description": {
+                "en": "Start the race with 'Dark Chao'.",
+                "jp": "'ダークチャオ'を持ってレースを始める。",
+                "kr": "'다크차오'를 가지고 레이스를 시작합니다."
+            },
+            "gadget_type": "Upgrade/Add Item",
+            "slots": 1,
+            "image": "gadget_070.png",
+            "unlock": {
+                "en": [
+                    "Finish a Grand Prix"
+                ],
+                "jp": [
+                    "グランプリ1回完走"
+                ],
+                "kr": [
+                    "그랑프리 1회 완주"
+                ]
+            },
+            "effect": {
+                "en": "Start the race with 'Dark Chao'",
+                "jp": "'ダークチャオ'を持ってレースを始める。",
+                "kr": "'다크챠오'를 가지고 레이스를 시작"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_072",
+            "name": {
+                "en": "Giant Rocket Punch",
+                "jp": "ロケットパンチ巨大化",
+                "kr": "로켓 펀치 거대화"
+            },
+            "description": {
+                "en": "'Rocket Punch' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate)",
+                "jp": "'ロケットパンチ'が2.5倍大きくなり合わせやすくなり、登場確率が10倍増加します。 ('ホーミングパンチ'は巨大化しない。)",
+                "kr": "'로켓 펀치'가 2.5배 커지고, 등장 확률이 10배 증가합니다. ('호밍 펀치'는 거대화하지 않습니다.)"
+            },
+            "gadget_type": "Upgrade/Add Item",
+            "slots": 1,
+            "image": "gadget_072.png",
+            "unlock": {
+                "en": [
+                    "Finish 6 races"
+                ],
+                "jp": [
+                    "レース6回完走"
+                ],
+                "kr": [
+                    "레이스 6회 완주"
+                ]
+            },
+            "effect": {
+                "en": "'Rocket Punch' becomes bigger (2.5x increase in size), appearance rate increased (10x increase)",
+                "jp": "'ロケットパンチ'の2.5倍巨大化, 登場確率10倍増加",
+                "kr": "'로켓 펀치' 2.5배 거대화, 등장 확률 10배 증가"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_073",
+            "name": {
+                "en": "Giant Spiked Iron Ball",
+                "jp": "トゲ鉄球巨大化",
+                "kr": "가시 철구 거대화"
+            },
+            "description": {
+                "en": "'Spiked Iron Ball' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate)",
+                "jp": "'トゲ鉄球'が2.5倍大きくなり、登場確率が10倍増加します。",
+                "kr": "'가시 철구'가 2.5배 커지고, 등장 확률이 10배 증가합니다."
+            },
+            "gadget_type": "Upgrade/Add Item",
+            "slots": 1,
+            "image": "gadget_073.png",
+            "unlock": {
+                "en": [
+                    "Finish 6 races"
+                ],
+                "jp": [
+                    "レース6回完走"
+                ],
+                "kr": [
+                    "레이스 6회 완주"
+                ]
+            },
+            "effect": {
+                "en": "'Spiked Iron Ball' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate)",
+                "jp": "'トゲ鉄球'の2.5倍巨大化, トゲ鉄球出現率10倍増加",
+                "kr": "'가시 철구' 2.5배 거대화, 등장 확률 10배 증가"
+            },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_074",
+            "name": {
+                "en": "Short Fuse",
+                "jp": "ボムクイックチャージ",
+                "kr": "폭탄봇 퀵 차지"
+            },
+            "description": {
+                "en": "'Bomb' charges faster and appears more often. (70% increase in charge speed, 10x increase in appearance rate)",
+                "jp": "'ボム'が占める速度が70%増加し、登場確率が10倍増加します。",
+                "kr": "'폭탄봇'이 차지 속도가 70% 증가하고, 등장 확률이 10배 증가합니다."
+            },
+            "gadget_type": "Upgrade/Add Item",
+            "slots": 1,
+            "image": "gadget_074.png",
+            "unlock": {
+                "en": [
+                    "Finish 6 races"
+                ],
+                "jp": [
+                    "レース6回完走"
+                ],
+                "kr": [
+                    "레이스 6회 완주"
+                ]
+            },
+            "effect": {
+                "en": "'Bomb' charges faster and appears more often. (70% increase in charge speed, 10x increase in appearance rate)",
+                "jp": "'ボム'充電速度70%増加, ボム出現率10倍増加",
+                "kr": "'폭탄봇' 차지 속도 70% 증가, 등장 확률 10배 증가"
+            },
+            "stat_table": null
+        }
+    ]
+}

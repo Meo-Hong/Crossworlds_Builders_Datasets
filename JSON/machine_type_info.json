@@ -1,0 +1,553 @@
+{
+  "speed": {
+    "title": {
+      "en": "Speed Type",
+      "jp": "スピードタイプ",
+      "kr": "스피드 타입"
+    },
+    "image" : "speed_icon.png",
+    "description": {
+      "en": "It is a type specialized for straight top speed and can run stably due to high handling and power levels, but the drift charge is slightly slower due to the low dash level.",
+      "jp": "直線最高速度に特化したタイプで、ハンドリングとパワーの数値が高く安定して走行できますが、ダッシュの数値がやや低いためドリフトの差が少し遅くなります。",
+      "kr": "직선 최고 속도에 특화된 타입으로, 핸들링과 파워 수치가 높아 안정적으로 달릴 수 있으나, 대시 수치가 다소 낮아 드리프트 차지가 살짝 느립니다."
+    },
+    "highlight": [
+      {
+        "title": {
+          "en": "None",
+          "jp": "なし",
+          "kr": "없음"
+        },
+        "detail": {
+          "en": "",
+          "jp": "",
+          "kr": ""
+        }
+      }
+    ],
+    "recommendation": { "rating": 3.5 },
+    "tendencies": {
+      "speed": { "rating": 5 },
+      "acceleration": { "rating": 1.5 },
+      "handling": { "rating": 3.5 },
+      "power": { "rating": 4 },
+      "boost": { "rating": 2 }
+    },
+    "pros": {
+      "en": [
+        "It is the type of machine with the highest speed in the straight section.",
+        "High handling and power values allow stable physical fight/cornering."
+      ],
+      "jp": [
+        "直線区間で最高速度が最も高いタイプのマシンです。",
+        "ハンドリングとパワーの数値が高く、身体のぶつかり合いやコーナリングを安定して行うことができます。"
+      ],
+      "kr": [
+        "직선 구간에서 최고속도가 가장 높은 타입의 머신입니다.",
+        "핸들링과 파워 수치가 높아 몸싸움 / 코너링을 안정적으로 할 수 있습니다."
+      ]
+    },
+    "cons": {
+      "en": [ 
+        "The actual speed reflection of the speed value is less than expected, making it difficult to expect an overwhelming top speed. (Top speed per 20 speed differs by 1km/h)",
+        "The dash value is low, so the drift charge is slow."
+      ],
+      "jp": [
+        "スピード数値の実際の反映値が思ったよりも微小で、圧倒的な最高速度を期待するのは難しいです。( スピード20に対して最高速度1km/hの差 )",
+        "ダッシュの数値が低いため、ドリフトのチャージが遅くなります。"
+      ],
+      "kr": [
+        "스피드 수치의 실제 스피드 반영값이 생각보다 미미하여 압도적인 최고 속도를 기대하기 어렵습니다. ( 스피드 20 당 최고속도 1km/h 차이 )",
+        "대시 수치가 낮아 드리프트 차지가 느립니다."
+      ]
+    },
+    "notes": {
+      "en": [
+        "The type who can compete more favorably in Super Sonic Speed than Sonic Speed.",
+        "The slower the speed mode, the higher the efficiency of the boost, so the slower the drift charge speed type machine is not recommended for use in 'Slow Speed Competition' (Normal Speed, High Speed).",
+        "Because you have to compete only with statistics without the unique features of the machine, the more skillful you are at the game, the clearer the limitations become."
+      ],
+      "jp": [
+        "『ソニックスピード』よりも『スーパーソニックスピード』でより有利な競争ができるタイプ。",
+        "スピードモードが遅いほどブーストの効率が高くなるため、ドリフトチャージが遅いスピードタイプのマシンは「スピードモードが遅い競技」（「ノーマルスピード」、「ハイスピード」）では使用をお勧めしません。",
+        "マシン固有の特徴がなく、ステータスだけで競う必要があるため、ゲームに熟練すればするほど限界がはっきりしてきます。"
+      ],
+      "kr": [
+        "『소닉 스피드』보다 『슈퍼 소닉 스피드』에서 더 유리한 경쟁을 할 수 있는 타입.",
+        "속도 모드가 더 느릴수록 부스트의 효율이 많이 높아져서 드리프트 차지가 느린 스피드 타입 머신은 '속도 모드가 느린 경쟁' (노멀 스피드, 하이 스피드)에서는 사용을 추천하지 않습니다.",
+        "머신의 고유 특징 없이 스탯으로만 경쟁해야하기 때문에 게임에 숙련이 될수록 한계점이 명확해집니다."
+      ]
+    }
+  },
+  "acceleration": {
+    "title": {
+      "en": "Acceleration Type",
+      "jp": "アクセルタイプ",
+      "kr": "액셀 타입"
+    },
+    "image" : "acceleration_icon.png",
+    "description": {
+      "en": "It has a high accelerator value, so it is a type with excellent ability to speed up again after being hit or decelerated. Stable driving is possible in slippery sections.",
+      "jp": "エクセルの数値が高く、被弾や減速後に再び速度を上げる能力に優れたタイプです。 滑りやすい区間でも安定した走行が可能です。",
+      "kr": "액셀 수치가 높아 피격이나 감속 이후 다시 속도를 올리는 능력이 뛰어난 타입입니다. 미끄러운 구간에서도 안정적인 주행이 가능합니다."
+    },
+    "highlight": [
+      {
+        "title": {
+          "en": "Strengthen grip",
+          "jp": "グリップ補正",
+          "kr": "접지력 강화"
+        },
+        "detail": {
+          "en": "Less slippery on sand/ice slippery sections (power-type, acceleration-type unique effects)",
+          "jp": "砂や氷のような滑りやすい区間では、滑りにくくなります。 (パワータイプ、アクセルタイプの固有効果)",
+          "kr": "모래 / 얼음 같은 미끄러운 구간에서 덜 미끄러집니다. (파워 타입, 액셀 타입 고유 효과)"
+        },
+        "tone": "good"
+      },
+      {
+        "title": {
+          "en": "Calibrate speed during drift",
+          "jp": "ドリフト中の速度補正",
+          "kr": "드리프트 속도 보정"
+        },
+        "detail": {
+          "en": "There is an additional speed correction effect during drift. It receives speed correction similar to dash type. (Ground mode only)",
+          "jp": "ドリフト時に追加の速度補正効果があります。 ダッシュタイプと似た速度補正を受けます。 (地上モードのみ適用)",
+          "kr": "드리프트 시 추가 속도 보정 효과가 있습니다. 대시 타입과 비슷한 속도 보정을 받습니다. (지상형만 적용)"
+        },
+        "tone": "good"
+      }
+    ],
+    "recommendation": { "rating": 2 },
+    "tendencies": {
+      "speed": { "rating": 4 },
+      "acceleration": { "rating": 5 },
+      "handling": { "rating": 2 },
+      "power": { "rating": 3.5 },
+      "boost": { "rating": 1.5 }
+    },
+    "pros": {
+      "en": [
+        "The speed and acceleration values are high, so it is easy to reach the highest speed.",
+        "The slip resistance is enhanced, so it is easy to drive on slippery sections.",
+        "When combined with \"Hyper ring Engine\", it compensates for insufficient statistics, allowing stable driving even in \"slip sections\"."
+      ],
+      "jp": [
+        "スピードとアクセルの数値が高いため、最高速度に達することが容易です。",
+        "滑りやすい区間では優れていますが、明らかな上位互換機である「パワータイプマシン」に負けています。",
+        "「アルティメットチャージ」の存在により、ドリフトを習得すればアイテムから最も安全に走行できます。"
+      ],
+      "kr": [
+        "스피드, 액셀 수치가 높아 최고속도에 도달하기 쉽습니다.",
+        "접지력 강화를 통해 미끄러지는 구간에서 달리기가 수월합니다.",
+        "\"하이퍼 링 엔진\"과 함께 사용하면 부족한 스탯을 보완하여 '미끄러지는 구간'에서도 안정적인 주행이 가능합니다."
+      ]
+    },
+    "cons": {
+      "en": [ 
+        "The influence of the acceleration value on the game is very small, so it is difficult to feel the difference.",
+        "The dash value is low, so the drift charge is slow.",
+        "The handling value is low, so it is difficult to turn well.",
+        "The handling and dash values are both low, so it is the weakest type in cornering.",
+        "A power-type machine exists, which is a generally superior type."
+      ],
+      "jp": [
+        "アクセルの数値がゲームに与える影響が非常に小さいため、違いを感じにくいです。",
+        "ダッシュの数値が低いため、ドリフトキャッチが遅くなります。",
+        "ハンドリングの数値が低いため、コーナリングがうまく回らないです。",
+        "ハンドリングとダッシュの数値が両方低いため、コーナリングで最も弱いタイプです。",
+        "一般的に上位互換のパワータイプマシンが存在します。"
+      ],
+      "kr": [
+        "액셀 수치가 게임에 미치는 영향이 매우 적어 차이를 느끼기 힘듭니다.",
+        "대시 수치가 낮아 드리프트 차지가 느립니다.",
+        "핸들링 수치가 낮아 코너링이 잘 돌지 않습니다.",
+        "핸들링, 대시 수치가 모두 낮아 코너링에서 가장 약한 타입입니다.",
+        "일반적으로 상위호환인 파워타입 머신이 존재합니다."
+      ]
+    },
+    "notes": {
+      "en": [ 
+        "It is good on slippery sections, but it is inferior to the「Power Type Machine」, which is a clear superior type.",
+        "However, it can be used by combining with \"Hyper Ring Engine\" to compensate for the shortcomings and receive speed increase correction during drift, which allows you to take advantage of cornering."
+      ],
+      "jp": [
+        "滑りやすい区間では優れていますが、明らかな上位互換機である「パワータイプマシン」に負けています。",
+        "ただし、\"ハイパーリングエンジン\"と組み合わせることで、短所を補うことができ、ドリフト中の速度増加補正を受けることで、コーナリングに有利になります。"
+      ],
+      "kr": [
+        "미끄러운 구간에서는 좋지만 명백한 상위호환인「파워 타입 머신」에 밀립니다.",
+        "다만 \"하이퍼 링 엔진\"과 함께 사용하면 부족한 스탯을 보완하여 단점을 극복할 수 있고, 드리프트 중 속도 증가 보정도 받으면서 코너링에 이점을 가질 수 있습니다."
+      ]
+    }
+  },
+  "handling": {
+    "title": {
+      "en": "Handling Type",
+      "jp": "ハンドリングタイプ",
+      "kr": "핸들링 타입"
+    },
+    "image" : "handling_icon.png",
+    "description": {
+      "en": "The high handling value makes cornering easy at high speeds easy to follow ideal lines. Among drift, it receives speed increase correction, which benefits from cornering.",
+      "jp": "ハンドリング数値が高く、高速でのコーナリングが容易で、理想的なラインに沿って走りやすいです。 ドリフト中は速度増加補正を受けてコーナリングに利点があります。",
+      "kr": "핸들링 수치가 높아 높은 속도에서의 코너링이 쉬워 이상적인 라인을 따라가기 쉽습니다. 드리프트 중에선 속도 증가 보정을 받아 코너링에 이점을 가집니다."
+    },
+    "highlight": [
+      {
+        "title": {
+          "en": "Drift speed correction (higher additional speed)",
+          "jp": "ドリフト速度補正（より高い追加速度）",
+          "kr": "드리프트 속도 보정 (더 높은 추가 속도)"
+        },
+        "detail": {
+          "en": "During drift, the speed increase is corrected for speed increase, the handling type receives the highest additional speed (ground type only)",
+          "jp": "ドリフト中は速度増加補正を受けて速度が速くなります。 ハンドリングタイプが最も高い追加速度を得ます。 (地上型のみ適用)",
+          "kr": "드리프트 중에는 속도 증가 보정을 받아 속도가 빨라집니다. 핸들링 타입이 가장 높은 추가 속도를 받습니다. (지상형만 적용)"
+        },
+        "tone": "good"
+      },
+      {
+        "title": {
+          "en": "No deceleration when turning left/right in \"Boat Mode\"",
+          "jp": "「水上モード」中、左右旋回時の減速なし",
+          "kr": "「수상 모드」중 좌우 회전 시, 감속 없음"
+        },
+        "detail": {
+          "en": "Corners without deceleration when turning left/right during 'Water Mode'. (Exclusive effect for Handling Type and Dash Type)",
+          "jp": "「水上モード」中、左右旋回時に減速なしでコーナリングします。（ハンドリングタイプ、ダッシュタイプ固有効果）",
+          "kr": "「수상 모드」중 좌우 회전 시, 감속 없이 코너링을 돕니다. (핸들링 타입, 대시 타입 고유 효과)"
+        },
+        "tone": "good"
+      }
+    ],
+    "recommendation": { "rating": 4.5 },
+    "tendencies": {
+      "speed": { "rating": 1.5 },
+      "acceleration": { "rating": 4 },
+      "handling": { "rating": 5 },
+      "power": { "rating": 2 },
+      "boost": { "rating": 3.5 }
+    },
+    "pros": {
+      "en": [
+        "The high handling value allows you to corner well at a high speed.",
+        "Drift charge is fast due to high dash value.",
+        "Speed increase correction during drift allows you to break through corners quickly."
+      ],
+      "jp": [
+        "ハンドリング性能が高く、高速でコーナリングをうまく回すことができます。",
+        "ダッシュの数値が高く、ドリフトのチャージが速いです。",
+        "ドリフト中に速度増加補正を受けて、コーナーを素早く突破できます。"
+      ],
+      "kr": [
+        "핸들링 수치가 높아 높은 속도로 코너링을 잘 돌 수 있습니다.",
+        "대시 수치가 높아 드리프트 차지가 빠릅니다.",
+        "드리프트 중 속도 증가 보정을 받아 코너를 빠르게 돌파할 수 있습니다."
+      ]
+    },
+    "cons": {
+      "en": [ 
+        "The top speed is lower than that of other types (without boost).",
+        "The low power value makes it easy to lose the ring when bumping into the machine."
+      ],
+      "jp": [
+        "直線の最高速度は他のタイプに比べて低めです (ブーストなし)。",
+        "パワー数値が低いため、マシンと衝突した際にリングを失いやすくなります。"
+      ],
+      "kr": [
+        "부스트가 없는 직선 최고 속도는 다른 타입 대비 낮은 편입니다.",
+        "파워 수치가 낮아 몸싸움 중 링을 잃기 쉽습니다."
+      ]
+    },
+    "notes": {
+      "en": [     
+        "The synergy of high handling, dash figures and drift additional speed correction allows you to run cornering quickly and reliably.",
+        "Snaking in a straight line (continuous left and right drift in straight line) allows you to effectively maintain maximum speed and take advantage of drift boost.",
+        "The advantage of drift additional speed correction is very important in the racing genre, so it is very advantageous for strategic use."
+      ],
+      "jp": [
+        "高いハンドリング、ダッシュ数値とドリフト追加速度補正のシナジーにより、コーナリングを速く安定して行うことができます",
+        "直線でスネーキング（直線で左右に連続ドリフト）を行うことで、最高速度を維持し、ドリフトブーストを効果的に活用できます。",
+        "ドリフト追加速度補正の利点はレースジャンルで非常に重要な要素であるため、戦略的な運用に非常に有利です。"
+      ],
+      "kr": [
+        "높은 핸들링, 대시 수치와 드리프트 추가 속도 보정의 시너지로 코너링을 빠르고 안정적으로 주파할 수 있습니다.",
+        "직선에서 스네이킹(직선에서 좌우로 연속 드리프트)를 통해 최고속도 유지 및 드리프트 부스트를 효과적으로 활용할 수 있습니다.",
+        "드리프트 추가 속도 보정이라는 어드밴티지는 레이싱 장르에서 매우 중요한 요소이기 때문에 전략적인 활용에 매우 유리합니다."
+      ]
+    }
+  },
+  "power": {
+    "title": {
+      "en": "Power Type",
+      "jp": "パワータイプ",
+      "kr": "파워 타입"
+    },
+    "image" : "power_icon.png",
+    "description": {
+      "en": "Features high power and strong boost, allowing it to plow through obstacles and maintain speed in rough sections. Well suited for courses with many item crates and off-road segments.",
+      "jp": "パワーとブーストが高く、障害物に強いタフなタイプ。アイテム箱や荒れた路面が多いコースと相性が良いです。",
+      "kr": "파워 수치가 높아 몸싸움에서 링을 잘 잃지 않고, 벽에 부딪혔을 때 링을 잃지 않습니다. 스피드와 대시 수치가 고루 높아 안정적인 주행이 가능합니다."
+    },
+    "highlight": [
+      {
+        "title": {
+          "en": "Built-in \"Bumper Guard\" effect",
+          "jp": "「壁リングガード」効果内蔵",
+          "kr": "「벽 링 가드」효과 내장"
+        },
+        "detail": {
+          "en": "You won't lose your ring when you hit the wall.",
+          "jp": "壁にぶつかってもリングを失いません。",
+          "kr": "벽에 부딪혔을 때 링을 잃지 않습니다."
+        },
+        "tone": "good"
+      },
+      {
+        "title": {
+          "en": "Higher additional speed cap",
+          "jp": "より高い追加速度上限",
+          "kr": "더 높은 추가 속도 상한선"
+        },
+        "detail": {
+          "en": "The additional speed limit is set higher compared to other types, making it easier to overtake other vehicles (see table)",
+          "jp": "追加速度上限が他のタイプと比較して高く設定されているため、他の車両を追い越すのがより容易になります。 (表参照)",
+          "kr": "추가 속도 상한선이 다른 타입과 비교해 더 높게 설정되어 있어 다른 차량 추월을 더 쉽게 할 수 있습니다. (표 참조)"
+        },
+        "tone": "good"
+      },
+      {
+        "title": {
+          "en": "Correction of speed deceleration during drift",
+          "jp": "ドリフト中の速度減速補正",
+          "kr": "드리프트 중 속도 감속 보정"
+        },
+        "detail": {
+          "en": "Drift slows down the speed, unlike other types.",
+          "jp": "ドリフトをすると、他のタイプとは異なり速度が減速します。",
+          "kr": "드리프트를 하면 다른 타입과 달리 속도가 감속합니다."
+        },
+        "tone": "bad"
+      },
+      {
+        "title": {
+          "en": "Strengthen grip",
+          "jp": "グリップ補正",
+          "kr": "접지력 강화"
+        },
+        "detail": {
+          "en": "Less slippery on sand/ice slippery sections (power-type, acceleration-type unique effects)",
+          "jp": "砂や氷のような滑りやすい区間では、滑りにくくなります。 (パワータイプ、アクセルタイプの固有効果)",
+          "kr": "모래 / 얼음 같은 미끄러운 구간에서 덜 미끄러집니다. (파워 타입, 액셀 타입 고유 효과)"
+        },
+        "tone": "good"
+      }
+    ],
+    "recommendation": { "rating": 4 },
+    "tendencies": {
+      "speed": { "rating": 3.5 },
+      "acceleration": { "rating": 2 },
+      "handling": { "rating": 1.5 },
+      "power": { "rating": 5 },
+      "boost": { "rating": 4 }
+    },
+    "pros": {
+      "en": [
+        "Due to the high power value, you don't lose the ring well when you hit the machine, and you don't lose the ring when you hit the wall.",
+        "Drift charge is fast due to high dash values.",
+        "The speed and dash values are high, so it is easy to maintain stable driving",
+        "The upper limit of the additional speed in the maximum ring possession state is higher than that of other types, so both the \"Sleepstream\" and \"Ring Dash\" effects can be utilized.",
+        "It slides less on slippery sections such as sand/ice."
+      ],
+      "jp": [
+        "パワー数値が高いため、マシンと衝突したときにリングを失いにくく、壁にぶつかったときもリングを失いません。",
+        "ダッシュの数値が高く、ドリフトのチャージが速いです。",
+        "スピードとダッシュの数値が均等に高く、最高速度での走行が快適です。",
+        "最大リング所持状態での追加速度上限が他のタイプよりも高く、「スリップストリーム」+「リングダッシュ」効果をすべて活用できます。",
+        "砂や氷など滑りやすい場所では、滑りにくくなります。"
+      ],
+      "kr": [
+        "파워 수치가 높아 몸싸움에서 링을 잘 잃지 않고, 벽에 부딪혔을 때 링을 잃지 않습니다.",
+        "대시 수치가 높아 드리프트 차지가 빠릅니다.",
+        "스피드, 대시 수치가 고루 높아 최고속도 주행이 편합니다.",
+        "최대 링 소지 상태에서의 추가 속도 상한이 다른 타입보다 높아 「슬립스트림 」+ 「링 대시」 효과를 모두 활용할 수 있습니다.",
+        "모래 / 얼음 등 미끄러운 구간에서 덜 미끄러집니다."
+      ]
+    },
+    "cons": { 
+      "en": [
+        "Low handling makes it difficult to make precise line adjustments.",
+        "The large size of the vehicle may obstruct your view of the screen.",
+        "Since speed decreases while drifting, you risk being overtaken during cornering."
+      ],
+      "jp": [
+        "ハンドリングが低く、繊細なライン取りが困難です。",
+        "車体が大きいため、画面が見えにくくなる場合があります。",
+        "ドリフト中に減速するため、コーナリングで追い越される可能性があります。"
+      ],
+      "kr": [
+        "핸들링이 낮아 섬세한 라인 조정이 어렵습니다.",
+        "차량 크기가 커서 화면을 가리는 경우가 있을 수 있습니다.",
+        "드리프트 중 속도 감속이 일어나므로 코너링에서 추월당할 가능성이 존재합니다."
+      ]
+    },
+    "notes": {
+      "en" : [
+        "A type suitable for beginners, as you don't lose rings even if you crash into walls.",
+        "There is a low chance of losing rings during collisions. With a high Dash stat—which is the most important—along with high Speed, it is highly effective in chaotic races.",
+        "While Drift Charge is fast, you decelerate during drifts. Therefore, if you haven't mastered drifting, you risk being overtaken during cornering.",
+        "Compared to Accel-type machines, this type is a strict upgrade."
+      ],
+      "jp": [
+        "壁にぶつかってもリングを失わないため、初心者に適したタイプ。",
+        "競り合いでもリングを失う確率が低く、最も重要なダッシュ値が高いうえにスピードも高いため、乱戦での使い勝手が抜群です。",
+        "ドリフトチャージが速い代わりに、ドリフト中に減速が発生するため、ドリフトに習熟していないとコーナリングで追い越される可能性があります。",
+        "アクセルタイプのマシンと比較して、明らかな上位互換となるタイプです。"
+      ],
+      "kr": [
+        "벽에 박아도 링을 잃지 않아 초보자에게 적합한 타입",
+        "몸싸움에서도 링을 잃을 확률이 적고, 가장 중요한 대시 수치가 높으면서 스피드도 높아 난전에서 활용도가 높습니다.",
+        "드리프트 차지가 빠른 대신, 드리프트 중 감속이 일어나므로 드리프트가 숙달되지 못하면 코너링에서 추월당할 가능성이 존재합니다.",
+        "액셀 타입 머신과 비교해서 명백한 상위호환인 타입입니다."
+      ]
+    }
+  },
+  "boost": {
+    "title": {
+      "en": "Boost Type",
+      "jp": "ダッシュタイプ",
+      "kr": "대시 타입"
+    },
+    "image" : "boost_icon.png",
+    "description": {
+      "en": "It is a type specialized for running in conjunction with drift charge boost due to high dash and handling values. The appearance is derived from the extreme gear from the \"Sonic Riders series.\"",
+      "jp": "ブースト性能とハンドリングが極めて高く、ダッシュをつなげて走ることに特化したタイプ。ブーストパネルやアイテムを積極的に活用するプレイングが求められます。",
+      "kr": "대시와 핸들링 수치가 높아 드리프트 차지 부스트를 연계하며 달리는 데 특화된 타입입니다. 외형은『소닉 라이더즈』시리즈에서 나온 「익스트림 기어」를 따왔습니다."
+    },
+    "highlight": [
+      {
+        "title": {
+          "en": "When a bumper collision occurs, many rings are lost",
+          "jp": "壁に衝突した際、失うリングが多い",
+          "kr": "벽에 부딪혔을 때 링을 잃기 쉬움"
+        },
+        "detail": {
+          "en": "Unlike other types, when they collide with the wall, they lose 2 rings unconditionally. (Other types lose 1 ring)",
+          "jp": "他のタイプとは異なり、壁に衝突した場合は必ず2つのリングを失います。（他のタイプは1つずつ）",
+          "kr": "다른 타입과 달리 벽과 충돌했을 때, 무조건 2개의 링을 잃습니다. (다른 타입은 1개씩)"
+        },
+        "tone": "bad"
+      },
+      {
+        "title": {
+          "en": "Long recovery time after speed deceleration",
+          "jp": "速度が遅くなり、復旧に時間がかかる",
+          "kr": "속도감속 후 복구 시간이 긺"
+        },
+        "detail": {
+          "en": "It takes a long time to recover after a slowdown occurs, such as an item hit / running in the off-road area. (Source: Sonic Official YouTube channel \"Speed Strats\")",
+          "jp": "アイテムが被弾したり、ランオフエリアを走ったりするなどの速度低下が起きた後、復旧までに時間がかかります。 (出典：ソニック公式 YouTube チャンネル \"Speed Strats\")",
+          "kr": "아이템 피격 / 런오프 구역을 달리는 등의 속도 감속이 일어난 후, 복구하는데까지 시간이 오래 걸립니다. (출처 : 소닉 공식 유튜브 채널 영상 중 \"Speed Strats\")"
+        },
+        "tone": "bad"
+      },
+      {
+        "title": {
+          "en": "Calibrate speed during drift",
+          "jp": "ドリフト中の速度補正",
+          "kr": "드리프트 속도 보정"
+        },
+        "detail": {
+          "en": "There is an additional speed correction effect during drift. It receives speed correction similar to acceleration type. (Ground mode only)",
+          "jp": "ドリフト時に追加の速度補正効果があります。 アクセルタイプと似た速度補正を受けます。 (地上モードのみ適用)",
+          "kr": "드리프트 시 추가 속도 보정 효과가 있습니다. 액셀 타입과 비슷한 속도 보정을 받습니다. (지상형만 적용)"
+        },
+        "tone": "good"
+      },
+      {
+        "title": {
+          "en": "No deceleration when turning left/right in \"Boat Mode\"",
+          "jp": "「水上モード」中、左右旋回時の減速なし",
+          "kr": "「수상 모드」중 좌우 회전 시, 감속 없음"
+        },
+        "detail": {
+          "en": "Corners without deceleration when turning left/right during 'Water Mode'. (Exclusive effect for Handling Type and Dash Type)",
+          "jp": "「水上モード」中、左右旋回時に減速なしでコーナリングします。（ハンドリングタイプ、ダッシュタイプ固有効果）",
+          "kr": "「수상 모드」중 좌우 회전 시, 감속 없이 코너링을 돕니다. (핸들링 타입, 대시 타입 고유 효과)"
+        },
+        "tone": "good"
+      }
+    ],
+    "recommendation": { "rating": 4 },
+    "tendencies": {
+      "speed": { "rating": 2},
+      "acceleration": { "rating": 3 },
+      "handling": { "rating": 4 },
+      "power": { "rating": 1.5 },
+      "boost": { "rating": 5 }
+    },
+    "pros": {
+      "en": [
+        "The dash value is the highest and the drift charge is the fastest.",
+        "The high handling value makes cornering easy even during high-speed driving.",
+        "Specialized in drift charge boost operations, you can maintain explosive speed by familiarizing yourself with the course.",
+        "It is the type with the highest synergy with 「Drift Charge Shortening Gadgets」 and 「Ultimate Charge」."
+      ],
+      "jp": [
+        "ダッシュの数値が最も高く、ドリフトのチャージが最も速いです。",
+        "ハンドリング性能が高く、高速走行中でもコーナリングがスムーズです。",
+        "ドリフトチャージブーストの操作に特化しており、コースを把握すれば爆発的なスピードを維持できます。",
+        "「ドリフトチャージ短縮ガジェット」や「アルティメットチャージ」との相乗効果が最も高いタイプです。"
+      ],
+      "kr": [
+        "대시 수치가 가장 높아 드리프트 차지가 가장 빠릅니다.",
+        "핸들링이 높아 고속 주행 중에도 코너링이 수월합니다.",
+        "드리프트 차지 부스트 운용에 특화되어, 코스를 숙지하면 폭발적인 속도를 유지할 수 있습니다.",
+        "「드리프트 차지 단축 가젯들」, 「얼티밋 차지」와의 시너지가 가장 높은 타입입니다."
+      ]
+    },
+    "cons": {
+      "en": [ 
+        "If the speed value is low and there is no drift charge boost, the maximum speed is low and there is a risk of being overtaken.",
+        "The power value is low, so it is easy to lose the ring when bumping into the machine.",
+        "If you cannot master drift and the course, you cannot fully utilize the potential of the dash type."
+      ],
+      "jp": [
+        "スピード数値が低く、ドリフトチャージブーストがない場合、最高速度が低いため追い越されるリスクがあります。",
+        "パワー数値が低いため、リングを失いやすいです。",
+        "ドリフトやコースを習得できなければ、ダッシュタイプの潜在能力をすべて発揮できません。"
+      ],
+      "kr": [
+        "스피드 수치가 낮아 드리프트 차지 부스트가 없는 경우, 최고속도가 낮아 추월당할 위험이 있습니다.",
+        "파워 수치가 낮아 링을 잃기 쉽습니다.",
+        "드리프트와 코스를 숙달하지 못하면 대시 타입의 잠재된 능력을 모두 발휘하지 못합니다."
+      ]
+    },
+    "notes": {
+      "en": [
+        "The most important dash value in this game is the highest type.",
+        "The presence of \"Ultimate Charge\" allows you to drive the safest from items if you master drift. However, the invincible time of \"Ultimate Charge\" was reduced to 1.5 seconds in v1.3.1.",
+        "The more drift you do, the more it helps you maintain the highest speed.",
+        "if you do not master the course and do many drifts, you may ruin the course line and actually be overtaken.",
+        "Not recommended for beginners, but it is the strongest type after mastering the course."
+      ],
+      "jp": [
+        "このゲームで最も重要なダッシュ数値が最も高いタイプです。",
+        "「アルティメットチャージ」の存在により、ドリフトを習得すればアイテムから最も安全に走行できます。 ただし、v1.3.1にて無敵時間が1.5秒になりました。",
+        "ドリフトを多くするほど、最高速度を維持するのに役立ちます。",
+        "コースを習得せずに多くのドリフトをすると、コースラインを壊して実際に追い越されるリスクがあります。",
+        "初心者にはお勧めしませんが、コースを習得すれば、すべてのタイプの中で最も強力なタイプになります。"
+      ],
+      "kr": [
+        "이 게임에서 가장 중요한 대시 수치가 가장 높은 타입입니다.",
+        "가젯 중, 「얼티밋 차지」의 존재로 드리프트가 숙달되면 아이템으로부터 가장 안전한 주행을 할 수 있습니다. 다만, 얼티밋 차지가 v1.3.1에서 너프를 받아 무적 시간이 1.5초로 줄어들었습니다.",
+        "드리프트 차지를 많이할수록 최고속도 유지에 큰 도움이 됩니다.",
+        "다만 코스 숙지 없이 많은 드리프트를 하면 코스 라인 빌드가 망가져 오히려 추월당할 위험이 있습니다.",
+        "초보자에게는 추천하지 않으나, 코스 숙달 후에는 모든 타입 중 가장 강력한 타입입니다."
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,40 @@
+[
+  {
+    "year": 2026,
+    "title": {
+      "en": "WCS 2026",
+      "jp": "世界大会 2026",
+      "kr": "WCS 2026"
+    },
+    "description": {
+      "en": "World Championship (WCS) rules apply. Legend Competition Round 6 replaces the preliminary period. Festival-reward gadgets from June 2026 onward cannot be used.",
+      "jp": "世界大会（WCS）ルールが適用されます。レジェンドコンペのラウンド6が予選期間を代替します。2026年6月以降のフェスタ報酬ガジェットは使用できません。",
+      "kr": "월드 챔피언십(WCS) 룰이 적용됩니다. 레전드 대회 라운드 6가 예선 기간을 대체했습니다. 2026년 6월 이후 페스타 보상 가젯은 사용할 수 없습니다."
+    },
+    "prelim_schedule": {
+      "start": "2026-06-30",
+      "end": "2026-07-20"
+    },
+    "prelim_schedule_us": {
+      "start": "2026-06-29",
+      "end": "2026-07-19"
+    },
+    "final_schedule": {
+      "start": "2026-10-10",
+      "end": ""
+    },
+    "final_schedule_us": {
+      "start": "2026-10-09",
+      "end": ""
+    },
+    "banned_gadget_ids": [
+      "gadget_113",
+      "gadget_114",
+      "gadget_115",
+      "gadget_116",
+      "gadget_117",
+      "gadget_118"
+    ],
+    "version": "1.4.3"
+  }
+]

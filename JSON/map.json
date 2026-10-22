@@ -1,0 +1,1706 @@
+{
+    "main": [
+        {
+            "map_id" : "001",
+            "name" : {
+                "en" : "E-Stadium",
+                "jp" : "E-スタジアム",
+                "kr" : "E-스타디움"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Donpa",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:30.000",
+                    "Srank" : "2:16.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:08.000",
+                    "Srank" : "2:00.500"
+                }
+            },
+            "image_header" : "001_EStadium",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "The first map in the game.\nThe exterior is inspired by Sonic's ears and eyes.\nThe map structure is simple and easy to practice by using short cuts and run-offs.",
+                "jp" : "ゲームの最初のマップ。\nソニックの耳と目をモチーフにした外観。\n簡単に走れるトラックで、近道が多いです。",
+                "kr" : "게임의 첫번째 맵입니다.\n외관은 소닉의 귀와 눈을 본따 만들었습니다.\n맵 구조가 단순하고, 숏컷 링과 런오프를 통한 기록 단축을 쉽게 할 수 있어 연습하기 좋습니다."
+            },
+            "interaction" : [
+                "character_009",
+                "character_021"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/c_xSxGWf9Ws?si=ohl-mUaZYU8KRVHR",
+                "lap1" : "https://youtu.be/jTAAJSLmAhg?si=P9izAyGSXaNCVngN",
+                "final" : "https://youtu.be/pgoguoYSm8M?si=VUldZOwt-SKu8qJJ",
+                "final_no_chant" : "https://youtu.be/WKeAu9dg8X8?si=b4y5DJp7YNV4Y6h7"
+            }
+        },
+        {
+            "map_id" : "002",
+            "name" : {
+                "en" : "Rainbow Garden",
+                "jp" : "レインボーガーデン",
+                "kr" : "레인보우 가든"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Donpa",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:35.000",
+                    "Srank" : "2:26.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:10.000",
+                    "Srank" : "2:06.500"
+                }
+            },
+            "image_header" : "002_RainbowGarden",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "The first map to feature a flying section.\nYou can easily pass the in-course run-off shortcut by using the flower railing section on the later flower road hill.",
+                "jp" : "飛行区間を初めて搭載したマップ。\n後半の花道の丘にある花の柵を通ることで、インコースのランオフ近道を簡単に通過できます。",
+                "kr" : "공중 비행 구간을 처음으로 접할 수 있는 맵입니다.\n후반부 꽃길 언덕에서 꽃 난간 구간을 통해서 가면 인코스 런오프 지름길을 쉽게 통과할 수 있습니다."
+            },
+            "interaction" : [
+                "character_002",
+                "character_014"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/PLO-Em4HPM0?si=TnqWnj4UUYw23-qK",
+                "lap1" : "https://youtu.be/qPr56KvcdpM?si=9V91ZbyvI4RQwky2",
+                "final" : "https://youtu.be/trNxmq1MPsU?si=sbBj_FBkPrJrGOOJ",
+                "final_no_chant" : "https://youtu.be/7If-qYZOrrQ?si=8bOpyH3gsXlI0gCb"
+            }
+        },
+        {
+            "map_id" : "003",
+            "name" : {
+                "en" : "Water Palace",
+                "jp" : "ウォーターパレス",
+                "kr" : "워터 팰리스"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Donpa",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:50.000",
+                    "Srank" : "2:41.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:25.000",
+                    "Srank" : "2:19.000"
+                }
+            },
+            "image_header" : "003_WaterPalace",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "The first map to feature a water section.\nIt is a map with no effective run-off shortcuts, so you can shorten your record depending on your driving skills.",
+                "jp" : "水区間を初めて搭載したマップ。\nインコースのランオフ近道が実質的にないマップなので、あなたの運転技術に応じてレコードを短縮できます。",
+                "kr" : "수중 구간을 처음으로 접할 수 있는 맵입니다.\n인코스 런오프 지름길이 사실상 없는 맵이라 자신의 주행 실력에 따라 기록을 단축할 수 있습니다."
+            },
+            "interaction" : [
+                "character_003",
+                "character_007"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/9CBAJ0Eqeis?si=HNFYqs7cnUuxnE4V",
+                "lap1" : "https://youtu.be/9NZABjrTkhk?si=zUQ4MHtBE3dOB4xF",
+                "final" : "https://youtu.be/_l4VrrCDy-8?si=JqQlz7tLSukHrz9C",
+                "final_no_chant" : "https://youtu.be/vWFE_OtgAoY?si=m1fXOPvurxG3H_QF"
+            }
+        },
+        {
+            "map_id" : "004",
+            "name" : {
+                "en" : "Metal Harbor",
+                "jp" : "メタルハーバー",
+                "kr" : "메탈 하버"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Wisp",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:50.000",
+                    "Srank" : "2:37.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:25.000",
+                    "Srank" : "2:18.000"
+                }
+            },
+            "image_header" : "004_MetalHarbor",
+            "original" : {"en" : "Sonic Adventure 2 - Metal Harbor", "jp" : "ソニックアドベンチャー2 - メタルハーバー", "kr" : "소닉 어드벤처 2 - 메탈 하버"},
+            "description" : {
+                "en" : "This map takes place on a G.U.N. battleship.\nFor the BGM, a remix of \"That's The Way I Like It\" plays during Lap 1, and a remix of \"Can't Stop, So What?!\" plays during Lap 3.\nEarly on, there is a branching point that splits into an aerial flight section and a jump ramp. In the latter half, there are shortcuts using jump ramps in the U-turn section and the final turn section.\nYou must drive carefully, as walking robot obstacles are scattered throughout the course.",
+                "jp" : "G.U.N.の軍艦の上を進行するマップです。\nBGMは、LAP1では「That's The Way I Like it」、LAP3では「Can't Stop, So What?!」のリミックスが流れます。\n序盤に空中飛行エリアとジャンプ台に分かれる分岐点があり、後半のUターンエリアや最終ターンエリアには、ジャンプ台を利用したショートカットが存在します。\n歩き回るロボットの障害物が所々に配置されているため、注意して走行する必要があります。",
+                "kr" : "GUN의 군함 위에서 진행하는 맵입니다.\nBGM은 LAP1에서는 \"That's The Way I Like it\"를, LAP3에서는 \"Can't Stop, So What?!\"이 리믹스 되었습니다.\n초반에 공중 비행 구간과 점프대로 나뉘는 분기점이 있고, 후반부 유턴 구간, 마지막 턴 구간에 점프대를 통한 숏컷이 존재합니다.\n걸어다니는 로봇 장애물이 곳곳에 있으니 주의해서 주행해야 합니다."
+            },
+            "interaction" : [
+                "character_009",
+                "character_017"
+            ],
+            "music" : { 
+                "intro" : "https://youtu.be/bS5HOiVQA0U?si=hORLB_zVmKRl-XO2",
+                "lap1" : "https://youtu.be/uuQt1DwPARM?si=pyTCCUWny_mX2zly",
+                "final" : "https://youtu.be/-kligY3nlBc?si=3Sx7g1QgjgfbzVGS",
+                "final_no_chant" : "https://youtu.be/LnEMwi9ekd0?si=8GqCYoB6dyQwJTLV"
+            }
+        },
+        {
+            "map_id" : "005",
+            "name" : {
+                "en" : "Sand Road",
+                "jp" : "サンドロード",
+                "kr" : "샌드 로드"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Wisp",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:41.000",
+                    "Srank" : "2:27.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:19.000",
+                    "Srank" : "2:07.500"
+                }
+            },
+            "image_header" : "005_SandRoad",
+            "original" : {"en" : "Team Sonic Racing - Sand Road", "jp" : "チームソニックレーシング - サンドロード", "kr" : "팀 소닉 레이싱 - 샌드 로드"},
+            "description" : {
+                "en" : "This map is a remake of the map from \"Team Sonic Racing\".\n(Background map is \"Sandopolis\" from \"Sonic 3 & Knuckles\").\nBGM is a remix of \"Sand Hill\" from \"Sonic Adventure\", with DJ duo \"RIOT\" handling the remix.\nIt is the main map where you first encounter the 'Slippery Section' (Sand Section).\nIn Lap 3, a branch point for the water section is added, and this side is faster.",
+                "jp" : "『チームソニックレーシング』で登場したマップをリメイクして再登場しました。\n(背景マップは『ソニック 3 & ナックルズ』の「サンドポリス」です。)\nBGMは『ソニック アドベンチャー』の「サンドヒル」のリミックスで、DJ デュオ \"RIOT\"がリミックスを担当しています。\n「滑る区間」(砂セクション)を初めて体験するメインマップです。\nLAP 3では水上区間分岐点が追加され、こちらの方が速いです。",
+                "kr" : "『팀 소닉 레이싱』에서 나온 맵을 리메이크하여 다시 등장했습니다.\n(배경 모티브는 『소닉 3 & 너클즈』의 「샌도폴리스」입니다.)\nBGM은 『소닉 어드벤처』의 「샌드 힐」의 리믹스이고, DJ 듀오 \"RIOT\"가 리믹스를 담당했습니다.\n'미끄러지는 구간'인 '모래 구간'을 처음 접하는 메인 맵입니다.\nLAP 3에서 수상 구간 분기점이 추가되고, 이 쪽이 더 빠릅니다."
+            },
+            "interaction" : [
+                "character_003"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/yMZnZWzrEHY?si=TgmYLCcw2i2pGIxT",
+                "lap1" : "https://youtu.be/Q90pwCCMGHI?si=qlUt17IKbEAe5sg2",
+                "final" : "https://youtu.be/DZD9goY4UTo?si=fHKAx0Zpz9dcTC1a",
+                "final_no_chant" : "https://youtu.be/JJw9NXEiAIw?si=iT2V-EeqfyWo1prz"
+            }
+        },
+        {
+            "map_id" : "006",
+            "name" : {
+                "en" : "Colorful Mall",
+                "jp" : "カラフルモール",
+                "kr" : "컬러풀 몰"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Wisp",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:26.000",
+                    "Srank" : "2:15.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:05.000",
+                    "Srank" : "2:00.000"
+                }
+            },
+            "image_header" : "006_ColorfulMall",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "This map is set in a large shopping mall full of wisp balloons.\nFeatures a variety of upper and lower bifurcation points. There's a sharp shortcut by smashing the tables in the second half with a boost or item.\nIf you go to the elevator that opens around the second half of the LAP 3, you can get 'Special Item Box' and 'Red Star Ring'.\nHowever, we recommend that you don't ride it online because this road is slower.",
+                "jp" : "ウィスプの風船がいっぱいの大型ショッピングモールを背景にしたマップです。\n上下の分岐点が多様にあることが特徴だ。 後半のテーブルをブーストやアイテムで壊しながら進むショートカットがあります。\nLAP 3の後半頃に開放されるエレベーターに行くと、「スペシャルアイテムボックス」と「レッドスターリング」を獲得できます。\nただし、この道はさらに遅くなるため、オンラインでは乗らないことをお勧めします。",
+                "kr" : "위스프 풍선이 가득 찬 대형 쇼핑몰을 배경으로 한 맵입니다.\n상,하 분기점이 다양하게 있는 것이 특징. 후반부의 탁자들을 부스트나 아이템으로 부수면서 가는 숏컷이 있습니다.\nLAP 3에서 후반부 즈음에 열리는 구간으로 가면 '스페셜 아이템 박스', '레드 스타 링'을 획득할 수 있습니다.\n다만 이 길은 더욱 느려지므로 온라인에서는 타지 않는 것을 권장합니다."
+            },
+            "interaction" : [
+                "character_005",
+                "character_006",
+                "character_010"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/qJzsjVO7_9Q?si=hNVx5QWxcprMXsG_",
+                "lap1" : "https://youtu.be/LzQ5QZmi9m4?si=Vt0toivxsV7STpNN",
+                "final" : "https://youtu.be/fe1J7JknP0g?si=jrid6lqGPgNHZ1PN",
+                "final_no_chant" : "https://youtu.be/aE69wkQCyqc?si=2PuoS-d30nP_Ktty"
+            }
+        },
+        {
+            "map_id" : "007",
+            "name" : {
+                "en" : "Mystic Jungle",
+                "jp" : "ミスティックジャングル",
+                "kr" : "미스틱 정글"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "BoomBoo",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:08.000",
+                    "Srank" : "2:01.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:11.000",
+                    "Srank" : "1:44.000"
+                }
+            },
+            "image_header" : "007_MysticJungle",
+            "original" : {"en" : "Sonic Forces - Mystic Jungle", "jp" : "ソニックフォース - ミスティックジャングル", "kr" : "소닉 포시즈 - 미스틱 정글"},
+            "description" : {
+                "en" : "This is the jungle that appeared in 'Sonic Forces', where Eggman's fancy research base was located.\nThe course is inspired by the 'Aqua Road' from the original.\nYou can ride the water route, but you don't change to the water mode.\nThere is a snake in the second half, and there is a shortcut that can pass through the snake's body.\nIn LAP 3, the snake hinders the dash panel in front of it.",
+                "jp" : "エッグマンの華やかな研究基地があった『ソニックフォース』に登場したジャングルです。\nコースはオリジナルの『アクアロード』をイメージしています。\n水路を走ることができますが、水路モードには変わりません。\n後半に蛇がいますが、蛇の体を通すことができるショートカットがあり、LAP 3では蛇がダッシュパネルを妨害します。",
+                "kr" : "에그맨의 화려한 연구기지가 있었던 『소닉 포시즈』에서 등장했던 정글입니다.\n코스 초반부는 원작의 '아쿠아 로드'를 연상시키며, 물길을 타지만 수상 모드로 변신하지 않습니다.\n후반부의 뱀이 존재하는데 뱀 몸통을 탈 수 있는 숏컷이 존재하며, LAP 3에서는 뱀이 대시패널 앞에서 방해하는 기믹이 추가됩니다."
+            },
+            "interaction" : [
+                "character_011",
+                "character_017",
+                "character_020"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/xcqbf_Q-N4M?si=O1rWIQQKFg1m7hfD",
+                "lap1" : "https://youtu.be/UgoqNh89WKI?si=6qN9c9PNImibYvpU",
+                "final" : "https://youtu.be/iQsaZxm5_Es?si=9KYfYFJbOgX12TPG",
+                "final_no_chant" : "https://youtu.be/fdAV2lhFGMw?si=G7U6ulXlewdQVTUd"
+            }
+        },
+        {
+            "map_id" : "008",
+            "name" : {
+                "en" : "Apotos",
+                "jp" : "アポトス",
+                "kr" : "아포토스"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "BoomBoo",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:29.000",
+                    "Srank" : "2:19.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:08.000",
+                    "Srank" : "2:00.000"
+                }
+            },
+            "image_header" : "008_Apotos",
+            "original" : {"en" : "Sonic Unleashed - Apotos(Windmill Isle)", "jp" : "ソニック ワールド・アドベンチャー - アポトス(ホワイトアイルランド)", "kr" : "소닉 언리쉬드 - 아포토스(윈드밀 아일)"},
+            "description" : {
+                "en" : "This is \"Apotos,\" featured in \"Sonic Unleashed\".\nThe BGM was remixed by Vocaloid producer \"Giga\".\nIt features pure white buildings and blue roofs reminiscent of \"Mykonos Island\" in \"Greece\". The early part of the course is narrow like the original game's \"Windmill Isle Act 2,\" so you must be especially careful of hazards like \"Monster Trucks.\"\nThe driving distance between the final item section and the goal line is quite long, so making good use of your last item is crucial.",    
+                "jp" : "『ソニック ワールドアドベンチャー』に登場した「アポトス」です。\nBGMは、ボカロPの「Giga」氏がリミックスを担当しました。\nギリシャの「ミコノス島」を思わせる真っ白な建物と青い屋根が特徴で、コース序盤が原作の「ウィンドミルアイル Act2」のように狭いため、「モンスタートラック」などには特に注意が必要です。\n最後のアイテム獲得エリアからゴールまでの走行距離がかなり長いため、最後のアイテムをうまく活用しなければなりません。",
+                "kr" : "『소닉 언리쉬드』에서 등장했던 「아포토스」입니다.\nBGM은 보컬로이드 프로듀서 「Giga」가 리믹스를 담당했습니다.\n그리스의 「미코노스 섬」을 연상케하는 새하얀 건물과 푸른 지붕이 특징이며, 코스 초반부가 원작의 「윈드밀 아일 Act 2」처럼 좁기 때문에 '몬스터 트럭' 등에 특히 주의해야 합니다.\n마지막 아이템 획득 구간과 골 사이의 주행 거리가 꽤 멀기 때문에 마지막 아이템 활용을 잘 해야 합니다."
+            },
+            "interaction" : [
+                "character_001",
+                "character_002"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/eicXStlnQAo?si=-ZRVlXdSoypf47Y7",
+                "lap1" : "https://youtu.be/xHuIyDw7sUM?si=tibiaQlnTm9Vi71P",
+                "final" : "https://youtu.be/aml-TtAO_-M?si=_XFsAeH7kNXfgUIl",
+                "final_no_chant" : "https://youtu.be/ZF30VLqU7WU?si=fHqT1s7FatD9QncP"
+            }
+        },
+        {
+            "map_id" : "009",
+            "name" : {
+                "en" : "Wonder Museum",
+                "jp" : "ワンダーミュージアム",
+                "kr" : "원더 뮤지엄"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "BoomBoo",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:56.000",
+                    "Srank" : "2:42.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:31.000",
+                    "Srank" : "2:23.000"
+                }
+            },
+            "image_header" : "009_WonderMuseum",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "This map is inspired by the game \"Two Point Museum\" by Sega.\nIt features various fossils and exhibits.\nIn LAP 3, they move and live, so it reminds you of the movie \"Night at the Museum\".",
+                "jp" : "セガのゲーム『Two Point Museum』からインスピレーションを受けたようなコースです。\nさまざまな化石や展示品があります。\nLAP 3では彼らが生きて動いているため、まるで映画『ナイトミュージアム』を思い起こさせます。",
+                "kr" : "세가의 게임 『Two Point Museum』에서 영감을 받은 듯한 코스입니다.\n다양한 화석과 전시품이 있습니다.\nLAP 3에서는 이들이 살아 움직이므로 마치 영화「박물관이 살아있다」을 연상시킵니다."
+            },
+            "interaction" : [
+                "character_007",
+                "character_022"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/pEWuHdB0eE8?si=9tPb5nj5VYD8inzE",
+                "lap1" : "https://youtu.be/CiVm9dgY-oE?si=kq_c6cqnFJCQTc9E",
+                "final" : "https://youtu.be/-UFyDfNfGmA?si=xgf3ozuc20bmAvPF",
+                "final_no_chant" : "https://youtu.be/AAiwA0cF_XE?si=S4vB4wghC3dIP0nL"
+            }
+        },
+        {
+            "map_id" : "010",
+            "name" : {
+                "en" : "Crystal Mine",
+                "jp" : "クリスタルマイン",
+                "kr" : "크리스털 마인"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Pumpkin",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:33.000",
+                    "Srank" : "2:26.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:10.000",
+                    "Srank" : "2:05.000"
+                }
+            },
+            "image_header" : "010_CrystalMine",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "It's a mountainous area where \"Dodon Pa\" is mining energy resources.\nThere's a dump truck in the middle of the course, and there's a shortcut that can be used to ride on top of the dump truck using Boost.\nIt's easy to shorten your record, so I recommend you to be familiar with it.",
+                "jp" : "「ドドンパ」がエネルギー資源を採掘している山岳地帯です。\nコースの中盤にダンプトラックが一台停まっていて、ブーストを使ってダンプトラックの上を走ることができるショートカットがあります。\n記録の短縮に役立つため、ぜひ覚えておくことをお勧めします。",
+                "kr" : "「도돈 파」가 에너지 자원을 채굴하고 있는 산악 지대입니다.\n코스 중반부에 덤프트럭이 한 대 세워져 있는데, 부스트를 사용해서 덤프트럭 위를 타고 갈 수 있는 숏컷이 존재합니다.\n기록 단축에 용이하므로 꼭 숙지하는 것을 추천합니다."
+            },
+            "interaction" : [
+                "character_003"
+            ],
+            "music" : { 
+                "intro" : "https://youtu.be/0DlH3RsbTbU?si=AKvmlbpM1mmiV9QM",
+                "lap1" : "https://youtu.be/PN7NX3eFdPg?si=UJSw8oCrRhfnUjmQ",
+                "final" : "https://youtu.be/QN93xzFT2Ww?si=1TDQXh3WIfrPmXYh",
+                "final_no_chant" : "https://youtu.be/KKuTp4WE-kQ?si=kPkpyWnsoASmzIbO"
+            }
+        },
+        {
+            "map_id" : "011",
+            "name" : {
+                "en" : "Ocean View",
+                "jp" : "オーシャンビュー",
+                "kr" : "오션 뷰"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Pumpkin",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:36.000",
+                    "Srank" : "2:26.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:15.000",
+                    "Srank" : "2:02.000"
+                }
+            },
+            "image_header" : "011_OceanView",
+            "original" : {"en" : "Sonic & All-Star Racing Transformed - Ocean View", "jp" : "ソニック&オールスターレーシングトランスフォームド - オーシャンビュー", "kr" : "소닉 & 올스타 레이싱 트랜스폼드 - 오션 뷰"},
+            "description" : {
+                "en" : "It is a course that has appeared since \"Sonic & All-Star Racing Transformed.\"\nFor the BGM, Lap 1 features a remix of Sonic CD's opening, \"You Can Do Anything,\" while Lap 3 features a remix of Sonic R's \"Super Sonic Racing.\"\n(It is based on \"SeaSide Hill\" from \"Sonic Heroes.\")\nIt is a map where you can enjoy the beautiful sea view.\nThere is a 'Shortcut Ring' from LAP3 that can be passed through the run-off area.\nBe especially careful as reversals occur frequently in the run-off area of the last half of the course.",
+                "jp" : "『ソニック＆オールスターレーシング トランスフォームド』から登場したマップです。\nBGMは、LAP1では『ソニックCD』のオープニング \"You Can Do Anything\"、LAP3では『ソニックR』の \"Super Sonic Racing\"をリミックスしたものが流れます。\n（『ソニック ヒーローズ』の「シーサイドヒル」を原作としています。）\n美しい海の景色を楽しめるマップです。\nLAP3では、ランオフエリアを通過して行ける「ショートカットリング」が存在します。\nコース最後半のランオフエリアでは逆転が頻繁に起きるため、特に注意が必要です。",
+                "kr" : "『소닉 & 올스타 레이싱 트랜스폼드』부터 등장한 맵입니다.\nBGM은 LAP 1은 『소닉 CD』의 오프닝 \"You Can Do Anything\", LAP 3는 『소닉 R』의 \"Super Sonic Racing\"을 리믹스 했습니다.\n(『소닉 히어로즈』의 '시사이드 힐'을 원작으로 합니다.)\n아름다운 바다 전망을 즐길 수 있는 맵입니다.\nLAP3에서 런오프 구역을 통과하여 갈 수 있는 '숏컷 링'이 존재합니다.\n코스 최후반부의 런오프 구역에서 역전이 자주 일어나므로 특히 주의해야합니다."
+            },
+            "interaction" : [
+                "character_012",
+                "character_013",
+                "character_014"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/4VU8vYB_r-U?si=6xsJXHOOIcTJtCOy",
+                "lap1" : "https://youtu.be/OCmYbl4cJZ4?si=RanApMdPPEodv0ue",
+                "final" : "https://youtu.be/9VZOM1Cv5nc?si=tk0jPFadJzfqYDEo",
+                "final_no_chant" : "https://youtu.be/2GhS4zx7G3k?si=TXyGgrdeBCDUJu3J"
+            }
+        },
+        {
+            "map_id" : "012",
+            "name" : {
+                "en" : "Pumpkin Mansion",
+                "jp" : "パンプキンマンション",
+                "kr" : "펌킨 맨션"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Pumpkin",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:56.000",
+                    "Srank" : "2:43.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:27.000",
+                    "Srank" : "2:18.500"
+                }
+            },
+            "image_header" : "012_PumpkinMansion",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "It is a mansion with ghosts full of pumpkins around.\nThere is a crossroads from the beginning of the course, and various run-off sections exist.\nIn LAP3, you can walk through transparent paths in the middle, and you get damaged when you touch flames on either side.",
+                "jp" : "周囲にはかぼちゃがたくさんある幽霊がさまよう屋敷です。\nコースの最初から分岐点があり、さまざまなランオフ区間が存在します。\nLAP3では中盤に透明な道を通ることができ、両側の炎に触れるとダメージを受けます。",
+                "kr" : "주위에 호박이 가득한 유령이 돌아다니는 저택입니다.\n코스 처음부터 갈림길이 존재하고, 다양한 런오프 구간이 존재합니다.\nLAP3에서는 중반부에 투명한 길을 지나갈 수 있는데, 양 옆의 불꽃에 닿으면 데미지를 입습니다."
+            },
+            "interaction" : [
+                "character_003",
+                "character_009",
+                "character_012"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/QI-yC7mrRxU?si=JAIREKceoH6ttEU_",
+                "lap1" : "https://youtu.be/J0wrICua63I?si=Mx7UPaIyBm4qAf0d",
+                "final" : "https://youtu.be/R4XNcq--IRc?si=1Z2J-BTTAAqeWj0X",
+                "final_no_chant" : "https://youtu.be/-g7yuCCsk7o?si=n4X_35NPeQYsmF1x"
+            }
+        },
+        {
+            "map_id" : "013",
+            "name" : {
+                "en" : "Urban Canyon",
+                "jp" : "アーバンキャニオン",
+                "kr" : "어반 캐년"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Coral",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:46.000",
+                    "Srank" : "2:36.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:23.000",
+                    "Srank" : "2:18.000"
+                }
+            },
+            "image_header" : "013_UrbanCanyon",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},   
+            "description" : {
+                "en" : "It is also the background of the \"Main Menu\" and \"Race Park\" screen.\nThere are many corners, so you have to make good use of the drift.\nIn LAP3, the guardrail at the beginning of the course opens and is used as a shortcut.",
+                "jp" : "「メインメニュー」や「レースパーク」の画面の背景にもなっている場所です。\nコーナーが多いため、ドリフトをうまく活用する必要があります。\nLAP3ではコースの初めにガードレールが開き、ショートカットとして活用されます。",
+                "kr" : "「메인 메뉴」와 「레이스 파크」 화면의 배경이기도 한 장소입니다.\n코스에 코너가 많아 드리프트를 잘 활용해야 합니다.\nLAP3에서는 코스 초반부의 가드레일이 열리면서 숏컷으로 활용됩니다."
+            },
+            "interaction" : [
+                "character_021"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/pTFl55VJyLM?si=I1ft-PllKmiwylRM",
+                "lap1" : "https://youtu.be/54yo3OMy5WY?si=_BUfuD1C11y2MY40",
+                "final" : "https://youtu.be/FBVUqB3uTh4?si=nX9ub_p_dTool4Rz",
+                "final_no_chant" : "https://youtu.be/9iKeA_Qv37E?si=TNvE-Z2N0CJ8di1a"
+            }
+        },
+        {
+            "map_id" : "014",
+            "name" : {
+                "en" : "Market Street",
+                "jp" : "マーケットストリート",
+                "kr" : "마켓 스트리트"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Coral",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:17.000",
+                    "Srank" : "2:11.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "1:56.000",
+                    "Srank" : "1:51.500"
+                }
+            },
+            "image_header" : "014_MarketStreet",
+            "original" : {"en" : "Team Sonic Racing - Market Street", "jp" : "チームソニックレーシング - マーケットストリート", "kr" : "팀 소닉 레이싱 - 마켓 스트리트"},
+            "description" : {
+                "en" : "This is a remake course of \"Market Street\" from \"Team Sonic Racing.\"\nFor the BGM, it features a remix by the famous remixer \"Tee Lopes.\"\n(The original is \"Spagonia\" from \"Sonic Unleashed.\")\nIt's a street embroidered with numerous orange roofs.\nThere is a 'short cut ring' that can be reached through a fork in the beginning after LAP3.",
+                "jp" : "『チームソニックレーシング』に登場した「マーケットストリート」をリメイクして作ったマップです。\nBGMは、著名なリミックスャー \"Tee Lopes\"がリミックスしたものが流れます。\n(原作は「ソニック ワールド・アドベンチャー」の「スパゴニア」です。)\n数多くのオレンジ色の屋根が飾られた通りです。\nLAP3以降の序盤に分岐点を通って行ける「ショートカットリング」が存在します。",
+                "kr" : "『팀 소닉 레이싱』에서 등장한 '마켓 스트리트'를 리메이크하여 만든 맵입니다.\nBGM은 유명한 리믹서 \"Tee Lopes\"가 리믹스 했습니다.\n(원작은 「소닉 언리쉬드」의 「스파고니아」입니다.)\n수많은 오렌지 색의 지붕이 수놓아진 거리입니다.\nLAP3이후 초반부에 갈림길을 통해 갈 수 있는 '숏컷 링'이 존재합니다."
+            },
+            "interaction" : [
+                "character_004"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/PPhxR4Io1QY?si=HDvoART1lL1crBei",
+                "lap1" : "https://youtu.be/VmBVh7mNNHE?si=NrC3nmGlMk6-NoV4",
+                "final" : "https://youtu.be/AQGvdQW4CKg?si=nhDOXgu1rBUHwvuL",
+                "final_no_chant" : "https://youtu.be/B-z9sD4qdcg?si=Im6j1UdXXGJwEMdE"
+            }
+        },
+        {
+            "map_id" : "015",
+            "name" : {
+                "en" : "Coral Town",
+                "jp" : "コーラルタウン",
+                "kr" : "코럴 타운"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Coral",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:12.000",
+                    "Srank" : "2:02.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "1:52.000",
+                    "Srank" : "1:47.500"
+                }
+            },
+            "image_header" : "015_CoralTown",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "A beautiful course with tons of coral.\nThere are five crossroads from the beginning of the course, and each crossroads is all different in length, so it's important to find the fastest way.\nDuring the crossroads, there is an irregular shortcut using a jumping platform, so it is easy to shorten the record, so it is recommended to be familiar with it.\nLAP3 opens a shortcut ring that you can go to later in the course.",
+                "jp" : "たくさんのサンゴがある美しいコースです。\nコースの初めから5つの分岐点が存在し、それぞれの分岐点の長さは異なるため、最も早い道を見つけることが重要です。\n分かれ道の中で、ジャンプ台を利用した非正規ショートカットが存在し、記録を短縮しやすいため、必ず覚えておくことをお勧めします。\nLAP3ではコース後半に行けるショートカットリングが開きます。",
+                "kr" : "수많은 산호가 있는 아름다운 코스.\n코스 초반부터 갈림길이 5개 존재하며, 각 갈림길의 길이는 모두 다르기 때문에 가장 빠른 길을 찾는것이 중요합니다.\n갈림길 중, 점프대를 이용한 비정규 숏컷이 존재하여, 기록을 단축하기 쉬우므로 꼭 숙지하는 것을 추천합니다.\nLAP3에서는 코스 후반부에 갈 수 있는 숏컷 링이 열립니다."
+            },
+            "interaction" : [
+                "character_008",
+                "character_013"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/jSL-e1p6nMM?si=1zPbjhUp5Rcrn7w3",
+                "lap1" : "https://youtu.be/dhsQoB2VWk0?si=rgCxHrq_JbZyDAZp",
+                "final" : "https://youtu.be/4SgEMfUCH-w?si=yMfvNWBxzbl4cB1K",
+                "final_no_chant" : "https://youtu.be/FFm-M_UwME8?si=e6-f-rdKo-zCfVJH"
+            }
+        },
+        {
+            "map_id" : "016",
+            "name" : {
+                "en" : "Blizzard Valley",
+                "jp" : "ブリザードバレー",
+                "kr" : "블리자드 밸리"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Chao",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:55.000",
+                    "Srank" : "2:45.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:30.000",
+                    "Srank" : "2:22.500"
+                }
+            },
+            "image_header" : "016_BlizzardValley",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "A course on the ice where \"Dr. Eggman\" is mining resources.\nBe careful because there are many \"slip sections\" such as snowstorms and icy roads.\nIn LAP3, it turns into an aerial space in the middle.",
+                "jp" : "「Dr.エッグマン」が資源を採掘している氷の地帯コースです。\n吹雪や凍結した道路など、滑りやすい区間が多く、注意が必要です。\nLAP3では途中で空中飛行区域に変わります。",
+                "kr" : "「닥터 에그맨」이 자원을 채굴하고 있는 얼음 지대의 코스.\n눈보라나 빙판길 등「미끄러지는 구간」이 많아 주의해야 합니다.\nLAP3에서는 중간에 공중 비행 공간으로 바뀝니다."
+            },
+            "interaction" : [
+                "character_023"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/Y8doiWugPRM?si=12bElHThmQ6CMDZt",
+                "lap1" : "https://youtu.be/2oKxnmfKfjg?si=o2cIyYgRB75_P9Ad",
+                "final" : "https://youtu.be/4ZZydWPz15Q?si=ZgFp7xlYc9z9wTvs",
+                "final_no_chant" : "https://youtu.be/JHm4hptz3iE?si=JlO-rcWmyFlhU_2d"
+            }
+        },
+        {
+            "map_id" : "017",
+            "name" : {
+                "en" : "Radical Highway",
+                "jp" : "ラジカルハイウェイ",
+                "kr" : "래디컬 하이웨이"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Chao",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "3:09.000",
+                    "Srank" : "3:01.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:48.000",
+                    "Srank" : "2:42.000"
+                }
+            },
+            "image_header" : "017_RadicalHighway",
+            "original" : {"en" : "Sonic Adventure 2 - Radical Highway", "jp" : "ソニックアドベンチャー2 - ラジカルハイウェイ", "kr" : "소닉 어드벤처 2 - 래디컬 하이웨이"},
+            "description" : {
+                "en" : "This is a remake course of \"Radical Highway\" from \"Sonic Adventure 2.\"\nThe BGM is a collaborative remix by \"ZARDONIC\" and \"Jun Senoue.\"\nYou can step on the spring at the beginning of the course and use a lot of air tricks.\nThe rail leading to the upper leg in the middle of the course is implemented on the course, but it is easy to fall down because there is no safety device, so care must be taken.",
+                "jp" : "『ソニックアドベンチャー2』に登場した「ラジカルハイウェイ」をリメイクして作ったマップです。\nBGMは、「ZARDONIC」と「瀬上純」のコラボリミックスとなっています。\nコースの初めにスプリングを踏んでエアトリックを多く使うことができます。\nコース中盤の橋の上に続くレールがコースに実装されていますが、安全装置が一つもないため、落下しやすいので注意が必要です。",
+                "kr" : "『소닉 어드벤처 2』에서 등장한 '래디컬 하이웨이'를 리메이크하여 만든 맵입니다.\nBGM은 \"ZARDONIC\"과 \"세노우에 준\"의 합작 리믹스입니다.\n코스 초반부에 스프링을 밟고 에어 트릭을 많이 구사할 수 있습니다.\n코스 중반 다리 위쪽으로 이어지는 레일이 코스에 구현되어 있으나, 안전장치가 하나도 없기 때문에 낙사하기 쉬우므로 주의가 필요합니다."
+            },
+            "interaction" : [],
+            "music" : {
+                "intro" : "https://youtu.be/gKRUiy43tUM?si=MVLZB2VRue5iMLY5",
+                "lap1" : "https://youtu.be/GgqQaGNjmbk?si=OK2bUU3loF2X2tvV",
+                "final" : "https://youtu.be/Vx7kk3e0w7U?si=Ac5Zg3IQgsr9UGX-",
+                "final_no_chant" : "https://youtu.be/7_SktPacnOA?si=Nvo_eJot8TfsmMld"
+            }
+        },
+        {
+            "map_id" : "018",
+            "name" : {
+                "en" : "Chao Park",
+                "jp" : "チャオパーク",
+                "kr" : "챠오 파크"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Chao",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:32.300",
+                    "Srank" : "2:22.500"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:11.000",
+                    "Srank" : "2:06.000"
+                }
+            },
+            "image_header" : "018_ChaoPark",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "A course with a lot of chao.\nThere are many corners, so you have to make good use of the drift.\nIn LAP3, the guardrail at the beginning of the course opens and is used as a shortcut.",
+                "jp" : "「チャオ」をテーマにしたテーマパークです。\nコースの初めからジェットコースターに乗っているような感覚を与えるコースです。\nコースの中盤には落下が容易なUターン区間があるため、ドリフトに注意が必要です。\nLAP3では後半が水上区間に切り替わります。",
+                "kr" : "챠오를 주제로 한 테마파크입니다.\n코스 초반부터 롤러코스터를 타는 듯한 느낌을 주는 코스입니다.\n코스 중반에 낙사가 쉬운 U턴 구간이 존재하므로 드리프트에 주의가 필요합니다.\nLAP3에서는 후반부가 수상 구간으로 전환됩니다."
+            },
+            "interaction" : [
+                "character_004",
+                "character_005",
+                "character_006",
+                "character_008"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/tX9f1giB2Eg?si=MFYYGJ5OHZ5dxgkJ",
+                "lap1" : "https://youtu.be/Q0uswMmZWRU?si=JrtFX3-s0RNDXJKO",
+                "final" : "https://youtu.be/tM18eR-RH3k?si=UVoEiOJyE-Wed6UE",
+                "final_no_chant" : "https://youtu.be/r6cVhu7xgEY?si=EcIuTwNJe3FQxp0X"
+            }
+        },
+        {
+            "map_id" : "019",
+            "name" : {
+                "en" : "Donpa Factory",
+                "jp" : "ドンパファクトリー",
+                "kr" : "돈파 팩토리"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Egg",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:33.000",
+                    "Srank" : "2:21.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:10.000",
+                    "Srank" : "2:02.500"
+                }
+            },
+            "image_header" : "019_DonpaFactory",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "t's a car factory in the \"Donpa Kingdom\".\nThe purple paint sprayed on the course has a 'slime' effect, so be careful.\nIn LAP3, the gray section of the course is activated in green, and we recommend you to ride it because you can ride and travel like a 'moving walkway'.\nThe wide circular turn section at the end of the course is characterized by a slippery inside, where the record can be shortened using brake control or advanced technique \"Snap Drift\".",
+                "jp" : "「ドンパ王国」の自動車工場です。\nコースに撒かれる紫色のペイントは「スライム」効果を受けるため、注意が必要です。\nLAP3ではコースの灰色の区間が緑色に活性化され、まるで「動く歩道」のように乗って移動できるので、ぜひ乗ることをお勧めします。\nコース後半の広い円形ターン区間は内側が滑りやすいという特徴があり、この区間でブレーキ調整や高度なテクニックである「スナップドリフト」を使うことで記録を短縮できます。",
+                "kr" : "\"돈파 왕국\"의 자동차 공장입니다.\n코스에 뿌려지는 자주색 페인트는 '슬라임' 효과를 받으므로 주의해야합니다.\nLAP3에서는 코스의 회색 구간이 초록색으로 활성화 되며, 마치 '무빙워크'처럼 타고 이동할 수 있기 때문에 꼭 타는 것을 추천합니다.\n코스 후반부 넓은 원형 턴 구간은 안쪽이 미끄럽다는 특징이 있고, 이 구간에서 브레이크 조절 혹은 고급 테크닉인 \"스냅 드리프트\"를 이용해 기록 단축이 가능합니다."
+            },
+            "interaction" : [
+                "character_002",
+                "character_017"
+            ],
+            "music" : { 
+                "intro" : "https://youtu.be/0YVmYMsbx-I?si=44pDGw1vDAWjJBpr",
+                "lap1" : "https://youtu.be/NblCS5deT5k?si=uyrOPFBOqQ5c2gZW",
+                "final" : "https://youtu.be/3jFLspl95Yg?si=d9GIgVWtI1TytCHu",
+                "final_no_chant" : "https://youtu.be/b_4CDsLQklk?si=Rt_iIG8tj3bsspth"
+            }
+        },
+        {
+            "map_id" : "020",
+            "name" : {
+                "en" : "Aqua Forest",
+                "jp" : "アクアフォレスト",
+                "kr" : "아쿠아 포레스트"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Egg",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:53.000",
+                    "Srank" : "2:37.500"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:22.000",
+                    "Srank" : "2:16.500"
+                }
+            },
+            "image_header" : "020_AquaForest",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "It is a course with a cool atmosphere where magnificent waterfalls flow from tree to tree in the vast forest.\nIn particular, the BGM is reminiscent of the Celtic style \"Pirates of the Caribbean\".\nWhen entering the water section, a total of two dash-ring branches appear that can enter the charge jump, and we recommend that you ride it because the dash-ring route is much faster.\nThere is a short cut ring to ride on LAP 3 on this course, but it doesn't really help to shorten the record.\nYou should be especially careful in utilizing items because there are very few sections where you can eat items only three times in progress.",
+                "jp" : "広大な森の中で、木々ごとに壮大な滝が流れ、爽やかな雰囲気のコースです。\n特に、BGMはケルト風の「パイレーツ・オブ・カリビアン」を連想させます。\n水上区間に入ると、チャージジャンプで入れるダッシュリングの分岐が合計2回出現し、ダッシュリングのルートがはるかに速いため、ぜひ乗ることをおすすめします。\nLAP 3で乗れるショートカットリングはありますが、記録短縮にはあまり役立ちません。\nアイテムを入手できる区間は進行中がたった3回と非常に少ないため、アイテムの活用には特に慎重になる必要があります。",
+                "kr" : "광활한 숲에 나무마다 웅장한 폭포가 흐르는 시원한 분위기의 코스입니다.\n특히, BGM은 켈트 풍의 \"캐리비안의 해적\"을 연상케 합니다.\n수상 구간 진입 시, 차지 점프로 진입할 수 있는 대시 링 분기가 총 2번 등장하며, 대시 링 루트가 훨씬 더 빠르기 때문에 꼭 타는 것을 추천합니다.\nLAP 3에서 탈 수 있는 숏컷 링이 있지만 기록 단축에 큰 도움이 되지는 않습니다.\n아이템을 먹을 수 있는 구간이 진행 중 단 3번으로 매우 적기 때문에 아이템 활용에 특히 신중해야 합니다."
+            },
+            "interaction" : [
+                "character_022"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/nLYLaxhci68?si=a5dpNEpo2wHCLLTO",
+                "lap1" : "https://youtu.be/j5lp1LkOQ2I?si=4PRgoxbRyHN4rQKm",
+                "final" : "https://youtu.be/BaXEr61VYPI?si=bvAC8ZJCrmNJKbMc",
+                "final_no_chant" : "https://youtu.be/wIJwiFRERsg?si=CGhxIfAmNOx1nAAD"
+            }
+        },
+        {
+            "map_id" : "021",
+            "name" : {
+                "en" : "Eggman Expo",
+                "jp" : "エッグマンエキスポ",
+                "kr" : "에그맨 엑스포"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Egg",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:59.000",
+                    "Srank" : "2:49.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:31.000",
+                    "Srank" : "2:27.000"
+                }
+            },
+            "image_header" : "021_EggmanExpo",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "It is an expo where numerous weapons made so far by \"Dr.Eggman\" are displayed.\nThe overall shape is based on Eggman's head.\nThe water section is reminiscent of a pipe reminiscent of a \"chemical plant\", and care must be taken not to run into an intermediate obstacle.\nIn LAP3, \"Egg Dragoon\" and \"Death Egg Robot\" start moving and disrupt the race.",
+                "jp" : "「Dr.エッグマン」がこれまでに作り上げた数多くの兵器が展示されたエキスポです。\n全体の形はエッグマンの頭部をモチーフにしています。\n水上区間はまるで「ケミカルプラント」を連想させるパイプのようで、途中の障害物に衝突しないよう注意が必要です。\nLAP3では「エッグドラグーン」や「デスエッグロボ」が動き出し、レースを妨害します。",
+                "kr" : "「닥터 에그맨」이 이제껏 만든 수많은 병기들이 전시된 엑스포 입니다.\n전체적인 모양은 에그맨의 머리를 모티브로 하였습니다.\n수상 구간은 마치 \"케미컬 플랜트\"를 연상케하는 파이프를 연상시키며, 중간의 장애물에 부딪히지 않도록 조심해야합니다.\nLAP3에서는「에그 드라군」, 「데스 에그 로봇」이 움직이기 시작하며 레이스를 방해합니다."
+            },
+            "interaction" : [
+                "character_009",
+                "character_011",
+                "character_017",
+                "character_020"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/2jVhYgscNeU?si=OTw9tR5FbriH67af",
+                "lap1" : "https://youtu.be/_ErQhmxLC6s?si=XAV5SUi6F55xUL1l",
+                "final" : "https://youtu.be/CBsXzfA6kSE?si=VhEM-fvO9MAEUig8",
+                "final_no_chant" : "https://youtu.be/B4d-Z8MEocY?si=R5Hh60yNWQrPepJr"
+            }
+        },
+        {
+            "map_id" : "022",
+            "name" : {
+                "en" : "Kronos Island",
+                "jp" : "クロノス島",
+                "kr" : "크로노스섬"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Secret",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "3:02.000",
+                    "Srank" : "2:55.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:37.000",
+                    "Srank" : "2:30.000"
+                }
+            },
+            "image_header" : "022_KronosIsland",
+            "original" : {"en" : "Sonic Frontiers - Kronos Island", "jp" : "ソニックフロンティア - クロノス島", "kr" : "소닉 프론티어 - 크로노스섬"},
+            "description" : {
+                "en" : "It is one of the islands of the \"Starfall Islands\" that appeared in the \"Sonic Frontiers\".\nCamellia's remixed BGM is superb. (In particular, the course's BGM, including Final Lab's \"I'm Here - \"Run Towards the Final Horizon\" Remix\", is a masterpiece.)\nThroughout the course, guardian deities \"TOWER\", \"SQUAD\", and \"ASURA\" appear in a map gimmick.\nThere is a shortcut in the U-turn section of the last half of the course, and even without a boost, it is faster than the regular route, so it is recommended to ride it unconditionally.",
+                "jp" : "『ソニックフロンティア』に登場した「スターポール諸島」の島のひとつです。\nボーカロイド作曲家「かめりあ」がリミックスしたBGMが見事です。 (特に、LAP3の「I'm Here - \"Run Towards the Final Horizon\" Remix」を含むこのコースのBGMは、このゲームの名曲です。)コースの至る所で守護神「TOWER」、「SQUAD」、「ASURA」がマップギミックとして登場します。\nコースの最終ラウンドのUターン区間にショートカットがあり、ブーストがなくても通常ルートより速いので、必ず乗ることをおすすめします。",
+                "kr" : "『소닉 프론티어』에서 등장했던 「스타폴 제도」의 섬 중 하나입니다.\n보컬로이드 작곡가 「Camellia」가 리믹스한 BGM이 일품입니다. (특히, 파이널 랩의 「I'm Here - \"Run Towards the Final Horizon\" Remix」포함한 이 코스의 브금들은 이 게임의 명곡입니다.)\n코스 곳곳에서 수호신 「TOWER」, 「SQUAD」, 「ASURA」가 맵 기믹으로 등장합니다.\n코스 최후반부 U턴 구간에 숏컷이 존재하는데, 부스트가 없어도 정규루트보다 더욱 빠르므로 무조건 타는 것을 추천합니다."
+            },
+            "interaction" : [
+                "character_001",
+                "character_002",
+                "character_004"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/axfHK89i22Q?si=8887RX45HnxQfUyJ",
+                "lap1" : "https://youtu.be/GDAwIOGQbx8?si=1SwTb61LwP2LxMRI",
+                "final" : "https://youtu.be/quNuTVnZ8yc?si=dZqyLTs1GsvwCJOb"
+            }
+        },
+        {
+            "map_id" : "023",
+            "name" : {
+                "en" : "Northstar Islands",
+                "jp" : "ノーススター諸島",
+                "kr" : "노스스타 제도"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Secret",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:43.000",
+                    "Srank" : "2:31.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:20.000",
+                    "Srank" : "2:12.500"
+                }
+            },
+            "image_header" : "023_NorthstarIslands",
+            "original" : {"en" : "Sonic Superstars - Northstar Islands", "jp" : "ソニックスーパースターズ - ノーススター諸島", "kr" : "소닉 슈퍼스타즈 - 노스스타 제도"},
+            "description" : {
+                "en" : "It is a course composed of five zones that appeared in \"Sonic Superstars\".\nThe zones included are \"Bridge Island\", \"Speed Jungle\", \"Sky Temple\", \"Press Factory\", and \"Sand Sanctuary\".\nThe machine jumps as the press hits the ground in the second half of the course, so you should take advantage of it strategically.\nIn LAP 3, there will be a short cut route in the middle of the course to go to Boost, and it can be reversed at once, so I recommend you to ride it as much as possible.",
+                "jp" : "『ソニック・スーパースターズ』に登場した5つのゾーンをまとめて構成したコースです。\n含まれているゾーンは「ブリッジアイランド」、「スピードジャングル」、「スカイテンプル」、「プレスファクトリー」、「サンドサンクチュアリ」です。\nコース後半でプレスが地面を叩きつけ、マシンがジャンプするため、これを戦略的に活用する必要があります。\nLAP 3ではコース中盤にブーストで行けるショートカットルートができ、一気に逆転が可能なので、ぜひ乗ることをお勧めします。",
+                "kr" : "『소닉 슈퍼스타즈』에서 등장했던 존 5개를 한데 모아 구성한 코스입니다.\n포함된 존은 「브릿지 아일랜드」, 「스피드 정글」, 「스카이 템플」, 「프레스 팩토리」, 「샌드 생추어리」입니다.\n코스 후반부에 프레스가 지면을 내려치면서 머신이 점프하므로 이를 전략적으로 활용해야 합니다.\nLAP 3에서 코스 중반부에 부스트로 갈 수 있는 숏컷 루트가 생기며, 단숨에 역전이 가능하므로 가능한 꼭 타는 것을 추천합니다."
+            },
+            "interaction" : [
+                "character_004",
+                "character_013"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/3dm6bGCOR4w?si=LndDv0eh1v2Zism5",
+                "lap1" : "https://youtu.be/f0kwuKGsunE?si=NIQJgzJEdYb595_u",
+                "final" : "https://youtu.be/O9bxNKaURiE?si=KE1v_7CCEOElXHch",
+                "final_no_chant" : "https://youtu.be/ImPZuvgM1Vs?si=vtrL4sfqaA5uAEj6"
+            }
+        },
+        {
+            "map_id" : "024",
+            "name" : {
+                "en" : "White Space",
+                "jp" : "ホワイトスペース",
+                "kr" : "화이트 스페이스"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Secret",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:37.000",
+                    "Srank" : "2:25.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:14.000",
+                    "Srank" : "2:05.000"
+                }
+            },
+            "image_header" : "024_WhiteSpace",
+            "original" : {"en" : "Sonic × Shadow Generations - White Space", "jp" : "ソニック×シャドウジェネレーションズ - ホワイトスペース", "kr" : "소닉×섀도우 제너레이션즈 - 화이트 스페이스"},
+            "description" : {
+                "en" : "It's an open-zone \"White Space\" that appears in \"Shadow Generations.\"\nFrom the beginning of the course, \"Black Doom\" greets you and proceeds with the course.\nThe 'contamination zone' in the original is set as a run-off zone.\nIn LAP3, a \"doom zone\" occurs, causing the sky to turn red and the course to change completely.",
+                "jp" : "『シャドウジェネレーションズ』に登場するオープンゾーン「ホワイトスペース」です。\nコースの最初から「ブラックドゥーム」が迎えてくれ、コースを進行します。\n原作では「汚染区域」がランオフ区域として設定されています。\nLAP3では「ドゥームゾーン」が発生し、空が赤く染まり、コースが完全に変わります。",
+                "kr" : "『섀도우 제너레이션즈』에서 등장하는 오픈 존「화이트 스페이스」입니다.\n코스 처음부터 「블랙 둠」이 맞이해주며 코스를 진행합니다.\n원작에서의 '오염 구역'이 런오프 구역으로 설정되어 있습니다.\nLAP3에서는 「둠 존」이 발생하여 하늘이 빨갛게 물들고 코스가 완전히 바뀌게 됩니다."
+            },
+            "interaction" : [
+                "character_001",
+                "character_009"
+            ],
+            "music" : {
+                "intro" : "https://youtu.be/2Oh-w56gyeY?si=Dq6GzkeJpvuJjIVy",
+                "lap1" : "https://youtu.be/wxzZEiRSmTo?si=u0Gqfi8Q7ISK24AW",
+                "final" : "https://youtu.be/ECqttm1zCus?si=C-GQkJSqgIoA6tOQ",
+                "final_no_chant" : "https://youtu.be/fxWX1q1eAXs?si=U-pXa9I4XN0BrmAp"
+            }
+        },
+        {
+            "map_id" : "dlc001",
+            "name" : {
+                "en" : "Minecraft World",
+                "jp" : "マインクラフトワールド",
+                "kr" : "Minecraft World"
+            },
+            "map_transform" : true,
+            "final" : true,
+            "granprix" : "Crossover1",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:53.000",
+                    "Srank" : "2:40.500"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:23.500",
+                    "Srank" : "2:18.500"
+                }
+            },
+            "image_header" : "dlc001_MinecraftWorld",
+            "original" : {"en" : "Minecraft", "jp" : "マインクラフト", "kr" : "마인크래프트"},
+            "description" : {
+                "en" : "It is a course based on \"Minecraft\".\nFor the BGM, the Overworld features remixes of \"Comforting Memories\" and \"Infinite Amethyst\" in Lap 1, and \"Relic\" in Lap 3. The Nether features a remix of \"Pigstep,\" while The End features a remix of \"Broken Heart of Ender.\"\nLAP1 and LAP2 pass \"Village\" and \"Nether\", and LAP3 pass \"Village\" and \"End\".\nThe entire \"End\" of the LAP3 is a flying section, so it's an opportunity to fly for a long time.\nIn \"Nether\", \"Ghast\" appears, and in \"End\", \"Ender Dragon\" appears as a map gimmick that interferes with the racer.",
+                "jp" : "『マインクラフト』を原作としたコースです。\nBGMは、オーバーワールドでは「Comforting Memories」,「Infinite Amethyst」（LAP1）と「Relic」（LAP3）が、ネザーでは「Pigstep」、エンドでは「Broken Heart of Ender」のリミックスが流れます。\nLAP1、LAP2は「村」と「ネザー」を通り、LAP3では「村」と「エンド」を通りながらコースを進みます。\nLAP3の「エンド」全体が空中飛行区間であるため、長時間飛行できる機会です。\n「ネザー」では「ガスト」、「エンド」では「エンダードラゴン」がレーサーを妨害するマップギミックとして登場します。",
+                "kr" : "『마인크래프트』를 원작으로 하는 코스입니다.\nBGM은 오버월드는 \"Comforting Memories\", \"Infinite Amethyst\"(LAP 1), \"Relic\"(LAP 3), 네더는 \"Pigstep\", 엔드는 \"Broken Heart of Ender\"의 리믹스 입니다.\nLAP1, LAP2는 「마을」과 「네더」를 지나가며, LAP3에서는 「마을」과 「엔드」를 지나가며 코스를 진행합니다.\nLAP3의 「엔드」 전체가 공중 비행 구간이므로 긴 시간 동안 비행할 수 있는 기회입니다.\n「네더」에서는 「가스트」, 「엔드」에서는 「엔더 드래곤」이 레이서를 방해하는 맵 기믹으로 등장합니다."
+            },
+            "interaction" : [],
+            "music" : {
+                "intro" : "https://youtu.be/_mJYsdv0Jhc?si=20PMycNIV6ihappt",
+                "overworld-lap1" : "https://youtu.be/P7_l-Evzbt8?si=iR4UdxRDiurV38bP",
+                "nether-lap1" : "https://youtu.be/z9M5c-LjBk4?si=ZRMxekNB-3A86ALR",
+                "overworld-final" : "https://youtu.be/h7ea7CjXZ54?si=2nLZAAfD7_L_vBVP",
+                "end-final" : "https://youtu.be/KhRsFECJf7U?si=vK2PkI2SZC9lxiF5"
+            }
+        },
+        {
+            "map_id" : "dlc002",
+            "name" : {
+                "en" : "Bikini Bottom",
+                "jp" : "ビキニタウン",
+                "kr" : "비키니시티"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossover1",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:35.000",
+                    "Srank" : "2:23.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:06.500",
+                    "Srank" : "2:00.000"
+                }
+            },
+            "image_header" : "dlc002_BikiniBottom",
+            "original" : {"en" : "SpongeBob SquarePants - Bikini Bottom", "jp" : "スポンジ・ボブ - ビキニタウン", "kr" : "네모바지 스폰지밥 - 비키니시티"},
+            "description" : {
+                "en" : "This is the \"Bikini Bottom\", featured in SpongeBob SquarePants.\nIt features a \"full view of SpongeBob's House,\" \"The Krusty Krab,\" a \"Jellyfish Swarm,\" \"Goo Lagoon,\" and a \"Volcano.\"\nInside \"The Krusty Krab,\" a \"Giant Plankton Robot\" appears as a map gimmick.\nAfter passing the \"Jellyfish Swarm,\" there is a shortcut you can take to the left.\nIn Lap 3, a water pipe explodes, sending \"Squidward's House\" flying and eventually plugging the volcano's crater, recreating the episode \"Sponge-Cano!\"\nIt is the hardest map to get an S-Rank on in \"Super Sonic Speed.\" Achieving an S-Rank is difficult without considerable skill.",
+                "jp" : "『スポンジ・ボブ』に登場するステージ、「ビキニタウン」です。\n「スポンジ・ボブの家の全景」、「カニカーニ」、「クラゲの群れ」、「グー・ラグーン」、「火山」が実装されています。\n「カニカーニ」の内部には、マップのギミックとして「巨大なプランクトンロボット」が登場します。\n「クラゲの群れ」を通り過ぎると、左へ進めるショートカットが存在します。\nLAP3では、水道管の爆発により「イカルドの家」が吹き飛び、最終的に火山の火口に突き刺さるという、エピソード「スポンジ火山」を再現しています。\n『スーパーソニックスピード』において、Sランクを獲得するのが最も難しいマップです。生半可な実力ではSランク達成は困難です。",
+                "kr" : "『네모바지 스폰지밥』에서 등장하는 무대인 「비키니시티」입니다.\n「스폰지밥의 집 전경」, 「집게리아」,「해파리 무리」, 「끈끈이 호수」, 「화산」이 구현되어 있습니다.\n「집게리아」내부에 \"거대한 플랑크톤 로봇\"이 맵 기믹으로 등장합니다.\n 「해파리 무리」를 지나고 나면 왼쪽으로 갈 수 있는 숏컷이 존재합니다.\nLAP3에서는 '징징이의 집'이 수도관이 폭발해 날아가며, 최종적으로 화산의 분화구의 꽂히는 「화산 폭발을 막아라!」에피소드를 재현합니다.\n\"슈퍼 소닉 스피드\"에서 S랭크를 따기 가장 어려운 맵입니다. 어지간한 실력으로는 S랭크 달성이 어렵습니다."
+            },
+            "interaction" : [],
+            "music":{
+                "intro" : "https://youtu.be/j-sf3SjrLF4?si=4iFeW9ZUYBgcSF9l",
+                "lap1" : "https://youtu.be/dxReyA-JNXU?si=uQiamtfBT6YDIcw2",
+                "final" : "https://youtu.be/k9Bx-LlsC5s?si=bnoELHHZBvck_UNu"
+            }
+        },
+        {
+            "map_id" : "dlc003",
+            "name" : {
+                "en" : "PAC-Village & Maze",
+                "jp" : "パックビレッジ&メイズ",
+                "kr" : "PAC-Village & Maze"
+            },
+            "map_transform" : true,
+            "final" : false,
+            "granprix" : "Crossover1",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:58.000",
+                    "Srank" : "2:46.500"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:27.000",
+                    "Srank" : "2:21.500"
+                }
+            },
+            "image_header" : "dlc003_PACVillageMaze",
+            "original" : {"en" : "PAC-MAN WORLD 2 Re-PAC - PAC-Village & Maze", "jp" : "パックマンワールド2 リ・パック - パックビレッジ&メイズ", "kr" : "팩맨 월드 2 리팩 - 팩 빌리지 & 메이즈"},
+            "description" : {
+                "en" : "This is a collaboration course celebrating the release of \"PAC-MAN WORLD 2 Re-PAC.\"\nThe layout starts in \"Pac-Village\" and takes you through a \"Maze\" via an arcade machine in the middle.\nThe \"Maze\" course is randomly generated. Uniquely, the minimap displays the entire \"Maze\", so you must follow the arrows on the map to navigate.\nIn \"Pac-Village\", the standard \"Ghost Gang\" appears, while in the \"Maze\", pixelated \"Ghosts\" and \"PAC-MAN\" appear as map gimmicks.\nThis map features a unique gimmick where \"Rings\" are transformed into \"Pac-Dots\".",
+                "jp" : "『パックマンワールド2 リ・パック』発売記念のコラボコースです。\n「パック村」からスタートし、途中でアーケードマシンを通じて「メイズ」を行き来する構造になっています。\n「メイズ」はランダムでコースが決定され、特殊なことにミニマップが「メイズ」全体を表示しているため、マップ上の矢印に従って進む必要があります。\n「パックビレッジ」では通常の「4匹のゴースト」が、「メイズ」ではドット絵の「ゴースト」と「パックマン」がマップギミックとして登場します。\nこのマップでは、「リング」が「クッキー」に変わる固有のギミックが存在します。",
+                "kr" : "『팩맨 월드 2 리팩』출시 기념 콜라보 코스입니다.\n「팩 빌리지」에서 시작하여, 중간에 아케이드 머신을 통해 「메이즈」를 다녀오는 구조입니다.\n「메이즈」는 랜덤으로 코스가 결정되며, 특이하게도 미니맵이 「메이즈」전체를 보여주고 있기 때문에 맵 상의 화살표를 따라가야합니다.\n「팩 빌리지」에서는 일반적인 \"고스트 4인방\"이, 「메이즈」에서는 도트화된 \"고스트\"와 \"팩맨\"이 맵 기믹으로 등장합니다.\n이 맵에서는 \"링\"이 \"쿠키\"로 변하는 고유 기믹이 존재합니다."
+            },
+            "interaction" : [],
+            "music":{
+                "intro" : "https://youtu.be/AlRaZXy_w7Y?si=pS4WA24yxb2vMVVR",
+                "village-lap1" : "https://youtu.be/0kDA4TfVB-s?si=moLw9JQWGCDH_1rH",
+                "maze-lap1" : "https://youtu.be/1m-mWT6vlm8?si=3FoqN0_-4EBfStsh",
+                "village-final" : "https://youtu.be/WKGJBMbHOu0?si=X3EE_5DzXOmGnU2M",
+                "maze-final" : "https://youtu.be/qVuW-90DGi0?si=zx56OELX-Dn0C-0I"
+            }
+        },
+        {
+            "map_id" : "dlc004",
+            "name" : {
+                "en" : "Wily Castle",
+                "jp" : "ワイリーキャッスル",
+                "kr" : "와일리 성"
+            },
+            "map_transform" : false,
+            "final" : true,
+            "granprix" : "Crossover2",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:47.000",
+                    "Srank" : "2:35.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:20.000",
+                    "Srank" : "2:12.000"
+                }
+            },
+            "image_header" : "dlc004_WilyCastle",
+            "original" : {"en" : "Mega Man Series - Wily Castle", "jp" : "ロックマンシリーズ - ワイリー城", "kr" : "록맨 시리즈 - 와일리 성"},
+            "description" : {
+                "en" : "This is \"Wily Castle\", which frequently appears in the \"Mega Man Classic series.\"\nThe BGM is a remix of \"Dr. Wily Stage 1\" from \"Mega Man 2.\"\n\"Dr. Wily\" appears riding \"Wily Machine 2\" and additionally, \"Mettaurs\" and the \"Yellow Devil\" appear as obstacle gimmicks within the map.\nIn Lap 3, the section with the \"Yellow Devil\" becomes an aerial flight zone, so you must be careful not to crash into the \"Yellow Devil\" while flying.\nAs a unique gimmick, the \"Mega Buster\" appears as a map-exclusive item. You can use the \"Mega Buster\" to attack and shoot down obstacles, \"Mettaurs\", the \"Yellow Devil\", and \"Wily Machine 2\" to obtain Rings.\nIf you fall off, a unique Game Over animation plays before you respawn.",
+                "jp" : "「『ロックマン』クラシックシリーズ」に頻繁に登場する「ワイリー城」です。\nBGMは、『ロックマン2』の「Dr.Wily Stage 1」のリミックスが流れます。\n「Dr.ワイリー」は\"ワイリーマシーン2号\"に乗って登場し、その他には\"メットール\"、\"イエローデビル\"がマップ内の障害物ギミックとして登場します。\nLAP3の「イエローデビル」がいる区間が空中飛行エリアになるため、飛行中にイエローデビルにぶつからないように注意する必要があります。\n固有ギミックとして、「ロックバスター」がマップ専用アイテムとして登場します。ロックバスターを使って障害物や\"メットール\"、\"イエローデビル\"、\"ワイリーマシーン2号\"を攻撃・撃墜することで、リングを獲得できます。\n落下時、特有のゲームオーバーアニメーションが再生された後に再スタートします。",
+                "kr" : "「록맨 클래식 시리즈」에 자주 등장하는 「와일리 성」입니다.\nBGM은 『록맨 2』의 \"Dr.Wily Stage 1\"의 리믹스 입니다.\n「Dr. 와일리」는 \"와일리 머신 2호\"를 타고 등장하며, 그 외엔 \"메톨\", \"옐로 데빌\"이 맵 내 장애물 기믹으로 등장합니다.\nLAP3의 「옐로 데빌」이 있는 구간이 공중 비행 구간이 되므로, 비행 구간 중 옐로 데빌에게 부딪히지 않도록 조심해야합니다.\n고유 기믹으로「록 버스터」가 맵 전용 아이템으로써 등장합니다. 록 버스터를 통해 장애물, \"메톨\", \"옐로 데빌\", \"와일리 머신 2호\"을 공격하여 격추시켜 링을 얻을 수 있습니다.\n낙사 시, 특유의 게임 오버 애니메이션이 재생되고난 후에 다시 시작합니다."
+            },
+            "interaction" : [],
+            "music":{
+                "intro" : "https://youtu.be/MqWjnwWGJkg?si=OGAzs7B6owawbwY8",
+                "lap1" : "https://youtu.be/Tmjdl2hwoow?si=Sl4g-DhKrH6bYNWT",
+                "final" : "https://youtu.be/vylj_Feb-8M?si=_2RciKXhK3EDg2fz"
+            }
+        },
+        {
+            "map_id" : "dlc005",
+            "name" : {
+                "en" : "New York City",
+                "jp" : "ニューヨークシティ",
+                "kr" : "뉴욕 시티"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossover2",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:50.000",
+                    "Srank" : "2:38.500"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:24.500",
+                    "Srank" : "2:18.500"
+                }
+            },
+            "image_header" : "dlc005_NewYorkCity",
+            "original" : {"en" : "Teenage Mutant Ninja Turtles: Mutant Mayhem - New York City", "jp" : "ミュータント・タートルズ：ミュータント・パニック！ - ニューヨークシティ", "kr" : "닌자터틀 : 뮤턴트 대소동 - 뉴욕 시티"},
+            "description" : { 
+                "en" : "This is 'New York City', the main stage of the 'TMNT' series. As soon as you start, you drive down into the sewers, the home of the Ninja Turtles. The sewer branches into a water course and a normal course, and 'Ooze', the mutagenic solution, flows into the sewers. Riding the exploding 'Ooze' up to the surface reveals the mutated 'Super Fly' as a course gimmick, and the 'Ooze' acts as a polluted run-off zone. At this point, taking the central dash ring allows you to recreate 'wall running', and a run-off zone in the latter half of the course can be used as a shortcut.",
+                "jp" : "「ニンジャタートルズ」シリーズの主な活動舞台である「ニューヨーク市」です。スタート直後、タートルズの住処である下水道に降りて走行します。下水道には水上コースと通常コースの分岐点が存在し、突然変異を起こす液体「ウーズ」が流れ込んでいます。爆発する「ウーズ」に乗って地上へ上がると、変異した「スーパーフライ」がコースギミックとして登場し、「ウーズ」は汚染地帯のランオフエリアとして機能します。この時、中央のダッシュリングに乗ると「壁走り」を再現でき、コース後半にはランオフエリアが存在してショートカットとして利用できます。",
+                "kr" : "'닌자거북이 시리즈'의 주요 활동 무대인 '뉴욕 시티'입니다. 처음 시작하자마자 닌자거북이들의 주거지인 하수도로 내려가서 주행합니다. 하수도는 수상 코스와 일반 코스로 분기점이 존재하며, 하수도에는 돌연변이 제조 용액인 '뮤티즌'(우즈)이 하수도에 흘러들어옵니다. 폭발하는 '뮤티즌'을 타고 지상으로 올라오면 변이된 '슈퍼 플라이'가 코스 기믹으로 등장하며, '뮤티즌'은 오염지대 런오프 구역으로 기동합니다. 이 때, 중앙의 대시 링을 타면 '벽타기'를 재현할 수 있으며, 코스 후반부에 런오프 구역이 존재하여 지름길로 이용할 수 있습니다."
+            },
+            "interaction" : [],
+            "music" : {
+                "intro" : "https://youtu.be/3H0QC5bYAyA?si=nuRG67-poEVZmLrF",
+                "lap1" : "https://youtu.be/M6Z0kxFMz5g?si=wXF1912SF76DOjHf",
+                "final" : "https://youtu.be/cIFIWbSHi5M?si=wdXst_F4Lb4tonk_"
+            }
+        },
+        {
+            "map_id" : "dlc006",
+            "name" : {
+                "en" : "Lion Turtle Island",
+                "jp" : "ライオンタートル島",
+                "kr" : "Lion Turtle Island"
+            },
+            "map_transform" : true,
+            "final" : false,
+            "granprix" : "Crossover2",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:49.000",
+                    "Srank" : "2:38.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:22.000",
+                    "Srank" : "2:16.000"
+                }
+            },
+            "image_header" : "dlc006_LionTurtleIsland",
+            "original" : {"en" : "Avatar Aang: The Last Airbender - Lion Turtle Islands", "jp" : "アバター アン：ザ・ラスト・エアベンダー - ライオンタートル島", "kr" : "아바타 아앙: 라스트 에어벤더 - 사자거북섬"},
+            "description" : { 
+                "en" : "A course that runs across 'Lion Turtle Island', the tomb of the Lion Turtle appearing in 'Avatar Aang: The Last Airbender'. Its distinctive feature is that it has been integrated into a Crossworlds course based on the four elements: 'Water', 'Earth', 'Fire', and 'Air'. The gimmick works by altering the course through 'bending' each time you pass through an 'Elemental Torii'. The 'Water path' is a 'water course'; the 'Earth path' creates jump ramps on the course so you can perform 'air tricks'; the 'Fire path' places 'Flame Rings' that act as 'dash gates'; and the 'Air path' is an 'aerial flight course'. Entering the center of a 'Flame Ring' grants a 'dash gate' effect, but be careful, as touching the fire will cause damage. Because you change locations via a 'Warp Ring' from the ocean view, this is a map where Warp Rings appear frequently.",
+                "jp" : "「アバター アン：ザ・ラスト・エアベンダー」に登場するライオンタートルの墓である「ライオンタートル島」の上を走るコースです。4つの要素「水」「土」「火」「氣」に合わせて、クロスワールドのコースとして溶け込んでいるのが特徴です。これは各「エレメント鳥居」を通過すると、「ベンディング」を通じてコースに変化を与える形でギミックが作動します。「水の道」は「水上コース」になり、「土の道」はコースにジャンプ台が作られて「エアトリック」が可能になり、「火の道」は「ダッシュゲート」の役割を果たす「炎のリング」がコースに配置され、「風の道」は「空中飛行コース」です。「炎のリング」は中央に入れば「ダッシュゲート」の効果を受けますが、炎に触れるとダメージを受けるため注意が필요です。海の全景から「ワープリング」で位置を移動するため、ワープリングを頻繁に目にするマップとなります。",
+                "kr" : "'아바타 아앙: 라스트 에어벤더'에서 등장하는 사자거북의 무덤인 '사자거북 섬'위로 달리는 코스입니다. 4개의 원소 '물', '땅', '불', '공기'에 맞게 크로스월드의 코스로 녹아들어간 것이 특징입니다. 이는 각 '원소 토리이'를 지나면 '벤딩'을 통해 코스에 변화를 주는 식으로 기믹이 동작합니다. '물의 길'은 '수상 코스'를, '땅의 길'은 코스에 점프대를 만들어 '에어 트릭'을 할 수 있고, '불의 길'은 '대시 게이트'의 역할을 하는 '불꽃 링'이 코스에 배치되고, '바람의 길'은 '공중 비행 코스'입니다. '불꽃 링'은 중앙으로 들어가면 '대시 게이트'의 효과를 받지만 불에 닿으면 대미지를 입기 때문에 주의해야합니다. 바다 전경에서 '워프 링'으로 위치를 이동하기 때문에 워프 링을 자주 보는 맵이 됩니다."
+            },
+            "interaction" : [],
+            "music" : {
+                "intro": "https://youtu.be/m5oVz8_nVCI?si=QziqtXTFvIQ7ka88",
+                "lap1": "https://youtu.be/qY_QwzD3y5I?si=2TaUV5ZW_VY02jnQ",
+                "final": "https://youtu.be/KBT_xTNP1-Q?si=wLJq8rvUpF8k1n3F"
+            }
+        }
+    ],
+    "crossworld": [
+        {
+            "map_id" : "cross000",
+            "name" : {
+                "en" : "Time Trial",
+                "jp" : "タイムトライアル",
+                "kr" : "타임 트라이얼"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "-",
+                    "Srank" : "-"
+                },
+                "super_sonic" : {
+                    "Arank" : "-",
+                    "Srank" : "-"
+                }
+            },
+            "image_header" : "cross000_TimeTrial",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "Course used in \"Time Trial.\"\nNormally not playable.\nIt is used as a \"Crossworld\" or as a goal-in point.",
+                "jp" : "「タイムトライアル」で使用されるマップです。\n通常はプレイできない。\n「クロスワールド」に入る、またはゴール地点として使用されます。",
+                "kr" : "「타임 트라이얼」에서 사용되는 맵입니다.\n통상적으로는 플레이 불가.\n\"크로스월드\"에 진입하거나 골인 지점으로 사용됩니다."
+            },
+            "interaction" : [],
+            "music" : {
+                "intro" : "https://youtu.be/Ummc3lSRI5M?si=KEs26p46Yp6o8uL-"
+            }
+        },
+        {
+            "map_id" : "cross001",
+            "name" : {
+                "en" : "Sky Road",
+                "jp" : "スカイロード",
+                "kr" : "스카이 로드"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:21.000",
+                    "Srank" : "2:11.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:00.000",
+                    "Srank" : "1:54.000"
+                }
+            },
+            "image_header" : "cross001_SkyRoad",
+            "original" : {"en" : "Team Sonic Racing - Sky Road", "jp" : "チームソニックレーシング - スカイロード", "kr" : "팀 소닉 레이싱 - 스카이 로드"},
+            "description" : {
+                "en" : "The aerial section of \"Sky Road\" from Team Sonic Racing has been remade and reintroduced.\n(The background map is \"Spagonia\" from \"Sonic Unleashed\".)\nUnlike the original, it features a pink sky in the background.\nA new branching path has been added in the early-to-middle section of the course.\nYou can bounce off hot air balloons to launch into the air and perform Air Tricks.\nBe careful not to fall off the course.",
+                "jp" : "『チームソニックレーシング』に登場した「スカイロード」の空中エリアをリメイクして再登場しました。\n(背景マップは『ソニック ワールドアドベンチャー』の「スパゴニア」です。)\n原作とは異なり、ピンク色の空を背景にしています。\nコースの序中盤に分岐点が新たに設けられました。\n熱気球を踏んで空中に飛び上がり、エアトリックを決めることができます。\nコースアウトしないように要注意。",
+                "kr" : "『팀 소닉 레이싱』에서 등장한 「스카이 로드」의 공중 구간을 리메이크하여 다시 등장했습니다.\n(배경 맵은 『소닉 언리쉬드』의 「스파고니아」입니다.)\n원작과 달리 분홍빛의 하늘을 배경으로 하였습니다.\n코스 초중반에 갈림길이 새롭게 생겼습니다.\n열기구를 밟아 공중으로 튀어올라 에어트릭을 구사할 수 있습니다.\n코스 밖으로 이탈하지 않도록 요주의."
+            },
+            "interaction" : [
+                "character_005",
+                "character_008",
+                "character_015"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/LGDc-VRw0Fo?si=ZU7ZQ0DJ6RCVxrIW",
+                "final" : "https://youtu.be/kelSGOdJNmQ?si=z4HYpAYOHTFkVLu8",
+                "final_no_chant" : "https://youtu.be/aT9TYByZJE8?si=Eb79GeADz-KVlDdF"
+            }
+        },
+        {
+            "map_id" : "cross002",
+            "name" : {
+                "en" : "Roulette Road",
+                "jp" : "ルーレットロード",
+                "kr" : "룰렛 로드"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:18.000",
+                    "Srank" : "2:06.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "1:56.000",
+                    "Srank" : "1:50.000"
+                }
+            },
+            "image_header" : "cross002_RouletteRoad",
+            "original" : {"en" : "Sonic & Sega All-Stars Racing - Roulette Road", "jp" : "ソニック＆セガ アルスタースレーミング - ルーレットロード", "kr" : "소닉 & 세가 올스타 레이싱 - 룰렛 로드"},
+            "description" : {
+                "en" : "\"Roulette Road,\" which appeared in previous titles, has been remade and makes a return.\n(It is the only existing course to have appeared in every game in the series. The original map is \"Casino Park\" from \"Sonic Heroes.\")\nThe course features many curved corners, so you must utilize drifting frequently.\nBe careful not to get crushed by the roulette balls at the beginning.\nThe number of casino chip pillars that appear as obstacles is randomly determined.",
+                "jp" : "過去作に登場した「ルーレットロード」をリメイクして再登場しました。\n（現存するコースの中で唯一、全シリーズに皆勤しているコースです。原作のマップは『ソニック ヒーローズ』の「カジノパーク」です。）\nコースには円形のコーナーが多いため、ドリフトを多用する必要があります。\n序盤に出てくるルーレットボールに押し潰されないように注意。\n障害物として現れるカジノチップの柱は、数がランダムに設定されます。",
+                "kr" : "전작들에서 등장한 「룰렛 로드」를 리메이크하여 다시 등장했습니다.\n(현존하는 코스 중 유일하게 전 시리즈에 개근한 코스입니다. 원작 맵은 『소닉 히어로즈』의 「카지노 파크」입니다.)\n코스에 둥근 코너가 많아 드리프트를 많이 활용해야합니다.\n처음에 나오는 룰렛 볼에 깔리지 않도록 주의.\n장애물로 나오는 카지노 칩 기둥은 개수가 랜덤으로 정해집니다."
+            },
+            "interaction" : [
+                "character_004",
+                "character_010"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/pv6EY7FVmzs?si=FCCBvDORnJVyDE0b",
+                "final" : "https://youtu.be/3gD-pzBCv-Q?si=OU4WSBI2x_0YWSoH",
+                "final_no_chant" : "https://youtu.be/RKAch8xUQmQ?si=ZY9gdSsyh0xrBbtA"
+            }
+        },
+        {
+            "map_id" : "cross003",
+            "name" : {
+                "en" : "Kraken Bay",
+                "jp" : "クラーケンベイ",
+                "kr" : "크라켄 베이"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:39.000",
+                    "Srank" : "2:29.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:17.000",
+                    "Srank" : "2:09.500"
+                }
+            },
+            "image_header" : "cross003_KrakenBay",
+            "original" : {"en" : "Sonic and the Secret Rings - Pirate Storm", "jp" : "ソニックと秘密のリング - パイレーツストーム", "kr" : "소닉과 비밀의 링 - 파이레츠 스톰"},
+            "description" : {
+                "en" : "This course appears to be inspired by \"Pirate Storm\" from \"Sonic and the Secret Rings\".\nSet against the backdrop of a wrecked pirate ship, ghosts and a Kraken make an appearance.\nThere are many obstacles, such as ghosts throwing barrels from inside the ship and the Kraken slamming the course with its tentacles.\nFrom the middle of the course, there is a split between a water route and a land route; the water route is usually faster.",
+                "jp" : "『ソニックと秘密のリング』に登場する「パイレーツストーム」をモチーフにしたようなコースです。\n難破した海賊船を背景に、ゴーストたちやクラーケンが登場します。\nゴーストたちが船内で樽を投げてきたり、クラーケンが触手でコースを叩きつけるなど、妨害要素が多く存在します。\nコースの中盤から水上ルートと地上ルートの分岐点が存在しますが、通常は水上ルートの方が速く進めます。",
+                "kr" : "『소닉과 비밀의 링』에 등장하는 「파이레츠 스톰」을 모티브로 한듯한 코스입니다.\n난파된 해적선을 배경으로 유령들과 크라켄이 등장합니다.\n유령들이 선내에서 오크통을 던지거나, 크라켄이 촉수로 코스를 내리치는 등의 방해요소들이 많습니다.\n코스 중반부터 수상 구간 / 지상 구간 분기점이 존재하는데 보통 수상구간이 더 빠릅니다."
+            },
+            "interaction" : [
+                "character_001"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/0JFd-ce2S3g?si=ELli1JxSZl-3m1Cn",
+                "final" : "https://youtu.be/Xxp-bg1Ak3A?si=S4kVRlrMwNt0EPT_",
+                "final_no_chant" : "https://youtu.be/WInF6uuxgjk?si=Si8Aur7KKxInJWGo"
+            }
+        },
+        {
+            "map_id" : "cross004",
+            "name" : {
+                "en" : "Golden Temple",
+                "jp" : "ゴールドテンプル",
+                "kr" : "골든 템플"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:41.000",
+                    "Srank" : "2:31.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:17.000",
+                    "Srank" : "2:12.000"
+                }
+            },
+            "image_header" : "cross004_GoldenTemple",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "This is an original course featured in Crossworlds.\nIt is a sparkling map where the entire world is made of gold.\nRight from the beginning of the course, there are three branching paths.\nIn the middle of the course, golden balls roll across the path, so you must be careful not to get crushed.\nThe water section requires precise cornering through speed control.",
+                "jp" : "『クロスワールド』に登場するオリジナルコースです。\n世界全体が黄金でできている、キラキラと輝くマップです。\nコースの最初から3つの分岐道が存在します。\nコースの中盤では道に黄金のボールが転がってくるため、押し潰されないように注意する必要があります。\n水上エリアでは、減速調節によるコーナリングが求められます。",
+                "kr" : "크로스월드에 등장하는 오리지널 코스입니다.\n세계 전체가 황금으로 이루어진 반짝이는 맵입니다.\n코스 처음부터 세 갈림길이 존재합니다.\n코스 중반에는 길에서 황금 공이 지나가므로 깔리지 않도록 주의해야합니다.\n수상 구간에서는 감속 조절을 통한 코너링을 요구합니다."
+            },
+            "interaction" : [
+                "character_003",
+                "character_010",
+                "character_022",
+                "character_023"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/2EB0lGoTqG4?si=23JPasjrabAq1hRp",
+                "final" : "https://youtu.be/gSWpEvlL6vs?si=znAdFyciOzlg4lRK",
+                "final_no_chant" : "https://youtu.be/-3B6PHYA3yc?si=eTzdRMAuzF5lmYQC"
+            }
+        },
+        {
+            "map_id" : "cross005",
+            "name" : {
+                "en" : "Magma Planet",
+                "jp" : "マグマプラネット",
+                "kr" : "마그마 플래닛"
+            },
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:35.000",
+                    "Srank" : "2:26.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:10.000",
+                    "Srank" : "2:04.000"
+                }
+            },
+            "image_header" : "cross005_MagmaPlanet",
+            "original" : {"en" : "Galaxy Force II - Stage 2 'Ashutar'", "jp" : "ギャラクシーフォースII - 火山惑星 アシュタル", "kr" : "갤럭시 포스 II - 화산행성 아슈타르"},
+            "description" : {   
+                "en" : "This course is inspired by Stage 2, \"Ashutar\", from \"Galaxy Force II\".\nIt is a course with many aerial flight sections.\n\"Fire Dragons\" appear throughout the course to interfere with racers.\nWhichever route you choose, the course proceeds in the order of \"Air → Ground → Air → Ground,\" and the driving time is roughly the same, so you can choose the most suitable route depending on the situation.",
+                "jp" : "『ギャラクシーフォースII』のステージ2「アシュタル」をモチーフにしたコースです。\n空中飛行エリアが多いコースです。\nコースのあちこちで「炎の龍」が登場し、レーサーを妨害します。\nどのルートを選んでも「空中→地上→空中→地上」の順で進行し、走行時間もほぼ同じであるため、状況に応じて適切なルートを選択してください。",
+                "kr" : "『갤럭시 포스 II』의 2스테이지「아슈타르」를 모티브로 한 코스입니다.\n공중 비행 구간이 많은 코스입니다.\n코스 곳곳에서 화염룡이 등장하여 레이서를 방해합니다.\n어느 루트를 고르든 '공중 → 지상 → 공중 → 지상' 순으로 진행되고, 주행 시간도 비슷하기에 상황에 따라 적합한 루트를 진행하면 됩니다."
+            },
+            "interaction" : [
+                "character_016"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/Sg7W_m13t5M?si=M3RakVKHoJwV9QWN",
+                "final" : "https://youtu.be/ii3dRVWqWeY?si=D2NdgIYJu3nZSXhA",
+                "final_no_chant" : "https://youtu.be/dV1JKPNdVPo?si=uo8fcF5No859g9PZ"
+            }
+        },
+        {
+            "map_id" : "cross006",
+            "name" : {
+                "en" : "Hidden World",
+                "jp" : "ヒドゥンワールド",
+                "kr" : "히든 월드"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:33.000",
+                    "Srank" : "2:23.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:07.000",
+                    "Srank" : "2:02.500"
+                }
+            },
+            "image_header" : "cross006_HiddenWorld",
+            "original" : {"en" : "Sonic Lost World - Hidden World", "jp" : "ソニック ロストワールド - ヒドゥンワールド", "kr" : "소닉 로스트 월드 - 히든 월드"},
+            "description" : {
+                "en" : "This is the \"Hidden World\" featured in \"Sonic Lost World\".\nThe BGM was remixed by South Korean DJ \"Aiobahn\".\nBecause it is a straight, cylindrical section, it features a minimap that looks almost like a straight line.\nThis is a course where the gimmicks from Zones 1 through 4 of the original game are placed in reverse order.\n\"Baku Baku\" appear throughout the course to obstruct your path.",
+                "jp" : "『ソニック ロストワールド』に登場する「ヒドゥンワールド」です。\nBGMは、韓国人DJの「Aiobahn」氏がリミックスを担当しました。\n直線の円筒状エリアとなっているため、直線のようなミニマップが特徴です。\n原作のゾーン1～4のギミックを逆順に配置したコースとなっています。\nコースのあちこちで「バクバク」が登場し、進行を妨害してきます。",
+                "kr" : "『소닉 로스트 월드』에 등장하는 「히든 월드」입니다.\nBGM은 한국인 DJ \"Aiobahn\"이 리믹스를 담당했습니다.\n직선의 원통형 구간이므로 직선과도 같은 미니맵이 특징입니다.\n원작의 존 1~4의 기믹을 역순으로 배치한 코스입니다.\n코스 곳곳에 '바쿠 바쿠'가 길을 방해합니다."
+            },
+            "interaction" : [
+                "character_002",
+                "character_015",
+                "character_016"
+            ],
+            "music" : { 
+                "lap1" : "https://youtu.be/_92ORHxEtFI?si=r_1ASMwC0W_4ReSo",
+                "final" : "https://youtu.be/UdC_arz-bHk?si=3sPh3Xp04Cda1ZkD",
+                "final_no_chant" : "https://youtu.be/GplxWMwcFNo?si=T-xSjSRZbEuSWHLC"
+            }
+        },
+        {
+            "map_id" : "cross007",
+            "name" : {
+                "en" : "SteamPunk City",
+                "jp" : "スチームパンクシティ",
+                "kr" : "스팀펑크 시티"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:37.000",
+                    "Srank" : "2:25.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:09.000",
+                    "Srank" : "2:04.000"
+                }
+            },
+            "image_header" : "cross007_SteampunkCity",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "This is an original course featured in \"Crossworlds\".\nIt is a course set in a city with advanced steam technology, where steam locomotives run.\nIn the middle of the course, if you enter the large steam locomotive, you can speed through using Dash Panels.\nThere are various upper and lower branching routes throughout the entire course, allowing for strategic gameplay.",
+                "jp" : "『クロスワールド』に登場するオリジナルコースです。\n蒸気機関が発達し、蒸気機関車が行き交う都市を舞台にしたコースです。\nコース中盤で巨大な蒸気機関車の中に入ると、ダッシュパネルを利用して素早く駆け抜けることができます。\nコース全体に上下の分岐ルートが豊富に存在するため、戦略的に活用できます。",
+                "kr" : "크로스월드에 등장하는 오리지널 코스입니다.\n증기기관이 발달한 도시와 증기기관차가 다니는 도시를 배경으로 한 코스입니다.\n코스 중반에 큰 증기기관차 안으로 들어가면 대시 패널을 통해 빠르게 주파할 수 있습니다.\n코스에 전체적으로 상/하 분기 루트가 다양하게 있으므로 전략적으로 활용할 수 있습니다."
+            },
+            "interaction" : [
+                "character_016",
+                "character_017"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/DfoZDH2ZBgc?si=Qqi4VinDIN8D2P_4",
+                "final" : "https://youtu.be/kZjiSaMHW08?si=sYzWRHxECOJ_qaP9",
+                "final_no_chant" : "https://youtu.be/LJWvmZvZXCY?si=8-IGx7mYtVgI-ak9"
+            }
+        },
+        {
+            "map_id" : "cross008",
+            "name" : {
+                "en" : "Dragon Road",
+                "jp" : "ドラゴンロード",
+                "kr" : "드래곤 로드"
+            },
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:53.000",
+                    "Srank" : "2:44.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:34.000",
+                    "Srank" : "2:25.000"
+                }
+            },
+            "image_header" : "cross008_DragonRoad",
+            "original" : {"en" : "Sonic Unleashed - Chun-nan(Dragon Road)", "jp" : "ソニック ワールド・アドベンチャー - チュンナン(ドラゴンロード)", "kr" : "소닉 언리쉬드 - 춘난(드래곤 로드)"},
+            "description" : {
+                "en" : "This course is set against the backdrop of \"Dragon Road\" in \"Chun-nan\", featured in \"Sonic Unleashed\".\nThe BGM was remixed by Vocaloid producer \"Camellia.\"\nYou race along a dragon-shaped path, and in the middle of the course, you drive through a water section.\nIn the water section, the \"Dark Gaia Phoenix\" appears as a course gimmick to interfere with racers.\nAfter entering the water section, there is a run-off area to the right that can be accessed using a boost.",
+                "jp" : "『ソニック ワールドアドベンチャー』に登場した「チュンナン」の「ドラゴンロード」を背景にしたコースです。\nBGMは、ボカロPの「Camellia」氏がリミックスを担当しました。\n龍の形をした道を走り、コースの中盤では水上エリアを走ります。\n水上エリアでは「ダークガイアフェニックス」が登場し、レーサーを妨害するコースギミックとして現れます。\n水上エリアへの突入後、ブーストを使って右側へ進めるランオフエリアが存在します。",
+                "kr" : "『소닉 언리쉬드』에서 등장한 「춘난」의 「드래곤 로드」을 배경으로 한 코스입니다.\nBGM은 보컬로이드 작곡가 \"Camellia\"가 리믹스를 담당했습니다.\n용의 모습을 한 길을 달리고, 코스 중반에는 수상 구간을 달립니다.\n수상 구간에서는 「다크 가이아 피닉스」가 등장하여 레이서를 방해하는 코스 기믹으로 등장합니다.\n수상 구간 진입 후, 오른쪽으로 부스트를 통해 갈 수 있는 런오프 구역이 존재합니다."
+            },
+            "interaction" : [
+                "character_015"
+            ],
+            "music" : { 
+                "lap1" : "https://youtu.be/3rnnOQMou04?si=g2--_kX11q6kD-2q",
+                "final" : "https://youtu.be/9a5LxdIzju8?si=VZ05mxCBG1r9Fs0f",
+                "final_no_chant" : "https://youtu.be/ZBd5-O3kGQE?si=mngrwFhvobltO6L7"
+            }
+        },
+        {
+            "map_id" : "cross009",
+            "name" : {
+                "en" : "Holoska",
+                "jp" : "ホロスカ",
+                "kr" : "홀로스카"
+            },
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:40.000",
+                    "Srank" : "2:28.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:15.000",
+                    "Srank" : "2:10.000"
+                }
+            },
+            "image_header" : "cross009_Holoska",
+            "original" : {"en" : "Sonic Unleashed - Holoska(Cool Edge)", "jp" : "ソニック ワールド・アドベンチャー - ホロスカ(クールエッジ)", "kr" : "소닉 언리쉬드 - 홀로스카(쿨 에지)"},
+            "description" : {
+                "en" : "This course is set against the backdrop of \"Holoska\", featured in \"Sonic Unleashed.\"\nThe BGM was remixed by DJ \"ZARDONIC\".\nThe course is characterized by an \"ice section\", which acts as a \"slippery section.\"\nIn the middle of the water section, there is a branching point where you can transition to an aerial flight section.\nIn the latter half of the course, as long as you do not fall off, you will move to the upper branch.",
+                "jp" : "『ソニック ワールドアドベンチャー』に登場した「ホロスカ」を背景にしたコースです。\nBGMは、DJ「ZARDONIC」氏がリミックスを担当しました。\n「滑るエリア」である「氷エリア」が特徴のコースです。\n水上エリアの途中で、空中飛行エリアに切り替えられる分岐点が存在します。\n後半エリアでは、落ちさえしなければ上のルートへ進みます。",
+                "kr" : "『소닉 언리쉬드』에서 등장한 「홀로스카」를 배경으로 한 코스입니다.\nBGM은 DJ \"ZARDONIC\"이 리믹스를 담당했습니다.\n「미끄러지는 구간」인 「얼음 구간」이 특징인 코스입니다.\n수상 구간에서 중간에 공중 비행 구간으로 전환할 수 있는 분기점이 존재합니다.\n후반부 구간에서는 떨어지지만 않는다면 윗 분기로 이동합니다."
+            },
+            "interaction" : [
+                "character_006"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/qFUsNAvqNuQ?si=1I0Id_Fs7XBy3vyc",
+                "final" : "https://youtu.be/5u62b2p3nEQ?si=7XMiehIpnmIzBfUK",
+                "final_no_chant" : "https://youtu.be/j-Tte8wSXBs?si=ohR9K9T8-z5LjEV2"
+            }
+        },
+        {
+            "map_id" : "cross010",
+            "name" : {
+                "en" : "Galactic Parade",
+                "jp" : "ギャラクティックパレード",
+                "kr" : "갤럭틱 퍼레이드"
+            },
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:47.000",
+                    "Srank" : "2:34.500"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:22.000",
+                    "Srank" : "2:17.000"
+                }
+            },
+            "image_header" : "cross010_GalacticParade",
+            "original" : {"en" : "Sonic & All-Star Racing Transformed - Galactic Parade", "jp" : "ソニック&オールスターレーシングトランスフォームド - ギャラクティックパレード", "kr" : "소닉 & 올스타 레이싱 트랜스폼드 - 갤럭틱 퍼레이드"},
+            "description" : {
+                "en" : "This is a remade course of \"Galactic Parade,\" featured in Sonic & All-Stars Racing Transformed.\nThe BGM was handled by \"TORIENA,\" who has previously collaborated with Sonic Team.\n(The original map is \"Starlight Carnival\" from \"Sonic Colors\".)\nThe glowing path has no guardrails, making it easy to fall off due to item attacks or driving mistakes.\nOn the glowing path, two \"Egg Chasers\" fire lasers from the front, so you must also watch out for this.\nThe latter half is an aerial flight section, so you simply need to fly through without crashing.",
+                "jp" : "『ソニック＆オールスターレーシング トランスフォームド』に登場した「ギャラクティックパレード」をリメイクしたコースです。\nBGMは、以前にもソニックチームとコラボした「TORIENA」氏が担当しました。\n(原作は『ソニック カラーズ』の「スターライトカーニバル」です。)\n光る道には柵がないため、アイテムによる攻撃や操作ミスによって落下しやすいので注意が必要です。\n光る道では2機の「エッグチェイサー」が前方からレーザーを撃ってくるため、これにも気をつけなければなりません。\n後半は空中飛行エリアとなっているため、障害物にぶつからないように走行すれば大丈夫です。",
+                "kr" : "『소닉 & 세가 올스타 레이싱 트랜스폼드』에서 등장한 「갤럭틱 퍼레이드」를 리메이크한 코스입니다.\nBGM은 이전에도 소닉 팀과 협업했던 \"TORIENA\"가 담당했습니다.\n(원작은 『소닉 컬러즈』의 「스타라이트 카니발」입니다.)\n빛나는 길은 난간이 없기 때문에 아이템에 의한 공격 혹은 미숙한 실력으로 인해 떨어지기 쉽습니다.\n빛나는 길에서 두 대의 「에그 체이서」가 전방에서 레이저를 쏘기 때문에 이것 또한 주의해야 합니다.\n후반부는 공중 비행 구간이므로 부딪히지 않으면서 주행하면 됩니다."
+            },
+            "interaction" : [
+                "character_003",
+                "character_011"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/A0mZ9Sd_x2g?si=-8RB32I3dfKojx0T",
+                "final" : "https://youtu.be/X0JZtlwpTjk?si=J2FI8zxgeYIQiySW",
+                "final_no_chant" : "https://youtu.be/s0WDgJwQ0UQ?si=LBpiTtMx2AnW9dMu"
+            }
+        },
+        {
+            "map_id" : "cross011",
+            "name" : {
+                "en" : "Dinosaur Jungle",
+                "jp" : "ダイナソージャングル",
+                "kr" : "다이너소어 정글"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:32.000",
+                    "Srank" : "2:21.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:12.000",
+                    "Srank" : "2:04.000"
+                }
+            },
+            "image_header" : "cross011_DinosaurJungle",
+            "original" : {"en" : "Sonic and the Secret Rings - Dinosaur Jungle", "jp" : "ソニックと秘密のリング - ダイナソージャングル", "kr" : "소닉과 비밀의 링 - 다이너소어 정글"},
+            "description" : {
+                "en" : "This course recreates the \"Waterfall section\" of \"Dinosaur Jungle\" from \"Sonic and the Secret Rings\".\nAfter passing through the water section that starts from the waterfall, theropod dinosaurs (T-Rexes) greet you as map gimmicks in the land section. Be careful not to crash into them.\nThere is a shortcut in the latter half of the course, and afterward, 'a sauropod dinosaur' appears as the course itself, serving as the final stretch of the track.", 
+                "jp" : "『ソニックと秘密のリング』に登場した「ダイナソージャングル」の「滝エリア」を再現したコースです。\n滝から始まる水上エリアを抜け、地上エリアでは獣脚類の恐竜（ティラノ）たちがマップギミックとして出迎えてくれます。ぶつからないように注意。\nコースの後半にはショートカットが存在し、その後、竜脚類の恐竜がコースそのものとして登場し、最後を飾ります。",    
+                "kr" : "『소닉과 비밀의 링』에서 등장한 「다이너소어 정글」 중 「폭포 구간」을 재현한 코스입니다.\n폭포로부터 시작되는 수상구간을 지나 지상 구간에서는 수각류 공룡(티라노)들이 맵 기믹으로 맞이해줍니다. 부딪히지 않도록 주의.\n코스 후반부에는 숏컷이 존재하고, 이후에 용각류 공룡이 코스로서 등장하여 마지막을 장식합니다."
+            },
+            "interaction" : [
+                "character_001"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/zI3ridXwenc?si=gMGQQMx-H68awlI5",
+                "final" : "https://youtu.be/1RIgtYdcJyY?si=4ndtWYdFgaKON4i5",
+                "final_no_chant" : "https://youtu.be/ctMACo9Sk3I?si=JtdVOsrarM85qil5"
+            }
+        },
+        {
+            "map_id" : "cross012",
+            "name" : {
+                "en" : "Sweet Mountain",
+                "jp" : "スウィートマウンテン",
+                "kr" : "스위트 마운틴"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:17.000",
+                    "Srank" : "2:04.500"
+                },
+                "super_sonic" : {
+                    "Arank" : "1:57.000",
+                    "Srank" : "1:49.000"
+                }
+            },
+            "image_header" : "cross012_SweetMountain",
+            "original" : {"en" : "Sonic Colors - Sweet Mountain", "jp" : "ソニックカラーズ - スウィートマウンテン", "kr" : "소닉 컬러즈 - 스위트 마운틴"},
+            "description" : {
+                "en" : "This is \"Sweet Mountain\", featured in \"Sonic Colors\".\nThe BGM was handled by famous DJ \"nanobii.\"\nIt features hills made of sweets, a water section made of chocolate, an Eggman facility in the middle, and \"Captain Jelly's pirate ship\" in the aerial flight section.\nIf you hit the moving donuts in the middle of the course, you won't take damage, but your speed will decrease, so be careful.\nIn the aerial flight section in the latter half of the course, be careful as the candies fired from the pirate ship will deal damage.",
+                "jp" : "『ソニック カラーズ』に登場した「スウィートマウンテン」です。\nBGMは、有名DJの「nanobii」氏が担当しました。\nお菓子でできた丘や、チョコレートでできた水上エリア、途中にエッグマンの施設があり、空中飛行エリアには「キャプテン・ジェリーの海賊船」が登場します。\nコース中盤の移動するドーナツにぶつかると、ダメージはないものの減速してしまうため注意。\nコース後半の空中飛行エリアでは、海賊船から撃たれるキャンディに当たるとダメージを受けるため注意してください。",
+                "kr" : "『소닉 컬러즈』에서 등장한 「스위트 마운틴」입니다.\nBGM은 유명 DJ인 \"nanobii\"가 담당했습니다.\n과자로 이루어진 언덕과, 초콜릿으로 이루어진 수상 구간, 중간에 에그맨의 시설, 공중 비행 구간에 '캡틴 젤리의 해적선'이 등장합니다.\n코스 중반부의 이동하는 도넛들에 부딪히면 데미지는 없지만 속도가 감속하므로 주의.\n코스 후반부의 공중 비행 구간에서는 해적선에서 쏘는 캔디들은 데미지를 입으므로 주의바랍니다."
+            },
+            "interaction" : [
+                "character_004",
+                "character_007",
+                "character_012",
+                "character_014",
+                "character_023"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/7u8GHrMu9fQ?si=EMsvS9jm8zSWvSM2",
+                "final" : "https://youtu.be/6GGDaQc9vJA?si=JkJRc5ePCiJwjzoo",
+                "final_no_chant" : "https://youtu.be/HGkOpfqUR9o?si=VCK3m4kYAiBkdsse"
+            }
+        },
+        {
+            "map_id" : "cross013",
+            "name" : {
+                "en" : "White Cave",
+                "jp" : "ホワイトケイブ",
+                "kr" : "화이트 케이브"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:24.000",
+                    "Srank" : "2:15.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:07.000",
+                    "Srank" : "2:00.000"
+                }
+            },
+            "image_header" : "cross013_WhiteCave",
+            "original" : {"en" : "Sonic Riders - White Cave", "jp" : "ソニックライダーズ - ホワイトケイブ", "kr" : "소닉 라이더즈 - 화이트 케이브"},
+            "description" : {
+                "en" : "This course recreates \"White Cave\" / \"Green Cave\" from \"Sonic Riders\".\nThe BGM was handled by the famous Japanese composer \"Laur\".\nIt features a brighter color palette compared to the original game.\nUnlike the original, the \"White Centipede\" only appears in the background of the course.\nIf you take the left path at the branching point after the cylindrical section, you can progress faster, but there are no guardrails, making it easy to fall off, so be careful.",
+                "jp" : "『ソニックライダーズ』に登場した「ホワイトケイブ」/「グリーンケイブ」を再現したコースです。\nBGMは、日本の有名作曲家「Laur」氏が担当しました。\n原作に比べて華やかになった色合いが特徴です。\n原作とは異なり、「白いムカデ」はコースの背景としてのみ登場します。\n円筒状エリアの後の分岐点で左へ進むと速く進めますが、柵がないため落下しやすいので注意してください。",
+                "kr" : "『소닉 라이더즈』에서 등장한 「화이트 케이브」/「그린 케이브」를 재현한 코스입니다.\nBGM은 일본의 유명 작곡가 \"Laur\"가 담당했습니다.\n원작에 비해 화사해진 색감이 특징입니다.\n「하얀 지네」는 원작과 달리 코스의 배경으로만 등장합니다.\n원통형 구간 이후의 분기점에서 왼쪽으로 가면 빠른 진행이 가능하나 난간이 없어 낙사하기 쉽습니다."
+            },
+            "interaction" : [
+                "character_021"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/m6vo4sPSlow?si=1d8o0LLRROAid-ta",
+                "final" : "https://youtu.be/I0HJ-Ruy1ys?si=9ZtFkHA3mczEfk16",
+                "final_no_chant" : "https://youtu.be/hnnr188ZshQ?si=yWNHJt0h9vKMk8qQ"
+            }
+        },
+        {
+            "map_id" : "cross014",
+            "name" : {
+                "en" : "Cyber Space",
+                "jp" : "サイバースペース",
+                "kr" : "사이버 스페이스"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : { 
+                    "Arank" : "2:42.000",
+                    "Srank" : "2:35.000"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:22.000",
+                    "Srank" : "2:16.000"
+                }
+            },
+            "image_header" : "cross014_CyberSpace",
+            "original" : {"en" : "Sonic Frontiers - Cyber Space(Eternal Highway)", "jp" : "ソニックフロンティア - 電脳空間(イテラル・ハイウェイ)", "kr" : "소닉 프론티어 - 전뇌공간(이터널 하이웨이)"},
+            "description" : {
+                "en" : "This course is set in \"Cyber Space\" from \"Sonic Frontiers\", specifically based on \"Eternal Highway\".\nFor the BGM, Laps 1 and 2 feature a jazz-style remix of \"1-2: Flowing,\" while Lap 3 features a remix blending \"1-6: Go Back 2 Your Roots\" and \"4-3: Rumble Rave\", based on \"1-5: Dropaholic.\"\nThere is a branching point at the beginning of the course, along with an area where you can use Dash Rings.\nBe careful, as it is common to bump into each other and get sent flying far away.\nWatch out for the many obstacles in the aerial flight section in the middle of the course.\nOn the highway in the latter half of the course, trailer trucks are driving all over the road, so you must be especially careful.",
+                "jp" : "『ソニックフロンティア』に登場した「電脳空間」、その中の「エターナルハイウェイ」を背景にしたコースです。\nBGMは、LAP1～LAP2が「1-2 : Flowing」のジャズ風リミックス、LAP3では「1-5 : Dropaholic」をベースに「1-6 : Go Back 2 Your Roots」と「4-3 : Rumble Rave」をミックスしたアレンジが流れます。\nコースの最初に分岐点が存在し、ダッシュリングに乗れる空間があります。\nお互いにぶつかって遠くへ吹き飛ばされることが多いため注意が必要です。\nコース中盤の空中飛行エリアでは、障害物が多いので注意してください。\nコース後半の高速道路では、'トレーラー トラック'が道のあちこちを走っているため、特に注意が必要です。",
+                "kr" : "『소닉 프론티어』에서 등장한 「전뇌공간」, 그 중「이터널 하이웨이」를 배경으로 한 코스입니다.\nBGM은 LAP1 ~ LAP2는 「1-2 : Flowing」의 재즈 풍 리믹스를, LAP 3에서는 「1-5 : Dropaholic」을 베이스로 「1-6 : Go Back 2 Your Roots」와 「4-3 : Rumble Rave」를 섞은 리믹스입니다.\n코스 처음에 분기점이 존재하며, 대시 링을 탈 수 있는 공간이 있습니다.\n서로 부딪히다가 멀리 날아가는 경우가 허다하니 주의.\n코스 중반부의 공중 비행 구간에서는 장애물이 많으니 주의.\n코스 후반부 고속도로에서는 '트레일러 트럭'이 길 곳곳에 다니고 있으니 특히 주의해야합니다."
+            },
+            "interaction" : [
+                "character_001",
+                "character_002",
+                "character_020"
+            ],
+            "music" : { 
+                "lap1" : "https://youtu.be/J_vTIEoSyPg?si=GQDQgK9_Uewup7i0",
+                "final" : "https://youtu.be/UINWDz5bs20?si=uIjZuyWgulRfEHwf",
+                "final_no_chant" : "https://youtu.be/K_wDrGnNeyE?si=Q-2gb4yTrfUFkOMj"
+            }
+        },
+        {
+            "map_id" : "cross015",
+            "name" : {
+                "en" : "Digital Circuit",
+                "jp" : "デジタルサーキット",
+                "kr" : "디지털 서킷"
+            },
+            "map_transform" : false,
+            "final" : false,
+            "granprix" : "Crossworld",
+            "time_trial" :{
+                "sonic" : {
+                    "Arank" : "2:35.000",
+                    "Srank" : "2:25.500"
+                },
+                "super_sonic" : {
+                    "Arank" : "2:11.000",
+                    "Srank" : "2:07.000"
+                }
+            },
+            "image_header" : "cross015_DigitalCircuit",
+            "original" : {"en" : "Original", "jp" : "オリジナル", "kr" : "오리지널"},
+            "description" : {
+                "en" : "This is an original course featured in 'Crossworld'.\nIt has no relation to the stage of the same name, \"Digital Circuit\", from the game \"Shadow the Hedgehog\".\nThe BGM is an EDM-style track that sounds like it belongs in an arcade fighting game.\nThe course itself is characterized by being linear, with branching paths scattered throughout.\nIn the Cross Jump section in the latter half, you can collect rings to replenish your supply.",
+                "jp" : "『クロスワールド』に登場するオリジナルコースです。\nゲーム『シャドウ・ザ・ヘッジホッグ』に登場する同名のステージ「デジタルサーキット」とは一切関係ありません。\nBGMは、まるで「アーケード」の「対戦格闘ゲーム」で流れるようなEDMスタイルの音楽となっています。\nコース自体が直線的で、その間に分岐点が所々にあるのが特徴です。\n後半のクロスジャンプエリアでは、リングを獲得して補充することができます。",
+                "kr" : "크로스월드에 등장하는 오리지널 코스입니다.\n게임 『섀도우 더 헤지혹』에 나오는 동명의 스테이지 「디지털 서킷」과는 아무런 관련이 없습니다.\nBGM이 마치 '아케이드'의 '대전 격투 게임'에서 등장할법한 EDM 스타일의 음악입니다.\n코스 자체가 직선적이고, 그 사이에 분기점이 곳곳이 있는 점이 특징입니다.\n후반부의 크로스 점프 구간에서 링을 획득하여 링 보충을 할 수 있습니다."
+            },
+            "interaction" : [
+                "character_009",
+                "character_017"
+            ],
+            "music" : {
+                "lap1" : "https://youtu.be/LjAZBSa2bL4?si=pufYZrG5Iqvwwayg",
+                "final" : "https://youtu.be/OaaLeNr5f4E?si=dUhTG1pRchxdLYvW",
+                "final_no_chant" : "https://youtu.be/-iHeZnx-F18?si=y-cIZwf3V1QPyxY_"
+            }
+        }
+    ]
+}

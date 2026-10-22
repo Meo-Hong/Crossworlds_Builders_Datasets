@@ -1,0 +1,262 @@
+[
+  {
+    "round": 1,
+    "rule_type": "normal",
+    "title": {
+      "en": "Standard",
+      "jp": "通常",
+      "kr": "일반"
+    },
+    "description": {
+      "en": "No special rules. Equip gadgets on your plate as usual.",
+      "jp": "特殊ルールはありません。通常どおりガジェットプレートを編成できます。",
+      "kr": "특수 룰이 없습니다. 평소와 같이 가젯 플레이트를 구성할 수 있습니다."
+    },
+    "description_short": {
+      "en": "There are no special rules.",
+      "jp": "特殊なルールはありません。",
+      "kr": "특수한 룰이 없습니다."
+    },
+    "schedule": {
+      "start": "2025-12-05",
+      "end": "2025-12-22"
+    },
+    "schedule_us": {
+      "start": "2025-12-04",
+      "end": "2025-12-21"
+    },
+    "allowed_slots": [],
+    "ex_gadget": null,
+    "banned_gadget_ids": [],
+    "version": "1.2.0"
+  },
+  {
+    "round": 2,
+    "rule_type": "slot_limit",
+    "title": {
+      "en": "1-slot limit",
+      "jp": "1スロット制限",
+      "kr": "1슬롯 제한"
+    },
+    "description": {
+      "en": "Only 1-slot gadgets can be equipped. 2-slot and 3-slot gadgets are banned.",
+      "jp": "1スロットガジェットのみ装備できます。2スロット・3スロットガジェットは使用できません。",
+      "kr": "1슬롯 가젯만 장착할 수 있습니다. 2슬롯·3슬롯 가젯은 사용할 수 없습니다."
+    },
+    "description_short": {
+      "en": "1-slot gadgets only",
+      "jp": "1スロットのみ",
+      "kr": "1슬롯만 사용"
+    },
+    "schedule": {
+      "start": "2026-01-23",
+      "end": "2026-02-02"
+    },
+    "schedule_us": {
+      "start": "2026-01-22",
+      "end": "2026-02-01"
+    },
+    "allowed_slots": [
+      1
+    ],
+    "ex_gadget": null,
+    "banned_gadget_ids": [],
+    "version": "1.2.2"
+  },
+  {
+    "round": 3,
+    "rule_type": "ex_gadget",
+    "title": {
+      "en": "EX Gadget",
+      "jp": "EXガジェット",
+      "kr": "EX 가젯"
+    },
+    "description": {
+      "en": "In addition to your gadget plate, every player equips the same bonus EX Gadget.",
+      "jp": "ガジェットプレートとは別に、全プレイヤーが同じボーナスEXガジェットを追加装備します。",
+      "kr": "가젯 플레이트와 별도로, 모든 플레이어가 동일한 EX 가젯을 추가로 장착합니다."
+    },
+    "description_short": {
+      "en": "Bonus EX Gadget equipped",
+      "jp": "EXガジェット追加",
+      "kr": "EX 가젯 추가 장착"
+    },
+    "schedule": {
+      "start": "2026-03-06",
+      "end": "2026-03-16"
+    },
+    "schedule_us": {
+      "start": "2026-03-05",
+      "end": "2026-03-15"
+    },
+    "allowed_slots": [],
+    "ex_gadget": "gadget_057",
+    "banned_gadget_ids": [],
+    "version": "1.2.2"
+  },
+  {
+    "round": 4,
+    "rule_type": "normal",
+    "title": {
+      "en": "Standard",
+      "jp": "通常",
+      "kr": "일반"
+    },
+    "description": {
+      "en": "No special rules. Equip gadgets on your plate as usual.",
+      "jp": "特殊ルールはありません。通常どおりガジェットプレートを編成できます。",
+      "kr": "특수 룰이 없습니다. 평소와 같이 가젯 플레이트를 구성할 수 있습니다."
+    },
+    "description_short": {
+      "en": "There are no special rules.",
+      "jp": "特殊なルールはありません。",
+      "kr": "특수한 룰이 없습니다."
+    },
+    "schedule": {
+      "start": "2026-04-03",
+      "end": "2026-04-13"
+    },
+    "schedule_us": {
+      "start": "2026-04-02",
+      "end": "2026-04-12"
+    },
+    "allowed_slots": [],
+    "ex_gadget": null,
+    "banned_gadget_ids": [],
+    "version": "1.3.1"
+  },
+  {
+    "round": 5,
+    "rule_type": "slot_limit",
+    "title": {
+      "en": "1- & 3-slot limit",
+      "jp": "1・3スロット制限",
+      "kr": "1·3슬롯 제한"
+    },
+    "description": {
+      "en": "Only 1-slot and 3-slot gadgets can be equipped. 2-slot gadgets are banned.",
+      "jp": "1スロット・3スロットガジェットのみ装備できます。2スロットガジェットは使用できません。",
+      "kr": "1슬롯·3슬롯 가젯만 장착할 수 있습니다. 2슬롯 가젯은 사용할 수 없습니다."
+    },
+    "description_short": {
+      "en": "1- & 3-slot only",
+      "jp": "1・3スロットのみ",
+      "kr": "1·3슬롯만 사용"
+    },
+    "schedule": {
+      "start": "2026-05-08",
+      "end": "2026-05-18"
+    },
+    "schedule_us": {
+      "start": "2026-05-07",
+      "end": "2026-05-17"
+    },
+    "allowed_slots": [
+      1,
+      3
+    ],
+    "ex_gadget": null,
+    "banned_gadget_ids": [],
+    "version": "1.3.1"
+  },
+  {
+    "round": 6,
+    "rule_type": "banned_gadgets",
+    "title": {
+      "en": "WCS rule",
+      "jp": "世界大会ルール",
+      "kr": "WCS 룰"
+    },
+    "description": {
+      "en": "World Championship (WCS) rules apply. Festival-reward gadgets from June 2026 onward cannot be used.",
+      "jp": "世界大会（WCS）ルールが適用されます。2026年6月以降のフェスタ報酬ガジェットは使用できません。",
+      "kr": "월드 챔피언십(WCS) 룰이 적용됩니다. 2026년 6월 이후 페스타 보상 가젯은 사용할 수 없습니다."
+    },
+    "description_short": {
+      "en": "Festival gadgets banned",
+      "jp": "フェスタ報酬ガジェット禁止",
+      "kr": "페스타 보상 가젯 금지"
+    },
+    "schedule": {
+      "start": "2026-06-30",
+      "end": "2026-07-20"
+    },
+    "schedule_us": {
+      "start": "2026-06-29",
+      "end": "2026-07-19"
+    },
+    "allowed_slots": [],
+    "ex_gadget": null,
+    "banned_gadget_ids": [
+      "gadget_113",
+      "gadget_114",
+      "gadget_115",
+      "gadget_116",
+      "gadget_117",
+      "gadget_118"
+    ],
+    "version": "1.4.1"
+  },
+  {
+    "round": 7,
+    "rule_type": "ex_gadget",
+    "title": {
+      "en": "EX Gadget",
+      "jp": "EXガジェット",
+      "kr": "EX 가젯"
+    },
+    "description": {
+      "en": "In addition to your gadget plate, every player equips the same bonus EX Gadget.",
+      "jp": "ガジェットプレートとは別に、全プレイヤーが同じボーナスEXガジェットを追加装備します。",
+      "kr": "가젯 플레이트와 별도로, 모든 플레이어가 동일한 EX 가젯을 추가로 장착합니다."
+    },
+    "description_short": {
+      "en": "Bonus EX Gadget equipped",
+      "jp": "EXガジェット追加",
+      "kr": "EX 가젯 추가 장착"
+    },
+    "schedule": {
+      "start": "2026-08-07",
+      "end": "2026-08-18"
+    },
+    "schedule_us": {
+      "start": "2026-08-06",
+      "end": "2026-08-17"
+    },
+    "allowed_slots": [],
+    "ex_gadget": "gadget_075",
+    "banned_gadget_ids": [],
+    "version": "1.4.1"
+  },
+  {
+    "round": 8,
+    "rule_type": "ex_gadget",
+    "title": {
+      "en": "EX Gadget",
+      "jp": "EXガジェット",
+      "kr": "EX 가젯"
+    },
+    "description": {
+      "en": "In addition to your gadget plate, every player equips the same bonus EX Gadget.",
+      "jp": "ガジェットプレートとは別に、全プレイヤーが同じボーナスEXガジェットを追加装備します。",
+      "kr": "가젯 플레이트와 별도로, 모든 플레이어가 동일한 EX 가젯을 추가로 장착합니다."
+    },
+    "description_short": {
+      "en": "Bonus EX Gadget equipped",
+      "jp": "EXガジェット追加",
+      "kr": "EX 가젯 추가 장착"
+    },
+    "schedule": {
+      "start": "2026-10-23",
+      "end": "2026-11-02"
+    },
+    "schedule_us": {
+      "start": "2026-10-22",
+      "end": "2026-11-01"
+    },
+    "allowed_slots": [],
+    "ex_gadget": "gadget_097",
+    "banned_gadget_ids": [],
+    "version": "1.4.3"
+  }
+]

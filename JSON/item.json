@@ -1,0 +1,926 @@
+[   
+    {
+        "id" : "item_001",
+        "order" : 1,
+        "name" : {
+            "en" : "Boost",
+            "jp" : "ブースト",
+            "kr" : "부스트"
+        },
+        "type" : ["Boost", "Wisp"],
+        "same_time_count" : "none",
+        "attack" : ["none"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Gain a burst of speed.",
+            "jp" : "加速します。",
+            "kr" : "가속합니다."
+        },
+        "detail" : {
+            "en" : "Unique items available in \"Time Trial\".\nCan be used to Dodge various attack items.\nAn essential item to go through a run-off area or shortcut without deceleration.\nCan overlap with drift charge boost.",
+            "jp" : "「タイムトライアル」でも使用可能なアイテム。\nさまざまな攻撃アイテムを回避するのに活用できます。\nランオフエリアや近道を減速せずに通過するために必須のアイテム。\nドリフトチャージブーストと重ね合わせ可能。",
+            "kr" : "\"타임 트라이얼\"에서도 사용 가능한 아이템.\n다양한 공격 아이템을 회피하는데 활용 가능.\n런오프 구역이나 지름길을 감속 없이 지나가기 위해 필수적인 아이템.\n드리프트 차지 부스트와 중첩 가능. "
+        },
+        "image" : "Boost.webp",
+        "gadget" : [
+            "gadget_066",
+            "gadget_067",
+            "gadget_068"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_002",
+        "order" : 2,
+        "name" : {
+            "en" : "Double Boost",
+            "jp" : "ダブルブースト",
+            "kr" : "더블 부스트"
+        },
+        "type" : ["Boost", "Wisp"],
+        "same_time_count" : "none",
+        "attack" : ["none"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Gain a burst of speed.\nCan be used two times.",
+            "jp" : "加速を2回できます。",
+            "kr" : "2번 가속할 수 있습니다."
+        },
+        "detail" : {
+            "en" : "Only available after equipping the \"Double Boost Specialist\" gadget.",
+            "jp" : "「ダブルブースト追加」ガジェットを装備した後に使用可能。",
+            "kr" : "전용 가젯 「더블 부스트 추가」착용 후에만 사용/획득 가능"
+        },
+        "image" : "Double Boost.webp",
+        "gadget" : [
+            "gadget_066",
+            "gadget_067",
+            "gadget_069"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_003",
+        "order" : 3,
+        "name" : {
+            "en" : "Triple Boost",
+            "jp" : "トリプルブースト",
+            "kr" : "트리플 부스트"
+        },
+        "type" : ["Boost", "Wisp"],
+        "same_time_count" : "none",
+        "attack" : ["none"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Gain a burst of speed.\nCan be used three times, and the final burst is the strongest",
+            "jp" : "加速を3回できます。\n3回目は強力な加速になります。",
+            "kr" : "3번 가속할 수 있습니다.\n3번째에는 더욱 길고 강한 부스트를 사용합니다."
+        },
+        "detail" : {
+            "en" : "In \"Time Trial\", you can only get the last third boost.\nCan be obtained as a replacement item when you cannot get \"Drill\", or \"Monster Truck\".",
+            "jp" : "「タイムトライアル」では最後の3回目のブーストしか取得できません。\n「ドリル」, 「モンスタートラック」を取得できない場合は代替アイテムとして取得できます。",
+            "kr" : "\"타임 트라이얼\"에서는 마지막 3번째 부스트만 얻을 수도 있음.\n  「드릴」, 「몬스터 트럭」을 얻을 수 없을 때 대체 아이템으로 얻을 수 있음."
+        },
+        "image" : "Triple Boost.webp",
+        "gadget" : [
+            "gadget_066",
+            "gadget_067"
+        ],
+        "use_exam" : [
+            "tripleboost1.webp"
+        ]
+    },
+    {
+        "id" : "item_004",
+        "order" : 4,
+        "name" : {
+            "en" : "Laser",
+            "jp" : "レーザー",
+            "kr" : "레이저"
+        },
+        "type" : ["Boost", "Wisp"],
+        "same_time_count" : "none",
+        "attack" : ["none"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Transform into a laser to dash forward along the charted path and pass Machines ahead.",
+            "jp" : "レーザーに変身し、前方のマシンに向かって高速移動します。",
+            "kr" : "레이저로 변신하여 전방의 머신을 향해 고속으로 이동합니다."
+        },
+        "detail" : {
+            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts. (Be careful when used in \"Ocean View\").\nWhen used outside the course, it is forcibly moved into the course.",
+            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。(「オーシャンビュー」で使用する場合は注意が必要です)。\nコース外で使用する場合は、強制的にコース内に移動します。",
+            "kr" : "정해진 경로를 따라 이동합니다.\n지름길을 돌파하는데에도 사용합니다. (오션 뷰에서는 사용에 유의)\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다."
+        },
+        "image" : "Laser.webp",
+        "gadget" : [
+            "gadget_066",
+            "gadget_067"
+        ],
+        "use_exam" : [
+            "laser1.webp",
+            "laser2.webp"
+        ]
+    },
+    {
+        "id" : "item_005",
+        "order" : 5,
+        "name" : {
+            "en" : "Drill",
+            "jp" : "ドリル",
+            "kr" : "드릴"
+        },
+        "same_time_count" : 3,
+        "attack" : ["hit"],
+        "damage" : [50],
+        "type" : ["Boost", "Wisp"],
+        "description" : {
+            "en" : "Transform into a Drill.\nMove automatically toward the finish line.",
+            "jp" : "ドリルに変身し、自動で走行します。",
+            "kr" : "드릴로 변신하여 자동으로 주행합니다."
+        },
+        "detail" : {
+            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts. (Be careful when used in \"Ocean View\").\nWhen used outside the course, it is forcibly moved into the course.\nCan be used to obtain items while in use.",
+            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。(「オーシャンビュー」で使用する場合は注意が必要です)。\nコース外で使用する場合は、強制的にコース内に移動します。\n使用中にアイテムを取得できます。",
+            "kr" : "정해진 경로를 따라 이동합니다.\n지름길 돌파에 활용 가능. (오션 뷰에서는 사용에 유의)\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n드릴 사용 중에는 아이템 획득이 가능합니다."
+        },
+        "image" : "Drill.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_066",
+            "gadget_067",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_006",
+        "order" : 6,
+        "name" : {
+            "en" : "Warp Ring",
+            "jp" : "ワープリング",
+            "kr" : "워프 링"
+        },
+        "type" : ["Boost"],
+        "same_time_count" : "none",
+        "attack" : ["slam"],
+        "damage" : [20],
+        "description" : {
+            "en" : "Warp to the Machine ahead and crush it.",
+            "jp" : "前方のマシンのもとへワープし 踏み潰します。",
+            "kr" : "전방의 머신이 있는 곳으로 워프하여 머신을 뭉개버립니다."
+        },
+        "detail" : {
+            "en" : "Only available after equipping the \"Warp Ring Specialist\" gadget.\n It is temporarily unavailable online (World Match, Legend Competition, Festa) (as of v1.3.1).",
+            "jp" : "「ワープリング追加」ガジェットを装備した後に使用可能。\n現在オンラインでは使用できません(ワールドマッチ, レジェンドコンペ, フェスタ) (v1.3.1 時点)。",
+            "kr" : "전용 가젯「워프 링 추가」착용 후에만 사용/획득 가능.\n현재 온라인에서 사용 불가능(월드 매치, 레전드 대회, 페스타) (v1.3.1 기준)"
+        },
+        "image" : "WarpRing.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_066",
+            "gadget_071",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_007",
+        "order" : 7,
+        "name" : {
+            "en" : "Monster Truck",
+            "jp" : "モンスタートラック",
+            "kr" : "몬스터 트럭"
+        },
+        "type" : ["Boost"],
+        "same_time_count" : 3,
+        "attack" : ["slam"],
+        "damage" : [20],
+        "description" : {
+            "en" : "Transform into a Monster Truck.\nCrush Machines in your path.",
+            "jp" : "モンスタートラックに変身し, ぶつかったマシンを踏み潰します。",
+            "kr" : "몬스터 트럭으로 변신하여 부딪히면 머신을 뭉개버립니다."
+        },
+        "detail" : {
+            "en" : "The usage time varies depending on the distance from 1st place.\nTravels at a faster speed than normal.",
+            "jp" : "1位との距離によって使用時間が異なります。\n通常よりも速い速度で走行します。",
+            "kr" : "1등과의 거리에 따라 사용 시간이 달라집니다.\n통상보다 더 빠른 속도로 주행합니다."
+        },
+        "image" : "MonsterTruck.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_066",
+            "gadget_075",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "truck1.webp"
+        ]
+    },
+    {
+        "id" : "item_008",
+        "order" : 8,
+        "name" : {
+            "en" : "Omochao",
+            "jp" : "オモチャオ",
+            "kr" : "오모챠오"
+        },
+        "type" : ["Boost"],
+        "same_time_count" : 3,
+        "attack" : ["none"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Omochao creates a path of Rings.\nPick them up to accelerate.",
+            "jp" : "オモチャオがリングを並べ, それを取るとで加速でします。",
+            "kr" : "오모챠오가 전방에서 링을 늘어놓으며, 이를 획득하면 속도가 상승합니다."
+        },
+        "detail" : {
+            "en" : "Omochao spreads rings for about 6 seconds, and can obtain 35 to 40 rings.\n(If you use \"Go Go Omochao\", you can get more rings for 8 seconds)\nCan be used in the run-off area without deceleration, so it can be used in the run-off area.\nCan be used as a straight acceleration item by using the \"Ring Gain Boost\" gadget.",
+            "jp" : "オモチャオがリングを約6秒間散らし、35〜40個程度のリングを獲得可能。\n(「がんばれオモチャオ」を使用すると、8秒間でより多くのリングを獲得可能)\nリングを取得すれば,ランオフエリアを走行中に減速しないため,ランオフ区間で活用できる。\n「リングゲットダッシュ」ガジェットを使用すると、直線加速アイテムとしても使用可能です。",
+            "kr" : "오모챠오가 링을 약 6초간 흩뿌리며, 35~40개 정도의 링 획득 가능.\n(「힘내라 오모챠오」 사용 시, 8초로 증가하고, 링을 55~60개 정도 획득)\n링을 얻으면 런오프 구역을 달릴 때 감속이 되지 않아 런오프 구간에서 활용 가능.\n「링 대시」가젯을 활용하면 직진 가속 아이템으로도 활용 가능."
+        },
+        "image" : "Omochao.webp",
+        "gadget" : [
+            "gadget_066",
+            "gadget_101"
+        ],
+        "use_exam" : [
+            "omochao1.webp",
+            "omochao2.webp"
+        ]
+    },
+    {
+        "id" : "item_009",
+        "order" : 9,
+        "name" : {
+            "en" : "Bonus Ring",
+            "jp" : "ボーナスリング",
+            "kr" : "보너스 링"
+        },
+        "type" : ["Boost"],
+        "same_time_count" : "none",
+        "attack" : ["none"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Get the number of Rings shown.",
+            "jp" : "表示されている数のリングを獲得します。",
+            "kr" : "표시된 수 만큼의 링을 획득합니다."
+        },
+        "detail" : {
+            "en" : "The Bonus Ring appears only in the \"Special Item Box\". The Bonus Ring appears only 100 rings in the \"Special Item Box\". Not available after v1.3.1.",
+            "jp" : "「ボーナスリング」は 「スペシャルアイテムボックス」にのみ出現します。「スペシャルアイテムボックス」で出現するボーナスリングは100リングのみ出現します。v1.3.1 以降出現しません。",
+            "kr" : "통상적으로는 등장하지 않습니다. 「스페셜 아이템 박스」에서만 등장합니다. 「스페셜 아이템 박스」에서 등장하는 보너스 링은 100링만 등장합니다. v1.3.1 이후 등장하지 않습니다."
+        },
+        "image" : "BonusRing.webp",
+        "gadget" : [
+            "gadget_066"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_010",
+        "order" : 10,
+        "name" : {
+            "en" : "Homing Punch",
+            "jp" : "ホーミングパンチ",
+            "kr" : "호밍 펀치"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Fire an attack that locks onto the Machine ahead.",
+            "jp" : "前方のマシンをホーミングして攻撃します。",
+            "kr" : "전방의 머신을 호밍하여 공격합니다."
+        },
+        "detail" : {
+            "en" : "\"Homing Punch\" has better guidance performance than \"Rocket Punch\"'s locked state.\nNot affected by the \"Giant Rocket Punch\" gadget.",
+            "jp" : "「ホーミングパンチ」は「ロケットパンチ」のロック状態よりも優れた誘導性能を持ちます。\n「ロケットパンチ 巨大化」ガジェットの影響を受けません。",
+            "kr" : "「호밍 펀치」의 유도 성능은 「로켓 펀치」의 록 온 상태의 유도 성능보다 더 뛰어납니다. 「로켓 펀치 거대화」가젯의 영향을 받지 않습니다."
+        },
+        "image" : "HomingPunch.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_064",
+            "gadget_080",
+            "gadget_102",
+            "gadget_107",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "homingpunch1.webp"
+        ]
+    },
+    {
+        "id" : "item_011",
+        "order" : 11,
+        "name" : {
+            "en" : "Triple Homing Punch",
+            "jp" : "トリプルホーミングパンチ",
+            "kr" : "트리플 호밍 펀치"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Can use \"Homing Punch\" three times.",
+            "jp" : "「ホーミングパンチ」を3回使用できます。",
+            "kr" : "「호밍 펀치」를 3번 사용할 수 있습니다."
+        },
+        "detail" : {
+            "en" : "Triple Homing Punch appears only in the \"Special Item Box\".",
+            "jp" : "「トリプルホーミングパンチ」は 「スペシャルアイテムボックス」にのみ出現します。",
+            "kr" : "「트리플 호밍 펀치」는 통상적으로는 등장하지 않습니다. 「스페셜 아이템 박스」에서만 등장합니다."
+        },
+        "image" : "TripleHomingPunch.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_064",
+            "gadget_080",
+            "gadget_102",
+            "gadget_107",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_012",
+        "order" : 12,
+        "name" : {
+            "en" : "Rocket Punch",
+            "jp" : "ロケットパンチ",
+            "kr" : "로켓 펀치"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Fire an attack that flies straight and bounces off walls.\nBecomes a \"homing attack\" when locked onto a target.",
+            "jp" : "直進し壁に当たると跳ね返る攻撃を放ちます。ロックオン中はホーミングして攻撃します。",
+            "kr" : "직진하여 벽에 부딪히면 튕기는 펀치를 발사합니다.\n록 온 중에는 호밍하여 공격합니다."
+        },
+        "detail" : {
+            "en" : "When equipped with the \"Giant Rocket Punch\" gadget, the appearance rate of Rocket Punch increases, and you can use a larger Rocket Punch.\nThe guidance performance of the Rocket Punch is not as good as the guidance performance of the \"Homing Punch\". If you collide with a wall while locked, it will disappear.",
+            "jp" : "「ロケットパンチ 巨大化」ガジェットを装備すると、「ロケットパンチ」の出現率が上がり、より大きなロケットパンチを使用できます。\n「ロケットパンチ」の誘導性能は「ホーミングパンチ」の誘導性能よりも劣ります。ロック中に壁に衝突すると消えます。",
+            "kr" : "「로켓 펀치 거대화」가젯을 착용하면 로켓 펀치의 등장확률이 올라가고, 더 큰 로켓 펀치를 사용 가능.\n「로켓 펀치」의 유도 성능은 「호밍 펀치」의 유도 성능보다 좋지 않습니다. 록 온 중인 상태에서 벽에 부딪히면 사라집니다."
+        },
+        "image" : "RocketPunch.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_064",
+            "gadget_072",
+            "gadget_080",
+            "gadget_102",
+            "gadget_107",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "homingpunch1.webp",
+            "rocketpunch1.webp"
+        ]
+    },
+    {
+        "id" : "item_013",
+        "order" : 13,
+        "name" : {
+            "en" : "Triple Rocket Punch",
+            "jp" : "トリプルロケットパンチ",
+            "kr" : "트리플 로켓 펀치"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Can use \"Rocket Punch\" three times.",
+            "jp" : "「ロケットパンチ」を3回使用できます。",
+            "kr" : "「로켓 펀치」를 3번 사용할 수 있습니다." 
+        },
+        "detail" : {
+            "en" : "Triple Rocket Punch appears only in the \"Special Item Box\".",
+            "jp" : "「トリプルロケットパンチ」は 「スペシャルアイテムボックス」にのみ出現します。",
+            "kr" : "「트리플 로켓 펀치」는 통상적으로는 등장하지 않습니다. 「스페셜 아이템 박스」에서만 등장합니다."
+        },
+        "image" : "TripleRocketPunch.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_064",
+            "gadget_072",
+            "gadget_080",
+            "gadget_102",
+            "gadget_107",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "triplepunch1.webp"
+        ]
+    },
+    {
+        "id" : "item_014",
+        "order" : 14,
+        "name" : {
+            "en" : "Slicer",
+            "jp" : "カッター",
+            "kr" : "커터"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : "none",
+        "attack" : ["slow down", "item loss"],
+        "damage" : [0],
+        "description" : {
+            "en" : "An attack that locks onto the Machine ahead, cuts it in half, and makes the racer drop an item.",
+            "jp" : "前方のマシンをホーミングして真っ二つにします。\n相手はアイテムを1つ落とします。",
+            "kr" : "전방의 머신을 호밍하여 두 동강 냅니다.\n상대는 아이템을 하나 떨어뜨립니다."
+        },
+        "detail" : {
+            "en" : "The speed of the bomb is slower than \"Rocket Punch\" and \"Homing Punch\", so it is necessary to respond to it.\nCan be canceled by walls or other items.\nIf two different cutters fly at the same time toward the same machine, they will cancel each other out and disappear.",
+            "jp" : "「ロケットパンチ」, 「ホーミングパンチ」よりも爆弾の速度が遅いため、対応が必要です。\n壁や他のアイテムでキャンセル可能です。\n2つの異なるカッターが同じマシンに同時に向かって飛ぶ場合、互いにキャンセルされて消えます。",
+            "kr" : "날아오는 속도가 「로켓 펀치」, 「호밍 펀치」보다 느리며, 잘리기까지 시간이 걸리기에 대응을 해야합니다.\n벽이나 다른 아이템으로 상쇄 가능.\n서로 다른 커터가 같은 머신을 향해 동시에 날아간다면 서로 상쇄되어 없어집니다."
+        },
+        "image" : "Slicer.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_056",
+            "gadget_057",
+            "gadget_064",
+            "gadget_080",
+            "gadget_102",
+            "gadget_107",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "slicer1.webp"
+        ]
+    },
+    {
+        "id" : "item_015",
+        "order" : 15,
+        "name" : {
+            "en" : "Bomb",
+            "jp" : "ボム",
+            "kr" : "폭탄봇"
+        },
+        "type" : ["Attack", "Wisp"],
+        "same_time_count" : "none",
+        "attack" : ["hit", "slam"],
+        "damage" : [50, 20],
+        "description" : {
+            "en" : "Fire a bomb that travels in a straight line.\nIt gets bigger and stronger the longer it's held.",
+            "jp" : "直進する爆弾です。\n時間経過と大きくなり, パワーアップします。",
+            "kr" : "직진하는 폭탄입니다.\n시간이 지날수록 커지고 위력이 강해집니다."
+        },
+        "detail" : {
+            "en" : "By equipping the \"Quick Charge Bomb\" gadget, the appearance rate of the bomb increases, and the charge speed increases.\nThe bomb can be charged up to 3 stages.\n1st stage : A bomb that explodes when it hits a wall\n2nd stage : A bomb that is larger and bounces off the wall when it hits a wall\n3rd stage : A bomb that is larger and causes a crush judgment when it passes through.",
+            "jp" : "「ボムクイックチャージ」ガジェットを装備すると、ボムの出現率が上がり、充電速度が上がります。\nボムは最大3段階まで充電できます。\n1段階目 : 壁に当たると爆発するボム\n2段階目 : 1段階目よりも大きく、壁に当たると跳ね返るボム\n3段階目 : 2段階目よりも大きく、通過するとクラッシュ判定が追加されるボム",
+            "kr" : "가젯 「폭탄봇 퀵 차지」로 획득 확률 업 및 차지 속도 상승.\n폭탄은 총 3단계까지 차지 가능.\n1단계 : 벽에 부딪히면 바로 터지는 폭탄\n2단계 : 1단계보다 더 크고 벽에 부딪히면 튕겨져나가는 폭탄\n3단계 : 2단계보다 더 크고 폭탄이 지나갈 때 짓뭉개기 판정이 추가."
+        },
+        "image" : "Bomb.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_056",
+            "gadget_057",
+            "gadget_064",
+            "gadget_067",
+            "gadget_074",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "bomb1.webp",
+            "bomb2.webp"
+        ]
+    },
+    {
+        "id" : "item_016",
+        "order" : 16,
+        "name" : {
+            "en" : "King Boomboo",
+            "jp" : "キングブーボー",
+            "kr" : "킹 부부"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : 1,
+        "attack" : ["hit(strong)"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Summon \"King Boom Boo\" to attack the Machine in 1st place.",
+            "jp" : "「キングブーブ」を召喚し 1位のマシンを攻撃します。",
+            "kr" : "「킹 부부」를 소환하여 선두에 있는 머신을 공격합니다."
+        },
+        "detail" : {
+            "en" : "King Boom Boo is a wide-area attack that can involve multiple Machines.\nAlso, the attack of King Boom Boo has a spinning effect even if there are rings left, so it can be slowed down.\nYou can avoid the attack of King Boom Boo by using a boost at the right time.",
+            "jp" : "「キングブーブ」は広域攻撃で、複数のマシンに関与できます。\nまた、「キングブーブ」の攻撃は、リングが残っていてもスピンする効果があるため、減速できます。\n適切なタイミングでブーストを使用すると、「キングブーブ」の攻撃を回避できます。",
+            "kr" : "킹 부부를 소환하여 선두에 있는 머신을 공격합니다. 이 공격은 광역 공격이며, 여러 대의 머신이 휘말릴 수 있습니다.\n또한, 킹 부부의 공격은 링이 남아 있어도 스핀하여 감속하는 효과가 있습니다.\n타이밍에 맞춰 부스트를 사용하여 킹 부부의 공격을 회피할 수 있습니다."
+        },
+        "image" : "KingBoomBoo.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_064",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "kingboomboo1.webp",
+            "kingboomboo2.webp"
+        ]
+    },
+    {
+        "id" : "item_017",
+        "order" : 17,
+        "name" : {
+            "en" : "Slime",
+            "jp" : "スライム",
+            "kr" : "슬라임"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : 1,
+        "attack" : ["blind", "slow down", "item loss"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Block the vision of all other Machines, slow them down, and make them drop all items.",
+            "jp" : "自分を除く全マシンの視界を塞ぎ, 速度も低下させます。\n攻撃を受けたマシンはアイテムをすべて落とします。",
+            "kr" : "자신을 제외한 모든 머신의 시야를 차단하고, 속도도 떨어뜨립니다.\n공격받은 머신은 아이템을 모두 떨어뜨립니다."
+        },
+        "detail" : {
+            "en" : "Unusually, In the case of hit with slime, \"Quick Recovery\" is not applied because it is judged to be \"on attack.\"",
+            "jp" : "スライムに当たった場合は、「クイックリカバー」が適用されません。\n「攻撃中」と判断されるためです。",
+            "kr" : "특이하게 슬라임을 맞은 상태에서는 「공격 중」판정 상태이기 때문에 「퀵 리커버」가 적용되지 않습니다."
+        },
+        "image" : "Slime.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_056",
+            "gadget_057",
+            "gadget_064",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_018",
+        "order" : 18,
+        "name" : {
+            "en" : "Weight",
+            "jp" : "ウェイト",
+            "kr" : "웨이트"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : 1,
+        "attack" : ["slam", "item loss"],
+        "damage" : [20],
+        "description" : {
+            "en" : "Drop weights on the Machines in 1st and 2nd place, crushing them and making them drop 1 item.",
+            "jp" : "1位と2位のマシンに錘を落として踏み潰します。\n攻撃を受けたマシンはアイテムを1つ落とします。",
+            "kr" : "1위와 2위 머신에 추를 떨어트려 뭉개버립니다.\n공격받은 머신은 아이템을 하나 떨어뜨립니다."
+        },
+        "detail" : {
+            "en" : "Since this item is only applied to the Machines in 1st and 2nd place, it is safe for the 3rd place.",
+            "jp" : "このアイテムは1位と2位のマシンにのみ適用されるため、3位の場合はこの攻撃に対して安全です。",
+            "kr" : "1위와 2위에게만 적용되는 아이템이므로, 3위의 경우에는 이 공격에 대해 안전합니다."
+        },
+        "image" : "Weight.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_056",
+            "gadget_057",
+            "gadget_064",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_019",
+        "order" : 19,
+        "name" : {
+            "en" : "Darkchao",
+            "jp" : "ダークチャオ",
+            "kr" : "다크챠오"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : 1,
+        "attack" : ["item change"],
+        "damage" : [0],
+        "description" : {
+            "en" : "\"Dark Chao\" forcibly grants items to all Machines.\nIf they already have an item, a new item will be redrawn.",
+            "jp" : "全マシンにアイテムを強制的に付与します。\nすでにアイテムを所持している場合は,再度選しせます。",
+            "kr" : "모든 머신에 아이템을 강제로 부여합니다.\n이미 아이템을 가지고 있는 경우에는 다시 획득합니다."
+        },
+        "detail" : {
+            "en" : "With the slot increased, you get three items.\nYou can cope with it by listening to a small laugh before appearing in the warp ring.",
+            "jp" : "スロットが増加した状態では、3つのアイテムを獲得します。\nワープリングに登場する前に小さな笑い声が聞こえるので、対処が可能です。",
+            "kr" : "슬롯 증가가 된 상태에서는 3개의 아이템을 획득합니다.\n워프 링에서 등장하기 전에 작게 웃음소리를 들을 수 있어 대처가 가능합니다."
+        },
+        "image" : "DarkChao.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_056",
+            "gadget_064",
+            "gadget_070",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_020",
+        "order" : 20,
+        "name" : {
+            "en" : "Void",
+            "jp" : "ヴォイド",
+            "kr" : "보이드"
+        },
+        "type" : ["Defense", "Wisp"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Sucks in Rings and item boxes from a distance.\nNegates some item attacks and course obstacles.",
+            "jp" : "リングとアイテムボックスを遠くから込みます。\nアイテムによる攻撃やコース上の障害物も一部無効化します。",
+            "kr" : "링과 아이템 상자를 원거리에서 빨아들입니다.\n아이템을 사용한 공격이나 코스 장애물도 일부 무효화합니다."
+        },
+        "detail" : {
+            "en" : "When sucking in item attacks and course obstacles, you temporarily become \"on attack\" and can attack the Machine right behind you.\nWhile Void is active, the Void item remains in the stock.",
+            "jp" : "アイテム攻撃やコースの障害物を吸い込むと、一時的に攻撃状態になり、すぐ後ろにいるマシンを攻撃できます。\nヴォイドを発動中は、ストックにヴォイドアイテムが保持されます。",
+            "kr" : "아이템 공격, 코스 장애물을 빨아들이면 일시적으로 공격상태가 되어 바로 뒤에 있는 머신을 공격할 수 있습니다.\n보이드를 발동 중에는 스톡에 보이드 아이템이 유지됩니다."
+        },
+        "image" : "Void.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_065",
+            "gadget_067",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "void1.webp"
+        ]
+    },
+    {
+        "id" : "item_021",
+        "order" : 21,
+        "name" : {
+            "en" : "Shield",
+            "jp" : "シールド",
+            "kr" : "방패"
+        },
+        "type" : ["Defense"],
+        "same_time_count" : "none",
+        "attack" : ["none"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Negates all attacks for a duration.\nBecome harder to get knocked away when colliding with other Machines.",
+            "jp" : "一定時間すべての攻撃を無効化します。\nさらに接触されても吹き飛ばされにくくなります。",
+            "kr" : "일정 시간 동안 모든 공격을 무효화하며 부딪혀도 잘 튕겨나가지 않습니다."
+        },
+        "detail" : {
+            "en" : "For 5 seconds, you become \"invincible\" and can defend against all attacks.\nIt is a one-time item that disappears immediately after use.",
+            "jp" : "5秒間、「無敵」状態になり、すべての攻撃を防ぎます。\n使用するとすぐに消える1回限りのアイテムです。",
+            "kr" : "5초 동안 「무적」 상태가 되어 모든 공격을 방어할 수 있습니다. 사용하는 즉시 사라지는 즉발형 아이템입니다."
+        },
+        "image" : "Shield.webp",
+        "gadget" : [
+            "gadget_065"
+        ],
+        "use_exam" : [
+            "shield1.webp"
+        ]
+    },
+    {
+        "id" : "item_022",
+        "order" : 22,
+        "name" : {
+            "en" : "Tornado",
+            "jp" : "トルネード",
+            "kr" : "토네이도"
+        },
+        "type" : ["Defense"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Creates a tornado around the user, negating some incoming attacks.\nDeal damage to other Machines that come in contact while active",
+            "jp" : "使用者の周辺に竜巻を発生させて攻撃を一部無効化します。\nまた, 竜巻に接触したマシンにダメージを与えます。",
+            "kr" : "사용자 주변에 회오리를 발생시켜 공격을 일부 무효화하고, 회오리에 닿은 머신에 대미지를 줍니다."
+        },
+        "detail" : {
+            "en" : "For 3 seconds, you create a tornado around you, negating some incoming attacks and dealing damage to other Machines that come in contact while active.\nIt is a one-time item that disappears immediately after use.",
+            "jp" : "3秒間、あなたの周囲に竜巻を発生させて攻撃を一部無効化し、竜巻に接触したマシンにダメージを与えます。\n使用するとすぐに消える1回限りのアイテムです。",
+            "kr" : "3초 동안 토네이도를 발동하여 아이템을 무효화 및 주변의 머신을 공격합니다.\n아이템을 사용하는 즉시 사라지는 즉발형 아이템입니다."
+        },
+        "image" : "Tornado.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_065",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "tornado1.webp",
+            "tornado2.webp"
+        ]
+    },
+    {
+        "id" : "item_023",
+        "order" : 23,
+        "name" : {
+            "en" : "Spiked Iron Ball",
+            "jp" : "トゲ鉄球",
+            "kr" : "가시 철구"
+        },
+        "type" : ["Hazard"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Place a road hazard that deals damage on contact.",
+            "jp" : "接触したマシンにダメージを与える障害物を設置します。",
+            "kr" : "접촉하면 머신에 대미지를 주는 장애물을 설치합니다."
+        },
+        "detail" : {
+            "en" : "When equipped with the \"Giant Spiked Iron Ball\" gadget, the appearance rate increases, and you can install a larger Spiked Iron Ball.\nWhen installing while pushing the stick forward, it is thrown forward.\nIt disappears immediately when hit.",
+            "jp" : "「トゲ鉄球巨大化」ガジェットを装備すると、トゲ鉄球の出現率が上がり、より大きなトゲ鉄球を設置できます。\nスティックを前に押し出しながら設置すると、前に投げられます。\n接触するとすぐに消えます。",
+            "kr" : "「가시 철구 거대화」가젯을 착용하면 등장확률이 올라가고 더 큰 가시 철구를 설치 가능.\n스틱을 앞으로 밀면서 설치하면 전방으로 투척합니다.\n맞으면 바로 사라집니다."
+        },
+        "image" : "SpikedIronBall.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_063",
+            "gadget_073",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "spikeball1.webp"
+        ]
+    },
+    {
+        "id" : "item_024",
+        "order" : 24,
+        "name" : {
+            "en" : "Magnet",
+            "jp" : "マグネット",
+            "kr" : "마그넷"
+        },
+        "type" : ["Hazard"],
+        "same_time_count" : "none",
+        "attack" : ["slow down"],
+        "damage" : [0],
+        "description" : {
+            "en" : "Place a road hazard that draws in Machines around it.",
+            "jp" : "周囲のマシンを引き寄せる障害物を設置します。",
+            "kr" : "주변 머신을 끌어당기는 장애물을 설치합니다."
+        },
+        "detail" : {
+            "en" : "A magnet that slows down the speed of the Machine when it comes into contact.\nWhen installing while pushing the stick forward, it is thrown forward.\nThe magnet disappears when it collides with another Machine while attached.",
+            "jp" : "接触したマシンの速度を減速させる磁石を設置します。\nスティックを前に押し出しながら設置すると、前に投げられます。\n磁石が付いた状態で他のマシンに衝突すると、磁石が消えます。",
+            "kr" : "접촉하면 머신의 속도를 급감시키는 자석.\n스틱을 앞으로 밀면서 설치하면 전방으로 투척합니다.\n자석이 붙은 상태에서 머신끼리 부딪히면 자석이 바로 사라집니다."
+        },
+        "image" : "Magnet.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_063",
+            "gadget_080",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "magnet1.webp",
+            "magnet3.webp"
+        ]
+    },
+    {
+        "id" : "item_025",
+        "order" : 25,
+        "name" : {
+            "en" : "Mega Buster",
+            "jp" : "ロックバスター",
+            "kr" : "록 버스터"
+        },
+        "type" : ["Attack", "Special"],
+        "same_time_count" : "none",
+        "attack" : ["hit(weak)"], 
+        "damage" : [20],
+        "description" : {
+            "en" : "Loads 3 \"Solar Bullets,\" allowing you to aim with the crosshair and fire in a straight line. Exclusive item for the DLC map \"Wily Castle.\"",
+            "jp" : "3発の「ソーラーバレット」を装填し、照準器で狙いを定め、直線上に発射します。DLCマップ「ワイリー城」専用アイテム。",
+            "kr" : "3발의 「솔라 불릿」을 장전하여 조준경으로 조준해 직선으로 발사합니다. DLC 맵 「와일리 성」전용 아이템."
+        },
+        "detail" : {
+            "en" : "This is the \"Mega Buster,\" the signature weapon of \"Mega Man\" from the \"Mega Man series\".\nUpon acquiring the item, three \"Solar Bullets\" are loaded.\nUse the crosshair to aim and shoot down other racers, obstacles, and more. (Rings can be obtained from certain obstacles.)\nA \"Mettaur\" yields 10 rings, while the \"Yellow Devil\" and \"Wily Machine 2\" yield 30 rings.\nWhen hit, it drops 20 rings like a normal obstacle.\n\"Mega Man\" and \"Proto Man\" feature exclusive equipped models. (When you have the item, the model is \"Mega Buster\" equipped).\nThis is an exclusive item for the DLC map, \"Wily Castle.\"",
+            "jp" : "『ロックマン』シリーズに登場する「ロックマン」の専用武装である「ロックバスター」。\nアイテム獲得時、3発の「ソーラーバレット」が装填されます。\nこれを照準器で狙い、他のレーサーや障害物などを撃墜させます（一部の障害物からはリングを獲得可能）。\n「メットール」は10リング、「イエローデビル」と「ワイリーマシン2号」は30リングを獲得できます。\nヒット 時, 通常の障害物と同様に 20 リングをドロップします。\n「ロックマン」と「ブルース」には専用の着用モデリングが用意されています。(アイテム所持時はモデリングが「ロックバスター」着用中)\nDLCマップ「ワイリー城」の専用アイテムです。",
+            "kr" : "『록맨 시리즈』에 등장하는 「록맨」의 전용 무장인 「록 버스터」.\n 아이템 획득 시, 3발의 「솔라 불릿」이 장전됩니다.\n이를 조준경으로 조준해 다른 레이서, 장애물 등을 발사하여 격추 시킵니다. (일부 장애물은 링 획득 가능)\n\"메톨\"은 10링, \"옐로 데빌\"과 \"와일리 머신 2호\"는 30링.\n히트 시, 일반적인 장애물 판정처럼 링 20개를 떨어트리며, 감속이 일어납니다.\n「록맨」, 「블루스」는 전용 착용 모델링을 가지고 있습니다. (아이템 소지 시 모델링이 록 버스터 착용 중)\nDLC 맵 「와일리 성」전용 아이템."
+        },
+        "image" : "MegaBuster.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_102",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : [
+            "megabuster1.webp",
+            "megabuster2.webp"
+        ]
+    }
+]

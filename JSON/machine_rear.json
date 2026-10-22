@@ -1,0 +1,1420 @@
+{
+  "speed": [
+    {
+      "id": "speed_001",
+      "name": {
+        "en": "Lightning",
+        "jp": "ライトニング",
+        "kr": "라이트닝"
+      },
+      "type": "rear",
+      "series": "Speedster_Lightning",
+      "stats": {
+        "speed": 20,
+        "acceleration": 5,
+        "handling": 13,
+        "power": 15,
+        "boost": 7
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "speed_002",
+      "name": {
+        "en": "Reaper",
+        "jp": "リーパー",
+        "kr": "리퍼"
+      },
+      "type": "rear",
+      "series": "Dark_Reaper",
+      "stats": {
+        "speed": 20,
+        "acceleration": 6,
+        "handling": 12,
+        "power": 14,
+        "boost": 8
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "speed_003",
+      "name": {
+        "en": "Blade",
+        "jp": "ブレード",
+        "kr": "블레이드"
+      },
+      "type": "rear",
+      "series": "Mirage_Blade",
+      "stats": {
+        "speed": 19,
+        "acceleration": 7,
+        "handling": 11,
+        "power": 14,
+        "boost": 9
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Sonic' in Race Park (1st LAP)",
+        "jp": "レースパーク(1st LAP)で「チームソニック」に3勝",
+        "kr": "레이스 파크(1st LAP)에서「팀 소닉」을 상대로 3승"
+      }
+    },
+    {
+      "id": "speed_004",
+      "name": {
+        "en": "Shining",
+        "jp": "シャイニング",
+        "kr": "샤이닝"
+      },
+      "type": "rear",
+      "series": "Super_Shining",
+      "stats": {
+        "speed": 18,
+        "acceleration": 5,
+        "handling": 13,
+        "power": 16,
+        "boost": 8
+      },
+      "unlock": {
+        "en": "3 Wins vs. All Teams in Race Park (2nd LAP)",
+        "jp": "レースパーク(2nd LAP)ですべてのチームに3勝",
+        "kr": "레이스 파크(2nd LAP)에서 모든 팀을 상대로 3승"
+      }
+    },
+    {
+      "id": "speed_005",
+      "name": {
+        "en": "Chariot",
+        "jp": "チャリオット",
+        "kr": "채리엇"
+      },
+      "type": "rear",
+      "series": "Royal_Chariot",
+      "stats": {
+        "speed": 20,
+        "acceleration": 7,
+        "handling": 11,
+        "power": 13,
+        "boost": 9
+      },
+      "unlock": {
+        "en": "Purchase with 10 Donpa Tickets",
+        "jp": "ドンパ チケット10枚で購入",
+        "kr": "돈파 티켓 10장으로 구매"
+      }
+    },
+    {
+      "id": "speed_006",
+      "name": {
+        "en": "Chaser",
+        "jp": "チェイサー",
+        "kr": "체이서"
+      },
+      "type": "rear",
+      "series": "Stealth_Chaser",
+      "stats": {
+        "speed": 19,
+        "acceleration": 6,
+        "handling": 12,
+        "power": 15,
+        "boost": 8
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "speed_007",
+      "name": {
+        "en": "Future",
+        "jp": "フューチャー",
+        "kr": "퓨처"
+      },
+      "type": "rear",
+      "series": "Retro_Future",
+      "stats": {
+        "speed": 18,
+        "acceleration": 7,
+        "handling": 11,
+        "power": 14,
+        "boost": 10
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "speed_008",
+      "name": {
+        "en": "GT",
+        "jp": "GT",
+        "kr": "GT"
+      },
+      "type": "rear",
+      "series": "Wild_GT",
+      "stats": {
+        "speed": 17,
+        "acceleration": 5,
+        "handling": 14,
+        "power": 16,
+        "boost": 8
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "speed_009",
+      "name": {
+        "en": "M",
+        "jp": "M",
+        "kr": "M"
+      },
+      "type": "rear",
+      "series": "Buster_M",
+      "stats": {
+        "speed": 19,
+        "acceleration": 5,
+        "handling": 13,
+        "power": 16,
+        "boost": 7
+      },
+      "unlock": {
+        "en": "Purchase with 200 Donpa Tickets",
+        "jp": "ドンパ チケット200枚で購入",
+        "kr": "돈파 티켓 200장으로 구매"
+      }
+    },
+    {
+      "id": "speed_010",
+      "name": {
+        "en": "Wing",
+        "jp": "ウィング",
+        "kr": "윙"
+      },
+      "type": "rear",
+      "series": "Arsene_Wing",
+      "stats": {
+        "speed": 17,
+        "acceleration": 6,
+        "handling": 13,
+        "power": 15,
+        "boost": 9
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    },
+    {
+      "id": "speed_011",
+      "name": {
+        "en": "Cruiser",
+        "jp": "クルーザー",
+        "kr": "크루저"
+      },
+      "type": "rear",
+      "series": "Banana_Cruiser",
+      "stats": {
+        "speed": 17,
+        "acceleration": 7,
+        "handling": 12,
+        "power": 14,
+        "boost": 10
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    },
+    {
+      "id": "speed_012",
+      "name": {
+        "en": "Cyclone",
+        "jp": "サイクロン",
+        "kr": "사이클론"
+      },
+      "type": "rear",
+      "series": "Mach_Cyclone",
+      "stats": {
+        "speed": 16,
+        "acceleration": 7,
+        "handling": 13,
+        "power": 14,
+        "boost": 10
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    },
+    {
+      "id": "speed_013",
+      "name": {
+        "en": "Jack",
+        "jp": "ジャック",
+        "kr": "잭"
+      },
+      "type": "rear",
+      "series": "Yellow_Jack",
+      "stats": {
+        "speed": 16,
+        "acceleration": 6,
+        "handling": 14,
+        "power": 15,
+        "boost": 9
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    }
+  ],
+  "acceleration": [
+    {
+      "id": "acceleration_001",
+      "name": {
+        "en": "Sport",
+        "jp": "ウィンド",
+        "kr": "스포츠"
+      },
+      "type": "rear",
+      "series": "Whirlwind_Sport",
+      "stats": {
+        "speed": 15,
+        "acceleration": 20,
+        "handling": 7,
+        "power": 13,
+        "boost": 5
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "acceleration_002",
+      "name": {
+        "en": "Rage",
+        "jp": "レイジ",
+        "kr": "레이지"
+      },
+      "type": "rear",
+      "series": "Jumble_Rage",
+      "stats": {
+        "speed": 14,
+        "acceleration": 20,
+        "handling": 8,
+        "power": 12,
+        "boost": 6
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "acceleration_003",
+      "name": {
+        "en": "Scorpion",
+        "jp": "スコーピオン",
+        "kr": "스콜피온"
+      },
+      "type": "rear",
+      "series": "Hyper_Scorpion",
+      "stats": {
+        "speed": 14,
+        "acceleration": 19,
+        "handling": 9,
+        "power": 11,
+        "boost": 7
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Dark' in Race Park (1st LAP)",
+        "jp": "レースパーク(1st LAP)で「チームダーク」に3勝",
+        "kr": "레이스 파크(1st LAP)에서「팀 다크」를 상대로 3승"
+      }
+    },
+    {
+      "id": "acceleration_004",
+      "name": {
+        "en": "Spear",
+        "jp": "スピア",
+        "kr": "스피어"
+      },
+      "type": "rear",
+      "series": "Cyber_Spear",
+      "stats": {
+        "speed": 15,
+        "acceleration": 18,
+        "handling": 9,
+        "power": 12,
+        "boost": 6
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Dimensions' in Race Park (1st LAP)",
+        "jp": "レースパーク(1st LAP)で「チームディメンションズ」に3勝",
+        "kr": "레이스 파크(1st LAP)에서「팀 디멘션즈」를 상대로 3승"
+      }
+    },
+    {
+      "id": "acceleration_005",
+      "name": {
+        "en": "Calibur",
+        "jp": "キャリバー",
+        "kr": "칼리버"
+      },
+      "type": "rear",
+      "series": "Pawn_Calibur",
+      "stats": {
+        "speed": 13,
+        "acceleration": 20,
+        "handling": 9,
+        "power": 11,
+        "boost": 7
+      },
+      "unlock": {
+        "en": "Purchase with 10 Donpa Tickets",
+        "jp": "ドンパ チケット10枚で購入",
+        "kr": "돈파 티켓 10장으로 구매"
+      }
+    },
+    {
+      "id": "acceleration_006",
+      "name": {
+        "en": "Stinger",
+        "jp": "ビー",
+        "kr": "스팅어"
+      },
+      "type": "rear",
+      "series": "Long_Stinger",
+      "stats": {
+        "speed": 16,
+        "acceleration": 19,
+        "handling": 7,
+        "power": 13,
+        "boost": 5
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "acceleration_007",
+      "name": {
+        "en": "Fours",
+        "jp": "フォース",
+        "kr": "포즈"
+      },
+      "type": "rear",
+      "series": "Radical_Fours",
+      "stats": {
+        "speed": 16,
+        "acceleration": 18,
+        "handling": 8,
+        "power": 13,
+        "boost": 5
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "acceleration_008",
+      "name": {
+        "en": "Buggy",
+        "jp": "バギー",
+        "kr": "버기"
+      },
+      "type": "rear",
+      "series": "Racing_Buggy",
+      "stats": {
+        "speed": 14,
+        "acceleration": 18,
+        "handling": 10,
+        "power": 11,
+        "boost": 7
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "acceleration_009",
+      "name": {
+        "en": "Liner",
+        "jp": "ライナー",
+        "kr": "라이너"
+      },
+      "type": "rear",
+      "series": "Giganto_Liner",
+      "stats": {
+        "speed": 15,
+        "acceleration": 19,
+        "handling": 8,
+        "power": 12,
+        "boost": 6
+      },
+      "unlock": {
+        "en": "Purchase with 200 Donpa Tickets",
+        "jp": "ドンパ チケット200枚で購入",
+        "kr": "돈파 티켓 200장으로 구매"
+      }
+    },
+    {
+      "id": "acceleration_010",
+      "name": {
+        "en": "Roadstar",
+        "jp": "ロードスター",
+        "kr": "로드스타"
+      },
+      "type": "rear",
+      "series": "Rush_Roadstar",
+      "stats": {
+        "speed": 15,
+        "acceleration": 17,
+        "handling": 9,
+        "power": 13,
+        "boost": 6
+      },
+      "unlock": {
+        "en": "Purchase with 'Mega Man DLC'",
+        "jp": "「ロックマン DLC」で購入",
+        "kr": "「록맨 DLC」를 구매"
+      }
+    },
+    {
+      "id": "acceleration_011",
+      "name": {
+        "en": "Roaster",
+        "jp": "ロースター",
+        "kr": "로스터"
+      },
+      "type": "rear",
+      "series": "Super_Roaster",
+      "stats": {
+        "speed": 14,
+        "acceleration": 17,
+        "handling": 10,
+        "power": 12,
+        "boost": 7
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    },
+    {
+      "id": "acceleration_012",
+      "name": {
+        "en": "Bayoen",
+        "jp": "ばよえ～ん",
+        "kr": "바요엔"
+      },
+      "type": "rear",
+      "series": "Twinkle_Bayoen",
+      "stats": {
+        "speed": 15,
+        "acceleration": 16,
+        "handling": 9,
+        "power": 14,
+        "boost": 6
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    }
+  ],
+  "handling": [
+    {
+      "id": "handling_001",
+      "name": {
+        "en": "Cabriolet",
+        "jp": "カブリオレ",
+        "kr": "카브리올레"
+      },
+      "type": "rear",
+      "series": "Pink_Cabriolet",
+      "stats": {
+        "speed": 5,
+        "acceleration": 15,
+        "handling": 20,
+        "power": 7,
+        "boost": 13
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "handling_002",
+      "name": {
+        "en": "Spyder",
+        "jp": "スパイダー",
+        "kr": "스파이더"
+      },
+      "type": "rear",
+      "series": "Lip_Spyder",
+      "stats": {
+        "speed": 6,
+        "acceleration": 14,
+        "handling": 20,
+        "power": 8,
+        "boost": 12
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "handling_003",
+      "name": {
+        "en": "Carriage",
+        "jp": "キャリッジ",
+        "kr": "캐리지"
+      },
+      "type": "rear",
+      "series": "Victoria_Carriage",
+      "stats": {
+        "speed": 7,
+        "acceleration": 14,
+        "handling": 19,
+        "power": 9,
+        "boost": 11
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Rose' in Race Park (1st LAP)",
+        "jp": "レースパーク(1st LAP)で「チームローズ」に3勝",
+        "kr": "레이스 파크(1st LAP)에서「팀 로즈」를 상대로 3승"
+      }
+    },
+    {
+      "id": "handling_004",
+      "name": {
+        "en": "Beetle",
+        "jp": "ビートル",
+        "kr": "비틀"
+      },
+      "type": "rear",
+      "series": "Moto_Beetle",
+      "stats": {
+        "speed": 7,
+        "acceleration": 14,
+        "handling": 18,
+        "power": 10,
+        "boost": 11
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Eggman' in Race Park (1st LAP)",
+        "jp": "レースパーク(1st LAP)で「チームエッグマン」に3勝",
+        "kr": "레이스 파크(1st LAP)에서「팀 에그맨」을 상대로 3승"
+      }
+    },
+    {
+      "id": "handling_005",
+      "name": {
+        "en": "Throne",
+        "jp": "スローン",
+        "kr": "스론"
+      },
+      "type": "rear",
+      "series": "Ancient_Throne",
+      "stats": {
+        "speed": 5,
+        "acceleration": 16,
+        "handling": 17,
+        "power": 8,
+        "boost": 14
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Babylon Thieves' in Race Park (1st LAP)",
+        "jp": "レースパーク(1st LAP)で「チームバビロン盗賊団」に3勝",
+        "kr": "레이스 파크(1st LAP)에서「팀 바빌론 도적단」을 상대로 3승"
+      }
+    },
+    {
+      "id": "handling_006",
+      "name": {
+        "en": "Lady",
+        "jp": "レディー",
+        "kr": "레이디"
+      },
+      "type": "rear",
+      "series": "Little_Lady",
+      "stats": {
+        "speed": 5,
+        "acceleration": 16,
+        "handling": 19,
+        "power": 7,
+        "boost": 13
+      },
+      "unlock": {
+        "en": "Purchase with 10 Donpa Tickets",
+        "jp": "ドンパ チケット10枚で購入",
+        "kr": "돈파 티켓 10장으로 구매"
+      }
+    },
+    {
+      "id": "handling_007",
+      "name": {
+        "en": "Hatch",
+        "jp": "ハッチ",
+        "kr": "해치"
+      },
+      "type": "rear",
+      "series": "Hot_Hatch",
+      "stats": {
+        "speed": 6,
+        "acceleration": 15,
+        "handling": 19,
+        "power": 8,
+        "boost": 12
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "handling_008",
+      "name": {
+        "en": "Rock",
+        "jp": "ロック",
+        "kr": "록"
+      },
+      "type": "rear",
+      "series": "Fossil_Rock",
+      "stats": {
+        "speed": 5,
+        "acceleration": 16,
+        "handling": 18,
+        "power": 8,
+        "boost": 13
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "handling_009",
+      "name": {
+        "en": "Lightron",
+        "jp": "ライトロン",
+        "kr": "라이트론"
+      },
+      "type": "rear",
+      "series": "Neo_Lightron",
+      "stats": {
+        "speed": 7,
+        "acceleration": 13,
+        "handling": 20,
+        "power": 9,
+        "boost": 11
+      },
+      "unlock": {
+        "en": "Purchase with 200 Donpa Tickets",
+        "jp": "ドンパ チケット200枚で購入",
+        "kr": "돈파 티켓 200장으로 구매"
+      }
+    },
+    {
+      "id": "handling_010",
+      "name": {
+        "en": "Cart",
+        "jp": "カート",
+        "kr": "카트"
+      },
+      "type": "rear",
+      "series": "MineCart",
+      "stats": {
+        "speed": 7,
+        "acceleration": 14,
+        "handling": 16,
+        "power": 10,
+        "boost": 13
+      },
+      "unlock": {
+        "en": "Purchase with 'Minecraft DLC'",
+        "jp": "「Minecraft DLC」で購入",
+        "kr": "「Minecraft DLC」를 구매"
+      }
+    },
+    {
+      "id": "handling_011",
+      "name": {
+        "en": "Wagon",
+        "jp": "ワゴン",
+        "kr": "왜건"
+      },
+      "type": "rear",
+      "series": "Patty_Wagon",
+      "stats": {
+        "speed": 7,
+        "acceleration": 14,
+        "handling": 17,
+        "power": 10,
+        "boost": 12
+      },
+      "unlock": {
+        "en": "Purchase with 'SpongeBob SquarePants DLC'",
+        "jp": "「スポンジ・ボブDLC」で購入",
+        "kr": "「네모바지 스폰지밥 DLC」를 구매"
+      }
+    },
+    {
+      "id": "handling_012",
+      "name": {
+        "en": "Mobile",
+        "jp": "モービル",
+        "kr": "모빌"
+      },
+      "type": "rear",
+      "series": "Pacman_Mobile",
+      "stats": {
+        "speed": 6,
+        "acceleration": 15,
+        "handling": 17,
+        "power": 9,
+        "boost": 13
+      },
+      "unlock": {
+        "en": "Purchase with 'PAC-MAN DLC'",
+        "jp": "「パックマン DLC」で購入",
+        "kr": "「팩맨 DLC」를 구매"
+      }
+    }
+  ],
+  "power": [
+    {
+      "id": "power_001",
+      "name": {
+        "en": "Smasher",
+        "jp": "スマッシャー",
+        "kr": "스매셔"
+      },
+      "type": "rear",
+      "series": "Land_Smasher",
+      "stats": {
+        "speed": 13,
+        "acceleration": 7,
+        "handling": 5,
+        "power": 20,
+        "boost": 15
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "power_002",
+      "name": {
+        "en": "Dragoon",
+        "jp": "ドラグーン",
+        "kr": "드라군"
+      },
+      "type": "rear",
+      "series": "Road_Dragoon",
+      "stats": {
+        "speed": 12,
+        "acceleration": 8,
+        "handling": 6,
+        "power": 20,
+        "boost": 14
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "power_003",
+      "name": {
+        "en": "Tank",
+        "jp": "タンク",
+        "kr": "탱크"
+      },
+      "type": "rear",
+      "series": "Knight_Tank",
+      "stats": {
+        "speed": 12,
+        "acceleration": 9,
+        "handling": 6,
+        "power": 18,
+        "boost": 15
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Chaotix' in Race Park (1st LAP)",
+        "jp": "レースパーク(1st LAP)で「チームカオティクス」に3勝",
+        "kr": "레이스 파크(1st LAP)에서 「팀 카오틱스」를 상대로 3승"
+      }
+    },
+    {
+      "id": "power_004",
+      "name": {
+        "en": "Loader",
+        "jp": "ローダー",
+        "kr": "로더"
+      },
+      "type": "rear",
+      "series": "Fang_Loader",
+      "stats": {
+        "speed": 11,
+        "acceleration": 10,
+        "handling": 7,
+        "power": 18,
+        "boost": 14
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Deadly Six' in Race Park (1st LAP)",
+        "jp": "レースパーク(1st LAP)で「チーム六鬼衆」に3勝",
+        "kr": "레이스 파크(1st LAP)에서 「팀 육귀중」을 상대로 3승"
+      }
+    },
+    {
+      "id": "power_005",
+      "name": {
+        "en": "Gator",
+        "jp": "ゲーター",
+        "kr": "게이터"
+      },
+      "type": "rear",
+      "series": "Beat_Gator",
+      "stats": {
+        "speed": 11,
+        "acceleration": 9,
+        "handling": 7,
+        "power": 20,
+        "boost": 13
+      },
+      "unlock": {
+        "en": "Purchase with 10 Donpa Tickets",
+        "jp": "ドンパ チケット10枚で購入",
+        "kr": "돈파 티켓 10장으로 구매"
+      }
+    },
+    {
+      "id": "power_006",
+      "name": {
+        "en": "Cruiser",
+        "jp": "クルーザー",
+        "kr": "크루저"
+      },
+      "type": "rear",
+      "series": "Frog_Cruiser",
+      "stats": {
+        "speed": 13,
+        "acceleration": 7,
+        "handling": 5,
+        "power": 19,
+        "boost": 16
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "power_007",
+      "name": {
+        "en": "Dozer",
+        "jp": "ドーザー",
+        "kr": "도저"
+      },
+      "type": "rear",
+      "series": "Cross_Dozer",
+      "stats": {
+        "speed": 12,
+        "acceleration": 8,
+        "handling": 6,
+        "power": 19,
+        "boost": 15
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "power_008",
+      "name": {
+        "en": "Runner",
+        "jp": "ランナー",
+        "kr": "러너"
+      },
+      "type": "rear",
+      "series": "Trail_Runner",
+      "stats": {
+        "speed": 14,
+        "acceleration": 8,
+        "handling": 5,
+        "power": 17,
+        "boost": 16
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "power_009",
+      "name": {
+        "en": "MK.2",
+        "jp": "スターMK2",
+        "kr": "MK.2"
+      },
+      "type": "rear",
+      "series": "Egg_Drillster_MK2",
+      "stats": {
+        "speed": 11,
+        "acceleration": 9,
+        "handling": 7,
+        "power": 19,
+        "boost": 14
+      },
+      "unlock": {
+        "en": "Purchase with 200 Donpa Tickets",
+        "jp": "ドンパ チケット200枚で購入",
+        "kr": "돈파 티켓 200장으로 구매"
+      }
+    },
+    {
+      "id": "power_010",
+      "name": {
+        "en": "Spike",
+        "jp": "スパイク",
+        "kr": "스파이크"
+      },
+      "type": "rear",
+      "series": "Beast_Spike",
+      "stats": {
+        "speed": 12,
+        "acceleration": 11,
+        "handling": 8,
+        "power": 16,
+        "boost": 13
+      },
+      "unlock": {
+        "en": "Get from 'Werehog Pack'",
+        "jp": "「ウェアホッグパック」で入手",
+        "kr": "「웨어혹 팩」으로 획득"
+      }
+    },
+    {
+      "id": "power_011",
+      "name": {
+        "en": "Brave",
+        "jp": "ブレイブ",
+        "kr": "브레이브"
+      },
+      "type": "rear",
+      "series": "Dragon_Brave",
+      "stats": {
+        "speed": 13,
+        "acceleration": 9,
+        "handling": 6,
+        "power": 17,
+        "boost": 14
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    },
+    {
+      "id": "power_012",
+      "name": {
+        "en": "Maru",
+        "jp": "丸",
+        "kr": "마루"
+      },
+      "type": "rear",
+      "series": "GoroMaru",
+      "stats": {
+        "speed": 12,
+        "acceleration": 10,
+        "handling": 7,
+        "power": 17,
+        "boost": 14
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    },
+    {
+      "id": "power_013",
+      "name": {
+        "en": "Van",
+        "jp": "バン",
+        "kr": "밴"
+      },
+      "type": "rear",
+      "series": "Pizzafire_Van",
+      "stats": {
+        "speed": 14,
+        "acceleration": 9,
+        "handling": 6,
+        "power": 16,
+        "boost": 14
+      },
+      "unlock": {
+        "en": "Purchase with 'Teenage Mutant Ninja Turtles DLC'",
+        "jp": "「ミュータント・タートルズ DLC」で購入",
+        "kr": "「닌자 거북이 DLC」를 구매"
+      }
+    },
+    {
+      "id": "power_014",
+      "name": {
+        "en": "de Amigo",
+        "jp": "DEアミー号",
+        "kr": "데 아미고"
+      },
+      "type": "rear",
+      "series": "Locomotive_de_Amigo",
+      "stats": {
+        "speed": 13,
+        "acceleration": 10,
+        "handling": 7,
+        "power": 16,
+        "boost": 13
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    }
+  ],
+  "boost": [
+    {
+      "id": "boost_001",
+      "name": {
+        "en": "Iota",
+        "jp": "イオタ",
+        "kr": "이오타"
+      },
+      "type": "rear",
+      "series": "Type-J_Iota",
+      "stats": {
+        "speed": 13,
+        "acceleration": 16,
+        "handling": 21,
+        "power": 10,
+        "boost": 30
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "boost_002",
+      "name": {
+        "en": "Stream",
+        "jp": "ストリーム",
+        "kr": "스트림"
+      },
+      "type": "rear",
+      "series": "Type-S_Stream",
+      "stats": {
+        "speed": 12,
+        "acceleration": 17,
+        "handling": 22,
+        "power": 9,
+        "boost": 30
+      },
+      "unlock": {
+        "en": "Hold it from the beginning",
+        "jp": "初めから所持",
+        "kr": "처음부터 소지"
+      }
+    },
+    {
+      "id": "boost_003",
+      "name": {
+        "en": "Board",
+        "jp": "ボード",
+        "kr": "보드"
+      },
+      "type": "rear",
+      "series": "Sakura_Board",
+      "stats": {
+        "speed": 12,
+        "acceleration": 18,
+        "handling": 22,
+        "power": 9,
+        "boost": 29
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Rose' in Race Park (2nd LAP)",
+        "jp": "レースパーク(2nd LAP)で「チームローズ」に3勝",
+        "kr": "레이스 파크(2nd LAP)에서 「팀 로즈」를 상대로 3승"
+      }
+    },
+    {
+      "id": "boost_004",
+      "name": {
+        "en": "Fan",
+        "jp": "ファン",
+        "kr": "팬"
+      },
+      "type": "rear",
+      "series": "Triple_Fan",
+      "stats": {
+        "speed": 14,
+        "acceleration": 17,
+        "handling": 21,
+        "power": 10,
+        "boost": 28
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Eggman' in Race Park (2nd LAP)",
+        "jp": "レースパーク(2nd LAP)で「チームエッグマン」に3勝",
+        "kr": "레이스 파크(2nd LAP)에서 「팀 에그맨」을 상대로 3승"
+      }
+    },
+    {
+      "id": "boost_005",
+      "name": {
+        "en": "Float",
+        "jp": "フロート",
+        "kr": "플로트"
+      },
+      "type": "rear",
+      "series": "Pop_Float",
+      "stats": {
+        "speed": 13,
+        "acceleration": 18,
+        "handling": 22,
+        "power": 9,
+        "boost": 28
+      },
+      "unlock": {
+        "en": "3 Wins vs. 'Team Babylon Thieves' in Race Park (2nd LAP)",
+        "jp": "レースパーク(2nd LAP)で「チームバビロン盗賊団」に3勝",
+        "kr": "레이스 파크(2nd LAP)에서 「팀 바빌론 도적단」을 상대로 3승"
+      }
+    },
+    {
+      "id": "boost_006",
+      "name": {
+        "en": "Windy",
+        "jp": "ウインディ",
+        "kr": "윈디"
+      },
+      "type": "rear",
+      "series": "Type-W_Windy",
+      "stats": {
+        "speed": 11,
+        "acceleration": 18,
+        "handling": 22,
+        "power": 9,
+        "boost": 30
+      },
+      "unlock": {
+        "en": "Purchase with 10 Donpa Tickets",
+        "jp": "ドンパ チケット10枚で購入",
+        "kr": "돈파 티켓 10장으로 구매"
+      }
+    },
+    {
+      "id": "boost_007",
+      "name": {
+        "en": "Booster",
+        "jp": "ブースター",
+        "kr": "부스터"
+      },
+      "type": "rear",
+      "series": "Wispon_Booster",
+      "stats": {
+        "speed": 13,
+        "acceleration": 17,
+        "handling": 21,
+        "power": 10,
+        "boost": 29
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "boost_008",
+      "name": {
+        "en": "Copter",
+        "jp": "コプター",
+        "kr": "콥터"
+      },
+      "type": "rear",
+      "series": "Quad_Copter",
+      "stats": {
+        "speed": 11,
+        "acceleration": 19,
+        "handling": 23,
+        "power": 8,
+        "boost": 29
+      },
+      "unlock": {
+        "en": "Purchase with 100 Donpa Tickets",
+        "jp": "ドンパ チケット100枚で購入",
+        "kr": "돈파 티켓 100장으로 구매"
+      }
+    },
+    {
+      "id": "boost_009",
+      "name": {
+        "en": "Rocket",
+        "jp": "ロケット",
+        "kr": "로켓"
+      },
+      "type": "rear",
+      "series": "Jaws_Rocket",
+      "stats": {
+        "speed": 12,
+        "acceleration": 17,
+        "handling": 23,
+        "power": 8,
+        "boost": 28
+      },
+      "unlock": {
+        "en": "Purchase with 200 Donpa Tickets",
+        "jp": "ドンパ チケット200枚で購入",
+        "kr": "돈파 티켓 200장으로 구매"
+      }
+    },
+    {
+      "id": "boost_010",
+      "name": {
+        "en": "Star",
+        "jp": "スター",
+        "kr": "스타"
+      },
+      "type": "rear",
+      "series": "Blue_Star",
+      "stats": {
+        "speed": 14,
+        "acceleration": 17,
+        "handling": 22,
+        "power": 10,
+        "boost": 27
+      },
+      "unlock": {
+        "en": "Purchase with 'Blue Star DLC'",
+        "jp": "「ブルースター DLC」で購入",
+        "kr": "「블루 스타 DLC」를 구매"
+      }
+    },
+    {
+      "id": "boost_011",
+      "name": {
+        "en": "Macchina",
+        "jp": "マッキナ",
+        "kr": "마키나"
+      },
+      "type": "rear",
+      "series": "Diva_Macchina",
+      "stats": {
+        "speed": 14,
+        "acceleration": 18,
+        "handling": 22,
+        "power": 10,
+        "boost": 26
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    },
+    {
+      "id": "boost_012",
+      "name": {
+        "en": "Sleeper",
+        "jp": "スリーパー",
+        "kr": "슬리퍼"
+      },
+      "type": "rear",
+      "series": "Dream_Sleeper",
+      "stats": {
+        "speed": 13,
+        "acceleration": 18,
+        "handling": 23,
+        "power": 9,
+        "boost": 27
+      },
+      "unlock": {
+        "en": "Free Update",
+        "jp": "無料アップデート",
+        "kr": "무료 업데이트"
+      }
+    },
+    {
+      "id": "boost_013",
+      "name": {
+        "en": "Air",
+        "jp": "エア",
+        "kr": "에어"
+      },
+      "type": "rear",
+      "series": "Gliding_Air",
+      "stats": {
+        "speed": 13,
+        "acceleration": 19,
+        "handling": 23,
+        "power": 9,
+        "boost": 26
+      },
+      "unlock": {
+        "en": "Purchase with 'Avatar : The Last Airbender DLC'",
+        "jp": "「アバター 伝説の少年アン DLC」で購入",
+        "kr": "「아바타 : 아앙의 전설 DLC」를 구매"
+      }
+    }
+  ]
+}
