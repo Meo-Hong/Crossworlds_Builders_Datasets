@@ -399,6 +399,11 @@
       "jp": "速度・ドリフト関連表を見る",
       "kr": "속도/드리프트 관련 표 보기"
     },
+    "showMechanicTablesShort": {
+      "en": "Speed",
+      "jp": "速度",
+      "kr": "속도"
+    },
     "sectionLabel": {
       "en": "Machine Selection",
       "jp": "マシン選択",
@@ -415,17 +420,17 @@
       "kr": "고유 특징"
     },
     "prosLabel": {
-      "en": "Advantages",
+      "en": "Pros",
       "jp": "長所",
       "kr": "장점"
     },
     "consLabel": {
-      "en": "Disadvantages",
+      "en": "Cons",
       "jp": "短所",
       "kr": "단점"
     },
     "featuresLabel": {
-      "en": "Features",
+      "en": "Notes",
       "jp": "特徴",
       "kr": "특징"
     }
