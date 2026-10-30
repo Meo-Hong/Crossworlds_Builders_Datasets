@@ -585,7 +585,7 @@
                     "The button-mashing method for the accelerate button is also an homage to the original mechanic of 'pressing the button multiple times to charge'.",
                     "Rather than mashing the accelerate button as fast as possible, it is most efficient to tap it rhythmically at a rate of 3 to 4 times per second. Because it is a system where 'it only charges a certain amount while the accelerate button is held down', pressing it too quickly reduces the amount charged per tap.",
                     "The duration of the 'Charge Boost' becomes 5 times longer. In other words, even a Lv1 Charge Boost lasts for 5 seconds, and a Lv3 Charge Boost lasts for a whopping 17 seconds. (Excerpt from Official X).",
-                    "The 5x duration applies to all boosts, not just Charge Boosts, and is capped at 20 seconds. This lets you stack three Lv3 Charge Boosts and keep driving at the +40km/h boost cap. (Based on the Speed Document by Yoshister)",
+                    "The 5x duration does not apply to Boost items or Air Trick Boosts. Instead, every boost stacks on top of the extended Charge Boost through 'Boost Stacking', so stacking three Lv3 Charge Boosts lets you keep driving at the +40km/h boost cap. (Based on the Speed Document by Yoshister)",
                     "When activated, a blue 'Sonic spinning effect' appears on the rear wheels. In the case of 'Boost Type', a blue spin effect appears on both sides of the rear parts."
                 ],
                 "jp": [
@@ -596,7 +596,7 @@
                     "アクセルボタンを連打する方式も、原作の「ボタンを何度も押してチャージする」ギミックをオマージュしたものです。",
                     "アクセルボタンを素早く連打するよりも、リズムに合わせて1秒間に3～4回押すスピードで連打するのが最も効率的です。「アクセルボタンを押している間だけ一定量チャージされる方式」であるため、素早く連打しすぎると1回あたりのチャージ量が減少します。",
                     "「チャージダッシュ」の持続時間が5倍長くなります。つまり、Lv1チャージダッシュだけでも5秒間持続し、Lv3チャージダッシュはなんと17秒間も持続します。（公式Xより抜粋）",
-                    "持続時間5倍の効果はチャージダッシュだけでなくすべてのブーストに適用され、最大20秒に制限されます。そのため、Lv3チャージダッシュを3つ重ねて、ブーストの上限である+40km/hの状態で走り続けることができます。（Speed Document by Yoshister 基準）",
+                    "持続時間5倍の効果は、ブーストアイテムとエアトリックブーストには適用されません。代わりに、長くなったチャージダッシュ中はすべてのブーストが「ブーストの重複」で加算され、Lv3チャージダッシュを3つ重ねると、ブーストの上限である+40km/hの状態で走り続けることができます。（Speed Document by Yoshister 基準）",
                     "発動時、後輪に青い「ソニックがスピンするエフェクト」が表示されます。'ダッシュタイプ'の場合は、リアパーツの両脇に青いスピンエフェクトが表示されます。"
                 ],
                 "kr": [
@@ -607,7 +607,7 @@
                     "액셀 버튼을 연타하는 방식 또한 원작의 '버튼을 여러 번 눌러 차지'를 오마쥬한 방식입니다.",
                     "액셀 버튼을 빠르게 연타하는 것보다, 리듬에 맞춰 1초에 3~4번 누르는 속도로 연타하는 것이 가장 효율이 좋습니다. '액셀 버튼을 누르는 동안에만 일정량 만큼 차지되는 방식'이기 때문에 빠르게 연타하면 한번에 차지되는 양이 줄어듭니다.",
                     "'차지 대시'의 지속 시간이 5배 길어집니다. 즉, Lv1 차지 대시만 해도 5초동안 지속되며, Lv3 차지 대시는 무려 17초 동안 지속 됩니다. (공식 X 발췌)",
-                    "지속 시간 5배 효과는 차지 대시뿐 아니라 모든 부스트에 적용되며, 최대 20초로 제한됩니다. 그래서 Lv3 차지 대시 3개를 겹쳐 부스트 상한인 +40km/h 상태로 계속 달릴 수 있습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
+                    "지속 시간 5배 효과는 부스트 아이템과 에어 트릭 부스트에는 적용되지 않습니다. 대신 길어진 차지 대시 중에는 모든 부스트가 '부스트 중첩'으로 더해져, Lv3 차지 대시 3개를 겹치면 부스트 상한인 +40km/h 상태로 계속 달릴 수 있습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                     "시전 시, 뒷바퀴가 파란 색의 '소닉이 스핀하는 효과'가 나타납니다. '대시 타입'의 경우에는 리어 파츠 양 옆으로 파란 스핀 효과가 나타납니다."
                 ]
             },
