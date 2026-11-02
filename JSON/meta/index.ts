@@ -1,4 +1,4 @@
-import lcRound7 from "./LC_round7.json";
+import lcRound8 from "./LC_round8.json";
 import wcs2026 from "./WCS_2026.json";
 import type lcRound1 from "./LC_round1.json";
 import type lcRound2 from "./LC_round2.json";
@@ -6,8 +6,10 @@ import type lcRound3 from "./LC_round3.json";
 import type lcRound4 from "./LC_round4.json";
 import type lcRound5 from "./LC_round5.json";
 import type lcRound6 from "./LC_round6.json";
+import type lcRound7 from "./LC_round7.json";
 
 export type MetaDoc =
+  | typeof lcRound8
   | typeof lcRound7
   | typeof lcRound6
   | typeof lcRound5
@@ -19,7 +21,8 @@ export type MetaDoc =
 export type MetaRoundOption = { id: string; series: string; round: number };
 
 const META_LOADERS: Record<string, () => Promise<MetaDoc>> = {
-  LC_round7: () => Promise.resolve(lcRound7),
+  LC_round8: () => Promise.resolve(lcRound8),
+  LC_round7: () => import("./LC_round7.json").then((mod) => mod.default),
   LC_round6: () => import("./LC_round6.json").then((mod) => mod.default),
   LC_round5: () => import("./LC_round5.json").then((mod) => mod.default),
   LC_round4: () => import("./LC_round4.json").then((mod) => mod.default),
@@ -28,9 +31,9 @@ const META_LOADERS: Record<string, () => Promise<MetaDoc>> = {
   LC_round1: () => import("./LC_round1.json").then((mod) => mod.default),
 };
 
-export const LATEST_META_DOC: MetaDoc = lcRound7;
+export const LATEST_META_DOC: MetaDoc = lcRound8;
 
-export const META_ROUND_OPTIONS: MetaRoundOption[] = [7, 6, 5, 4, 3, 2, 1].map((round) => ({
+export const META_ROUND_OPTIONS: MetaRoundOption[] = [8, 7, 6, 5, 4, 3, 2, 1].map((round) => ({
   id: `LC_round${round}`,
   series: "LC",
   round,
