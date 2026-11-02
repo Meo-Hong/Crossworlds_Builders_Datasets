@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "id": "LC_round8",
+  "series": "LC",
+  "round": 8,
+  "schedule": {
+    "start": "2026-10-23",
+    "end": "2026-11-02"
+  },
+  "version": "1.4.3",
+  "sample": {
+    "from": 1,
+    "to": 1000,
+    "count": 0,
+    "unique_builds": 0,
+    "excluded_ranks": []
+  },
+  "clustering_rules": {
+    "kr": [
+      "한 줄 요약: 빌드의 중심이 되는 ‘메인 파워 가젯’(엔진·키트 등)을 찾아 슬롯 가중 점수를 매기고, 점수가 가장 높은 축이 그 빌드의 주요 빌드(유형)가 됩니다.",
+      "핵심축: 하이퍼링엔진형 / 더블링엔진형 / 링엔진형 / 스핀대시형 / 액셀키트형 / 아이템형 / 얼티밋차지형 / 퀵리커버형 / 진화형 / 저스트차지대시형 / 에어트릭특화형 / 몬스터트럭형 / 무적파이널형.",
+      "점수 매기는 법: 핵심축의 시그니처 가젯은 (슬롯 수 × 3), 그 축의 보조 가젯은 (슬롯 수 × 1)로 합산합니다. 보조 가젯은 그 축의 시그니처가 빌드에 있을 때만 점수에 들어갑니다.",
+      "주요 빌드 판정: 하이퍼 링 엔진이 들어 있으면 다른 키트와 함께 써도 하이퍼링엔진형입니다. 링 엔진까지 같이 있으면 더블링엔진형입니다. 그 외에는 점수가 가장 높은 축이 주요 빌드입니다.",
+      "슬립스트림배깅형: 핵심축 점수가 동점이어도 액셀 캐릭터 키트를 대량 위스프 키트 · 아이템 한가득 키트 · 아이템 스톡 트레이드 중 하나와 함께 쓰면 슬립스트림배깅형입니다.",
+      "저스트차지형 · 추격기본형: 핵심축이 하나도 없을 때 저스트 차지 보너스가 있으면 저스트차지형, 슬립스트림 보너스 · 세컨드 패스트 차지 · 서드 패스트 차지 · 링 획득 대시 미니 중 3개 이상이면 추격기본형입니다.",
+      "링대시형 · 기타: 위 어디에도 해당하지 않고 핵심축이 하나도 없을 때 링·가속 관련 슬롯 합이 3 이상이면 링대시형, 아니면 기타입니다. 핵심축 점수가 동점인 하이브리드도 기타로 봅니다. 표본에서 비중이 낮은 유형도 기타로 묶고, 카드 안에 세부 유형으로 보여 줍니다.",
+      "표본: 빈칸·None 순위는 분석 표본에서 제외합니다."
+    ],
+    "en": [
+      "In short: find the build’s main power gadget (engine, kit, etc.), score it by slot weight, and the highest-scoring axis becomes the build’s main build type.",
+      "Core axes: Hyper Ring Engine / Double Ring Engine / Ring Engine / Spin Dash / Accel Kit / Item / Ultimate Charge / Quick Recovery / Evolution / Perfect Charge Boost / Air Trick / Monster Truck / Strong Finish.",
+      "How scoring works: a core axis’s signature gadgets add (slot cost × 3) and its support gadgets add (slot cost × 1). Support gadgets only count when that axis’s signature is in the build.",
+      "Main-build call: any build holding Hyper Ring Engine is Hyper Ring Engine, even next to another kit. With Ring Engine also equipped it is Double Ring Engine. Otherwise the highest-scoring axis wins.",
+      "Slipstream Bagging: even when core-axis scores tie, Acceleration Character Kit paired with Wisp Hoarder Kit, Item Hoarder Kit or Inventory Swap is Slipstream Bagging.",
+      "Perfect Charge / Chase: with no core axis at all, a build with Perfect Charge Bounty is Perfect Charge, and three or more of Slipstream Bounty, Lv2 Quick Charge, Lv3 Quick Charge and Ring Gain Mini Boost is Chase.",
+      "Ring Boost / Other: when none of the above applies and there is no core axis, a ring/accel slot sum of 3 or more is Ring Boost, otherwise Other. Hybrids whose core-axis scores tie also go to Other, as do axes too small to stand alone — those appear as sub-types inside the Other card.",
+      "Sample: empty / None ranks are excluded from the analysis sample."
+    ],
+    "jp": [
+      "一言で: ビルドの中心となる『メインパワーガジェット』（エンジン・キットなど）を見つけてスロット重みで点数化し、いちばん高い軸がそのビルドの主要ビルド（タイプ）になります。",
+      "コア軸: ハイパーリングエンジン型 / Wリングエンジン型 / リングエンジン型 / スピンダッシュ型 / アクセルキット型 / アイテム型 / アルティメットチャージ型 / クイックリカバー型 / 進化型 / ジャストチャージダッシュ型 / エアトリック特化型 / モンスタートラック型 / 無敵ファイナル型。",
+      "点数の付け方: コア軸のシグネチャガジェットは（スロット数×3）、その軸の補助ガジェットは（スロット数×1）で合算します。補助ガジェットは、その軸のシグネチャがビルドにあるときだけ加点されます。",
+      "主要ビルド判定: ハイパーリングエンジンを積んでいれば、他のキットと併用してもハイパーリングエンジン型です。リングエンジンも一緒ならWリングエンジン型。それ以外は点数がいちばん高い軸が主要ビルドです。",
+      "スリップストリームバギング型: コア軸の点数が同点でも、アクセルキャラキットとウィスプたくさんキット・アイテムたくさんキット・アイテムストックトレードのいずれかを併用していればスリップストリームバギング型です。",
+      "ジャストチャージ型・追撃型: コア軸がひとつも無いとき、ジャストチャージボーナスがあればジャストチャージ型、スリップストリームボーナス・セカンドファストチャージ・サードファストチャージ・リングゲットダッシュミニのうち3つ以上なら追撃型です。",
+      "リングダッシュ型・その他: 上のどれにも当てはまらずコア軸がひとつも無いとき、リング／加速スロット合計が3以上ならリングダッシュ型、それ以外はその他です。コア軸の点数が同点のハイブリッドや、標本内の比率が低い軸もその他にまとめ、カード内に細分タイプとして表示します。",
+      "標本: 空欄・None順位は分析標本から除外します。"
+    ]
+  },
+  "ranking_cut": {
+    "first": null,
+    "last": null,
+    "score_rank_cut": {}
+  },
+  "clusters": [],
+  "rank_bands": [],
+  "character_usage": [],
+  "character_type_usage": [],
+  "machine_type_usage": [],
+  "type_combo_usage": [],
+  "gadget_usage": [],
+  "rankings": []
+}
