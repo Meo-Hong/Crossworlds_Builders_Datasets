@@ -48,9 +48,15 @@
     ]
   },
   "ranking_cut": {
-    "first": null,
-    "last": null,
-    "score_rank_cut": {}
+    "first": 2270,
+    "last": 1876,
+    "score_rank_cut": {
+      "2200" : 14,
+      "2100" : 116,
+      "2000" : 293,
+      "1950" : 392,
+      "1900" : 680
+    }
   },
   "clusters": [],
   "rank_bands": [],
