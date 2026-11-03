@@ -10,37 +10,43 @@
   "version": "1.4.3",
   "sample": {
     "from": 1,
-    "to": 1000,
-    "count": 0,
-    "unique_builds": 0,
+    "to": 100,
+    "count": 100,
+    "unique_builds": 18,
     "excluded_ranks": []
   },
   "clustering_rules": {
     "kr": [
-      "한 줄 요약: 빌드의 중심이 되는 ‘메인 파워 가젯’(엔진·키트 등)을 찾아 슬롯 가중 점수를 매기고, 점수가 가장 높은 축이 그 빌드의 주요 빌드(유형)가 됩니다.",
-      "핵심축: 하이퍼링엔진형 / 더블링엔진형 / 링엔진형 / 스핀대시형 / 액셀키트형 / 아이템형 / 얼티밋차지형 / 퀵리커버형 / 진화형 / 저스트차지대시형 / 에어트릭특화형 / 몬스터트럭형 / 무적파이널형.",
+      "한 줄 요약: 라운드 8은 EX 가젯으로 '로우 링 스피드 UP'이 전원에게 지급됩니다. 빌드의 중심이 되는 ‘메인 파워 가젯’(엔진·키트 등)을 찾아 슬롯 가중 점수를 매기고, 점수가 가장 높은 축이 그 빌드의 주요 빌드(유형)가 됩니다.",
+      "핵심축: 하이퍼링엔진형 / 더블링엔진형 / 링엔진형 / 스핀대시형 / 디코이아이템형 / 액셀키트형 / 아이템형 / 얼티밋차지형 / 퀵리커버형 / 진화형 / 저스트차지대시형 / 에어트릭특화형 / 몬스터트럭형 / 무적파이널형.",
+      "우선 판정: 스핀 대시 키트가 들어 있으면 하이퍼 링 엔진 · 링 엔진과 함께 써도 스핀대시형입니다. 그다음으로 디코이 아이템이 들어 있으면 링 엔진 등과 함께 써도 디코이아이템형입니다. 하이퍼 링 엔진을 링 엔진 없이 쓰면서 저스트 차지 대시 · 저스트 차지 키트가 들어 있으면 저스트차지대시형입니다.",
       "점수 매기는 법: 핵심축의 시그니처 가젯은 (슬롯 수 × 3), 그 축의 보조 가젯은 (슬롯 수 × 1)로 합산합니다. 보조 가젯은 그 축의 시그니처가 빌드에 있을 때만 점수에 들어갑니다.",
-      "주요 빌드 판정: 하이퍼 링 엔진이 들어 있으면 다른 키트와 함께 써도 하이퍼링엔진형입니다. 링 엔진까지 같이 있으면 더블링엔진형입니다. 그 외에는 점수가 가장 높은 축이 주요 빌드입니다.",
+      "주요 빌드 판정: 우선 판정에 해당하지 않으면, 하이퍼 링 엔진이 들어 있을 때 하이퍼링엔진형이고 링 엔진까지 같이 있으면 더블링엔진형입니다. 그 외에는 점수가 가장 높은 축이 주요 빌드입니다.",
+      "아이템형 보정: 링엔진형 · 진화형 · 기타로 잡히는 빌드에 아이템 스톡 플러스가 들어 있으면 아이템형으로 봅니다.",
       "슬립스트림배깅형: 핵심축 점수가 동점이어도 액셀 캐릭터 키트를 대량 위스프 키트 · 아이템 한가득 키트 · 아이템 스톡 트레이드 중 하나와 함께 쓰면 슬립스트림배깅형입니다.",
       "저스트차지형 · 추격기본형: 핵심축이 하나도 없을 때 저스트 차지 보너스가 있으면 저스트차지형, 슬립스트림 보너스 · 세컨드 패스트 차지 · 서드 패스트 차지 · 링 획득 대시 미니 중 3개 이상이면 추격기본형입니다.",
       "링대시형 · 기타: 위 어디에도 해당하지 않고 핵심축이 하나도 없을 때 링·가속 관련 슬롯 합이 3 이상이면 링대시형, 아니면 기타입니다. 핵심축 점수가 동점인 하이브리드도 기타로 봅니다. 표본에서 비중이 낮은 유형도 기타로 묶고, 카드 안에 세부 유형으로 보여 줍니다.",
       "표본: 빈칸·None 순위는 분석 표본에서 제외합니다."
     ],
     "en": [
-      "In short: find the build’s main power gadget (engine, kit, etc.), score it by slot weight, and the highest-scoring axis becomes the build’s main build type.",
-      "Core axes: Hyper Ring Engine / Double Ring Engine / Ring Engine / Spin Dash / Accel Kit / Item / Ultimate Charge / Quick Recovery / Evolution / Perfect Charge Boost / Air Trick / Monster Truck / Strong Finish.",
+      "In short: Round 8 hands every player Less is More as the EX Gadget. Find the build’s main power gadget (engine, kit, etc.), score it by slot weight, and the highest-scoring axis becomes the build’s main build type.",
+      "Core axes: Hyper Ring Engine / Double Ring Engine / Ring Engine / Spin Dash / Substitute Item / Accel Kit / Item / Ultimate Charge / Quick Recovery / Evolution / Perfect Charge Boost / Air Trick / Monster Truck / Strong Finish.",
+      "Priority call: any build holding Spin Dash Kit is Spin Dash, even next to Hyper Ring Engine or Ring Engine. After that, any build holding Substitute Item is Substitute Item, even next to Ring Engine. A build running Hyper Ring Engine without Ring Engine is Perfect Charge Boost when it also holds Perfect Charge Boost or Perfect Charge Kit.",
       "How scoring works: a core axis’s signature gadgets add (slot cost × 3) and its support gadgets add (slot cost × 1). Support gadgets only count when that axis’s signature is in the build.",
-      "Main-build call: any build holding Hyper Ring Engine is Hyper Ring Engine, even next to another kit. With Ring Engine also equipped it is Double Ring Engine. Otherwise the highest-scoring axis wins.",
+      "Main-build call: when no priority call applies, a build holding Hyper Ring Engine is Hyper Ring Engine, and with Ring Engine also equipped it is Double Ring Engine. Otherwise the highest-scoring axis wins.",
+      "Item adjustment: a build that would land in Ring Engine, Evolution or Other is Item when it holds Inventory Plus.",
       "Slipstream Bagging: even when core-axis scores tie, Acceleration Character Kit paired with Wisp Hoarder Kit, Item Hoarder Kit or Inventory Swap is Slipstream Bagging.",
       "Perfect Charge / Chase: with no core axis at all, a build with Perfect Charge Bounty is Perfect Charge, and three or more of Slipstream Bounty, Lv2 Quick Charge, Lv3 Quick Charge and Ring Gain Mini Boost is Chase.",
       "Ring Boost / Other: when none of the above applies and there is no core axis, a ring/accel slot sum of 3 or more is Ring Boost, otherwise Other. Hybrids whose core-axis scores tie also go to Other, as do axes too small to stand alone — those appear as sub-types inside the Other card.",
       "Sample: empty / None ranks are excluded from the analysis sample."
     ],
     "jp": [
-      "一言で: ビルドの中心となる『メインパワーガジェット』（エンジン・キットなど）を見つけてスロット重みで点数化し、いちばん高い軸がそのビルドの主要ビルド（タイプ）になります。",
-      "コア軸: ハイパーリングエンジン型 / Wリングエンジン型 / リングエンジン型 / スピンダッシュ型 / アクセルキット型 / アイテム型 / アルティメットチャージ型 / クイックリカバー型 / 進化型 / ジャストチャージダッシュ型 / エアトリック特化型 / モンスタートラック型 / 無敵ファイナル型。",
+      "一言で: ラウンド8はEXガジェットで『低リングスピードアップ』が全員に配られます。ビルドの中心となる『メインパワーガジェット』（エンジン・キットなど）を見つけてスロット重みで点数化し、いちばん高い軸がそのビルドの主要ビルド（タイプ）になります。",
+      "コア軸: ハイパーリングエンジン型 / Wリングエンジン型 / リングエンジン型 / スピンダッシュ型 / みがわりアイテム型 / アクセルキット型 / アイテム型 / アルティメットチャージ型 / クイックリカバー型 / 進化型 / ジャストチャージダッシュ型 / エアトリック特化型 / モンスタートラック型 / 無敵ファイナル型。",
+      "優先判定: スピンダッシュキットを積んでいれば、ハイパーリングエンジン・リングエンジンと併用してもスピンダッシュ型です。次に、みがわりアイテムを積んでいれば、リングエンジンなどと併用してもみがわりアイテム型です。リングエンジン無しでハイパーリングエンジンを積み、ジャストチャージダッシュ・ジャストチャージキットも入っていれば、ジャストチャージダッシュ型です。",
       "点数の付け方: コア軸のシグネチャガジェットは（スロット数×3）、その軸の補助ガジェットは（スロット数×1）で合算します。補助ガジェットは、その軸のシグネチャがビルドにあるときだけ加点されます。",
-      "主要ビルド判定: ハイパーリングエンジンを積んでいれば、他のキットと併用してもハイパーリングエンジン型です。リングエンジンも一緒ならWリングエンジン型。それ以外は点数がいちばん高い軸が主要ビルドです。",
+      "主要ビルド判定: 優先判定に当てはまらないとき、ハイパーリングエンジンを積んでいればハイパーリングエンジン型、リングエンジンも一緒ならWリングエンジン型です。それ以外は点数がいちばん高い軸が主要ビルドです。",
+      "アイテム型補正: リングエンジン型・進化型・その他になるビルドにアイテムストックプラスが入っていれば、アイテム型とします。",
       "スリップストリームバギング型: コア軸の点数が同点でも、アクセルキャラキットとウィスプたくさんキット・アイテムたくさんキット・アイテムストックトレードのいずれかを併用していればスリップストリームバギング型です。",
       "ジャストチャージ型・追撃型: コア軸がひとつも無いとき、ジャストチャージボーナスがあればジャストチャージ型、スリップストリームボーナス・セカンドファストチャージ・サードファストチャージ・リングゲットダッシュミニのうち3つ以上なら追撃型です。",
       "リングダッシュ型・その他: 上のどれにも当てはまらずコア軸がひとつも無いとき、リング／加速スロット合計が3以上ならリングダッシュ型、それ以外はその他です。コア軸の点数が同点のハイブリッドや、標本内の比率が低い軸もその他にまとめ、カード内に細分タイプとして表示します。",
@@ -51,19 +57,3504 @@
     "first": 2270,
     "last": 1876,
     "score_rank_cut": {
-      "2200" : 14,
-      "2100" : 116,
-      "2000" : 293,
-      "1950" : 392,
-      "1900" : 680
+      "2200": 14,
+      "2100": 116,
+      "2000": 293,
+      "1950": 392,
+      "1900": 680
     }
   },
-  "clusters": [],
-  "rank_bands": [],
-  "character_usage": [],
-  "character_type_usage": [],
-  "machine_type_usage": [],
-  "type_combo_usage": [],
-  "gadget_usage": [],
-  "rankings": []
+  "clusters": [
+    {
+      "id": "double_ring_engine",
+      "name": {
+        "kr": "더블링엔진형",
+        "en": "Double Ring Engine",
+        "jp": "Wリングエンジン型"
+      },
+      "representative_gadget": "gadget_build_017",
+      "count": 72,
+      "pct": 72.0,
+      "unique_builds": 4,
+      "builds": [
+        {
+          "gadgets": [
+            "gadget_008",
+            "gadget_100",
+            "gadget_027",
+            "gadget_099"
+          ],
+          "count": 66,
+          "pct_of_round": 66.0,
+          "pct_of_cluster": 91.7
+        },
+        {
+          "gadgets": [
+            "gadget_100",
+            "gadget_027",
+            "gadget_028",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 2,
+          "pct_of_round": 2.0,
+          "pct_of_cluster": 2.8
+        },
+        {
+          "gadgets": [
+            "gadget_062",
+            "gadget_100",
+            "gadget_005",
+            "gadget_099"
+          ],
+          "count": 2,
+          "pct_of_round": 2.0,
+          "pct_of_cluster": 2.8
+        },
+        {
+          "gadgets": [
+            "gadget_031",
+            "gadget_100",
+            "gadget_005",
+            "gadget_099"
+          ],
+          "count": 2,
+          "pct_of_round": 2.0,
+          "pct_of_cluster": 2.8
+        }
+      ],
+      "other": {
+        "count": 2,
+        "pct_of_round": 2.0,
+        "pct_of_cluster": 2.8,
+        "unique_builds": 1
+      },
+      "character_usage": [
+        {
+          "id": "character_029",
+          "count": 11,
+          "pct": 15.3
+        },
+        {
+          "id": "character_003",
+          "count": 11,
+          "pct": 15.3
+        },
+        {
+          "id": "character_009",
+          "count": 5,
+          "pct": 6.9
+        },
+        {
+          "id": "character_035",
+          "count": 5,
+          "pct": 6.9
+        },
+        {
+          "id": "character_008",
+          "count": 5,
+          "pct": 6.9
+        },
+        {
+          "id": "character_001",
+          "count": 3,
+          "pct": 4.2
+        },
+        {
+          "id": "character_026",
+          "count": 3,
+          "pct": 4.2
+        },
+        {
+          "id": "character_039",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_dlc_004",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_032",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_dlc_001",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_028",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_038",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_023",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_007",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_018",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_021",
+          "count": 2,
+          "pct": 2.8
+        },
+        {
+          "id": "character_002",
+          "count": 1,
+          "pct": 1.4
+        },
+        {
+          "id": "character_010",
+          "count": 1,
+          "pct": 1.4
+        },
+        {
+          "id": "character_004",
+          "count": 1,
+          "pct": 1.4
+        }
+      ],
+      "character_type_usage": [
+        {
+          "type": "speed",
+          "name": {
+            "kr": "스피드",
+            "en": "Speed",
+            "jp": "スピード"
+          },
+          "count": 23,
+          "pct": 31.9
+        },
+        {
+          "type": "power",
+          "name": {
+            "kr": "파워",
+            "en": "Power",
+            "jp": "パワー"
+          },
+          "count": 23,
+          "pct": 31.9
+        },
+        {
+          "type": "boost",
+          "name": {
+            "kr": "부스트",
+            "en": "Boost",
+            "jp": "ブースト"
+          },
+          "count": 16,
+          "pct": 22.2
+        },
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 8,
+          "pct": 11.1
+        },
+        {
+          "type": "acceleration",
+          "name": {
+            "kr": "액셀",
+            "en": "Accel",
+            "jp": "アクセル"
+          },
+          "count": 2,
+          "pct": 2.8
+        }
+      ],
+      "machine_type_usage": [
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 72,
+          "pct": 100.0
+        }
+      ],
+      "type_combo_usage": [
+        {
+          "character_type": "speed",
+          "machine_type": "handling",
+          "count": 23,
+          "pct": 31.9
+        },
+        {
+          "character_type": "power",
+          "machine_type": "handling",
+          "count": 23,
+          "pct": 31.9
+        },
+        {
+          "character_type": "boost",
+          "machine_type": "handling",
+          "count": 16,
+          "pct": 22.2
+        },
+        {
+          "character_type": "handling",
+          "machine_type": "handling",
+          "count": 8,
+          "pct": 11.1
+        },
+        {
+          "character_type": "acceleration",
+          "machine_type": "handling",
+          "count": 2,
+          "pct": 2.8
+        }
+      ]
+    },
+    {
+      "id": "just_charge_dash",
+      "name": {
+        "kr": "저스트차지대시형",
+        "en": "Perfect Charge Boost",
+        "jp": "ジャストチャージダッシュ型"
+      },
+      "representative_gadget": "gadget_030",
+      "count": 11,
+      "pct": 11.0,
+      "unique_builds": 4,
+      "builds": [
+        {
+          "gadgets": [
+            "gadget_030",
+            "gadget_031",
+            "gadget_027",
+            "gadget_099"
+          ],
+          "count": 6,
+          "pct_of_round": 6.0,
+          "pct_of_cluster": 54.5
+        },
+        {
+          "gadgets": [
+            "gadget_030",
+            "gadget_031",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 3,
+          "pct_of_round": 3.0,
+          "pct_of_cluster": 27.3
+        },
+        {
+          "gadgets": [
+            "gadget_030",
+            "gadget_100",
+            "gadget_027",
+            "gadget_028"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 9.1
+        },
+        {
+          "gadgets": [
+            "gadget_030",
+            "gadget_027",
+            "gadget_028",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 9.1
+        }
+      ],
+      "other": {
+        "count": 1,
+        "pct_of_round": 1.0,
+        "pct_of_cluster": 9.1,
+        "unique_builds": 1
+      },
+      "character_usage": [
+        {
+          "id": "character_009",
+          "count": 3,
+          "pct": 27.3
+        },
+        {
+          "id": "character_dlc_008",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "id": "character_001",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "id": "character_016",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "id": "character_004",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "id": "character_035",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "id": "character_029",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "id": "character_021",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "id": "character_015",
+          "count": 1,
+          "pct": 9.1
+        }
+      ],
+      "character_type_usage": [
+        {
+          "type": "speed",
+          "name": {
+            "kr": "스피드",
+            "en": "Speed",
+            "jp": "スピード"
+          },
+          "count": 5,
+          "pct": 45.5
+        },
+        {
+          "type": "power",
+          "name": {
+            "kr": "파워",
+            "en": "Power",
+            "jp": "パワー"
+          },
+          "count": 2,
+          "pct": 18.2
+        },
+        {
+          "type": "boost",
+          "name": {
+            "kr": "부스트",
+            "en": "Boost",
+            "jp": "ブースト"
+          },
+          "count": 2,
+          "pct": 18.2
+        },
+        {
+          "type": "acceleration",
+          "name": {
+            "kr": "액셀",
+            "en": "Accel",
+            "jp": "アクセル"
+          },
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 1,
+          "pct": 9.1
+        }
+      ],
+      "machine_type_usage": [
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 8,
+          "pct": 72.7
+        },
+        {
+          "type": "boost",
+          "name": {
+            "kr": "부스트",
+            "en": "Boost",
+            "jp": "ブースト"
+          },
+          "count": 3,
+          "pct": 27.3
+        }
+      ],
+      "type_combo_usage": [
+        {
+          "character_type": "speed",
+          "machine_type": "handling",
+          "count": 3,
+          "pct": 27.3
+        },
+        {
+          "character_type": "speed",
+          "machine_type": "boost",
+          "count": 2,
+          "pct": 18.2
+        },
+        {
+          "character_type": "boost",
+          "machine_type": "handling",
+          "count": 2,
+          "pct": 18.2
+        },
+        {
+          "character_type": "power",
+          "machine_type": "handling",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "character_type": "acceleration",
+          "machine_type": "handling",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "character_type": "handling",
+          "machine_type": "handling",
+          "count": 1,
+          "pct": 9.1
+        },
+        {
+          "character_type": "power",
+          "machine_type": "boost",
+          "count": 1,
+          "pct": 9.1
+        }
+      ]
+    },
+    {
+      "id": "item",
+      "name": {
+        "kr": "아이템형",
+        "en": "Item",
+        "jp": "アイテム型"
+      },
+      "representative_gadget": "gadget_061",
+      "count": 7,
+      "pct": 7.0,
+      "unique_builds": 3,
+      "builds": [
+        {
+          "gadgets": [
+            "gadget_062",
+            "gadget_027",
+            "gadget_028",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 5,
+          "pct_of_round": 5.0,
+          "pct_of_cluster": 71.4
+        },
+        {
+          "gadgets": [
+            "gadget_093",
+            "gadget_027",
+            "gadget_028",
+            "gadget_099"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 14.3
+        },
+        {
+          "gadgets": [
+            "gadget_062",
+            "gadget_027",
+            "gadget_028",
+            "gadget_047",
+            "gadget_099"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 14.3
+        }
+      ],
+      "other": {
+        "count": 0,
+        "pct_of_round": 0.0,
+        "pct_of_cluster": 0.0,
+        "unique_builds": 0
+      },
+      "character_usage": [
+        {
+          "id": "character_029",
+          "count": 2,
+          "pct": 28.6
+        },
+        {
+          "id": "character_035",
+          "count": 2,
+          "pct": 28.6
+        },
+        {
+          "id": "character_003",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "id": "character_026",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "id": "character_008",
+          "count": 1,
+          "pct": 14.3
+        }
+      ],
+      "character_type_usage": [
+        {
+          "type": "boost",
+          "name": {
+            "kr": "부스트",
+            "en": "Boost",
+            "jp": "ブースト"
+          },
+          "count": 4,
+          "pct": 57.1
+        },
+        {
+          "type": "power",
+          "name": {
+            "kr": "파워",
+            "en": "Power",
+            "jp": "パワー"
+          },
+          "count": 2,
+          "pct": 28.6
+        },
+        {
+          "type": "speed",
+          "name": {
+            "kr": "스피드",
+            "en": "Speed",
+            "jp": "スピード"
+          },
+          "count": 1,
+          "pct": 14.3
+        }
+      ],
+      "machine_type_usage": [
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 6,
+          "pct": 85.7
+        },
+        {
+          "type": "boost",
+          "name": {
+            "kr": "부스트",
+            "en": "Boost",
+            "jp": "ブースト"
+          },
+          "count": 1,
+          "pct": 14.3
+        }
+      ],
+      "type_combo_usage": [
+        {
+          "character_type": "boost",
+          "machine_type": "handling",
+          "count": 4,
+          "pct": 57.1
+        },
+        {
+          "character_type": "power",
+          "machine_type": "handling",
+          "count": 2,
+          "pct": 28.6
+        },
+        {
+          "character_type": "speed",
+          "machine_type": "boost",
+          "count": 1,
+          "pct": 14.3
+        }
+      ]
+    },
+    {
+      "id": "invincible_final",
+      "name": {
+        "kr": "무적파이널형",
+        "en": "Strong Finish",
+        "jp": "無敵ファイナル型"
+      },
+      "representative_gadget": "gadget_055",
+      "count": 5,
+      "pct": 5.0,
+      "unique_builds": 2,
+      "builds": [
+        {
+          "gadgets": [
+            "gadget_055",
+            "gadget_027",
+            "gadget_028",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 3,
+          "pct_of_round": 3.0,
+          "pct_of_cluster": 60.0
+        },
+        {
+          "gadgets": [
+            "gadget_031",
+            "gadget_055",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 2,
+          "pct_of_round": 2.0,
+          "pct_of_cluster": 40.0
+        }
+      ],
+      "other": {
+        "count": 0,
+        "pct_of_round": 0.0,
+        "pct_of_cluster": 0.0,
+        "unique_builds": 0
+      },
+      "character_usage": [
+        {
+          "id": "character_029",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "id": "character_008",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "id": "character_006",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "id": "character_009",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "id": "character_012",
+          "count": 1,
+          "pct": 20.0
+        }
+      ],
+      "character_type_usage": [
+        {
+          "type": "speed",
+          "name": {
+            "kr": "스피드",
+            "en": "Speed",
+            "jp": "スピード"
+          },
+          "count": 2,
+          "pct": 40.0
+        },
+        {
+          "type": "power",
+          "name": {
+            "kr": "파워",
+            "en": "Power",
+            "jp": "パワー"
+          },
+          "count": 2,
+          "pct": 40.0
+        },
+        {
+          "type": "boost",
+          "name": {
+            "kr": "부스트",
+            "en": "Boost",
+            "jp": "ブースト"
+          },
+          "count": 1,
+          "pct": 20.0
+        }
+      ],
+      "machine_type_usage": [
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 5,
+          "pct": 100.0
+        }
+      ],
+      "type_combo_usage": [
+        {
+          "character_type": "speed",
+          "machine_type": "handling",
+          "count": 2,
+          "pct": 40.0
+        },
+        {
+          "character_type": "power",
+          "machine_type": "handling",
+          "count": 2,
+          "pct": 40.0
+        },
+        {
+          "character_type": "boost",
+          "machine_type": "handling",
+          "count": 1,
+          "pct": 20.0
+        }
+      ]
+    },
+    {
+      "id": "spin_dash",
+      "name": {
+        "kr": "스핀대시형",
+        "en": "Spin Dash",
+        "jp": "スピンダッシュ型"
+      },
+      "representative_gadget": "gadget_113",
+      "count": 2,
+      "pct": 2.0,
+      "unique_builds": 2,
+      "builds": [
+        {
+          "gadgets": [
+            "gadget_113",
+            "gadget_030",
+            "gadget_099"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 50.0
+        },
+        {
+          "gadgets": [
+            "gadget_113",
+            "gadget_100",
+            "gadget_099"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 50.0
+        }
+      ],
+      "other": {
+        "count": 0,
+        "pct_of_round": 0.0,
+        "pct_of_cluster": 0.0,
+        "unique_builds": 0
+      },
+      "character_usage": [
+        {
+          "id": "character_021",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "id": "character_039",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "character_type_usage": [
+        {
+          "type": "speed",
+          "name": {
+            "kr": "스피드",
+            "en": "Speed",
+            "jp": "スピード"
+          },
+          "count": 2,
+          "pct": 100.0
+        }
+      ],
+      "machine_type_usage": [
+        {
+          "type": "boost",
+          "name": {
+            "kr": "부스트",
+            "en": "Boost",
+            "jp": "ブースト"
+          },
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "type": "speed",
+          "name": {
+            "kr": "스피드",
+            "en": "Speed",
+            "jp": "スピード"
+          },
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "type_combo_usage": [
+        {
+          "character_type": "speed",
+          "machine_type": "boost",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "character_type": "speed",
+          "machine_type": "speed",
+          "count": 1,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": {
+        "kr": "기타",
+        "en": "Other",
+        "jp": "その他"
+      },
+      "representative_gadget": "gadget_default",
+      "count": 1,
+      "pct": 1.0,
+      "unique_builds": 1,
+      "builds": [
+        {
+          "gadgets": [
+            "gadget_031",
+            "gadget_065",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 100.0
+        }
+      ],
+      "other": {
+        "count": 0,
+        "pct_of_round": 0.0,
+        "pct_of_cluster": 0.0,
+        "unique_builds": 0
+      },
+      "character_usage": [
+        {
+          "id": "character_003",
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "character_type_usage": [
+        {
+          "type": "power",
+          "name": {
+            "kr": "파워",
+            "en": "Power",
+            "jp": "パワー"
+          },
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "machine_type_usage": [
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "type_combo_usage": [
+        {
+          "character_type": "power",
+          "machine_type": "handling",
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "subgroups": [
+        {
+          "id": "other",
+          "name": {
+            "kr": "기타",
+            "en": "Other",
+            "jp": "その他"
+          },
+          "representative_gadget": "gadget_default",
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 100.0,
+          "unique_builds": 1
+        }
+      ]
+    },
+    {
+      "id": "ultimate_charge",
+      "name": {
+        "kr": "얼티밋차지형",
+        "en": "Ultimate Charge",
+        "jp": "アルティメットチャージ型"
+      },
+      "representative_gadget": "gadget_029",
+      "count": 1,
+      "pct": 1.0,
+      "unique_builds": 1,
+      "builds": [
+        {
+          "gadgets": [
+            "gadget_029",
+            "gadget_031",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 100.0
+        }
+      ],
+      "other": {
+        "count": 0,
+        "pct_of_round": 0.0,
+        "pct_of_cluster": 0.0,
+        "unique_builds": 0
+      },
+      "character_usage": [
+        {
+          "id": "character_dlc_008",
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "character_type_usage": [
+        {
+          "type": "power",
+          "name": {
+            "kr": "파워",
+            "en": "Power",
+            "jp": "パワー"
+          },
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "machine_type_usage": [
+        {
+          "type": "boost",
+          "name": {
+            "kr": "부스트",
+            "en": "Boost",
+            "jp": "ブースト"
+          },
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "type_combo_usage": [
+        {
+          "character_type": "power",
+          "machine_type": "boost",
+          "count": 1,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "id": "decoy_item",
+      "name": {
+        "kr": "디코이아이템형",
+        "en": "Substitute Item",
+        "jp": "みがわりアイテム型"
+      },
+      "representative_gadget": "gadget_107",
+      "count": 1,
+      "pct": 1.0,
+      "unique_builds": 1,
+      "builds": [
+        {
+          "gadgets": [
+            "gadget_107",
+            "gadget_027",
+            "gadget_028",
+            "gadget_099",
+            "gadget_110"
+          ],
+          "count": 1,
+          "pct_of_round": 1.0,
+          "pct_of_cluster": 100.0
+        }
+      ],
+      "other": {
+        "count": 0,
+        "pct_of_round": 0.0,
+        "pct_of_cluster": 0.0,
+        "unique_builds": 0
+      },
+      "character_usage": [
+        {
+          "id": "character_004",
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "character_type_usage": [
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "machine_type_usage": [
+        {
+          "type": "handling",
+          "name": {
+            "kr": "핸들링",
+            "en": "Handling",
+            "jp": "ハンドリング"
+          },
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "type_combo_usage": [
+        {
+          "character_type": "handling",
+          "machine_type": "handling",
+          "count": 1,
+          "pct": 100.0
+        }
+      ]
+    }
+  ],
+  "rank_bands": [
+    {
+      "from": 1,
+      "to": 100,
+      "sample": 100,
+      "clusters": [
+        {
+          "id": "double_ring_engine",
+          "name": {
+            "kr": "더블링엔진형",
+            "en": "Double Ring Engine",
+            "jp": "Wリングエンジン型"
+          },
+          "count": 72,
+          "pct": 72.0
+        },
+        {
+          "id": "just_charge_dash",
+          "name": {
+            "kr": "저스트차지대시형",
+            "en": "Perfect Charge Boost",
+            "jp": "ジャストチャージダッシュ型"
+          },
+          "count": 11,
+          "pct": 11.0
+        },
+        {
+          "id": "item",
+          "name": {
+            "kr": "아이템형",
+            "en": "Item",
+            "jp": "アイテム型"
+          },
+          "count": 7,
+          "pct": 7.0
+        },
+        {
+          "id": "invincible_final",
+          "name": {
+            "kr": "무적파이널형",
+            "en": "Strong Finish",
+            "jp": "無敵ファイナル型"
+          },
+          "count": 5,
+          "pct": 5.0
+        },
+        {
+          "id": "spin_dash",
+          "name": {
+            "kr": "스핀대시형",
+            "en": "Spin Dash",
+            "jp": "スピンダッシュ型"
+          },
+          "count": 2,
+          "pct": 2.0
+        },
+        {
+          "id": "other",
+          "name": {
+            "kr": "기타",
+            "en": "Other",
+            "jp": "その他"
+          },
+          "count": 1,
+          "pct": 1.0
+        },
+        {
+          "id": "ultimate_charge",
+          "name": {
+            "kr": "얼티밋차지형",
+            "en": "Ultimate Charge",
+            "jp": "アルティメットチャージ型"
+          },
+          "count": 1,
+          "pct": 1.0
+        },
+        {
+          "id": "decoy_item",
+          "name": {
+            "kr": "디코이아이템형",
+            "en": "Substitute Item",
+            "jp": "みがわりアイテム型"
+          },
+          "count": 1,
+          "pct": 1.0
+        }
+      ]
+    }
+  ],
+  "character_usage": [
+    {
+      "id": "character_029",
+      "count": 15,
+      "pct": 15.0
+    },
+    {
+      "id": "character_003",
+      "count": 13,
+      "pct": 13.0
+    },
+    {
+      "id": "character_009",
+      "count": 9,
+      "pct": 9.0
+    },
+    {
+      "id": "character_035",
+      "count": 8,
+      "pct": 8.0
+    },
+    {
+      "id": "character_008",
+      "count": 7,
+      "pct": 7.0
+    },
+    {
+      "id": "character_001",
+      "count": 4,
+      "pct": 4.0
+    },
+    {
+      "id": "character_026",
+      "count": 4,
+      "pct": 4.0
+    },
+    {
+      "id": "character_021",
+      "count": 4,
+      "pct": 4.0
+    },
+    {
+      "id": "character_039",
+      "count": 3,
+      "pct": 3.0
+    },
+    {
+      "id": "character_dlc_008",
+      "count": 3,
+      "pct": 3.0
+    },
+    {
+      "id": "character_004",
+      "count": 3,
+      "pct": 3.0
+    },
+    {
+      "id": "character_dlc_004",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_032",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_dlc_001",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_028",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_038",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_023",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_012",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_007",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_018",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_015",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "character_002",
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "character_006",
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "character_010",
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "character_016",
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "character_013",
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "character_dlc_014",
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "character_014",
+      "count": 1,
+      "pct": 1.0
+    }
+  ],
+  "character_type_usage": [
+    {
+      "type": "speed",
+      "name": {
+        "kr": "스피드",
+        "en": "Speed",
+        "jp": "スピード"
+      },
+      "count": 33,
+      "pct": 33.0
+    },
+    {
+      "type": "power",
+      "name": {
+        "kr": "파워",
+        "en": "Power",
+        "jp": "パワー"
+      },
+      "count": 31,
+      "pct": 31.0
+    },
+    {
+      "type": "boost",
+      "name": {
+        "kr": "부스트",
+        "en": "Boost",
+        "jp": "ブースト"
+      },
+      "count": 23,
+      "pct": 23.0
+    },
+    {
+      "type": "handling",
+      "name": {
+        "kr": "핸들링",
+        "en": "Handling",
+        "jp": "ハンドリング"
+      },
+      "count": 10,
+      "pct": 10.0
+    },
+    {
+      "type": "acceleration",
+      "name": {
+        "kr": "액셀",
+        "en": "Accel",
+        "jp": "アクセル"
+      },
+      "count": 3,
+      "pct": 3.0
+    }
+  ],
+  "machine_type_usage": [
+    {
+      "type": "handling",
+      "name": {
+        "kr": "핸들링",
+        "en": "Handling",
+        "jp": "ハンドリング"
+      },
+      "count": 93,
+      "pct": 93.0
+    },
+    {
+      "type": "boost",
+      "name": {
+        "kr": "부스트",
+        "en": "Boost",
+        "jp": "ブースト"
+      },
+      "count": 6,
+      "pct": 6.0
+    },
+    {
+      "type": "speed",
+      "name": {
+        "kr": "스피드",
+        "en": "Speed",
+        "jp": "スピード"
+      },
+      "count": 1,
+      "pct": 1.0
+    }
+  ],
+  "type_combo_usage": [
+    {
+      "character_type": "power",
+      "machine_type": "handling",
+      "count": 29,
+      "pct": 29.0
+    },
+    {
+      "character_type": "speed",
+      "machine_type": "handling",
+      "count": 28,
+      "pct": 28.0
+    },
+    {
+      "character_type": "boost",
+      "machine_type": "handling",
+      "count": 23,
+      "pct": 23.0
+    },
+    {
+      "character_type": "handling",
+      "machine_type": "handling",
+      "count": 10,
+      "pct": 10.0
+    },
+    {
+      "character_type": "speed",
+      "machine_type": "boost",
+      "count": 4,
+      "pct": 4.0
+    },
+    {
+      "character_type": "acceleration",
+      "machine_type": "handling",
+      "count": 3,
+      "pct": 3.0
+    },
+    {
+      "character_type": "power",
+      "machine_type": "boost",
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "character_type": "speed",
+      "machine_type": "speed",
+      "count": 1,
+      "pct": 1.0
+    }
+  ],
+  "gadget_usage": [
+    {
+      "id": "gadget_099",
+      "slots": 1,
+      "count": 99,
+      "pct": 99.0
+    },
+    {
+      "id": "gadget_027",
+      "slots": 1,
+      "count": 87,
+      "pct": 87.0
+    },
+    {
+      "id": "gadget_100",
+      "slots": 2,
+      "count": 74,
+      "pct": 74.0
+    },
+    {
+      "id": "gadget_008",
+      "slots": 2,
+      "count": 66,
+      "pct": 66.0
+    },
+    {
+      "id": "gadget_110",
+      "slots": 1,
+      "count": 19,
+      "pct": 19.0
+    },
+    {
+      "id": "gadget_028",
+      "slots": 1,
+      "count": 15,
+      "pct": 15.0
+    },
+    {
+      "id": "gadget_031",
+      "slots": 2,
+      "count": 15,
+      "pct": 15.0
+    },
+    {
+      "id": "gadget_030",
+      "slots": 2,
+      "count": 12,
+      "pct": 12.0
+    },
+    {
+      "id": "gadget_062",
+      "slots": 2,
+      "count": 8,
+      "pct": 8.0
+    },
+    {
+      "id": "gadget_055",
+      "slots": 2,
+      "count": 5,
+      "pct": 5.0
+    },
+    {
+      "id": "gadget_005",
+      "slots": 1,
+      "count": 4,
+      "pct": 4.0
+    },
+    {
+      "id": "gadget_113",
+      "slots": 3,
+      "count": 2,
+      "pct": 2.0
+    },
+    {
+      "id": "gadget_065",
+      "slots": 2,
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "gadget_029",
+      "slots": 2,
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "gadget_093",
+      "slots": 3,
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "gadget_047",
+      "slots": 1,
+      "count": 1,
+      "pct": 1.0
+    },
+    {
+      "id": "gadget_107",
+      "slots": 2,
+      "count": 1,
+      "pct": 1.0
+    }
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "character_id": "character_002",
+      "character_type": "acceleration",
+      "front_id": "handling_005",
+      "front_type": "handling",
+      "rear_id": "handling_005",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 2,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 3,
+      "character_id": "character_035",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 4,
+      "character_id": "character_008",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 5,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_031",
+        "gadget_055",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "invincible_final"
+    },
+    {
+      "rank": 6,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_012",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_062",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "item"
+    },
+    {
+      "rank": 7,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 8,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 9,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 10,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 11,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 12,
+      "character_id": "character_039",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 13,
+      "character_id": "character_dlc_008",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 14,
+      "character_id": "character_001",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 15,
+      "character_id": "character_026",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 16,
+      "character_id": "character_dlc_004",
+      "character_type": "handling",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 17,
+      "character_id": "character_001",
+      "character_type": "speed",
+      "front_id": "boost_001",
+      "front_type": "boost",
+      "rear_id": "boost_001",
+      "rear_type": "boost",
+      "tire_id": null,
+      "tire_type": null,
+      "machine_type": "boost",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 18,
+      "character_id": "character_008",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_055",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "invincible_final"
+    },
+    {
+      "rank": 19,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_030",
+        "gadget_100",
+        "gadget_027",
+        "gadget_028"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 20,
+      "character_id": "character_032",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 21,
+      "character_id": "character_008",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 22,
+      "character_id": "character_001",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 23,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 24,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 25,
+      "character_id": "character_026",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_062",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "item"
+    },
+    {
+      "rank": 26,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 27,
+      "character_id": "character_006",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_031",
+        "gadget_055",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "invincible_final"
+    },
+    {
+      "rank": 28,
+      "character_id": "character_001",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 29,
+      "character_id": "character_021",
+      "character_type": "speed",
+      "front_id": "boost_001",
+      "front_type": "boost",
+      "rear_id": "boost_001",
+      "rear_type": "boost",
+      "tire_id": null,
+      "tire_type": null,
+      "machine_type": "boost",
+      "gadgets": [
+        "gadget_113",
+        "gadget_030",
+        "gadget_099"
+      ],
+      "cluster_id": "spin_dash"
+    },
+    {
+      "rank": 30,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 31,
+      "character_id": "character_dlc_001",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 32,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_007",
+      "front_type": "handling",
+      "rear_id": "handling_009",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_031",
+        "gadget_065",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "other"
+    },
+    {
+      "rank": 33,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_062",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "item"
+    },
+    {
+      "rank": 34,
+      "character_id": "character_028",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 35,
+      "character_id": "character_038",
+      "character_type": "handling",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 36,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_055",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "invincible_final"
+    },
+    {
+      "rank": 37,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 38,
+      "character_id": "character_026",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 39,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 40,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 41,
+      "character_id": "character_010",
+      "character_type": "handling",
+      "front_id": "handling_007",
+      "front_type": "handling",
+      "rear_id": "handling_007",
+      "rear_type": "handling",
+      "tire_id": "handling_007",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 42,
+      "character_id": "character_039",
+      "character_type": "speed",
+      "front_id": "speed_002",
+      "front_type": "speed",
+      "rear_id": "speed_001",
+      "rear_type": "speed",
+      "tire_id": "speed_001",
+      "tire_type": "speed",
+      "machine_type": "speed",
+      "gadgets": [
+        "gadget_113",
+        "gadget_100",
+        "gadget_099"
+      ],
+      "cluster_id": "spin_dash"
+    },
+    {
+      "rank": 43,
+      "character_id": "character_008",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 44,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 45,
+      "character_id": "character_023",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 46,
+      "character_id": "character_012",
+      "character_type": "power",
+      "front_id": "handling_005",
+      "front_type": "handling",
+      "rear_id": "handling_005",
+      "rear_type": "handling",
+      "tire_id": "handling_007",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_055",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "invincible_final"
+    },
+    {
+      "rank": 47,
+      "character_id": "character_035",
+      "character_type": "boost",
+      "front_id": "handling_005",
+      "front_type": "handling",
+      "rear_id": "handling_005",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_062",
+        "gadget_100",
+        "gadget_005",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 48,
+      "character_id": "character_016",
+      "character_type": "acceleration",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 49,
+      "character_id": "character_004",
+      "character_type": "handling",
+      "front_id": "handling_005",
+      "front_type": "handling",
+      "rear_id": "handling_005",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_030",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 50,
+      "character_id": "character_007",
+      "character_type": "handling",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 51,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 52,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 53,
+      "character_id": "character_038",
+      "character_type": "handling",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 54,
+      "character_id": "character_028",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 55,
+      "character_id": "character_007",
+      "character_type": "handling",
+      "front_id": "handling_009",
+      "front_type": "handling",
+      "rear_id": "handling_009",
+      "rear_type": "handling",
+      "tire_id": "handling_009",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_100",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 56,
+      "character_id": "character_dlc_008",
+      "character_type": "power",
+      "front_id": "boost_001",
+      "front_type": "boost",
+      "rear_id": "boost_001",
+      "rear_type": "boost",
+      "tire_id": null,
+      "tire_type": null,
+      "machine_type": "boost",
+      "gadgets": [
+        "gadget_029",
+        "gadget_031",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "ultimate_charge"
+    },
+    {
+      "rank": 57,
+      "character_id": "character_004",
+      "character_type": "handling",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 58,
+      "character_id": "character_035",
+      "character_type": "boost",
+      "front_id": "handling_009",
+      "front_type": "handling",
+      "rear_id": "handling_009",
+      "rear_type": "handling",
+      "tire_id": "handling_009",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 59,
+      "character_id": "character_013",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 60,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 61,
+      "character_id": "character_008",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 62,
+      "character_id": "character_018",
+      "character_type": "speed",
+      "front_id": "handling_009",
+      "front_type": "handling",
+      "rear_id": "handling_009",
+      "rear_type": "handling",
+      "tire_id": "handling_009",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 63,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 64,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 65,
+      "character_id": "character_dlc_014",
+      "character_type": "speed",
+      "front_id": "handling_005",
+      "front_type": "handling",
+      "rear_id": "handling_005",
+      "rear_type": "handling",
+      "tire_id": "handling_004",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 66,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 67,
+      "character_id": "character_012",
+      "character_type": "power",
+      "front_id": "handling_002",
+      "front_type": "handling",
+      "rear_id": "handling_007",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_031",
+        "gadget_100",
+        "gadget_005",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 68,
+      "character_id": "character_dlc_004",
+      "character_type": "handling",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 69,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_062",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "item"
+    },
+    {
+      "rank": 70,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_031",
+        "gadget_100",
+        "gadget_005",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 71,
+      "character_id": "character_035",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 72,
+      "character_id": "character_021",
+      "character_type": "speed",
+      "front_id": "handling_009",
+      "front_type": "handling",
+      "rear_id": "handling_007",
+      "rear_type": "handling",
+      "tire_id": "handling_009",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 73,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_007",
+      "front_type": "handling",
+      "rear_id": "handling_007",
+      "rear_type": "handling",
+      "tire_id": "handling_007",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 74,
+      "character_id": "character_035",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 75,
+      "character_id": "character_014",
+      "character_type": "acceleration",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 76,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 77,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_012",
+      "front_type": "handling",
+      "rear_id": "handling_012",
+      "rear_type": "handling",
+      "tire_id": "handling_012",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 78,
+      "character_id": "character_dlc_008",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 79,
+      "character_id": "character_039",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 80,
+      "character_id": "character_026",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 81,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 82,
+      "character_id": "character_035",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_008",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_093",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099"
+      ],
+      "cluster_id": "item"
+    },
+    {
+      "rank": 83,
+      "character_id": "character_015",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 84,
+      "character_id": "character_018",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 85,
+      "character_id": "character_035",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_062",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "item"
+    },
+    {
+      "rank": 86,
+      "character_id": "character_021",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 87,
+      "character_id": "character_021",
+      "character_type": "speed",
+      "front_id": "boost_001",
+      "front_type": "boost",
+      "rear_id": "boost_001",
+      "rear_type": "boost",
+      "tire_id": null,
+      "tire_type": null,
+      "machine_type": "boost",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 88,
+      "character_id": "character_023",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 89,
+      "character_id": "character_032",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 90,
+      "character_id": "character_015",
+      "character_type": "power",
+      "front_id": "boost_001",
+      "front_type": "boost",
+      "rear_id": "boost_001",
+      "rear_type": "boost",
+      "tire_id": null,
+      "tire_type": null,
+      "machine_type": "boost",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 91,
+      "character_id": "character_008",
+      "character_type": "speed",
+      "front_id": "boost_001",
+      "front_type": "boost",
+      "rear_id": "boost_001",
+      "rear_type": "boost",
+      "tire_id": null,
+      "tire_type": null,
+      "machine_type": "boost",
+      "gadgets": [
+        "gadget_062",
+        "gadget_027",
+        "gadget_028",
+        "gadget_047",
+        "gadget_099"
+      ],
+      "cluster_id": "item"
+    },
+    {
+      "rank": 92,
+      "character_id": "character_004",
+      "character_type": "handling",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_107",
+        "gadget_027",
+        "gadget_028",
+        "gadget_099",
+        "gadget_110"
+      ],
+      "cluster_id": "decoy_item"
+    },
+    {
+      "rank": 93,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 94,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 95,
+      "character_id": "character_008",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 96,
+      "character_id": "character_003",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 97,
+      "character_id": "character_dlc_001",
+      "character_type": "power",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 98,
+      "character_id": "character_035",
+      "character_type": "boost",
+      "front_id": "handling_005",
+      "front_type": "handling",
+      "rear_id": "handling_005",
+      "rear_type": "handling",
+      "tire_id": "handling_005",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_062",
+        "gadget_100",
+        "gadget_005",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    },
+    {
+      "rank": 99,
+      "character_id": "character_009",
+      "character_type": "speed",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_030",
+        "gadget_031",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "just_charge_dash"
+    },
+    {
+      "rank": 100,
+      "character_id": "character_029",
+      "character_type": "boost",
+      "front_id": "handling_010",
+      "front_type": "handling",
+      "rear_id": "handling_010",
+      "rear_type": "handling",
+      "tire_id": "handling_010",
+      "tire_type": "handling",
+      "machine_type": "handling",
+      "gadgets": [
+        "gadget_008",
+        "gadget_100",
+        "gadget_027",
+        "gadget_099"
+      ],
+      "cluster_id": "double_ring_engine"
+    }
+  ]
 }
