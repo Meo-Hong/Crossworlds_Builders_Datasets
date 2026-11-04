@@ -958,6 +958,52 @@
         }
     },
     {
+        "id" : "character_042",
+        "name": {
+            "en": "Bayonetta",
+            "jp": "ベヨネッタ",
+            "kr" : "베요네타"
+        },
+        "icon" : "bayonetta_icon.png",
+        "type": "handling",
+        "team" : "update2",
+        "from" : {
+            "en": "Bayonetta Series",
+            "jp": "ベヨネッタ シリーズ",
+            "kr" : "베요네타 시리즈"
+        },
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 14,
+            "handling" : 16,
+            "power" : 10,
+            "boost" : 13
+        }
+    },
+    {
+        "id" : "character_043",
+        "name": {
+            "en": "Aigis",
+            "jp": "アイギス",
+            "kr" : "아이기스"
+        },
+        "icon" : "persona3_icon.png",
+        "type": "boost",
+        "team" : "update2",
+        "from" : {
+            "en": "Persona 3",
+            "jp": "ペルソナ3",
+            "kr" : "페르소나3 "
+        },
+        "stat table" : {
+            "speed" : 10,
+            "acceleration" : 11,
+            "handling" : 14,
+            "power" : 7,
+            "boost" : 18
+        }
+    },
+    {
         "id" : "character_dlc_001",
         "name": {
             "en": "Steve",
@@ -1294,6 +1340,44 @@
             "handling" : 20,
             "power" : 9,
             "boost" : 11
+        }
+    },
+    {
+        "id" : "character_dlc_016",
+        "name": {
+            "en": "Rei Ayanami",
+            "jp": "綾波レイ",
+            "kr" : "아야나미 레이"
+        },
+        "icon" : "evangelion_icon.png",
+        "type": "acceleration",
+        "team" : "DLC2",
+        "from" : "Evangelion(Rebuild) Series",
+        "stat table" : {
+            "speed" : 14,
+            "acceleration" : 17,
+            "handling" : 10,
+            "power" : 12,
+            "boost" : 7
+        }
+    },
+    {
+        "id" : "character_dlc_017",
+        "name": {
+            "en": "Asuka Shikinami Langley",
+            "jp": "式波・アスカ・ラングレー",
+            "kr" : "시키나미 아스카 랑그레이"
+        },
+        "icon" : "evangelion_icon.png",
+        "type": "boost",
+        "team" : "DLC2",
+        "from" : "Evangelion(Rebuild) Series",
+        "stat table" : {
+            "speed" : 7,
+            "acceleration" : 13,
+            "handling" : 16,
+            "power" : 5,
+            "boost" : 19
         }
     }
 ]
