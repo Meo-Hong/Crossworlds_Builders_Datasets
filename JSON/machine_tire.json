@@ -285,6 +285,50 @@
                 "jp" : "無料アップデート",
                 "kr" : "무료 업데이트"
             }
+        },
+        {
+            "id" : "speed_014",
+            "name": {
+                "en" : "Super Dark Flare",
+                "jp" : "スーパーダークフレア",
+                "kr" : "슈퍼 다크 플레어"
+            },
+            "type" : "tire",
+            "series" : "Super_Dark_Flare",
+            "stats" : {
+                "speed" : 18,
+                "acceleration" : 5,
+                "handling" : 13,
+                "power" : 16,
+                "boost" : 8
+            },
+            "unlock" : {
+                "en" : "Purchased Season Pass 1 & 2",
+                "jp" : "シーズンパス1・2 所持",
+                "kr" : "시즌패스1, 시즌패스2 모두 보유"
+            }
+        },
+        {
+            "id" : "speed_015",
+            "name": {
+              "en" : "MacLaren Racing Car",
+              "jp" : "マクラーレンレーシングカー",
+              "kr" : "맥라렌 레이싱 카"
+            },
+            "type" : "tire",
+            "series" : "MacLaren_Racing_Car",
+            "stats" : {
+              "speed" : 20,
+              "acceleration" : 7,
+              "handling" : 11,
+              "power" : 13,
+              "boost" : 9
+            },
+            "unlock" : {
+                "en" : "Free Update (Season 2)",
+                "jp" : "無料アップデート (シーズン2)",
+                "kr" : "무료 업데이트 (시즌 2)"
+            }
         }
     ],
     "acceleration" : [
@@ -550,6 +594,160 @@
                 "en" : "Free Update",
                 "jp" : "無料アップデート",
                 "kr" : "무료 업데이트"
+            }
+        },
+        {
+            "id" : "acceleration_013",
+            "name": {
+                "en" : "Dreamcast EU",
+                "jp" : "ドリームキャストEU",
+                "kr" : "드림캐스트 EU"
+            },
+            "type" : "tire",
+            "series" : "Dreamcast_EU",
+            "stats" : {
+                "speed" : 15,
+                "acceleration" : 20,
+                "handling" : 7,
+                "power" : 13,
+                "boost" : 5
+            },
+            "unlock" : {
+                "en" : "Purchased Season Pass 2",
+                "jp" : "シーズンパス2 所持",
+                "kr" : "시즌패스 2 보유"
+            }
+        },
+        {
+            "id" : "acceleration_014",
+            "name": {
+                "en" : "Genesis Tower US",
+                "jp" : "ジェネシス タワーUS",
+                "kr" : "제네시스 타워 US"
+            },
+            "type" : "tire",
+            "series" : "Genesis_Tower_US",
+            "stats" : {
+                "speed" : 13,
+                "acceleration" : 20,
+                "handling" : 9,
+                "power" : 11,
+                "boost" : 7
+            },
+            "unlock" : {
+                "en" : "Purchased Season Pass 2",
+                "jp" : "シーズンパス2 所持",
+                "kr" : "시즌패스 2 보유"
+            }
+          },
+          {
+            "id" : "acceleration_015",
+            "name": {
+                "en" : "SegaSaturn JP",
+                "jp" : "セガサターンJP",
+                "kr" : "세가 새턴 JP"
+            },
+            "type" : "tire",
+            "series" : "SegaSaturn_JP",
+            "stats" : {
+                "speed" : 15,
+                "acceleration" : 20,
+                "handling" : 7,
+                "power" : 13,
+                "boost" : 5
+            },
+            "unlock" : {
+                "en" : "Purchased Season Pass 2",
+                "jp" : "シーズンパス2 所持",
+                "kr" : "시즌패스 2 보유"
+            }
+        },
+        {
+            "id" : "acceleration_016",
+            "name": {
+                "en" : "EVA-01 (TEST TYPE)",
+                "jp" : "エヴァ初号機EVA-01",
+                "kr" : "EVA-01 (테스트 타입)"
+            },
+            "type" : "tire",
+            "series" : "Evangelion_01",
+            "stats" : {
+                "speed" : 16,
+                "acceleration" : 19,
+                "handling" : 7,
+                "power" : 13,
+                "boost" : 5
+            },
+            "unlock" : {
+                "en" : "Purchased 'Evangelion Pack' DLC",
+                "jp" : "「エヴァンゲリオン パック DLC」で購入",
+                "kr" : "「에반게리온 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "acceleration_017",
+            "name": {
+                "en" : "EVA-00 (PROTO TYPE)",
+                "jp" : "エヴァ零号機EVA-00",
+                "kr" : "EVA-00 (프로토 타입)"
+            },
+            "type" : "tire",
+            "series" : "Evangelion_00",
+            "stats" : {
+                "speed" : 15,
+                "acceleration" : 19,
+                "handling" : 8,
+                "power" : 12,
+                "boost" : 6
+            },
+            "unlock" : {
+                "en" : "Purchased 'Evangelion Pack' DLC",
+                "jp" : "「エヴァンゲリオン パック DLC」で購入",
+                "kr" : "「에반게리온 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "acceleration_018",
+            "name": {
+                "en" : "EVA-02 (PRODUCTION MODEL)",
+                "jp" : "エヴァ二号機EVA-02",
+                "kr" : "EVA-02 (프로덕션 모델)"
+            },
+            "type" : "tire",
+            "series" : "Evangelion_02",
+            "stats" : {
+                "speed" : 14,
+                "acceleration" : 19,
+                "handling" : 9,
+                "power" : 11,
+                "boost" : 7
+            },
+            "unlock" : {
+                "en" : "Purchased 'Evangelion Pack' DLC",
+                "jp" : "「エヴァンゲリオン パック DLC」で購入",
+                "kr" : "「에반게리온 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "acceleration_019",
+            "name": {
+                "en" : "Palladion Dressy",
+                "jp" : "パラディオンドレッシー",
+                "kr" : "팔라디온 드레시"
+            },
+            "type" : "tire",
+            "series" : "Palladion_Dressy",
+            "stats" : {
+                "speed" : 15,
+                "acceleration" : 18,
+                "handling" : 9,
+                "power" : 12,
+                "boost" : 6
+            },
+            "unlock" : {
+                "en" : "Free Update (Season 2)",
+                "jp" : "無料アップデート (シーズン2)",
+                "kr" : "무료 업데이트 (시즌 2)"
             }
         }
     ],
@@ -1126,6 +1324,50 @@
                 "en" : "Free Update",
                 "jp" : "無料アップデート",
                 "kr" : "무료 업데이트"
+            }
+        },
+        {
+            "id" : "power_015",
+            "name": {
+                "en" : "Godzilla Cruiser",
+                "jp" : "ゴジラクルーザー",
+                "kr" : "고지라 크루저"
+            },
+            "type" : "tire",
+            "series" : "Godzilla_Cruiser",
+            "stats" : {
+                "speed" : 13,
+                "acceleration" : 7,
+                "handling" : 5,
+                "power" : 19,
+                "boost" : 16
+            },
+            "unlock" : {
+                "en" : "Purchased 'Godzilla Pack' DLC",
+                "jp" : "「ゴジラ パック DLC」で購入",
+                "kr" : "「고지라 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "power_016",
+            "name": {
+                "en" : "King Ghidorah Coupe",
+                "jp" : "キングギドラクーペ",
+                "kr" : "킹 기도라 쿠페"
+            },
+            "type" : "tire",
+            "series" : "King_Ghidorah_Coupe",
+            "stats" : {
+                "speed" : 12,
+                "acceleration" : 8,
+                "handling" : 6,
+                "power" : 19,
+                "boost" : 15
+            },
+            "unlock" : {
+                "en" : "Purchased 'Godzilla Pack' DLC",
+                "jp" : "「ゴジラ パック DLC」で購入",
+                "kr" : "「고지라 팩 DLC」를 구매"
             }
         }
     ],

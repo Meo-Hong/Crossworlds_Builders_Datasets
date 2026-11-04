@@ -285,6 +285,50 @@
                 "jp" : "無料アップデート",
                 "kr" : "무료 업데이트"
             }
+        },
+        {
+            "id" : "speed_014",
+            "name": {
+                "en" : "Super Dark",
+                "jp" : "スーパーダーク",
+                "kr" : "슈퍼 다크"
+            },
+            "type" : "front",
+            "series" : "Super_Dark_Flare",
+            "stats" : {
+                "speed" : 18,
+                "acceleration" : 5,
+                "handling" : 13,
+                "power" : 16,
+                "boost" : 8
+            },
+            "unlock" : {
+                "en" : "Purchased Season Pass 1 & 2",
+                "jp" : "シーズンパス1・2 所持",
+                "kr" : "시즌패스1, 시즌패스2 모두 보유"
+            }
+        },
+        {
+            "id" : "speed_015",
+            "name": {
+                "en" : "MacLaren Racing",
+                "jp" : "マクラーレンレーシング",
+                "kr" : "맥라렌 레이싱"
+            },
+            "type" : "front",
+            "series" : "MacLaren_Racing_Car",
+            "stats" : {
+                "speed" : 20,
+                "acceleration" : 7,
+                "handling" : 11,
+                "power" : 13,
+                "boost" : 9
+            },
+            "unlock" : {
+                "en" : "Free Update (Season 2)",
+                "jp" : "無料アップデート (シーズン2)",
+                "kr" : "무료 업데이트 (시즌 2)"
+            }
         }
     ],
     "acceleration" : [
@@ -550,6 +594,160 @@
                 "en" : "Free Update",
                 "jp" : "無料アップデート",
                 "kr" : "무료 업데이트"
+            }
+        },
+        {
+            "id" : "acceleration_013",
+            "name": {
+                "en" : "Dream",
+                "jp" : "ドリーム",
+                "kr" : "드림"
+            },
+            "type" : "front",
+            "series" : "Dreamcast_EU",
+            "stats" : {
+                "speed" : 15,
+                "acceleration" : 20,
+                "handling" : 7,
+                "power" : 13,
+                "boost" : 5
+            },
+            "unlock" : {
+                "en" : "Purchased Season Pass 2",
+                "jp" : "シーズンパス2 所持",
+                "kr" : "시즌패스 2 보유"
+            }
+        },
+        {
+            "id" : "acceleration_014",
+            "name": {
+                "en" : "Genesis",
+                "jp" : "ジェネシス",
+                "kr" : "제네시스"
+            },
+            "type" : "front",
+            "series" : "Genesis_Tower_US",
+            "stats" : {
+                "speed" : 13,
+                "acceleration" : 20,
+                "handling" : 9,
+                "power" : 11,
+                "boost" : 7
+            },
+            "unlock" : {
+                "en" : "Purchased Season Pass 2",
+                "jp" : "シーズンパス2 所持",
+                "kr" : "시즌패스 2 보유"
+            }
+        },
+        {
+            "id" : "acceleration_015",
+            "name": {
+                "en" : "Sega",
+                "jp" : "セガ",
+                "kr" : "세가"
+            },
+            "type" : "front",
+            "series" : "SegaSaturn_JP",
+            "stats" : {
+                "speed" : 15,
+                "acceleration" : 20,
+                "handling" : 7,
+                "power" : 13,
+                "boost" : 5
+            },
+            "unlock" : {
+                "en" : "Purchased Season Pass 2",
+                "jp" : "シーズンパス2 所持",
+                "kr" : "시즌패스 2 보유"
+            }
+        },
+        {
+            "id" : "acceleration_016",
+            "name": {
+                "en" : "EVA-01",
+                "jp" : "エヴァ初号機",
+                "kr" : "EVA-01"
+            },
+            "type" : "front",
+            "series" : "Evangelion_01",
+            "stats" : {
+                "speed" : 16,
+                "acceleration" : 19,
+                "handling" : 7,
+                "power" : 13,
+                "boost" : 5
+            },
+            "unlock" : {
+                "en" : "Purchased 'Evangelion Pack' DLC",
+                "jp" : "「エヴァンゲリオン パック DLC」で購入",
+                "kr" : "「에반게리온 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "acceleration_017",
+            "name": {
+                "en" : "EVA-00",
+                "jp" : "エヴァ零号機",
+                "kr" : "EVA-00"
+            },
+            "type" : "front",
+            "series" : "Evangelion_00",
+            "stats" : {
+                "speed" : 15,
+                "acceleration" : 19,
+                "handling" : 8,
+                "power" : 12,
+                "boost" : 6
+            },
+            "unlock" : {
+                "en" : "Purchased 'Evangelion Pack' DLC",
+                "jp" : "「エヴァンゲリオン パック DLC」で購入",
+                "kr" : "「에반게리온 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "acceleration_018",
+            "name": {
+                "en" : "EVA-02",
+                "jp" : "エヴァ二号機",
+                "kr" : "EVA-02"
+            },
+            "type" : "front",
+            "series" : "Evangelion_02",
+            "stats" : {
+                "speed" : 14,
+                "acceleration" : 19,
+                "handling" : 9,
+                "power" : 11,
+                "boost" : 7
+            },
+            "unlock" : {
+                "en" : "Purchased 'Evangelion Pack' DLC",
+                "jp" : "「エヴァンゲリオン パック DLC」で購入",
+                "kr" : "「에반게리온 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "acceleration_019",
+            "name": {
+                "en" : "Palladion",
+                "jp" : "パラディオン",
+                "kr" : "팔라디온"
+            },
+            "type" : "front",
+            "series" : "Palladion_Dressy",
+            "stats" : {
+                "speed" : 15,
+                "acceleration" : 18,
+                "handling" : 9,
+                "power" : 12,
+                "boost" : 6
+            },
+            "unlock" : {
+                "en" : "Free Update (Season 2)",
+                "jp" : "無料アップデート (シーズン2)",
+                "kr" : "무료 업데이트 (시즌 2)"
             }
         }
     ],
@@ -1127,6 +1325,50 @@
                 "jp" : "無料アップデート",
                 "kr" : "무료 업데이트"
             }
+        },
+        {
+            "id" : "power_015",
+            "name": {
+                "en" : "Godzilla",
+                "jp" : "ゴジラ",
+                "kr" : "고지라"
+            },
+            "type" : "front",
+            "series" : "Godzilla_Cruiser",
+            "stats" : {
+                "speed" : 13,
+                "acceleration" : 7,
+                "handling" : 5,
+                "power" : 19,
+                "boost" : 16
+            },
+            "unlock" : {
+                "en" : "Purchased 'Godzilla Pack' DLC",
+                "jp" : "「ゴジラ パック DLC」で購入",
+                "kr" : "「고지라 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "power_016",
+            "name": {
+                "en" : "King",
+                "jp" : "キング",
+                "kr" : "킹"
+            },
+            "type" : "front",
+            "series" : "King_Ghidorah_Coupe",
+            "stats" : {
+                "speed" : 12,
+                "acceleration" : 8,
+                "handling" : 6,
+                "power" : 19,
+                "boost" : 15
+            },
+            "unlock" : {
+                "en" : "Purchased 'Godzilla Pack' DLC",
+                "jp" : "「ゴジラ パック DLC」で購入",
+                "kr" : "「고지라 팩 DLC」를 구매"
+            }
         }
     ],
     "boost" : [
@@ -1414,6 +1656,72 @@
                 "en" : "Purchase with 'Avatar : The Last Airbender DLC'",
                 "jp" : "「アバター 伝説の少年アン DLC」で購入",
                 "kr" : "「아바타 : 아앙의 전설 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "boost_014",
+            "name": {
+                "en" : "Mothra",
+                "jp" : "モスラ",
+                "kr" : "모스라"
+            },
+            "type" : "front",
+            "series" : "Mothra_Surf",
+            "stats" : {
+                "speed" : 12,
+                "acceleration" : 18,
+                "handling" : 22,
+                "power" : 9,
+                "boost" : 29
+            },
+            "unlock" : {
+                "en" : "Purchased 'Godzilla Pack' DLC",
+                "jp" : "「ゴジラ パック DLC」で購入",
+                "kr" : "「고지라 팩 DLC」를 구매"
+            }
+        },
+        {
+            "id" : "boost_015",
+            "name": {
+                "en" : "Butterfly",
+                "jp" : "バタフライ",
+                "kr" : "버터플라이"
+            },
+            "type" : "front",
+            "series" : "Butterfly_Witch",
+            "stats" : {
+                "speed" : 13,
+                "acceleration" : 16,
+                "handling" : 21,
+                "power" : 10,
+                "boost" : 30
+            },
+            "unlock" : {
+                "en" : "Win the first 3 races in 'Rival Duel'",
+                "jp" : "「ライバルデュエル」の最初の3レースで勝利",
+                "kr" : "「라이벌 듀얼」의 첫 3레이스에서 승리"
+            }
+        },
+        {
+            "id" : "boost_016",
+            "name": {
+                "en" : "Super",
+                "jp" : "スーパー",
+                "kr" : "슈퍼"
+            },
+            "type" : "front",
+            "series" : "Super_Shooting_Star",
+            "stats" : {
+                "speed" : 11,
+                "acceleration" : 19,
+                "handling" : 23,
+                "power" : 8,
+                "boost" : 29
+            },
+            "unlock" : {
+                "en" : "Defeat 'Super Shadow' in 'Rival Duels'",
+                "jp" : "「ライバルデュエル」で「スーパーシャドウ」を倒す",
+                "kr" : "「라이벌 듀얼」에서「슈퍼 섀도우」를 격파"
             }
         }
     ]
