@@ -13,17 +13,17 @@
     "rows": {
       "en": [
         ["Boost", "Drift Charge Boost, Air Trick Boost, Dash Panels, Boost / King Boost items, Collision Boost", "+40km/h in total, each extra boost adds +10km/h (Lv1 Drift / Air Trick: +5km/h)"],
-        ["Additional Speed", "Ring count, Slipstream, Ring Gain Boost, Shield, Ring Engine gadgets", "+38km/h (Power +48km/h), added as is"],
+        ["Additional Speed", "Ring count, Slipstream, Ring Gain Boost, Shield, Ring Engine gadgets", "+38km/h, added as is"],
         ["Base Speed", "Speed stat, drift speed correction", "No cap (Speed stat up to 100), added as is"]
       ],
       "jp": [
         ["ブースト", "ドリフトチャージダッシュ、エアトリックブースト、ダッシュパネル、ブースト・キングブーストアイテム、ぶつかりダッシュ", "合計+40km/h、重なるたびに+10km/h（Lv1ドリフト・エアトリックは+5km/h）"],
-        ["追加速度", "リング数、スリップストリーム、リングゲットダッシュ、シールド、リングエンジン系ガジェット", "+38km/h（パワー+48km/h）、そのまま加算"],
+        ["追加速度", "リング数、スリップストリーム、リングゲットダッシュ、シールド、リングエンジン系ガジェット", "+38km/h、そのまま加算"],
         ["基本速度", "スピードのパラメータ、ドリフト中の速度補正", "上限なし（スピードは100まで）、そのまま加算"]
       ],
       "kr": [
         ["부스트", "드리프트 차지 대시, 에어 트릭 부스트, 대시 패널, 부스트·킹 부스트 아이템, 범프 대시", "합계 +40km/h, 겹칠 때마다 +10km/h (Lv1 드리프트·에어 트릭은 +5km/h)"],
-        ["추가 속도", "링 개수, 슬립스트림, 링 획득 대시, 방패, 링 엔진 계열 가젯", "+38km/h (파워 +48km/h), 그대로 합산"],
+        ["추가 속도", "링 개수, 슬립스트림, 링 획득 대시, 방패, 링 엔진 계열 가젯", "+38km/h, 그대로 합산"],
         ["기본 속도", "스피드 스탯, 드리프트 중 속도 보정", "상한 없음 (스피드 스탯은 100까지), 그대로 합산"]
       ]
     },
@@ -179,21 +179,21 @@
         ["Speed type", "+38km/h"],
         ["Acceleration type", "+38km/h"],
         ["Handling type", "+38km/h"],
-        ["Power type", "+48km/h"],
+        ["Power type", "+38km/h"],
         ["Boost type", "+38km/h"]
       ],
       "jp": [
         ["スピードタイプ", "+38km/h"],
         ["アクセルタイプ", "+38km/h"],
         ["ハンドリングタイプ", "+38km/h"],
-        ["パワータイプ", "+48km/h"],
+        ["パワータイプ", "+38km/h"],
         ["ダッシュタイプ", "+38km/h"]
       ],
       "kr": [
         ["스피드", "+38km/h"],
         ["액셀", "+38km/h"],
         ["핸들링", "+38km/h"],
-        ["파워", "+48km/h"],
+        ["파워", "+38km/h"],
         ["대시", "+38km/h"]
       ]
     },
@@ -202,6 +202,7 @@
         "This indicates the maximum additional speed gained from the combined effects of the speed increase from rings + Slipstream + Ring Dash extra speed. (Boost speed is added separately.)",
         "The Speed stat and drift speed correction are Base Speed, so they are not affected by this cap and are added separately.",
         "Since v1.2.0, a stealth patch has increased the speed cap to +20.",
+        "The bug that gave only the Power type a higher cap (+48km/h) was fixed in v2.0, so all types now share +38km/h.",
         "Based on Sonic Speed. Higher speed modes have smaller speed increases and lower caps.",
         "Based on the Speed Document by Yoshister."
       ],
@@ -209,6 +210,7 @@
         "リングによる速度増加 ＋ スリップストリーム ＋ リングダッシュの追加速度増加効果を合わせた、最大の追加速度量を意味します。（ブーストは別途増加）",
         "スピードのパラメータとドリフト中の速度補正は「基本速度」のため、この上限の影響を受けず、別途加算されます。",
         "v1.2.0以降、サイレント修正により速度上限が+20に増加しました。",
+        "パワータイプのみ上限が+48km/hと高かった不具合がv2.0で修正され、すべてのタイプが+38km/hで同じになりました。",
         "「ソニックスピード」基準です。速度モードが高いほど、速度増加量と上限は小さくなります。",
         "Speed Document by Yoshister を基準としています。"
       ],
@@ -216,6 +218,7 @@
         "링으로 인한 속도 증가 + 슬립스트림 + 링 대시 추가 속도 증가 효과의 최대 추가 속도량을 의미합니다. (부스트는 별도로 증가)",
         "스피드 스탯과 드리프트 중 속도 보정은 '기본 속도'이므로, 이 상한의 영향을 받지 않고 별도로 더해집니다.",
         "v1.2.0 이후, 잠수함 패치로 인해 속도 상한이 +20 증가했습니다.",
+        "파워 타입만 상한이 +48km/h로 더 높았던 오류가 v2.0에서 수정되어, 모든 타입이 +38km/h로 같아졌습니다.",
         "소닉 스피드 기준입니다. 속도 모드가 높을수록 속도 증가량과 상한이 작아집니다.",
         "스피드 문서 (Speed Document by Yoshister) 기준입니다."
       ]
@@ -496,7 +499,7 @@
         "The 'Monster Truck' gives the same +30km/h boost as the 'King Boost' and lasts until the item disappears.",
         "'Drill' and 'Laser' run at a constant speed, then adjust their speed to 240 before the item effect ends.",
         "The 'Drill' changes to 240km/h once you reach 1st-4th place or pass 2 racers.",
-        "The 'Shield' +10km/h is Additional Speed, not a boost, so it counts toward the Additional Speed cap (+38km/h, Power +48km/h).",
+        "The 'Shield' +10km/h is Additional Speed, not a boost, so it counts toward the Additional Speed cap (+38km/h).",
         "There are two kinds: 'Dash Panel' and 'Special Dash Panel', and the 'Special Dash Panel' only appears on LAP 3.",
         "The 'Dash Panel' has a very slight run-off ignore effect, which can be seen in the 'Pumpkin Mansion' final lap."
       ],
@@ -506,7 +509,7 @@
         "「モンスタートラック」は「キングブースト」と同じ+30km/hのブーストで、アイテムが消えるまで持続します。",
         "「ドリル」や「レーザー」は一定の速度で走行した後、速度を240に調整してからアイテムの使用が終了します。",
         "「ドリル」は1〜4位に入るか、レーサーを2人追い抜くと240km/hに変わります。",
-        "「シールド」の+10km/hはブーストではなく「追加速度」のため、追加速度の上限（+38km/h、パワー+48km/h）に含まれます。",
+        "「シールド」の+10km/hはブーストではなく「追加速度」のため、追加速度の上限（+38km/h）に含まれます。",
         "ダッシュパネルは「ダッシュパネル」と「スペシャルダッシュパネル」が存在し、「スペシャルダッシュパネル」はLAP 3でのみ登場します。",
         "「ダッシュパネル」は非常に軽微なランオフ無視効果があり、 \"パンプキンマンション\" のファイナルラップで確認できます。"
       ],
@@ -516,7 +519,7 @@
         "\"몬스터 트럭\"은 \"킹 부스트\"와 같은 +30km/h 부스트이며, 아이템이 사라질 때까지 유지됩니다.",
         "\"드릴\", \"레이저\"는 일정한 속도로 달린 후, 240으로 속도를 조절하다가 아이템 사용이 종료됩니다.",
         "\"드릴\"은 1~4위에 들어서거나 레이서 2명을 추월하면 240km/h로 바뀝니다.",
-        "\"방패\"의 +10km/h는 부스트가 아닌 '추가 속도'이므로, 추가 속도 상한(+38km/h, 파워 +48km/h)에 포함됩니다.",
+        "\"방패\"의 +10km/h는 부스트가 아닌 '추가 속도'이므로, 추가 속도 상한(+38km/h)에 포함됩니다.",
         "대시 패널은 \"대시 패널\"과 \"스페셜 대시 패널\"이 존재하며, \"스페셜 대시 패널\"은 LAP 3에서만 등장합니다.",
         "\"대시 패널\"은 아주 잠깐 런오프 무시 효과가 있습니다. 이는 '펌킨 맨션' 파이널 랩에서 확인 가능합니다."
       ]
@@ -569,6 +572,73 @@
         "소닉 스피드 기준이며, 피격과 장애물 피격은 슈퍼 소닉 스피드에서 감소량이 더 커집니다.",
         "스피드 문서 (Speed Document by Yoshister) 기준입니다."
       ]
+    }
+  },
+  "hitStun": {
+    "title": {
+      "en": "Hit Stun Time",
+      "jp": "被弾硬直時間",
+      "kr": "피격 경직 시간"
+    },
+    "columns": {
+      "en": ["Recovery gadget", "Other types", "Acceleration type", "Acceleration vs. others"],
+      "jp": ["回復ガジェット", "他のタイプ", "アクセルタイプ", "アクセルの短縮率"],
+      "kr": ["회복 가젯", "다른 타입", "액셀 타입", "액셀 단축률"]
+    },
+    "rows": {
+      "en": [
+        ["None", "90f", "45f", "-50%"],
+        ["Mini Quick Recovery", "55f (-38.9%)", "26f (-42.2%)", "-52.7%"],
+        ["Mini Quick Recovery (Super Slot)", "45f (-50%)", "22f (-51.1%)", "-51.1%"],
+        ["Acceleration Machine Kit", "13f (-85.6%)", "6f (-86.7%)", "-53.8%"],
+        ["Quick Recovery", "7f (-92.2%)", "6f (-86.7%)", "-14.3%"]
+      ],
+      "jp": [
+        ["なし", "90f", "45f", "-50%"],
+        ["クイックリカバーミニ", "55f (-38.9%)", "26f (-42.2%)", "-52.7%"],
+        ["クイックリカバーミニ（スーパースロット）", "45f (-50%)", "22f (-51.1%)", "-51.1%"],
+        ["アクセルマシンキット", "13f (-85.6%)", "6f (-86.7%)", "-53.8%"],
+        ["クイックリカバー", "7f (-92.2%)", "6f (-86.7%)", "-14.3%"]
+      ],
+      "kr": [
+        ["없음", "90f", "45f", "-50%"],
+        ["퀵 리커버 미니", "55f (-38.9%)", "26f (-42.2%)", "-52.7%"],
+        ["퀵 리커버 미니 (슈퍼 슬롯)", "45f (-50%)", "22f (-51.1%)", "-51.1%"],
+        ["액셀 머신 키트", "13f (-85.6%)", "6f (-86.7%)", "-53.8%"],
+        ["퀵 리커버", "7f (-92.2%)", "6f (-86.7%)", "-14.3%"]
+      ]
+    },
+    "notes": {
+      "en": [
+        "Indicates how long you are stunned after taking damage, in frames (f).",
+        "The percentage next to each frame count is the reduction compared to having no recovery gadget on the same type.",
+        "The last column is how much shorter the Acceleration type's stun is than other types with the same gadget.",
+        "Since v2.0, the Acceleration type recovers in about half the time of other types after taking damage.",
+        "With Quick Recovery, the difference between the Acceleration type and other types is only 1f."
+      ],
+      "jp": [
+        "ダメージを受けた後の硬直時間をフレーム(f)で表します。",
+        "フレーム数の横の％は、同じタイプで回復ガジェットがない場合と比べた短縮率です。",
+        "最後の列は、同じガジェットを装備した他のタイプと比べたアクセルタイプの短縮率です。",
+        "v2.0以降、アクセルタイプはダメージを受けた後、他のタイプの約半分の時間で回復します。",
+        "クイックリカバー装備時は、アクセルタイプと他のタイプの差が1fしかありません。"
+      ],
+      "kr": [
+        "대미지를 받은 후 경직되는 시간을 프레임(f) 단위로 나타냅니다.",
+        "프레임 옆의 %는 같은 타입에서 회복 가젯이 없을 때와 비교한 단축률입니다.",
+        "마지막 열은 같은 가젯을 장착한 다른 타입과 비교한 액셀 타입의 단축률입니다.",
+        "v2.0부터 액셀 타입은 대미지를 받은 후 다른 타입의 약 절반 시간 만에 회복합니다.",
+        "「퀵 리커버」를 장착하면 액셀 타입과 다른 타입의 차이가 1f뿐입니다."
+      ]
+    },
+    "source": {
+      "label": {
+        "en": "Source: ",
+        "jp": "出典：",
+        "kr": "출처: "
+      },
+      "text": "@thetakappa__ (X)",
+      "url": "https://x.com/thetakappa__/status/2117801663612547419"
     }
   }
 }

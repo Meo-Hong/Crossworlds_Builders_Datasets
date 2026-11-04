@@ -94,6 +94,19 @@
     "highlight": [
       {
         "title": {
+          "en": "Shorter hit stun after damage",
+          "jp": "被弾後の硬直時間短縮",
+          "kr": "피격 후 경직 시간 단축"
+        },
+        "detail": {
+          "en": "Recovers in about half the time of other types after taking damage. (90f → 45f, 50% shorter, v2.0) (see table)",
+          "jp": "ダメージを受けた後、他のタイプの約半分の時間で回復します。（90f → 45f、50%短縮、v2.0）（表参照）",
+          "kr": "대미지를 받은 후 다른 타입의 약 절반 시간 만에 회복합니다. (90f → 45f, 50% 단축, v2.0) (표 참조)"
+        },
+        "tone": "good"
+      },
+      {
+        "title": {
           "en": "Strengthen grip",
           "jp": "グリップ補正",
           "kr": "접지력 강화"
@@ -119,7 +132,7 @@
         "tone": "good"
       }
     ],
-    "recommendation": { "rating": 2 },
+    "recommendation": { "rating": 3.5 },
     "tendencies": {
       "speed": { "rating": 4 },
       "acceleration": { "rating": 5 },
@@ -131,17 +144,20 @@
       "en": [
         "The speed and acceleration values are high, so it is easy to reach the highest speed.",
         "The slip resistance is enhanced, so it is easy to drive on slippery sections.",
-        "When combined with \"Hyper ring Engine\", it compensates for insufficient statistics, allowing stable driving even in \"slip sections\"."
+        "When combined with \"Hyper ring Engine\", it compensates for insufficient statistics, allowing stable driving even in \"slip sections\".",
+        "Hit stun after taking damage is half that of other types (90f → 45f), so it is strong on courses with many enemies and obstacles, and in attack-heavy races."
       ],
       "jp": [
         "スピードとアクセルの数値が高いため、最高速度に達することが容易です。",
-        "滑りやすい区間では優れていますが、明らかな上位互換機である「パワータイプマシン」に負けています。",
-        "「アルティメットチャージ」の存在により、ドリフトを習得すればアイテムから最も安全に走行できます。"
+        "グリップ補正により、滑りやすい区間でも走りやすいです。",
+        "\"ハイパーリングエンジン\"と組み合わせると不足しているステータスを補い、「滑りやすい区間」でも安定した走行が可能です。",
+        "被弾後の硬直時間が他のタイプの半分（90f → 45f）のため、敵や障害物が多いコースや攻撃が飛び交うレースで強みを発揮します。"
       ],
       "kr": [
         "스피드, 액셀 수치가 높아 최고속도에 도달하기 쉽습니다.",
         "접지력 강화를 통해 미끄러지는 구간에서 달리기가 수월합니다.",
-        "\"하이퍼 링 엔진\"과 함께 사용하면 부족한 스탯을 보완하여 '미끄러지는 구간'에서도 안정적인 주행이 가능합니다."
+        "\"하이퍼 링 엔진\"과 함께 사용하면 부족한 스탯을 보완하여 '미끄러지는 구간'에서도 안정적인 주행이 가능합니다.",
+        "피격 후 경직 시간이 다른 타입의 절반(90f → 45f)이라, 적과 장애물이 많은 코스나 공격이 난무하는 레이스에서 강합니다."
       ]
     },
     "cons": {
@@ -149,36 +165,36 @@
         "The influence of the acceleration value on the game is very small, so it is difficult to feel the difference.",
         "The dash value is low, so the drift charge is slow.",
         "The handling value is low, so it is difficult to turn well.",
-        "The handling and dash values are both low, so it is the weakest type in cornering.",
-        "A power-type machine exists, which is a generally superior type."
+        "The handling and dash values are both low, so it is the weakest type in cornering."
       ],
       "jp": [
         "アクセルの数値がゲームに与える影響が非常に小さいため、違いを感じにくいです。",
         "ダッシュの数値が低いため、ドリフトキャッチが遅くなります。",
         "ハンドリングの数値が低いため、コーナリングがうまく回らないです。",
-        "ハンドリングとダッシュの数値が両方低いため、コーナリングで最も弱いタイプです。",
-        "一般的に上位互換のパワータイプマシンが存在します。"
+        "ハンドリングとダッシュの数値が両方低いため、コーナリングで最も弱いタイプです。"
       ],
       "kr": [
         "액셀 수치가 게임에 미치는 영향이 매우 적어 차이를 느끼기 힘듭니다.",
         "대시 수치가 낮아 드리프트 차지가 느립니다.",
         "핸들링 수치가 낮아 코너링이 잘 돌지 않습니다.",
-        "핸들링, 대시 수치가 모두 낮아 코너링에서 가장 약한 타입입니다.",
-        "일반적으로 상위호환인 파워타입 머신이 존재합니다."
+        "핸들링, 대시 수치가 모두 낮아 코너링에서 가장 약한 타입입니다."
       ]
     },
     "notes": {
       "en": [ 
-        "It is good on slippery sections, but it is inferior to the「Power Type Machine」, which is a clear superior type.",
-        "However, it can be used by combining with \"Hyper Ring Engine\" to compensate for the shortcomings and receive speed increase correction during drift, which allows you to take advantage of cornering."
+        "In v2.0, its recovery time after taking damage was shortened, making it stronger on courses with many enemies and obstacles, and in attack-heavy races.",
+        "Combining it with \"Hyper Ring Engine\" compensates for the shortcomings and adds speed increase correction during drift, which gives it an edge in cornering.",
+        "It recovers quickly after taking damage, making it a good type for beginners who get hit often during races."
       ],
       "jp": [
-        "滑りやすい区間では優れていますが、明らかな上位互換機である「パワータイプマシン」に負けています。",
-        "ただし、\"ハイパーリングエンジン\"と組み合わせることで、短所を補うことができ、ドリフト中の速度増加補正を受けることで、コーナリングに有利になります。"
+        "v2.0でダメージを受けた後の回復時間が短縮され、敵や障害物が多いコースや攻撃が飛び交うレースでの強みが大きくなりました。",
+        "\"ハイパーリングエンジン\"と組み合わせることで、短所を補うことができ、ドリフト中の速度増加補正を受けることで、コーナリングに有利になります。",
+        "被弾後の回復時間が短いため、レース中によく被弾する初心者に適したタイプです。"
       ],
       "kr": [
-        "미끄러운 구간에서는 좋지만 명백한 상위호환인「파워 타입 머신」에 밀립니다.",
-        "다만 \"하이퍼 링 엔진\"과 함께 사용하면 부족한 스탯을 보완하여 단점을 극복할 수 있고, 드리프트 중 속도 증가 보정도 받으면서 코너링에 이점을 가질 수 있습니다."
+        "v2.0에서 대미지를 받은 후의 회복 시간이 단축되어, 적과 장애물이 많은 코스나 공격이 난무하는 레이스에서 강점이 커졌습니다.",
+        "\"하이퍼 링 엔진\"과 함께 사용하면 부족한 스탯을 보완하여 단점을 극복할 수 있고, 드리프트 중 속도 증가 보정도 받으면서 코너링에 이점을 가질 수 있습니다.",
+        "피격 후 회복 시간이 빨라 레이스에서 자주 맞는 초보자에게 적합한 타입입니다."
       ]
     }
   },
@@ -313,14 +329,14 @@
       },
       {
         "title": {
-          "en": "Higher additional speed cap",
-          "jp": "より高い追加速度上限",
-          "kr": "더 높은 추가 속도 상한선"
+          "en": "Strengthen grip",
+          "jp": "グリップ補正",
+          "kr": "접지력 강화"
         },
         "detail": {
-          "en": "The additional speed limit is set higher compared to other types, making it easier to overtake other vehicles (see table)",
-          "jp": "追加速度上限が他のタイプと比較して高く設定されているため、他の車両を追い越すのがより容易になります。 (表参照)",
-          "kr": "추가 속도 상한선이 다른 타입과 비교해 더 높게 설정되어 있어 다른 차량 추월을 더 쉽게 할 수 있습니다. (표 참조)"
+          "en": "Less slippery on sand/ice slippery sections (power-type, acceleration-type unique effects)",
+          "jp": "砂や氷のような滑りやすい区間では、滑りにくくなります。 (パワータイプ、アクセルタイプの固有効果)",
+          "kr": "모래 / 얼음 같은 미끄러운 구간에서 덜 미끄러집니다. (파워 타입, 액셀 타입 고유 효과)"
         },
         "tone": "good"
       },
@@ -336,22 +352,9 @@
           "kr": "드리프트를 하면 다른 타입과 달리 속도가 감속합니다."
         },
         "tone": "bad"
-      },
-      {
-        "title": {
-          "en": "Strengthen grip",
-          "jp": "グリップ補正",
-          "kr": "접지력 강화"
-        },
-        "detail": {
-          "en": "Less slippery on sand/ice slippery sections (power-type, acceleration-type unique effects)",
-          "jp": "砂や氷のような滑りやすい区間では、滑りにくくなります。 (パワータイプ、アクセルタイプの固有効果)",
-          "kr": "모래 / 얼음 같은 미끄러운 구간에서 덜 미끄러집니다. (파워 타입, 액셀 타입 고유 효과)"
-        },
-        "tone": "good"
       }
     ],
-    "recommendation": { "rating": 4 },
+    "recommendation": { "rating": 2 },
     "tendencies": {
       "speed": { "rating": 3.5 },
       "acceleration": { "rating": 2 },
@@ -364,21 +367,18 @@
         "Due to the high power value, you don't lose the ring well when you hit the machine, and you don't lose the ring when you hit the wall.",
         "Drift charge is fast due to high dash values.",
         "The speed and dash values are high, so it is easy to maintain stable driving",
-        "The upper limit of the additional speed in the maximum ring possession state is higher than that of other types, so both the \"Sleepstream\" and \"Ring Dash\" effects can be utilized.",
         "It slides less on slippery sections such as sand/ice."
       ],
       "jp": [
         "パワー数値が高いため、マシンと衝突したときにリングを失いにくく、壁にぶつかったときもリングを失いません。",
         "ダッシュの数値が高く、ドリフトのチャージが速いです。",
         "スピードとダッシュの数値が均等に高く、最高速度での走行が快適です。",
-        "最大リング所持状態での追加速度上限が他のタイプよりも高く、「スリップストリーム」+「リングダッシュ」効果をすべて活用できます。",
         "砂や氷など滑りやすい場所では、滑りにくくなります。"
       ],
       "kr": [
         "파워 수치가 높아 몸싸움에서 링을 잘 잃지 않고, 벽에 부딪혔을 때 링을 잃지 않습니다.",
         "대시 수치가 높아 드리프트 차지가 빠릅니다.",
         "스피드, 대시 수치가 고루 높아 최고속도 주행이 편합니다.",
-        "최대 링 소지 상태에서의 추가 속도 상한이 다른 타입보다 높아 「슬립스트림 」+ 「링 대시」 효과를 모두 활용할 수 있습니다.",
         "모래 / 얼음 등 미끄러운 구간에서 덜 미끄러집니다."
       ]
     },
@@ -403,20 +403,17 @@
       "en" : [
         "A type suitable for beginners, as you don't lose rings even if you crash into walls.",
         "There is a low chance of losing rings during collisions. With a high Dash stat—which is the most important—along with high Speed, it is highly effective in chaotic races.",
-        "While Drift Charge is fast, you decelerate during drifts. Therefore, if you haven't mastered drifting, you risk being overtaken during cornering.",
-        "Compared to Accel-type machines, this type is a strict upgrade."
+        "While Drift Charge is fast, you decelerate during drifts. Therefore, if you haven't mastered drifting, you risk being overtaken during cornering."
       ],
       "jp": [
         "壁にぶつかってもリングを失わないため、初心者に適したタイプ。",
         "競り合いでもリングを失う確率が低く、最も重要なダッシュ値が高いうえにスピードも高いため、乱戦での使い勝手が抜群です。",
-        "ドリフトチャージが速い代わりに、ドリフト中に減速が発生するため、ドリフトに習熟していないとコーナリングで追い越される可能性があります。",
-        "アクセルタイプのマシンと比較して、明らかな上位互換となるタイプです。"
+        "ドリフトチャージが速い代わりに、ドリフト中に減速が発生するため、ドリフトに習熟していないとコーナリングで追い越される可能性があります。"
       ],
       "kr": [
         "벽에 박아도 링을 잃지 않아 초보자에게 적합한 타입",
         "몸싸움에서도 링을 잃을 확률이 적고, 가장 중요한 대시 수치가 높으면서 스피드도 높아 난전에서 활용도가 높습니다.",
-        "드리프트 차지가 빠른 대신, 드리프트 중 감속이 일어나므로 드리프트가 숙달되지 못하면 코너링에서 추월당할 가능성이 존재합니다.",
-        "액셀 타입 머신과 비교해서 명백한 상위호환인 타입입니다."
+        "드리프트 차지가 빠른 대신, 드리프트 중 감속이 일어나므로 드리프트가 숙달되지 못하면 코너링에서 추월당할 가능성이 존재합니다."
       ]
     }
   },
@@ -433,32 +430,6 @@
       "kr": "대시와 핸들링 수치가 높아 드리프트 차지 부스트를 연계하며 달리는 데 특화된 타입입니다. 외형은『소닉 라이더즈』시리즈에서 나온 「익스트림 기어」를 따왔습니다."
     },
     "highlight": [
-      {
-        "title": {
-          "en": "When a bumper collision occurs, many rings are lost",
-          "jp": "壁に衝突した際、失うリングが多い",
-          "kr": "벽에 부딪혔을 때 링을 잃기 쉬움"
-        },
-        "detail": {
-          "en": "Unlike other types, when they collide with the wall, they lose 2 rings unconditionally. (Other types lose 1 ring)",
-          "jp": "他のタイプとは異なり、壁に衝突した場合は必ず2つのリングを失います。（他のタイプは1つずつ）",
-          "kr": "다른 타입과 달리 벽과 충돌했을 때, 무조건 2개의 링을 잃습니다. (다른 타입은 1개씩)"
-        },
-        "tone": "bad"
-      },
-      {
-        "title": {
-          "en": "Long recovery time after speed deceleration",
-          "jp": "速度が遅くなり、復旧に時間がかかる",
-          "kr": "속도감속 후 복구 시간이 긺"
-        },
-        "detail": {
-          "en": "It takes a long time to recover after a slowdown occurs, such as an item hit / running in the off-road area. (Source: Sonic Official YouTube channel \"Speed Strats\")",
-          "jp": "アイテムが被弾したり、ランオフエリアを走ったりするなどの速度低下が起きた後、復旧までに時間がかかります。 (出典：ソニック公式 YouTube チャンネル \"Speed Strats\")",
-          "kr": "아이템 피격 / 런오프 구역을 달리는 등의 속도 감속이 일어난 후, 복구하는데까지 시간이 오래 걸립니다. (출처 : 소닉 공식 유튜브 채널 영상 중 \"Speed Strats\")"
-        },
-        "tone": "bad"
-      },
       {
         "title": {
           "en": "Calibrate speed during drift",
@@ -484,6 +455,32 @@
           "kr": "「수상 모드」중 좌우 회전 시, 감속 없이 코너링을 돕니다. (핸들링 타입, 대시 타입 고유 효과)"
         },
         "tone": "good"
+      },
+      {
+        "title": {
+          "en": "When a bumper collision occurs, many rings are lost",
+          "jp": "壁に衝突した際、失うリングが多い",
+          "kr": "벽에 부딪혔을 때 링을 잃기 쉬움"
+        },
+        "detail": {
+          "en": "Unlike other types, when they collide with the wall, they lose 2 rings unconditionally. (Other types lose 1 ring)",
+          "jp": "他のタイプとは異なり、壁に衝突した場合は必ず2つのリングを失います。（他のタイプは1つずつ）",
+          "kr": "다른 타입과 달리 벽과 충돌했을 때, 무조건 2개의 링을 잃습니다. (다른 타입은 1개씩)"
+        },
+        "tone": "bad"
+      },
+      {
+        "title": {
+          "en": "Long recovery time after speed deceleration",
+          "jp": "速度が遅くなり、復旧に時間がかかる",
+          "kr": "속도감속 후 복구 시간이 긺"
+        },
+        "detail": {
+          "en": "It takes a long time to recover after a slowdown occurs, such as an item hit / running in the off-road area. (Source: Sonic Official YouTube channel \"Speed Strats\")",
+          "jp": "アイテムが被弾したり、ランオフエリアを走ったりするなどの速度低下が起きた後、復旧までに時間がかかります。 (出典：ソニック公式 YouTube チャンネル \"Speed Strats\")",
+          "kr": "아이템 피격 / 런오프 구역을 달리는 등의 속도 감속이 일어난 후, 복구하는데까지 시간이 오래 걸립니다. (출처 : 소닉 공식 유튜브 채널 영상 중 \"Speed Strats\")"
+        },
+        "tone": "bad"
       }
     ],
     "recommendation": { "rating": 4 },
