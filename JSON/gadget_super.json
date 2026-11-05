@@ -83,13 +83,13 @@
             "image": "gadget_002.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -116,13 +116,13 @@
             "image": "gadget_003.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -149,13 +149,13 @@
             "image": "gadget_004.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -182,13 +182,13 @@
             "image": "gadget_005.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -215,13 +215,13 @@
             "image": "gadget_006.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -281,13 +281,13 @@
             "image": "gadget_010.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -390,13 +390,13 @@
             "image": "gadget_014.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -423,13 +423,13 @@
             "image": "gadget_016.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -456,13 +456,13 @@
             "image": "gadget_018.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -491,13 +491,13 @@
             "image": "gadget_019.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -512,7 +512,7 @@
             "name": {
                 "en": "Air Drift Mobility UP",
                 "jp": "空中ドリフト自由度アップ",
-                "kr": "공중 드리프트 자유도 증가"
+                "kr": "공중 드리프트 자유도 UP"
             },
             "description": {
                 "en": "While in flight form, Air Drifts can turn more sharply. Directional drifts move further. Gain a boost in air drift's direction upon release. (Increased moving distance)",
@@ -524,13 +524,13 @@
             "image": "gadget_020.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 64 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース64回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 64회 완주"
                 ]
             },
             "effect": {
@@ -545,7 +545,7 @@
             "name": {
                 "en": "Charge Jump Mobility UP",
                 "jp": "チャージジャンプ自由度アップ",
-                "kr": "차지 점프 자유도 증가"
+                "kr": "차지 점프 자유도 UP"
             },
             "description": {
                 "en": "While Charge Jumping in water form, left and right Air Tricks gain more distance.",
@@ -557,13 +557,13 @@
             "image": "gadget_021.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 64 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース64回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 64회 완주"
                 ]
             },
             "effect": {
@@ -623,13 +623,13 @@
             "image": "gadget_022.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -658,13 +658,13 @@
             "image": "gadget_027.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -691,13 +691,13 @@
             "image": "gadget_028.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -931,13 +931,13 @@
             "image": "gadget_038.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -979,13 +979,13 @@
             "image": "gadget_039.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -1027,13 +1027,13 @@
             "image": "gadget_040.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1075,13 +1075,13 @@
             "image": "gadget_041.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -1123,13 +1123,13 @@
             "image": "gadget_042.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1171,13 +1171,13 @@
             "image": "gadget_043.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -1219,13 +1219,13 @@
             "image": "gadget_044.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1267,13 +1267,13 @@
             "image": "gadget_045.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -1315,13 +1315,13 @@
             "image": "gadget_046.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1363,13 +1363,13 @@
             "image": "gadget_047.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -1406,20 +1406,20 @@
             "description": {
                 "en": "Get Rings after taking damage (Ring 10)",
                 "jp": "ダメージを受けた後、リングを10枚獲得する。",
-                "kr": "데미지를 받은 후, 링 10개를 획득합니다."
+                "kr": "대미지를 받은 후, 링 10개를 획득합니다."
             },
             "gadget_type": "Support",
             "slots": 1,
             "image": "gadget_048.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1446,13 +1446,13 @@
             "image": "gadget_051.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1472,20 +1472,20 @@
             "description": {
                 "en": "After falling off course, get a 'Boost'. (Can get 2 Boost items if you use the Damage Support Kit simultaneously.)",
                 "jp": "コースから落下した後、'ブースト'を獲得する。(ダメージサポートキットと重複すると、'ブースト'を2つ獲得できる。)",
-                "kr": "코스에서 떨어져서 복귀하면 부스트를 획득합니다. (데미지 서포트 키트와 중복해 '부스트' 2개 획득 가능)"
+                "kr": "코스에서 떨어져서 복귀하면 부스트를 획득합니다. (대미지 서포트 키트와 중복해 '부스트' 2개 획득 가능)"
             },
             "gadget_type": "Support",
             "slots": 1,
             "image": "gadget_052.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1512,13 +1512,13 @@
             "image": "gadget_053.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1538,7 +1538,7 @@
             "description": {
                 "en": "Halves the number of Rings lost when taking damage. (Also halves the number of Rings lost by \"Ring Steal\") (Changed to 1 slot gadget in v1.4.1)`",
                 "jp": "ダメージを受けて落下するリングの数を半分に減らします。「リングスティール」によるリング奪取も半分に減少します。v1.4.1で1スロットのガジェットに変更されました。",
-                "kr": "데미지를 받아 떨어지는 링의 개수를 절반으로 줄입니다. 「링 스틸」에 의한 링 손실도 절반으로 감소합니다. v1.4.1 패치로 1슬롯 가젯으로 변경되었습니다."
+                "kr": "대미지를 받아 떨어지는 링의 개수를 절반으로 줄입니다. 「링 스틸」에 의한 링 손실도 절반으로 감소합니다. v1.4.1 패치로 1슬롯 가젯으로 변경되었습니다."
             },
             "gadget_type": "Support",
             "slots": 1,
@@ -1557,7 +1557,7 @@
             "effect": {
                 "en": "Halve the number of Rings lost when taking damage",
                 "jp": "ダメージを受けて落ちるリングを半分に減少",
-                "kr": "데미지를 받아 떨어지는 링을 절반으로 감소"
+                "kr": "대미지를 받아 떨어지는 링을 절반으로 감소"
             },
             "stat_table": null
         }

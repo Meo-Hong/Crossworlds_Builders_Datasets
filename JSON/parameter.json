@@ -185,26 +185,39 @@
         "detail":{
             "en": [
                 "The Dash value does not affect the length or speed of the Charge Boost. Please note this, as it is easy to confuse.",
-                "The charge speed increases by 0.05% per 1 Dash value. (There is a 1.5x difference in charge speed between a value of 0 and 100.)",
+                "The higher the Dash value, the faster the drift charge, capping at 88. (Going above 88 does not make it faster)",
+                "Time to reach Lv4 is about 5.5 seconds at Dash 2 and about 3.6 seconds at Dash 88, roughly a 1.5x difference.",
+                "However, the Lv1 → Lv2 step is less affected by the Dash value.",
+                "For more details, please refer to the 'Dash stat graph references' below.",
                 "The example video below shows the difference between (Left: Dash value 2, Right: Dash value 100).",
                 "The video was recorded in v1.3.1 version."
             ],
             "jp": [
                 "ダッシュ数値は、チャージダッシュの距離や速度には影響を与えません。誤解しやすいため、ご留意ください。",
-                "ダッシュ数値1につき、チャージ速度が0.05%速くなります。（数値0と100のチャージ速度の差は1.5倍です。）",
+                "ダッシュ数値が高いほどドリフトのチャージ速度が速くなり、88で頭打ちになります。（88を超えても速くならない）",
+                "Lv4到達時間はダッシュ2で約5.5秒、ダッシュ88で約3.6秒と、約1.5倍の差があります。",
+                "ただし、1段階→2段階の区間はダッシュ数値の影響が小さいです。",
+                "詳細は、以下の「ダッシュ数値グラフの参考資料」をご参照ください。",
                 "以下のサンプル動画は（左：ダッシュ数値2、右：ダッシュ数値100）の違いを示しています。",
                 "該当動画はv1.3.1バージョンで撮影されました。"
             ],
             "kr": [
                 "대시 수치는 차지 대시의 길이에는 영향을 주지 않습니다. 헷갈리기 쉽기 때문에 유의하기 바랍니다.",
-                "대시 수치 1당 0.05%씩 차지 속도가 빨라집니다. (0과 100의 차지 속도 차이는 1.5배 차이 입니다.)",
+                "대시 수치가 높을수록 드리프트 차지 속도가 빨라지며, 88에서 멈춥니다. (88을 넘겨도 더 빨라지지 않음)",
+                "Lv4 도달 시간은 대시 2에서 약 5.5초, 대시 88에서 약 3.6초로 약 1.5배 차이가 납니다.",
+                "단, 1단계 → 2단계 구간은 대시 수치의 영향을 적게 받습니다.",
+                "자세한 사항은 아래의 '대시 수치 그래프 참고 자료'를 참고하기 바랍니다.",
                 "아래 예시 영상은 (왼쪽 : 대시 수치 2, 오른쪽 : 대시 수치 100)의 차이를 보여줍니다.",
                 "해당 영상은 v1.3.1 버전에서 촬영되었습니다."
             ]
         },
-        "example":[
+        "note_links": [
+            "https://x.com/thetakappa__/status/2117862399055446508"
+        ],
+        "example": [
             "boost_param_2.mp4",
-            "boost_param_100.mp4"
+            "boost_param_100.mp4",
+            "boost_param_charge_time.png"
         ]
     }
 }

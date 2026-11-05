@@ -119,13 +119,13 @@
             "image": "gadget_002.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -153,13 +153,13 @@
             "image": "gadget_003.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -187,13 +187,13 @@
             "image": "gadget_004.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -212,30 +212,34 @@
                 "kr": "슬립스트림 보너스"
             },
             "description": {
-                "en": "Continuously get Rings while a slipstream is occurring. (Ring 1 per 0.5 seconds) (When linked with Acceleration Character Kit, get 1 Ring every 0.25 seconds)",
-                "jp": "スリップストリーム発動中、約0.5秒毎にリングを1枚ずつ獲得し続ける。(アクセルタイプのキャラクターとリンクすると0.25秒ごとにリング1個獲得)",
-                "kr": "슬립스트림이 발생하면 0.5초마다 링 1개를 획득 (액셀 캐릭터 키트와 연동 시, 0.25초마다 링 1개 획득)"
+                "en": "Continuously get Rings while a slipstream is occurring. (Ring 1 per 0.6 seconds (36f)) (When stacked with a kit that includes Slipstream Bounty, such as the Acceleration Character Kit, get 1 Ring every 0.4 seconds (24f)) (Note: X @thetakappa__)",
+                "jp": "スリップストリーム発動中、約0.6秒(36f)毎にリングを1枚ずつ獲得し続ける。(アクセルキャラクターキットなどスリップストリームボーナスを含むキットと重複すると、0.4秒(24f)ごとにリング1個獲得)（参考：X @thetakappa__）",
+                "kr": "슬립스트림이 발생하면 0.6초(36f)마다 링 1개를 획득 (액셀 캐릭터 키트 등 슬립스트림 보너스가 포함된 키트와 중복 시, 0.4초(24f)마다 링 1개 획득) (참고 : X @thetakappa__)"
             },
             "gadget_type": "Ring Gain",
             "slots": 1,
             "image": "gadget_005.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
-                "en": "Get 1 Ring every 0.5 seconds while a slipstream is occurring",
-                "jp": "スリップストリーム発動中、0.5秒毎に1枚のリングを獲得",
-                "kr": "슬립스트림이 발생하면 0.5초마다 링 1개 획득"
+                "en": "Get 1 Ring every 0.6 seconds while a slipstream is occurring",
+                "jp": "スリップストリーム発動中、0.6秒毎に1枚のリングを獲得",
+                "kr": "슬립스트림이 발생하면 0.6초마다 링 1개 획득"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "링 획득 간격 조정 ( 30f(0.5초) → 36f(0.6초) )\n중복 장착 시 링 획득 간격 조정 ( 20f → 24f )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -246,30 +250,34 @@
                 "kr": "트래블 링 보너스"
             },
             "description": {
-                "en": "Get Rings when passing through a Travel Ring (at the start of LAP2 and LAP3). (Ring 15)",
-                "jp": "トラベルリング(LAP2開始時とLAP3開始時)を通った時、リングを15枚獲得する。",
-                "kr": "트래블 링을 통과하면 (LAP2와 LAP3 시작 시) 링 15개를 획득합니다."
+                "en": "Get Rings when passing through a Travel Ring (at the start of LAP2 and LAP3). (Ring 25)",
+                "jp": "トラベルリング(LAP2開始時とLAP3開始時)を通った時、リングを25枚獲得する。",
+                "kr": "트래블 링을 통과하면 (LAP2와 LAP3 시작 시) 링 25개를 획득합니다."
             },
             "gadget_type": "Ring Gain",
             "slots": 1,
             "image": "gadget_006.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
-                "en": "Get 15 Rings when passing through a Travel Ring.",
-                "jp": "トラベルリングを通った時、15枚のリングを獲得",
-                "kr": "트래블 링을 통과 시, 링 15개 획득"
+                "en": "Get 25 Rings when passing through a Travel Ring.",
+                "jp": "トラベルリングを通った時、25枚のリングを獲得",
+                "kr": "트래블 링을 통과 시, 링 25개 획득"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "획득 링 개수 조정 ( 15개 → 25개 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -280,9 +288,9 @@
                 "kr": "변형 시 액션 보너스"
             },
             "description": {
-                "en": "Do a Charge Dash in water or in flight to get Rings. ( Only Ring 4 )",
-                "jp": "水上、空中でチャージアクションをするとリングを4枚獲得する。(一回のアクションで手に入るリングは4枚で固定)",
-                "kr": "차지 대시를 수상 또는 공중에서 수행하면 링 4개를 획득합니다.(한 번의 액션으로 얻는 링은 4개로 고정됩니다.)"
+                "en": "Do a Charge Dash in water or in flight to get Rings. ( Only Ring 6 )",
+                "jp": "水上、空中でチャージアクションをするとリングを6枚獲得する。(一回のアクションで手に入るリングは6枚で固定)",
+                "kr": "차지 대시를 수상 또는 공중에서 수행하면 링 6개를 획득합니다.(한 번의 액션으로 얻는 링은 6개로 고정됩니다.)"
             },
             "gadget_type": "Ring Gain",
             "slots": 1,
@@ -299,11 +307,15 @@
                 ]
             },
             "effect": {
-                "en": "Get 4 Rings when doing a Charge Dash in water or in flight.",
-                "jp": "水上、空中でチャージアクションをすると4枚のリングを獲得",
-                "kr": "차지 대시를 수상 또는 공중에서 수행 시, 링 4개 획득"
+                "en": "Get 6 Rings when doing a Charge Dash in water or in flight.",
+                "jp": "水上、空中でチャージアクションをすると6枚のリングを獲得",
+                "kr": "차지 대시를 수상 또는 공중에서 수행 시, 링 6개 획득"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "획득 링 개수 조정 ( 4개 → 6개 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -314,9 +326,9 @@
                 "kr": "저스트 차지 보너스"
             },
             "description": {
-                "en": "Release the Drift as soon as a Charge Level is filled to get Rings. (Ring 3 / 6 / 9 / 12)",
-                "jp": "チャージが溜まり切ったタイミングでダッシュすることでリングを獲得できるようになる。チャージのレベルに応じて手に入るリング枚数は変わり、レベル×3枚手に入る。",
-                "kr": "차지 레벨이 채워지면 즉시 드리프트를 해제하여 링을 획득합니다. 차지 레벨에 따라 얻는 링의 개수가 달라지며, 레벨 * 3개의 링을 얻을 수 있습니다."
+                "en": "Release the Drift as soon as a Charge Level is filled to get Rings. (Ring 2 / 4 / 6 / 8)",
+                "jp": "チャージが溜まり切ったタイミングでダッシュすることでリングを獲得できるようになる。チャージのレベルに応じて手に入るリング枚数は変わり、レベル×2枚手に入る。",
+                "kr": "차지 레벨이 채워지면 즉시 드리프트를 해제하여 링을 획득합니다. 차지 레벨에 따라 얻는 링의 개수가 달라지며, 레벨 * 2개의 링을 얻을 수 있습니다."
             },
             "gadget_type": "Ring Gain",
             "slots": 2,
@@ -333,11 +345,15 @@
                 ]
             },
             "effect": {
-                "en": "Get Rings when releasing the Drift as soon as a Charge Level is filled. (Charge Level × 3 rings)",
-                "jp": "チャージレベルが満たされ次第、ドリフトを解除するとリングを獲得 (チャージレベル × 3リング)",
-                "kr": "차지 레벨이 채워지는 즉시 드리프트를 해제하면 레벨 × 3개의 링을 획득"
+                "en": "Get Rings when releasing the Drift as soon as a Charge Level is filled. (Charge Level × 2 rings)",
+                "jp": "チャージレベルが満たされ次第、ドリフトを解除するとリングを獲得 (チャージレベル × 2リング)",
+                "kr": "차지 레벨이 채워지는 즉시 드리프트를 해제하면 레벨 × 2개의 링을 획득"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "저스트 차지 성공 시 획득 링 개수 조정 ( 3/6/9개 → 2/4/6개 )\n타임 트라이얼에서는 기존과 동일 ( 3/6/9개 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -391,13 +407,13 @@
             "image": "gadget_010.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -520,9 +536,9 @@
                 "kr": "링 엔진"
             },
             "description": {
-                "en": "When holding 1 or more Rings, '+3km/h to maximum speed' and '+12 to all stats'. Instead of losing 1 Ring per second. Equipping it together with Hyper Ring Engine (Double Ring Engine) increases top speed by +9km/h.",
-                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 +3km/h 上昇' + '全体のマシンスタット +12 上昇'。ハイパーリングエンジンと同時に装着すると（ダブルリングエンジン）、最高速度が+9km/h上昇します。",
-                "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 3km/h 증가' + '머신의 스탯 +12 상승'합니다. 하이퍼 링 엔진과 함께 장착하면(더블 링 엔진) 최고속도가 +9km/h 증가합니다."
+                "en": "When holding 1 or more Rings, 'up to +2km/h to maximum speed (varies with Ring count)' and '+8 to all stats'. Instead of losing 1 Ring per second.",
+                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 最大+2km/h 上昇 (リング数に応じて変動)' + '全体のマシンスタット +8 上昇'。",
+                "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 최대 2km/h 증가 (링 개수에 따라 변동)' + '머신의 스탯 +8 상승'합니다."
             },
             "gadget_type": "Ring Ability",
             "slots": 1,
@@ -539,24 +555,27 @@
                 ]
             },
             "effect": {
-                "en": "When holding 1 or more Rings, +3km/h to maximum speed and +12 to all stats. (losing 1 Ring per second)",
-                "jp": "リングが1つ以上あるとき、'最高速度 +3km/h 上昇' + '全体のパラメーター +12' (1秒に 1リングを消費)",
-                "kr": "링이 1개 이상 일 때, '최고속도 +3km/h 상승' + '머신의 파라미터가 +12 상승' (1초당 링 1개씩 소비)"
+                "en": "When holding 1 or more Rings, up to +2km/h to maximum speed (varies with Ring count) and +8 to all stats. (losing 1 Ring per second)",
+                "jp": "リングが1つ以上あるとき、'最高速度 最大+2km/h 上昇 (リング数に応じて変動)' + '全体のパラメーター +8' (1秒に 1リングを消費)",
+                "kr": "링이 1개 이상 일 때, '최고속도 최대 +2km/h 상승 (링 개수에 따라 변동)' + '머신의 파라미터가 +8 상승' (1초당 링 1개씩 소비)"
             },
             "patch": {
                 "v1.4.1": {
                     "en": "Adjusted the combined effect of Ring Engine + Hyper Ring Engine (Max speed increase changed to '11km/h → 9km/h', fixed an issue where having fewer Rings would increase stats drastically)",
                     "jp": "リングエンジン + ハイパーリングエンジン 組み合わせ時の効果を調整 (最高速度の上昇量を「11km/h → 9km/h」に変更、リング数が少ない状態でパラメータが過剰に上昇していた問題を修正)",
                     "kr": "링 엔진 + 하이퍼 링 엔진 조합 시 효과 조정 (최고 속도 상승량을 '11km/h → 9km/h'로 변경, 링이 적은 상태에서 성능이 과도하게 상승하던 문제 수정)"
+                },
+                "v2.0.0": {
+                    "kr": "링 1개 이상 보유 시 파라미터 상승량 조정 ( +12 → +8 )\n최고속도 상승량 조정 ( +3km/h → +2km/h ), 링 개수에 따라 상승량이 달라지도록 변경\n타임 트라이얼에서는 최고속도 +2km/h 고정 상승 ( +3km/h → +2km/h )"
                 }
             },
             "stat_table": {
                 "burning": {
-                    "speed": 12,
-                    "acceleration": 12,
-                    "handling": 12,
-                    "power": 12,
-                    "boost": 12
+                    "speed": 8,
+                    "acceleration": 8,
+                    "handling": 8,
+                    "power": 8,
+                    "boost": 8
                 }
             }
         },
@@ -568,9 +587,9 @@
                 "kr": "하이퍼 링 엔진"
             },
             "description": {
-                "en": "When holding 1 or more Rings, +4km/h to maximum speed + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second). Equipping it together with Ring Engine (Double Ring Engine) increases top speed by +9km/h.",
-                "jp": "リングが1つ以上あるとき、'最高速度 +4km/h 上昇' + '全体のマシンスタットがリングの数だけ上昇'（最大スタット増加は100まで上昇し、1秒にリング1つを消費します）。リングエンジンと同時に装着すると（ダブルリングエンジン）、最高速度が+9km/h上昇します。",
-                "kr": "링이 1개 이상 일 때, '최고속도 4km/h 증가' + '머신의 스탯이 링 개수만큼 상승' (최대 스탯 상승 100까지 상승, 1초에 링 1개씩 소비). 링 엔진과 함께 장착하면(더블 링 엔진) 최고속도가 +9km/h 증가합니다."
+                "en": "When holding 1 or more Rings, up to +3km/h to maximum speed (varies with Ring count) + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second).",
+                "jp": "リングが1つ以上あるとき、'最高速度 最大+3km/h 上昇 (リング数に応じて変動)' + '全体のマシンスタットがリングの数だけ上昇'（最大スタット増加は100まで上昇し、1秒にリング1つを消費します）。",
+                "kr": "링이 1개 이상 일 때, '최고속도 최대 3km/h 증가 (링 개수에 따라 변동)' + '머신의 스탯이 링 개수만큼 상승' (최대 스탯 상승 100까지 상승, 1초에 링 1개씩 소비)."
             },
             "gadget_type": "Ring Ability",
             "slots": 2,
@@ -587,15 +606,18 @@
                 ]
             },
             "effect": {
-                "en": "When holding 1 or more Rings, +4km/h to maximum speed + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second)",
-                "jp": "リングが1つ以上あるとき、'最高速度 +4km/h 上昇' + 'マシンのパラメーターがリングの数だけ上昇' (最大パラメーター増加は100まで上昇, 1秒 1リングを消費)",
-                "kr": "링이 1개 이상 일 때, '최고속도 4km/h 증가' + '머신의 파라미터가 링 개수만큼 상승' (최대 파라미터 100까지 상승, 1초에 링 1개씩 소비)"
+                "en": "When holding 1 or more Rings, up to +3km/h to maximum speed (varies with Ring count) + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second)",
+                "jp": "リングが1つ以上あるとき、'最高速度 最大+3km/h 上昇 (リング数に応じて変動)' + 'マシンのパラメーターがリングの数だけ上昇' (最大パラメーター増加は100まで上昇, 1秒 1リングを消費)",
+                "kr": "링이 1개 이상 일 때, '최고속도 최대 3km/h 증가 (링 개수에 따라 변동)' + '머신의 파라미터가 링 개수만큼 상승' (최대 파라미터 100까지 상승, 1초에 링 1개씩 소비)"
             },
             "patch": {
                 "v1.4.1": {
                     "en": "Fixed a bug where the maximum speed increase was not applied when used alone\nMaximum speed bonus adjusted ( +8km/h → +4km/h )\nAdjusted the combined effect of Ring Engine + Hyper Ring Engine (Max speed increase changed to '11km/h → 9km/h', fixed an issue where having fewer Rings would increase stats drastically)",
                     "jp": "単独使用時に最高速度上昇が適用されない不具合を修正\n最高速度ボーナス 調整 ( +8km/h → +4km/h )\nリングエンジン + ハイパーリングエンジン 組み合わせ時の効果を調整 (最高速度の上昇量を「11km/h → 9km/h」に変更、リング数が少ない状態でパラメータが過剰に上昇していた問題を修正)",
                     "kr": "단독 사용 시, 최고속도 증가가 적용되지 않는 버그 수정\n최고속도 보너스 조정 ( +8km/h → +4km/h )\n링 엔진 + 하이퍼 링 엔진 조합 시 효과 조정 (최고 속도 상승량을 '11km/h → 9km/h'로 변경, 링이 적은 상태에서 성능이 과도하게 상승하던 문제 수정)"
+                },
+                "v2.0.0": {
+                    "kr": "최고속도 상승량 조정 ( +4km/h → +3km/h ), 링 개수에 따라 상승량이 달라지도록 변경\n링 엔진과 함께 장착 시 최고속도 +2km/h 추가 상승 효과 삭제"
                 }
             },
             "stat_table": {
@@ -659,13 +681,13 @@
             "image": "gadget_013.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
@@ -693,13 +715,13 @@
             "image": "gadget_014.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -718,30 +740,34 @@
                 "kr": "링 스틸"
             },
             "description": {
-                "en": "Steal Rings when colliding with other racers. (another gadget can be used simultaneously.) (Ring 5) (1.3 second delay after obtaining)",
-                "jp": "他のレーサーに接触した時、リングを5枚奪う。(他のガジェットと重複可能, 1.3秒のディレイが存在する)",
-                "kr": "다른 레이서와 충돌 시, 상대의 링 5개를 훔칩니다. (가젯 효과와 중복 가능, 한 번 훔친 후 1.3초 딜레이 존재)"
+                "en": "Steal Rings when colliding with other racers. (another gadget can be used simultaneously.) (Ring 8) (1.3 second delay after obtaining)",
+                "jp": "他のレーサーに接触した時、リングを8枚奪う。(他のガジェットと重複可能, 1.3秒のディレイが存在する)",
+                "kr": "다른 레이서와 충돌 시, 상대의 링 8개를 훔칩니다. (가젯 효과와 중복 가능, 한 번 훔친 후 1.3초 딜레이 존재)"
             },
             "gadget_type": "Ring Ability",
             "slots": 2,
             "image": "gadget_015.png",
             "unlock": {
                 "en": [
-                    "Finish 46 races"
+                    "Finish 28 races"
                 ],
                 "jp": [
-                    "レース46回完走"
+                    "レース28回完走"
                 ],
                 "kr": [
-                    "레이스 46회 완주"
+                    "레이스 28회 완주"
                 ]
             },
             "effect": {
-                "en": "Steal 5 Rings when colliding with other racers.",
-                "jp": "他のレーサーに接触した時、5枚のリングを奪う",
-                "kr": "다른 레이서와 충돌 시, 링 5개 획득"
+                "en": "Steal 8 Rings when colliding with other racers.",
+                "jp": "他のレーサーに接触した時、8枚のリングを奪う",
+                "kr": "다른 레이서와 충돌 시, 링 8개 획득"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "빼앗는 링 개수 조정 ( 5개 → 8개 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -761,13 +787,13 @@
             "image": "gadget_016.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -786,30 +812,34 @@
                 "kr": "링 획득 대시"
             },
             "description": {
-                "en": "Get 15km/h speed boost for 0.12s when obtaining Rings. and 500% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
-                "jp": "リング獲得時、0.12秒間 15km/h加速する。リング獲得時に500%のアクセルエフェクトが適用される。(他のガジェットと重複可能)",
-                "kr": "링 획득 시 0.12초간 15km/h 가속합니다. 링을 얻는 순간 500% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
+                "en": "Get 17km/h speed boost for 0.12s when obtaining Rings. and 500% acceleration effect when obtaining Rings. ( another gadget can be used simultaneously. )",
+                "jp": "リング獲得時、0.12秒間 17km/h加速する。リング獲得時に500%のアクセルエフェクトが適用される。(他のガジェットと重複可能)",
+                "kr": "링 획득 시 0.12초간 17km/h 가속합니다. 링을 얻는 순간 500% 액셀 가속 효과를 받습니다. (가젯 효과와 중복 가능)"
             },
             "gadget_type": "Ring Ability",
             "slots": 2,
             "image": "gadget_017.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
-                "en": "Get 15km/h speed boost for 0.12s when obtaining Rings.",
-                "jp": "リング獲得時、0.12秒間 15km/h加速",
-                "kr": "링 획득 시 0.12초간 15km/h 가속"
+                "en": "Get 17km/h speed boost for 0.12s when obtaining Rings.",
+                "jp": "リング獲得時、0.12秒間 17km/h加速",
+                "kr": "링 획득 시 0.12초간 17km/h 가속"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "링 획득 중 최고속도 상승량 조정 ( +15km/h → +17km/h )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -829,13 +859,13 @@
             "image": "gadget_018.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -865,13 +895,13 @@
             "image": "gadget_019.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -887,33 +917,37 @@
             "name": {
                 "en": "Air Drift Mobility UP",
                 "jp": "空中ドリフト自由度アップ",
-                "kr": "공중 드리프트 자유도 증가"
+                "kr": "공중 드리프트 자유도 UP"
             },
             "description": {
-                "en": "While in flight form, Air Drifts can turn more sharply. Directional drifts move further. Gain a boost in air drift's direction upon release. (Increased moving distance)",
-                "jp": "エアドリフト中、より鋭く旋回できます。方向転換ドリフト時、従来よりも大きく移動し、ドリフト解除時、ドリフトを切った方向へブーストが発動します。（従来よりも大きな移動幅を持ちます）",
-                "kr": "공중 드리프트 중 더 급격하게 회전할 수 있습니다. 방향 전환 드리프트 시 기존보다 더욱 크게 이동하며, 드리프트 해제 시, 드리프트를 꺾은 방향으로 부스트가 발동합니다. (기존보다 더 큰 이동폭을 가짐)"
+                "en": "While in flight form, Air Drifts can turn more sharply. Directional drifts move further. Gain a boost in air drift's direction upon release. (Increased moving distance) In flight form, all Drift Charge levels fill 1.7x faster.",
+                "jp": "エアドリフト中、より鋭く旋回できます。方向転換ドリフト時、従来よりも大きく移動し、ドリフト解除時、ドリフトを切った方向へブーストが発動します。（従来よりも大きな移動幅を持ちます）空中モードでは全段階のドリフトチャージが1.7倍速く溜まります。",
+                "kr": "공중 드리프트 중 더 급격하게 회전할 수 있습니다. 방향 전환 드리프트 시 기존보다 더욱 크게 이동하며, 드리프트 해제 시, 드리프트를 꺾은 방향으로 부스트가 발동합니다. (기존보다 더 큰 이동폭을 가짐) 비행 모드에서는 모든 단계의 드리프트 차지가 1.7배 빠르게 모입니다."
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
             "image": "gadget_020.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 64 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース64回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 64회 완주"
                 ]
             },
             "effect": {
-                "en": "Increases the angle of air drift. (more sharply) + Gain a boost in air drift's direction upon release",
-                "jp": "空中ドリフトの回転角の増加 (より急に) + ドリフト解除時、ドリフトした方向へチャージダッシュ発動",
-                "kr": "공중 드리프트의 회전각도 증가 (더 급격하게) + 드리프트 해제 시 드리프트한 방향으로 차지 대시 발동"
+                "en": "Increases the angle of air drift. (more sharply) + Gain a boost in air drift's direction upon release + 1.7x charge speed at all levels in flight form",
+                "jp": "空中ドリフトの回転角の増加 (より急に) + ドリフト解除時、ドリフトした方向へチャージダッシュ発動 + 空中モードで全段階のチャージ速度1.7倍",
+                "kr": "공중 드리프트의 회전각도 증가 (더 급격하게) + 드리프트 해제 시 드리프트한 방향으로 차지 대시 발동 + 비행 모드에서 모든 단계의 차지 속도 1.7배"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "비행 모드에서 모든 단계의 차지가 1.7배 빠르게 모이는 효과 추가"
+                }
+            },
             "stat_table": null
         },
         {
@@ -921,33 +955,37 @@
             "name": {
                 "en": "Charge Jump Mobility UP",
                 "jp": "チャージジャンプ自由度アップ",
-                "kr": "차지 점프 자유도 증가"
+                "kr": "차지 점프 자유도 UP"
             },
             "description": {
-                "en": "While Charge Jumping in water form, left and right Air Tricks gain more distance.",
-                "jp": "水上でチャージジャンプした時、左右入力でエアトリックを行うとその方向へ少し移動する。",
-                "kr": "수상 모드 중 차지 점프 중에 좌우 입력으로 에어 트릭을 하면 해당 방향으로 조금 이동합니다."
+                "en": "While Charge Jumping in water form, left and right Air Tricks gain more distance. In water form, all Drift Charge levels fill 1.7x faster.",
+                "jp": "水上でチャージジャンプした時、左右入力でエアトリックを行うとその方向へ少し移動する。水上モードでは全段階のドリフトチャージが1.7倍速く溜まります。",
+                "kr": "수상 모드 중 차지 점프 중에 좌우 입력으로 에어 트릭을 하면 해당 방향으로 조금 이동합니다. 수상 모드에서는 모든 단계의 드리프트 차지가 1.7배 빠르게 모입니다."
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
             "image": "gadget_021.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 64 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース64回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 64회 완주"
                 ]
             },
             "effect": {
-                "en": "Increase air trick travel distance during charge jump in water mode",
-                "jp": "水上モードのチャージジャンプ中、エアトリックの移動距離の増加",
-                "kr": "수상 모드의 차지 점프 중, 에어 트릭의 이동 거리 증가"
+                "en": "Increase air trick travel distance during charge jump in water mode + 1.7x charge speed at all levels in water form",
+                "jp": "水上モードのチャージジャンプ中、エアトリックの移動距離の増加 + 水上モードで全段階のチャージ速度1.7倍",
+                "kr": "수상 모드의 차지 점프 중, 에어 트릭의 이동 거리 증가 + 수상 모드에서 모든 단계의 차지 속도 1.7배"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "수상 모드에서 모든 단계의 차지가 1.7배 빠르게 모이는 효과 추가"
+                }
+            },
             "stat_table": null
         },
         {
@@ -992,9 +1030,9 @@
                 "kr": "저스트 착지"
             },
             "description": {
-                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants a momentary +40km/h boost and +10km/h Additional Speed for 0.5 seconds.",
-                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、瞬間的な+40km/hのブースト加速と0.5秒間+10km/hの追加速度を付与します。",
-                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 순간 +40km/h 부스트 가속과 0.5초 동안 +10km/h 추가 속도를 부여합니다."
+                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants a momentary +40km/h boost and +10km/h Additional Speed for a short time. (The more Air Tricks you perform, the longer the speed boost lasts.)",
+                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、瞬間的な+40km/hのブースト加速と短時間+10km/hの追加速度を付与します。（エアトリックの回数が多いほど、最高速度上昇時間が長くなります。）",
+                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 순간 +40km/h 부스트 가속과 짧은 시간 동안 +10km/h 추가 속도를 부여합니다. (에어 트릭 횟수가 많을수록 최고속도 상승 시간이 길어집니다.)"
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
@@ -1011,11 +1049,15 @@
                 ]
             },
             "effect": {
-                "en": "Pressing accelerate again the moment you land: momentary +40km/h boost + 0.5s of +10km/h Additional Speed",
-                "jp": "着地した瞬間、アクセルを再度押すと瞬間+40km/hのブースト加速 ＋ 0.5秒間+10km/hの追加速度",
-                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 순간 +40km/h 부스트 가속 + 0.5초 동안 +10km/h 추가 속도"
+                "en": "Pressing accelerate again the moment you land: momentary +40km/h boost + a short burst of +10km/h Additional Speed (lasts longer with more Air Tricks)",
+                "jp": "着地した瞬間、アクセルを再度押すと瞬間+40km/hのブースト加速 ＋ 短時間+10km/hの追加速度 (エアトリックの回数に応じて上昇時間増加)",
+                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 순간 +40km/h 부스트 가속 + 짧은 시간 동안 +10km/h 추가 속도 (에어 트릭 횟수에 따라 상승 시간 증가)"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "저스트 착지 성공 시 최고속도 상승 시간이 에어 트릭 횟수에 따라 더 길어지도록 강화"
+                }
+            },
             "stat_table": null
         },
         {
@@ -1026,30 +1068,34 @@
                 "kr": "고속 에어 트릭"
             },
             "description": {
-                "en": "Air trick speed is increased by 25%. ( Can be stacked with gadget effects )",
-                "jp": "エアトリック速度が25%増加します。(ガジェット効果とネスト可能)",
-                "kr": "에어 트릭 속도가 25% 빨라집니다. (가젯 효과와 중첩 가능)"
+                "en": "Air trick speed is increased by 37.5%. ( Can be stacked with gadget effects )",
+                "jp": "エアトリック速度が37.5%増加します。(ガジェット効果とネスト可能)",
+                "kr": "에어 트릭 속도가 37.5% 빨라집니다. (가젯 효과와 중첩 가능)"
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
             "image": "gadget_022.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
-                "en": "Increase air trick speed by 25%.",
-                "jp": "エアトリックの速度を25%増加",
-                "kr": "에어 트릭의 속도를 25% 증가"
+                "en": "Increase air trick speed by 37.5%.",
+                "jp": "エアトリックの速度を37.5%増加",
+                "kr": "에어 트릭의 속도를 37.5% 증가"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "에어 트릭 회전 속도 상승 효과 조정 ( 1.25배 → 1.375배 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -1094,34 +1140,37 @@
                 "kr": "범프 대시"
             },
             "description": {
-                "en": "Collide with other machines to Boost. (0.5 second boost, 25km/h speed boost)",
-                "jp": "他のマシーンとぶつかった時、0.5秒ダッシュし、25km/hの速度アップを得る",
-                "kr": "다른 머신과 충돌 시, 0.5초동안 25km/h 가속합니다."
+                "en": "Collide with other machines to Boost. (1.7 second boost, 25km/h speed boost) (Duration stacks with Collision Boost Mini) (Note: X @thetakappa__)",
+                "jp": "他のマシーンとぶつかった時、1.7秒ダッシュし、25km/hの速度アップを得る（ぶつかりダッシュミニと重複時は効果時間を加算）（参考：X @thetakappa__）",
+                "kr": "다른 머신과 충돌 시, 1.7초동안 25km/h 가속합니다. (범프 대시 미니와 중복 시 지속 시간 합산) (참고 : X @thetakappa__)"
             },
             "gadget_type": "Technique Upgrade",
             "slots": 2,
             "image": "gadget_024.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
-                "en": "When colliding with another machine, accelerate to 25 km/h for 0.5 second.",
-                "jp": "他のマシンと衝突すると、0.5秒間25km/h加速",
-                "kr": "다른 머신과 충돌 시, 0.5초동안 25km/h 가속"
+                "en": "When colliding with another machine, accelerate to 25 km/h for 1.7 seconds.",
+                "jp": "他のマシンと衝突すると、1.7秒間25km/h加速",
+                "kr": "다른 머신과 충돌 시, 1.7초동안 25km/h 가속"
             },
             "patch": {
                 "v1.3.1":{
                     "en": "Increased the duration of the Collision Boost.(0.25s → 0.5s)",
                     "jp": "ぶつかりダッシュの継続時間を長くしました。(0.25s → 0.5s)",
                     "kr": "범프 대시 지속 시간을 늘렸습니다. ( 0.25초 → 0.5초 )"
+                },
+                "v2.0.0": {
+                    "kr": "대시 지속 시간 조정 ( 0.5초 → 1.7초 )"
                 }
             },
             "stat_table": null
@@ -1143,13 +1192,13 @@
             "image": "gadget_025.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -1176,9 +1225,9 @@
                 "kr": "퍼스트 패스트 차지"
             },
             "description": {
-                "en": "Level 1 Drift Charge fills 50% faster.",
-                "jp": "ドリフト時のチャージ1段階目を50%高速化する",
-                "kr": "드리프트 차지 1단계가 50% 빨리 채워집니다."
+                "en": "Level 1 Drift Charge fills 70% faster.",
+                "jp": "ドリフト時のチャージ1段階目を70%高速化する",
+                "kr": "드리프트 차지 1단계가 70% 빨리 채워집니다."
             },
             "gadget_type": "Charge Upgrade",
             "slots": 2,
@@ -1195,11 +1244,15 @@
                 ]
             },
             "effect": {
-                "en": "Increase the speed of Level 1 Drift Charge by 50%.",
-                "jp": "1段階ドリフトチャージ速度50%増加",
-                "kr": "1단계 드리프트 차지 속도를 50% 증가"
+                "en": "Increase the speed of Level 1 Drift Charge by 70%.",
+                "jp": "1段階ドリフトチャージ速度70%増加",
+                "kr": "1단계 드리프트 차지 속도를 70% 증가"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "차지 속도 조정 ( 1.4배 → 1.7배 )\n의도치 않게 효과가 약해지던 오류 수정"
+                }
+            },
             "stat_table": null
         },
         {
@@ -1219,13 +1272,13 @@
             "image": "gadget_027.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -1253,13 +1306,13 @@
             "image": "gadget_028.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -1287,13 +1340,13 @@
             "image": "gadget_029.png",
             "unlock": {
                 "en": [
-                    "Finish 30 races"
+                    "Finish 20 races"
                 ],
                 "jp": [
-                    "レース30回完走"
+                    "レース20回完走"
                 ],
                 "kr": [
-                    "레이스 30회 완주"
+                    "레이스 20회 완주"
                 ]
             },
             "effect": {
@@ -1318,34 +1371,37 @@
                 "kr": "저스트 차지 대시"
             },
             "description": {
-                "en": "Releasing the drift immediately after charging grants a momentary +40km/h boost and +10km/h Additional Speed for 0.5 seconds, on top of the drift boost acceleration. (Based on Sonic Speed)",
-                "jp": "チャージ直後にドリフトを解除した際、ドリフトブースト加速に加えて、瞬間的な+40km/hのブースト加速と0.5秒間+10km/hの追加速度を付与します。（ソニックスピード基準）",
-                "kr": "차지 즉시 드리프트를 해제하였을 때, 드리프트 부스트 가속에 더해 순간 +40km/h 부스트 가속과 0.5초 동안 +10km/h 추가 속도를 부여합니다. (소닉 스피드 기준)"
+                "en": "Releasing the drift immediately after charging grants a momentary +40km/h boost and +10km/h Additional Speed for 1.0 seconds, on top of the drift boost acceleration. (Based on Sonic Speed)",
+                "jp": "チャージ直後にドリフトを解除した際、ドリフトブースト加速に加えて、瞬間的な+40km/hのブースト加速と1.0秒間+10km/hの追加速度を付与します。（ソニックスピード基準）",
+                "kr": "차지 즉시 드리프트를 해제하였을 때, 드리프트 부스트 가속에 더해 순간 +40km/h 부스트 가속과 1.0초 동안 +10km/h 추가 속도를 부여합니다. (소닉 스피드 기준)"
             },
             "gadget_type": "Charge Upgrade",
             "slots": 2,
             "image": "gadget_030.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 64 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース64回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 64회 완주"
                 ]
             },
             "effect": {
-                "en": "Momentary +40km/h boost + 0.5s of +10km/h Additional Speed upon immediate drift release after charging",
-                "jp": "チャージ直後のドリフト解除時、瞬間+40km/hのブースト加速 + 0.5秒間+10km/hの追加速度",
-                "kr": "차지 즉시 드리프트 해제 시, 순간 +40km/h 부스트 가속 + 0.5초 동안 +10km/h 추가 속도"
+                "en": "Momentary +40km/h boost + 1.0s of +10km/h Additional Speed upon immediate drift release after charging",
+                "jp": "チャージ直後のドリフト解除時、瞬間+40km/hのブースト加速 + 1.0秒間+10km/hの追加速度",
+                "kr": "차지 즉시 드리프트 해제 시, 순간 +40km/h 부스트 가속 + 1.0초 동안 +10km/h 추가 속도"
             },
             "patch": {
                 "v1.4.1":{
                     "en": "Slightly increased the duration of the boost caused by a perfect charge. ( ?? → 0.5s )",
                     "jp": "ジャスト解放成功時に発生する加速効果の持続時間を、わずかに延長しました。( ?? → 0.5秒 )",
                     "kr": "타이밍을 맞춰 해제에 성공하면 발생하는 가속 효과의 지속 시간이 조금 연장되었습니다. ( ?? → 0.5초 )"
+                },
+                "v2.0.0": {
+                    "kr": "저스트 차지 대시 성공 시 최고속도 상승 시간 조정 ( 0.5초 → 1.0초 )"
                 }
             },
             "stat_table": null
@@ -1358,30 +1414,34 @@
                 "kr": "테크니컬 드리프트"
             },
             "description": {
-                "en": "Drift becomes slippery, but charge speed increases by 33% at all levels from Lv1 to Lv4. (Land form only; stacks with various Fast Charge gadgets)",
-                "jp": "ドリフトが滑るようになる代わりに、Lv1～Lv4全ての段階でチャージ速度が33%増加します。（地上モード限定、各種ファストチャージと重複可能）",
-                "kr": "드리프트가 미끄러지게 되는 대신에 Lv1~Lv4까지 모든 단계에서 충전 속도가 33% 증가합니다. (지상 모드 한정, 각종 패스트 차지와 중복 가능)"
+                "en": "Drift becomes slippery, but charge speed increases by 30% at all levels from Lv1 to Lv4. (Land form only; stacks with various Fast Charge gadgets)",
+                "jp": "ドリフトが滑るようになる代わりに、Lv1～Lv4全ての段階でチャージ速度が30%増加します。（地上モード限定、各種ファストチャージと重複可能）",
+                "kr": "드리프트가 미끄러지게 되는 대신에 Lv1~Lv4까지 모든 단계에서 충전 속도가 30% 증가합니다. (지상 모드 한정, 각종 패스트 차지와 중복 가능)"
             },
             "gadget_type": "Charge Upgrade",
             "slots": 2,
             "image": "gadget_031.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 64 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース64回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 64회 완주"
                 ]
             },
             "effect": {
-                "en": "Drift becomes slippery, but Drift charge speed increases by 33%. (Land form only)",
-                "jp": "ドリフトが滑る代わりに、ドリフトチャージ速度33%増加（地上モード限定）",
-                "kr": "드리프트가 미끄러워지는 대신, 드리프트 차지 속도 33% 증가 (지상 모드 한정)"
+                "en": "Drift becomes slippery, but Drift charge speed increases by 30%. (Land form only)",
+                "jp": "ドリフトが滑る代わりに、ドリフトチャージ速度30%増加（地上モード限定）",
+                "kr": "드리프트가 미끄러워지는 대신, 드리프트 차지 속도 30% 증가 (지상 모드 한정)"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "성능 변화 없음, 연출 조정\n대시 타입 머신의 발광 연출을 머신 전체가 아닌 외곽에만 적용\n얼티밋 차지 4단계 차지 시 전용 발광 연출 적용\nTrail Runner TIRE 등 일부 타이어의 발광이 깜빡이던 오류 수정"
+                }
+            },
             "stat_table": null
         },
         {
@@ -1392,9 +1452,9 @@
                 "kr": "프릭션 드리프트"
             },
             "description": {
-                "en": "While drifting, you decelerate by 10km/h, but charge speed increases by 50% at all levels from Lv1 to Lv4. (Land form only; stacks with various Fast Charge gadgets)",
-                "jp": "ドリフト中に10km/h減速してしまう代わりに、Lv1～Lv4全ての段階でチャージ速度が50%増加します。（地上モード限定、各種ファストチャージと重複可能）",
-                "kr": "드리프트중에 10km/h 감속해 버리는 대신에 Lv1~Lv4까지 모든 단계에서 충전 속도가 50% 증가합니다. (지상 모드 한정, 각종 패스트 차지와 중복 가능)"
+                "en": "While drifting, you decelerate by 10km/h, but charge speed increases by 70% at all levels from Lv1 to Lv4. (Land form only; stacks with various Fast Charge gadgets)",
+                "jp": "ドリフト中に10km/h減速してしまう代わりに、Lv1～Lv4全ての段階でチャージ速度が70%増加します。（地上モード限定、各種ファストチャージと重複可能）",
+                "kr": "드리프트중에 10km/h 감속해 버리는 대신에 Lv1~Lv4까지 모든 단계에서 충전 속도가 70% 증가합니다. (지상 모드 한정, 각종 패스트 차지와 중복 가능)"
             },
             "gadget_type": "Charge Upgrade",
             "slots": 2,
@@ -1411,15 +1471,18 @@
                 ]
             },
             "effect": {
-                "en": "While drifting, decelerate by 10km/h, but Drift charge speed increases by 50%. (Land form only)",
-                "jp": "ドリフトすると10km/h減速する代わりに、ドリフトチャージ速度50%増加（地上モード限定）",
-                "kr": "드리프트하면 10km/h 감속하는 대신, 드리프트 차지 속도 50% 증가 (지상 모드 한정)"
+                "en": "While drifting, decelerate by 10km/h, but Drift charge speed increases by 70%. (Land form only)",
+                "jp": "ドリフトすると10km/h減速する代わりに、ドリフトチャージ速度70%増加（地上モード限定）",
+                "kr": "드리프트하면 10km/h 감속하는 대신, 드리프트 차지 속도 70% 증가 (지상 모드 한정)"
             },
             "patch": {
                 "v1.4.1":{
                     "en": "Fixed an issue where the player would slow down even when not drifting.",
                     "jp": "ドリフトをしていない状態でも、わずかに減速が発生する場合がある不具合を修正しました。",
                     "kr": "드리프트를 하지 않아도 약간의 감속이 발생하는 오류를 수정했습니다."
+                },
+                "v2.0.0": {
+                    "kr": "차지 속도 조정 ( 1.5배 → 1.7배 )"
                 }
             },
             "stat_table": null
@@ -1441,13 +1504,13 @@
             "image": "gadget_033.png",
             "unlock": {
                 "en": [
-                    "Finish 94 races"
+                    "Finish 64 races"
                 ],
                 "jp": [
-                    "レース94回完走"
+                    "レース64回完走"
                 ],
                 "kr": [
-                    "레이스 94회 완주"
+                    "레이스 64회 완주"
                 ]
             },
             "effect": {
@@ -1552,9 +1615,9 @@
                 "kr": "링 진화"
             },
             "description": {
-                "en": "Gain +1 in all stats each time you gain 10 rings. (Upgrade Effect is applied)",
-                "jp": "リングを10個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
-                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.) "
+                "en": "Gain +1 in all stats each time you gain 15 rings. (Upgrade Effect is applied)",
+                "jp": "リングを15個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
+                "kr": "링을 15개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.) "
             },
             "gadget_type": "Stat Upgrade",
             "slots": 1,
@@ -1571,11 +1634,15 @@
                 ]
             },
             "effect": {
-                "en": "Gain +1 in all stats each time you gain 10 rings.",
-                "jp": "リングを10個獲得するごとに全パラメーター +1",
-                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1."
+                "en": "Gain +1 in all stats each time you gain 15 rings.",
+                "jp": "リングを15個獲得するごとに全パラメーター +1",
+                "kr": "링을 15개 획득할 때마다 모든 파라미터 +1."
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "진화에 필요한 링 개수 조정 ( 10개 → 15개 )"
+                }
+            },
             "stat_table": {
                 "evolution": {
                     "speed": "+ n",
@@ -1693,13 +1760,13 @@
             "image": "gadget_035.png",
             "unlock": {
                 "en": [
-                    "Finish 78 races"
+                    "Finish 52 races"
                 ],
                 "jp": [
-                    "レース78回完走"
+                    "レース52回完走"
                 ],
                 "kr": [
-                    "레이스 78회 완주"
+                    "레이스 52회 완주"
                 ]
             },
             "effect": {
@@ -1789,13 +1856,13 @@
             "image": "gadget_037.png",
             "unlock": {
                 "en": [
-                    "Finish 78 races"
+                    "Finish 52 races"
                 ],
                 "jp": [
-                    "レース78回完走"
+                    "レース52回完走"
                 ],
                 "kr": [
-                    "레이스 78회 완주"
+                    "레이스 52회 완주"
                 ]
             },
             "effect": {
@@ -1837,13 +1904,13 @@
             "image": "gadget_038.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1856,11 +1923,14 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
                 "not": {
-                    "speed": 8,
+                    "speed": 15,
                     "acceleration": 0,
                     "handling": 0,
                     "power": 0,
@@ -1892,13 +1962,13 @@
             "image": "gadget_039.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -1911,11 +1981,14 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
                 "not": {
-                    "speed": 8,
+                    "speed": 15,
                     "acceleration": 0,
                     "handling": 0,
                     "power": 0,
@@ -1947,13 +2020,13 @@
             "image": "gadget_040.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -1966,12 +2039,15 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
                 "not": {
                     "speed": 0,
-                    "acceleration": 8,
+                    "acceleration": 15,
                     "handling": 0,
                     "power": 0,
                     "boost": 0
@@ -2002,13 +2078,13 @@
             "image": "gadget_041.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -2021,12 +2097,15 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
                 "not": {
                     "speed": 0,
-                    "acceleration": 8,
+                    "acceleration": 15,
                     "handling": 0,
                     "power": 0,
                     "boost": 0
@@ -2057,13 +2136,13 @@
             "image": "gadget_042.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2076,13 +2155,16 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
                 "not": {
                     "speed": 0,
                     "acceleration": 0,
-                    "handling": 8,
+                    "handling": 15,
                     "power": 0,
                     "boost": 0
                 },
@@ -2112,13 +2194,13 @@
             "image": "gadget_043.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -2131,13 +2213,16 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
                 "not": {
                     "speed": 0,
                     "acceleration": 0,
-                    "handling": 8,
+                    "handling": 15,
                     "power": 0,
                     "boost": 0
                 },
@@ -2167,13 +2252,13 @@
             "image": "gadget_044.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2186,6 +2271,9 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
@@ -2193,7 +2281,7 @@
                     "speed": 0,
                     "acceleration": 0,
                     "handling": 0,
-                    "power": 8,
+                    "power": 15,
                     "boost": 0
                 },
                 "equal": {
@@ -2222,13 +2310,13 @@
             "image": "gadget_045.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -2241,6 +2329,9 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
@@ -2248,7 +2339,7 @@
                     "speed": 0,
                     "acceleration": 0,
                     "handling": 0,
-                    "power": 8,
+                    "power": 15,
                     "boost": 0
                 },
                 "equal": {
@@ -2277,13 +2368,13 @@
             "image": "gadget_046.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2296,6 +2387,9 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
@@ -2304,7 +2398,7 @@
                     "acceleration": 0,
                     "handling": 0,
                     "power": 0,
-                    "boost": 8
+                    "boost": 15
                 },
                 "equal": {
                     "speed": -4,
@@ -2332,13 +2426,13 @@
             "image": "gadget_047.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -2351,6 +2445,9 @@
                     "en": "The stat bonuses granted by Tuner Gadgets for each Machine type have been doubled.\nGadget does not match Machine type: +4 → +8\nGadget matches Machine type: +10 → +20",
                     "jp": "各タイプのチューン系ガジェットについて、パラメータ上昇量を従来の2倍に強化しました。\nタイプ不一致時：+4 → +8\nタイプ一致時：+10 → +20",
                     "kr": "타입별 튠 계열 가젯의 성능 상승량을 기존의 2배로 강화했습니다.\n타입이 일치하지 않을 경우: +4 → +8\n타입이 일치할 경우: +10 → +20"
+                },
+                "v2.0.0": {
+                    "kr": "머신 타입 불일치 시 스탯 상승량 조정 ( +8 → +15 )"
                 }
             },
             "stat_table": {
@@ -2359,7 +2456,7 @@
                     "acceleration": 0,
                     "handling": 0,
                     "power": 0,
-                    "boost": 8
+                    "boost": 15
                 },
                 "equal": {
                     "speed": -2,
@@ -2416,20 +2513,20 @@
             "description": {
                 "en": "Get Rings after taking damage (Ring 10)",
                 "jp": "ダメージを受けた後、リングを10枚獲得する。",
-                "kr": "데미지를 받은 후, 링 10개를 획득합니다."
+                "kr": "대미지를 받은 후, 링 10개를 획득합니다."
             },
             "gadget_type": "Support",
             "slots": 1,
             "image": "gadget_048.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2448,24 +2545,64 @@
                 "kr": "무적 리커버리"
             },
             "description": {
-                "en": "Become temporarily invincible after taking damage. (8 seconds)",
-                "jp": "ダメージを受けた後、約8秒間無敵になる。",
-                "kr": "데미지를 받은 후, 약 8초 동안 무적 상태가 됩니다."
+                "en": "Become temporarily invincible after taking damage. (10 seconds)",
+                "jp": "ダメージを受けた後、約10秒間無敵になる。",
+                "kr": "대미지를 받은 후, 약 10초 동안 무적 상태가 됩니다."
             },
             "gadget_type": "Support",
             "slots": 2,
             "image": "gadget_049.png",
             "unlock": {
-                "en": "Finish 18 races",
-                "jp": "レース18回完走",
-                "kr": "레이스 18회 완주"
+                "en": [
+                    "F",
+                    "i",
+                    "n",
+                    "i",
+                    "s",
+                    "h",
+                    " ",
+                    "1",
+                    "8",
+                    " ",
+                    "r",
+                    "a",
+                    "c",
+                    "e",
+                    "s"
+                ],
+                "jp": [
+                    "レ",
+                    "ー",
+                    "ス",
+                    "1",
+                    "8",
+                    "回",
+                    "完",
+                    "走"
+                ],
+                "kr": [
+                    "레",
+                    "이",
+                    "스",
+                    " ",
+                    "1",
+                    "8",
+                    "회",
+                    " ",
+                    "완",
+                    "주"
+                ]
             },
             "effect": {
-                "en": "Become temporarily invincible after taking damage. (8 seconds)",
-                "jp": "ダメージを受けた後、約8秒 無敵",
-                "kr": "피격 후, 약 8초 간 무적 상태"
+                "en": "Become temporarily invincible after taking damage. (10 seconds)",
+                "jp": "ダメージを受けた後、約10秒 無敵",
+                "kr": "피격 후, 약 10초 간 무적 상태"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "피격 후 무적 시간 조정 ( 8초 → 10초 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -2485,13 +2622,13 @@
             "image": "gadget_050.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2510,31 +2647,43 @@
                 "kr": "접지력 강화"
             },
             "description": {
-                "en": "Prevents slipping on sand and ice. (Technical drift negates this effect.)",
-                "jp": "砂と氷でスリップしないようにする。(テクニカルドリフトではこの効果が無効化されます。)",
-                "kr": "모래와 얼음에서 잘 미끄러지지 않도록 합니다. (테크니컬 드리프트는 이 효과를 무효화합니다.)"
+                "en": "Prevents slipping on sand and ice. (Technical drift negates this effect.) (Handling +10)",
+                "jp": "砂と氷でスリップしないようにする。(テクニカルドリフトではこの効果が無効化されます。) (ハンドリング +10)",
+                "kr": "모래와 얼음에서 잘 미끄러지지 않도록 합니다. (테크니컬 드리프트는 이 효과를 무효화합니다.) (핸들링 +10)"
             },
             "gadget_type": "Support",
             "slots": 1,
             "image": "gadget_051.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
-                "en": "Prevent slipping on sand and ice",
-                "jp": "砂と氷でスリップしない",
-                "kr": "모래와 얼음에서 잘 미끄러지지 않습니다."
+                "en": "Prevent slipping on sand and ice (Handling +10)",
+                "jp": "砂と氷でスリップしない (ハンドリング +10)",
+                "kr": "모래와 얼음에서 잘 미끄러지지 않습니다. (핸들링 +10)"
             },
-            "patch": {},
-            "stat_table": null
+            "patch": {
+                "v2.0.0": {
+                    "kr": "기존 효과에 핸들링 +10 추가"
+                }
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 10,
+                    "power": 0,
+                    "boost": 0
+                }
+            }
         },
         {
             "id": "gadget_052",
@@ -2544,30 +2693,34 @@
                 "kr": "낙하 시 부스트 리커버"
             },
             "description": {
-                "en": "After falling off course, get a 'Boost'. (Can get 2 Boost items if you use the Damage Support Kit simultaneously.)",
-                "jp": "コースから落下した後、'ブースト'を獲得する。(ダメージサポートキットと重複すると、'ブースト'を2つ獲得できる。)",
-                "kr": "코스에서 떨어져서 복귀하면 부스트를 획득합니다. (데미지 서포트 키트와 중복해 '부스트' 2개 획득 가능)"
+                "en": "After falling off course, get a 'Double Boost'. ('Double Boost' is an item that lets you boost twice. Can get 2 Double Boost items if you use the Damage Support Kit simultaneously.)",
+                "jp": "コースから落下した後、'ダブルブースト'を獲得する。('ダブルブースト'は2回加速できるアイテムで、ダメージサポートキットと重複すると、'ダブルブースト'を2つ獲得できる。)",
+                "kr": "코스에서 떨어져서 복귀하면 더블 부스트를 획득합니다. ('더블 부스트'는 2번 가속할 수 있는 아이템이며, 대미지 서포트 키트와 중복해 '더블 부스트' 2개 획득 가능)"
             },
             "gadget_type": "Support",
             "slots": 1,
             "image": "gadget_052.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
-                "en": "Get a 'Boost' when falling off course",
-                "jp": "コースから落下した後、'ブースト'獲得",
-                "kr": "코스에서 떨어지면 '부스트' 획득"
+                "en": "Get a 'Double Boost' when falling off course",
+                "jp": "コースから落下した後、'ダブルブースト'獲得",
+                "kr": "코스에서 떨어지면 '더블 부스트' 획득"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "낙하 시 더블 부스트를 획득하도록 변경"
+                }
+            },
             "stat_table": null
         },
         {
@@ -2578,31 +2731,43 @@
                 "kr": "벽 링 가드"
             },
             "description": {
-                "en": "Prevents Rings from being dropped when bumping into walls.",
-                "jp": "壁に接触した時、リングが落ちないようにする。",
-                "kr": "벽에 부딪혀 링이 떨어지지 않도록 합니다."
+                "en": "Prevents Rings from being dropped when bumping into walls. (Power +10)",
+                "jp": "壁に接触した時、リングが落ちないようにする。 (パワー +10)",
+                "kr": "벽에 부딪혀 링이 떨어지지 않도록 합니다. (파워 +10)"
             },
             "gadget_type": "Support",
             "slots": 1,
             "image": "gadget_053.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
-                "en": "Prevent Rings from being dropped when bumping into walls",
-                "jp": "壁に接触した時、リングが落ちない",
-                "kr": "벽에 부딪힐 때, 링이 떨어지지 않습니다."
+                "en": "Prevent Rings from being dropped when bumping into walls (Power +10)",
+                "jp": "壁に接触した時、リングが落ちない (パワー +10)",
+                "kr": "벽에 부딪힐 때, 링이 떨어지지 않습니다. (파워 +10)"
             },
-            "patch": {},
-            "stat_table": null
+            "patch": {
+                "v2.0.0": {
+                    "kr": "기존 효과에 파워 +10 추가"
+                }
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 10,
+                    "boost": 0
+                }
+            }
         },
         {
             "id": "gadget_054",
@@ -2621,13 +2786,13 @@
             "image": "gadget_054.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2661,13 +2826,13 @@
             "image": "gadget_055.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2760,28 +2925,28 @@
                 "kr": "퀵 리커버"
             },
             "description": {
-                "en": "Recover from most items 55% quicker and being squished 97% quicker",
-                "jp": "ほとんどのアイテム攻撃に対して回復速度55%増加、粉砕攻撃に対しては97%増加",
-                "kr": "대부분의 아이템 공격에 대해 회복 속도 55% 증가, 짓눌리는 공격에 대해서는 회복 속도가 97% 증가"
+                "en": "Shortens hit stun from most item attacks. (Normal hit stun 7f, 6f for Acceleration type / Recover from being squished 97% quicker)",
+                "jp": "ほとんどのアイテム攻撃に対して被弾硬直時間を短縮します。(通常被弾時の硬直時間 7f、アクセルタイプは6f / 粉砕攻撃に対しては回復速度97%増加)",
+                "kr": "대부분의 아이템 공격에 대해 피격 경직 시간을 단축합니다. (일반 피격 시 경직 시간 7f, 액셀 타입은 6f / 짓눌리는 공격에 대해서는 회복 속도 97% 증가)"
             },
             "gadget_type": "Support",
             "slots": 3,
             "image": "gadget_057.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
-                "en": "Recover from attacks faster (55% increase in recovery speed, 97% increase in recovery speed when being squished)",
-                "jp": "被撃後、回復速度上昇 (55%増加, 圧縮された時、回復速度97%増加)",
-                "kr": "피격 후, 회복 속도 상승 (55% 증가, 짓눌리는 공격에 대해서는 97% 증가)"
+                "en": "Shorter hit stun (7f, 6f for Acceleration type / 97% increase in recovery speed when being squished)",
+                "jp": "被弾硬直時間短縮 (7f、アクセルタイプ6f / 圧縮された時、回復速度97%増加)",
+                "kr": "피격 경직 시간 단축 (7f, 액셀 타입 6f / 짓눌리는 공격에 대해서는 회복 속도 97% 증가)"
             },
             "patch": {
                 "v1.2.0":{
@@ -2800,9 +2965,9 @@
                 "kr": "링 가드"
             },
             "description": {
-                "en": "Halves the number of Rings lost when taking damage. (Also halves the number of Rings lost by \"Ring Steal\")",
-                "jp": "ダメージを受けて落下するリングの数を半分に減らします。「リングスティール」によるリング奪取も半分に減少します。",
-                "kr": "데미지를 받아 떨어지는 링의 개수를 절반으로 줄입니다. 「링 스틸」에 의한 링 손실도 절반으로 감소합니다."
+                "en": "Reduces the number of Rings lost when taking damage by 30%. (Also halves the number of Rings lost by \"Ring Steal\")",
+                "jp": "ダメージを受けて落下するリングの数を30%減らします。「リングスティール」によるリング奪取も半分に減少します。",
+                "kr": "대미지를 받아 떨어지는 링의 개수를 30% 줄입니다. 「링 스틸」에 의한 링 손실도 절반으로 감소합니다."
             },
             "gadget_type": "Support",
             "slots": 1,
@@ -2819,9 +2984,9 @@
                 ]
             },
             "effect": {
-                "en": "Halve the number of Rings lost when taking damage",
-                "jp": "ダメージを受けて落ちるリングを半分に減少",
-                "kr": "데미지를 받아 떨어지는 링을 절반으로 감소"
+                "en": "Reduce the number of Rings lost when taking damage by 30%",
+                "jp": "ダメージを受けて落ちるリングを30%減少",
+                "kr": "대미지를 받아 떨어지는 링을 30% 감소"
             },
             "patch": {
                 "v1.3.1":{
@@ -2833,6 +2998,9 @@
                     "en": "Changed to '1 slot' gadget",
                     "jp": "必要スロット数を'1スロット'に変更しました。",
                     "kr": "필요 가젯 슬롯 수를 '1개'로 변경했습니다."
+                },
+                "v2.0.0": {
+                    "kr": "피격 시 떨어뜨리는 링 감소 효과 조정 ( 50% → 30% )"
                 }
             },
             "stat_table": null
@@ -2847,9 +3015,9 @@
                 "kr": "아이템 소환"
             },
             "description": {
-                "en": "Press 「Gadget Button」 to spend 40 Rings and get 1 item. (With an Item Gain ×2 type equipped, you can get 2 items at once)",
-                "jp": "「ガジェットボタン」を押してリング40個を消費し、アイテムを1個獲得します。（アイテム獲得2倍系を装着時、一度に2個獲得可能）",
-                "kr": "「가젯 버튼」을 눌러 링 40개를 소비하고 아이템을 1개 획득합니다. (획득 아이템 2배 계열 장착 시, 한번에 2개 아이템 획득 가능)"
+                "en": "Press 「Gadget Button」 to spend 30 Rings and get 1 item. (With an Item Gain ×2 type equipped, you can get 2 items at once)",
+                "jp": "「ガジェットボタン」を押してリング30個を消費し、アイテムを1個獲得します。（アイテム獲得2倍系を装着時、一度に2個獲得可能）",
+                "kr": "「가젯 버튼」을 눌러 링 30개를 소비하고 아이템을 1개 획득합니다. (획득 아이템 2배 계열 장착 시, 한번에 2개 아이템 획득 가능)"
             },
             "gadget_type": "Item Control",
             "slots": 2,
@@ -2866,11 +3034,15 @@
                 ]
             },
             "effect": {
-                "en": "Spend 40 Rings and roll for any item",
-                "jp": "リング40個を消費し, アイテム1個獲得",
-                "kr": "링 40개를 소비하고 아이템 1개 획득"
+                "en": "Spend 30 Rings and roll for any item",
+                "jp": "リング30個を消費し, アイテム1個獲得",
+                "kr": "링 30개를 소비하고 아이템 1개 획득"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "소환에 필요한 링 개수 조정 ( 40개 → 30개 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -2890,13 +3062,13 @@
             "image": "gadget_059.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2924,13 +3096,13 @@
             "image": "gadget_060.png",
             "unlock": {
                 "en": [
-                    "Finish 18 races"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レース18回完走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레이스 18회 완주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -3031,9 +3203,9 @@
                 "kr": "설치 아이템 확률 UP"
             },
             "description": {
-                "en": "Hazard items appear more often. (4x increase in appearance rate)",
-                "jp": "設置アイテムがより多く出現する。(出現率4倍増加)",
-                "kr": "설치 아이템이 더 자주 등장합니다. (등장 확률이 4배 증가)"
+                "en": "Hazard items appear more often. (4x increase in appearance rate) (Speed +10)",
+                "jp": "設置アイテムがより多く出現する。(出現率4倍増加) (スピード +10)",
+                "kr": "설치 아이템이 더 자주 등장합니다. (등장 확률이 4배 증가) (스피드 +10)"
             },
             "gadget_type": "Item Control",
             "slots": 1,
@@ -3050,12 +3222,24 @@
                 ]
             },
             "effect": {
-                "en": "Hazard items appearance rate increased (4x increase)",
-                "jp": "設置アイテム出現率アップ (4倍増加)",
-                "kr": "설치 아이템 확률 상승 (4배 증가)"
+                "en": "Hazard items appearance rate increased (4x increase) (Speed +10)",
+                "jp": "設置アイテム出現率アップ (4倍増加) (スピード +10)",
+                "kr": "설치 아이템 확률 상승 (4배 증가) (스피드 +10)"
             },
-            "patch": {},
-            "stat_table": null
+            "patch": {
+                "v2.0.0": {
+                    "kr": "기존 효과에 스피드 +10 추가"
+                }
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 10,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                }
+            }
         },
         {
             "id": "gadget_064",
@@ -3138,7 +3322,7 @@
                 "kr": "가속 아이템이 더 자주 등장합니다. (등장 확률이 4배 증가)"
             },
             "gadget_type": "Item Control",
-            "slots": 3,
+            "slots": 2,
             "image": "gadget_066.png",
             "unlock": {
                 "en": [
@@ -3156,7 +3340,11 @@
                 "jp": "加速アイテム出現率アッUP (4倍増加)",
                 "kr": "가속 아이템 확률 상승 (4배 증가)"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "필요 슬롯 수 조정 ( 3슬롯 → 2슬롯 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -3209,9 +3397,9 @@
                 "kr": "힘내라 오모챠오"
             },
             "description": {
-                "en": "Omochao spreads Rings longer (Spreading rings for 8 seconds) and \"Omochao\" appears more often. (9x increase in appearance rate)",
-                "jp": "オモチャオがリングをより長く広げ (8秒間持続)、「オモチャオ」がより多く出現するようになります。 (出現率9倍に増加)",
-                "kr": "오모챠오가 더 길게 링을 흩뿌리며 (8초 동안 링을 흩뿌림), 「오모챠오」가 더 자주 등장합니다. (등장 확률 9배 증가)"
+                "en": "Omochao spreads Rings longer (Spreading rings for 10 seconds) and \"Omochao\" appears more often. (9x increase in appearance rate)",
+                "jp": "オモチャオがリングをより長く広げ (10秒間持続)、「オモチャオ」がより多く出現するようになります。 (出現率9倍に増加)",
+                "kr": "오모챠오가 더 길게 링을 흩뿌리며 (10초 동안 링을 흩뿌림), 「오모챠오」가 더 자주 등장합니다. (등장 확률 9배 증가)"
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 2,
@@ -3228,11 +3416,15 @@
                 ]
             },
             "effect": {
-                "en": "Omochao spreads Rings longer (Last 8 seconds) and appearance rate increased (9x increase)",
-                "jp": "オモチャオがリングをより長く広げ(8秒間持続)、出現確率を9倍増加",
-                "kr": "오모챠오가 더 길게 링을 흩뿌리며 (8초 동안 지속), 등장 확률이 9배 증가."
+                "en": "Omochao spreads Rings longer (Last 10 seconds) and appearance rate increased (9x increase)",
+                "jp": "オモチャオがリングをより長く広げ(10秒間持続)、出現確率を9倍増加",
+                "kr": "오모챠오가 더 길게 링을 흩뿌리며 (10초 동안 지속), 등장 확률이 9배 증가."
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "오모챠오가 링을 흩뿌리는 시간 조정 ( 8초 → 10초 )"
+                }
+            },
             "stat_table": null
         },
         {
@@ -3243,9 +3435,9 @@
                 "kr": "처음부터 부스트"
             },
             "description": {
-                "en": "Start the race with 'Boost'.",
-                "jp": "'ブースト'を持ってレースを始める。",
-                "kr": "'부스트'를 가지고 레이스를 시작합니다."
+                "en": "Start the race with 'Boost'. (Boost +10)",
+                "jp": "'ブースト'を持ってレースを始める。 (ダッシュ +10)",
+                "kr": "'부스트'를 가지고 레이스를 시작합니다. (대시 +10)"
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 1,
@@ -3262,12 +3454,24 @@
                 ]
             },
             "effect": {
-                "en": "Start the race with 'Boost'.",
-                "jp": "'ブースト'を持ってレースを始める。",
-                "kr": "'부스트'를 가지고 레이스를 시작합니다."
+                "en": "Start the race with 'Boost'. (Boost +10)",
+                "jp": "'ブースト'を持ってレースを始める。 (ダッシュ +10)",
+                "kr": "'부스트'를 가지고 레이스를 시작합니다. (대시 +10)"
             },
-            "patch": {},
-            "stat_table": null
+            "patch": {
+                "v2.0.0": {
+                    "kr": "기존 효과에 대시 +10 추가"
+                }
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 10
+                }
+            }
         },
         {
             "id": "gadget_069",
@@ -3390,9 +3594,9 @@
                 "kr": "로켓 펀치 거대화"
             },
             "description": {
-                "en": "'Rocket Punch' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate)",
-                "jp": "'ロケットパンチ'が2.5倍大きくなり合わせやすくなり、登場確率が10倍増加します。 ('ホーミングパンチ'は巨大化しない。)",
-                "kr": "'로켓 펀치'가 2.5배 커지고, 등장 확률이 10배 증가합니다. ('호밍 펀치'는 거대화하지 않습니다.)"
+                "en": "'Rocket Punch' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate) (Handling +10)",
+                "jp": "'ロケットパンチ'が2.5倍大きくなり合わせやすくなり、登場確率が10倍増加します。 ('ホーミングパンチ'は巨大化しない。) (ハンドリング +10)",
+                "kr": "'로켓 펀치'가 2.5배 커지고, 등장 확률이 10배 증가합니다. ('호밍 펀치'는 거대화하지 않습니다.) (핸들링 +10)"
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 1,
@@ -3409,12 +3613,24 @@
                 ]
             },
             "effect": {
-                "en": "'Rocket Punch' becomes bigger (2.5x increase in size), appearance rate increased (10x increase)",
-                "jp": "'ロケットパンチ'の2.5倍巨大化, 登場確率10倍増加",
-                "kr": "'로켓 펀치' 2.5배 거대화, 등장 확률 10배 증가"
+                "en": "'Rocket Punch' becomes bigger (2.5x increase in size), appearance rate increased (10x increase) (Handling +10)",
+                "jp": "'ロケットパンチ'の2.5倍巨大化, 登場確率10倍増加 (ハンドリング +10)",
+                "kr": "'로켓 펀치' 2.5배 거대화, 등장 확률 10배 증가 (핸들링 +10)"
             },
-            "patch": {},
-            "stat_table": null
+            "patch": {
+                "v2.0.0": {
+                    "kr": "기존 효과에 핸들링 +10 추가"
+                }
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 10,
+                    "power": 0,
+                    "boost": 0
+                }
+            }
         },
         {
             "id": "gadget_073",
@@ -3424,9 +3640,9 @@
                 "kr": "가시 철구 거대화"
             },
             "description": {
-                "en": "'Spiked Iron Ball' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate)",
-                "jp": "'トゲ鉄球'が2.5倍大きくなり、登場確率が10倍増加します。",
-                "kr": "'가시 철구'가 2.5배 커지고, 등장 확률이 10배 증가합니다."
+                "en": "'Spiked Iron Ball' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate) (Speed +10)",
+                "jp": "'トゲ鉄球'が2.5倍大きくなり、登場確率が10倍増加します。 (スピード +10)",
+                "kr": "'가시 철구'가 2.5배 커지고, 등장 확률이 10배 증가합니다. (스피드 +10)"
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 1,
@@ -3443,12 +3659,24 @@
                 ]
             },
             "effect": {
-                "en": "'Spiked Iron Ball' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate)",
-                "jp": "'トゲ鉄球'の2.5倍巨大化, トゲ鉄球出現率10倍増加",
-                "kr": "'가시 철구' 2.5배 거대화, 등장 확률 10배 증가"
+                "en": "'Spiked Iron Ball' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate) (Speed +10)",
+                "jp": "'トゲ鉄球'の2.5倍巨大化, トゲ鉄球出現率10倍増加 (スピード +10)",
+                "kr": "'가시 철구' 2.5배 거대화, 등장 확률 10배 증가 (스피드 +10)"
             },
-            "patch": {},
-            "stat_table": null
+            "patch": {
+                "v2.0.0": {
+                    "kr": "기존 효과에 스피드 +10 추가"
+                }
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 10,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                }
+            }
         },
         {
             "id": "gadget_074",
@@ -3458,9 +3686,9 @@
                 "kr": "폭탄봇 퀵 차지"
             },
             "description": {
-                "en": "'Bomb' charges faster and appears more often. (70% increase in charge speed, 10x increase in appearance rate)",
-                "jp": "'ボム'が占める速度が70%増加し、登場確率が10倍増加します。",
-                "kr": "'폭탄봇'이 차지 속도가 70% 증가하고, 등장 확률이 10배 증가합니다."
+                "en": "'Bomb' charges faster and appears more often. (70% increase in charge speed, 10x increase in appearance rate) (Handling +10)",
+                "jp": "'ボム'が占める速度が70%増加し、登場確率が10倍増加します。 (ハンドリング +10)",
+                "kr": "'폭탄봇'이 차지 속도가 70% 증가하고, 등장 확률이 10배 증가합니다. (핸들링 +10)"
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 1,
@@ -3477,12 +3705,24 @@
                 ]
             },
             "effect": {
-                "en": "'Bomb' charges faster and appears more often. (70% increase in charge speed, 10x increase in appearance rate)",
-                "jp": "'ボム'充電速度70%増加, ボム出現率10倍増加",
-                "kr": "'폭탄봇' 차지 속도 70% 증가, 등장 확률 10배 증가"
+                "en": "'Bomb' charges faster and appears more often. (70% increase in charge speed, 10x increase in appearance rate) (Handling +10)",
+                "jp": "'ボム'充電速度70%増加, ボム出現率10倍増加 (ハンドリング +10)",
+                "kr": "'폭탄봇' 차지 속도 70% 증가, 등장 확률 10배 증가 (핸들링 +10)"
             },
-            "patch": {},
-            "stat_table": null
+            "patch": {
+                "v2.0.0": {
+                    "kr": "기존 효과에 핸들링 +10 추가"
+                }
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 10,
+                    "power": 0,
+                    "boost": 0
+                }
+            }
         },
         {
             "id": "gadget_075",
@@ -3537,16 +3777,20 @@
             "image": "gadget_076.png",
             "unlock": {
                 "en": [
-                    "Finish 78 races"
+                    "Finish 52 races"
                 ],
                 "jp": [
-                    "レース78回完走"
+                    "レース52回完走"
                 ],
                 "kr": [
-                    "레이스 78회 완주"
+                    "레이스 52회 완주"
                 ]
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "「퍼스트 패스트 차지」 차지 속도 조정 ( 1.4배 → 1.7배 )\n「퍼스트 패스트 차지」 의도치 않게 효과가 약해지던 오류 수정"
+                }
+            },
             "stat_table": {
                 "not": {
                     "speed": 0,
@@ -3593,13 +3837,13 @@
             "image": "gadget_077.png",
             "unlock": {
                 "en": [
-                    "Finish 78 races"
+                    "Finish 52 races"
                 ],
                 "jp": [
-                    "レース78回完走"
+                    "レース52回完走"
                 ],
                 "kr": [
-                    "레이스 78회 완주"
+                    "레이스 52회 완주"
                 ]
             },
             "effect": {
@@ -3629,25 +3873,25 @@
             "name": {
                 "en": "Damage Support Kit",
                 "jp": "ダメージサポートキット",
-                "kr": "데미지 서포트 키트"
+                "kr": "대미지 서포트 키트"
             },
             "description": {
-                "en": "A kit that grants 「Invincible Start」 + 「Second Wind」 effect. (40 seconds invincible, Boost item when falling off of the course)",
-                "jp": "「無敵スタート」+「落下時ブーストリカバー」効果が適用されます。（40秒間無敵、落下時にブーストを獲得）",
-                "kr": "「무적 스타트」+「낙하 시 부스트 리커버」의 효과가 적용됩니다. (40초간 무적, 낙하 시 부스트 획득)"
+                "en": "A kit that grants 「Invincible Start」 + 「Second Wind」 effect. (40 seconds invincible, Double Boost item when falling off of the course)",
+                "jp": "「無敵スタート」+「落下時ブーストリカバー」効果が適用されます。（40秒間無敵、落下時にダブルブーストを獲得）",
+                "kr": "「무적 스타트」+「낙하 시 부스트 리커버」의 효과가 적용됩니다. (40초간 무적, 낙하 시 더블 부스트 획득)"
             },
             "gadget_type": "Standard Kit",
             "slots": 3,
             "image": "gadget_078.png",
             "unlock": {
                 "en": [
-                    "Finish 78 races"
+                    "Finish 52 races"
                 ],
                 "jp": [
-                    "レース78回完走"
+                    "レース52回完走"
                 ],
                 "kr": [
-                    "레이스 78회 완주"
+                    "레이스 52회 완주"
                 ]
             },
             "effect": {
@@ -3655,7 +3899,11 @@
                 "jp": "「無敵スタート」 + 「落下時ブーストリカバー」",
                 "kr": "「무적 스타트」 + 「낙하 시 부스트 리커버」"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "「낙하 시 부스트 리커버」 낙하 시 더블 부스트를 획득하도록 변경"
+                }
+            },
             "stat_table": null,
             "kit_include": {
                 "en": [
@@ -3691,13 +3939,13 @@
             "image": "gadget_079.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -3744,28 +3992,28 @@
                 "kr": "액셀 머신 키트"
             },
             "description": {
-                "en": "A kit that includes 「Mini Quick Recovery」.(40% quicker and being squished 70% quicker) (Cannot be equipped with Quick Recovery. When equipped at the same time, Quick Recovery takes precedence.) Acceleration Machines get stat adjustments.",
-                "jp": "「クイックリカバーミニ」を内包する。(被撃後、回復速度40%増加、圧縮された時、回復速度70%増加) (「クイックリカバー」と重複不可。同時装備時は「クイックリカバー」の方が優先される。) アクセルマシンはステータス調整を受ける。",
-                "kr": "「퀵 리커버 미니」를 포함하는 키트입니다. (피격 후, 회복 속도 40% 증가, 짓눌리는 공격에 대해서는 회복 속도 70% 증가) (「퀵 리커버」와 중복 불가. 동시 착용 시 「퀵 리커버」 쪽이 발동) 액셀 머신은 스탯 조정을 받습니다."
+                "en": "A kit that includes 「Hit Stun Reduction」. (Normal hit stun 13f, 6f for Acceleration type / Recover from being squished 70% quicker) (Cannot be equipped with Quick Recovery. When equipped at the same time, Quick Recovery takes precedence.) Acceleration Machines get stat adjustments.",
+                "jp": "「被弾硬直時間短縮」を内包する。(通常被弾時の硬直時間 13f、アクセルタイプは6f / 圧縮された時、回復速度70%増加) (「クイックリカバー」と重複不可。同時装備時は「クイックリカバー」の方が優先される。) アクセルマシンはステータス調整を受ける。",
+                "kr": "「피격 경직 시간 단축」을 포함하는 키트입니다. (일반 피격 시 경직 시간 13f, 액셀 타입은 6f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가) (「퀵 리커버」와 중복 불가. 동시 착용 시 「퀵 리커버」 쪽이 발동) 액셀 머신은 스탯 조정을 받습니다."
             },
             "gadget_type": "Machine Type Kit",
             "slots": 3,
             "image": "gadget_080.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
-                "en": "「Mini Quick Recovery」 + 「Acceleration Machine stat adjustment」",
-                "jp": "「クイックリカバーミニ」 + 「アクセルマシンの場合はパラメーター調整」",
-                "kr": "「퀵 리커버 미니」 + 「액셀 머신일 경우 파라미터 조정」"
+                "en": "「Hit Stun Reduction (13f, 6f for Acceleration type / 70% increase in recovery speed when being squished)」 + 「Acceleration Machine stat adjustment」",
+                "jp": "「被弾硬直時間短縮 (13f、アクセルタイプ6f / 圧縮された時、回復速度70%増加)」 + 「アクセルマシンの場合はパラメーター調整」",
+                "kr": "「피격 경직 시간 단축 (13f, 액셀 타입 6f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가)」 + 「액셀 머신일 경우 파라미터 조정」"
             },
             "patch": {
                 "v1.4.1": {
@@ -3777,6 +4025,9 @@
                     "en": "Shortened the amount of time it takes to recover from attacks. (Please report accurate values)",
                     "jp": "被弾後に再度動けるようになるまでの時間を、さらに短縮しました。(正確な数値を報告してください)",
                     "kr": "공격당한 후 다시 움직일 수 있기까지의 시간을 더욱 단축하였습니다. (정확한 수치 제보 부탁드립니다)"
+                },
+                "v2.0.0": {
+                    "kr": "일반 대미지를 받은 뒤의 행동 불능 시간 단축 ( 피격 경직 시간: 다른 타입 13f, 액셀 타입 6f )"
                 }
             },
             "stat_table": {
@@ -3790,13 +4041,13 @@
             },
             "kit_include": {
                 "en": [
-                    "Mini Quick Recovery"
+                    "Original"
                 ],
                 "jp": [
-                    "クイックリカバーミニ"
+                    "オリジナル"
                 ],
                 "kr": [
-                    "퀵 리커버 미니"
+                    "오리지널"
                 ]
             }
         },
@@ -3817,13 +4068,13 @@
             "image": "gadget_081.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -3876,13 +4127,13 @@
             "image": "gadget_082.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -3900,6 +4151,9 @@
                     "en": "Increased the duration of the Collision Boost.(0.25s → 0.5s)",
                     "jp": "ぶつかりダッシュの継続時間を長くしました。(0.25s → 0.5s)",
                     "kr": "범프 대시 지속 시간을 늘렸습니다. ( 0.25초 → 0.5초 )"
+                },
+                "v2.0.0": {
+                    "kr": "「범프 대시」 대시 지속 시간 조정 ( 0.5초 → 1.7초 )"
                 }
             },
             "stat_table": {
@@ -3940,13 +4194,13 @@
             "image": "gadget_083.png",
             "unlock": {
                 "en": [
-                    "Finish 62 races"
+                    "Finish 40 races"
                 ],
                 "jp": [
-                    "レース62回完走"
+                    "レース40回完走"
                 ],
                 "kr": [
-                    "레이스 62회 완주"
+                    "레이스 40회 완주"
                 ]
             },
             "effect": {
@@ -4018,11 +4272,15 @@
                 "jp": "「無敵スタート」 + 「スタート成功ボーナス」 + 「スピードタイプのキャラクターはパラメーター調整を受ける」",
                 "kr": "「무적 스타트」 + 「스타트 성공 보너스」 + 「스피드 캐릭터일 경우 파라미터 조정」"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "스피드 캐릭터일 경우 파라미터 조정 변경 ( 스피드 +7 / 액셀 -5 → 스피드 +3 )"
+                }
+            },
             "stat_table": {
                 "equal": {
-                    "speed": 7,
-                    "acceleration": -5,
+                    "speed": 3,
+                    "acceleration": 0,
                     "handling": 0,
                     "power": 0,
                     "boost": 0
@@ -4069,15 +4327,18 @@
                     "en": "Removed the \"Mini Ring Thief\" from this Kit",
                     "jp": "このキットから、「リングスティール ミニ」の効果を取り除きました。",
                     "kr": "이 키트에서 「링 스틸 미니」 효과를 제거했습니다."
+                },
+                "v2.0.0": {
+                    "kr": "「슬립스트림 보너스」 링 획득 간격 조정 ( 0.5초 → 0.6초 )\n「링 획득 대시」 최고속도 상승량 조정 ( +15km/h → +17km/h )\n액셀 캐릭터일 경우 파라미터 조정 변경 ( 액셀 +7 / 대시 -5 → 액셀 +3 )"
                 }
             },
             "stat_table": {
                 "equal": {
                     "speed": 0,
-                    "acceleration": 7,
+                    "acceleration": 3,
                     "handling": 0,
                     "power": 0,
-                    "boost": -5
+                    "boost": 0
                 }
             },
             "kit_include": {
@@ -4129,12 +4390,16 @@
                 "jp": "「リングスティール」 + 「リングスティールミニ」 + 「ハンドリングタイプのキャラクターはパラメーター調整を受ける」",
                 "kr": "「링 스틸」 + 「링 스틸 미니」 + 「핸들링 캐릭터일 경우 파라미터 조정」"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "「링 스틸」 빼앗는 링 개수 조정 ( 5개 → 8개, 키트 합계 7개 → 10개 )\n핸들링 캐릭터일 경우 파라미터 조정 변경 ( 핸들링 +7 / 스피드 -5 → 핸들링 +3 )"
+                }
+            },
             "stat_table": {
                 "equal": {
-                    "speed": -5,
+                    "speed": 0,
                     "acceleration": 0,
-                    "handling": 7,
+                    "handling": 3,
                     "power": 0,
                     "boost": 0
                 }
@@ -4193,14 +4458,17 @@
                     "en": "Increased the duration of the Collision Boost.(0.25s → 0.5s)",
                     "jp": "ぶつかりダッシュの継続時間を長くしました。(0.25s → 0.5s)",
                     "kr": "범프 대시 지속 시간을 늘렸습니다. ( 0.25초 → 0.5초 )"
+                },
+                "v2.0.0": {
+                    "kr": "「범프 대시」 대시 지속 시간 조정 ( 0.5초 → 1.7초 )\n파워 캐릭터일 경우 파라미터 조정 변경 ( 파워 +7 / 핸들링 -5 → 파워 +3 )"
                 }
             },
             "stat_table": {
                 "equal": {
                     "speed": 0,
                     "acceleration": 0,
-                    "handling": -5,
-                    "power": 7,
+                    "handling": 0,
+                    "power": 3,
                     "boost": 0
                 }
             },
@@ -4253,14 +4521,18 @@
                 "jp": "「エアトリックボーナス」 + 「超高速エアトリック」 + 「ダッシュタイプのキャラクターはパラメーター調整を受ける」",
                 "kr": "「에어 트릭 보너스」 + 「초고속 에어 트릭」 + 「대시 캐릭터일 경우 파라미터 조정」"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "대시 캐릭터일 경우 파라미터 조정 변경 ( 대시 +7 / 파워 -5 → 대시 +3 )"
+                }
+            },
             "stat_table": {
                 "equal": {
                     "speed": 0,
                     "acceleration": 0,
                     "handling": 0,
-                    "power": -5,
-                    "boost": 7
+                    "power": 0,
+                    "boost": 3
                 }
             },
             "kit_include": {
@@ -4311,7 +4583,11 @@
                 "jp": "「高速エアトリック」 + 「アルティメットエアトリック」",
                 "kr": "「고속 에어 트릭」 + 「얼티밋 에어 트릭」"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "「고속 에어 트릭」 에어 트릭 회전 속도 상승 효과 조정 ( 1.25배 → 1.375배 )"
+                }
+            },
             "stat_table": null,
             "kit_include": {
                 "en": [
@@ -4359,7 +4635,11 @@
                 "jp": "「ジャストチャージダッシュ」 + 「ジャストチャージボーナスミニ」(「チャージレベル × 1」リング)",
                 "kr": "「저스트 차지 대시」 + 「저스트 차지 보너스 미니」(차지 레벨 × 1 링)"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "「저스트 차지 대시」 최고속도 상승 시간 조정 ( 0.5초 → 1.0초 )"
+                }
+            },
             "stat_table": null,
             "kit_include": {
                 "en": [
@@ -4387,7 +4667,6 @@
                 "en": "A kit that includes 「Extended Slipstream」, 「Slipstream Bounty」, 「Collision Evolution」.",
                 "jp": "「ロングスリップストリーム」, 「スリップストリームボーナス」, 「ぶつかり進化」を内包するキット。",
                 "kr": "「롱 슬립스트림」, 「슬립스트림 보너스」, 「범프 진화」를 포함하는 키트입니다."
-
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -4408,7 +4687,11 @@
                 "jp": "「ロングスリップストリーム」 + 「スリップストリームボーナス」 + 「ぶつかり進化」",
                 "kr": "「롱 슬립스트림」 + 「슬립스트림 보너스」 + 「범프 진화」"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "「슬립스트림 보너스」 링 획득 간격 조정 ( 0.5초 → 0.6초 )"
+                }
+            },
             "stat_table": null,
             "kit_include": {
                 "en": [
@@ -4484,9 +4767,9 @@
                 "kr": "가속 지름길 키트"
             },
             "description": {
-                "en": "A kit that includes 「Boost Starter」, 「Double Boost Specialist」, and 「Runoff Mini Bounty」(While ignoring runoff zones, gain 2 rings every 0.24 seconds).",
-                "jp": "「最初からブースト」, 「ダブルブースト追加」, 「ランオフボーナスミニ」(ランオフエリアを無視している間、0.24秒ごとにリングを2個獲得)を内包するキット。",
-                "kr": "「처음부터 부스트」, 「더블 부스트 추가」, 「런 오프 보너스 미니」(런오프 구역을 무시하는 중이라면 0.24초 동안 링 2개씩 획득)를 포함하는 키트입니다. "
+                "en": "A kit that includes 「Boost Starter」, 「Double Boost Specialist」, and 「Runoff Mini Bounty」(While ignoring runoff zones, gain 2 rings every 0.24 seconds). Increases Boost stat by +10.",
+                "jp": "「最初からブースト」, 「ダブルブースト追加」, 「ランオフボーナスミニ」(ランオフエリアを無視している間、0.24秒ごとにリングを2個獲得)を内包するキット。ダッシュパラメーター+10。",
+                "kr": "「처음부터 부스트」, 「더블 부스트 추가」, 「런 오프 보너스 미니」(런오프 구역을 무시하는 중이라면 0.24초 동안 링 2개씩 획득)를 포함하는 키트입니다. 대시 파라미터 +10 증가합니다. "
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -4503,12 +4786,24 @@
                 ]
             },
             "effect": {
-                "en": "「Boost Starter」 + 「Double Boost Specialist」 + 「Runoff Mini Bounty」(While ignoring runoff zones, gain 2 rings every 0.24 seconds)",
-                "jp": "「最初からブースト」 + 「ダブルブースト追加」 + 「ランオフボーナスミニ」(ランオフエリアを無視している間、0.24秒ごとにリングを2個獲得)",
-                "kr": "「처음부터 부스트」 + 「더블 부스트 추가」 + 「런 오프 보너스 미니」(런오프 구역을 무시하는 중이라면 0.24초 동안 링 2개씩 획득)"
+                "en": "「Boost Starter」 + 「Double Boost Specialist」 + 「Runoff Mini Bounty」(While ignoring runoff zones, gain 2 rings every 0.24 seconds) + 「Boost +10」",
+                "jp": "「最初からブースト」 + 「ダブルブースト追加」 + 「ランオフボーナスミニ」(ランオフエリアを無視している間、0.24秒ごとにリングを2個獲得) + 「ダッシュ +10」",
+                "kr": "「처음부터 부스트」 + 「더블 부스트 추가」 + 「런 오프 보너스 미니」(런오프 구역을 무시하는 중이라면 0.24초 동안 링 2개씩 획득) + 「대시 +10」"
             },
-            "patch": {},
-            "stat_table": null,
+            "patch": {
+                "v2.0.0": {
+                    "kr": "「처음부터 부스트」 기존 효과에 대시 +10 추가"
+                }
+            },
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 10
+                }
+            },
             "kit_include": {
                 "en": [
                     "Boost Starter",
@@ -4558,7 +4853,11 @@
                 "jp": "「ボタン連打式チャージ」 + 「ブースト持続時間5倍増加（最大20秒）」 + 「チャージダッシュ中のグリップ走行旋回力増加」 + 「ドリフト時2.5秒かけて徐々に25km/h減速」",
                 "kr": "「버튼 연타식 차지」 + 「부스트 지속 시간 5배 증가 (최대 20초)」 + 「차지 대시 중 그립 주행 선회력 증가」 + 「드리프트 시 2.5초에 걸쳐 25km/h 감속」"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "버튼을 누르는 타이밍에 따라 차지 시간이 달라지던 문제 수정\n밟혔을 때 스핀 대시 이펙트가 세로로 늘어나던 오류 수정"
+                }
+            },
             "stat_table": null,
             "kit_include": {
                 "en": [
@@ -4761,7 +5060,7 @@
             "description": {
                 "en": "A kit that includes 「Dash Panel Bounty」 and 「Air Drift Mobility UP」 and 「+20 to all stats when in Plane form」. A kit for improving performance in flight form.",
                 "jp": "「ダッシュパネルボーナス」, 「空中ドリフト自由度アップ」, 「空中モードで全パラメーター+20」を内包するキット。",
-                "kr": "「대시 패널 보너스」,「공중 드리프트 자유도 증가」,「비행 모드에서 모든 파라미터 +20」를 포함하는 키트입니다."
+                "kr": "「대시 패널 보너스」,「공중 드리프트 자유도 UP」,「비행 모드에서 모든 파라미터 +20」를 포함하는 키트입니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -4783,13 +5082,16 @@
             "effect": {
                 "en": "「Dash Panel Bounty」 + 「Air Drift Mobility UP」 + 「+20 all stats when in Plane form」",
                 "jp": "「ダッシュパネルボーナス」 + 「空中ドリフト自由度アップ」 + 「空中モードで全パラメーター+20」",
-                "kr": "「대시 패널 보너스」 + 「공중 드리프트 자유도 증가」 + 「비행 모드에서 모든 파라미터 +20」"
+                "kr": "「대시 패널 보너스」 + 「공중 드리프트 자유도 UP」 + 「비행 모드에서 모든 파라미터 +20」"
             },
             "patch": {
                 "v1.4.1": {
                     "en": "Flight form stat bonus increased from +10 to +20.",
                     "jp": "飛行フォームのときにすべてのパラメータが増加する効果について、増加量を+10 → +20に変更しました。",
                     "kr": "비행 모드일 때 모든 성능이 증가하는 효과의 증가량을 +10 → +20으로 변경했습니다."
+                },
+                "v2.0.0": {
+                    "kr": "「공중 드리프트 자유도 UP」 비행 모드에서 모든 단계의 차지가 1.7배 빠르게 모이는 효과 추가"
                 }
             },
             "stat_table": {
@@ -4814,7 +5116,7 @@
                 ],
                 "kr": [
                     "대시 패널 보너스",
-                    "공중 드리프트 자유도 증가",
+                    "공중 드리프트 자유도 UP",
                     "오리지널"
                 ]
             }
@@ -4829,7 +5131,7 @@
             "description": {
                 "en": "A kit that includes 「Air Trick Expert」 and 「Charge Jump Mobility UP」 and 「+20 to all stats when in Boat form」. A kit for improving performance in water form.",
                 "jp": "「超高速エアトリック」, 「チャージジャンプ自由度アップ」, 「水上モードで全パラメーター+20」を内包するキット。",
-                "kr": "「초고속 에어 트릭」,「차지 점프 자유도 증가」,「수상 모드에서 모든 파라미터 +20」 를 포함하는 키트입니다."
+                "kr": "「초고속 에어 트릭」,「차지 점프 자유도 UP」,「수상 모드에서 모든 파라미터 +20」 를 포함하는 키트입니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -4851,13 +5153,16 @@
             "effect": {
                 "en": "「Air Trick Expert」 + 「Charge Jump Mobility UP」 + 「+20 all stats when in Boat form」",
                 "jp": "「超高速エアトリック」 + 「チャージジャンプ自由度アップ」 + 「水上モードで全パラメーター+20」",
-                "kr": "「초고속 에어 트릭」 + 「차지 점프 자유도 증가」 + 「수상 모드에서 모든 파라미터 +20」"
+                "kr": "「초고속 에어 트릭」 + 「차지 점프 자유도 UP」 + 「수상 모드에서 모든 파라미터 +20」"
             },
             "patch": {
                 "v1.4.1": {
                     "en": "Water form stat bonus increased from +10 to +20.",
                     "jp": "水上フォームのときにすべてのパラメータが増加する効果について、増加量を+10 → +20に変更しました。",
                     "kr": "수상 모드일 때 모든 성능이 증가하는 효과의 증가량을 +10 → +20으로 변경했습니다."
+                },
+                "v2.0.0": {
+                    "kr": "「차지 점프 자유도 UP」 수상 모드에서 모든 단계의 차지가 1.7배 빠르게 모이는 효과 추가"
                 }
             },
             "stat_table": {
@@ -4882,7 +5187,7 @@
                 ],
                 "kr": [
                     "초고속 에어 트릭",
-                    "차지 점프 자유도 증가",
+                    "차지 점프 자유도 UP",
                     "오리지널"
                 ]
             }
@@ -4895,9 +5200,9 @@
                 "kr": "올라운드 키트"
             },
             "description": {
-                "en": "A kit that includes 「Maximum Traction」, 「+10km/h Up Speed when off-road」, and 「+20 to all stats when in Plane and Boat form」.",
-                "jp": "「グリップ力強化」, 「減速域で+10km/h加速」, 「空中/水上モードで全パラメーター+20」を内包するキット。",
-                "kr": "「접지력 강화」, 「런 오프 구역에서 +10km/h 속도 업」, 「공중/수상 모드에서 모든 파라미터 +20」를 포함하는 키트입니다. "
+                "en": "A kit that includes 「Maximum Traction」, 「3x off-road slowdown reduction」, and 「+20 to all stats when in Plane and Boat form」. Increases Handling stat by +10.",
+                "jp": "「グリップ力強化」, 「減速域の減速緩和3倍」, 「空中/水上モードで全パラメーター+20」を内包するキット。ハンドリングパラメーター+10。",
+                "kr": "「접지력 강화」, 「런 오프 구역 감속 완화 3배」, 「공중/수상 모드에서 모든 파라미터 +20」를 포함하는 키트입니다. 핸들링 파라미터 +10 증가합니다. "
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -4917,12 +5222,23 @@
                 ]
             },
             "effect": {
-                "en": "「Maximum Traction」 + 「10km/h Up Speed when off-road」 + 「+20 to all stats when in Plane and Boat form」",
-                "jp": "「グリップ力強化」 + 「減速域で+10km/h加速」 + 「空中/水上モードで全パラメーター+20」",
-                "kr": "「접지력 강화」 + 「런 오프 구역에서 +10km/h 속도 업」 + 「공중/수상 모드에서 모든 파라미터 +20」"
+                "en": "「Maximum Traction」 + 「3x off-road slowdown reduction」 + 「+20 to all stats when in Plane and Boat form」 + 「Handling +10」",
+                "jp": "「グリップ力強化」 + 「減速域の減速緩和3倍」 + 「空中/水上モードで全パラメーター+20」 + 「ハンドリング +10」",
+                "kr": "「접지력 강화」 + 「런 오프 구역 감속 완화 3배」 + 「공중/수상 모드에서 모든 파라미터 +20」 + 「핸들링 +10」"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "감속 구역의 속도 저하 완화 효과를 기존의 3배로 강화\n「접지력 강화」 기존 효과에 핸들링 +10 추가"
+                }
+            },
             "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 10,
+                    "power": 0,
+                    "boost": 0
+                },
                 "mode": {
                     "speed": 20,
                     "acceleration": 20,
@@ -5011,9 +5327,9 @@
                 "kr": "후반 추격 키트"
             },
             "description": {
-                "en": "A kit for that increases the maximum number of Rings held at 110. Grants 2 items on Lap 3.",
-                "jp": "最大110個のリングを保持でき、LAP 3で2つのアイテムを獲得するキット。",
-                "kr": "최대 110개의 링을 보유할 수 있고, LAP 3에서 2개의 아이템을 획득하는 키트입니다."
+                "en": "A kit for that increases the maximum number of Rings held at 130. Grants 2 items on Lap 3.",
+                "jp": "最大130個のリングを保持でき、LAP 3で2つのアイテムを獲得するキット。",
+                "kr": "최대 130개의 링을 보유할 수 있고, LAP 3에서 2개의 아이템을 획득하는 키트입니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5033,11 +5349,15 @@
                 ]
             },
             "effect": {
-                "en": "Hold up to 110 Rings, get 2 items on LAP 3",
-                "jp": "最大110個のリングを保有、LAP3開始時にアイテムを2個獲得",
-                "kr": "최대 110개 링 보유, LAP 3 시작 시 아이템 2개 획득"
+                "en": "Hold up to 130 Rings, get 2 items on LAP 3",
+                "jp": "最大130個のリングを保有、LAP3開始時にアイテムを2個獲得",
+                "kr": "최대 130개 링 보유, LAP 3 시작 시 아이템 2개 획득"
             },
-            "patch": {},
+            "patch": {
+                "v2.0.0": {
+                    "kr": "링 획득 상한 조정 ( 110개 → 130개 )"
+                }
+            },
             "stat_table": null,
             "kit_include": {
                 "en": [
