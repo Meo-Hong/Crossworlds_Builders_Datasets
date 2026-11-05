@@ -317,7 +317,7 @@
             },
             "description": {
                 "en": "When holding 1 or more Rings, 'up to +3km/h to maximum speed (varies with Ring count)' and '+12 to all stats'. Instead of losing 1 Ring per second.",
-                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 最大+3km/h 上昇 (リング数に応じて変動)' + '全体のマシンスタット +12 上昇'。",
+                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 最大+3km/h 上昇 (リング数に応じて変動)' + 'マシンの全パラメーター +12 上昇'。",
                 "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 최대 3km/h 증가 (링 개수에 따라 변동)' + '머신의 스탯 +12 상승'합니다."
             },
             "gadget_type": "Ring Ability",
@@ -1102,7 +1102,7 @@
             },
             "effect": {
                 "en": "Increase speed by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけスピード増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけスピード増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 스피드 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1150,7 +1150,7 @@
             },
             "effect": {
                 "en": "Increase speed by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけスピード増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけスピード増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 스피드 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1198,7 +1198,7 @@
             },
             "effect": {
                 "en": "Increase acceleration by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけアクセル増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけアクセル増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 액셀 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1246,7 +1246,7 @@
             },
             "effect": {
                 "en": "Increase acceleration by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけアクセル増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけアクセル増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 액셀 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1294,7 +1294,7 @@
             },
             "effect": {
                 "en": "Increase handling by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけハンドリング増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけハンドリング増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 핸들링 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1342,7 +1342,7 @@
             },
             "effect": {
                 "en": "Increase handling by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけハンドリング増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけハンドリング増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 핸들링 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1390,7 +1390,7 @@
             },
             "effect": {
                 "en": "Increase power by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけパワー増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけパワー増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 파워 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1438,7 +1438,7 @@
             },
             "effect": {
                 "en": "Increase power by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけパワー増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけパワー増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 파워 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1486,7 +1486,7 @@
             },
             "effect": {
                 "en": "Increase boost by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけダッシュ増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけダッシュ増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 대시 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1534,7 +1534,7 @@
             },
             "effect": {
                 "en": "Increase boost by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけダッシュ増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけダッシュ増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 대시 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "stat_table": {
@@ -1728,9 +1728,9 @@
                 "kr": "스타터"
             },
             "description": {
-                "en": "+40 to all stats during Lap 1.",
-                "jp": "LAP1の間、すべてのパラメータを+40。",
-                "kr": "LAP 1 동안 모든 스탯을 40 올립니다."
+                "en": "+30 to all stats during Lap 1.",
+                "jp": "LAP1の間、すべてのパラメータを+30。",
+                "kr": "LAP 1 동안 모든 스탯을 30 올립니다."
             },
             "gadget_type": "Power Up",
             "slots": 1,
@@ -1748,17 +1748,17 @@
                 ]
             },
             "effect": {
-                "en": "All stat +40 (during LAP 1)",
-                "jp": "すべての スタット +40 ( LAP 1 間 )",
-                "kr": "모든 스탯 +40 ( LAP 1 동안 )"
+                "en": "All stat +30 (during LAP 1)",
+                "jp": "全パラメーター +30 ( LAP 1 の間 )",
+                "kr": "모든 스탯 +30 ( LAP 1 동안 )"
             },
             "stat_table": {
                 "LAP1": {
-                    "speed": 40,
-                    "acceleration": 40,
-                    "handling": 40,
-                    "power": 40,
-                    "boost": 40
+                    "speed": 30,
+                    "acceleration": 30,
+                    "handling": 30,
+                    "power": 30,
+                    "boost": 30
                 }
             }
         }

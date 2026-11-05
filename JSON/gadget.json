@@ -538,7 +538,7 @@
             },
             "description": {
                 "en": "When holding 1 or more Rings, 'up to +2km/h to maximum speed (varies with Ring count)' and '+8 to all stats'. Instead of losing 1 Ring per second.",
-                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 最大+2km/h 上昇 (リング数に応じて変動)' + '全体のマシンスタット +8 上昇'。",
+                "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 最大+2km/h 上昇 (リング数に応じて変動)' + 'マシンの全パラメーター +8 上昇'。",
                 "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 최대 2km/h 증가 (링 개수에 따라 변동)' + '머신의 스탯 +8 상승'합니다."
             },
             "gadget_type": "Ring Ability",
@@ -589,7 +589,7 @@
             },
             "description": {
                 "en": "When holding 1 or more Rings, up to +3km/h to maximum speed (varies with Ring count) + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second).",
-                "jp": "リングが1つ以上あるとき、'最高速度 最大+3km/h 上昇 (リング数に応じて変動)' + '全体のマシンスタットがリングの数だけ上昇'（最大スタット増加は100まで上昇し、1秒にリング1つを消費します）。",
+                "jp": "リングが1つ以上あるとき、'最高速度 最大+3km/h 上昇 (リング数に応じて変動)' + 'マシンの全パラメーターがリングの数だけ上昇'（パラメーターは最大100まで上昇し、1秒にリング1つを消費します）。",
                 "kr": "링이 1개 이상 일 때, '최고속도 최대 3km/h 증가 (링 개수에 따라 변동)' + '머신의 스탯이 링 개수만큼 상승' (최대 스탯 상승 100까지 상승, 1초에 링 1개씩 소비)."
             },
             "gadget_type": "Ring Ability",
@@ -2044,7 +2044,7 @@
             },
             "effect": {
                 "en": "Increase speed by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけスピード増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけスピード増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 스피드 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2102,7 +2102,7 @@
             },
             "effect": {
                 "en": "Increase speed by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけスピード増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけスピード増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 스피드 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2160,7 +2160,7 @@
             },
             "effect": {
                 "en": "Increase acceleration by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけアクセル増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけアクセル増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 액셀 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2218,7 +2218,7 @@
             },
             "effect": {
                 "en": "Increase acceleration by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけアクセル増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけアクセル増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 액셀 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2276,7 +2276,7 @@
             },
             "effect": {
                 "en": "Increase handling by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけハンドリング増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけハンドリング増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 핸들링 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2334,7 +2334,7 @@
             },
             "effect": {
                 "en": "Increase handling by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけハンドリング増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけハンドリング増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 핸들링 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2392,7 +2392,7 @@
             },
             "effect": {
                 "en": "Increase power by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけパワー増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけパワー増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 파워 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2450,7 +2450,7 @@
             },
             "effect": {
                 "en": "Increase power by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけパワー増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけパワー増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 파워 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2508,7 +2508,7 @@
             },
             "effect": {
                 "en": "Increase boost by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけダッシュ増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけダッシュ増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 대시 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2566,7 +2566,7 @@
             },
             "effect": {
                 "en": "Increase boost by specified number (stat change when wearing the same type of machine)",
-                "jp": "指定された数値だけダッシュ増加 (同一種類のマシン着用時のスタット変化)",
+                "jp": "指定された数値だけダッシュ増加 (同じタイプのマシン使用時はパラメーター変化)",
                 "kr": "지정된 수치만큼 대시 증가 ( 동일한 종류의 머신 착용 시 스탯 변화 )"
             },
             "patch": {
@@ -2799,7 +2799,7 @@
             },
             "effect": {
                 "en": "All stat +20 (during LAP 1)",
-                "jp": "すべての スタット +20 ( LAP 1 間 )",
+                "jp": "全パラメーター +20 ( LAP 1 の間 )",
                 "kr": "모든 스탯 +20 ( LAP 1 동안 )"
             },
             "patch": {
@@ -2847,7 +2847,7 @@
             },
             "effect": {
                 "en": "All stat +60 (during LAP 1)",
-                "jp": "すべての スタット +60 ( LAP 1 間 )",
+                "jp": "全パラメーター +60 ( LAP 1 の間 )",
                 "kr": "모든 스탯 +60 ( LAP 1 동안 )"
             },
             "patch": {
@@ -2895,7 +2895,7 @@
             },
             "effect": {
                 "en": "All stat +20 (during LAP 3)",
-                "jp": "すべての スタット +20 ( LAP 3 間 )",
+                "jp": "全パラメーター +20 ( LAP 3 の間 )",
                 "kr": "모든 스탯 +20 ( LAP 3 동안 )"
             },
             "patch": {
@@ -2943,7 +2943,7 @@
             },
             "effect": {
                 "en": "All stat +60 (during LAP 3)",
-                "jp": "すべての スタット +60 ( LAP 3 間 )",
+                "jp": "全パラメーター +60 ( LAP 3 の間 )",
                 "kr": "모든 스탯 +60 ( LAP 3 동안 )"
             },
             "patch": {
@@ -3431,9 +3431,9 @@
                 "kr": "퀵 리커버 미니"
             },
             "description": {
-                "en": "Recover a little faster after being attacked. (Normal hit stun 55f, 26f for Acceleration type / Recover from being squished 70% quicker) (Note: X @thetakappa__)",
-                "jp": "攻撃を受けた後、少し早く動けるようになる。(通常被弾時の硬直時間 55f、アクセルタイプは26f / 圧縮された時、回復速度70%増加)（参考：X @thetakappa__）",
-                "kr": "공격을 받은 후 조금 빨리 움직일 수 있게 됩니다. (일반 피격 시 경직 시간 55f, 액셀 타입은 26f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가) (참고 : X @thetakappa__)"
+                "en": "Recover a little faster after being attacked. (Normal hit stun 55f, 26f for Acceleration type / Recover from being squished 40% quicker) (Note: X @thetakappa__)",
+                "jp": "攻撃を受けた後、少し早く動けるようになる。(通常被弾時の硬直時間 55f、アクセルタイプは26f / 圧縮された時、回復速度40%増加)（参考：X @thetakappa__）",
+                "kr": "공격을 받은 후 조금 빨리 움직일 수 있게 됩니다. (일반 피격 시 경직 시간 55f, 액셀 타입은 26f / 짓눌리는 공격에 대해서는 회복 속도 40% 증가) (참고 : X @thetakappa__)"
             },
             "gadget_type": "Support",
             "slots": 1,
@@ -3451,9 +3451,9 @@
                 ]
             },
             "effect": {
-                "en": "Shorter hit stun (55f, 26f for Acceleration type / 70% increase in recovery speed when being squished)",
-                "jp": "被弾硬直時間短縮 (55f、アクセルタイプ26f / 圧縮された時、回復速度70%増加)",
-                "kr": "피격 경직 시간 단축 (55f, 액셀 타입 26f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가)"
+                "en": "Shorter hit stun (55f, 26f for Acceleration type / 40% increase in recovery speed when being squished)",
+                "jp": "被弾硬直時間短縮 (55f、アクセルタイプ26f / 圧縮された時、回復速度40%増加)",
+                "kr": "피격 경직 시간 단축 (55f, 액셀 타입 26f / 짓눌리는 공격에 대해서는 회복 속도 40% 증가)"
             },
             "patch": {},
             "stat_table": null
@@ -3642,7 +3642,7 @@
             },
             "effect": {
                 "en": "All stats -10, get double the items",
-                "jp": "すべてのスタット -10, アイテムを2倍獲得",
+                "jp": "全パラメーター -10, アイテムを2倍獲得",
                 "kr": "모든 스탯 -10, 아이템 2배 획득"
             },
             "patch": {},
@@ -5888,9 +5888,9 @@
                 "kr": "대량 위스프 키트"
             },
             "description": {
-                "en": "A kit that includes 「Inventory Plus」, 「Wisp Chance UP」, and 「Get Item when passing through a Travel Ring」.",
-                "jp": "「アイテムストックプラス」, 「ウィスプ確率アップ」, 「トラベルリングを通過するとアイテム獲得」を内包するキット。",
-                "kr": "「아이템 스톡 플러스」, 「위스프 확률 UP」, 「 트래블 링 통과 시 아이템 획득」를 포함하는 키트입니다."
+                "en": "A kit that includes 「Inventory Plus」, 「Wisp Chance UP」, and 「Gain 1 item at the start of Lap 2 and Lap 3」.",
+                "jp": "「アイテムストックプラス」, 「ウィスプ確率アップ」, 「LAP2、LAP3開始時にアイテムを1つ獲得」を内包するキット。",
+                "kr": "「아이템 스톡 플러스」, 「위스프 확률 UP」, 「LAP2, LAP3 시작 시 아이템을 하나 획득」을 포함하는 키트입니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5910,9 +5910,9 @@
                 ]
             },
             "effect": {
-                "en": "「Inventory Plus」 + 「Wisp Chance UP」 + 「Get Item when passing through a Travel Ring」",
-                "jp": "「アイテムストックプラス」 + 「ウィスプ確率アップ」 + 「トラベルリングを通過するとアイテム獲得」",
-                "kr": "「아이템 스톡 플러스」 + 「위스프 확률 UP」 + 「트래블 링 통과 시 아이템 획득」"
+                "en": "「Inventory Plus」 + 「Wisp Chance UP」 + 「Gain 1 item at the start of Lap 2 and Lap 3」",
+                "jp": "「アイテムストックプラス」 + 「ウィスプ確率アップ」 + 「LAP2、LAP3開始時にアイテムを1つ獲得」",
+                "kr": "「아이템 스톡 플러스」 + 「위스프 확률 UP」 + 「LAP2, LAP3 시작 시 아이템을 하나 획득」"
             },
             "patch": {},
             "stat_table": null,
@@ -5920,17 +5920,17 @@
                 "en": [
                     "Inventory Plus",
                     "Wisp Chance UP",
-                    "Get Item when passing through a Travel Ring"
+                    "Gain 1 item at the start of Lap 2 and Lap 3"
                 ],
                 "jp": [
                     "アイテムストックプラス",
                     "ウィスプ確率アップ",
-                    "トラベルリングを通過するとアイテム獲得"
+                    "LAP2、LAP3開始時にアイテムを1つ獲得"
                 ],
                 "kr": [
                     "아이템 스톡 플러스",
                     "위스프 확률 UP",
-                    "트래블 링 통과 시 아이템 획득"
+                    "LAP2, LAP3 시작 시 아이템을 하나 획득"
                 ]
             }
         },
@@ -6135,9 +6135,9 @@
                 "kr": "Souvenir Collector(미확정)"
             },
             "description": {
-                "en": "Get an item when passing through a Travel Ring. (Unknown)",
-                "jp": "トラベルリングを通った時、アイテムを1個獲得します。(未確認)",
-                "kr": "트래블 링을 통과할 시, 아이템을 1개 획득합니다. (미확정)"
+                "en": "Get an item at the start of Lap 2 and Lap 3. (Unknown)",
+                "jp": "LAP2、LAP3開始時にアイテムを1個獲得します。(未確認)",
+                "kr": "LAP2, LAP3 시작 시 아이템을 1개 획득합니다. (미확정)"
             },
             "gadget_type": "Dummy",
             "slots": 1,
@@ -6154,9 +6154,9 @@
                 ]
             },
             "effect": {
-                "en": "Get an item when passing through a Travel Ring (Unknown)",
-                "jp": "トラベルリングを通過時、アイテム1個獲得(未確認)",
-                "kr": "트래블 링을 통과 시, 아이템 1개 획득(미확정)"
+                "en": "Get an item at the start of Lap 2 and Lap 3 (Unknown)",
+                "jp": "LAP2、LAP3開始時にアイテム1個獲得(未確認)",
+                "kr": "LAP2, LAP3 시작 시 아이템 1개 획득(미확정)"
             },
             "patch": {},
             "stat_table": null
