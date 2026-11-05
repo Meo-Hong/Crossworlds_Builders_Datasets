@@ -196,7 +196,7 @@
                     "This effect can be seen as a reinterpretation of real-world slipstreaming (a phenomenon where following behind an opponent lowers the aerodynamic pressure on the trailing driver. By utilizing this, the trailing car experiences less air resistance and can accelerate more easily).",
                     "In the game, following behind a machine gives you an 'Extra Speed +20km/h' effect.",
                     "This can stack with the extra speed from collecting rings and the acceleration from ring-collection dashes, but there is a cap. For more details, please refer to 'Additional Speed Increase' and 'Type Speed Cap' in the 'Speed' tab.",
-                    "Equipping the 'Slipstream Bounty' gadget allows you to continuously gain 1 ring every 0.5 seconds while in a slipstream state.",
+                    "Equipping the 'Slipstream Bounty' gadget allows you to continuously gain 1 ring every 0.6 seconds while in a slipstream state. (Every 0.5 seconds in the Super Slot; changed from 0.5 to 0.6 seconds in v2.0.0)",
                     "'Extended Slipstream' is a gadget that 'extends the horizontal width of the slipstream activation range by 100%.' Please note that it does not 'extend the longitudinal distance (vertical length) by 100%.'",
                     "Since this is the most basic technique for overtaking opponents throughout the race, it is essential to master it."
                 ],
@@ -206,7 +206,7 @@
                     "この効果は、現実のスリップストリーム（相手の後ろにつくと、空気力学により後続車の受ける空気圧が下がる現象。これを利用することで、後続車は空気抵抗を減らし、加速しやすくなる）を再解釈したものと言えます。",
                     "ゲーム内では、マシンの後ろを走ると「追加速度+20km/h」の効果を得られます。",
                     "リング獲得時の追加速度や、リング獲得ダッシュによる加速と重複可能ですが、上限が存在します。詳細は「速度」タブの「追加速度上昇の表」および「タイプ別追加速度上限」をご参照ください。",
-                    "ガジェット「スリップストリームボーナス」を装備すると、スリップストリーム状態で0.5秒ごとにリングを1個ずつ継続的に獲得できるようになります。",
+                    "ガジェット「スリップストリームボーナス」を装備すると、スリップストリーム状態で0.6秒ごとにリングを1個ずつ継続的に獲得できるようになります。（スーパースロットでは0.5秒ごと、v2.0.0で0.5秒 → 0.6秒）",
                     "「ロングスリップストリーム」は、「スリップストリームの発動横幅（横方向の範囲）を100%延長」するガジェットです。「縦方向（距離）の範囲が100%延長されるわけではない」ので、この点にご注意ください。",
                     "レース全般にわたって相手を追い抜くための最も基本的なテクニックであるため、必ず知っておくべきです。"
                 ],
@@ -216,7 +216,7 @@
                     "이러한 효과는 현실의 슬립스트림(상대 뒤에 있으면 공기역학에 의해 뒷 선수의 공기압력이 낮아지는 현상. 이를 이용해 뒷차는 공기 저항을 덜 받고 가속을 하기 쉬워진다.)을 재해석한 것으로 볼 수 있습니다.",
                     "게임 내에서는 머신 뒤를 따라가면 '추가속도 +20km/h'의 효과를 얻습니다.",
                     "링 획득 시 추가속도, 링 획득 대시로 얻는 가속도와 중첩할 수 있지만 상한선이 존재합니다. 자세한 것은 '속도' 탭의 '추가 속도 증가 표'와 '타입별 추가 속도 상한'을 참고하세요.",
-                    "'슬립스트림 보너스'를 착용하면 슬립스트림 상태에서 0.5초 동안 링을 1개씩, 지속적으로 획득 가능합니다.",
+                    "'슬립스트림 보너스'를 착용하면 슬립스트림 상태에서 0.6초마다 링을 1개씩 지속적으로 획득할 수 있습니다. (슈퍼 슬롯은 0.5초마다, v2.0.0에서 0.5초 → 0.6초)",
                     "'롱 슬립스트림'은 '슬립스트림 발동 너비 범위를 100% 연장'하는 가젯입니다. '수직 방향 범위 100% 연장'이 아니므로, 이 점을 유의하기 바랍니다.",
                     "경기 전반에 걸쳐서 상대방을 추월하는데에 가장 기초적인 테크닉이므로, 꼭 알고 있어야합니다.",
                     "예시 영상은 좌→우로 (1. 일반 슬립스트림, 2.롱 슬립스트림, 3.멀리 떨어진 상태에서 롱 슬립스트림 실험)을 보여주고 있습니다.",
@@ -333,6 +333,7 @@
                     "'Counter Drift' is an advanced technique where you release the drift key mid-drift, immediately steer in the opposite direction, and start drifting again.",
                     "By utilizing this, you can drift on straight courses and easily activate a Drift Charge Boost.",
                     "If you activate \"Counter Drift\" in charging, it will consume a certain amount of your charge gauge before drifting again. Therefore, you can minimize this gauge consumption by fully completing one charge stage before activating the technique.",
+                    "Some gadgets reduce the charge consumed by Counter Drift. 「Refined Counter Drift」, added in v2.0.0, reduces the charge consumption by 30% (50% in the Super Slot), and 「Flawless Counter Drift」 removes it entirely. 「Counter Quick Charge」 fills one charge level when you counter drift during a drift (only once).",
                     "Officially, this is named \"Chain Drifting\". In Korea, it is also commonly called \"Cutting Drift\" for convenience (a term borrowed from another racing game).",
                     "As a technique that allows you to trigger boosts at will, it is one of the most crucial techniques for shaving off time and overall race management."
                 ],
@@ -340,6 +341,7 @@
                     "「切りかえしドリフト」は、ドリフト中にドリフトキーを離して解除した直後、反対方向にハンドルを切ってすぐに再びドリフトを行う高度なテクニックです。",
                     "これを活用することで、直線コースでもドリフトを行い、ドリフトチャージブーストを簡単に発動することができます。",
                     "「切りかえしドリフト」をチャージ途中で発動すると、一定量のチャージゲージを消費して再びドリフトを行います。したがって、可能な限りチャージを1段階完全に溜めきった後に発動することで、チャージの消費を最小限に抑えることができます。",
+                    "切りかえし時のチャージ消費を減らすガジェットもあります。v2.0.0で追加された「切りかえしキーパー」はチャージ消費量を30%（スーパースロットでは50%）減らし、「切りかえしパーフェクト」はチャージ消費をなくします。「切りかえしクイックチャージ」はドリフト中に切りかえすとチャージを1段階溜めます。（1回のみ発動）",
                     "公式ではこれを「直線ドリフト」と呼称しています。韓国では便宜上「カッティングドリフト」とも呼ばれています。（別のレースゲームから引用された用語です。）",
                     "ブーストを自由自在に発動できるテクニックであるため、タイム短縮やレース運びにおいて非常に重要なテクニックの一つです。"
                 ], 
@@ -347,6 +349,7 @@
                     "「방향 전환 드리프트」는 드리프트 중에 드리프트 키를 떼서 해제하자마자 반대 방향으로 핸들을 틀고 바로 다시 드리프트하는 심화 테크닉입니다.",
                     "이를 활용하면 직선 코스에서 드리프트를 하여 드리프트 차지 부스트를 쉽게 발동할 수 있습니다.",
                     "방향 전환 드리프트를 차지 도중에 발동하면 일정량의 차지 게이지를 소모하고 다시 드리프트를 합니다. 따라서, 최대한 차지를 한 단계 모두 채운 후에 이걸 발동하면 차지 소모를 최소화 할 수 있습니다.",
+                    "방향 전환 시 차지 소모를 줄여 주는 가젯도 있습니다. v2.0.0에서 추가된 「방향 전환 키퍼」는 차지 소모량을 30%(슈퍼 슬롯 50%) 줄여 주고, 「방향 전환 퍼펙트」는 차지 소모를 없애 줍니다. 「방향 전환 퀵 차지」는 드리프트 중 방향 전환 시 차지를 1단계 채워 줍니다. (1회만 발동)",
                     "이를 공식에서는 「직선 드리프트」라고 명명합니다. 한국에서는 편의상 「커팅 드리프트」라고 부르기도 합니다. (용어가 사용된 다른 레이싱 게임에서 따온 용어입니다.)",
                     "부스트를 자유자재로 발동하는 테크닉이므로 시간 단축과 게임 운영에 매우 중요한 테크닉 중 하나입니다."
                 ]
@@ -367,6 +370,7 @@
                     "This control is necessary to prevent drifting too wide toward the outside of the corner due to excessive speed.",
                     "For example, you would use this control to avoid falling off the edge in the fenceless corner sections of 'Chao Park'.",
                     "There are many opportunities to utilize this during a race, so it is highly recommended to master this technique.",
+                    "With 「Brake Charge」, a gadget added in v2.0.0, pressing the brake while charging makes every level of drift charge fill 4x faster, letting you control your cornering speed with the brake while building charge quickly.",
                     "The example video below shows the difference between (Left: Accel Control X, Right: Accel Control O)."
                 ],
                 "jp": [
@@ -374,6 +378,7 @@
                     "このようなコントロールが必要な理由は、コーナーを曲がる際、スピードが出すぎて外側に膨らんでしまうのを防ぐためです。",
                     "例として、「チャオパーク」の柵がないコーナー区間で落下しないように調整するといった使い方が挙げられます。",
                     "レース中で活用できる場面が非常に多いため、このテクニックをしっかり身につけておくことをお勧めします。",
+                    "v2.0.0で追加されたガジェット「ブレーキチャージ」を装備すると、チャージ中にブレーキを踏んだ時、すべての段階のドリフトチャージ速度が4倍になります。ブレーキでコーナリング速度を調節しながら、チャージも素早く溜められます。",
                     "以下のサンプル動画は（左：アクセル調整なし、右：アクセル調整あり）の違いを示しています。"
                 ],
                 "kr": [
@@ -381,6 +386,7 @@
                     "이러한 컨트롤이 필요한 이유는 코너를 돌 때, 너무 높은 속도에 의해 바깥으로 나가는 것을 방지하기 위해서입니다.",
                     "예시로, '챠오 파크'의 난간이 없는 코너 구간에서 떨어지지 않기 위해 조절하는 것입니다.",
                     "경기 중에서 매우 활용할 여지가 많으므로, 이 테크닉을 잘 익히는 것이 좋습니다.",
+                    "v2.0.0에서 추가된 가젯 「브레이크 차지」를 착용하면, 차지 중 브레이크를 밟을 때 모든 단계의 드리프트 차지 속도가 4배가 됩니다. 브레이크로 코너링 속도를 조절하면서 차지도 빠르게 모을 수 있습니다.",
                     "아래 예시 영상은 (왼쪽 : 엑셀 조절 X, 오른쪽 : 엑셀 조절 O)의 차이를 보여줍니다."
                 ]
             },
@@ -464,8 +470,8 @@
             "description":{
                 "en": [
                     "'Ring Gain Boost' refers to 'the effect of gaining momentary acceleration upon collecting a ring'.",
-                    "You can gain this effect through exclusive gadgets like 'Ring Gain Boost' and 'Ring Gain Boost Mini'.",
-                    "The 'Ring Gain Boost' grants 'Additional Speed +15km/h', and the 'Ring Gain Boost Mini' grants 'Additional Speed +7km/h'.",
+                    "You can gain this effect through exclusive gadgets like 'Ring Gain Boost' and 'Ring Gain Mini Boost'.",
+                    "The 'Ring Gain Boost' grants 'Additional Speed +17km/h', and the 'Ring Gain Mini Boost' grants 'Additional Speed +7km/h' (+11km/h in the Super Slot). ('Ring Gain Boost' changed from +15km/h to +17km/h in v2.0.0)",
                     "Separately from the Ring Gain Boost, every ring you pick up also gives a base +1km/h for 0.3 seconds. (Based on the Speed Document by Yoshister)",
                     "It activates immediately upon collecting even a single ring, and it can also be triggered by rings obtained through gadgets such as 'Slipstream Bonus' and 'Just Charge Bonus'.",
                     "It has great synergy with the item 'Omochao' because it 'scatters rings in front of the user'.",
@@ -477,7 +483,7 @@
                 "jp": [ 
                     "「リングゲットダッシュ」とは、「リングを獲得すると瞬間的な加速を得る効果」のことです。",
                     "専用ガジェット「リングゲットダッシュ」や「リングゲットダッシュミニ」などでこの効果を得ることができ、一般的には「リングダッシュ」と通称されています。",
-                    "「リング獲得ダッシュ」は「追加速度+15km/hの加速」を得て、「リング獲得ダッシュミニ」は「追加速度+7km/hの加速」を得ます。",
+                    "「リングゲットダッシュ」は「追加速度+17km/hの加速」を得て、「リングゲットダッシュミニ」は「追加速度+7km/hの加速」（スーパースロットでは+11km/h）を得ます。（v2.0.0で「リングゲットダッシュ」+15km/h → +17km/h）",
                     "リング獲得ダッシュとは別に、リングを1個獲得するたびに0.3秒間+1km/hの速度増加が基本で適用されます。（Speed Document by Yoshister 基準）",
                     "リングを1個でも獲得すると即座に発動し、「スリップストリームボーナス」や「ジャストチャージボーナス」などのガジェットを通じて獲得したリングに対しても発動可能です。",
                     "アイテム「オモチャオ」は「リングをユーザーの前にばらまく」効果があるため、非常に相性が良いです。",
@@ -489,7 +495,7 @@
                 "kr": [
                     "링 획득 대시는 '링을 획득하면 순간적인 가속을 얻는 효과'를 말합니다.",
                     "전용 가젯 '링 획득 대시', '링 획득 대시 미니' 등으로 효과를 얻을 수 있으며, 일반적으로는 '링 대시'라고 통용합니다.",
-                    "'링 획득 대시'는 '추가 속도 +15km/h'의 가속을 얻고, '링 획득 대시 미니'는 '추가 속도 +7km/h'의 가속을 얻습니다.",
+                    "'링 획득 대시'는 '추가 속도 +17km/h'의 가속을 얻고, '링 획득 대시 미니'는 '추가 속도 +7km/h'(슈퍼 슬롯 +11km/h)의 가속을 얻습니다. (v2.0.0에서 '링 획득 대시' +15km/h → +17km/h)",
                     "링 획득 대시와 별개로, 링을 1개 얻을 때마다 0.3초 동안 +1km/h의 속도 증가가 기본으로 적용됩니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                     "링을 한개라도 얻으면 즉시 발동하며, '슬립스트림 보너스', '저스트 차지 보너스' 등 가젯을 통해 얻는 링에 대해서도 발동이 가능합니다.",
                     "아이템 '오모챠오'가 '링을 사용자 앞에 흩뿌리기' 때문에 궁합이 매우 좋습니다.",
@@ -511,20 +517,20 @@
             },
             "description": {
                 "en": [
-                    "'Collision Boost' is a technique where you gain a momentary acceleration by colliding with another machine when equipping the exclusive gadget 'Collision Boost' or in special modes like 'Group Match'.",
-                    "When Collision Boost is activated, you gain an acceleration of Extra Speed +25km/h for 0.5 seconds. This acceleration is applied independently from the values in the 'Extra Speed Table'.",
+                    "'Collision Boost' is a technique where you gain a momentary acceleration by colliding with another machine when equipping the exclusive gadgets 'Collision Boost' and 'Collision Mini Boost' or in special modes like 'Group Match'.",
+                    "When Collision Boost is activated, you gain an acceleration of Extra Speed +25km/h. It lasts 1.7 seconds with 'Collision Boost' (changed from 0.5 to 1.7 seconds in v2.0.0) and 0.5 seconds with 'Collision Mini Boost' (1 second in the Super Slot). This acceleration is applied independently from the values in the 'Extra Speed Table'.",
                     "This is an adapted version of the 'Skimboost' system from the previous game, 'Team Sonic Racing'. (In 'Team Sonic Racing', it is a technique where skimming past a teammate who was slowed down by an item grants them a boost to recover their top speed.)",
                     "In Group Match, rule that called 'Tap Dash' is exists (Official Name: Tap Your Allies!), and when this is active, touching a teammate will activate a 'Collision Boost' for both of you, just like in 'Team Sonic Racing'."
                 ],
                 "jp": [
-                    "「ぶつかりダッシュ」は、専用ガジェット「ぶつかりダッシュ」などを装備するか、「グループ戦」などの特殊なモードで他のマシンと衝突して瞬間的な加速を得るテクニックです。",
-                    "「ぶつかりダッシュ」発動時、0.5秒間「追加速度 +25km/h」の加速を得ます。これは「追加速度表」の数値とは別枠で加速がかかります。",
+                    "「ぶつかりダッシュ」は、専用ガジェット「ぶつかりダッシュ」、「ぶつかりダッシュミニ」などを装備するか、「グループ戦」などの特殊なモードで他のマシンと衝突して瞬間的な加速を得るテクニックです。",
+                    "「ぶつかりダッシュ」発動時、「追加速度 +25km/h」の加速を得ます。持続時間は「ぶつかりダッシュ」が1.7秒（v2.0.0で0.5秒 → 1.7秒）、「ぶつかりダッシュミニ」が0.5秒（スーパースロットでは1秒）です。これは「追加速度表」の数値とは別枠で加速がかかります。",
                     "前作『チームソニックレーシング』の「タッチダッシュ」システムを改良したものです。（『チームソニックレーシング』において、アイテムに当たって減速したチームメイトをかすめると、そのチームメイトが最高速度に復帰できるようブースト状態で加速させるテクニックです。）",
                     "グループ戦にはルール「タッチダッシュ」が存在し（正式名称：とにかく味方にタッチせよ！）、この時は『チームソニックレーシング』と同様に同じチームメイトにタッチすると、両者に「ぶつかりダッシュ」が発動します。"
                 ],
                 "kr": [
-                    "범프 대시는 전용 가젯 '범프 대시' 등을 장착하거나 '그룹전' 등 특수한 모드에서 다른 머신과 충돌하여 순간적인 가속을 얻는 테크닉입니다.",
-                    "범프 대시 발동 시, 0.5초 동안 추가 속도 +25km/h의 가속을 얻습니다. 이는 '추가 속도 표'의 값들과는 별개로 가속을 받습니다.",
+                    "범프 대시는 전용 가젯 '범프 대시', '범프 대시 미니' 등을 장착하거나 '그룹전' 등 특수한 모드에서 다른 머신과 충돌하여 순간적인 가속을 얻는 테크닉입니다.",
+                    "범프 대시 발동 시, 추가 속도 +25km/h의 가속을 얻습니다. 지속 시간은 '범프 대시'가 1.7초(v2.0.0에서 0.5초 → 1.7초), '범프 대시 미니'가 0.5초(슈퍼 슬롯 1초)입니다. 이는 '추가 속도 표'의 값들과는 별개로 가속을 받습니다.",
                     "전작 '팀 소닉 레이싱'에서의 '터치 대시' 시스템을 개량한 시스템입니다. ('팀 소닉 레이싱'에서 아이템에 맞아 감속된 팀원을 스치면 그 팀원이 최고속도를 복구할 수 있도록 부스트 상태로 가속시키는 테크닉입니다.)",
                     "그룹전 룰 '터치 대시'가 존재하며 (정식 명칭 : 어떻게든 같은 팀에게 터치하라!), 이 때는 '팀 소닉 레이싱'과 같이 같은 팀원을 터치하면 둘 모두에게 '범프 대시'가 발동됩니다."
                 ]
@@ -542,21 +548,24 @@
             "description": {
                 "en": [
                     "This is an acceleration effect that triggers when equipping specific gadgets (such as 'Perfect Charge Boost' or 'Perfect Landing') and successfully performing certain actions on the exact frame.",
-                    "The common effect is a momentary '+40km/h multiplier acceleration (boost)' together with '+10km/h for 0.5 seconds (Additional Speed)'. The multiplier lasts only 0.05 seconds for 'Perfect Landing', and its duration is inconsistent for 'Perfect Charge Boost'. (Based on the Speed Document by Yoshister)",
+                    "The common effect is a momentary '+40km/h multiplier acceleration (boost)' together with '+10km/h (Additional Speed)'. The multiplier lasts only 0.05 seconds for 'Perfect Landing', and its duration is inconsistent for 'Perfect Charge Boost'. (Based on the Speed Document by Yoshister)",
+                    "The duration of the Additional Speed was extended in v2.0.0: 0.5 → 1.0 seconds for 'Perfect Charge Boost', and 0.5/0.75/1 seconds for 'Perfect Landing' depending on the number of Air Tricks (1/2/3+), or 1.5/1.75/2 seconds in the Super Slot.",
                     "'Perfect Charge Boost' is a method of gaining additional acceleration by releasing the charge at the exact timing the drift charge increases by one level.",
                     "'Perfect Landing' is a method of gaining additional acceleration by pressing the 'accelerate key/button' right before hitting the ground after successfully performing an air trick in mid-air.",
                     "The video below captures the moment a Perfect Boost is successfully performed."
                 ],
                 "jp": [
                     "特定のガジェット（「ジャストチャージダッシュ」、「ジャスト着地」など）を装着後、特定の動作を正確なフレームで成功させた時に発動する加速効果です。",
-                    "共通効果として、瞬間的な「倍率加速 +40km/h（ブースト）」と「0.5秒間 +10km/h（追加速度）」が同時に発動します。倍率加速は「ジャスト着地」では0.05秒と非常に短く、「ジャストチャージダッシュ」では持続時間が一定ではありません。（Speed Document by Yoshister 基準）",
+                    "共通効果として、瞬間的な「倍率加速 +40km/h（ブースト）」と「+10km/h（追加速度）」が同時に発動します。倍率加速は「ジャスト着地」では0.05秒と非常に短く、「ジャストチャージダッシュ」では持続時間が一定ではありません。（Speed Document by Yoshister 基準）",
+                    "追加速度の持続時間はv2.0.0で延長されました。「ジャストチャージダッシュ」は0.5秒 → 1.0秒、「ジャスト着地」はエアトリックの回数（1/2/3回以上）に応じて0.5/0.75/1秒で、スーパースロットに装備すると1.5/1.75/2秒になります。",
                     "「ジャストチャージダッシュ」は、ドリフトチャージが1段階溜まるタイミングでチャージを終了し、追加加速を得る方式です。",
                     "「ジャスト着地」は、空中でエアトリックを成功させた後、地面に着地する直前に「アクセルキー/ボタン」を押して追加加速を得る方式です。",
                     "以下の映像は、ジャストダッシュに成功した瞬間を撮影したものです。"
                 ],
                 "kr": [
                     "특정 가젯 (「저스트 차지 대시」, 「저스트 착지」 등)을 착용 후, 특정 동작을 정확한 프레임에 성공했을 때 발동되는 가속 효과입니다.",
-                    "공통 효과로 순간적인 '배율 가속 +40km/h(부스트)'와 '0.5초 동안 +10km/h(추가 속도)'가 함께 발동됩니다. 배율 가속은 「저스트 착지」에서는 0.05초로 아주 짧고, 「저스트 차지 대시」에서는 지속 시간이 일정하지 않습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
+                    "공통 효과로 순간적인 '배율 가속 +40km/h(부스트)'와 '+10km/h(추가 속도)'가 함께 발동됩니다. 배율 가속은 「저스트 착지」에서는 0.05초로 아주 짧고, 「저스트 차지 대시」에서는 지속 시간이 일정하지 않습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
+                    "추가 속도의 지속 시간은 v2.0.0에서 늘어났습니다. 「저스트 차지 대시」는 0.5초 → 1.0초, 「저스트 착지」는 에어 트릭 횟수(1/2/3회 이상)에 따라 0.5/0.75/1초이며, 슈퍼 슬롯에 장착하면 1.5/1.75/2초가 됩니다.",
                     "「저스트 차지 대시」는 드리프트 차지가 한 단계 채워지는 타이밍에 차지를 종료하여 추가 가속을 얻는 방식입니다.",
                     "「저스트 착지」는 공중에서 에어 트릭을 성공한 후, 바닥에 착지하기 바로 전에 '액셀 키/버튼'을 눌러서 추가 가속을 얻는 방식입니다.",
                     "아래 영상은 저스트 대시에 성공하였을 때 나오는 순간을 촬영한 것입니다."
@@ -583,7 +592,7 @@
                     "The 25km/h deceleration effect over 2.5s while drifting is an homage to the original 'Spin Dash' mechanic of 'stopping and spinning to charge'.",
                     "To offset the demerit of decelerating while drifting, a unique effect is applied making 'Grip Driving' easier during a charge boost. Therefore, it is best to navigate corners without drifting as much as possible while the charge boost is active.",
                     "The button-mashing method for the accelerate button is also an homage to the original mechanic of 'pressing the button multiple times to charge'.",
-                    "Rather than mashing the accelerate button as fast as possible, it is most efficient to tap it rhythmically at a rate of 3 to 4 times per second. Because it is a system where 'it only charges a certain amount while the accelerate button is held down', pressing it too quickly reduces the amount charged per tap.",
+                    "In v2.0.0, the issue where the charge time varied depending on the timing of button presses was fixed, so the charge efficiency no longer depends on your mashing rhythm.",
                     "The duration of the 'Charge Boost' becomes 5 times longer. In other words, even a Lv1 Charge Boost lasts for 5 seconds, and a Lv3 Charge Boost lasts for a whopping 17 seconds. (Excerpt from Official X).",
                     "The 5x duration does not apply to Boost items or Air Trick Boosts. Instead, every boost stacks on top of the extended Charge Boost through 'Boost Stacking', so stacking three Lv3 Charge Boosts lets you keep driving at the +40km/h boost cap. (Based on the Speed Document by Yoshister)",
                     "When activated, a blue 'Sonic spinning effect' appears on the rear wheels. In the case of 'Boost Type', a blue spin effect appears on both sides of the rear parts."
@@ -594,7 +603,7 @@
                     "ドリフト時に2.5秒かけて25km/h減速する効果は、原作の「スピンダッシュ」である「立ち止まってスピンしながらチャージする方式」をオマージュしたものです。",
                     "ドリフト時の減速というデメリットを相殺するため、「チャージダッシュ中は『グリップ走行』が容易になる」という固有効果が適用されています。したがって、チャージダッシュ発動中は可能な限りドリフトを使わずにコーナーを突破するのが最適です。",
                     "アクセルボタンを連打する方式も、原作の「ボタンを何度も押してチャージする」ギミックをオマージュしたものです。",
-                    "アクセルボタンを素早く連打するよりも、リズムに合わせて1秒間に3～4回押すスピードで連打するのが最も効率的です。「アクセルボタンを押している間だけ一定量チャージされる方式」であるため、素早く連打しすぎると1回あたりのチャージ量が減少します。",
+                    "v2.0.0で、ボタンを押すタイミングによってチャージ時間が変わる問題が修正され、連打のリズムによってチャージ効率が変わることはなくなりました。",
                     "「チャージダッシュ」の持続時間が5倍長くなります。つまり、Lv1チャージダッシュだけでも5秒間持続し、Lv3チャージダッシュはなんと17秒間も持続します。（公式Xより抜粋）",
                     "持続時間5倍の効果は、ブーストアイテムとエアトリックブーストには適用されません。代わりに、長くなったチャージダッシュ中はすべてのブーストが「ブーストの重複」で加算され、Lv3チャージダッシュを3つ重ねると、ブーストの上限である+40km/hの状態で走り続けることができます。（Speed Document by Yoshister 基準）",
                     "発動時、後輪に青い「ソニックがスピンするエフェクト」が表示されます。'ダッシュタイプ'の場合は、リアパーツの両脇に青いスピンエフェクトが表示されます。"
@@ -605,7 +614,7 @@
                     "드리프트 시, 2.5초에 걸쳐 25km/h 감속하는 효과는 원작의 「스핀 대시」의 방식인 '멈춰서 스핀하면서 차지하는 방식'을 오마쥬한 방식입니다.",
                     "드리프트 시 감속하는 디메리트를 상쇄하기 위해, '차지 대시 중에는 '그립 주행'이 수월하게 되는' 고유 효과가 적용되어 있습니다. 따라서, 차지 대시를 발동 중에는 최대한 드리프트를 하지 않으면서 코너를 돌파하는 것이 가장 좋습니다.",
                     "액셀 버튼을 연타하는 방식 또한 원작의 '버튼을 여러 번 눌러 차지'를 오마쥬한 방식입니다.",
-                    "액셀 버튼을 빠르게 연타하는 것보다, 리듬에 맞춰 1초에 3~4번 누르는 속도로 연타하는 것이 가장 효율이 좋습니다. '액셀 버튼을 누르는 동안에만 일정량 만큼 차지되는 방식'이기 때문에 빠르게 연타하면 한번에 차지되는 양이 줄어듭니다.",
+                    "v2.0.0에서 버튼을 누르는 타이밍에 따라 차지 시간이 달라지던 문제가 수정되어, 이제는 연타하는 리듬에 따라 차지 효율이 달라지지 않습니다.",
                     "'차지 대시'의 지속 시간이 5배 길어집니다. 즉, Lv1 차지 대시만 해도 5초동안 지속되며, Lv3 차지 대시는 무려 17초 동안 지속 됩니다. (공식 X 발췌)",
                     "지속 시간 5배 효과는 부스트 아이템과 에어 트릭 부스트에는 적용되지 않습니다. 대신 길어진 차지 대시 중에는 모든 부스트가 '부스트 중첩'으로 더해져, Lv3 차지 대시 3개를 겹치면 부스트 상한인 +40km/h 상태로 계속 달릴 수 있습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                     "시전 시, 뒷바퀴가 파란 색의 '소닉이 스핀하는 효과'가 나타납니다. '대시 타입'의 경우에는 리어 파츠 양 옆으로 파란 스핀 효과가 나타납니다."

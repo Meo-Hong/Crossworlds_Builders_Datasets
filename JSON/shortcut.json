@@ -654,19 +654,19 @@
                     "description": {
                         "en": [
                             "In the latter half of the course, there is a normal route and a short route with many dining tables.",
-                            "The tables have a 'traffic cone' hitbox, meaning you won't take damage, but your speed will decrease if you hit them.",
+                            "The tables have a 'bollard' hitbox, meaning you won't take damage, but your speed will decrease if you hit them.",
                             "Therefore, when passing through this section, you must either use a 'boost' or utilize 'items that can break obstacles' (such as defensive items) to smash your way through.",
                             "While you can use 'attack items' to break obstacles to pass through, they only destroy a small portion of them, so it is highly recommended to use a boost or defensive items whenever possible."
                         ],
                         "jp": [
                             "コースの後半には、一般的なルートと、テーブルがたくさん置かれている短いルートが存在します。",
-                            "テーブルは「カラーコーン」のような判定なのでダメージは受けませんが、ぶつかると速度が低下します。",
+                            "テーブルは「ボラード」のような判定なのでダメージは受けませんが、ぶつかると速度が低下します。",
                             "したがって、この区間を突破する際は、「ブースト」を使用して突破するか、「障害物を壊せるアイテム」（防御アイテムなど）を活用して障害物を破壊しながら進む必要があります。",
                             "「攻撃アイテム」で障害物を壊して進むことも可能ですが、一部分しか壊せないため、なるべくブーストや防御アイテムを活用することをお勧めします。"
                         ],
                         "kr": [
                             "코스 후반부에는 일반적인 루트와, 식탁이 많이 있는 짧은 루트가 존재합니다.",
-                            "식탁은 '라바콘'같은 판정이라 데미지는 입지 않지만 부딪히면 속도가 줄어듭니다.",
+                            "식탁은 '볼라드' 같은 판정이라 데미지는 입지 않지만 부딪히면 속도가 줄어듭니다.",
                             "따라서 이 구간을 돌파할때는 '부스트'를 사용해서 돌파하거나 '장애물을 부술 수 있는 아이템들'(방어아이템 등)을 활용하여 장애물을 부수고 지나가야합니다.",
                             "'공격 아이템'으로 장애물을 부수고 지나갈 수는 있으나 일부분만 부술 수 있기 때문에 가급적이면 부스트나 방어 아이템을 활용하는 것이 좋습니다."
                         ]
@@ -1996,7 +1996,7 @@
                         "en": [
                             "This is a shortcut that appears right after passing the downhill section at the very start of the course.",
                             "This is an inside line that strategically combines two branching paths: entering the right route and jumping onto the course of the left route.",
-                            "Initially, 'traffic cones' block the paths, but these cones disappear once you enter the final lap.",
+                            "Initially, 'bollards' block the paths, but these bollards disappear once you enter the final lap.",
                             "Be careful, as a handling mistake while drifting can lead to a risky 'Course Out'.",
                             "If you are not confident with this inside line, it is recommended to enter the 'left route' at the fork and stick to the regular line.",
                             "The 'Time Trial' guidelines also demonstrate this path, so it is highly recommended to refer to 'Time Trial' mode."
@@ -2004,7 +2004,7 @@
                         "jp": [
                             "コース開始直後、下り坂を通り抜けると現れるショートカットです。",
                             "2つの分岐点を適切に組み合わせたインコースです。右ルートへ進入し、左ルートの道へとジャンプします。",
-                            "序盤は「ラバーコーン」がルートの間を塞いでいますが、ファイナルラップに入るとこのラバーコーンが消滅します。",
+                            "序盤は「ボラード」がルートの間を塞いでいますが、ファイナルラップに入るとこのボラードが消滅します。",
                             "ドリフト中、操作を誤ると「コースアウト」してしまう危険があるため注意が必要です。",
                             "もしこのインコースに自信がない場合は、分岐点で「左ルート」へと進入し、正規のラインを走ることをお勧めします。",
                             "「タイムトライアル」のガイドラインでもルートが案内されているので、「タイムトライアル」を参考にすると良いでしょう。"
@@ -2012,7 +2012,7 @@
                         "kr": [
                             "코스를 시작하자마자 내리막길을 지나가면 나오는 숏컷입니다.",
                             "두 갈래의 갈림길을 적절히 조합한 인코스입니다. 오른쪽 루트로 진입해서 왼쪽 루트의 길로 점프하는 것입니다.",
-                            "처음에는 '라바콘'들이 길을 사이사이를 막고 있으나, 파이널 랩에 들어서면 이 라바콘들이 없어집니다.",
+                            "처음에는 '볼라드'들이 길을 사이사이를 막고 있으나, 파이널 랩에 들어서면 이 볼라드들이 없어집니다.",
                             "드리프트를 하다가 잘못하여 '코스 아웃'을 할 위험이 있으니 주의해야 합니다.",
                             "만약 이 인코스에 자신이 없다면 갈림길에서 '왼쪽 루트'로 진입하여 정규 라인을 타는 것을 추천합니다.",
                             "'타임 트라이얼'에서도 가이드라인을 통해 알려주고 있으니, '타임 트라이얼'을 참고하면 좋습니다."
@@ -2236,20 +2236,20 @@
                     "description":{
                         "en" : [
                             "This is a narrow path shortcut that forks off to the left while driving through the mid-section of the course.",
-                            "This shortcut requires precise handling skills because 'traffic cones' and 'run-off areas' are mixed throughout the path.",
-                            "While you can blast through the 'traffic cones' by using a boost, the high speed combined with the complex chicanes actually increases the risk of a 'Course Out'. Therefore, it is highly recommended to enter without using a boost as much as possible.",
+                            "This shortcut requires precise handling skills because 'bollards' and 'run-off areas' are mixed throughout the path.",
+                            "While you can blast through the 'bollards' by using a boost, the high speed combined with the complex chicanes actually increases the risk of a 'Course Out'. Therefore, it is highly recommended to enter without using a boost as much as possible.",
                             "Please note that if you take this path, you will not be able to acquire the items located on the right route."
                         ],
                         "jp" : [
                             "コース中盤を進む中、左側に外れることができる狭い道のショートカットです。",
-                            "このルートは「ラバーコーン」と「ランオフエリア」が随所に混在しているため、高いコントロール技術が要求されるショートカットです。",
-                            "ブーストを使えば「ラバーコーン」を無視して突破できますが、高すぎる速度と複合屈折コーナーのせいで、かえって「コースアウト」する危険があります。そのため、できるだけブーストを使わずに進入することをお勧めします。",
+                            "このルートは「ボラード」と「ランオフエリア」が随所に混在しているため、高いコントロール技術が要求されるショートカットです。",
+                            "ブーストを使えば「ボラード」を無視して突破できますが、高すぎる速度と複合屈折コーナーのせいで、かえって「コースアウト」する危険があります。そのため、できるだけブーストを使わずに進入することをお勧めします。",
                             "このルートに進入した場合、右側ルートのアイテムは獲得できなくなりますのでご注意ください。"
                         ],
                         "kr" : [
                             "코스 중반부에서 진행하다가 왼쪽으로 빠질 수 있는 좁은 길 숏컷입니다.",
-                            "이 길은 '라바콘'과 '런오프 구역'이 길마다 섞여있기 때문에 컨트롤이 요구되는 숏컷입니다.",
-                            "부스트를 통해 '라바콘'을 무시하고 지나갈 수 있지만, 빠른 속도와 복합굴절 때문에 오히려 '코스 아웃'의 위험이 있으니 최대한 부스트를 안쓰면서 진입하는 것을 추천합니다.",
+                            "이 길은 '볼라드'와 '런오프 구역'이 길마다 섞여있기 때문에 컨트롤이 요구되는 숏컷입니다.",
+                            "부스트를 통해 '볼라드'를 무시하고 지나갈 수 있지만, 빠른 속도와 복합굴절 때문에 오히려 '코스 아웃'의 위험이 있으니 최대한 부스트를 안쓰면서 진입하는 것을 추천합니다.",
                             "이 길로 진입하게되는 경우, 오른쪽 루트의 아이템은 획득할 수 없으니 참고하기 바랍니다."
                         ]
                     },
@@ -2810,21 +2810,21 @@
                     "description":{
                         "en" : [
                             "Upon entering the final lap, a hidden path opens up in the 'Sky Temple' section, allowing you to enter a 'shortcut'.",
-                            "This section consists of a run-off area and densely packed 'traffic cones', making a boost practically mandatory.",
+                            "This section consists of a run-off area and densely packed 'bollards', making a boost practically mandatory.",
                             "However, if you are very confident in your control, you can break through without a boost. This utilizes the mechanic where collecting a ring allows you to temporarily ignore the run-off area's deceleration.",
-                            "If you use a 'Shield' item along with it, you can ignore the 'traffic cones', making it much easier to break through."
+                            "If you use a 'Shield' item along with it, you can ignore the 'bollards', making it much easier to break through."
                         ],
                         "jp" : [
                             "ファイナルラップに入ると、「スカイテンプル」区間で隠されていた道が開き、「ショートカット」に入れるようになります。",
-                            "この区間はランオフエリアと密集した「カラーコーン」で構成されており、ブーストがほぼ必須となります。",
+                            "この区間はランオフエリアと密集した「ボラード」で構成されており、ブーストがほぼ必須となります。",
                             "ただし、コントロールに非常に自信があるなら、ブーストなしで突破することも可能です。リングを取ると一定時間ランオフエリアの減速を無視できる点を利用するのです。",
-                            "「シールド」アイテムを併用すれば「カラーコーン」を無視できるため、より簡単に突破することができます。"
+                            "「シールド」アイテムを併用すれば「ボラード」を無視できるため、より簡単に突破することができます。"
                         ],
                         "kr" : [
                             "파이널 랩에 들어서면 「스카이 템플」구간에서 가려져있던 길이 열리게 되면서 '지름길'을 들어갈 수 있습니다.",
-                            "이 구간은 런오프 구역과 촘촘한 '라바콘'으로 이루어져 있어, 부스트가 거의 반 필수적으로 요구됩니다.",
+                            "이 구간은 런오프 구역과 촘촘한 '볼라드'로 이루어져 있어, 부스트가 거의 반 필수적으로 요구됩니다.",
                             "다만, 컨트롤에 매우 자신이 있다면 부스트 없이 돌파할 수 있습니다. 링을 먹으면 잠시동안 런오프 구간을 무시한다는 점을 이용하는 것입니다.",
-                            "'방패'아이템을 곁들이면 '라바콘'을 무시할 수 있기 때문에 좀 더 쉽게 돌파할 수 있습니다."
+                            "'방패'아이템을 곁들이면 '볼라드'를 무시할 수 있기 때문에 좀 더 쉽게 돌파할 수 있습니다."
                         ]
                     },
                     "sample":[
@@ -4552,19 +4552,19 @@
                         "en" : [
                             "This is a tip for the straight section that appears after passing through the 'Chocolate River' and entering the 'Factory Area'.",
                             "Doughnuts are being transported along, and items and rings are placed inside their holes.",
-                            "These doughnuts do not cause damage, but they act as obstacles similar to 'traffic cones' that reduce your speed.",
+                            "These doughnuts do not cause damage, but they act as obstacles similar to 'bollards' that reduce your speed.",
                             "You will only get caught on the doughnuts if you jump using the jump ramp, so if you want to avoid slowing down, it is recommended to use the dash panels on the ground instead of jumping."
                         ],
                         "jp" : [
                             "「チョコレート川」を通過して「工場エリア」に入ると現れる、直線区間でのヒントです。",
                             "ドーナツが吊るされて移動しており、その穴にはアイテムやリングが配置されています。",
-                            "これらのドーナツにダメージ判定はありませんが、速度が低下する「カラーコーン」のような障害物として機能します。",
+                            "これらのドーナツにダメージ判定はありませんが、速度が低下する「ボラード」のような障害物として機能します。",
                             "ジャンプ台でジャンプした時だけドーナツに引っかかるため、減速を避けたい場合は、ジャンプせずに床のダッシュパネルを利用することをおすすめします。"
                         ],
                         "kr" : [
                             "'초콜릿 강'을 통과해 '공장 구역'으로 들어서면 나오는 직선 구간에서의 팁입니다.",
                             "도넛들이 걸려서 이동하는데 도넛 구멍에 아이템과 링이 걸려 있습니다.",
-                            "이 도넛들은 데미지 판정은 없지만 속도가 감속하는 '라바콘'과 같은 장애물로 작용합니다.",
+                            "이 도넛들은 데미지 판정은 없지만 속도가 감속하는 '볼라드'와 같은 장애물로 작용합니다.",
                             "점프대를 통해 점프했을 때만 도넛에 걸리니 속도 감속이 거슬린다면 점프하지말고 바닥의 대시 패널을 이용하는 것을 추천합니다."
                         ]
                     },
@@ -4767,17 +4767,17 @@
                         "en" : [
                             "At the end of the course, you will pass through a wide 8-lane highway.",
                             "It is not without obstacles, as large dump trucks are passing by, so you must dodge them as you make your way through.",
-                            "There are traffic cones in the center, but 10-Rings are placed between them, and there are dash panels throughout the section, so you can shorten your lap time by utilizing them to the fullest."
+                            "There are bollards in the center, but 10-Rings are placed between them, and there are dash panels throughout the section, so you can shorten your lap time by utilizing them to the fullest."
                         ],
                         "jp" : [
                             "コースの最後は、広い8車線の高速道路を通過することになります。",
                             "障害物がないわけではなく、大きなダンプトラックが走っているため、これらを避けて通過する必要があります。",
-                            "中央にはカラーコーンがありますが、その間には10リングが配置されており、区間ごとにダッシュパネルがあるため、これらを最大限に活用してタイムを短縮することができます。"
+                            "中央にはボラードがありますが、その間には10リングが配置されており、区間ごとにダッシュパネルがあるため、これらを最大限に活用してタイムを短縮することができます。"
                         ],
                         "kr" : [
                             "코스 마지막은 넓은 8차선 고속도로를 통과하게 됩니다.",
                             "장애물이 없는 것은 아니고 큰 덤프트럭이 지나가기 때문에 이들을 피해서 통과해야 합니다.",
-                            "중앙에는 라바콘이 있지만, 그 사이에는 10링이 배치되어 있고, 구간마다 대시 패널들이 있기 때문에 이들을 최대한 활용하여 기록을 단축할 수 있습니다."
+                            "중앙에는 볼라드가 있지만, 그 사이에는 10링이 배치되어 있고, 구간마다 대시 패널들이 있기 때문에 이들을 최대한 활용하여 기록을 단축할 수 있습니다."
                         ]
                     },
                     "sample":[

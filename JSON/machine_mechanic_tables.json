@@ -76,38 +76,44 @@
     "rows": {
       "en": [
         ["Slipstream", "+20km/h"],
-        ["Ring Gain Dash", "+15km/h"],
-        ["Accel Character Kit", "+15km/h"],
-        ["Ring Gain Dash Mini", "+7km/h"],
+        ["Ring Gain Boost", "+17km/h"],
+        ["Acceleration Character Kit", "+17km/h"],
+        ["Ring Gain Mini Boost", "+7km/h"],
+        ["Ring Gain Mini Boost (Super Slot)", "+11km/h"],
         ["Speed Machine Kit", "+7km/h"]
       ],
       "jp": [
         ["スリップストリーム", "+20km/h"],
-        ["リングゲットダッシュ", "+15km/h"],
-        ["アクセルキャラキット", "+15km/h"],
+        ["リングゲットダッシュ", "+17km/h"],
+        ["アクセルキャラキット", "+17km/h"],
         ["リングゲットダッシュミニ", "+7km/h"],
+        ["リングゲットダッシュミニ（スーパースロット）", "+11km/h"],
         ["スピードマシンキット", "+7km/h"]
       ],
       "kr": [
         ["슬립스트림", "+20km/h"],
-        ["링 획득 대시", "+15km/h"],
-        ["액셀 캐릭터 키트", "+15km/h"],
+        ["링 획득 대시", "+17km/h"],
+        ["액셀 캐릭터 키트", "+17km/h"],
         ["링 획득 대시 미니", "+7km/h"],
+        ["링 획득 대시 미니 (슈퍼 슬롯)", "+11km/h"],
         ["스피드 머신 키트", "+7km/h"]
       ]
     },
     "notes": {
       "en": [
         "When activated simultaneously, the speeds stack, and together with the speed boost from rings, they are subject to an additional speed cap.",
-        "Based on Sonic Speed. Higher speed modes have smaller speed increases and lower caps."
+        "Based on Sonic Speed. Higher speed modes have smaller speed increases and lower caps.",
+        "In v2.0.0, 'Ring Gain Boost' (including the one in the Acceleration Character Kit) was raised from +15km/h to +17km/h."
       ],
       "jp": [
         "同時に発動すると速度が加算され、リングによる速度増加も含めた合計値に対して、追加速度の上限が存在します。",
-        "「ソニックスピード」基準です。速度モードが高いほど、速度増加量と上限は小さくなります。"
+        "「ソニックスピード」基準です。速度モードが高いほど、速度増加量と上限は小さくなります。",
+        "v2.0.0で「リングゲットダッシュ」（アクセルキャラキットを含む）が+15km/h → +17km/hに上方修正されました。"
       ],
       "kr": [
         "동시에 활성화되면 속도가 합산되며, 링으로 인한 속도 증가와 같이 합계되어 추가속도 상한이 존재합니다.",
-        "소닉 스피드 기준입니다. 속도 모드가 높을수록 속도 증가량과 상한이 작아집니다."
+        "소닉 스피드 기준입니다. 속도 모드가 높을수록 속도 증가량과 상한이 작아집니다.",
+        "v2.0.0에서 '링 획득 대시'(액셀 캐릭터 키트 포함)가 +15km/h → +17km/h로 상향되었습니다."
       ]
     }
   },
@@ -501,7 +507,8 @@
         "The 'Drill' changes to 250km/h once you reach 1st-4th place or pass 2 racers.",
         "The 'Shield' +10km/h is Additional Speed, not a boost, so it counts toward the Additional Speed cap (+38km/h).",
         "There are two kinds: 'Dash Panel' and 'Special Dash Panel', and the 'Special Dash Panel' only appears on LAP 3.",
-        "The 'Dash Panel' has a very slight run-off ignore effect, which can be seen in the 'Pumpkin Mansion' final lap."
+        "The 'Dash Panel' has a very slight run-off ignore effect, which can be seen in the 'Pumpkin Mansion' final lap.",
+        "Since v2.0.0, hitting a 'bollard' no longer slows you down while boosting from a Dash Panel or Dash Gate. (Previously, hitting one reduced your speed.)"
       ],
       "jp": [
         "アイテムによる速度増加と持続時間などを表します。",
@@ -511,7 +518,8 @@
         "「ドリル」は1〜4位に入るか、レーサーを2人追い抜くと250km/hに変わります。",
         "「シールド」の+10km/hはブーストではなく「追加速度」のため、追加速度の上限（+38km/h）に含まれます。",
         "ダッシュパネルは「ダッシュパネル」と「スペシャルダッシュパネル」が存在し、「スペシャルダッシュパネル」はLAP 3でのみ登場します。",
-        "「ダッシュパネル」は非常に軽微なランオフ無視効果があり、 \"パンプキンマンション\" のファイナルラップで確認できます。"
+        "「ダッシュパネル」は非常に軽微なランオフ無視効果があり、 \"パンプキンマンション\" のファイナルラップで確認できます。",
+        "v2.0.0から、ダッシュパネル・ダッシュゲートのブースト中は「ボラード」にぶつかっても減速しなくなりました。（以前はぶつかると減速していました。）"
       ],
       "kr": [
         "아이템을 통한 속도 증가와 지속시간 등을 나타냅니다.",
@@ -521,7 +529,8 @@
         "\"드릴\"은 1~4위에 들어서거나 레이서 2명을 추월하면 250km/h로 바뀝니다.",
         "\"방패\"의 +10km/h는 부스트가 아닌 '추가 속도'이므로, 추가 속도 상한(+38km/h)에 포함됩니다.",
         "대시 패널은 \"대시 패널\"과 \"스페셜 대시 패널\"이 존재하며, \"스페셜 대시 패널\"은 LAP 3에서만 등장합니다.",
-        "\"대시 패널\"은 아주 잠깐 런오프 무시 효과가 있습니다. 이는 '펌킨 맨션' 파이널 랩에서 확인 가능합니다."
+        "\"대시 패널\"은 아주 잠깐 런오프 무시 효과가 있습니다. 이는 '펌킨 맨션' 파이널 랩에서 확인 가능합니다.",
+        "v2.0.0부터 대시 패널·대시 게이트의 부스트 중에는 '볼라드'에 부딪혀도 감속되지 않습니다. (이전에는 부딪히면 속도가 줄었습니다.)"
       ]
     }
   },
