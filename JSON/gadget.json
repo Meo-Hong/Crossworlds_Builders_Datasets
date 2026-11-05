@@ -879,6 +879,40 @@
     ],
     "Technique Upgrade": [
         {
+            "id": "gadget_119",
+            "name": {
+                "en": "Hit and Run",
+                "jp": "アタックダッシュ",
+                "kr": "어택 대시"
+            },
+            "description": {
+                "en": "Land an item hit on another racer to trigger a dash. This dash works the same as the 'Boost' item: +25km/h boost for 2.67 seconds, and it ignores slowdown zones (offroad).",
+                "jp": "アイテムをヒットさせるとダッシュします。このダッシュは「ブースト」アイテムと同じ効果で、2.67秒間+25km/hのブーストを得て、減速エリアを無効化します。",
+                "kr": "아이템을 명중시키면 대시합니다. 이 대시는 '부스트' 아이템과 같은 효과로, 2.67초 동안 +25km/h 부스트를 받고 감속 구역(런 오프)을 무효화합니다."
+            },
+            "gadget_type": "Technique Upgrade",
+            "slots": 2,
+            "image": "gadget_119.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "Trigger a 'Boost' item dash when an item hits (+25km/h for 2.67s, ignores offroad)",
+                "jp": "アイテムヒット時、「ブースト」アイテムと同じダッシュ発動 (2.67秒間+25km/h、減速エリア無効)",
+                "kr": "아이템 명중 시, '부스트' 아이템과 같은 대시 발동 (2.67초 동안 +25km/h, 감속 구역 무시)"
+            },
+            "patch": {},
+            "stat_table": null
+        },
+        {
             "id": "gadget_019",
             "name": {
                 "en": "Extended Slipstream",
@@ -921,7 +955,7 @@
             },
             "description": {
                 "en": "While in flight form, Air Drifts can turn more sharply. Directional drifts move further. Gain a boost in air drift's direction upon release. (Increased moving distance) In flight form, all Drift Charge levels fill 1.7x faster.",
-                "jp": "エアドリフト中、より鋭く旋回できます。方向転換ドリフト時、従来よりも大きく移動し、ドリフト解除時、ドリフトを切った方向へブーストが発動します。（従来よりも大きな移動幅を持ちます）空中モードでは全段階のドリフトチャージが1.7倍速く溜まります。",
+                "jp": "エアドリフト中、より鋭く旋回できます。切りかえしドリフト時、従来よりも大きく移動し、ドリフト解除時、ドリフトを切った方向へブーストが発動します。（従来よりも大きな移動幅を持ちます）空中モードでは全段階のドリフトチャージが1.7倍速く溜まります。",
                 "kr": "공중 드리프트 중 더 급격하게 회전할 수 있습니다. 방향 전환 드리프트 시 기존보다 더욱 크게 이동하며, 드리프트 해제 시, 드리프트를 꺾은 방향으로 부스트가 발동합니다. (기존보다 더 큰 이동폭을 가짐) 비행 모드에서는 모든 단계의 드리프트 차지가 1.7배 빠르게 모입니다."
             },
             "gadget_type": "Technique Upgrade",
@@ -1030,9 +1064,9 @@
                 "kr": "저스트 착지"
             },
             "description": {
-                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants a momentary +40km/h boost and +10km/h Additional Speed for a short time. (The more Air Tricks you perform, the longer the speed boost lasts.)",
-                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、瞬間的な+40km/hのブースト加速と短時間+10km/hの追加速度を付与します。（エアトリックの回数が多いほど、最高速度上昇時間が長くなります。）",
-                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 순간 +40km/h 부스트 가속과 짧은 시간 동안 +10km/h 추가 속도를 부여합니다. (에어 트릭 횟수가 많을수록 최고속도 상승 시간이 길어집니다.)"
+                "en": "Pressing the Acceleration button/key again the exact moment you land after an air trick grants a momentary +40km/h boost and +10km/h Additional Speed. The Additional Speed lasts longer with more Air Tricks. (1 trick: 0.5s / 2 tricks: 0.75s / 3+ tricks: 1s)",
+                "jp": "エアトリック後に着地した瞬間、アクセルボタンを再度押すと、瞬間的な+40km/hのブースト加速と+10km/hの追加速度を付与します。追加速度の持続時間はエアトリックの回数に応じて長くなります。（1回 0.5秒 / 2回 0.75秒 / 3回以上 1秒）",
+                "kr": "에어 트릭을 한 후에 착지하는 순간, 액셀 버튼을 다시 누르면 순간 +40km/h 부스트 가속과 +10km/h 추가 속도를 부여합니다. 추가 속도의 지속 시간은 에어 트릭 횟수에 따라 늘어납니다. (1회 0.5초 / 2회 0.75초 / 3회 이상 1초)"
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
@@ -1049,13 +1083,13 @@
                 ]
             },
             "effect": {
-                "en": "Pressing accelerate again the moment you land: momentary +40km/h boost + a short burst of +10km/h Additional Speed (lasts longer with more Air Tricks)",
-                "jp": "着地した瞬間、アクセルを再度押すと瞬間+40km/hのブースト加速 ＋ 短時間+10km/hの追加速度 (エアトリックの回数に応じて上昇時間増加)",
-                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 순간 +40km/h 부스트 가속 + 짧은 시간 동안 +10km/h 추가 속도 (에어 트릭 횟수에 따라 상승 시간 증가)"
+                "en": "Pressing accelerate again the moment you land: momentary +40km/h boost + 0.5/0.75/1s of +10km/h Additional Speed (1/2/3+ Air Tricks)",
+                "jp": "着地した瞬間、アクセルを再度押すと瞬間+40km/hのブースト加速 ＋ 0.5/0.75/1秒間+10km/hの追加速度 (エアトリック1/2/3回以上)",
+                "kr": "땅에 착지하는 순간, 액셀을 다시 누르면 순간 +40km/h 부스트 가속 + 0.5/0.75/1초 동안 +10km/h 추가 속도 (에어 트릭 1/2/3회 이상)"
             },
             "patch": {
                 "v2.0.0": {
-                    "kr": "저스트 착지 성공 시 최고속도 상승 시간이 에어 트릭 횟수에 따라 더 길어지도록 강화"
+                    "kr": "저스트 착지 성공 시 최고속도 상승 시간이 에어 트릭 횟수에 따라 더 길어지도록 강화 ( 0.5초 → 에어 트릭 1/2/3회 이상: 0.5/0.75/1초 )"
                 }
             },
             "stat_table": null
@@ -1133,6 +1167,40 @@
             "stat_table": null
         },
         {
+            "id": "gadget_120",
+            "name": {
+                "en": "Collision Mini Boost",
+                "jp": "ぶつかりダッシュミニ",
+                "kr": "범프 대시 미니"
+            },
+            "description": {
+                "en": "Collide with other machines to Boost. (0.5s boost, 25km/h speed boost) (Duration stacks with Collision Boost) (Note: X @thetakappa__)",
+                "jp": "他のマシーンとぶつかった時、0.5秒ダッシュし、25km/hの速度アップを得る（ぶつかりダッシュと重複時は効果時間を加算）（参考：X @thetakappa__）",
+                "kr": "다른 머신과 충돌 시, 0.5초동안 25km/h 가속합니다. (범프 대시와 중복 시 지속 시간 합산) (참고 : X @thetakappa__)"
+            },
+            "gadget_type": "Technique Upgrade",
+            "slots": 1,
+            "image": "gadget_120.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "When colliding with another machine, accelerate to 25 km/h for 0.5s.",
+                "jp": "他のマシンと衝突すると、0.5秒間25km/h加速",
+                "kr": "다른 머신과 충돌 시, 0.5초동안 25km/h 가속"
+            },
+            "patch": {},
+            "stat_table": null
+        },
+        {
             "id": "gadget_024",
             "name": {
                 "en": "Collision Boost",
@@ -1140,7 +1208,7 @@
                 "kr": "범프 대시"
             },
             "description": {
-                "en": "Collide with other machines to Boost. (1.7 second boost, 25km/h speed boost) (Duration stacks with Collision Boost Mini) (Note: X @thetakappa__)",
+                "en": "Collide with other machines to Boost. (1.7s boost, 25km/h speed boost) (Duration stacks with Mini Collision Boost) (Note: X @thetakappa__)",
                 "jp": "他のマシーンとぶつかった時、1.7秒ダッシュし、25km/hの速度アップを得る（ぶつかりダッシュミニと重複時は効果時間を加算）（参考：X @thetakappa__）",
                 "kr": "다른 머신과 충돌 시, 1.7초동안 25km/h 가속합니다. (범프 대시 미니와 중복 시 지속 시간 합산) (참고 : X @thetakappa__)"
             },
@@ -1159,7 +1227,7 @@
                 ]
             },
             "effect": {
-                "en": "When colliding with another machine, accelerate to 25 km/h for 1.7 seconds.",
+                "en": "When colliding with another machine, accelerate to 25 km/h for 1.7s.",
                 "jp": "他のマシンと衝突すると、1.7秒間25km/h加速",
                 "kr": "다른 머신과 충돌 시, 1.7초동안 25km/h 가속"
             },
@@ -1217,6 +1285,40 @@
         }
     ],
     "Charge Upgrade": [
+        {
+            "id": "gadget_121",
+            "name": {
+                "en": "Mini Lv1 Quick Charge",
+                "jp": "ファーストファストチャージミニ",
+                "kr": "퍼스트 패스트 차지 미니"
+            },
+            "description": {
+                "en": "Level 1 Drift Charge fills 20% faster. (Note: X @thetakappa__)",
+                "jp": "ドリフト時のチャージ1段階目を20%高速化する（参考：X @thetakappa__）",
+                "kr": "드리프트 차지 1단계가 20% 빨리 채워집니다. (참고 : X @thetakappa__)"
+            },
+            "gadget_type": "Charge Upgrade",
+            "slots": 1,
+            "image": "gadget_121.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "Increase the speed of Level 1 Drift Charge by 20%.",
+                "jp": "1段階ドリフトチャージ速度20%増加",
+                "kr": "1단계 드리프트 차지 속도를 20% 증가"
+            },
+            "patch": {},
+            "stat_table": null
+        },
         {
             "id": "gadget_026",
             "name": {
@@ -1324,6 +1426,40 @@
             "stat_table": null
         },
         {
+            "id": "gadget_122",
+            "name": {
+                "en": "Lv4 Quick Charge",
+                "jp": "フォースファストチャージ",
+                "kr": "포스 패스트 차지"
+            },
+            "description": {
+                "en": "Adds a 4th level to Drift Charge, and Level 4 Drift Charge fills 70% faster.",
+                "jp": "Lv4ドリフトを追加し、ドリフト時のチャージ4段階目を70%高速化する",
+                "kr": "4단계 드리프트가 추가되며, 드리프트 차지 4단계가 70% 빨리 채워집니다."
+            },
+            "gadget_type": "Charge Upgrade",
+            "slots": 1,
+            "image": "gadget_122.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "Adds a 4th level to Drift Charge. Increase the speed of Level 4 Drift Charge by 70%.",
+                "jp": "Lv4ドリフトを追加。4段階ドリフトチャージ速度70%増加",
+                "kr": "4단계 드리프트 추가. 4단계 드리프트 차지 속도를 70% 증가"
+            },
+            "patch": {},
+            "stat_table": null
+        },
+        {
             "id": "gadget_029",
             "name": {
                 "en": "Ultimate Charge",
@@ -1361,6 +1497,40 @@
                     "kr": "무적 시간을 줄였습니다. ( 3초 → 1.5초 )"
                 }
             },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_123",
+            "name": {
+                "en": "Boundless Charge",
+                "jp": "サイクロンチャージダッシュ",
+                "kr": "사이클론 차지 대시"
+            },
+            "description": {
+                "en": "Adds a 4th level to Drift Charge. Charge Level 4 Boosts are faster and last longer (top speed held for 4 seconds), and negate offroad (slowdown zones).",
+                "jp": "Lv4ドリフトを追加。Lv4ドリフトチャージのダッシュは速く持続時間が長くなり（最高速度4秒維持）、減速エリアを無効化します。",
+                "kr": "4단계 드리프트가 추가됩니다. 4단계 차지 대시는 빠르고 지속 시간이 길어집니다. (최고 속도 4초 유지), 발동 중 감속 구역(런 오프)을 무효화합니다."
+            },
+            "gadget_type": "Charge Upgrade",
+            "slots": 3,
+            "image": "gadget_123.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "Adds a 4th level to Drift Charge. Lv4 Drift Boosts negate offroad.",
+                "jp": "Lv4ドリフトを追加。Lv4ダッシュ時、減速エリア無効。",
+                "kr": "4단계 드리프트 추가. 4단계 대시 시, 감속 구역 무시"
+            },
+            "patch": {},
             "stat_table": null
         },
         {
@@ -1404,6 +1574,40 @@
                     "kr": "저스트 차지 대시 성공 시 최고속도 상승 시간 조정 ( 0.5초 → 1.0초 )"
                 }
             },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_124",
+            "name": {
+                "en": "Brake Charge",
+                "jp": "ブレーキチャージ",
+                "kr": "브레이크 차지"
+            },
+            "description": {
+                "en": "Press the brake while charging to charge faster. While braking, Drift Charge fills 4x faster at all levels.",
+                "jp": "チャージ中にブレーキを踏むとチャージが速く溜まる。ブレーキ中は全段階のドリフトチャージ速度が4倍になります。",
+                "kr": "차지 중에 브레이크를 밟으면 차지가 빠르게 모입니다. 브레이크를 밟는 동안 모든 단계의 드리프트 차지 속도가 4배가 됩니다."
+            },
+            "gadget_type": "Charge Upgrade",
+            "slots": 3,
+            "image": "gadget_124.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "Press the brake while charging: Drift Charge speed is 4x at all levels",
+                "jp": "チャージ中にブレーキを踏むと、全段階のドリフトチャージ速度4倍",
+                "kr": "차지 중 브레이크를 밟으면, 모든 단계의 드리프트 차지 속도 4배"
+            },
+            "patch": {},
             "stat_table": null
         },
         {
@@ -1488,6 +1692,74 @@
             "stat_table": null
         },
         {
+            "id": "gadget_125",
+            "name": {
+                "en": "Flawless Counter Drift",
+                "jp": "切りかえしパーフェクト",
+                "kr": "방향 전환 퍼펙트"
+            },
+            "description": {
+                "en": "Keep all of your charge when doing a Counter Drift. The drift charge gauge is not reduced by Counter Drifts.",
+                "jp": "切りかえし時のチャージ消費量が0になります。切りかえしドリフトをしても溜めたチャージゲージが減りません。",
+                "kr": "방향 전환 시의 차지 소모량이 0이 됩니다. 방향 전환 드리프트를 해도 모아 둔 차지 게이지가 줄어들지 않습니다."
+            },
+            "gadget_type": "Charge Upgrade",
+            "slots": 2,
+            "image": "gadget_125.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "No charge gauge loss when Counter Drifting",
+                "jp": "切りかえし時、チャージゲージ消費なし",
+                "kr": "방향 전환 시, 차지 게이지 소모 없음"
+            },
+            "patch": {},
+            "stat_table": null
+        },
+        {
+            "id": "gadget_126",
+            "name": {
+                "en": "Refined Counter Drift",
+                "jp": "切りかえしキーパー",
+                "kr": "방향 전환 키퍼"
+            },
+            "description": {
+                "en": "Reduces the charge consumed when Counter Drifting. The drift gauge penalty from Counter Drifts is reduced by 30%.",
+                "jp": "切りかえし時のチャージ消費量が減ります。切りかえしドリフトで減るチャージゲージが30%少なくなります。",
+                "kr": "방향 전환 시의 차지 소모량이 줄어듭니다. 방향 전환 드리프트로 줄어드는 차지 게이지가 30% 감소합니다."
+            },
+            "gadget_type": "Charge Upgrade",
+            "slots": 1,
+            "image": "gadget_126.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "Counter Drift charge gauge penalty reduced by 30%",
+                "jp": "切りかえし時、チャージゲージ消費量30%減少",
+                "kr": "방향 전환 시, 차지 게이지 소모량 30% 감소"
+            },
+            "patch": {},
+            "stat_table": null
+        },
+        {
             "id": "gadget_033",
             "name": {
                 "en": "Counter Quick Charge",
@@ -1496,7 +1768,7 @@
             },
             "description": {
                 "en": "Fill 1 level of the gauge once when doing a Counter Drift in land form. (can be used only once., To be exact, Charge time is 5x faster for 0.3 seconds.)",
-                "jp": "ドリフトを切り返すとチャージが大きく溜まるようになるガジェット。(1回のみ使用可能, 正確には0.3秒間のチャージ時間が5倍速くなります。)",
+                "jp": "ドリフトを切りかえすとチャージが大きく溜まるようになるガジェット。(1回のみ使用可能, 正確には0.3秒間のチャージ時間が5倍速くなります。)",
                 "kr": "드리프트 중 방향 전환 시, 차지 게이지를 1단계 채웁니다. (1회만 발동 가능, 정확히는 0.3초 동안 차지 시간이 5배 빨라집니다.)"
             },
             "gadget_type": "Charge Upgrade",
@@ -1515,7 +1787,7 @@
             },
             "effect": {
                 "en": "Fill 1 level of the gauge once when doing a Counter Drift in land form. (can be used only once.)",
-                "jp": "ドリフト中の方向転換時、チャージ1段階を満たす。(1回のみ発動可能)",
+                "jp": "ドリフト中の切りかえし時、チャージ1段階を満たす。(1回のみ発動可能)",
                 "kr": "드리프트 중 방향 전환 시, 차지 1단계 채움. (1회만 발동 가능)"
             },
             "patch": {},
@@ -1523,6 +1795,221 @@
         }
     ],
     "Stat Upgrade": [
+        {
+            "id": "gadget_127",
+            "name": {
+                "en": "Speed Mod",
+                "jp": "スピードモディファイ",
+                "kr": "스피드 조정"
+            },
+            "description": {
+                "en": "Gain +25 Speed, but lose -10 in your highest stat. Gain +15 Speed if Speed is your highest stat.",
+                "jp": "最も高い性能が下がる代わりにスピードが大きく上がる。（スピード+25、最も高い性能-10 / スピードが最も高い性能の場合はスピード+15）",
+                "kr": "가장 높은 성능이 하락하는 대신 스피드가 크게 상승합니다. (스피드 +25, 가장 높은 성능 -10 / 스피드가 가장 높은 성능이면 스피드 +15)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 3,
+            "image": "gadget_127.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "+25 Speed, -10 to your highest stat (+15 Speed if Speed is your highest stat)",
+                "jp": "スピード+25、最も高い性能-10（スピードが最も高い場合はスピード+15）",
+                "kr": "스피드 +25, 가장 높은 성능 -10 (스피드가 가장 높으면 스피드 +15)"
+            },
+            "patch": {},
+            "stat_table": {
+                "not": {
+                    "speed": 25,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                }
+            },
+            "highest_stat_penalty": -10
+        },
+        {
+            "id": "gadget_128",
+            "name": {
+                "en": "Acceleration Mod",
+                "jp": "アクセルモディファイ",
+                "kr": "액셀 조정"
+            },
+            "description": {
+                "en": "Gain +25 Acceleration, but lose -10 in your highest stat. Gain +15 Acceleration if Acceleration is your highest stat.",
+                "jp": "最も高い性能が下がる代わりにアクセルが大きく上がる。（アクセル+25、最も高い性能-10 / アクセルが最も高い性能の場合はアクセル+15）",
+                "kr": "가장 높은 성능이 하락하는 대신 액셀이 크게 상승합니다. (액셀 +25, 가장 높은 성능 -10 / 액셀이 가장 높은 성능이면 액셀 +15)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 3,
+            "image": "gadget_128.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "+25 Acceleration, -10 to your highest stat (+15 Acceleration if Acceleration is your highest stat)",
+                "jp": "アクセル+25、最も高い性能-10（アクセルが最も高い場合はアクセル+15）",
+                "kr": "액셀 +25, 가장 높은 성능 -10 (액셀이 가장 높으면 액셀 +15)"
+            },
+            "patch": {},
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 25,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 0
+                }
+            },
+            "highest_stat_penalty": -10
+        },
+        {
+            "id": "gadget_129",
+            "name": {
+                "en": "Handling Mod",
+                "jp": "ハンドリングモディファイ",
+                "kr": "핸들링 조정"
+            },
+            "description": {
+                "en": "Gain +25 Handling, but lose -10 in your highest stat. Gain +15 Handling if Handling is your highest stat.",
+                "jp": "最も高い性能が下がる代わりにハンドリングが大きく上がる。（ハンドリング+25、最も高い性能-10 / ハンドリングが最も高い性能の場合はハンドリング+15）",
+                "kr": "가장 높은 성능이 하락하는 대신 핸들링이 크게 상승합니다. (핸들링 +25, 가장 높은 성능 -10 / 핸들링이 가장 높은 성능이면 핸들링 +15)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 3,
+            "image": "gadget_129.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "+25 Handling, -10 to your highest stat (+15 Handling if Handling is your highest stat)",
+                "jp": "ハンドリング+25、最も高い性能-10（ハンドリングが最も高い場合はハンドリング+15）",
+                "kr": "핸들링 +25, 가장 높은 성능 -10 (핸들링이 가장 높으면 핸들링 +15)"
+            },
+            "patch": {},
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 25,
+                    "power": 0,
+                    "boost": 0
+                }
+            },
+            "highest_stat_penalty": -10
+        },
+        {
+            "id": "gadget_130",
+            "name": {
+                "en": "Power Mod",
+                "jp": "パワーモディファイ",
+                "kr": "파워 조정"
+            },
+            "description": {
+                "en": "Gain +25 Power, but lose -10 in your highest stat. Gain +15 Power if Power is your highest stat.",
+                "jp": "最も高い性能が下がる代わりにパワーが大きく上がる。（パワー+25、最も高い性能-10 / パワーが最も高い性能の場合はパワー+15）",
+                "kr": "가장 높은 성능이 하락하는 대신 파워가 크게 상승합니다. (파워 +25, 가장 높은 성능 -10 / 파워가 가장 높은 성능이면 파워 +15)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 3,
+            "image": "gadget_130.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "+25 Power, -10 to your highest stat (+15 Power if Power is your highest stat)",
+                "jp": "パワー+25、最も高い性能-10（パワーが最も高い場合はパワー+15）",
+                "kr": "파워 +25, 가장 높은 성능 -10 (파워가 가장 높으면 파워 +15)"
+            },
+            "patch": {},
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 25,
+                    "boost": 0
+                }
+            },
+            "highest_stat_penalty": -10
+        },
+        {
+            "id": "gadget_131",
+            "name": {
+                "en": "Boost Mod",
+                "jp": "ダッシュモディファイ",
+                "kr": "대시 조정"
+            },
+            "description": {
+                "en": "Gain +25 Boost, but lose -10 in your highest stat. Gain +15 Boost if Boost is your highest stat.",
+                "jp": "最も高い性能が下がる代わりにダッシュが大きく上がる。（ダッシュ+25、最も高い性能-10 / ダッシュが最も高い性能の場合はダッシュ+15）",
+                "kr": "가장 높은 성능이 하락하는 대신 대시가 크게 상승합니다. (대시 +25, 가장 높은 성능 -10 / 대시가 가장 높은 성능이면 대시 +15)"
+            },
+            "gadget_type": "Stat Upgrade",
+            "slots": 3,
+            "image": "gadget_131.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "+25 Boost, -10 to your highest stat (+15 Boost if Boost is your highest stat)",
+                "jp": "ダッシュ+25、最も高い性能-10（ダッシュが最も高い場合はダッシュ+15）",
+                "kr": "대시 +25, 가장 높은 성능 -10 (대시가 가장 높으면 대시 +15)"
+            },
+            "patch": {},
+            "stat_table": {
+                "not": {
+                    "speed": 0,
+                    "acceleration": 0,
+                    "handling": 0,
+                    "power": 0,
+                    "boost": 25
+                }
+            },
+            "highest_stat_penalty": -10
+        },
         {
             "id": "gadget_110",
             "name": {
@@ -2554,43 +3041,13 @@
             "image": "gadget_049.png",
             "unlock": {
                 "en": [
-                    "F",
-                    "i",
-                    "n",
-                    "i",
-                    "s",
-                    "h",
-                    " ",
-                    "1",
-                    "8",
-                    " ",
-                    "r",
-                    "a",
-                    "c",
-                    "e",
-                    "s"
+                    "Finish 12 races"
                 ],
                 "jp": [
-                    "レ",
-                    "ー",
-                    "ス",
-                    "1",
-                    "8",
-                    "回",
-                    "完",
-                    "走"
+                    "レース12回完走"
                 ],
                 "kr": [
-                    "레",
-                    "이",
-                    "스",
-                    " ",
-                    "1",
-                    "8",
-                    "회",
-                    " ",
-                    "완",
-                    "주"
+                    "레이스 12회 완주"
                 ]
             },
             "effect": {
@@ -2955,6 +3412,74 @@
                     "kr": "공격당한 후 다시 움직일 수 있기까지의 시간을 더욱 단축(정확한 수치 제보 부탁드립니다)"
                 }
             },
+            "stat_table": null
+        },
+        {
+            "id": "gadget_132",
+            "name": {
+                "en": "Mini Quick Recovery",
+                "jp": "クイックリカバーミニ",
+                "kr": "퀵 리커버 미니"
+            },
+            "description": {
+                "en": "Recover a little faster after being attacked. (Normal hit stun 55f, 26f for Acceleration type / Recover from being squished 70% quicker) (Note: X @thetakappa__)",
+                "jp": "攻撃を受けた後、少し早く動けるようになる。(通常被弾時の硬直時間 55f、アクセルタイプは26f / 圧縮された時、回復速度70%増加)（参考：X @thetakappa__）",
+                "kr": "공격을 받은 후 조금 빨리 움직일 수 있게 됩니다. (일반 피격 시 경직 시간 55f, 액셀 타입은 26f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가) (참고 : X @thetakappa__)"
+            },
+            "gadget_type": "Support",
+            "slots": 1,
+            "image": "gadget_132.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],  
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "Shorter hit stun (55f, 26f for Acceleration type / 70% increase in recovery speed when being squished)",
+                "jp": "被弾硬直時間短縮 (55f、アクセルタイプ26f / 圧縮された時、回復速度70%増加)",
+                "kr": "피격 경직 시간 단축 (55f, 액셀 타입 26f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가)"
+            },
+            "patch": {},
+            "stat_table": null
+        },
+        {
+            "id": "gadget_133",
+            "name": {
+                "en": "Power Through",
+                "jp": "ランオフごり押し",
+                "kr": "런 오프 강행 돌파"
+            },
+            "description": {
+                "en": "Slowdown zones affect you less. Gain +30km/h while driving through offroad (slowdown zones). Only applies when you are not already ignoring offroad.",
+                "jp": "減速エリアの影響を受けにくくなる。ランオフ（減速エリア）走行中は+30km/h速くなります。（ブーストアイテムなどで減速エリアを無効化している間は適用されない）",
+                "kr": "감속 구역 영향을 덜 받게 됩니다. 감속 구역(런 오프)을 달리는 동안 +30km/h 빨라집니다. (부스트 아이템 등으로 감속 구역을 무시하는 중에는 적용되지 않음)"
+            },
+            "gadget_type": "Support",
+            "slots": 1,
+            "image": "gadget_133.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "+30km/h while offroad (not applied while offroad immune)",
+                "jp": "ランオフ走行中+30km/h（減速エリア無効中は適用外）",
+                "kr": "감속 구역(런 오프) 주행 중 +30km/h (감속 구역 무시 중에는 미적용)"
+            },
+            "patch": {},
             "stat_table": null
         },
         {
@@ -3992,9 +4517,9 @@
                 "kr": "액셀 머신 키트"
             },
             "description": {
-                "en": "A kit that includes 「Hit Stun Reduction」. (Normal hit stun 13f, 6f for Acceleration type / Recover from being squished 70% quicker) (Cannot be equipped with Quick Recovery. When equipped at the same time, Quick Recovery takes precedence.) Acceleration Machines get stat adjustments.",
-                "jp": "「被弾硬直時間短縮」を内包する。(通常被弾時の硬直時間 13f、アクセルタイプは6f / 圧縮された時、回復速度70%増加) (「クイックリカバー」と重複不可。同時装備時は「クイックリカバー」の方が優先される。) アクセルマシンはステータス調整を受ける。",
-                "kr": "「피격 경직 시간 단축」을 포함하는 키트입니다. (일반 피격 시 경직 시간 13f, 액셀 타입은 6f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가) (「퀵 리커버」와 중복 불가. 동시 착용 시 「퀵 리커버」 쪽이 발동) 액셀 머신은 스탯 조정을 받습니다."
+                "en": "A kit that includes 「Hit Stun Reduction」. (Normal hit stun 13f, 6f for Acceleration type / Recover from being squished 70% quicker) Acceleration Machines get stat adjustments.",
+                "jp": "「被弾硬直時間短縮」を内包する。(通常被弾時の硬直時間 13f、アクセルタイプは6f / 圧縮された時、回復速度70%増加) アクセルマシンはステータス調整を受ける。",
+                "kr": "「피격 경직 시간 단축」을 포함하는 키트입니다. (일반 피격 시 경직 시간 13f, 액셀 타입은 6f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가) 액셀 머신은 스탯 조정을 받습니다."
             },
             "gadget_type": "Machine Type Kit",
             "slots": 3,
@@ -4551,7 +5076,69 @@
             }
         }
     ],
-    "Advanced Kit": [      
+    "Advanced Kit": [
+        {
+            "id": "gadget_134",
+            "name": {
+                "en": "Gigaton Item Kit",
+                "jp": "ギガトンアイテムキット",
+                "kr": "기간톤 아이템 키트"
+            },
+            "description": {
+                "en": "A kit that upgrades Rocket Punch, Spiked Iron Ball, and Magnet into their giant forms. +20 to all stats during Lap 1.",
+                "jp": "「ロケットパンチ」「トゲ鉄球」「マグネット」を巨大化させるキット。LAP1の間、全パラメーター+20。",
+                "kr": "'로켓 펀치', '가시 철구', '마그넷'을 거대화된 형태로 강화하는 키트입니다. LAP 1 동안 모든 파라미터 +20."
+            },
+            "gadget_type": "Advanced Kit",
+            "slots": 3,
+            "image": "gadget_134.png",
+            "unlock": {
+                "en": [
+                    "Earn 150 points in \"Godzilla Festival\""
+                ],
+                "jp": [
+                    "「ゴジラフェスタ」で150ポイント獲得"
+                ],
+                "kr": [
+                    "「고지라 페스타」에서 150 포인트 획득"
+                ]
+            },
+            "effect": {
+                "en": "「Giant Rocket Punch」 + 「Giant Spiked Iron Ball」 + Giant Magnet + 「Quick Starter」",
+                "jp": "「ロケットパンチ巨大化」 + 「トゲ鉄球巨大化」 + マグネット巨大化 + 「スターター」",
+                "kr": "「로켓 펀치 거대화」 + 「가시 철구 거대화」 + 마그넷 거대화 + 「스타터」"
+            },
+            "patch": {},
+            "stat_table": {
+                "LAP1": {
+                    "speed": 20,
+                    "acceleration": 20,
+                    "handling": 20,
+                    "power": 20,
+                    "boost": 20
+                }
+            },
+            "kit_include": {
+                "en": [
+                    "Giant Rocket Punch",
+                    "Giant Spiked Iron Ball",
+                    "Original",
+                    "Quick Starter"
+                ],
+                "jp": [
+                    "ロケットパンチ巨大化",
+                    "トゲ鉄球巨大化",
+                    "オリジナル",
+                    "スターター"
+                ],
+                "kr": [
+                    "로켓 펀치 거대화",
+                    "가시 철구 거대화",
+                    "오리지널",
+                    "스타터"
+                ]
+            }
+        },
         {
             "id": "gadget_114",
             "name": {
@@ -4569,13 +5156,16 @@
             "image": "gadget_114.png",
             "unlock": {
                 "en": [
-                    "Earn 150 points in \"TMNT Festival\""
+                    "Earn 150 points in \"TMNT Festival\"",
+                    "100 Donpa Tickets"
                 ],
                 "jp": [
-                    "「ミュータントタートルズフェスタ」で150ポイント獲得"
+                    "「ミュータントタートルズフェスタ」で150ポイント獲得",
+                    "100ドンパチケット"
                 ],
                 "kr": [
-                    "「닌자 거북이 페스타」에서 150 포인트 획득"
+                    "「닌자 거북이 페스타」에서 150 포인트 획득",
+                    "100 돈파 티켓으로 구입"
                 ]
             },
             "effect": {
@@ -4621,13 +5211,16 @@
             "image": "gadget_115.png",
             "unlock": {
                 "en": [
-                    "Earn 150 points in \"Axel Festival\""
+                    "Earn 150 points in \"Axel Festival\"",
+                    "100 Donpa Tickets"
                 ],
                 "jp": [
-                    "「クレイジータクシーアクセルフェスタ」で150ポイント獲得"
+                    "「クレイジータクシーアクセルフェスタ」で150ポイント獲得",
+                    "100ドンパチケット"
                 ],
                 "kr": [
-                    "「크레이지 택시 액셀 페스타」에서 150 포인트 획득"
+                    "「크레이지 택시 액셀 페스타」에서 150 포인트 획득",
+                    "100 돈파 티켓으로 구입"
                 ]
             },
             "effect": {
@@ -4673,13 +5266,16 @@
             "image": "gadget_118.png",
             "unlock": {
                 "en": [
-                    "Earn 150 points in \"Avatar Legends Festival\""
+                    "Earn 150 points in \"Avatar Legends Festival\"",
+                    "100 Donpa Tickets"
                 ],
                 "jp": [
-                    "「アバター伝説フェスタ」で150ポイント獲得"
+                    "「アバター伝説フェスタ」で150ポイント獲得",
+                    "100ドンパチケット"
                 ],
                 "kr": [
-                    "「Avatar Legends 페스타」에서 150 포인트 획득"
+                    "「Avatar Legends 페스타」에서 150 포인트 획득",
+                    "100 돈파 티켓으로 구입"
                 ]
             },
             "effect": {
@@ -4719,28 +5315,31 @@
                 "kr": "4단계 차지 키트"
             },
             "description": {
-                "en": "A kit that includes 「Ultimate Charge」 and 「Lv4 Quick Charge」. (Lv4 charge speed increased by 50%)",
-                "jp": "「アルティメットチャージ」, 「フォースファストチャージ」を内包するキット。（Lv4チャージ速度50%増加）",
-                "kr": "「얼티밋 차지」, 「포스 패스트 차지」를 포함하는 키트입니다. (4단계 드리프트 차지 속도 50% 증가)"
+                "en": "A kit that includes 「Ultimate Charge」 and 「Lv4 Quick Charge」. (Lv4 charge speed increased by 70%) (Note: X @thetakappa__)",
+                "jp": "「アルティメットチャージ」, 「フォースファストチャージ」を内包するキット。（Lv4チャージ速度70%増加）（参考：X @thetakappa__）",
+                "kr": "「얼티밋 차지」, 「포스 패스트 차지」를 포함하는 키트입니다. (4단계 드리프트 차지 속도 70% 증가) (참고 : X @thetakappa__)"
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
             "image": "gadget_116.png",
             "unlock": {
                 "en": [
-                    "Earn 150 points in \"Samba de Amigo Festival\""
+                    "Earn 150 points in \"Samba de Amigo Festival\"",
+                    "100 Donpa Tickets"
                 ],
                 "jp": [
-                    "「サンバDEアミーゴフェスタ」で150ポイント獲得"
+                    "「サンバDEアミーゴフェスタ」で150ポイント獲得",
+                    "100ドンパチケット"
                 ],
                 "kr": [
-                    "「삼바 데 아미고 페스타」에서 150 포인트 획득"
+                    "「삼바 데 아미고 페스타」에서 150 포인트 획득",
+                    "100 돈파 티켓으로 구입"
                 ]
             },
             "effect": {
-                "en": "「Ultimate Charge」 + 「Lv4 Quick Charge」(Lv4 charge speed increased by 50%)",
-                "jp": "「アルティメットチャージ」 + 「フォースファストチャージ」（Lv4チャージ速度50%増加）",
-                "kr": "「얼티밋 차지」 + 「포스 패스트 차지」(4단계 드리프트 차지 속도 50% 증가)"
+                "en": "「Ultimate Charge」 + 「Lv4 Quick Charge」(Lv4 charge speed increased by 70%)",
+                "jp": "「アルティメットチャージ」 + 「フォースファストチャージ」（Lv4チャージ速度70%増加）",
+                "kr": "「얼티밋 차지」 + 「포스 패스트 차지」(4단계 드리프트 차지 속도 70% 증가)"
             },
             "patch": {},
             "stat_table": null,
@@ -4776,13 +5375,16 @@
             "image": "gadget_117.png",
             "unlock": {
                 "en": [
-                    "Earn 140 points in \"Hatsune Miku 2nd Festival\""
+                    "Earn 140 points in \"Hatsune Miku 2nd Festival\"",
+                    "100 Donpa Tickets"
                 ],
                 "jp": [
-                    "「初音ミク 2nd フェスタ」で140ポイント獲得"
+                    "「初音ミク 2nd フェスタ」で140ポイント獲得",
+                    "100ドンパチケット"
                 ],
                 "kr": [
-                    "「하츠네 미쿠 2nd 페스타」에서 140 포인트 획득"
+                    "「하츠네 미쿠 2nd 페스타」에서 140 포인트 획득",
+                    "100 돈파 티켓으로 구입"
                 ]
             },
             "effect": {
@@ -4830,28 +5432,31 @@
                 "kr": "스핀 대시 키트"
             },
             "description": {
-                "en": "A kit that recreates the 'Spin Dash'. When equipped, the drift charge method changes to 'button mashing', the duration of all boosts increases by 5x (up to 20 seconds), and grip cornering during a charge dash is improved. However, you slow down by 25km/h over 2.5 seconds while drifting. (Note: Gadget Data Excel Sheet by Yoshister)",
-                "jp": "「スピンダッシュ」を再現するキットです。装着するとドリフトのチャージ方式が「ボタン連打式」に切り替わり、すべてのブーストの持続時間が5倍に増加し（最大20秒）、チャージダッシュ中のグリップ走行の旋回力が増加します。代わりに、ドリフト時2.5秒かけて徐々に25km/h減速します。（参考：ガジェットデータ Excelシート by Yoshister）",
-                "kr": "「스핀 대시」를 재현하는 키트입니다. 착용하면 드리프트 차지 방식이 '버튼 연타식'으로 전환되며, 모든 부스트의 지속 시간이 5배 증가하고(최대 20초), 차지 대시 중 그립 주행 선회력이 증가합니다. 대신 드리프트 시 2.5초에 걸쳐 25km/h 감속됩니다. (참고 : 가젯 데이터 Excel 시트 by Yoshister)"
+                "en": "A kit that recreates the 'Spin Dash'. When equipped, the drift charge method changes to 'button mashing', the duration of all boosts increases by 5x (up to 20 seconds, except Boost items and Air Trick Boosts), and grip cornering during a charge dash is improved. However, you slow down by 25km/h over 2.5 seconds while drifting. (Note: Gadget Data Excel Sheet by Yoshister)",
+                "jp": "「スピンダッシュ」を再現するキットです。装着するとドリフトのチャージ方式が「ボタン連打式」に切り替わり、すべてのブーストの持続時間が5倍に増加し（最大20秒、ブーストアイテム・エアトリックブーストは除く）、チャージダッシュ中のグリップ走行の旋回力が増加します。代わりに、ドリフト時2.5秒かけて徐々に25km/h減速します。（参考：ガジェットデータ Excelシート by Yoshister）",
+                "kr": "「스핀 대시」를 재현하는 키트입니다. 착용하면 드리프트 차지 방식이 '버튼 연타식'으로 전환되며, 모든 부스트의 지속 시간이 5배 증가하고(최대 20초, 부스트 아이템·에어 트릭 부스트 제외), 차지 대시 중 그립 주행 선회력이 증가합니다. 대신 드리프트 시 2.5초에 걸쳐 25km/h 감속됩니다. (참고 : 가젯 데이터 Excel 시트 by Yoshister)"
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
             "image": "gadget_113.png",
             "unlock": {
                 "en": [
-                    "Earn 150 points in \"Sonic 35th Anniversary Festival\""
+                    "Earn 150 points in \"Sonic 35th Anniversary Festival\"",
+                    "100 Donpa Tickets"
                 ],
                 "jp": [
-                    "「ソニック35周年フェスタ」で150ポイント獲得"
+                    "「ソニック35周年フェスタ」で150ポイント獲得",
+                    "100ドンパチケット"
                 ],
                 "kr": [
-                    "「소닉 35주년 페스타」에서 150 포인트 획득"
+                    "「소닉 35주년 페스타」에서 150 포인트 획득",
+                    "100 돈파 티켓으로 구입"
                 ]
             },
             "effect": {
-                "en": "「Button Mash Charge」 + 「5x Boost Duration (up to 20s)」 + 「Increased Grip Cornering during Charge Dash」 + 「Slow down by -25km/h over 2.5s when drifting」",
-                "jp": "「ボタン連打式チャージ」 + 「ブースト持続時間5倍増加（最大20秒）」 + 「チャージダッシュ中のグリップ走行旋回力増加」 + 「ドリフト時2.5秒かけて徐々に25km/h減速」",
-                "kr": "「버튼 연타식 차지」 + 「부스트 지속 시간 5배 증가 (최대 20초)」 + 「차지 대시 중 그립 주행 선회력 증가」 + 「드리프트 시 2.5초에 걸쳐 25km/h 감속」"
+                "en": "「Button Mash Charge」 + 「5x Boost Duration (up to 20s, except Boost items and Air Trick Boosts)」 + 「Increased Grip Cornering during Charge Dash」 + 「Slow down by -25km/h over 2.5s when drifting」",
+                "jp": "「ボタン連打式チャージ」 + 「ブースト持続時間5倍増加（最大20秒、ブーストアイテム・エアトリックブーストは除く）」 + 「チャージダッシュ中のグリップ走行旋回力増加」 + 「ドリフト時2.5秒かけて徐々に25km/h減速」",
+                "kr": "「버튼 연타식 차지」 + 「부스트 지속 시간 5배 증가 (최대 20초, 부스트 아이템·에어 트릭 부스트 제외)」 + 「차지 대시 중 그립 주행 선회력 증가」 + 「드리프트 시 2.5초에 걸쳐 25km/h 감속」"
             },
             "patch": {
                 "v2.0.0": {

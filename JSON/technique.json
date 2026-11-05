@@ -53,7 +53,7 @@
                     "There are a total of 4 levels of Drift Boost: Lv1, Lv2, Lv3, and Lv4. The length and speed of the Drift Boost vary slightly depending on the level.",
                     "Lv1 'Drift Boost' adds +20km/h, Lv2~Lv4 'Drift Boost' adds +25km/h speed increase effect.",
                     "The top speed is held for 0.12 seconds at Lv1, 1.75 seconds at Lv2, 3.5 seconds at Lv3, and 4 seconds at Lv4. (Based on the Speed Document by Yoshister)",
-                    "Lv4 Drift Boost can be used by equipping the 'Ultimate Charge' gadget or during Crossworlds Frenzy Time (Drift Charge Frenzy Time).",
+                    "Lv4 Drift Boost can be used by equipping the 'Ultimate Charge', 'Boundless Charge' or 'Lv4 Quick Charge' gadget or during Crossworlds Frenzy Time (Drift Charge Frenzy Time).",
                     "The boost colors are distinguished as orange for Lv1, purple for Lv2, blue for Lv3, and rainbow for Lv4.",
                     "In the air, when you perform a Drift Charge Boost, 'Barrel Roll' effect occurs, but this rolling has the effect of pulling the rings."
                 ],
@@ -62,7 +62,7 @@
                     "ドリフトブーストのレベルは全4段階（Lv1、Lv2、Lv3、Lv4）あります。レベルに応じて、ドリフトブーストの長さと速度がわずかに変化します。",
                     "Lv1のドリフトブーストは+20km/h、Lv2～Lv4のドリフトブーストは+25km/hの速度増加効果があります。",
                     "最高速度はLv1で0.12秒、Lv2で1.75秒、Lv3で3.5秒、Lv4で4秒間維持されます。（Speed Document by Yoshister 基準）",
-                    "Lv4のドリフトブーストは、ガジェット「アルティメットチャージ」を装備するか、クロスワールドフィーバータイム（ドリフトチャージフィーバータイム）中に使用可能です。",
+                    "Lv4のドリフトブーストは、ガジェット「アルティメットチャージ」・「サイクロンチャージダッシュ」・「フォースファストチャージ」を装備するか、クロスワールドフィーバータイム（ドリフトチャージフィーバータイム）中に使用可能です。",
                     "ブーストの色は、Lv1がオレンジ色、Lv2が紫色、Lv3が青色、Lv4が虹色に区別されます。",
                     "空中ではドリフトチャージダッシュを行うと、回転する効果が発生しますが、この回転はリングを引き寄せる効果があります。"
                 ],
@@ -71,7 +71,7 @@
                     "드리프트 부스트의 레벨은 총 4가지, Lv1, Lv2, Lv3, Lv4 가 있습니다. 레벨에 따라 드리프트 부스트의 길이와 속도가 살짝 달라집니다.",
                     "Lv1 드리프트 부스트는 +20km/h, Lv2~Lv4 드리프트는 +25km/h 속도 증가 효과가 있습니다.",
                     "최고 속도는 Lv1은 0.12초, Lv2는 1.75초, Lv3는 3.5초, Lv4는 4초 동안 유지됩니다. (스피드 문서 · Speed Document by Yoshister 기준)",
-                    "Lv4 드리프트 부스트는 가젯 '얼티밋 차지'를 장착하거나, 크로스월드 피버 타임(드리프트 차지 피버 타임)에서 사용 가능합니다.",
+                    "Lv4 드리프트 부스트는 가젯 '얼티밋 차지'·'사이클론 차지 대시'·'포스 패스트 차지'를 장착하거나, 크로스월드 피버 타임(드리프트 차지 피버 타임)에서 사용 가능합니다.",
                     "Lv1은 주황색, Lv2는 자주색, Lv3는 파란색, Lv4는 무지개색으로 부스트의 색상이 구분됩니다.",
                     "공중에서는 드리프트 차지 대시 시, 회전하는 효과가 발생하는데 이 회전은 링을 끌어당기는 효과가 있습니다."
                 ]
@@ -325,7 +325,7 @@
         "counter_drift" : {
             "title": {
                 "en": "Counter Drift",
-                "jp": "切り返しドリフト",
+                "jp": "切りかえしドリフト",
                 "kr": "방향 전환 드리프트"
             },
             "description": {
@@ -337,9 +337,9 @@
                     "As a technique that allows you to trigger boosts at will, it is one of the most crucial techniques for shaving off time and overall race management."
                 ],
                 "jp": [
-                    "「切り返しドリフト」は、ドリフト中にドリフトキーを離して解除した直後、反対方向にハンドルを切ってすぐに再びドリフトを行う高度なテクニックです。",
+                    "「切りかえしドリフト」は、ドリフト中にドリフトキーを離して解除した直後、反対方向にハンドルを切ってすぐに再びドリフトを行う高度なテクニックです。",
                     "これを活用することで、直線コースでもドリフトを行い、ドリフトチャージブーストを簡単に発動することができます。",
-                    "「切り返しドリフト」をチャージ途中で発動すると、一定量のチャージゲージを消費して再びドリフトを行います。したがって、可能な限りチャージを1段階完全に溜めきった後に発動することで、チャージの消費を最小限に抑えることができます。",
+                    "「切りかえしドリフト」をチャージ途中で発動すると、一定量のチャージゲージを消費して再びドリフトを行います。したがって、可能な限りチャージを1段階完全に溜めきった後に発動することで、チャージの消費を最小限に抑えることができます。",
                     "公式ではこれを「直線ドリフト」と呼称しています。韓国では便宜上「カッティングドリフト」とも呼ばれています。（別のレースゲームから引用された用語です。）",
                     "ブーストを自由自在に発動できるテクニックであるため、タイム短縮やレース運びにおいて非常に重要なテクニックの一つです。"
                 ], 
@@ -436,7 +436,7 @@
                 "jp": [ 
                     "「スピンドリフト」は、専用ガジェット「スピンドリフト」を装備している場合のみ発動可能なドリフトです。",
                     "ドリフト中に高速で回転し、他のマシンと衝突して相手をジャンプさせ、相手のビルドを妨害するギミックです。",
-                    "Lv1ドリフトチャージが溜まって初めて完全に発動し、「切り返しドリフト」を行うと解除されます。",
+                    "Lv1ドリフトチャージが溜まって初めて完全に発動し、「切りかえしドリフト」を行うと解除されます。",
                     "Lv1チャージに影響を受けるため、「ドリフト大回転キット」と同様に、ガジェット「ファーストファストチャージ」と相性が良いです。",
                     "v1.4.1アップデートで、スピンドリフトは「パワー」パラメータの影響をより強く受けるように変更されました。パワー数値が高いほど、相手をより遠くへ飛ばします。"
                 ],
@@ -888,8 +888,8 @@
                     "As I was fail to properly reproduce it, the example video has been replaced with a YouTube tutorial video from another person."
                 ],
                 "jp": [
-                    "「スナップドリフト」は、「切り返しドリフト」を応用した高度なテクニックです。",
-                    "やり方は、「ドリフト中に瞬間的に反対方向へ方向転換ドリフトを行い、すぐにもう一度反対方向へドリフトを切り替えてからキーを離す」というものです。",
+                    "「スナップドリフト」は、「切りかえしドリフト」を応用した高度なテクニックです。",
+                    "やり方は、「ドリフト中に瞬間的に反対方向へ切りかえしドリフトを行い、すぐにもう一度反対方向へドリフトを切り替えてからキーを離す」というものです。",
                     "このテクニックは円形のターン区間で非常に有効です。ただし、習熟するのが非常に難しく、ミスをしやすいです。",
                     "プレイの再現に失敗したため、動画は別の人のYouTube解説動画で代用しています。"
                 ],
