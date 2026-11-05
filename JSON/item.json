@@ -194,7 +194,8 @@
             "gadget_080",
             "gadget_102",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_119"
         ],
         "use_exam" : []
     },
@@ -576,11 +577,15 @@
             "gadget_080",
             "gadget_102",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_119"
         ],
         "use_exam" : [
             "kingboomboo1.webp",
             "kingboomboo2.webp"
+        ],
+        "youtube" : [
+            "https://youtube.com/shorts/QZA1LaVPGVs?si=wdnhkpeW1PP_7pab"
         ]
     },
     {
@@ -617,7 +622,8 @@
             "gadget_080",
             "gadget_102",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_119"
         ],
         "use_exam" : []
     },
@@ -655,7 +661,8 @@
             "gadget_080",
             "gadget_102",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_119"
         ],
         "use_exam" : []
     },
@@ -692,7 +699,8 @@
             "gadget_070",
             "gadget_102",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_119"
         ],
         "use_exam" : []
     },

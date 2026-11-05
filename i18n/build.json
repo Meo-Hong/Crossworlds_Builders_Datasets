@@ -655,6 +655,16 @@
       "jp": "影響を受けるガジェット",
       "kr": "영향 받는 가젯"
     },
+    "itemReferenceLabel": {
+      "en": "References",
+      "jp": "参考資料",
+      "kr": "참고 자료"
+    },
+    "itemReferenceYoutube": {
+      "en": "Watch on YouTube",
+      "jp": "YouTubeで見る",
+      "kr": "YouTube에서 보기"
+    },
     "gadgetPlateFanMade": {
       "en": "The gadget plate is fan-made.",
       "jp": "ガジェットプレートは自作です。",

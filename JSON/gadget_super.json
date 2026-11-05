@@ -287,6 +287,7 @@
             "gadget_type": "Ring Gain",
             "slots": 1,
             "image": "gadget_010.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Finish 28 races"
@@ -363,6 +364,7 @@
             "gadget_type": "Ring Ability",
             "slots": 1,
             "image": "gadget_012.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Finish a Grand Prix"
@@ -429,6 +431,7 @@
             "gadget_type": "Ring Ability",
             "slots": 1,
             "image": "gadget_016.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Finish 20 races"
@@ -629,6 +632,7 @@
             "gadget_type": "Technique Upgrade",
             "slots": 1,
             "image": "gadget_022.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Finish 20 races"
@@ -1249,6 +1253,7 @@
             "gadget_type": "Stat Upgrade",
             "slots": 1,
             "image": "gadget_034.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Reach Rank E in World Match"
@@ -1817,9 +1822,9 @@
                 ]
             },
             "effect": {
-                "en": "Prevent slipping on sand and ice (Handling +20)",
-                "jp": "砂と氷でスリップしない (ハンドリング +20)",
-                "kr": "모래와 얼음에서 잘 미끄러지지 않습니다. (핸들링 +20)"
+                "en": "Prevent slipping on sand and ice, Handling +20",
+                "jp": "砂と氷でスリップしない, ハンドリング +20",
+                "kr": "모래와 얼음에서 잘 미끄러지지 않음, 핸들링 +20"
             },
             "stat_table": {
                 "not": {
@@ -1891,9 +1896,9 @@
                 ]
             },
             "effect": {
-                "en": "Prevent Rings from being dropped when bumping into walls (Power +20)",
-                "jp": "壁に接触した時、リングが落ちない (パワー +20)",
-                "kr": "벽에 부딪힐 때, 링이 떨어지지 않습니다. (파워 +20)"
+                "en": "Prevent Rings from being dropped when bumping into walls, Power +20",
+                "jp": "壁に接触した時、リングが落ちない, パワー +20",
+                "kr": "벽에 부딪힐 때 링이 떨어지지 않음, 파워 +20"
             },
             "stat_table": {
                 "not": {
@@ -2001,9 +2006,9 @@
                 ]
             },
             "effect": {
-                "en": "Reduce the number of Rings lost when taking damage by 50% (Power +20)",
-                "jp": "ダメージを受けて落ちるリングを50%減少 (パワー +20)",
-                "kr": "대미지를 받아 떨어지는 링을 50% 감소 (파워 +20)"
+                "en": "Reduce the number of Rings lost when taking damage by 50%, Power +20",
+                "jp": "ダメージを受けて落ちるリングを50%減少, パワー +20",
+                "kr": "대미지를 받아 떨어지는 링을 50% 감소, 파워 +20"
             },
             "stat_table": {
                 "not": {
@@ -2044,9 +2049,9 @@
                 ]
             },
             "effect": {
-                "en": "Hazard items appearance rate increased (6x increase) (Speed +15)",
-                "jp": "設置アイテム出現率アップ (6倍増加) (スピード +15)",
-                "kr": "설치 아이템 확률 상승 (6배 증가) (스피드 +15)"
+                "en": "Hazard items appearance rate increased (6x increase), Speed +15",
+                "jp": "設置アイテム出現率アップ (6倍増加), スピード +15",
+                "kr": "설치 아이템 확률 상승 (6배 증가), 스피드 +15"
             },
             "stat_table": {
                 "not": {
@@ -2085,9 +2090,9 @@
                 ]
             },
             "effect": {
-                "en": "Attack items appearance rate increased (6x increase) (Speed +10)",
-                "jp": "攻撃アイテム出現率アッUP (6倍増加) (スピード +10)",
-                "kr": "공격 아이템 확률 상승 (6배 증가) (스피드 +10)"
+                "en": "Attack items appearance rate increased (6x increase), Speed +10",
+                "jp": "攻撃アイテム出現率アップ (6倍増加), スピード +10",
+                "kr": "공격 아이템 확률 상승 (6배 증가), 스피드 +10"
             },
             "stat_table": {
                 "not": {
@@ -2127,7 +2132,7 @@
             },
             "effect": {
                 "en": "Wisp items appearance rate increased (2x increase)",
-                "jp": "ウィスプアイテム出現率アッUP (2倍増加)",
+                "jp": "ウィスプアイテム出現率アップ (2倍増加)",
                 "kr": "위스프 아이템 확률 상승 (2배 증가)"
             },
             "stat_table": null
@@ -2161,9 +2166,9 @@
                 ]
             },
             "effect": {
-                "kr": "'부스트'를 가지고 레이스 시작 + 위스프 등장 확률 5배 증가 (대시 +20)",
-                "en": "Start the race with 'Boost' + Wisp appearance rate increased (5x increase) (Boost +20)",
-                "jp": "'ブースト'を持ってレース開始 + ウィスプ出現率5倍増加 (ダッシュ +20)"
+                "kr": "'부스트'를 가지고 레이스 시작 + 위스프 등장 확률 5배 증가, 대시 +20",
+                "en": "Start the race with 'Boost' + Wisp appearance rate increased (5x increase), Boost +20",
+                "jp": "'ブースト'を持ってレース開始 + ウィスプ出現率5倍増加, ダッシュ +20"
             },
             "stat_table": {
                 "not": {
@@ -2202,9 +2207,9 @@
                 ]
             },
             "effect": {
-                "kr": "'다크챠오'를 가지고 레이스 시작 + 다크챠오 등장 확률 5배 증가 (모든 파라미터 +4)",
-                "en": "Start the race with 'Dark Chao' + Dark Chao appearance rate increased (5x increase) (All stats +4)",
-                "jp": "'ダークチャオ'を持ってレース開始 + ダークチャオ出現率5倍増加 (全パラメーター +4)"
+                "kr": "'다크챠오'를 가지고 레이스 시작 + 다크챠오 등장 확률 5배 증가, 모든 파라미터 +4",
+                "en": "Start the race with 'Dark Chao' + Dark Chao appearance rate increased (5x increase), All stats +4",
+                "jp": "'ダークチャオ'を持ってレース開始 + ダークチャオ出現率5倍増加, 全パラメーター +4"
             },
             "stat_table": {
                 "not": {
@@ -2243,9 +2248,9 @@
                 ]
             },
             "effect": {
-                "en": "'Rocket Punch' becomes bigger (2.5x increase in size), appearance rate increased (10x increase) (Lock-on range 1.8x) (Handling +15)",
-                "jp": "'ロケットパンチ'の2.5倍巨大化, 登場確率10倍増加 (ロックオン範囲1.8倍) (ハンドリング +15)",
-                "kr": "'로켓 펀치' 2.5배 거대화, 등장 확률 10배 증가 (록온 범위 1.8배) (핸들링 +15)"
+                "en": "'Rocket Punch' becomes bigger (2.5x increase in size), appearance rate increased (10x increase) (Lock-on range 1.8x), Handling +15",
+                "jp": "'ロケットパンチ'の2.5倍巨大化, 登場確率10倍増加 (ロックオン範囲1.8倍), ハンドリング +15",
+                "kr": "'로켓 펀치' 2.5배 거대화, 등장 확률 10배 증가 (록온 범위 1.8배), 핸들링 +15"
             },
             "stat_table": {
                 "not": {
@@ -2284,9 +2289,9 @@
                 ]
             },
             "effect": {
-                "en": "'Spiked Iron Ball' becomes bigger and appears more often. (4x increase in size, 10x increase in appearance rate) (Speed +15)",
-                "jp": "'トゲ鉄球'の4倍巨大化, トゲ鉄球出現率10倍増加 (スピード +15)",
-                "kr": "'가시 철구' 4배 거대화, 등장 확률 10배 증가 (스피드 +15)"
+                "en": "'Spiked Iron Ball' becomes bigger and appears more often. (4x increase in size, 10x increase in appearance rate), Speed +15",
+                "jp": "'トゲ鉄球'の4倍巨大化, トゲ鉄球出現率10倍増加, スピード +15",
+                "kr": "'가시 철구' 4배 거대화, 등장 확률 10배 증가, 스피드 +15"
             },
             "stat_table": {
                 "not": {
@@ -2325,9 +2330,9 @@
                 ]
             },
             "effect": {
-                "en": "'Bomb' charges faster and appears more often. (80% increase in charge speed, 10x increase in appearance rate) (Handling +15)",
-                "jp": "'ボム'充電速度80%増加, ボム出現率10倍増加 (ハンドリング +15)",
-                "kr": "'폭탄봇' 차지 속도 80% 증가, 등장 확률 10배 증가 (핸들링 +15)"
+                "en": "'Bomb' charges faster and appears more often. (80% increase in charge speed, 10x increase in appearance rate), Handling +15",
+                "jp": "'ボム'充電速度80%増加, ボム出現率10倍増加, ハンドリング +15",
+                "kr": "'폭탄봇' 차지 속도 80% 증가, 등장 확률 10배 증가, 핸들링 +15"
             },
             "stat_table": {
                 "not": {
