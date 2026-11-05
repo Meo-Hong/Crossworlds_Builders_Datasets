@@ -1075,212 +1075,6 @@
             "highest_stat_penalty": -5
         },
         {
-            "id": "gadget_110",
-            "name": {
-                "en": "Collision Evolution",
-                "jp": "ぶつかり進化",
-                "kr": "범프 진화"
-            },
-            "description": {
-                "en": "Gain +2 in all stats each time you bump another player. (Upgrade Effect is applied)",
-                "jp": "他のレーサーとぶつかるごとに全パラメーター +2。(アップグレード効果が適用されます.)",
-                "kr": "다른 레이서와 충돌할 때마다 모든 파라미터 +2. (업그레이드 이펙트가 적용됩니다.)"
-            },
-            "gadget_type": "Stat Upgrade",
-            "slots": 1,
-            "image": "gadget_110.png",
-            "unlock": {
-                "en": [
-                    "Reach Gold Plate (after v1.4.1)"
-                ],
-                "jp": [
-                    "ゴールドプレート到達 (v1.4.1 以降)"
-                ],
-                "kr": [
-                    "「골드 플레이트」 도달 (v1.4.1 이후)"
-                ]
-            },
-            "effect": {
-                "en": "Gain +2 in all stats each time you bump another player.",
-                "jp": "他のレーサーとぶつかるごとに全パラメーター +2",
-                "kr": "다른 레이서와 충돌할 때마다 모든 파라미터 +2"
-            },
-            "stat_table": {
-                "evolution": {
-                    "speed": "+2n",
-                    "acceleration": "+2n",
-                    "handling": "+2n",
-                    "power": "+2n",
-                    "boost": "+2n"
-                }
-            }
-        },
-        {
-            "id": "gadget_112",
-            "name": {
-                "en": "Item Hit Evolution",
-                "jp": "アイテムヒット進化",
-                "kr": "아이템 명중 진화"
-            },
-            "description": {
-                "en": "Gain +10 in all stats each time you get land an item hit. (Upgrade Effect is applied)",
-                "jp": "アイテムヒット的中時、全パラメーター +10。(アップグレード効果が適用されます.)",
-                "kr": "아이템 명중 적중 시 모든 파라미터 +10. (업그레이드 이펙트가 적용됩니다.)"
-            },
-            "gadget_type": "Stat Upgrade",
-            "slots": 1,
-            "image": "gadget_112.png",
-            "unlock": {
-                "en": [
-                    "Reach Gold Plate (after v1.4.1)"
-                ],
-                "jp": [
-                    "ゴールドプレート到達 (v1.4.1 以降)"
-                ],
-                "kr": [
-                    "「골드 플레이트」 도달 (v1.4.1 이후)"
-                ]
-            },
-            "effect": {
-                "en": "Gain +10 in all stats each time you get land an item hit.",
-                "jp": "アイテムヒット的中時、全パラメーター +10",
-                "kr": "아이템 명중 적중 시 모든 파라미터 +10"
-            },
-            "stat_table": {
-                "evolution": {
-                    "speed": "+10n",
-                    "acceleration": "+10n",
-                    "handling": "+10n",
-                    "power": "+10n",
-                    "boost": "+10n"
-                }
-            }
-        },
-        {
-            "id": "gadget_109",
-            "name": {
-                "en": "Ring Evolution",
-                "jp": "リング進化",
-                "kr": "링 진화"
-            },
-            "description": {
-                "en": "Gain +1 in all stats each time you gain 10 rings. (Upgrade Effect is applied)",
-                "jp": "リングを10個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
-                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.) "
-            },
-            "gadget_type": "Stat Upgrade",
-            "slots": 1,
-            "image": "gadget_109.png",
-            "unlock": {
-                "en": [
-                    "Reach Gold Plate (after v1.4.1)"
-                ],
-                "jp": [
-                    "ゴールドプレート到達 (v1.4.1 以降)"
-                ],
-                "kr": [
-                    "「골드 플레이트」 도달 (v1.4.1 이후)"
-                ]
-            },
-            "effect": {
-                "en": "Gain +1 in all stats each time you gain 10 rings.",
-                "jp": "リングを10個獲得するごとに全パラメーター +1",
-                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1."
-            },
-            "stat_table": {
-                "evolution": {
-                    "speed": "+ n",
-                    "acceleration": "+ n",
-                    "handling": "+ n",
-                    "power": "+ n",
-                    "boost": "+ n"
-                }
-            }
-        },
-        {
-            "id": "gadget_111",
-            "name": {
-                "en": "Damage Evolution",
-                "jp": "ダメージ進化",
-                "kr": "대미지 진화"
-            },
-            "description": {
-                "en": "Gain +10 in all stats each time you take damage. (Upgrade Effect is applied)",
-                "jp": "ダメージを受けた時、全パラメーター +10。(アップグレード効果が適用されます.)",
-                "kr": "대미지를 받을 때마다 모든 파라미터 +10. (업그레이드 이펙트가 적용됩니다.)"
-            },
-            "gadget_type": "Stat Upgrade",
-            "slots": 1,
-            "image": "gadget_111.png",
-            "unlock": {
-                "en": [
-                    "Reach Gold Plate (after v1.4.1)"
-                ],
-                "jp": [
-                    "ゴールドプレート到達 (v1.4.1 以降)"
-                ],
-                "kr": [
-                    "「골드 플레이트」 도달 (v1.4.1 이후)"
-                ]
-            },
-            "effect": {
-                "en": "Gain +10 in all stats each time you take damage.",
-                "jp": "ダメージを受けた時、全パラメーター +10",
-                "kr": "대미지를 받을 때마다 모든 파라미터 +10"
-            },
-            "stat_table": {
-                "evolution": {
-                    "speed": "+10n",
-                    "acceleration": "+10n",
-                    "handling": "+10n",
-                    "power": "+10n",
-                    "boost": "+10n"
-                }
-            }
-        },
-        {
-            "id": "gadget_034",
-            "name": {
-                "en": "Quick Starter",
-                "jp": "スターター",
-                "kr": "스타터"
-            },
-            "description": {
-                "en": "+40 to all stats during Lap 1.",
-                "jp": "LAP1の間、すべてのパラメータを+40。",
-                "kr": "LAP 1 동안 모든 스탯을 40 올립니다."
-            },
-            "gadget_type": "Stat Upgrade",
-            "slots": 1,
-            "image": "gadget_034.png",
-            "slot_art": "silver",
-            "unlock": {
-                "en": [
-                    "Reach Rank E in World Match"
-                ],
-                "jp": [
-                    "ワールドマッチでEランクに到達"
-                ],
-                "kr": [
-                    "월드 매치 랭크 E 이상 도달"
-                ]
-            },
-            "effect": {
-                "en": "All stat +40 (during LAP 1)",
-                "jp": "すべての スタット +40 ( LAP 1 間 )",
-                "kr": "모든 스탯 +40 ( LAP 1 동안 )"
-            },
-            "stat_table": {
-                "LAP1": {
-                    "speed": 40,
-                    "acceleration": 40,
-                    "handling": 40,
-                    "power": 40,
-                    "boost": 40
-                }
-            }
-        },
-        {
             "id": "gadget_038",
             "name": {
                 "en": "Speed Tuner 1",
@@ -1761,6 +1555,214 @@
             }
         }
     ],
+    "Power Up": [
+        {
+            "id": "gadget_111",
+            "name": {
+                "en": "Damage Evolution",
+                "jp": "ダメージ進化",
+                "kr": "대미지 진화"
+            },
+            "description": {
+                "en": "Gain +10 in all stats each time you take damage. (Upgrade Effect is applied)",
+                "jp": "ダメージを受けた時、全パラメーター +10。(アップグレード効果が適用されます.)",
+                "kr": "대미지를 받을 때마다 모든 파라미터 +10. (업그레이드 이펙트가 적용됩니다.)"
+            },
+            "gadget_type": "Power Up",
+            "slots": 1,
+            "image": "gadget_111.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Gain +10 in all stats each time you take damage.",
+                "jp": "ダメージを受けた時、全パラメーター +10",
+                "kr": "대미지를 받을 때마다 모든 파라미터 +10"
+            },
+            "stat_table": {
+                "evolution": {
+                    "speed": "+10n",
+                    "acceleration": "+10n",
+                    "handling": "+10n",
+                    "power": "+10n",
+                    "boost": "+10n"
+                }
+            }
+        },
+        {
+            "id": "gadget_112",
+            "name": {
+                "en": "Item Hit Evolution",
+                "jp": "アイテムヒット進化",
+                "kr": "아이템 명중 진화"
+            },
+            "description": {
+                "en": "Gain +10 in all stats each time you get land an item hit. (Upgrade Effect is applied)",
+                "jp": "アイテムヒット的中時、全パラメーター +10。(アップグレード効果が適用されます.)",
+                "kr": "아이템 명중 적중 시 모든 파라미터 +10. (업그레이드 이펙트가 적용됩니다.)"
+            },
+            "gadget_type": "Power Up",
+            "slots": 1,
+            "image": "gadget_112.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Gain +10 in all stats each time you get land an item hit.",
+                "jp": "アイテムヒット的中時、全パラメーター +10",
+                "kr": "아이템 명중 적중 시 모든 파라미터 +10"
+            },
+            "stat_table": {
+                "evolution": {
+                    "speed": "+10n",
+                    "acceleration": "+10n",
+                    "handling": "+10n",
+                    "power": "+10n",
+                    "boost": "+10n"
+                }
+            }
+        },
+        {
+            "id": "gadget_110",
+            "name": {
+                "en": "Collision Evolution",
+                "jp": "ぶつかり進化",
+                "kr": "범프 진화"
+            },
+            "description": {
+                "en": "Gain +2 in all stats each time you bump another player. (Upgrade Effect is applied)",
+                "jp": "他のレーサーとぶつかるごとに全パラメーター +2。(アップグレード効果が適用されます.)",
+                "kr": "다른 레이서와 충돌할 때마다 모든 파라미터 +2. (업그레이드 이펙트가 적용됩니다.)"
+            },
+            "gadget_type": "Power Up",
+            "slots": 1,
+            "image": "gadget_110.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Gain +2 in all stats each time you bump another player.",
+                "jp": "他のレーサーとぶつかるごとに全パラメーター +2",
+                "kr": "다른 레이서와 충돌할 때마다 모든 파라미터 +2"
+            },
+            "stat_table": {
+                "evolution": {
+                    "speed": "+2n",
+                    "acceleration": "+2n",
+                    "handling": "+2n",
+                    "power": "+2n",
+                    "boost": "+2n"
+                }
+            }
+        },
+        {
+            "id": "gadget_109",
+            "name": {
+                "en": "Ring Evolution",
+                "jp": "リング進化",
+                "kr": "링 진화"
+            },
+            "description": {
+                "en": "Gain +1 in all stats each time you gain 10 rings. (Upgrade Effect is applied)",
+                "jp": "リングを10個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
+                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.) "
+            },
+            "gadget_type": "Power Up",
+            "slots": 1,
+            "image": "gadget_109.png",
+            "unlock": {
+                "en": [
+                    "Reach Gold Plate (after v1.4.1)"
+                ],
+                "jp": [
+                    "ゴールドプレート到達 (v1.4.1 以降)"
+                ],
+                "kr": [
+                    "「골드 플레이트」 도달 (v1.4.1 이후)"
+                ]
+            },
+            "effect": {
+                "en": "Gain +1 in all stats each time you gain 10 rings.",
+                "jp": "リングを10個獲得するごとに全パラメーター +1",
+                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1."
+            },
+            "stat_table": {
+                "evolution": {
+                    "speed": "+ n",
+                    "acceleration": "+ n",
+                    "handling": "+ n",
+                    "power": "+ n",
+                    "boost": "+ n"
+                }
+            }
+        },
+        {
+            "id": "gadget_034",
+            "name": {
+                "en": "Quick Starter",
+                "jp": "スターター",
+                "kr": "스타터"
+            },
+            "description": {
+                "en": "+40 to all stats during Lap 1.",
+                "jp": "LAP1の間、すべてのパラメータを+40。",
+                "kr": "LAP 1 동안 모든 스탯을 40 올립니다."
+            },
+            "gadget_type": "Power Up",
+            "slots": 1,
+            "image": "gadget_034.png",
+            "slot_art": "silver",
+            "unlock": {
+                "en": [
+                    "Reach Rank E in World Match"
+                ],
+                "jp": [
+                    "ワールドマッチでEランクに到達"
+                ],
+                "kr": [
+                    "월드 매치 랭크 E 이상 도달"
+                ]
+            },
+            "effect": {
+                "en": "All stat +40 (during LAP 1)",
+                "jp": "すべての スタット +40 ( LAP 1 間 )",
+                "kr": "모든 스탯 +40 ( LAP 1 동안 )"
+            },
+            "stat_table": {
+                "LAP1": {
+                    "speed": 40,
+                    "acceleration": 40,
+                    "handling": 40,
+                    "power": 40,
+                    "boost": 40
+                }
+            }
+        }
+    ],
     "Support": [
         {
             "id": "gadget_048",
@@ -1946,40 +1948,6 @@
             "stat_table": null
         },
         {
-            "id": "gadget_133",
-            "name": {
-                "en": "Power Through",
-                "jp": "ランオフごり押し",
-                "kr": "런 오프 강행 돌파"
-            },
-            "description": {
-                "en": "Slowdown zones affect you less. Gain +40km/h while driving through offroad (slowdown zones). Only applies when you are not already ignoring offroad.",
-                "jp": "減速エリアの影響を受けにくくなる。ランオフ（減速エリア）走行中は+40km/h速くなります。（ブーストアイテムなどで減速エリアを無効化している間は適用されない）",
-                "kr": "감속 구역 영향을 덜 받게 됩니다. 감속 구역(런 오프)을 달리는 동안 +40km/h 빨라집니다. (부스트 아이템 등으로 감속 구역을 무시하는 중에는 적용되지 않음)"
-            },
-            "gadget_type": "Support",
-            "slots": 1,
-            "image": "gadget_133.png",
-            "unlock": {
-                "en": [
-                    "Reach \"Grand Master Plate\""
-                ],
-                "jp": [
-                    "「グランドマスタープレート」に到達"
-                ],
-                "kr": [
-                    "「그랜드 마스터 플레이트」 도달"
-                ]
-            },
-            "effect": {
-                "en": "+40km/h while offroad (not applied while offroad immune)",
-                "jp": "ランオフ走行中+40km/h（減速エリア無効中は適用外）",
-                "kr": "감속 구역(런 오프) 주행 중 +40km/h (감속 구역 무시 중에는 미적용)"
-            },
-            "patch": {},
-            "stat_table": null
-        },
-        {
             "id": "gadget_058",
             "name": {
                 "en": "Crash Pads",
@@ -2019,6 +1987,40 @@
                     "boost": 0
                 }
             }
+        },
+        {
+            "id": "gadget_133",
+            "name": {
+                "en": "Power Through",
+                "jp": "ランオフごり押し",
+                "kr": "런 오프 강행 돌파"
+            },
+            "description": {
+                "en": "Slowdown zones affect you less. Gain +40km/h while driving through offroad (slowdown zones). Only applies when you are not already ignoring offroad.",
+                "jp": "減速エリアの影響を受けにくくなる。ランオフ（減速エリア）走行中は+40km/h速くなります。（ブーストアイテムなどで減速エリアを無効化している間は適用されない）",
+                "kr": "감속 구역 영향을 덜 받게 됩니다. 감속 구역(런 오프)을 달리는 동안 +40km/h 빨라집니다. (부스트 아이템 등으로 감속 구역을 무시하는 중에는 적용되지 않음)"
+            },
+            "gadget_type": "Support",
+            "slots": 1,
+            "image": "gadget_133.png",
+            "unlock": {
+                "en": [
+                    "Reach \"Grand Master Plate\""
+                ],
+                "jp": [
+                    "「グランドマスタープレート」に到達"
+                ],
+                "kr": [
+                    "「그랜드 마스터 플레이트」 도달"
+                ]
+            },
+            "effect": {
+                "en": "+40km/h while offroad (not applied while offroad immune)",
+                "jp": "ランオフ走行中+40km/h（減速エリア無効中は適用外）",
+                "kr": "감속 구역(런 오프) 주행 중 +40km/h (감속 구역 무시 중에는 미적용)"
+            },
+            "patch": {},
+            "stat_table": null
         }
     ],
     "Item Control": [
