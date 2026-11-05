@@ -17,9 +17,9 @@
             "kr" : "가속합니다."
         },
         "detail" : {
-            "en" : "Unique items available in \"Time Trial\".\nCan be used to Dodge various attack items.\nAn essential item to go through a run-off area or shortcut without deceleration.\nCan overlap with drift charge boost.",
-            "jp" : "「タイムトライアル」でも使用可能なアイテム。\nさまざまな攻撃アイテムを回避するのに活用できます。\nランオフエリアや近道を減速せずに通過するために必須のアイテム。\nドリフトチャージブーストと重ね合わせ可能。",
-            "kr" : "\"타임 트라이얼\"에서도 사용 가능한 아이템.\n다양한 공격 아이템을 회피하는데 활용 가능.\n런오프 구역이나 지름길을 감속 없이 지나가기 위해 필수적인 아이템.\n드리프트 차지 부스트와 중첩 가능. "
+            "en" : "Unique items available in \"Time Trial\".\nCan be used to Dodge various attack items.\nAn essential item to go through a run-off area or shortcut without deceleration.\nCan overlap with drift charge boost.\nSince v2.0.0, even while holding either 'Boost' or 'Double Boost', the one you don't hold can still appear from item boxes.",
+            "jp" : "「タイムトライアル」でも使用可能なアイテム。\nさまざまな攻撃アイテムを回避するのに活用できます。\nランオフエリアや近道を減速せずに通過するために必須のアイテム。\nドリフトチャージブーストと重ね合わせ可能。\nv2.0.0以降、「ブースト」と「ダブルブースト」のどちらかを所持していても、所持していない方はアイテムボックスから出現します。",
+            "kr" : "\"타임 트라이얼\"에서도 사용 가능한 아이템.\n다양한 공격 아이템을 회피하는데 활용 가능.\n런오프 구역이나 지름길을 감속 없이 지나가기 위해 필수적인 아이템.\n드리프트 차지 부스트와 중첩 가능.\nv2.0.0부터 '부스트'와 '더블 부스트' 중 하나를 보유하고 있어도, 보유하지 않은 쪽은 아이템 상자에서 나옵니다."
         },
         "image" : "Boost.webp",
         "gadget" : [
@@ -47,9 +47,9 @@
             "kr" : "2번 가속할 수 있습니다."
         },
         "detail" : {
-            "en" : "Only available after equipping the \"Double Boost Specialist\" gadget.",
-            "jp" : "「ダブルブースト追加」ガジェットを装備した後に使用可能。",
-            "kr" : "전용 가젯 「더블 부스트 추가」착용 후에만 사용/획득 가능"
+            "en" : "Only available after equipping the \"Double Boost Specialist\" gadget.\nSince v2.0.0, even while holding either 'Boost' or 'Double Boost', the one you don't hold can still appear from item boxes.",
+            "jp" : "「ダブルブースト追加」ガジェットを装備した後に使用可能。\nv2.0.0以降、「ブースト」と「ダブルブースト」のどちらかを所持していても、所持していない方はアイテムボックスから出現します。",
+            "kr" : "전용 가젯 「더블 부스트 추가」착용 후에만 사용/획득 가능\nv2.0.0부터 '부스트'와 '더블 부스트' 중 하나를 보유하고 있어도, 보유하지 않은 쪽은 아이템 상자에서 나옵니다."
         },
         "image" : "Double Boost.webp",
         "gadget" : [
@@ -108,9 +108,9 @@
             "kr" : "레이저로 변신하여 전방의 머신을 향해 고속으로 이동합니다."
         },
         "detail" : {
-            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts. (Be careful when used in \"Ocean View\").\nWhen used outside the course, it is forcibly moved into the course.",
-            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。(「オーシャンビュー」で使用する場合は注意が必要です)。\nコース外で使用する場合は、強制的にコース内に移動します。",
-            "kr" : "정해진 경로를 따라 이동합니다.\n지름길을 돌파하는데에도 사용합니다. (오션 뷰에서는 사용에 유의)\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다."
+            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nThe finishing speed when the effect ends is 260km/h. (Raised from 240 to 260km/h in v2.0.0)",
+            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\n効果終了時の速度は260km/hです。(v2.0.0で240 → 260km/hに上昇)",
+            "kr" : "정해진 경로를 따라 이동합니다.\n지름길을 돌파하는데에도 사용합니다.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n효과가 끝날 때의 마무리 속도는 260km/h입니다. (v2.0.0에서 240 → 260km/h로 상향)"
         },
         "image" : "Laser.webp",
         "gadget" : [
@@ -140,9 +140,9 @@
             "kr" : "드릴로 변신하여 자동으로 주행합니다."
         },
         "detail" : {
-            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts. (Be careful when used in \"Ocean View\").\nWhen used outside the course, it is forcibly moved into the course.\nCan be used to obtain items while in use.",
-            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。(「オーシャンビュー」で使用する場合は注意が必要です)。\nコース外で使用する場合は、強制的にコース内に移動します。\n使用中にアイテムを取得できます。",
-            "kr" : "정해진 경로를 따라 이동합니다.\n지름길 돌파에 활용 가능. (오션 뷰에서는 사용에 유의)\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n드릴 사용 중에는 아이템 획득이 가능합니다."
+            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nCan be used to obtain items while in use.\nThe finishing speed when the effect ends is 260km/h. (Raised from 240 to 260km/h in v2.0.0)",
+            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\n使用中にアイテムを取得できます。\n効果終了時の速度は260km/hです。(v2.0.0で240 → 260km/hに上昇)",
+            "kr" : "정해진 경로를 따라 이동합니다.\n지름길 돌파에 활용 가능.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n드릴 사용 중에는 아이템 획득이 가능합니다.\n효과가 끝날 때의 마무리 속도는 260km/h입니다. (v2.0.0에서 240 → 260km/h로 상향)"
         },
         "image" : "Drill.webp",
         "gadget" : [
@@ -256,9 +256,9 @@
             "kr" : "오모챠오가 전방에서 링을 늘어놓으며, 이를 획득하면 속도가 상승합니다."
         },
         "detail" : {
-            "en" : "Omochao spreads rings for about 6 seconds, and can obtain 35 to 40 rings.\n(If you use \"Go Go Omochao\", you can get more rings for 8 seconds)\nCan be used in the run-off area without deceleration, so it can be used in the run-off area.\nCan be used as a straight acceleration item by using the \"Ring Gain Boost\" gadget.",
-            "jp" : "オモチャオがリングを約6秒間散らし、35〜40個程度のリングを獲得可能。\n(「がんばれオモチャオ」を使用すると、8秒間でより多くのリングを獲得可能)\nリングを取得すれば,ランオフエリアを走行中に減速しないため,ランオフ区間で活用できる。\n「リングゲットダッシュ」ガジェットを使用すると、直線加速アイテムとしても使用可能です。",
-            "kr" : "오모챠오가 링을 약 6초간 흩뿌리며, 35~40개 정도의 링 획득 가능.\n(「힘내라 오모챠오」 사용 시, 8초로 증가하고, 링을 55~60개 정도 획득)\n링을 얻으면 런오프 구역을 달릴 때 감속이 되지 않아 런오프 구간에서 활용 가능.\n「링 대시」가젯을 활용하면 직진 가속 아이템으로도 활용 가능."
+            "en" : "Omochao spreads rings for about 6 seconds.\n(If you use \"Go Go Omochao\", it lasts 10 seconds and you can get more rings. Raised from 8 to 10 seconds in v2.0.0)\nCan be used in the run-off area without deceleration, so it can be used in the run-off area.\nCan be used as a straight acceleration item by using the \"Ring Gain Boost\" gadget.",
+            "jp" : "オモチャオがリングを約6秒間散らす。\n(「がんばれオモチャオ」を使用すると、10秒間に延びてより多くのリングを獲得可能。v2.0.0で8秒 → 10秒に上昇)\nリングを取得すれば,ランオフエリアを走行中に減速しないため,ランオフ区間で活用できる。\n「リングゲットダッシュ」ガジェットを使用すると、直線加速アイテムとしても使用可能です。",
+            "kr" : "오모챠오가 링을 약 6초간 흩뿌립니다.\n(「힘내라 오모챠오」 사용 시, 10초로 증가해 더 많은 링을 획득 가능. v2.0.0에서 8초 → 10초로 상향)\n링을 얻으면 런오프 구역을 달릴 때 감속이 되지 않아 런오프 구간에서 활용 가능.\n「링 대시」가젯을 활용하면 직진 가속 아이템으로도 활용 가능."
         },
         "image" : "Omochao.webp",
         "gadget" : [
@@ -316,9 +316,9 @@
             "kr" : "전방의 머신을 호밍하여 공격합니다."
         },
         "detail" : {
-            "en" : "\"Homing Punch\" has better guidance performance than \"Rocket Punch\"'s locked state.\nNot affected by the \"Giant Rocket Punch\" gadget.",
-            "jp" : "「ホーミングパンチ」は「ロケットパンチ」のロック状態よりも優れた誘導性能を持ちます。\n「ロケットパンチ 巨大化」ガジェットの影響を受けません。",
-            "kr" : "「호밍 펀치」의 유도 성능은 「로켓 펀치」의 록 온 상태의 유도 성능보다 더 뛰어납니다. 「로켓 펀치 거대화」가젯의 영향을 받지 않습니다."
+            "en" : "\"Homing Punch\" has better guidance performance than \"Rocket Punch\"'s locked state.\nNot affected by the \"Giant Rocket Punch\" gadget.\nSince v2.0.0, it no longer hits the player who used it.",
+            "jp" : "「ホーミングパンチ」は「ロケットパンチ」のロック状態よりも優れた誘導性能を持ちます。\n「ロケットパンチ 巨大化」ガジェットの影響を受けません。\nv2.0.0以降、使用したプレイヤー自身には命中しません。",
+            "kr" : "「호밍 펀치」의 유도 성능은 「로켓 펀치」의 록 온 상태의 유도 성능보다 더 뛰어납니다. 「로켓 펀치 거대화」가젯의 영향을 받지 않습니다.\nv2.0.0부터 사용한 플레이어 자신에게는 명중하지 않습니다."
         },
         "image" : "HomingPunch.webp",
         "gadget" : [
@@ -394,9 +394,9 @@
             "kr" : "직진하여 벽에 부딪히면 튕기는 펀치를 발사합니다.\n록 온 중에는 호밍하여 공격합니다."
         },
         "detail" : {
-            "en" : "When equipped with the \"Giant Rocket Punch\" gadget, the appearance rate of Rocket Punch increases, and you can use a larger Rocket Punch.\nThe guidance performance of the Rocket Punch is not as good as the guidance performance of the \"Homing Punch\". If you collide with a wall while locked, it will disappear.",
-            "jp" : "「ロケットパンチ 巨大化」ガジェットを装備すると、「ロケットパンチ」の出現率が上がり、より大きなロケットパンチを使用できます。\n「ロケットパンチ」の誘導性能は「ホーミングパンチ」の誘導性能よりも劣ります。ロック中に壁に衝突すると消えます。",
-            "kr" : "「로켓 펀치 거대화」가젯을 착용하면 로켓 펀치의 등장확률이 올라가고, 더 큰 로켓 펀치를 사용 가능.\n「로켓 펀치」의 유도 성능은 「호밍 펀치」의 유도 성능보다 좋지 않습니다. 록 온 중인 상태에서 벽에 부딪히면 사라집니다."
+            "en" : "When equipped with the \"Giant Rocket Punch\" gadget, the appearance rate of Rocket Punch increases, and you can use a larger Rocket Punch.\nThe guidance performance of the Rocket Punch is not as good as the guidance performance of the \"Homing Punch\". If you collide with a wall while locked, it will disappear.\nIt bounces off walls up to 2 times when thrown forward and up to 2 times when thrown backward. (Changed in v2.0.0: forward 6 → 2, backward 3 → 2)",
+            "jp" : "「ロケットパンチ 巨大化」ガジェットを装備すると、「ロケットパンチ」の出現率が上がり、より大きなロケットパンチを使用できます。\n「ロケットパンチ」の誘導性能は「ホーミングパンチ」の誘導性能よりも劣ります。ロック中に壁に衝突すると消えます。\n壁での反射回数は前方投擲で最大2回、後方投擲で最大2回です。(v2.0.0で前方6回 → 2回、後方3回 → 2回に変更)",
+            "kr" : "「로켓 펀치 거대화」가젯을 착용하면 로켓 펀치의 등장확률이 올라가고, 더 큰 로켓 펀치를 사용 가능.\n「로켓 펀치」의 유도 성능은 「호밍 펀치」의 유도 성능보다 좋지 않습니다. 록 온 중인 상태에서 벽에 부딪히면 사라집니다.\n벽에 부딪혀 튕기는 횟수는 앞으로 던질 때 최대 2회, 뒤로 던질 때 최대 2회입니다. (v2.0.0에서 앞 6회 → 2회, 뒤 3회 → 2회로 변경)"
         },
         "image" : "RocketPunch.webp",
         "gadget" : [
@@ -477,9 +477,9 @@
             "kr" : "전방의 머신을 호밍하여 두 동강 냅니다.\n상대는 아이템을 하나 떨어뜨립니다."
         },
         "detail" : {
-            "en" : "The speed of the bomb is slower than \"Rocket Punch\" and \"Homing Punch\", so it is necessary to respond to it.\nCan be canceled by walls or other items.\nIf two different cutters fly at the same time toward the same machine, they will cancel each other out and disappear.",
-            "jp" : "「ロケットパンチ」, 「ホーミングパンチ」よりも爆弾の速度が遅いため、対応が必要です。\n壁や他のアイテムでキャンセル可能です。\n2つの異なるカッターが同じマシンに同時に向かって飛ぶ場合、互いにキャンセルされて消えます。",
-            "kr" : "날아오는 속도가 「로켓 펀치」, 「호밍 펀치」보다 느리며, 잘리기까지 시간이 걸리기에 대응을 해야합니다.\n벽이나 다른 아이템으로 상쇄 가능.\n서로 다른 커터가 같은 머신을 향해 동시에 날아간다면 서로 상쇄되어 없어집니다."
+            "en" : "The speed of the bomb is slower than \"Rocket Punch\" and \"Homing Punch\", so it is necessary to respond to it.\nCan be canceled by walls or other items.\nIf two different cutters fly at the same time toward the same machine, they will cancel each other out and disappear.\nSince v2.0.0, it no longer hits the player who used it.\nSince v2.0.0, it is destroyed immediately when it hits an invincible racer.",
+            "jp" : "「ロケットパンチ」, 「ホーミングパンチ」よりも爆弾の速度が遅いため、対応が必要です。\n壁や他のアイテムでキャンセル可能です。\n2つの異なるカッターが同じマシンに同時に向かって飛ぶ場合、互いにキャンセルされて消えます。\nv2.0.0以降、使用したプレイヤー自身には命中しません。\nv2.0.0以降、無敵状態のレーサーに命中すると即座に破壊されます。",
+            "kr" : "날아오는 속도가 「로켓 펀치」, 「호밍 펀치」보다 느리며, 잘리기까지 시간이 걸리기에 대응을 해야합니다.\n벽이나 다른 아이템으로 상쇄 가능.\n서로 다른 커터가 같은 머신을 향해 동시에 날아간다면 서로 상쇄되어 없어집니다.\nv2.0.0부터 사용한 플레이어 자신에게는 명중하지 않습니다.\nv2.0.0부터 무적 상태의 레이서에게 명중하면 즉시 파괴됩니다."
         },
         "image" : "Slicer.webp",
         "gadget" : [
