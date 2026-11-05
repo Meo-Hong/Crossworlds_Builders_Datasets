@@ -1181,6 +1181,7 @@
             "gadget_type": "Technique Upgrade",
             "slots": 1,
             "image": "gadget_120.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Reach \"Grand Master Plate\""
@@ -1300,6 +1301,7 @@
             "gadget_type": "Charge Upgrade",
             "slots": 1,
             "image": "gadget_121.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Reach \"Grand Master Plate\""
@@ -1808,7 +1810,7 @@
                 "kr": "가장 높은 성능이 하락하는 대신 스피드가 크게 상승합니다. (스피드 +25, 가장 높은 성능 -10 / 스피드가 가장 높은 성능이면 스피드 +15)"
             },
             "gadget_type": "Stat Upgrade",
-            "slots": 3,
+            "slots": 1,
             "image": "gadget_127.png",
             "unlock": {
                 "en": [
@@ -1851,7 +1853,7 @@
                 "kr": "가장 높은 성능이 하락하는 대신 액셀이 크게 상승합니다. (액셀 +25, 가장 높은 성능 -10 / 액셀이 가장 높은 성능이면 액셀 +15)"
             },
             "gadget_type": "Stat Upgrade",
-            "slots": 3,
+            "slots": 1,
             "image": "gadget_128.png",
             "unlock": {
                 "en": [
@@ -1894,7 +1896,7 @@
                 "kr": "가장 높은 성능이 하락하는 대신 핸들링이 크게 상승합니다. (핸들링 +25, 가장 높은 성능 -10 / 핸들링이 가장 높은 성능이면 핸들링 +15)"
             },
             "gadget_type": "Stat Upgrade",
-            "slots": 3,
+            "slots": 1,
             "image": "gadget_129.png",
             "unlock": {
                 "en": [
@@ -1937,7 +1939,7 @@
                 "kr": "가장 높은 성능이 하락하는 대신 파워가 크게 상승합니다. (파워 +25, 가장 높은 성능 -10 / 파워가 가장 높은 성능이면 파워 +15)"
             },
             "gadget_type": "Stat Upgrade",
-            "slots": 3,
+            "slots": 1,
             "image": "gadget_130.png",
             "unlock": {
                 "en": [
@@ -1980,7 +1982,7 @@
                 "kr": "가장 높은 성능이 하락하는 대신 대시가 크게 상승합니다. (대시 +25, 가장 높은 성능 -10 / 대시가 가장 높은 성능이면 대시 +15)"
             },
             "gadget_type": "Stat Upgrade",
-            "slots": 3,
+            "slots": 1,
             "image": "gadget_131.png",
             "unlock": {
                 "en": [
@@ -3429,6 +3431,7 @@
             "gadget_type": "Support",
             "slots": 1,
             "image": "gadget_132.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Reach \"Grand Master Plate\""
@@ -5091,7 +5094,7 @@
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
-            "image": "gadget_134.png",
+            "image": "gadget_default_kit.png",
             "unlock": {
                 "en": [
                     "Earn 150 points in \"Godzilla Festival\""
@@ -6215,40 +6218,6 @@
                 "en": "Adds a 4th level to Drift Charge. Lv4 Drift Charge hurts other players. (Unknown)",
                 "jp": "Lv4ドリフトを追加。Lv4ダッシュは他のレーサーにダメージを与えます。(未確認)",
                 "kr": "4단계 드리프트 추가. 4단계 대시 시, 다른 레이서에게 피해를 입힙니다. (미확정)"
-            },
-            "patch": {},
-            "stat_table": null
-        },
-        {
-            "id": "gadget_307",
-            "name": {
-                "en": "Ultimate Charge Aero(Unknown)",
-                "jp": "Ultimate Charge Aero(未確認)",
-                "kr": "Ultimate Charge Aero(미확정)"
-            },
-            "description": {
-                "en": "Adds a 4th level to Drift Charge. Lv4 Drift Charge ignores off-road. (Unknown)",
-                "jp": "Lv4ドリフトを追加します。Lv4ダッシュは減速領域を無視します。(未確認)",
-                "kr": "4단계 드리프트를 추가합니다. 4단계 대시 시, 런 오프 구역을 무시합니다. (미확정)"
-            },
-            "gadget_type": "Dummy",
-            "slots": 3,
-            "image": "gadget_default.png",
-            "unlock": {
-                "en": [
-                    "Dummy"
-                ],
-                "jp": [
-                    "ダミー"
-                ],
-                "kr": [
-                    "더미"
-                ]
-            },
-            "effect": {
-                "en": "Adds a 4th level to Drift Charge. Lv4 Drift Charge ignores off-road. (Unknown)",
-                "jp": "Lv4ドリフトを追加. Lv4ダッシュは減速領域を無視します。(未確認)",
-                "kr": "4단계 드리프트 추가. 4단계 대시 시, 런 오프 구역을 무시하면서 달림. (미확정)"
             },
             "patch": {},
             "stat_table": null
