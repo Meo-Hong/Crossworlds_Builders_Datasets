@@ -466,8 +466,8 @@
         ["Boost", "+25km/h (2.67 sec)", "O"],
         ["King Boost", "+30km/h (4 sec)", "O"],
         ["Monster Truck", "+30km/h (until disappears)", "O"],
-        ["Drill", "Set 360km/h, after 260km/h", "-"],
-        ["Laser", "Set 500km/h, after 260km/h", "-"],
+        ["Drill", "Set 360km/h, after 250km/h", "-"],
+        ["Laser", "Set 500km/h, after 250km/h", "-"],
         ["Dash Panel", "+25km/h (1 sec)", "Δ (slightly ignored run-off)"],
         ["Special Dash Panel", "+25km/h (1.67 sec)", "O"]
       ],
@@ -476,8 +476,8 @@
         ["ブースト", "+25km/h (2.67 秒)", "O"],
         ["キングブースト", "+30km/h (4 秒)", "O"],
         ["モンスタートラック", "+30km/h (消えるまで)", "O"],
-        ["ドリル", "360km/hに設定, その後260km/h", "-"],
-        ["レーザー", "500km/hに設定, その後260km/h", "-"],
+        ["ドリル", "360km/hに設定, その後250km/h", "-"],
+        ["レーザー", "500km/hに設定, その後250km/h", "-"],
         ["ダッシュパネル", "+25km/h (1 秒)", "Δ (軽微なランオフ無視)"],
         ["スペシャルダッシュパネル", "+25km/h (1.67 秒)", "O"]
       ],
@@ -486,8 +486,8 @@
         ["부스트", "+25km/h (2.67초)", "O"],
         ["킹 부스트", "+30km/h (4초)", "O"],
         ["몬스터 트럭", "+30km/h (사라질 때까지)", "O"],
-        ["드릴", "360km/h에 설정, 그 후 260km/h", "-"],
-        ["레이저", "500km/h에 설정, 그 후 260km/h", "-"],
+        ["드릴", "360km/h에 설정, 그 후 250km/h", "-"],
+        ["레이저", "500km/h에 설정, 그 후 250km/h", "-"],
         ["대시 패널", "+25km/h (1초)", "Δ (아주 잠깐 존재)"],
         ["스페셜 대시 패널", "+25km/h (1.67초)", "O"]
       ]
@@ -497,8 +497,8 @@
         "Indicates the speed increases, durations, and other effects of items.",
         "Duration is the time spent at the maximum speed gained; the boost then decays at a set rate. (Based on the Speed Document by Yoshister)",
         "The 'Monster Truck' gives the same +30km/h boost as the 'King Boost' and lasts until the item disappears.",
-        "'Drill' and 'Laser' run at a constant speed, then adjust their speed to 260 before the item effect ends.",
-        "The 'Drill' changes to 260km/h once you reach 1st-4th place or pass 2 racers.",
+        "'Drill' and 'Laser' run at a constant speed, then adjust their speed to 250 before the item effect ends.",
+        "The 'Drill' changes to 250km/h once you reach 1st-4th place or pass 2 racers.",
         "The 'Shield' +10km/h is Additional Speed, not a boost, so it counts toward the Additional Speed cap (+38km/h).",
         "There are two kinds: 'Dash Panel' and 'Special Dash Panel', and the 'Special Dash Panel' only appears on LAP 3.",
         "The 'Dash Panel' has a very slight run-off ignore effect, which can be seen in the 'Pumpkin Mansion' final lap."
@@ -507,8 +507,8 @@
         "アイテムによる速度増加と持続時間などを表します。",
         "持続時間は最高速度を維持する時間で、その後は一定の速度で徐々に下がります。（Speed Document by Yoshister 基準）",
         "「モンスタートラック」は「キングブースト」と同じ+30km/hのブーストで、アイテムが消えるまで持続します。",
-        "「ドリル」や「レーザー」は一定の速度で走行した後、速度を260に調整してからアイテムの使用が終了します。",
-        "「ドリル」は1〜4位に入るか、レーサーを2人追い抜くと260km/hに変わります。",
+        "「ドリル」や「レーザー」は一定の速度で走行した後、速度を250に調整してからアイテムの使用が終了します。",
+        "「ドリル」は1〜4位に入るか、レーサーを2人追い抜くと250km/hに変わります。",
         "「シールド」の+10km/hはブーストではなく「追加速度」のため、追加速度の上限（+38km/h）に含まれます。",
         "ダッシュパネルは「ダッシュパネル」と「スペシャルダッシュパネル」が存在し、「スペシャルダッシュパネル」はLAP 3でのみ登場します。",
         "「ダッシュパネル」は非常に軽微なランオフ無視効果があり、 \"パンプキンマンション\" のファイナルラップで確認できます。"
@@ -517,8 +517,8 @@
         "아이템을 통한 속도 증가와 지속시간 등을 나타냅니다.",
         "지속 시간은 최고 속도를 유지하는 시간이며, 이후 일정한 속도로 서서히 줄어듭니다. (스피드 문서 · Speed Document by Yoshister 기준)",
         "\"몬스터 트럭\"은 \"킹 부스트\"와 같은 +30km/h 부스트이며, 아이템이 사라질 때까지 유지됩니다.",
-        "\"드릴\", \"레이저\"는 일정한 속도로 달린 후, 260으로 속도를 조절하다가 아이템 사용이 종료됩니다.",
-        "\"드릴\"은 1~4위에 들어서거나 레이서 2명을 추월하면 260km/h로 바뀝니다.",
+        "\"드릴\", \"레이저\"는 일정한 속도로 달린 후, 250으로 속도를 조절하다가 아이템 사용이 종료됩니다.",
+        "\"드릴\"은 1~4위에 들어서거나 레이서 2명을 추월하면 250km/h로 바뀝니다.",
         "\"방패\"의 +10km/h는 부스트가 아닌 '추가 속도'이므로, 추가 속도 상한(+38km/h)에 포함됩니다.",
         "대시 패널은 \"대시 패널\"과 \"스페셜 대시 패널\"이 존재하며, \"스페셜 대시 패널\"은 LAP 3에서만 등장합니다.",
         "\"대시 패널\"은 아주 잠깐 런오프 무시 효과가 있습니다. 이는 '펌킨 맨션' 파이널 랩에서 확인 가능합니다."

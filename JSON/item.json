@@ -108,9 +108,9 @@
             "kr" : "레이저로 변신하여 전방의 머신을 향해 고속으로 이동합니다."
         },
         "detail" : {
-            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nThe finishing speed when the effect ends is 260km/h. (Raised from 240 to 260km/h in v2.0.0)",
-            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\n効果終了時の速度は260km/hです。(v2.0.0で240 → 260km/hに上昇)",
-            "kr" : "정해진 경로를 따라 이동합니다.\n지름길을 돌파하는데에도 사용합니다.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n효과가 끝날 때의 마무리 속도는 260km/h입니다. (v2.0.0에서 240 → 260km/h로 상향)"
+            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.",
+            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。",
+            "kr" : "정해진 경로를 따라 이동합니다.\n지름길을 돌파하는데에도 사용합니다.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
         },
         "image" : "Laser.webp",
         "gadget" : [
@@ -140,9 +140,9 @@
             "kr" : "드릴로 변신하여 자동으로 주행합니다."
         },
         "detail" : {
-            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nCan be used to obtain items while in use.\nThe finishing speed when the effect ends is 260km/h. (Raised from 240 to 260km/h in v2.0.0)",
-            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\n使用中にアイテムを取得できます。\n効果終了時の速度は260km/hです。(v2.0.0で240 → 260km/hに上昇)",
-            "kr" : "정해진 경로를 따라 이동합니다.\n지름길 돌파에 활용 가능.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n드릴 사용 중에는 아이템 획득이 가능합니다.\n효과가 끝날 때의 마무리 속도는 260km/h입니다. (v2.0.0에서 240 → 260km/h로 상향)"
+            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nCan be used to obtain items while in use.\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.",
+            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\n使用中にアイテムを取得できます。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。",
+            "kr" : "정해진 경로를 따라 이동합니다.\n지름길 돌파에 활용 가능.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n드릴 사용 중에는 아이템 획득이 가능합니다.\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
         },
         "image" : "Drill.webp",
         "gadget" : [
@@ -178,9 +178,9 @@
             "kr" : "전방의 머신이 있는 곳으로 워프하여 머신을 뭉개버립니다."
         },
         "detail" : {
-            "en" : "Only available after equipping the \"Warp Ring Specialist\" gadget.\n It is temporarily unavailable online (World Match, Legend Competition, Festa) (as of v1.3.1).",
-            "jp" : "「ワープリング追加」ガジェットを装備した後に使用可能。\n現在オンラインでは使用できません(ワールドマッチ, レジェンドコンペ, フェスタ) (v1.3.1 時点)。",
-            "kr" : "전용 가젯「워프 링 추가」착용 후에만 사용/획득 가능.\n현재 온라인에서 사용 불가능(월드 매치, 레전드 대회, 페스타) (v1.3.1 기준)"
+            "en" : "Only available after equipping the \"Warp Ring Specialist\" gadget.\n It is temporarily unavailable online (World Match, Legend Competition, Festa) (as of v1.3.1).\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.",
+            "jp" : "「ワープリング追加」ガジェットを装備した後に使用可能。\n現在オンラインでは使用できません(ワールドマッチ, レジェンドコンペ, フェスタ) (v1.3.1 時点)。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。",
+            "kr" : "전용 가젯「워프 링 추가」착용 후에만 사용/획득 가능.\n현재 온라인에서 사용 불가능(월드 매치, 레전드 대회, 페스타) (v1.3.1 기준)\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
         },
         "image" : "WarpRing.webp",
         "gadget" : [
@@ -288,9 +288,9 @@
             "kr" : "표시된 수 만큼의 링을 획득합니다."
         },
         "detail" : {
-            "en" : "The Bonus Ring appears only in the \"Special Item Box\". The Bonus Ring appears only 100 rings in the \"Special Item Box\". Not available after v1.3.1.",
-            "jp" : "「ボーナスリング」は 「スペシャルアイテムボックス」にのみ出現します。「スペシャルアイテムボックス」で出現するボーナスリングは100リングのみ出現します。v1.3.1 以降出現しません。",
-            "kr" : "통상적으로는 등장하지 않습니다. 「스페셜 아이템 박스」에서만 등장합니다. 「스페셜 아이템 박스」에서 등장하는 보너스 링은 100링만 등장합니다. v1.3.1 이후 등장하지 않습니다."
+            "en" : "The Bonus Ring appears only in the \"Special Item Box\".\nThe Bonus Ring appears only 100 rings in the \"Special Item Box\".\nSince v1.3.1, it does not appear outside Custom Matches.",
+            "jp" : "「ボーナスリング」は 「スペシャルアイテムボックス」にのみ出現します。\n「スペシャルアイテムボックス」で出現するボーナスリングは100リングのみ出現します。\nv1.3.1 以降、カスタムマッチ以外では出現しません。",
+            "kr" : "통상적으로는 등장하지 않습니다.\n「스페셜 아이템 박스」에서만 등장합니다.\n「스페셜 아이템 박스」에서 등장하는 보너스 링은 100링만 등장합니다.\nv1.3.1 이후 커스텀 매치 이외에는 등장하지 않습니다."
         },
         "image" : "BonusRing.webp",
         "gadget" : [
