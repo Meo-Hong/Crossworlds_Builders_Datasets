@@ -5815,9 +5815,9 @@
                 "kr": "올라운드 키트"
             },
             "description": {
-                "en": "A kit that includes 「Maximum Traction」, 「3x off-road slowdown reduction」, and 「+20 to all stats when in Plane and Boat form」. Increases Handling stat by +10.",
-                "jp": "「グリップ力強化」, 「減速域の減速緩和3倍」, 「空中/水上モードで全パラメーター+20」を内包するキット。ハンドリングパラメーター+10。",
-                "kr": "「접지력 강화」, 「런 오프 구역 감속 완화 3배」, 「공중/수상 모드에서 모든 파라미터 +20」를 포함하는 키트입니다. 핸들링 파라미터 +10 증가합니다. "
+                "en": "A kit that includes 「Maximum Traction」, 「Power Through」, and 「+20 to all stats when in Plane and Boat form」. Increases Handling stat by +10.",
+                "jp": "「グリップ力強化」, 「ランオフごり押し」, 「空中/水上モードで全パラメーター+20」を内包するキット。ハンドリングパラメーター+10。",
+                "kr": "「접지력 강화」, 「런 오프 강행 돌파」, 「공중/수상 모드에서 모든 파라미터 +20」를 포함하는 키트입니다. 핸들링 파라미터 +10 증가합니다. "
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5837,9 +5837,9 @@
                 ]
             },
             "effect": {
-                "en": "「Maximum Traction」 + 「3x off-road slowdown reduction」 + 「+20 to all stats when in Plane and Boat form」 + 「Handling +10」",
-                "jp": "「グリップ力強化」 + 「減速域の減速緩和3倍」 + 「空中/水上モードで全パラメーター+20」 + 「ハンドリング +10」",
-                "kr": "「접지력 강화」 + 「런 오프 구역 감속 완화 3배」 + 「공중/수상 모드에서 모든 파라미터 +20」 + 「핸들링 +10」"
+                "en": "「Maximum Traction」 + 「Power Through」 + 「+20 to all stats when in Plane and Boat form」 + 「Handling +10」",
+                "jp": "「グリップ力強化」 + 「ランオフごり押し」 + 「空中/水上モードで全パラメーター+20」 + 「ハンドリング +10」",
+                "kr": "「접지력 강화」 + 「런 오프 강행 돌파」 + 「공중/수상 모드에서 모든 파라미터 +20」 + 「핸들링 +10」"
             },
             "patch": {
                 "v2.0.0": {
@@ -5865,17 +5865,17 @@
             "kit_include": {
                 "en": [
                     "Maximum Traction",
-                    "Original",
+                    "Power Through",
                     "Original"
                 ],
                 "jp": [
                     "グリップ力強化",
-                    "オリジナル",
+                    "ランオフごり押し",
                     "オリジナル"
                 ],
                 "kr": [
                     "접지력 강화",
-                    "오리지널",
+                    "런 오프 강행 돌파",
                     "오리지널"
                 ]
             }
