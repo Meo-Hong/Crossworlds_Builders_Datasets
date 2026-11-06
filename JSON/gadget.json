@@ -1590,9 +1590,9 @@
                 "kr": "브레이크 차지"
             },
             "description": {
-                "en": "Press the brake while charging to charge faster. While braking, Drift Charge fills 4x faster at all levels.",
-                "jp": "チャージ中にブレーキを踏むとチャージが速く溜まる。ブレーキ中は全段階のドリフトチャージ速度が4倍になります。",
-                "kr": "차지 중에 브레이크를 밟으면 차지가 빠르게 모입니다. 브레이크를 밟는 동안 모든 단계의 드리프트 차지 속도가 4배가 됩니다."
+                "en": "While braking, Drift Charge fills 4x faster at all levels.",
+                "jp": "ブレーキ中は全段階のドリフトチャージ速度が4倍になります。",
+                "kr": "브레이크를 밟는 동안 모든 단계의 드리프트 차지 속도가 4배가 됩니다."
             },
             "gadget_type": "Charge Upgrade",
             "slots": 3,
@@ -1705,9 +1705,9 @@
                 "kr": "방향 전환 퍼펙트"
             },
             "description": {
-                "en": "Keep all of your charge when doing a Counter Drift. The drift charge gauge is not reduced by Counter Drifts.",
-                "jp": "切りかえし時のチャージ消費量が0になります。切りかえしドリフトをしても溜めたチャージゲージが減りません。",
-                "kr": "방향 전환 시의 차지 소모량이 0이 됩니다. 방향 전환 드리프트를 해도 모아 둔 차지 게이지가 줄어들지 않습니다."
+                "en": "Charge consumed by Counter Drifts becomes 0.",
+                "jp": "切りかえし時のチャージ消費量が0になります。",
+                "kr": "방향 전환 시의 차지 소모량이 0이 됩니다."
             },
             "gadget_type": "Charge Upgrade",
             "slots": 2,
@@ -1739,9 +1739,9 @@
                 "kr": "방향 전환 키퍼"
             },
             "description": {
-                "en": "Reduces the charge consumed when Counter Drifting. The drift gauge penalty from Counter Drifts is reduced by 30%.",
-                "jp": "切りかえし時のチャージ消費量が減ります。切りかえしドリフトで減るチャージゲージが30%少なくなります。",
-                "kr": "방향 전환 시의 차지 소모량이 줄어듭니다. 방향 전환 드리프트로 줄어드는 차지 게이지가 30% 감소합니다."
+                "en": "The drift gauge penalty from Counter Drifts is reduced by 30%.",
+                "jp": "切りかえしドリフトで減るチャージゲージが30%少なくなります。",
+                "kr": "방향 전환 드리프트로 줄어드는 차지 게이지가 30% 감소합니다."
             },
             "gadget_type": "Charge Upgrade",
             "slots": 1,

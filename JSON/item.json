@@ -340,8 +340,46 @@
         ]
     },
     {
-        "id" : "item_011",
+        "id" : "item_026",
         "order" : 11,
+        "name" : {
+            "en" : "Double Homing Punch",
+            "jp" : "ダブルホーミングパンチ",
+            "kr" : "더블 호밍 펀치"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Can use \"Homing Punch\" two times.",
+            "jp" : "「ホーミングパンチ」を2回使用できます。",
+            "kr" : "「호밍 펀치」를 2번 사용할 수 있습니다."
+        },
+        "detail" : {
+            "en" : "Double Homing Punch is an item exclusive to \"Duel\" mode.\nIn \"Duel\" mode, this item appears instead of \"Triple Homing Punch\".",
+            "jp" : "「ダブルホーミングパンチ」は「デュエル」モード専用のアイテムです。\n「デュエル」モードでは「トリプルホーミングパンチ」の代わりにこのアイテムが出現します。",
+            "kr" : "「더블 호밍 펀치」는 「듀얼」 모드 전용 아이템입니다.\n「듀얼」 모드에서는 「트리플 호밍 펀치」 대신 이 아이템이 등장합니다."
+        },
+        "image" : "DoubleHomingPunch.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_064",
+            "gadget_080",
+            "gadget_102",
+            "gadget_107",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : []
+    },
+    {
+        "id" : "item_011",
+        "order" : 12,
         "name" : {
             "en" : "Triple Homing Punch",
             "jp" : "トリプルホーミングパンチ",
@@ -379,7 +417,7 @@
     },
     {
         "id" : "item_012",
-        "order" : 12,
+        "order" : 13,
         "name" : {
             "en" : "Rocket Punch",
             "jp" : "ロケットパンチ",
@@ -420,8 +458,47 @@
         ]
     },
     {
+        "id" : "item_027",
+        "order" : 14,
+        "name" : {
+            "en" : "Double Rocket Punch",
+            "jp" : "ダブルロケットパンチ",
+            "kr" : "더블 로켓 펀치"
+        },
+        "type" : ["Attack"],
+        "same_time_count" : "none",
+        "attack" : ["hit"],
+        "damage" : [50],
+        "description" : {
+            "en" : "Can use \"Rocket Punch\" two times.",
+            "jp" : "「ロケットパンチ」を2回使用できます。",
+            "kr" : "「로켓 펀치」를 2번 사용할 수 있습니다." 
+        },
+        "detail" : {
+            "en" : "Double Rocket Punch is an item exclusive to \"Duel\" mode.\nIn \"Duel\" mode, this item appears instead of \"Triple Rocket Punch\".",
+            "jp" : "「ダブルロケットパンチ」は「デュエル」モード専用のアイテムです。\n「デュエル」モードでは「トリプルロケットパンチ」の代わりにこのアイテムが出現します。",
+            "kr" : "「더블 로켓 펀치」는 「듀얼」 모드 전용 아이템입니다.\n「듀얼」 모드에서는 「트리플 로켓 펀치」 대신 이 아이템이 등장합니다."
+        },
+        "image" : "DoubleRocketPunch.webp",
+        "gadget" : [
+            "gadget_003",
+            "gadget_048",
+            "gadget_049",
+            "gadget_050",
+            "gadget_057",
+            "gadget_064",
+            "gadget_072",
+            "gadget_080",
+            "gadget_102",
+            "gadget_107",
+            "gadget_111",
+            "gadget_112"
+        ],
+        "use_exam" : []
+    },
+    {
         "id" : "item_013",
-        "order" : 13,
+        "order" : 15,
         "name" : {
             "en" : "Triple Rocket Punch",
             "jp" : "トリプルロケットパンチ",
@@ -462,7 +539,7 @@
     },
     {
         "id" : "item_014",
-        "order" : 14,
+        "order" : 16,
         "name" : {
             "en" : "Slicer",
             "jp" : "カッター",
@@ -503,7 +580,7 @@
     },
     {
         "id" : "item_015",
-        "order" : 15,
+        "order" : 17,
         "name" : {
             "en" : "Bomb",
             "jp" : "ボム",
@@ -546,7 +623,7 @@
     },
     {
         "id" : "item_016",
-        "order" : 16,
+        "order" : 18,
         "name" : {
             "en" : "King Boomboo",
             "jp" : "キングブーボー",
@@ -590,7 +667,7 @@
     },
     {
         "id" : "item_017",
-        "order" : 17,
+        "order" : 19,
         "name" : {
             "en" : "Slime",
             "jp" : "スライム",
@@ -629,7 +706,7 @@
     },
     {
         "id" : "item_018",
-        "order" : 18,
+        "order" : 20,
         "name" : {
             "en" : "Weight",
             "jp" : "ウェイト",
@@ -668,7 +745,7 @@
     },
     {
         "id" : "item_019",
-        "order" : 19,
+        "order" : 21,
         "name" : {
             "en" : "Darkchao",
             "jp" : "ダークチャオ",
@@ -706,7 +783,7 @@
     },
     {
         "id" : "item_020",
-        "order" : 20,
+        "order" : 22,
         "name" : {
             "en" : "Void",
             "jp" : "ヴォイド",
@@ -746,7 +823,7 @@
     },
     {
         "id" : "item_021",
-        "order" : 21,
+        "order" : 23,
         "name" : {
             "en" : "Shield",
             "jp" : "シールド",
@@ -776,7 +853,7 @@
     },
     {
         "id" : "item_022",
-        "order" : 22,
+        "order" : 24,
         "name" : {
             "en" : "Tornado",
             "jp" : "トルネード",
@@ -816,7 +893,7 @@
     },
     {
         "id" : "item_023",
-        "order" : 23,
+        "order" : 25,
         "name" : {
             "en" : "Spiked Iron Ball",
             "jp" : "トゲ鉄球",
@@ -856,7 +933,7 @@
     },
     {
         "id" : "item_024",
-        "order" : 24,
+        "order" : 26,
         "name" : {
             "en" : "Magnet",
             "jp" : "マグネット",
@@ -896,7 +973,7 @@
     },
     {
         "id" : "item_025",
-        "order" : 25,
+        "order" : 27,
         "name" : {
             "en" : "Mega Buster",
             "jp" : "ロックバスター",
