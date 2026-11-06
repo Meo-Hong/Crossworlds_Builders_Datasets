@@ -1349,7 +1349,7 @@
             "jp": "綾波レイ",
             "kr" : "아야나미 레이"
         },
-        "icon" : "evangelion_icon.png",
+        "icon" : "evangelion_rebuild_icon.png",
         "type": "acceleration",
         "team" : "DLC2",
         "from" : "Evangelion(Rebuild) Series",
@@ -1368,7 +1368,7 @@
             "jp": "式波・アスカ・ラングレー",
             "kr" : "시키나미 아스카 랑그레이"
         },
-        "icon" : "evangelion_icon.png",
+        "icon" : "evangelion_rebuild_icon.png",
         "type": "boost",
         "team" : "DLC2",
         "from" : "Evangelion(Rebuild) Series",

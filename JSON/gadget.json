@@ -5092,25 +5092,25 @@
             "name": {
                 "en": "Gigaton Item Kit",
                 "jp": "ギガトンアイテムキット",
-                "kr": "기간톤 아이템 키트"
+                "kr": "기가톤 아이템 키트"
             },
             "description": {
-                "en": "A kit that upgrades Rocket Punch, Spiked Iron Ball, and Magnet into their giant forms. +20 to all stats during Lap 1.",
-                "jp": "「ロケットパンチ」「トゲ鉄球」「マグネット」を巨大化させるキット。LAP1の間、全パラメーター+20。",
-                "kr": "'로켓 펀치', '가시 철구', '마그넷'을 거대화된 형태로 강화하는 키트입니다. LAP 1 동안 모든 파라미터 +20."
+                "en": "A kit that upgrades 'Rocket Punch', 'Spiked Iron Ball', and 'Magnet' into their giant forms. All stats increase by +20 during Lap 1.",
+                "jp": "「ロケットパンチ」「トゲ鉄球」「マグネット」を巨大化した形態に強化するキットです。LAP1の間、全パラメーターが+20上昇します。",
+                "kr": "'로켓 펀치', '가시 철구', '마그넷'을 거대화된 형태로 강화하는 키트입니다. LAP 1 동안 모든 파라미터 +20 증가합니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
             "image": "gadget_default_kit.png",
             "unlock": {
                 "en": [
-                    "Earn 150 points in \"Godzilla Festival\""
+                    "Earn 120 points in \"Godzilla Festival\""
                 ],
                 "jp": [
-                    "「ゴジラフェスタ」で150ポイント獲得"
+                    "「ゴジラフェスタ」で120ポイント獲得"
                 ],
                 "kr": [
-                    "「고지라 페스타」에서 150 포인트 획득"
+                    "「고지라 페스타」에서 120 포인트 획득"
                 ]
             },
             "effect": {

@@ -562,9 +562,9 @@
             "kr" : "「킹 부부」를 소환하여 선두에 있는 머신을 공격합니다."
         },
         "detail" : {
-            "en" : "King Boom Boo is a wide-area attack that can involve multiple Machines.\nAlso, the attack of King Boom Boo has a spinning effect even if there are rings left, so it can be slowed down.\nYou can avoid the attack of King Boom Boo by using a boost at the right time.",
-            "jp" : "「キングブーブ」は広域攻撃で、複数のマシンに関与できます。\nまた、「キングブーブ」の攻撃は、リングが残っていてもスピンする効果があるため、減速できます。\n適切なタイミングでブーストを使用すると、「キングブーブ」の攻撃を回避できます。",
-            "kr" : "킹 부부를 소환하여 선두에 있는 머신을 공격합니다. 이 공격은 광역 공격이며, 여러 대의 머신이 휘말릴 수 있습니다.\n또한, 킹 부부의 공격은 링이 남아 있어도 스핀하여 감속하는 효과가 있습니다.\n타이밍에 맞춰 부스트를 사용하여 킹 부부의 공격을 회피할 수 있습니다."
+            "en" : "King Boom Boo is a wide-area attack that can involve multiple Machines.\nAlso, the attack of King Boom Boo has a spinning effect even if there are rings left, so it can be slowed down.\nYou can avoid the attack of King Boom Boo by using a boost at the right time.\nYou can also avoid King Boom Boo's attack with the dash from the \"Hit and Run\" gadget.",
+            "jp" : "「キングブーブ」は広域攻撃で、複数のマシンに関与できます。\nまた、「キングブーブ」の攻撃は、リングが残っていてもスピンする効果があるため、減速できます。\n適切なタイミングでブーストを使用すると、「キングブーブ」の攻撃を回避できます。\n「アタックダッシュ」ガジェットのダッシュでも「キングブーブ」の攻撃を回避できます。",
+            "kr" : "킹 부부를 소환하여 선두에 있는 머신을 공격합니다. 이 공격은 광역 공격이며, 여러 대의 머신이 휘말릴 수 있습니다.\n또한, 킹 부부의 공격은 링이 남아 있어도 스핀하여 감속하는 효과가 있습니다.\n타이밍에 맞춰 부스트를 사용하여 킹 부부의 공격을 회피할 수 있습니다.\n「어택 대시」 가젯의 대시로도 킹 부부의 공격을 회피할 수 있습니다."
         },
         "image" : "KingBoomBoo.webp",
         "gadget" : [
