@@ -1728,9 +1728,9 @@
                 "kr": "스타터"
             },
             "description": {
-                "en": "+30 to all stats during Lap 1.",
-                "jp": "LAP1の間、すべてのパラメータを+30。",
-                "kr": "LAP 1 동안 모든 스탯을 30 올립니다."
+                "en": "+40 to all stats during Lap 1. (The in-game description says +30, but the actual effect is +40) (Note: X @thetakappa__)",
+                "jp": "LAP1の間、すべてのパラメータを+40。(ゲーム内の説明では+30と表記されているが、実際の性能は+40)（参考：X @thetakappa__）",
+                "kr": "LAP 1 동안 모든 스탯을 40 올립니다. (인게임 설명에는 +30으로 표기되어 있으나, 실제 성능은 +40) (참고 : X @thetakappa__)"
             },
             "gadget_type": "Power Up",
             "slots": 1,
@@ -1748,17 +1748,17 @@
                 ]
             },
             "effect": {
-                "en": "All stat +30 (during LAP 1)",
-                "jp": "全パラメーター +30 ( LAP 1 の間 )",
-                "kr": "모든 스탯 +30 ( LAP 1 동안 )"
+                "en": "All stat +40 (during LAP 1)",
+                "jp": "全パラメーター +40 ( LAP 1 の間 )",
+                "kr": "모든 스탯 +40 ( LAP 1 동안 )"
             },
             "stat_table": {
                 "LAP1": {
-                    "speed": 30,
-                    "acceleration": 30,
-                    "handling": 30,
-                    "power": 30,
-                    "boost": 30
+                    "speed": 40,
+                    "acceleration": 40,
+                    "handling": 40,
+                    "power": 40,
+                    "boost": 40
                 }
             }
         }
