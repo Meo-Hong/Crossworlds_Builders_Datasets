@@ -357,9 +357,9 @@
             "kr" : "「호밍 펀치」를 2번 사용할 수 있습니다."
         },
         "detail" : {
-            "en" : "Double Homing Punch is an item exclusive to \"Duel\" mode.\nIn \"Duel\" mode, this item appears instead of \"Triple Homing Punch\".",
-            "jp" : "「ダブルホーミングパンチ」は「デュエル」モード専用のアイテムです。\n「デュエル」モードでは「トリプルホーミングパンチ」の代わりにこのアイテムが出現します。",
-            "kr" : "「더블 호밍 펀치」는 「듀얼」 모드 전용 아이템입니다.\n「듀얼」 모드에서는 「트리플 호밍 펀치」 대신 이 아이템이 등장합니다."
+            "en" : "Double Homing Punch is an item exclusive to \"Duel\" mode.\nIn \"Duel\" mode, this item appears instead of \"Triple Homing Punch\".\nIt appears only in the \"Special Item Box\".",
+            "jp" : "「ダブルホーミングパンチ」は「デュエル」モード専用のアイテムです。\n「デュエル」モードでは「トリプルホーミングパンチ」の代わりにこのアイテムが出現します。\n「スペシャルアイテムボックス」にのみ出現します。",
+            "kr" : "「더블 호밍 펀치」는 「듀얼」 모드 전용 아이템입니다.\n「듀얼」 모드에서는 「트리플 호밍 펀치」 대신 이 아이템이 등장합니다.\n「스페셜 아이템 박스」에서만 등장합니다."
         },
         "image" : "DoubleHomingPunch.webp",
         "gadget" : [
