@@ -450,7 +450,8 @@
             "gadget_102",
             "gadget_107",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_134"
         ],
         "use_exam" : [
             "homingpunch1.webp",
@@ -492,7 +493,8 @@
             "gadget_102",
             "gadget_107",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_134"
         ],
         "use_exam" : []
     },
@@ -531,7 +533,8 @@
             "gadget_102",
             "gadget_107",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_134"
         ],
         "use_exam" : [
             "triplepunch1.webp"
@@ -925,7 +928,8 @@
             "gadget_080",
             "gadget_102",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_134"
         ],
         "use_exam" : [
             "spikeball1.webp"
@@ -964,7 +968,8 @@
             "gadget_080",
             "gadget_102",
             "gadget_111",
-            "gadget_112"
+            "gadget_112",
+            "gadget_134"
         ],
         "use_exam" : [
             "magnet1.webp",
