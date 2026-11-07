@@ -526,9 +526,9 @@
                 "kr": "공중 드리프트 자유도 UP"
             },
             "description": {
-                "en": "While in flight form, Air Drifts can turn more sharply. Directional drifts move further. Gain a boost in air drift's direction upon release. (Increased moving distance) In flight form, all Drift Charge levels fill 2.5x faster.",
-                "jp": "エアドリフト中、より鋭く旋回できます。切りかえしドリフト時、従来よりも大きく移動し、ドリフト解除時、ドリフトを切った方向へブーストが発動します。（従来よりも大きな移動幅を持ちます）空中モードでは全段階のドリフトチャージが2.5倍速く溜まります。",
-                "kr": "공중 드리프트 중 더 급격하게 회전할 수 있습니다. 방향 전환 드리프트 시 기존보다 더욱 크게 이동하며, 드리프트 해제 시, 드리프트를 꺾은 방향으로 부스트가 발동합니다. (기존보다 더 큰 이동폭을 가짐) 비행 모드에서는 모든 단계의 드리프트 차지가 2.5배 빠르게 모입니다."
+                "en": "In flight form, Air Drifts curve very widely. Trigger a Charge Dash in the air drift's direction upon release. In flight form, all Drift Charge levels fill 2.5x faster.",
+                "jp": "飛行形態のエアドリフトが非常に大きく曲がります。ドリフト解除時、ドリフトを切った方向へチャージダッシュが発動します。空中モードでは全段階のドリフトチャージが2.5倍速く溜まります。",
+                "kr": "비행 형태의 공중 드리프트가 굉장히 크게 휘어집니다. 드리프트 해제 시, 드리프트를 꺾은 방향으로 차지 대시가 발동합니다. 비행 모드에서는 모든 단계의 드리프트 차지가 2.5배 빠르게 모입니다."
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
@@ -545,9 +545,9 @@
                 ]
             },
             "effect": {
-                "en": "Increases the angle of air drift. (more sharply) + Gain a boost in air drift's direction upon release + 2.5x charge speed at all levels in flight form",
-                "jp": "空中ドリフトの回転角の増加 (より急に) + ドリフト解除時、ドリフトした方向へチャージダッシュ発動 + 空中モードで全段階のチャージ速度2.5倍",
-                "kr": "공중 드리프트의 회전각도 증가 (더 급격하게) + 드리프트 해제 시 드리프트한 방향으로 차지 대시 발동 + 비행 모드에서 모든 단계의 차지 속도 2.5배"
+                "en": "Air Drifts curve very widely in flight form + Trigger a Charge Dash in the air drift's direction upon release + 2.5x charge speed at all levels in flight form",
+                "jp": "飛行形態の空中ドリフトが非常に大きく曲がる + ドリフト解除時、ドリフトした方向へチャージダッシュ発動 + 空中モードで全段階のチャージ速度2.5倍",
+                "kr": "비행 형태의 공중 드리프트가 굉장히 크게 휘어짐 + 드리프트 해제 시 드리프트한 방향으로 차지 대시 발동 + 비행 모드에서 모든 단계의 차지 속도 2.5배"
             },
             "stat_table": null
         },
@@ -1846,9 +1846,9 @@
                 "kr": "낙하 시 부스트 리커버"
             },
             "description": {
-                "kr": "코스에서 떨어져서 복귀하면 '부스트'와 '더블 부스트'를 획득합니다. ('더블 부스트'는 2번 가속할 수 있는 아이템)",
-                "en": "After falling off course, get a 'Boost' and a 'Double Boost'. ('Double Boost' is an item that lets you boost twice.)",
-                "jp": "コースから落下した後、'ブースト'と'ダブルブースト'を獲得する。('ダブルブースト'は2回加速できるアイテム)"
+                "kr": "코스에서 떨어져서 복귀하면 '부스트'와 '더블 부스트'를 획득합니다.",
+                "en": "After falling off course, get a 'Boost' and a 'Double Boost'.",
+                "jp": "コースから落下した後、'ブースト'と'ダブルブースト'を獲得する。"
             },
             "gadget_type": "Support",
             "slots": 1,
@@ -2149,9 +2149,9 @@
                 "kr": "처음부터 부스트"
             },
             "description": {
-                "kr": "'부스트'를 가지고 레이스를 시작하며, 위스프 아이템의 등장 확률이 5배 증가합니다. (대시 +20)",
-                "en": "Start the race with 'Boost', and Wisp items appear more often. (5x increase in appearance rate) (Boost +20)",
-                "jp": "'ブースト'を持ってレースを始め、ウィスプアイテムの出現率が5倍に増加する。 (ダッシュ +20)"
+                "kr": "'부스트'를 가지고 레이스를 시작하며, '부스트'의 등장 확률이 5배 증가합니다. (대시 +20)",
+                "en": "Start the race with 'Boost', and 'Boost' appears more often. (5x increase in appearance rate) (Boost +20)",
+                "jp": "'ブースト'を持ってレースを始め、'ブースト'の出現率が5倍に増加する。 (ダッシュ +20)"
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 1,
@@ -2168,9 +2168,9 @@
                 ]
             },
             "effect": {
-                "kr": "'부스트'를 가지고 레이스 시작 + 위스프 등장 확률 5배 증가, 대시 +20",
-                "en": "Start the race with 'Boost' + Wisp appearance rate increased (5x increase), Boost +20",
-                "jp": "'ブースト'を持ってレース開始 + ウィスプ出現率5倍増加, ダッシュ +20"
+                "kr": "'부스트'를 가지고 레이스 시작 + '부스트' 등장 확률 5배 증가, 대시 +20",
+                "en": "Start the race with 'Boost' + 'Boost' appearance rate increased (5x increase), Boost +20",
+                "jp": "'ブースト'を持ってレース開始 + 'ブースト'出現率5倍増加, ダッシュ +20"
             },
             "stat_table": {
                 "not": {
@@ -2190,9 +2190,9 @@
                 "kr": "처음부터 다크챠오"
             },
             "description": {
-                "kr": "'다크챠오'를 가지고 레이스를 시작하며, '다크챠오'의 등장 확률이 5배 증가합니다. (모든 파라미터 +4)",
-                "en": "Start the race with 'Dark Chao', and 'Dark Chao' appears more often. (5x increase in appearance rate) (All stats +4)",
-                "jp": "'ダークチャオ'を持ってレースを始め、'ダークチャオ'の出現率が5倍に増加する。 (全パラメーター +4)"
+                "kr": "'다크챠오'를 가지고 레이스를 시작합니다. (모든 파라미터 +4)",
+                "en": "Start the race with 'Dark Chao'. (All stats +4)",
+                "jp": "'ダークチャオ'を持ってレースを始める。 (全パラメーター +4)"
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 1,
@@ -2209,9 +2209,9 @@
                 ]
             },
             "effect": {
-                "kr": "'다크챠오'를 가지고 레이스 시작 + 다크챠오 등장 확률 5배 증가, 모든 파라미터 +4",
-                "en": "Start the race with 'Dark Chao' + Dark Chao appearance rate increased (5x increase), All stats +4",
-                "jp": "'ダークチャオ'を持ってレース開始 + ダークチャオ出現率5倍増加, 全パラメーター +4"
+                "kr": "'다크챠오'를 가지고 레이스 시작, 모든 파라미터 +4",
+                "en": "Start the race with 'Dark Chao', All stats +4",
+                "jp": "'ダークチャオ'を持ってレース開始, 全パラメーター +4"
             },
             "stat_table": {
                 "not": {
@@ -2231,9 +2231,9 @@
                 "kr": "로켓 펀치 거대화"
             },
             "description": {
-                "en": "'Rocket Punch' becomes bigger and appears more often. (2.5x increase in size, 10x increase in appearance rate) (Lock-on range 1.8x) (Handling +15)",
-                "jp": "'ロケットパンチ'が2.5倍大きくなり合わせやすくなり、登場確率が10倍増加します。 ('ホーミングパンチ'は巨大化しない。) (ロックオン範囲1.8倍) (ハンドリング +15)",
-                "kr": "'로켓 펀치'가 2.5배 커지고, 등장 확률이 10배 증가합니다. ('호밍 펀치'는 거대화하지 않습니다.) (록온 범위 1.8배) (핸들링 +15)"
+                "en": "'Rocket Punch' becomes bigger, its lock-on range widens, and it appears more often. (2.5x increase in size, 1.8x lock-on range, 10x increase in appearance rate) (Handling +15)",
+                "jp": "'ロケットパンチ'が2.5倍大きくなり合わせやすくなり、ロックオン範囲が1.8倍に広がり、登場確率が10倍増加します。 ('ホーミングパンチ'は巨大化しない。) (ハンドリング +15)",
+                "kr": "'로켓 펀치'가 2.5배 커지고 록온 범위가 1.8배 넓어지며, 등장 확률이 10배 증가합니다. ('호밍 펀치'는 거대화하지 않습니다.) (핸들링 +15)"
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 1,
@@ -2250,9 +2250,9 @@
                 ]
             },
             "effect": {
-                "en": "'Rocket Punch' becomes bigger (2.5x increase in size), appearance rate increased (10x increase) (Lock-on range 1.8x), Handling +15",
-                "jp": "'ロケットパンチ'の2.5倍巨大化, 登場確率10倍増加 (ロックオン範囲1.8倍), ハンドリング +15",
-                "kr": "'로켓 펀치' 2.5배 거대화, 등장 확률 10배 증가 (록온 범위 1.8배), 핸들링 +15"
+                "en": "'Rocket Punch' becomes bigger (2.5x increase in size), lock-on range 1.8x, appearance rate increased (10x increase), Handling +15",
+                "jp": "'ロケットパンチ'の2.5倍巨大化, ロックオン範囲1.8倍, 登場確率10倍増加, ハンドリング +15",
+                "kr": "'로켓 펀치' 2.5배 거대화, 록온 범위 1.8배, 등장 확률 10배 증가, 핸들링 +15"
             },
             "stat_table": {
                 "not": {

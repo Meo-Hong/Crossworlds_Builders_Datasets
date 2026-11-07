@@ -562,9 +562,9 @@
             },
             "patch": {
                 "v1.4.1": {
-                    "en": "Adjusted the combined effect of Ring Engine + Hyper Ring Engine (Max speed increase changed to '11km/h → 9km/h', fixed an issue where having fewer Rings would increase stats drastically)",
-                    "jp": "リングエンジン + ハイパーリングエンジン 組み合わせ時の効果を調整 (最高速度の上昇量を「11km/h → 9km/h」に変更、リング数が少ない状態でパラメータが過剰に上昇していた問題を修正)",
-                    "kr": "링 엔진 + 하이퍼 링 엔진 조합 시 효과 조정 (최고 속도 상승량을 '11km/h → 9km/h'로 변경, 링이 적은 상태에서 성능이 과도하게 상승하던 문제 수정)"
+                    "en": "Adjusted the combined effect of Ring Engine + Hyper Ring Engine (Max speed increase adjusted '11km/h → 9km/h', fixed an issue where having fewer Rings would increase stats drastically)",
+                    "jp": "リングエンジン + ハイパーリングエンジン 組み合わせ時の効果を調整 (最高速度上昇量 調整「11km/h → 9km/h」、リング数が少ない状態でパラメータが過剰に上昇していた問題を修正)",
+                    "kr": "링 엔진 + 하이퍼 링 엔진 조합 시 효과 조정 (최고속도 상승량 조정 '11km/h → 9km/h', 링이 적은 상태에서 성능이 과도하게 상승하던 문제 수정)"
                 },
                 "v2.0.0": {
                     "kr": "링 1개 이상 보유 시 파라미터 상승량 조정 ( +12 → +8 )\n최고속도 상승량 조정 ( +3km/h → +2km/h ), 링 개수에 따라 상승량이 달라지도록 변경\n타임 트라이얼에서는 최고속도 +2km/h 고정 상승 ( +3km/h → +2km/h )"
@@ -613,9 +613,9 @@
             },
             "patch": {
                 "v1.4.1": {
-                    "en": "Fixed a bug where the maximum speed increase was not applied when used alone\nMaximum speed bonus adjusted ( +8km/h → +4km/h )\nAdjusted the combined effect of Ring Engine + Hyper Ring Engine (Max speed increase changed to '11km/h → 9km/h', fixed an issue where having fewer Rings would increase stats drastically)",
-                    "jp": "単独使用時に最高速度上昇が適用されない不具合を修正\n最高速度ボーナス 調整 ( +8km/h → +4km/h )\nリングエンジン + ハイパーリングエンジン 組み合わせ時の効果を調整 (最高速度の上昇量を「11km/h → 9km/h」に変更、リング数が少ない状態でパラメータが過剰に上昇していた問題を修正)",
-                    "kr": "단독 사용 시, 최고속도 증가가 적용되지 않는 버그 수정\n최고속도 보너스 조정 ( +8km/h → +4km/h )\n링 엔진 + 하이퍼 링 엔진 조합 시 효과 조정 (최고 속도 상승량을 '11km/h → 9km/h'로 변경, 링이 적은 상태에서 성능이 과도하게 상승하던 문제 수정)"
+                    "en": "Fixed a bug where the maximum speed increase was not applied when used alone\nMax speed increase adjusted ( +8km/h → +4km/h )\nAdjusted the combined effect of Ring Engine + Hyper Ring Engine (Max speed increase adjusted '11km/h → 9km/h', fixed an issue where having fewer Rings would increase stats drastically)",
+                    "jp": "単独使用時に最高速度上昇が適用されない不具合を修正\n最高速度上昇量 調整 ( +8km/h → +4km/h )\nリングエンジン + ハイパーリングエンジン 組み合わせ時の効果を調整 (最高速度上昇量 調整「11km/h → 9km/h」、リング数が少ない状態でパラメータが過剰に上昇していた問題を修正)",
+                    "kr": "단독 사용 시, 최고속도 증가가 적용되지 않는 버그 수정\n최고속도 상승량 조정 ( +8km/h → +4km/h )\n링 엔진 + 하이퍼 링 엔진 조합 시 효과 조정 (최고속도 상승량 조정 '11km/h → 9km/h', 링이 적은 상태에서 성능이 과도하게 상승하던 문제 수정)"
                 },
                 "v2.0.0": {
                     "kr": "최고속도 상승량 조정 ( +4km/h → +3km/h ), 링 개수에 따라 상승량이 달라지도록 변경\n링 엔진과 함께 장착 시 최고속도 +2km/h 추가 상승 효과 삭제"
@@ -957,9 +957,9 @@
                 "kr": "공중 드리프트 자유도 UP"
             },
             "description": {
-                "en": "While in flight form, Air Drifts can turn more sharply. Directional drifts move further. Gain a boost in air drift's direction upon release. (Increased moving distance) In flight form, all Drift Charge levels fill 1.7x faster.",
-                "jp": "エアドリフト中、より鋭く旋回できます。切りかえしドリフト時、従来よりも大きく移動し、ドリフト解除時、ドリフトを切った方向へブーストが発動します。（従来よりも大きな移動幅を持ちます）空中モードでは全段階のドリフトチャージが1.7倍速く溜まります。",
-                "kr": "공중 드리프트 중 더 급격하게 회전할 수 있습니다. 방향 전환 드리프트 시 기존보다 더욱 크게 이동하며, 드리프트 해제 시, 드리프트를 꺾은 방향으로 부스트가 발동합니다. (기존보다 더 큰 이동폭을 가짐) 비행 모드에서는 모든 단계의 드리프트 차지가 1.7배 빠르게 모입니다."
+                "en": "In flight form, Air Drifts curve widely. Trigger a Charge Dash in the air drift's direction upon release. In flight form, all Drift Charge levels fill 1.7x faster.",
+                "jp": "飛行形態のエアドリフトが大きく曲がります。ドリフト解除時、ドリフトを切った方向へチャージダッシュが発動します。空中モードでは全段階のドリフトチャージが1.7倍速く溜まります。",
+                "kr": "비행 형태의 공중 드리프트가 크게 휘어집니다. 드리프트 해제 시, 드리프트를 꺾은 방향으로 차지 대시가 발동합니다. 비행 모드에서는 모든 단계의 드리프트 차지가 1.7배 빠르게 모입니다."
             },
             "gadget_type": "Technique Upgrade",
             "slots": 1,
@@ -976,9 +976,9 @@
                 ]
             },
             "effect": {
-                "en": "Increases the angle of air drift. (more sharply) + Gain a boost in air drift's direction upon release + 1.7x charge speed at all levels in flight form",
-                "jp": "空中ドリフトの回転角の増加 (より急に) + ドリフト解除時、ドリフトした方向へチャージダッシュ発動 + 空中モードで全段階のチャージ速度1.7倍",
-                "kr": "공중 드리프트의 회전각도 증가 (더 급격하게) + 드리프트 해제 시 드리프트한 방향으로 차지 대시 발동 + 비행 모드에서 모든 단계의 차지 속도 1.7배"
+                "en": "Air Drifts curve widely in flight form + Trigger a Charge Dash in the air drift's direction upon release + 1.7x charge speed at all levels in flight form",
+                "jp": "飛行形態の空中ドリフトが大きく曲がる + ドリフト解除時、ドリフトした方向へチャージダッシュ発動 + 空中モードで全段階のチャージ速度1.7倍",
+                "kr": "비행 형태의 공중 드리프트가 크게 휘어짐 + 드리프트 해제 시 드리프트한 방향으로 차지 대시 발동 + 비행 모드에서 모든 단계의 차지 속도 1.7배"
             },
             "patch": {
                 "v2.0.0": {
@@ -3159,9 +3159,9 @@
                 "kr": "낙하 시 부스트 리커버"
             },
             "description": {
-                "en": "After falling off course, get a 'Double Boost'. ('Double Boost' is an item that lets you boost twice. Can get 2 Double Boost items if you use the Damage Support Kit simultaneously.)",
-                "jp": "コースから落下した後、'ダブルブースト'を獲得する。('ダブルブースト'は2回加速できるアイテムで、ダメージサポートキットと重複すると、'ダブルブースト'を2つ獲得できる。)",
-                "kr": "코스에서 떨어져서 복귀하면 더블 부스트를 획득합니다. ('더블 부스트'는 2번 가속할 수 있는 아이템이며, 대미지 서포트 키트와 중복해 '더블 부스트' 2개 획득 가능)"
+                "en": "After falling off course, get a 'Double Boost'. (Can get 2 Double Boost items if you use the Damage Support Kit simultaneously.)",
+                "jp": "コースから落下した後、'ダブルブースト'を獲得する。(ダメージサポートキットと重複すると、'ダブルブースト'を2つ獲得できる。)",
+                "kr": "코스에서 떨어져서 복귀하면 '더블 부스트'를 획득합니다. (대미지 서포트 키트와 중복해 '더블 부스트' 2개 획득 가능)"
             },
             "gadget_type": "Support",
             "slots": 1,
@@ -4052,7 +4052,7 @@
             "description": {
                 "en": "Start the race with 'Dark Chao'.",
                 "jp": "'ダークチャオ'を持ってレースを始める。",
-                "kr": "'다크차오'를 가지고 레이스를 시작합니다."
+                "kr": "'다크챠오'를 가지고 레이스를 시작합니다."
             },
             "gadget_type": "Upgrade/Add Item",
             "slots": 1,
