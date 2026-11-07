@@ -5945,9 +5945,9 @@
                 "kr": "후반 추격 키트"
             },
             "description": {
-                "en": "A kit for that increases the maximum number of Rings held at 130. Grants 2 items on Lap 3.",
-                "jp": "最大130個のリングを保持でき、LAP 3で2つのアイテムを獲得するキット。",
-                "kr": "최대 130개의 링을 보유할 수 있고, LAP 3에서 2개의 아이템을 획득하는 키트입니다."
+                "en": "A kit that includes 「130 Ring Limit」 and 「Gain 2 items at the start of Lap 3」.",
+                "jp": "「リング上限130」, 「LAP3開始時にアイテムを2つ獲得」を内包するキット。",
+                "kr": "「링 상한 130」, 「LAP3 시작 시 아이템을 2개 획득」을 포함하는 키트입니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5967,9 +5967,9 @@
                 ]
             },
             "effect": {
-                "en": "Hold up to 130 Rings, get 2 items on LAP 3",
-                "jp": "最大130個のリングを保有、LAP3開始時にアイテムを2個獲得",
-                "kr": "최대 130개 링 보유, LAP 3 시작 시 아이템 2개 획득"
+                "en": "「130 Ring Limit」 + 「Gain 2 items at the start of Lap 3」",
+                "jp": "「リング上限130」 + 「LAP3開始時にアイテムを2つ獲得」",
+                "kr": "「링 상한 130」 + 「LAP3 시작 시 아이템을 2개 획득」"
             },
             "patch": {
                 "v2.0.0": {
@@ -5979,15 +5979,15 @@
             "stat_table": null,
             "kit_include": {
                 "en": [
-                    "Original",
+                    "130 Ring Limit",
                     "Original"
                 ],
                 "jp": [
-                    "オリジナル",
+                    "リング上限130",
                     "オリジナル"
                 ],
                 "kr": [
-                    "오리지널",
+                    "링 상한 130",
                     "오리지널"
                 ]
             }
