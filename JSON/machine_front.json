@@ -650,11 +650,11 @@
             "type" : "front",
             "series" : "SegaSaturn_JP",
             "stats" : {
-                "speed" : 15,
+                "speed" : 14,
                 "acceleration" : 20,
-                "handling" : 7,
-                "power" : 13,
-                "boost" : 5
+                "handling" : 8,
+                "power" : 12,
+                "boost" : 6
             },
             "unlock" : {
                 "en" : "Purchased Season Pass 2",
@@ -1296,7 +1296,7 @@
                 "acceleration" : 9,
                 "handling" : 6,
                 "power" : 16,
-                "boost" : 14
+                "boost" : 15
             },
             "unlock" : {
                 "en" : "Purchase with 'Teenage Mutant Ninja Turtles DLC'",
@@ -1318,7 +1318,7 @@
                 "acceleration" : 10,
                 "handling" : 7,
                 "power" : 16,
-                "boost" : 13
+                "boost" : 14
             },
             "unlock" : {
                 "en" : "Free Update",
