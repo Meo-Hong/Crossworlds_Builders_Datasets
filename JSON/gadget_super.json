@@ -1920,9 +1920,9 @@
                 "kr": "퀵 리커버 미니"
             },
             "description": {
-                "en": "Recover a little faster after being attacked. (Normal hit stun 45f, 22f for Acceleration type / Recover from being squished 50% quicker) (Note: X @thetakappa__)",
-                "jp": "攻撃を受けた後、少し早く動けるようになる。(通常被弾時の硬直時間 45f、アクセルタイプは22f / 圧縮された時、回復速度50%増加)（参考：X @thetakappa__）",
-                "kr": "공격을 받은 후 조금 빨리 움직일 수 있게 됩니다. (일반 피격 시 경직 시간 45f, 액셀 타입은 22f / 짓눌리는 공격에 대해서는 회복 속도 50% 증가) (참고 : X @thetakappa__)"
+                "en": "Hit stun after being attacked is shortened by 50%. (Normal hit stun 45f, 22f for Acceleration type) (Note: X @thetakappa__)",
+                "jp": "攻撃を受けた後の被弾硬直時間が50%短縮される。(通常被弾時の硬直時間 45f、アクセルタイプは22f)（参考：X @thetakappa__）",
+                "kr": "공격을 받은 후 피격 경직 시간이 50% 단축됩니다. (일반 피격 시 경직 시간 45f, 액셀 타입은 22f) (참고 : X @thetakappa__)"
             },
             "gadget_type": "Support",
             "slots": 1,
@@ -1940,9 +1940,9 @@
                 ]
             },
             "effect": {
-                "en": "Shorter hit stun (45f, 22f for Acceleration type / 50% increase in recovery speed when being squished)",
-                "jp": "被弾硬直時間短縮 (45f、アクセルタイプ22f / 圧縮された時、回復速度50%増加)",
-                "kr": "피격 경직 시간 단축 (45f, 액셀 타입 22f / 짓눌리는 공격에 대해서는 회복 속도 50% 증가)"
+                "en": "50% shorter hit stun (45f, 22f for Acceleration type)",
+                "jp": "被弾硬直時間50%短縮 (45f、アクセルタイプ22f)",
+                "kr": "피격 경직 시간 50% 단축 (45f, 액셀 타입 22f)"
             },
             "patch": {},
             "stat_table": null

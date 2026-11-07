@@ -3391,9 +3391,9 @@
                 "kr": "퀵 리커버"
             },
             "description": {
-                "en": "Shortens hit stun from most item attacks. (Normal hit stun 7f, 6f for Acceleration type / Recover from being squished 97% quicker)",
-                "jp": "ほとんどのアイテム攻撃に対して被弾硬直時間を短縮します。(通常被弾時の硬直時間 7f、アクセルタイプは6f / 粉砕攻撃に対しては回復速度97%増加)",
-                "kr": "대부분의 아이템 공격에 대해 피격 경직 시간을 단축합니다. (일반 피격 시 경직 시간 7f, 액셀 타입은 6f / 짓눌리는 공격에 대해서는 회복 속도 97% 증가)"
+                "en": "Hit stun after being attacked is shortened by 92%. (Normal hit stun 7f, 6f for Acceleration type) (Note: X @thetakappa__)",
+                "jp": "攻撃を受けた後の被弾硬直時間が92%短縮される。(通常被弾時の硬直時間 7f、アクセルタイプは6f)（参考：X @thetakappa__）",
+                "kr": "공격을 받은 후 피격 경직 시간이 92% 단축됩니다. (일반 피격 시 경직 시간 7f, 액셀 타입은 6f) (참고 : X @thetakappa__)"
             },
             "gadget_type": "Support",
             "slots": 3,
@@ -3410,9 +3410,9 @@
                 ]
             },
             "effect": {
-                "en": "Shorter hit stun (7f, 6f for Acceleration type / 97% increase in recovery speed when being squished)",
-                "jp": "被弾硬直時間短縮 (7f、アクセルタイプ6f / 圧縮された時、回復速度97%増加)",
-                "kr": "피격 경직 시간 단축 (7f, 액셀 타입 6f / 짓눌리는 공격에 대해서는 회복 속도 97% 증가)"
+                "en": "92% shorter hit stun (7f, 6f for Acceleration type)",
+                "jp": "被弾硬直時間92%短縮 (7f、アクセルタイプ6f)",
+                "kr": "피격 경직 시간 92% 단축 (7f, 액셀 타입 6f)"
             },
             "patch": {
                 "v1.2.0":{
@@ -3431,9 +3431,9 @@
                 "kr": "퀵 리커버 미니"
             },
             "description": {
-                "en": "Recover a little faster after being attacked. (Normal hit stun 55f, 26f for Acceleration type / Recover from being squished 40% quicker) (Note: X @thetakappa__)",
-                "jp": "攻撃を受けた後、少し早く動けるようになる。(通常被弾時の硬直時間 55f、アクセルタイプは26f / 圧縮された時、回復速度40%増加)（参考：X @thetakappa__）",
-                "kr": "공격을 받은 후 조금 빨리 움직일 수 있게 됩니다. (일반 피격 시 경직 시간 55f, 액셀 타입은 26f / 짓눌리는 공격에 대해서는 회복 속도 40% 증가) (참고 : X @thetakappa__)"
+                "en": "Hit stun after being attacked is shortened by 40%. (Normal hit stun 55f, 26f for Acceleration type) (Note: X @thetakappa__)",
+                "jp": "攻撃を受けた後の被弾硬直時間が40%短縮される。(通常被弾時の硬直時間 55f、アクセルタイプは26f)（参考：X @thetakappa__）",
+                "kr": "공격을 받은 후 피격 경직 시간이 40% 단축됩니다. (일반 피격 시 경직 시간 55f, 액셀 타입은 26f) (참고 : X @thetakappa__)"
             },
             "gadget_type": "Support",
             "slots": 1,
@@ -3451,9 +3451,9 @@
                 ]
             },
             "effect": {
-                "en": "Shorter hit stun (55f, 26f for Acceleration type / 40% increase in recovery speed when being squished)",
-                "jp": "被弾硬直時間短縮 (55f、アクセルタイプ26f / 圧縮された時、回復速度40%増加)",
-                "kr": "피격 경직 시간 단축 (55f, 액셀 타입 26f / 짓눌리는 공격에 대해서는 회복 속도 40% 증가)"
+                "en": "40% shorter hit stun (55f, 26f for Acceleration type)",
+                "jp": "被弾硬直時間40%短縮 (55f、アクセルタイプ26f)",
+                "kr": "피격 경직 시간 40% 단축 (55f, 액셀 타입 26f)"
             },
             "patch": {},
             "stat_table": null
@@ -4337,8 +4337,8 @@
             },
             "effect": {
                 "en": "「Lv1 Quick Charge」 + 「Lv2 Quick Charge」 + 「Handling +3」",
-                "jp": "「ファーストファストチャージ」 + 「セカンドファストチャージ」 + 「ハンドリング+3 増加」",
-                "kr": "「퍼스트 패스트 차지」 + 「세컨드 패스트 차지」 + 「핸들링 +3 증가」"
+                "jp": "「ファーストファストチャージ」 + 「セカンドファストチャージ」 + 「ハンドリング +3」",
+                "kr": "「퍼스트 패스트 차지」 + 「세컨드 패스트 차지」 + 「핸들링 +3」"
             },
             "kit_include": {
                 "en": [
@@ -4486,7 +4486,7 @@
             "effect": {
                 "en": "「Ring Range UP」 + 「Ring Gain Mini Boost」 + 「stat adjustment if Speed Machine」",
                 "jp": "「リング獲得範囲アップ」 + 「リングゲットダッシュミニ」 + 「スピードマシンの場合はパラメーター調整」",
-                "kr": "「링 획득 범위 증가」 + 「링 획득 대시 미니」 + 「스피드 머신일 경우 파라미터 조정」"
+                "kr": "「링 획득 범위 UP」 + 「링 획득 대시 미니」 + 「스피드 머신일 경우 파라미터 조정」"
             },
             "patch": {
                 "v1.4.1": {
@@ -4514,7 +4514,7 @@
                     "リングゲットダッシュミニ"
                 ],
                 "kr": [
-                    "링 획득 범위 증가",
+                    "링 획득 범위 UP",
                     "링 획득 대시 미니"
                 ]
             }
@@ -4527,9 +4527,9 @@
                 "kr": "액셀 머신 키트"
             },
             "description": {
-                "en": "A kit that includes 「Hit Stun Reduction」. (Normal hit stun 13f, 6f for Acceleration type / Recover from being squished 70% quicker) Acceleration Machines get stat adjustments.",
-                "jp": "「被弾硬直時間短縮」を内包する。(通常被弾時の硬直時間 13f、アクセルタイプは6f / 圧縮された時、回復速度70%増加) アクセルマシンはステータス調整を受ける。",
-                "kr": "「피격 경직 시간 단축」을 포함하는 키트입니다. (일반 피격 시 경직 시간 13f, 액셀 타입은 6f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가) 액셀 머신은 스탯 조정을 받습니다."
+                "en": "A kit that includes 「Quick Recovery」. (86% shorter hit stun, normal hit stun 13f, 6f for Acceleration type) Acceleration Machines get stat adjustments.",
+                "jp": "「クイックリカバー」を内包するキット。（被弾硬直時間86%短縮、通常被弾時の硬直時間 13f、アクセルタイプは6f） アクセルマシンはステータス調整を受ける。",
+                "kr": "「퀵 리커버」를 포함하는 키트입니다. (피격 경직 시간 86% 단축, 일반 피격 시 경직 시간 13f, 액셀 타입은 6f) 액셀 머신은 스탯 조정을 받습니다."
             },
             "gadget_type": "Machine Type Kit",
             "slots": 3,
@@ -4546,9 +4546,9 @@
                 ]
             },
             "effect": {
-                "en": "「Hit Stun Reduction (13f, 6f for Acceleration type / 70% increase in recovery speed when being squished)」 + 「Acceleration Machine stat adjustment」",
-                "jp": "「被弾硬直時間短縮 (13f、アクセルタイプ6f / 圧縮された時、回復速度70%増加)」 + 「アクセルマシンの場合はパラメーター調整」",
-                "kr": "「피격 경직 시간 단축 (13f, 액셀 타입 6f / 짓눌리는 공격에 대해서는 회복 속도 70% 증가)」 + 「액셀 머신일 경우 파라미터 조정」"
+                "en": "「Quick Recovery」(86% shorter hit stun, 13f, 6f for Acceleration type) + 「Acceleration Machine stat adjustment」",
+                "jp": "「クイックリカバー」（被弾硬直時間86%短縮、13f、アクセルタイプ6f） + 「アクセルマシンの場合はパラメーター調整」",
+                "kr": "「퀵 리커버」(피격 경직 시간 86% 단축, 13f, 액셀 타입 6f) + 「액셀 머신일 경우 파라미터 조정」"
             },
             "patch": {
                 "v1.4.1": {
@@ -4576,13 +4576,13 @@
             },
             "kit_include": {
                 "en": [
-                    "Original"
+                    "Quick Recovery"
                 ],
                 "jp": [
-                    "オリジナル"
+                    "クイックリカバー"
                 ],
                 "kr": [
-                    "오리지널"
+                    "퀵 리커버"
                 ]
             }
         },
@@ -4635,7 +4635,7 @@
             },
             "kit_include": {
                 "en": [
-                    "Ultimate charge"
+                    "Ultimate Charge"
                 ],
                 "jp": [
                     "アルティメットチャージ"
@@ -4833,7 +4833,7 @@
             "description": {
                 "en": "A kit that includes 「Ring Gain Boost」, 「Slipstream Bounty」. Acceleration characters get stat adjustments.",
                 "jp": "「リングゲットダッシュ」, 「スリップストリームボーナス」を内包するキャラキット。アクセルタイプのキャラクターはステータス調整を受ける。",
-                "kr": "「링 획득 대시」, 「슬립 스트림 보너스」를 포함하는 캐릭터 키트입니다. 액셀 타입의 캐릭터는 스탯 조정을 받습니다."
+                "kr": "「링 획득 대시」, 「슬립스트림 보너스」를 포함하는 캐릭터 키트입니다. 액셀 타입의 캐릭터는 스탯 조정을 받습니다."
             },
             "gadget_type": "Character Type Kit",
             "slots": 3,
@@ -5095,9 +5095,9 @@
                 "kr": "기가톤 아이템 키트"
             },
             "description": {
-                "en": "A kit that upgrades 'Rocket Punch', 'Spiked Iron Ball', and 'Magnet' into their giant forms. All stats increase by +20 during Lap 1.",
-                "jp": "「ロケットパンチ」「トゲ鉄球」「マグネット」を巨大化した形態に強化するキットです。LAP1の間、全パラメーターが+20上昇します。",
-                "kr": "'로켓 펀치', '가시 철구', '마그넷'을 거대화된 형태로 강화하는 키트입니다. LAP 1 동안 모든 파라미터 +20 증가합니다."
+                "en": "A kit that makes 'Rocket Punch' and 'Spiked Iron Ball' giant and doubles the effect radius of 'Magnet'. All stats increase by +20 during Lap 1.",
+                "jp": "「ロケットパンチ」「トゲ鉄球」を巨大化し、「マグネット」の効果範囲を2倍に広げるキットです。LAP1の間、全パラメーターが+20上昇します。",
+                "kr": "'로켓 펀치', '가시 철구'를 거대화하고 '마그넷'의 효과 범위를 2배로 넓히는 키트입니다. LAP 1 동안 모든 파라미터 +20 증가합니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5114,9 +5114,9 @@
                 ]
             },
             "effect": {
-                "en": "「Giant Rocket Punch」 + 「Giant Spiked Iron Ball」 + Giant Magnet + 「Quick Starter」",
-                "jp": "「ロケットパンチ巨大化」 + 「トゲ鉄球巨大化」 + マグネット巨大化 + 「スターター」",
-                "kr": "「로켓 펀치 거대화」 + 「가시 철구 거대화」 + 마그넷 거대화 + 「스타터」"
+                "en": "「Giant Rocket Punch」 + 「Giant Spiked Iron Ball」 + 「Giant Magnet Range」(2x effect radius) + 「Quick Starter」",
+                "jp": "「ロケットパンチ巨大化」 + 「トゲ鉄球巨大化」 + 「マグネット範囲巨大化」（効果範囲2倍） + 「スターター」",
+                "kr": "「로켓 펀치 거대화」 + 「가시 철구 거대화」 + 「마그넷 범위 거대화」(효과 반경 2배) + 「스타터」"
             },
             "patch": {},
             "stat_table": {
@@ -5132,19 +5132,19 @@
                 "en": [
                     "Giant Rocket Punch",
                     "Giant Spiked Iron Ball",
-                    "Original",
+                    "Giant Magnet Range",
                     "Quick Starter"
                 ],
                 "jp": [
                     "ロケットパンチ巨大化",
                     "トゲ鉄球巨大化",
-                    "オリジナル",
+                    "マグネット範囲巨大化",
                     "スターター"
                 ],
                 "kr": [
                     "로켓 펀치 거대화",
                     "가시 철구 거대화",
-                    "오리지널",
+                    "마그넷 범위 거대화",
                     "스타터"
                 ]
             }
@@ -5325,9 +5325,9 @@
                 "kr": "4단계 차지 키트"
             },
             "description": {
-                "en": "A kit that includes 「Ultimate Charge」 and 「Lv4 Quick Charge」. (Lv4 charge speed increased by 70%) (Note: X @thetakappa__)",
-                "jp": "「アルティメットチャージ」, 「フォースファストチャージ」を内包するキット。（Lv4チャージ速度70%増加）（参考：X @thetakappa__）",
-                "kr": "「얼티밋 차지」, 「포스 패스트 차지」를 포함하는 키트입니다. (4단계 드리프트 차지 속도 70% 증가) (참고 : X @thetakappa__)"
+                "en": "A kit that includes 「Ultimate Charge」 and 「Lv4 Quick Charge」.",
+                "jp": "「アルティメットチャージ」, 「フォースファストチャージ」を内包するキット。",
+                "kr": "「얼티밋 차지」, 「포스 패스트 차지」를 포함하는 키트입니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5347,9 +5347,9 @@
                 ]
             },
             "effect": {
-                "en": "「Ultimate Charge」 + 「Lv4 Quick Charge」(Lv4 charge speed increased by 70%)",
-                "jp": "「アルティメットチャージ」 + 「フォースファストチャージ」（Lv4チャージ速度70%増加）",
-                "kr": "「얼티밋 차지」 + 「포스 패스트 차지」(4단계 드리프트 차지 속도 70% 증가)"
+                "en": "「Ultimate Charge」 + 「Lv4 Quick Charge」",
+                "jp": "「アルティメットチャージ」 + 「フォースファストチャージ」",
+                "kr": "「얼티밋 차지」 + 「포스 패스트 차지」"
             },
             "patch": {},
             "stat_table": null,
@@ -5442,9 +5442,9 @@
                 "kr": "스핀 대시 키트"
             },
             "description": {
-                "en": "A kit that recreates the 'Spin Dash'. When equipped, the drift charge method changes to 'button mashing', the duration of all boosts increases by 5x (up to 20 seconds, except Boost items and Air Trick Boosts), and grip cornering during a charge dash is improved. However, you slow down by 25km/h over 2.5 seconds while drifting. (Note: Gadget Data Excel Sheet by Yoshister)",
-                "jp": "「スピンダッシュ」を再現するキットです。装着するとドリフトのチャージ方式が「ボタン連打式」に切り替わり、すべてのブーストの持続時間が5倍に増加し（最大20秒、ブーストアイテム・エアトリックブーストは除く）、チャージダッシュ中のグリップ走行の旋回力が増加します。代わりに、ドリフト時2.5秒かけて徐々に25km/h減速します。（参考：ガジェットデータ Excelシート by Yoshister）",
-                "kr": "「스핀 대시」를 재현하는 키트입니다. 착용하면 드리프트 차지 방식이 '버튼 연타식'으로 전환되며, 모든 부스트의 지속 시간이 5배 증가하고(최대 20초, 부스트 아이템·에어 트릭 부스트 제외), 차지 대시 중 그립 주행 선회력이 증가합니다. 대신 드리프트 시 2.5초에 걸쳐 25km/h 감속됩니다. (참고 : 가젯 데이터 Excel 시트 by Yoshister)"
+                "en": "A kit that recreates the 'Spin Dash'. When equipped, the drift charge method changes to 'button mashing', the duration of charge dashes increases by 5x (up to 20 seconds), and grip cornering during a charge dash is improved. However, you slow down by 25km/h over 2.5 seconds while drifting. (Note: Gadget Data Excel Sheet by Yoshister)",
+                "jp": "「スピンダッシュ」を再現するキットです。装着するとドリフトのチャージ方式が「ボタン連打式」に切り替わり、チャージダッシュの持続時間が5倍に増加し（最大20秒）、チャージダッシュ中のグリップ走行の旋回力が増加します。代わりに、ドリフト時2.5秒かけて徐々に25km/h減速します。（参考：ガジェットデータ Excelシート by Yoshister）",
+                "kr": "「스핀 대시」를 재현하는 키트입니다. 착용하면 드리프트 차지 방식이 '버튼 연타식'으로 전환되며, 차지 대시의 지속 시간이 5배 증가하고(최대 20초), 차지 대시 중 그립 주행 선회력이 증가합니다. 대신 드리프트 시 2.5초에 걸쳐 25km/h 감속됩니다. (참고 : 가젯 데이터 Excel 시트 by Yoshister)"
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5464,9 +5464,9 @@
                 ]
             },
             "effect": {
-                "en": "「Button Mash Charge」 + 「5x Boost Duration (up to 20s, except Boost items and Air Trick Boosts)」 + 「Increased Grip Cornering during Charge Dash」 + 「Slow down by -25km/h over 2.5s when drifting」",
-                "jp": "「ボタン連打式チャージ」 + 「ブースト持続時間5倍増加（最大20秒、ブーストアイテム・エアトリックブーストは除く）」 + 「チャージダッシュ中のグリップ走行旋回力増加」 + 「ドリフト時2.5秒かけて徐々に25km/h減速」",
-                "kr": "「버튼 연타식 차지」 + 「부스트 지속 시간 5배 증가 (최대 20초, 부스트 아이템·에어 트릭 부스트 제외)」 + 「차지 대시 중 그립 주행 선회력 증가」 + 「드리프트 시 2.5초에 걸쳐 25km/h 감속」"
+                "en": "「Button Mash Charge」 + 「5x Charge Dash Duration (up to 20s)」 + 「Increased Grip Cornering during Charge Dash」 + 「Slow down by -25km/h over 2.5s when drifting」",
+                "jp": "「ボタン連打式チャージ」 + 「チャージダッシュ持続時間5倍増加（最大20秒）」 + 「チャージダッシュ中のグリップ走行旋回力増加」 + 「ドリフト時2.5秒かけて徐々に25km/h減速」",
+                "kr": "「버튼 연타식 차지」 + 「차지 대시 지속 시간 5배 증가 (최대 20초)」 + 「차지 대시 중 그립 주행 선회력 증가」 + 「드리프트 시 2.5초에 걸쳐 25km/h 감속」"
             },
             "patch": {
                 "v2.0.0": {
@@ -5476,19 +5476,22 @@
             "stat_table": null,
             "kit_include": {
                 "en": [
-                    "Button Tapping Charge",
-                    "Increased Charge Boost Duration",
-                    "Decreased Drift Speed"
+                    "Button Mash Charge",
+                    "5x Charge Dash Duration",
+                    "Increased Grip Cornering during Charge Dash",
+                    "Slow down by -25km/h over 2.5s when drifting"
                 ],
                 "jp": [
-                    "ボタンタップチャージ",
-                    "チャージボーナス時間延長",
-                    "ドリフトスピード減少"
+                    "ボタン連打式チャージ",
+                    "チャージダッシュ持続時間5倍増加",
+                    "チャージダッシュ中のグリップ走行旋回力増加",
+                    "ドリフト時2.5秒かけて徐々に25km/h減速"
                 ],
                 "kr": [
-                    "버튼 연타 차지",
-                    "차지 대시 지속 시간 증가",
-                    "드리프트 속도 감속"
+                    "버튼 연타식 차지",
+                    "차지 대시 지속 시간 5배 증가",
+                    "차지 대시 중 그립 주행 선회력 증가",
+                    "드리프트 시 2.5초에 걸쳐 25km/h 감속"
                 ]
             }
         },
@@ -5501,8 +5504,8 @@
             },
             "description": {
                 "en": "A kit that includes 「Lucky Pair」, 「Item Attack Bounty」, and 「Attack Item Chance UP」.",
-                "jp": "「ときどき獲得アイテム2倍」, 「アイテム攻撃リングボーナス」, 「攻撃アイテム出現率UP」を内包するキット。",
-                "kr": "「때때로 획득 아이템 2배」, 「아이템 공격 링 보너스」, 「공격 아이템 등장 확률 UP」를 포함하는 키트입니다."
+                "jp": "「ときどき獲得アイテム2倍」, 「アイテム攻撃リングボーナス」, 「攻撃アイテム確率アップ」を内包するキット。",
+                "kr": "「때때로 획득 아이템 2배」, 「아이템 공격 링 보너스」, 「공격 아이템 확률 UP」를 포함하는 키트입니다."
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5523,8 +5526,8 @@
             },
             "effect": {
                 "en": "「Lucky Pair」 + 「Item Attack Bounty」 + 「Attack Item Chance UP」",
-                "jp": "「ときどき獲得アイテム2倍」 + 「アイテム攻撃リングボーナス」 + 「攻撃アイテム出現率UP」",
-                "kr": "「때때로 획득 아이템 2배」 + 「아이템 공격 링 보너스」 + 「공격 아이템 등장 확률 UP」"
+                "jp": "「ときどき獲得アイテム2倍」 + 「アイテム攻撃リングボーナス」 + 「攻撃アイテム確率アップ」",
+                "kr": "「때때로 획득 아이템 2배」 + 「아이템 공격 링 보너스」 + 「공격 아이템 확률 UP」"
             },
             "patch": {},
             "stat_table": null,
@@ -5537,12 +5540,12 @@
                 "jp": [
                     "ときどき獲得アイテム2倍",
                     "アイテム攻撃リングボーナス",
-                    "攻撃アイテム出現率UP"
+                    "攻撃アイテム確率アップ"
                 ],
                 "kr": [
                     "때때로 획득 아이템 2배",
                     "아이템 공격 링 보너스",
-                    "공격 아이템 등장 확률 UP"
+                    "공격 아이템 확률 UP"
                 ]
             }
         },
@@ -5616,9 +5619,9 @@
                 "kr": "드리프트 대회전 키트"
             },
             "description": {
-                "en": "A kit that includes 「Mini Lv1 Quick Charge (40% faster instead of 50%)」 and 「Spin Drift」.",
-                "jp": "「ファーストファストチャージミニ(40% 充電速度増加)」, 「スピンドリフト」を内包するキット。",
-                "kr": "「퍼스트 패스트 차지 미니(40% 차지 속도 증가)」, 「스핀 드리프트」를 포함하는 키트입니다."
+                "en": "A kit that includes 「Mini Lv1 Quick Charge」 and 「Spin Drift」. (Lv1 charge speed increased by 40%)",
+                "jp": "「ファーストファストチャージミニ」, 「スピンドリフト」を内包するキット。（1段階ドリフトチャージ速度40%増加）",
+                "kr": "「퍼스트 패스트 차지 미니」, 「스핀 드리프트」를 포함하는 키트입니다. (1단계 드리프트 차지 속도 40% 증가)"
             },
             "gadget_type": "Advanced Kit",
             "slots": 3,
@@ -5638,9 +5641,9 @@
                 ]
             },
             "effect": {
-                "en": "「Mini Lv1 Quick Charge(40% faster)」 + 「Spin Drift」",
-                "jp": "「ファーストファストチャージミニ(40% 充電速度増加)」 + 「スピンドリフト」",
-                "kr": "「퍼스트 패스트 차지 미니(40% 차지 속도 증가)」 + 「스핀 드리프트」"
+                "en": "「Mini Lv1 Quick Charge」(Lv1 charge speed increased by 40%) + 「Spin Drift」",
+                "jp": "「ファーストファストチャージミニ」（1段階ドリフトチャージ速度40%増加） + 「スピンドリフト」",
+                "kr": "「퍼스트 패스트 차지 미니」(1단계 드리프트 차지 속도 40% 증가) + 「스핀 드리프트」"
             },
             "patch": {
                 "v1.4.1":{

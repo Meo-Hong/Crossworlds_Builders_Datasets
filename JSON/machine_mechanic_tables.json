@@ -623,21 +623,24 @@
         "The percentage next to each frame count is the reduction compared to having no recovery gadget on the same type.",
         "The last column is how much shorter the Acceleration type's stun is than other types with the same gadget.",
         "Since v2.0, the Acceleration type recovers in about half the time of other types after taking damage.",
-        "With Quick Recovery, the difference between the Acceleration type and other types is only 1f."
+        "With Quick Recovery, the difference between the Acceleration type and other types is only 1f.",
+        "Hit stun reduction caps at 6f. (Even with 「Quick Recovery」 or the 「Acceleration Machine Kit」 on an Acceleration type, it does not go below 6f.)"
       ],
       "jp": [
         "ダメージを受けた後の硬直時間をフレーム(f)で表します。",
         "フレーム数の横の％は、同じタイプで回復ガジェットがない場合と比べた短縮率です。",
         "最後の列は、同じガジェットを装備した他のタイプと比べたアクセルタイプの短縮率です。",
         "v2.0以降、アクセルタイプはダメージを受けた後、他のタイプの約半分の時間で回復します。",
-        "クイックリカバー装備時は、アクセルタイプと他のタイプの差が1fしかありません。"
+        "クイックリカバー装備時は、アクセルタイプと他のタイプの差が1fしかありません。",
+        "硬直時間の短縮は6fで上限に達します。（アクセルタイプに「クイックリカバー」や「アクセルマシンキット」を装備しても6fより短くなりません。）"
       ],
       "kr": [
         "대미지를 받은 후 경직되는 시간을 프레임(f) 단위로 나타냅니다.",
         "프레임 옆의 %는 같은 타입에서 회복 가젯이 없을 때와 비교한 단축률입니다.",
         "마지막 열은 같은 가젯을 장착한 다른 타입과 비교한 액셀 타입의 단축률입니다.",
         "v2.0부터 액셀 타입은 대미지를 받은 후 다른 타입의 약 절반 시간 만에 회복합니다.",
-        "「퀵 리커버」를 장착하면 액셀 타입과 다른 타입의 차이가 1f뿐입니다."
+        "「퀵 리커버」를 장착하면 액셀 타입과 다른 타입의 차이가 1f뿐입니다.",
+        "경직 시간 단축은 6f에서 한계에 도달합니다. (액셀 타입에 「퀵 리커버」나 「액셀 머신 키트」를 장착해도 6f보다 짧아지지 않습니다.)"
       ]
     },
     "source": {
