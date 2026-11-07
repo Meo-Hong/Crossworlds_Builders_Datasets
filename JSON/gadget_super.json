@@ -1996,9 +1996,9 @@
                 "kr": "런 오프 강행 돌파"
             },
             "description": {
-                "en": "Slowdown zones affect you less. Gain +40km/h while driving through offroad (slowdown zones). Only applies when you are not already ignoring offroad.",
-                "jp": "減速エリアの影響を受けにくくなる。ランオフ（減速エリア）走行中は+40km/h速くなります。（ブーストアイテムなどで減速エリアを無効化している間は適用されない）",
-                "kr": "감속 구역 영향을 덜 받게 됩니다. 감속 구역(런 오프)을 달리는 동안 +40km/h 빨라집니다. (부스트 아이템 등으로 감속 구역을 무시하는 중에는 적용되지 않음)"
+                "en": "Gain +40km/h while driving through offroad (slowdown zones). Only applies when you are not already ignoring offroad.",
+                "jp": "ランオフ（減速エリア）走行中は+40km/h速くなります。（ブーストアイテムなどで減速エリアを無効化している間は適用されない）",
+                "kr": "감속 구역(런 오프)을 달리는 동안 +40km/h 빨라집니다. (부스트 아이템 등으로 감속 구역을 무시하는 중에는 적용되지 않음)"
             },
             "gadget_type": "Support",
             "slots": 1,
