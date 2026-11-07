@@ -178,9 +178,9 @@
             "kr" : "전방의 머신이 있는 곳으로 워프하여 머신을 뭉개버립니다."
         },
         "detail" : {
-            "en" : "Only available after equipping the \"Warp Ring Specialist\" gadget.\n It is temporarily unavailable online (World Match, Legend Competition, Festa) (as of v1.3.1).\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.",
-            "jp" : "「ワープリング追加」ガジェットを装備した後に使用可能。\n現在オンラインでは使用できません(ワールドマッチ, レジェンドコンペ, フェスタ) (v1.3.1 時点)。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。",
-            "kr" : "전용 가젯「워프 링 추가」착용 후에만 사용/획득 가능.\n현재 온라인에서 사용 불가능(월드 매치, 레전드 대회, 페스타) (v1.3.1 기준)\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
+            "en" : "Only available after equipping the \"Warp Ring Specialist\" gadget.\n It is temporarily unavailable online (World Match, Legend Competition, Festa) (as of v2.0.0).\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.",
+            "jp" : "「ワープリング追加」ガジェットを装備した後に使用可能。\n現在オンラインでは使用できません(ワールドマッチ, レジェンドコンペ, フェスタ) (v2.0.0 時点)。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。",
+            "kr" : "전용 가젯「워프 링 추가」착용 후에만 사용/획득 가능.\n현재 온라인에서 사용 불가능(월드 매치, 레전드 대회, 페스타) (v2.0.0 기준)\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
         },
         "image" : "WarpRing.webp",
         "gadget" : [
@@ -476,9 +476,9 @@
             "kr" : "「로켓 펀치」를 2번 사용할 수 있습니다." 
         },
         "detail" : {
-            "en" : "Double Rocket Punch is an item exclusive to \"Duel\" mode.\nIn \"Duel\" mode, this item appears instead of \"Triple Rocket Punch\".",
-            "jp" : "「ダブルロケットパンチ」は「デュエル」モード専用のアイテムです。\n「デュエル」モードでは「トリプルロケットパンチ」の代わりにこのアイテムが出現します。",
-            "kr" : "「더블 로켓 펀치」는 「듀얼」 모드 전용 아이템입니다.\n「듀얼」 모드에서는 「트리플 로켓 펀치」 대신 이 아이템이 등장합니다."
+            "en" : "Double Rocket Punch is an item exclusive to \"Duel\" mode.\nIn \"Duel\" mode, this item appears instead of \"Triple Rocket Punch\".\nIt appears only in the \"Special Item Box\".",
+            "jp" : "「ダブルロケットパンチ」は「デュエル」モード専用のアイテムです。\n「デュエル」モードでは「トリプルロケットパンチ」の代わりにこのアイテムが出現します。\n「スペシャルアイテムボックス」にのみ出現します。",
+            "kr" : "「더블 로켓 펀치」는 「듀얼」 모드 전용 아이템입니다.\n「듀얼」 모드에서는 「트리플 로켓 펀치」 대신 이 아이템이 등장합니다.\n「스페셜 아이템 박스」에서만 등장합니다."
         },
         "image" : "DoubleRocketPunch.webp",
         "gadget" : [
