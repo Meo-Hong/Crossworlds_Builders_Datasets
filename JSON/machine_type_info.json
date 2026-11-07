@@ -132,7 +132,7 @@
         "tone": "good"
       }
     ],
-    "recommendation": { "rating": 3.5 },
+    "recommendation": { "rating": 4 },
     "tendencies": {
       "speed": { "rating": 4 },
       "acceleration": { "rating": 5 },
