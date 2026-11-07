@@ -1252,7 +1252,7 @@
                 "acceleration" : 9,
                 "handling" : 6,
                 "power" : 17,
-                "boost" : 14
+                "boost" : 15
             },
             "unlock" : {
                 "en" : "Free Update",

@@ -1252,7 +1252,7 @@
                 "acceleration" : 9,
                 "handling" : 6,
                 "power" : 17,
-                "boost" : 14
+                "boost" : 15
             },
             "unlock" : {
                 "en" : "Free Update",
@@ -1559,7 +1559,7 @@
             "series" : "Jaws_Rocket",
             "stats" : {
                 "speed" : 12,
-                "acceleration" : 17,
+                "acceleration" : 19,
                 "handling" : 23,
                 "power" : 8,
                 "boost" : 28
