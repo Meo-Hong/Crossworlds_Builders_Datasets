@@ -932,7 +932,7 @@
                 }
             },
             "image_header" : "dlc001_MinecraftWorld",
-            "original" : {"en" : "Minecraft", "jp" : "マインクラフト", "kr" : "마인크래프트"},
+            "original" : {"en" : "Minecraft - Overworld, Nether & The End", "jp" : "マインクラフト - オーバーワールド・ネザー・エンド", "kr" : "마인크래프트 - 오버월드, 네더, 엔드"},
             "description" : {
                 "en" : "It is a course based on \"Minecraft\".\nFor the BGM, the Overworld features remixes of \"Comforting Memories\" and \"Infinite Amethyst\" in Lap 1, and \"Relic\" in Lap 3. The Nether features a remix of \"Pigstep,\" while The End features a remix of \"Broken Heart of Ender.\"\nLAP1 and LAP2 pass \"Village\" and \"Nether\", and LAP3 pass \"Village\" and \"End\".\nThe entire \"End\" of the LAP3 is a flying section, so it's an opportunity to fly for a long time.\nIn \"Nether\", \"Ghast\" appears, and in \"End\", \"Ender Dragon\" appears as a map gimmick that interferes with the racer.",
                 "jp" : "『マインクラフト』を原作としたコースです。\nBGMは、オーバーワールドでは「Comforting Memories」,「Infinite Amethyst」（LAP1）と「Relic」（LAP3）が、ネザーでは「Pigstep」、エンドでは「Broken Heart of Ender」のリミックスが流れます。\nLAP1、LAP2は「村」と「ネザー」を通り、LAP3では「村」と「エンド」を通りながらコースを進みます。\nLAP3の「エンド」全体が空中飛行区間であるため、長時間飛行できる機会です。\n「ネザー」では「ガスト」、「エンド」では「エンダードラゴン」がレーサーを妨害するマップギミックとして登場します。",
@@ -1109,7 +1109,7 @@
             "original" : {"en" : "Avatar Aang: The Last Airbender - Lion Turtle Islands", "jp" : "アバター アン：ザ・ラスト・エアベンダー - ライオンタートル島", "kr" : "아바타 아앙: 라스트 에어벤더 - 사자거북섬"},
             "description" : { 
                 "en" : "A course that runs across 'Lion Turtle Island', the tomb of the Lion Turtle appearing in 'Avatar Aang: The Last Airbender'. Its distinctive feature is that it has been integrated into a Crossworlds course based on the four elements: 'Water', 'Earth', 'Fire', and 'Air'. The gimmick works by altering the course through 'bending' each time you pass through an 'Elemental Torii'. The 'Water path' is a 'water course'; the 'Earth path' creates jump ramps on the course so you can perform 'air tricks'; the 'Fire path' places 'Flame Rings' that act as 'dash gates'; and the 'Air path' is an 'aerial flight course'. Entering the center of a 'Flame Ring' grants a 'dash gate' effect, but be careful, as touching the fire will cause damage. Because you change locations via a 'Warp Ring' from the ocean view, this is a map where Warp Rings appear frequently.",
-                "jp" : "「アバター アン：ザ・ラスト・エアベンダー」に登場するライオンタートルの墓である「ライオンタートル島」の上を走るコースです。4つの要素「水」「土」「火」「氣」に合わせて、クロスワールドのコースとして溶け込んでいるのが特徴です。これは各「エレメント鳥居」を通過すると、「ベンディング」を通じてコースに変化を与える形でギミックが作動します。「水の道」は「水上コース」になり、「土の道」はコースにジャンプ台が作られて「エアトリック」が可能になり、「火の道」は「ダッシュゲート」の役割を果たす「炎のリング」がコースに配置され、「風の道」は「空中飛行コース」です。「炎のリング」は中央に入れば「ダッシュゲート」の効果を受けますが、炎に触れるとダメージを受けるため注意が필요です。海の全景から「ワープリング」で位置を移動するため、ワープリングを頻繁に目にするマップとなります。",
+                "jp" : "「アバター アン：ザ・ラスト・エアベンダー」に登場するライオンタートルの墓である「ライオンタートル島」の上を走るコースです。4つの要素「水」「土」「火」「氣」に合わせて、クロスワールドのコースとして溶け込んでいるのが特徴です。これは各「エレメント鳥居」を通過すると、「ベンディング」を通じてコースに変化を与える形でギミックが作動します。「水の道」は「水上コース」になり、「土の道」はコースにジャンプ台が作られて「エアトリック」が可能になり、「火の道」は「ダッシュゲート」の役割を果たす「炎のリング」がコースに配置され、「風の道」は「空中飛行コース」です。「炎のリング」は中央に入れば「ダッシュゲート」の効果を受けますが、炎に触れるとダメージを受けるため注意が必要です。海の全景から「ワープリング」で位置を移動するため、ワープリングを頻繁に目にするマップとなります。",
                 "kr" : "'아바타 아앙: 라스트 에어벤더'에서 등장하는 사자거북의 무덤인 '사자거북 섬'위로 달리는 코스입니다. 4개의 원소 '물', '땅', '불', '공기'에 맞게 크로스월드의 코스로 녹아들어간 것이 특징입니다. 이는 각 '원소 토리이'를 지나면 '벤딩'을 통해 코스에 변화를 주는 식으로 기믹이 동작합니다. '물의 길'은 '수상 코스'를, '땅의 길'은 코스에 점프대를 만들어 '에어 트릭'을 할 수 있고, '불의 길'은 '대시 게이트'의 역할을 하는 '불꽃 링'이 코스에 배치되고, '바람의 길'은 '공중 비행 코스'입니다. '불꽃 링'은 중앙으로 들어가면 '대시 게이트'의 효과를 받지만 불에 닿으면 대미지를 입기 때문에 주의해야합니다. 바다 전경에서 '워프 링'으로 위치를 이동하기 때문에 워프 링을 자주 보는 맵이 됩니다."
             },
             "interaction" : [],
@@ -1117,6 +1117,109 @@
                 "intro": "https://youtu.be/m5oVz8_nVCI?si=QziqtXTFvIQ7ka88",
                 "lap1": "https://youtu.be/qY_QwzD3y5I?si=2TaUV5ZW_VY02jnQ",
                 "final": "https://youtu.be/KBT_xTNP1-Q?si=wLJq8rvUpF8k1n3F"
+            }
+        },
+        {
+            "map_id": "dlc007",
+            "name": {
+                "en": "Godzilla Escape",
+                "jp": "ゴジラエスケープ",
+                "kr": "고질라 이스케이프"
+            },
+            "map_transform": false,
+            "final": true,
+            "granprix": "Crossover3",
+            "time_trial": {
+                "sonic": {
+                    "Arank": "-",
+                    "Srank": "-"
+                },
+                "super_sonic": {
+                    "Arank": "-",
+                    "Srank": "-"
+                }
+            },
+            "image_header": "dlc007_GodzillaEscape",
+            "original": {"en": "Sonic Adventure 2 - City Escape", "jp": "ソニックアドベンチャー2 - シティエスケープ", "kr": "소닉 어드벤처 2 - 시티 이스케이프"},
+            "description": {
+                "en": "A course that appears through a collaboration between \"City Escape\" from Sonic Adventure 2 and the \"Godzilla\" series. Godzilla has invaded the city of City Escape: right after the start, Godzilla advances ahead of you while wrecking the city and firing its atomic breath, and the buildings it destroys remain as obstacles. \"G.U.N.\" troops are shown deploying to stop it, and G.U.N.'s \"GUN Hunter\" and \"GUN Beetle\" also appear as course obstacles.\nIn the \"Final Lap\", the right turn on the downhill is blocked, and Godzilla blasts it open with its atomic breath to reveal the flight section. You fly right past Godzilla, and the highlight is Godzilla destroying LAP 1's Travel Ring with its atomic breath. (The atomic breath deals damage, so watch out.) Go down the stairs to rejoin the original course, and finish through the Travel Ring on the right of the road Godzilla walked along.\nThe course BGM is \"Godzilla Escape\", an arrangement of City Escape's \"Escape From The City\", and the radio chatter in its intro has been changed from the original \"Suspect seen heading south\" to a warning about a giant creature attack (\"Hostile giant creature rampaging in the city\").",
+                "jp": "『ソニックアドベンチャー2』の「シティエスケープ」と「ゴジラ」シリーズのコラボで登場したコースです。シティエスケープの街にゴジラが襲来した設定で、スタート直後から前方で街を破壊しながら迫るゴジラが放射熱線を吐き、ゴジラに破壊された建物は障害物として残ります。ゴジラを食い止めるために「G.U.N.」の部隊が出動する様子が演出されており、G.U.N.の「ガンハンター」や「ガンビートル」もコース障害物として登場します。\n「ファイナルラップ」では下り坂の右折区間がふさがれ、ゴジラが放射熱線で道を開くことで飛行区間が現れます。飛行中はゴジラのすぐそばを通り抜け、ゴジラがLAP1のトラベルリングを放射熱線で破壊する演出は必見です。(放射熱線はダメージがあるので注意)階段を下りて元のコースに合流し、ゴジラが通った道の右側にあるトラベルリングでフィニッシュとなります。\nコースBGMはシティエスケープの「Escape From The City」をアレンジした「Godzilla Escape」で、イントロの無線も原作の「Suspect seen heading south」から、巨大生物の襲来を知らせる内容(「Hostile giant creature rampaging in the city」)に変更されています。",
+                "kr": "소닉 어드벤처 2의 「시티 이스케이프」와 「고지라 시리즈」와의 콜라보로 등장한 코스입니다. 시티 이스케이프의 도시에 고지라가 습격한 설정으로, 스타트 직후부터 전방에서 도시를 부수며 다가오는 고지라가 방사열선을 내뿜고, 고지라가 부순 건물은 장애물로 남습니다. 이를 막기 위해 「G.U.N」의 부대가 출동한 모습이 연출되며, G.U.N의 「건 헌터」와 「건 비틀」도 코스 장애물로 등장합니다.\n「파이널 랩」에서는 내리막의 우회전 구간이 막히고, 고지라가 방사열선으로 길을 뚫어 비행 구간이 열립니다. 비행 중에는 고지라 바로 옆을 지나며, 고지라가 LAP1의 트래블 링을 방사열선으로 부수는 연출이 일품입니다. (방사열선은 대미지가 있으니 주의) 계단을 내려가 기존 코스로 합류한 뒤, 고지라가 지나간 길 우측의 트래블 링으로 마무리합니다.\n코스 BGM은 시티 이스케이프의 「Escape From The City」를 어레인지한 「Godzilla Escape」이며, 도입부의 무전도 원작의 \"Suspect seen heading south\" 대신 거대 생물의 습격을 알리는 내용(\"Hostile giant creature rampaging in the city\")으로 바뀌었습니다."
+            },
+            "interaction": [],
+            "music": {
+                "intro": "https://youtu.be/GEJuHLc8_N8?si=ahT7WHp2N6BCShJ0",
+                "lap1": "https://youtu.be/2scpvD40q_w?si=01JNwU1161vL8PyB",
+                "final": "https://youtu.be/xUPgf2fsoY4?si=Vbh_n9jeplJCtDOo"
+            }
+        },
+        {
+            "map_id": "dlc008",
+            "name": {
+                "en": "Tokyo-III",
+                "jp": "第3新東京市",
+                "kr": "제3신도쿄시"
+            },
+            "map_transform": false,
+            "final": true,
+            "granprix": "Crossover3",
+            "time_trial": {
+                "sonic": {
+                    "Arank": "-",
+                    "Srank": "-"
+                },
+                "super_sonic": {
+                    "Arank": "-",
+                    "Srank": "-"
+                }
+            },
+            "image_header": "dlc008_Tokyo3",
+            "thumb_focus": {"x": 50, "y": 12, "zoom": 1.35},
+            "original": {"en": "Rebuild of Evangelion - Tokyo-III", "jp": "ヱヴァンゲリヲン新劇場版 - 第3新東京市", "kr": "에반게리온 신극장판 - 제3신도쿄시"},
+            "description": {
+                "en": "A collaboration course racing through Tokyo-III from \"Rebuild of Evangelion\". During the start countdown, EVA-01 rises from the ground and stands taller than the skyscrapers, and the race follows a route around it. The course runs from the city center out to suburbs sunk in a red sea dissolved with LCL, and the Sixth Angel from \"Evangelion: 1.0\" appears in the sky and fires beams at the course, so dodge them as you drive.\nIn the \"Final Lap\", the scene from \"Evangelion: 2.0\" where EVA-01 runs to stop the Eighth Angel is recreated. After the tunnel, banks rise one after another on the right side of the course, and you pass EVA-01 as it holds back the Eighth Angel with its 'AT Field' before returning to the city center. EVA-01 starts running when the leader exits the tunnel, so the scene you see changes depending on your position.\nThe Grand Prix-only intro video recreates the Sixth Angel appearing and EVA-01 launching.\n※ The Sixth Angel corresponds to 'Ramiel' and the Eighth Angel to 'Sahaquiel' from the TV series \"Neon Genesis Evangelion\".",
+                "jp": "「ヱヴァンゲリヲン新劇場版」の第3新東京市を駆け抜けるコラボコースです。スタートのカウント中に地上から初号機がせり上がって高層ビルよりも高く立ち上がり、レースは初号機を避けるルートで進みます。市街地の中心部からLCLが溶け込んだ赤い海に沈んだ郊外へと続き、上空に現れた「ヱヴァンゲリヲン新劇場版：序」の第6の使徒がコースに向かってビームを放つため、避けながら走行しましょう。\n「ファイナルラップ」では、第8の使徒を止めるために初号機が走る「ヱヴァンゲリヲン新劇場版：破」のシーンが再現されています。トンネルを抜けるとコース右側にバンクが次々と立ち上がり、「ATフィールド」で第8の使徒を食い止める初号機を通り過ぎて市街地の中心部へ戻ります。トップがトンネルを抜けると初号機が走り始めるため、順位によって見える光景が変わります。\nグランプリ専用のイントロ映像では、第6の使徒の出現と初号機の発進シーンが再現されています。\n※第6の使徒はTV版「新世紀エヴァンゲリオン」の「ラミエル」、第8の使徒は「サハクィエル」に相当します。",
+                "kr": "「에반게리온 신극장판」의 제3신도쿄시를 달리는 콜라보 코스입니다. 스타트 카운트 중 지상에서 초호기가 솟아올라 고층 빌딩보다 높이 일어서고, 레이스는 초호기를 피해 가는 루트로 진행됩니다. 시가지 중심부에서 LCL이 녹아든 붉은 바다에 잠긴 교외로 이어지며, 상공에 나타난 「에반게리온: 서」의 제6사도가 코스를 향해 빔을 쏘므로 피하면서 주행해야 합니다.\n「파이널 랩」에서는 제8사도를 막기 위해 초호기가 달리던 「에반게리온: 파」의 장면이 재현됩니다. 터널을 지나면 코스 오른쪽에 뱅크가 차례로 솟아오르고, 「AT 필드」로 제8사도를 막아서는 초호기를 지나 시가지 중심부로 돌아옵니다. 선두가 터널을 빠져나올 때 초호기가 달리기 시작해서 순위에 따라 보이는 장면이 달라집니다.\n그랑프리 전용 인트로 영상에서는 제6사도의 등장과 초호기의 출격 장면이 재현됩니다.\n※ 제6사도는 TV판 「신세기 에반게리온」의 「라미엘」, 제8사도는 「사하퀴엘」에 해당합니다."
+            },
+            "interaction": [],
+            "music": {
+                "intro": "https://youtu.be/Is8lNV55lUo?si=YqkqdYdY2kDth2VR",
+                "lap1": "https://youtu.be/J_P1C_M7WR4?si=NrbahjBGrpjQ8Rbj",
+                "final": "https://youtu.be/_rFXSDer_Sg?si=ftjxj0ORC6K2XCof"
+            }
+        },
+        {
+            "map_id": "dlc009",
+            "name": {
+                "en": "Virtual Sanrio Puroland",
+                "jp": "バーチャルサンリオピューロランド",
+                "kr": "버추얼 산리오 퓨로랜드"
+            },
+            "map_transform": false,
+            "final": false,
+            "granprix": "Crossover3",
+            "time_trial": {
+                "sonic": {
+                    "Arank": "-",
+                    "Srank": "-"
+                },
+                "super_sonic": {
+                    "Arank": "-",
+                    "Srank": "-"
+                }
+            },
+            "image_header": "dlc009_VirtualSanrioPuroland",
+            "original": {"en": "Sanrio - Virtual Sanrio Puroland", "jp": "サンリオ - バーチャルサンリオピューロランド", "kr": "산리오 - 버추얼 산리오 퓨로랜드"},
+            "description": {
+                "en": "A collaboration course set in \"Virtual Sanrio Puroland\", a metaverse version of the indoor theme park \"Sanrio Puroland\".\n※ This course does not support 'Mirror Mode' in Grand Prix.",
+                "jp": "屋内型テーマパーク「サンリオピューロランド」をメタバース空間に再現した「バーチャルサンリオピューロランド」を舞台にしたコラボコースです。\n※このコースはグランプリの「ミラーモード」に対応していません。",
+                "kr": "실내 테마파크 「산리오 퓨로랜드」를 메타버스 공간에 재현한 「버추얼 산리오 퓨로랜드」를 무대로 한 콜라보 코스입니다.\n※ 이 코스는 그랑프리의 「미러 모드」에 대응하지 않습니다."
+            },
+            "interaction": [],
+            "music": {
+                "intro": "",
+                "lap1": "",
+                "final": ""
             }
         }
     ],
