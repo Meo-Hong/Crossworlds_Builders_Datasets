@@ -10,6 +10,11 @@
       "jp": "外す",
       "kr": "해제"
     },
+    "remove": {
+      "en": "Remove",
+      "jp": "外す",
+      "kr": "빼기"
+    },
     "patchNotes": {
       "en": "Patch Notes",
       "jp": "パッチ履歴",
