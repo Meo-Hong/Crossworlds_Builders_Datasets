@@ -652,5 +652,69 @@
       "text": "@thetakappa__ (X)",
       "url": "https://x.com/thetakappa__/status/2117801663612547419"
     }
+  },
+  "efficiencyWeights": {
+    "title": {
+      "en": "Efficiency Sort Scoring",
+      "jp": "効率ソートの計算基準",
+      "kr": "효율 정렬 계산 기준"
+    },
+    "columns": {
+      "en": ["Stat", "Weight"],
+      "jp": ["性能", "重み"],
+      "kr": ["스탯", "가중치"]
+    },
+    "rows": {
+      "en": [
+        ["Boost", "1.00"],
+        ["Speed", "0.25"],
+        ["Handling", "0.10"],
+        ["Acceleration", "0.02"],
+        ["Power", "0.01"]
+      ],
+      "jp": [
+        ["ダッシュ", "1.00"],
+        ["スピード", "0.25"],
+        ["ハンドリング", "0.10"],
+        ["アクセル", "0.02"],
+        ["パワー", "0.01"]
+      ],
+      "kr": [
+        ["대시", "1.00"],
+        ["스피드", "0.25"],
+        ["핸들링", "0.10"],
+        ["액셀", "0.02"],
+        ["파워", "0.01"]
+      ]
+    },
+    "notes": {
+      "en": [
+        "Efficiency score = Boost × 1.00 + Speed × 0.25 + Handling × 0.10 + Acceleration × 0.02 + Power × 0.01. Sorted by this score.",
+        "The weights are not measurements. They are the stat priorities set by the author (Unexsitance), with Boost valued the most.",
+        "The original stat values of each character and machine part are used as-is. Gadgets, items, engines and charge time are not included.",
+        "Ties keep the default order."
+      ],
+      "jp": [
+        "効率スコア ＝ ダッシュ×1.00 ＋ スピード×0.25 ＋ ハンドリング×0.10 ＋ アクセル×0.02 ＋ パワー×0.01。このスコア順に並べます。",
+        "重みは測定値ではなく、作者（Unexsitance）が決めた性能の優先度です。ダッシュを最も重視しています。",
+        "キャラクター・マシンパーツの元の性能値をそのまま使います。ガジェット・アイテム・エンジン・チャージ時間などは計算に含めません。",
+        "スコアが同じ場合は標準順になります。"
+      ],
+      "kr": [
+        "효율 점수 = 대시 × 1.00 + 스피드 × 0.25 + 핸들링 × 0.10 + 액셀 × 0.02 + 파워 × 0.01. 이 점수 순으로 정렬합니다.",
+        "가중치는 측정값이 아니라 작성자(Unexsitance)가 정한 스탯 우선순위이며, 대시를 가장 중요하게 봅니다.",
+        "캐릭터 · 머신 파츠의 원래 스탯 수치를 그대로 씁니다. 가젯 · 아이템 · 엔진 · 차지 시간 등은 계산에 넣지 않습니다.",
+        "점수가 같으면 기본 순서를 따릅니다."
+      ]
+    },
+    "source": {
+      "label": {
+        "en": "Source: ",
+        "jp": "出典：",
+        "kr": "출처: "
+      },
+      "text": "Unexsitance — SRCW Machine & Character Stats",
+      "url": "https://docs.google.com/spreadsheets/d/1Cy0-mAc62omjVpu-A99eeSpqM20hSj-W"
+    }
   }
 }

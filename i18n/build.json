@@ -389,6 +389,11 @@
       "jp": "参照スプレッドシート",
       "kr": "참조 파일"
     },
+    "efficiencyCriteria": {
+      "en": "Scoring basis",
+      "jp": "計算基準",
+      "kr": "계산 기준"
+    },
     "front": {
       "en": "Front",
       "jp": "フロント",
