@@ -379,11 +379,6 @@
       "jp": "標準順",
       "kr": "기본 순"
     },
-    "sortDefault": {
-      "en": "Default",
-      "jp": "標準順",
-      "kr": "기본 순"
-    },
     "efficiencySourceAuthor": {
       "en": "Efficiency sort by Unexsitance (author)",
       "jp": "効率ソート出典: Unexsitance（作者）",
