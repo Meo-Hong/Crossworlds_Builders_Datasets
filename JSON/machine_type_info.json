@@ -463,9 +463,9 @@
           "kr": "벽에 부딪혔을 때 링을 잃기 쉬움"
         },
         "detail": {
-          "en": "Unlike other types, when they collide with the wall, they lose 2 rings unconditionally. (Other types lose 1 ring)",
-          "jp": "他のタイプとは異なり、壁に衝突した場合は必ず2つのリングを失います。（他のタイプは1つずつ）",
-          "kr": "다른 타입과 달리 벽과 충돌했을 때, 무조건 2개의 링을 잃습니다. (다른 타입은 1개씩)"
+          "en": "Unlike other types, when they collide with the wall, they lose 2 rings unconditionally. (Other types lose 1 ring on side contact, 2 on head-on contact)",
+          "jp": "他のタイプとは異なり、壁に衝突した場合は必ず2つのリングを失います。（他のタイプは側面衝突で1つ、正面衝突で2つ）",
+          "kr": "다른 타입과 달리 벽과 충돌했을 때, 무조건 2개의 링을 잃습니다. (다른 타입은 측면 충돌 시 1개, 정면 충돌 시 2개)"
         },
         "tone": "bad"
       },
