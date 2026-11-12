@@ -715,6 +715,7 @@
             "gadget_type": "Ring Ability",
             "slots": 1,
             "image": "gadget_014.png",
+            "slot_art": "silver",
             "unlock": {
                 "en": [
                     "Finish 20 races"
