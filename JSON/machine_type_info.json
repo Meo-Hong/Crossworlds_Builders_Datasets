@@ -285,19 +285,22 @@
         "The synergy of high handling, dash figures and drift speed correction allows you to run cornering quickly and reliably.",
         "Snaking in a straight line (continuous left and right drift in straight line) allows you to effectively maintain maximum speed and take advantage of drift boost.",
         "The advantage of drift speed correction is very important in the racing genre, so it is very advantageous for strategic use.",
-        "In Super Sonic Speed, speed tends to drop further the longer you drift, but only the Handling type keeps a positive drift correction, making it especially advantageous."
+        "In Super Sonic Speed, speed tends to drop further the longer you drift, but only the Handling type keeps a positive drift correction, making it especially advantageous.",
+        "When accelerating, the pause at each gear shift is longer than other types. (Over 0.6 sec at the 1st and 3rd shifts, measured before v2.0)"
       ],
       "jp": [
         "高いハンドリング、ダッシュ数値とドリフト速度補正のシナジーにより、コーナリングを速く安定して行うことができます",
         "直線でスネーキング（直線で左右に連続ドリフト）を行うことで、最高速度を維持し、ドリフトブーストを効果的に活用できます。",
         "ドリフト速度補正の利点はレースジャンルで非常に重要な要素であるため、戦略的な運用に非常に有利です。",
-        "スーパーソニックスピードではドリフトを長く続けるほど速度がさらに落ちる傾向がありますが、ハンドリングタイプだけはドリフト補正がプラスのままなので、特に有利です。"
+        "スーパーソニックスピードではドリフトを長く続けるほど速度がさらに落ちる傾向がありますが、ハンドリングタイプだけはドリフト補正がプラスのままなので、特に有利です。",
+        "加速中のギアチェンジで加速が止まる時間が他のタイプより長いです。（1回目・3回目の変速で0.6秒以上、v2.0以前の測定）"
       ],
       "kr": [
         "높은 핸들링, 대시 수치와 드리프트 속도 보정의 시너지로 코너링을 빠르고 안정적으로 주파할 수 있습니다.",
         "직선에서 스네이킹(직선에서 좌우로 연속 드리프트)를 통해 최고속도 유지 및 드리프트 부스트를 효과적으로 활용할 수 있습니다.",
         "드리프트 속도 보정이라는 어드밴티지는 레이싱 장르에서 매우 중요한 요소이기 때문에 전략적인 활용에 매우 유리합니다.",
-        "슈퍼 소닉 스피드에서는 드리프트를 오래 할수록 속도가 더 떨어지는 경향이 있는데, 핸들링 타입만 드리프트 보정이 플러스로 남아 있어 특히 유리합니다."
+        "슈퍼 소닉 스피드에서는 드리프트를 오래 할수록 속도가 더 떨어지는 경향이 있는데, 핸들링 타입만 드리프트 보정이 플러스로 남아 있어 특히 유리합니다.",
+        "가속 중 기어가 바뀔 때 가속이 멈추는 시간이 다른 타입보다 깁니다. (첫째 · 셋째 변속에서 0.6초 이상, v2.0 이전 측정)"
       ]
     }
   },
@@ -534,21 +537,24 @@
         "The presence of \"Ultimate Charge\" allows you to drive the safest from items if you master drift. However, the invincible time of \"Ultimate Charge\" was reduced to 1.5 seconds in v1.3.1.",
         "The more drift you do, the more it helps you maintain the highest speed.",
         "if you do not master the course and do many drifts, you may ruin the course line and actually be overtaken.",
-        "Not recommended for beginners, but it is the strongest type after mastering the course."
+        "Not recommended for beginners, but it is the strongest type after mastering the course.",
+        "When accelerating, the pause at each gear shift is longer than other types. (Over 0.6 sec at the 1st and 3rd shifts, measured before v2.0)"
       ],
       "jp": [
         "このゲームで最も重要なダッシュ数値が最も高いタイプです。",
         "「アルティメットチャージ」の存在により、ドリフトを習得すればアイテムから最も安全に走行できます。 ただし、v1.3.1にて無敵時間が1.5秒になりました。",
         "ドリフトを多くするほど、最高速度を維持するのに役立ちます。",
         "コースを習得せずに多くのドリフトをすると、コースラインを壊して実際に追い越されるリスクがあります。",
-        "初心者にはお勧めしませんが、コースを習得すれば、すべてのタイプの中で最も強力なタイプになります。"
+        "初心者にはお勧めしませんが、コースを習得すれば、すべてのタイプの中で最も強力なタイプになります。",
+        "加速中のギアチェンジで加速が止まる時間が他のタイプより長いです。（1回目・3回目の変速で0.6秒以上、v2.0以前の測定）"
       ],
       "kr": [
         "이 게임에서 가장 중요한 대시 수치가 가장 높은 타입입니다.",
         "가젯 중, 「얼티밋 차지」의 존재로 드리프트가 숙달되면 아이템으로부터 가장 안전한 주행을 할 수 있습니다. 다만, 얼티밋 차지가 v1.3.1에서 너프를 받아 무적 시간이 1.5초로 줄어들었습니다.",
         "드리프트 차지를 많이할수록 최고속도 유지에 큰 도움이 됩니다.",
         "다만 코스 숙지 없이 많은 드리프트를 하면 코스 라인 빌드가 망가져 오히려 추월당할 위험이 있습니다.",
-        "초보자에게는 추천하지 않으나, 코스 숙달 후에는 모든 타입 중 가장 강력한 타입입니다."
+        "초보자에게는 추천하지 않으나, 코스 숙달 후에는 모든 타입 중 가장 강력한 타입입니다.",
+        "가속 중 기어가 바뀔 때 가속이 멈추는 시간이 다른 타입보다 깁니다. (첫째 · 셋째 변속에서 0.6초 이상, v2.0 이전 측정)"
       ]
     }
   }
