@@ -238,19 +238,19 @@
       "kr": "Sonic Wiki Zone (Fandom)"
     },
     "gadgetDataExcel": {
-      "en": "Gadget Data Excel Sheet",
-      "jp": "ガジェットデータ Excelシート",
-      "kr": "가젯 데이터 Excel 시트"
+      "en": "Gadget Data Excel Sheet by Yoshister",
+      "jp": "ガジェットデータ Excelシート (by Yoshister)",
+      "kr": "가젯 데이터 Excel 시트 (by Yoshister)"
     },
     "itemDataExcel": {
-      "en": "Item Probability Table",
-      "jp": "アイテム確率表",
-      "kr": "아이템 확률 정보 표"
+      "en": "Item Probability Table by thetakappa",
+      "jp": "アイテム確率表 (by thetakappa)",
+      "kr": "아이템 확률 정보 표 (by thetakappa)"
     },
     "machineStatsDoc": {
-      "en": "Machine Stat Data",
-      "jp": "マシンステータス資料",
-      "kr": "머신 스탯 자료"
+      "en": "Machine Stat Data by KT80AT",
+      "jp": "マシンステータス資料 (by KT80AT)",
+      "kr": "머신 스탯 자료 (by KT80AT)"
     },
     "machineBoostMeasureSheet": {
       "en": "Machine Boost Measurement Table",
@@ -258,14 +258,14 @@
       "kr": "머신 별 부스트 측정 표"
     },
     "machineAccelerationSheet": {
-      "en": "Machine Acceleration Stats Table",
-      "jp": "マシンアクセルステータス表",
-      "kr": "머신 액셀 스탯 표"
+      "en": "Machine Acceleration Stats Table by theanjo",
+      "jp": "マシンアクセルステータス表 (by theanjo)",
+      "kr": "머신 액셀 스탯 표 (by theanjo)"
     },
     "statsSortTableReference": {
-      "en": "Character / Machine Stats Sort Table Reference",
-      "jp": "キャラクター・マシンステータスソート表の参考資料",
-      "kr": "캐릭터/머신 스탯 정렬 표 참고 자료"
+      "en": "Character / Machine Stats Sort Table Reference by Unexsitance",
+      "jp": "キャラクター・マシンステータスソート表の参考資料 (by Unexsitance)",
+      "kr": "캐릭터/머신 스탯 정렬 표 참고 자료 (by Unexsitance)"
     },
     "speedDocument": {
       "en": "Speed Document by Yoshister",
