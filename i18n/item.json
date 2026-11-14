@@ -222,21 +222,21 @@
             "Until 30s: no \"Triple Boost\", \"Monster Truck\", \"Drill\", \"King Boomboo\" or \"Weight\"",
             "Until 50s: no \"Slime\" or \"Darkchao\"",
             "Cooldown after someone obtains one: \"Weight\" 30s, \"Slime\" and \"Darkchao\" 50s, \"King Boomboo\" 60s",
-            "Box timing matters. Example: at 9th or lower and 100m+ behind 1st while holding a Boost, a box opened before 15s tends to give \"Slicer\", after 15s \"Laser\", and after 30s \"Triple Boost\" or \"Monster Truck\"."
+            "Box timing matters. Example: at 9th or lower and 100m+ behind 1st while holding a Boost, a box opened before 15s gives \"Slicer\"; after 15s \"Laser\" becomes likely, and after 30s \"Triple Boost\" or \"Monster Truck\"."
           ],
           "jp": [
             "レース開始から15秒まで: 「レーザー」「トルネード」は出ない",
             "30秒まで: 「トリプルブースト」「モンスタートラック」「ドリル」「キングブーボー」「ウェイト」は出ない",
             "50秒まで: 「スライム」「ダークチャオ」は出ない",
             "誰かが獲得した後のクールタイム: 「ウェイト」30秒、「スライム」「ダークチャオ」50秒、「キングブーボー」60秒",
-            "ボックスを割るタイミングで結果が大きく変わります。例: 9位以下・1位から100m以上で「ブースト」を持ったまま、15秒前に割ると「カッター」、15秒後なら「レーザー」、30秒後なら「トリプルブースト」か「モンスタートラック」が出やすくなります。"
+            "ボックスを割るタイミングで結果が大きく変わります。例: 9位以下・1位から100m以上で「ブースト」を持ったまま、15秒前に割ると「カッター」が出て、15秒後なら「レーザー」、30秒後なら「トリプルブースト」か「モンスタートラック」が出やすくなります。"
           ],
           "kr": [
             "레이스 시작 후 15초까지: 「레이저」, 「토네이도」 미등장",
             "30초까지: 「트리플 부스트」, 「몬스터 트럭」, 「드릴」, 「킹 부부」, 「웨이트」 미등장",
             "50초까지: 「슬라임」, 「다크챠오」 미등장",
             "누군가 획득한 뒤 쿨타임: 「웨이트」 30초, 「슬라임」·「다크챠오」 50초, 「킹 부부」 60초",
-            "상자를 여는 타이밍에 따라 결과가 크게 달라집니다. 예: 9위 이하·1위와 100m 이상에서 「부스트」를 가진 채 15초 전에 열면 「커터」, 15초 후면 「레이저」, 30초 후면 「트리플 부스트」나 「몬스터 트럭」이 나오기 쉽습니다."
+            "상자를 여는 타이밍에 따라 결과가 크게 달라집니다. 예: 9위 이하·1위와 100m 이상에서 「부스트」를 가진 채 15초 전에 열면 「커터」가 나오고, 15초 후면 「레이저」, 30초 후면 「트리플 부스트」나 「몬스터 트럭」이 나오기 쉽습니다."
           ]
         }
       },
@@ -280,30 +280,33 @@
         "points": {
           "en": [
             "Hazard: over half at 1st. At 3rd or lower, none once you are 25m+ behind 1st",
-            "Attack: most common at 2nd, about half regardless of distance",
+            "Attack: most common at 2nd, where it makes up about half regardless of distance from 1st",
             "Global attacks (\"Weight\", \"King Boomboo\", \"Slime\", \"Darkchao\"): start appearing at 6th or lower and 100m+ behind",
             "Defense (\"Tornado\", \"Shield\"): around 20% at 2nd–8th within 100m of 1st; decreases with distance and never appears at 9th or lower",
             "Boost: increases the lower your place and the farther from 1st. \"Laser\", \"Triple Boost\", \"Monster Truck\" and \"Drill\" mainly appear at 6th or lower and 100m+, with \"Drill\" only even farther back",
-            "Special Item Box: no hazard items. Within 100m of 1st, about half are \"Shield\" at any place",
-            "Special Item Box at 100m+: boost items exceed 60% at 3rd or lower, and \"Triple Rocket Punch\" and \"Triple Homing Punch\" appear. For global attacks, \"Darkchao\" when close to 1st, \"Slime\" at 3rd or lower and 100m+"
+            "Special Item Box: no hazard items; \"Triple Rocket Punch\" and \"Triple Homing Punch\" also appear as attack items. Within 100m of 1st, about half are \"Shield\" at any place",
+            "Special Item Box at 100m+: boost items exceed 60% at 3rd or lower",
+            "Special Item Box global attacks: \"Darkchao\" when close to 1st, \"Slime\" at 3rd or lower and 100m+"
           ],
           "jp": [
             "設置: 1位では半分以上。3位以下は1位から25m以上離れると出ない",
-            "攻撃: 2位で最も多く、距離に関係なく半分ほど",
+            "攻撃: 2位で最も多く、2位では1位との距離に関係なく半分ほど",
             "全体攻撃(「ウェイト」「キングブーボー」「スライム」「ダークチャオ」): 6位以下・1位から100m以上で出始める",
             "防御(「トルネード」「シールド」): 2〜8位・1位から100m未満で2割前後。離れるほど減り、9位以下では出ない",
             "加速: 順位が下で1位から遠いほど増加。「レーザー」「トリプルブースト」「モンスタートラック」「ドリル」は主に6位以下・100m以上から、「ドリル」はさらに離れたときだけ出る",
-            "スペシャルアイテムボックス: 設置アイテムは出ない。1位から100m未満ならどの順位でも半分ほどが「シールド」",
-            "スペシャルアイテムボックス100m以上: 3位以下は加速アイテムが6割超、「トリプルロケットパンチ」「トリプルホーミングパンチ」も出る。全体攻撃は1位に近いと「ダークチャオ」、3位以下・100m以上で「スライム」"
+            "スペシャルアイテムボックス: 設置アイテムは出ない。攻撃アイテムでは「トリプルロケットパンチ」「トリプルホーミングパンチ」も出る。1位から100m未満ならどの順位でも半分ほどが「シールド」",
+            "スペシャルアイテムボックス100m以上: 3位以下は加速アイテムが6割超",
+            "スペシャルアイテムボックスの全体攻撃: 1位に近いと「ダークチャオ」、3位以下・100m以上で「スライム」"
           ],
           "kr": [
             "설치: 1위에서 절반 이상. 3위 이하는 1위와 25m 이상 떨어지면 등장하지 않음",
-            "공격: 2위에서 가장 많고, 거리와 관계없이 약 절반",
+            "공격: 2위에서 가장 많으며, 2위에서는 1위와의 거리와 관계없이 약 절반",
             "전체 공격(「웨이트」, 「킹 부부」, 「슬라임」, 「다크챠오」): 6위 이하·1위와 100m 이상부터 등장",
             "방어(「토네이도」, 「방패」): 2~8위·1위와 100m 미만에서 20% 전후. 멀어질수록 줄고 9위 이하는 등장하지 않음",
             "가속: 순위가 낮고 1위와 멀수록 증가. 「레이저」, 「트리플 부스트」, 「몬스터 트럭」, 「드릴」은 주로 6위 이하·100m 이상부터, 「드릴」은 더 멀어져야 등장",
-            "스페셜 아이템 박스: 설치 아이템 없음. 1위와 100m 미만이면 순위와 관계없이 약 절반이 「방패」",
-            "스페셜 아이템 박스 100m 이상: 3위 이하는 가속 아이템이 60% 이상, 「트리플 로켓 펀치」, 「트리플 호밍 펀치」도 등장. 전체 공격은 1위와 가까우면 「다크챠오」, 3위 이하·100m 이상이면 「슬라임」"
+            "스페셜 아이템 박스: 설치 아이템 없음. 공격 아이템으로 「트리플 로켓 펀치」, 「트리플 호밍 펀치」도 등장. 1위와 100m 미만이면 순위와 관계없이 약 절반이 「방패」",
+            "스페셜 아이템 박스 100m 이상: 3위 이하는 가속 아이템이 60% 이상",
+            "스페셜 아이템 박스 전체 공격: 1위와 가까우면 「다크챠오」, 3위 이하·100m 이상이면 「슬라임」"
           ]
         }
       },
@@ -319,7 +322,7 @@
           "en": [
             "An item you already hold is never drawn, and the other items become more likely instead. This includes Boosts added to your inventory during Item Fever.",
             "Pairs where holding one blocks the other: \"Spiked Iron Ball\" ↔ \"Magnet\", \"Darkchao\" ↔ \"Slime\", \"Rocket Punch\" ↔ \"Triple Rocket Punch\", \"Homing Punch\" ↔ \"Triple Homing Punch\"",
-            "When several items are drawn at once (Double Box or \"Darkchao\"), the same item can rarely appear twice online, and the \"Spiked Iron Ball\" ↔ \"Magnet\" and \"Darkchao\" ↔ \"Slime\" pair limits do not apply.",
+            "When several items are drawn at once (a box that gives two items, or \"Darkchao\"), the same item can rarely appear twice online, and the \"Spiked Iron Ball\" ↔ \"Magnet\" and \"Darkchao\" ↔ \"Slime\" pair limits do not apply.",
             "Tip: at 1st, drawing while holding \"Spiked Iron Ball\" or \"Magnet\" removes both, making \"Tornado\" and \"Shield\" more likely. In a Special Item Box at 1st, holding \"Rocket Punch\" removes \"Triple Rocket Punch\", raising the odds of \"Shield\" and \"Boost\"."
           ],
           "jp": [
@@ -331,7 +334,7 @@
           "kr": [
             "이미 가지고 있는 아이템은 절대 추첨되지 않으며, 그만큼 다른 아이템이 나오기 쉬워집니다. 아이템 피버 중 손에 들어온 「부스트」도 포함됩니다.",
             "한쪽을 가지고 있으면 다른 쪽도 나오지 않는 조합: 「가시 철구」↔「마그넷」, 「다크챠오」↔「슬라임」, 「로켓 펀치」↔「트리플 로켓 펀치」, 「호밍 펀치」↔「트리플 호밍 펀치」",
-            "더블 박스나 「다크챠오」로 여러 개를 동시에 추첨할 때는 온라인에서 드물게 같은 아이템이 2개 나올 수 있으며, 「가시 철구」↔「마그넷」, 「다크챠오」↔「슬라임」 조합 제한은 적용되지 않습니다.",
+            "아이템을 2개 주는 상자나 「다크챠오」로 여러 개를 동시에 추첨할 때는 온라인에서 드물게 같은 아이템이 2개 나올 수 있으며, 「가시 철구」↔「마그넷」, 「다크챠오」↔「슬라임」 조합 제한은 적용되지 않습니다.",
             "활용: 1위에서 「가시 철구」나 「마그넷」을 가진 채 추첨하면 둘 다 빠져 「토네이도」, 「방패」가 나오기 쉬워집니다. 스페셜 아이템 박스에서도 1위에서 「로켓 펀치」를 가진 채 추첨하면 「트리플 로켓 펀치」가 빠져 「방패」, 「부스트」 확률이 올라갑니다."
           ]
         }

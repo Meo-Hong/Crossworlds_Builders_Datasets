@@ -562,9 +562,9 @@
             "kr" : "전방의 머신을 호밍하여 두 동강 냅니다.\n상대는 아이템을 하나 떨어뜨립니다."
         },
         "detail" : {
-            "en" : "The speed of the bomb is slower than \"Rocket Punch\" and \"Homing Punch\", so it is necessary to respond to it.\nCan be canceled by walls or other items.\nIf two different cutters fly at the same time toward the same machine, they will cancel each other out and disappear.\nSince v2.0.0, it no longer hits the player who used it.\nSince v2.0.0, it is destroyed immediately when it hits an invincible racer.\nIf you open an item box in a low position while holding a Boost within the first 15 seconds, neither Boost nor Laser can appear, so \"Slicer\" becomes likely.",
-            "jp" : "「ロケットパンチ」, 「ホーミングパンチ」よりも爆弾の速度が遅いため、対応が必要です。\n壁や他のアイテムでキャンセル可能です。\n2つの異なるカッターが同じマシンに同時に向かって飛ぶ場合、互いにキャンセルされて消えます。\nv2.0.0以降、使用したプレイヤー自身には命中しません。\nv2.0.0以降、無敵状態のレーサーに命中すると即座に破壊されます。\nレース開始15秒以内に下位で「ブースト」を持ったままアイテムボックスを割ると、「ブースト」も「レーザー」も出ないため「カッター」が出やすくなります。",
-            "kr" : "날아오는 속도가 「로켓 펀치」, 「호밍 펀치」보다 느리며, 잘리기까지 시간이 걸리기에 대응해야 합니다.\n벽이나 다른 아이템으로 상쇄할 수 있습니다.\n서로 다른 커터가 같은 머신을 향해 동시에 날아가면 서로 상쇄되어 없어집니다.\nv2.0.0부터 사용한 플레이어 자신에게는 명중하지 않습니다.\nv2.0.0부터 무적 상태의 레이서에게 명중하면 즉시 파괴됩니다.\n레이스 시작 15초 이내에 하위권에서 「부스트」를 가진 채 아이템 상자를 열면, 「부스트」와 「레이저」가 모두 나오지 않아 「커터」가 나오기 쉽습니다."
+            "en" : "The speed of the bomb is slower than \"Rocket Punch\" and \"Homing Punch\", so it is necessary to respond to it.\nCan be canceled by walls or other items.\nIf two different cutters fly at the same time toward the same machine, they will cancel each other out and disappear.\nSince v2.0.0, it no longer hits the player who used it.\nSince v2.0.0, it is destroyed immediately when it hits an invincible racer.\nAt 9th place or lower and 100m or more behind 1st place, opening an item box within the first 15 seconds while holding a Boost gives \"Slicer\", since neither Boost nor Laser can appear.",
+            "jp" : "「ロケットパンチ」, 「ホーミングパンチ」よりも爆弾の速度が遅いため、対応が必要です。\n壁や他のアイテムでキャンセル可能です。\n2つの異なるカッターが同じマシンに同時に向かって飛ぶ場合、互いにキャンセルされて消えます。\nv2.0.0以降、使用したプレイヤー自身には命中しません。\nv2.0.0以降、無敵状態のレーサーに命中すると即座に破壊されます。\n9位以下・1位から100m以上で、レース開始15秒以内に「ブースト」を持ったままアイテムボックスを割ると、「ブースト」も「レーザー」も出ないため「カッター」が出ます。",
+            "kr" : "날아오는 속도가 「로켓 펀치」, 「호밍 펀치」보다 느리며, 잘리기까지 시간이 걸리기에 대응해야 합니다.\n벽이나 다른 아이템으로 상쇄할 수 있습니다.\n서로 다른 커터가 같은 머신을 향해 동시에 날아가면 서로 상쇄되어 없어집니다.\nv2.0.0부터 사용한 플레이어 자신에게는 명중하지 않습니다.\nv2.0.0부터 무적 상태의 레이서에게 명중하면 즉시 파괴됩니다.\n9위 이하·1위와 100m 이상에서 레이스 시작 15초 이내에 「부스트」를 가진 채 아이템 상자를 열면, 「부스트」와 「레이저」가 모두 나오지 않아 「커터」가 나옵니다."
         },
         "image" : "Slicer.webp",
         "gadget" : [
@@ -768,9 +768,9 @@
             "kr" : "모든 머신에 아이템을 강제로 부여합니다.\n이미 아이템을 가지고 있는 경우에는 다시 획득합니다."
         },
         "detail" : {
-            "en" : "With the slot increased, you get three items.\nYou can cope with it by listening to a small laugh before appearing in the warp ring.\nDoes not appear during the first 50 seconds of a race, nor for 50 seconds after someone obtains it.\nOnly 1 can exist at a time in a race combined with \"Slime\", and it does not appear while you hold \"Slime\".\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nItems received at the same time can rarely be duplicates.",
-            "jp" : "スロットが増加した状態では、3つのアイテムを獲得します。\nワープリングに登場する前に小さな笑い声が聞こえるので、対処が可能です。\nレース開始から50秒間は出現せず、誰かが獲得してから50秒間も出現しません。\n「スライム」と合わせて部屋全体で同時に1個までで、「スライム」を持っていると出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。\n同時に獲得するアイテム同士は、稀に同じアイテムになることがあります。",
-            "kr" : "슬롯 증가가 된 상태에서는 3개의 아이템을 획득합니다.\n워프 링에서 등장하기 전에 작은 웃음소리가 들려 대처 가능.\n레이스 시작 후 50초 동안은 등장하지 않으며, 누군가 획득한 뒤 50초 동안도 등장하지 않습니다.\n「슬라임」과 합쳐 한 레이스 동시 1개까지만 보유 가능. 누군가 「슬라임」을 가지고 있으면 미등장.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n동시에 받는 아이템끼리는 드물게 같은 아이템이 나올 수 있습니다."
+            "en" : "With the slot increased, you get three items.\nYou can cope with it by listening to a small laugh before appearing in the warp ring.\nDoes not appear during the first 50 seconds of a race, nor for 50 seconds after someone obtains it.\nOnly 1 can exist at a time in a race combined with \"Slime\", and it does not appear while you hold \"Slime\".\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nItems received at the same time can rarely be duplicates online.",
+            "jp" : "スロットが増加した状態では、3つのアイテムを獲得します。\nワープリングに登場する前に小さな笑い声が聞こえるので、対処が可能です。\nレース開始から50秒間は出現せず、誰かが獲得してから50秒間も出現しません。\n「スライム」と合わせて部屋全体で同時に1個までで、「スライム」を持っていると出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。\n同時に獲得するアイテム同士は、オンラインでは稀に同じアイテムになることがあります。",
+            "kr" : "슬롯 증가가 된 상태에서는 3개의 아이템을 획득합니다.\n워프 링에서 등장하기 전에 작은 웃음소리가 들려 대처 가능.\n레이스 시작 후 50초 동안은 등장하지 않으며, 누군가 획득한 뒤 50초 동안도 등장하지 않습니다.\n「슬라임」과 합쳐 한 레이스 동시 1개까지만 보유 가능. 누군가 「슬라임」을 가지고 있으면 미등장.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n동시에 받는 아이템끼리는 온라인에서 드물게 같은 아이템이 나올 수 있습니다."
         },
         "image" : "DarkChao.webp",
         "gadget" : [
