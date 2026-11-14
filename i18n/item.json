@@ -104,5 +104,345 @@
       "jp": "説明",
       "kr": "설명"
     }
+  },
+  "drawGuide": {
+    "videoTitle": "【完全解説】10分でわかる！アイテム抽選の仕組み【ソニックレーシングCW】",
+    "author": "thetakappa",
+    "durationSeconds": 658,
+    "sourceLabel": {
+      "en": "Reference Video",
+      "jp": "参考動画",
+      "kr": "참고 영상"
+    },
+    "watchOnYoutube": {
+      "en": "Watch on YouTube",
+      "jp": "YouTubeで見る",
+      "kr": "YouTube에서 보기"
+    },
+    "summaryLabel": {
+      "en": "Draw Rules",
+      "jp": "抽選ルールまとめ",
+      "kr": "추첨 규칙 정리"
+    },
+    "basisNote": {
+      "en": "Based on a 12-player individual race in v2.0.0. Team races and Duel follow the same rules, but some values differ.",
+      "jp": "ver2.0.0・12人個人戦が基準です。チーム戦・デュエルもルールは共通ですが、一部の数値が異なります。",
+      "kr": "v2.0.0, 12인 개인전 기준입니다. 팀전·듀얼도 규칙은 같지만 일부 수치가 다릅니다."
+    },
+    "playFrom": {
+      "en": "Watch from {time} on YouTube",
+      "jp": "{time}からYouTubeで見る",
+      "kr": "{time}부터 YouTube에서 보기"
+    },
+    "linksLabel": {
+      "en": "References",
+      "jp": "参考リンク",
+      "kr": "참고 링크"
+    },
+    "calculatorLink": {
+      "en": "Item Probability Calculator",
+      "jp": "アイテム確率計算機",
+      "kr": "아이템 확률 계산기"
+    },
+    "distanceMapLink": {
+      "en": "Course Distance Map",
+      "jp": "コース別距離マップ",
+      "kr": "코스별 거리 맵"
+    },
+    "rules": [
+      {
+        "key": "place",
+        "start": 95,
+        "title": {
+          "en": "① Place",
+          "jp": "①順位",
+          "kr": "① 순위"
+        },
+        "points": {
+          "en": [
+            "The item table changes across 5 tiers: 1st / 2nd / 3rd–5th / 6th–8th / 9th–12th. Within the same tier, the draw pool is identical.",
+            "1st: mostly hazard items such as \"Spiked Iron Ball\" and \"Magnet\"",
+            "2nd: more attack items such as punches and \"Slicer\"",
+            "3rd–5th: no hazard items; more \"Boost\" and \"Void\"",
+            "6th–8th: \"Laser\", \"Triple Boost\" and \"Monster Truck\" start to appear",
+            "9th–12th: almost all boost items"
+          ],
+          "jp": [
+            "1位 / 2位 / 3〜5位 / 6〜8位 / 9〜12位の5段階でアイテムテーブルが変わり、同じ段階なら抽選されるアイテムは同じです。",
+            "1位: 「トゲ鉄球」「マグネット」などの設置アイテムが中心",
+            "2位: パンチ系や「カッター」などの攻撃アイテムが増加",
+            "3〜5位: 設置アイテムが出なくなり、「ブースト」「ヴォイド」が増加",
+            "6〜8位: 「レーザー」「トリプルブースト」「モンスタートラック」が出始める",
+            "9〜12位: ほとんどが加速アイテム"
+          ],
+          "kr": [
+            "1위 / 2위 / 3~5위 / 6~8위 / 9~12위의 5단계로 아이템 테이블이 바뀌며, 같은 단계 안에서는 추첨되는 아이템이 같습니다.",
+            "1위: 「가시 철구」, 「마그넷」 같은 설치 아이템 중심",
+            "2위: 펀치 계열, 「커터」 같은 공격 아이템 증가",
+            "3~5위: 설치 아이템이 사라지고 「부스트」, 「보이드」 증가",
+            "6~8위: 「레이저」, 「트리플 부스트」, 「몬스터 트럭」 등장 시작",
+            "9~12위: 대부분 가속 아이템"
+          ]
+        }
+      },
+      {
+        "key": "time",
+        "start": 145,
+        "title": {
+          "en": "② Time",
+          "jp": "②時間",
+          "kr": "② 시간"
+        },
+        "points": {
+          "en": [
+            "Until 15s after the start: no \"Laser\" or \"Tornado\"",
+            "Until 30s: no \"Triple Boost\", \"Monster Truck\", \"Drill\", \"King Boomboo\" or \"Weight\"",
+            "Until 50s: no \"Slime\" or \"Darkchao\"",
+            "Cooldown after someone obtains one: \"Weight\" 30s, \"Slime\" and \"Darkchao\" 50s, \"King Boomboo\" 60s",
+            "Box timing matters. Example: at 9th or lower and 100m+ behind 1st while holding a Boost, a box opened before 15s tends to give \"Slicer\", after 15s \"Laser\", and after 30s \"Triple Boost\" or \"Monster Truck\"."
+          ],
+          "jp": [
+            "レース開始から15秒まで: 「レーザー」「トルネード」は出ない",
+            "30秒まで: 「トリプルブースト」「モンスタートラック」「ドリル」「キングブーボー」「ウェイト」は出ない",
+            "50秒まで: 「スライム」「ダークチャオ」は出ない",
+            "誰かが獲得した後のクールタイム: 「ウェイト」30秒、「スライム」「ダークチャオ」50秒、「キングブーボー」60秒",
+            "ボックスを割るタイミングで結果が大きく変わります。例: 9位以下・1位から100m以上で「ブースト」を持ったまま、15秒前に割ると「カッター」、15秒後なら「レーザー」、30秒後なら「トリプルブースト」か「モンスタートラック」が出やすくなります。"
+          ],
+          "kr": [
+            "레이스 시작 후 15초까지: 「레이저」, 「토네이도」 미등장",
+            "30초까지: 「트리플 부스트」, 「몬스터 트럭」, 「드릴」, 「킹 부부」, 「웨이트」 미등장",
+            "50초까지: 「슬라임」, 「다크챠오」 미등장",
+            "누군가 획득한 뒤 쿨타임: 「웨이트」 30초, 「슬라임」·「다크챠오」 50초, 「킹 부부」 60초",
+            "상자를 여는 타이밍에 따라 결과가 크게 달라집니다. 예: 9위 이하·1위와 100m 이상에서 「부스트」를 가진 채 15초 전에 열면 「커터」, 15초 후면 「레이저」, 30초 후면 「트리플 부스트」나 「몬스터 트럭」이 나오기 쉽습니다."
+          ]
+        }
+      },
+      {
+        "key": "distance",
+        "start": 235,
+        "title": {
+          "en": "③ Distance",
+          "jp": "③距離",
+          "kr": "③ 거리"
+        },
+        "points": {
+          "en": [
+            "The table changes with the distance from you to 1st place at the moment of the draw. Thresholds: 25m / 100m / 220m / 400m.",
+            "The table does not shift gradually; it switches all at once when you cross a threshold, so results just before and after one differ a lot.",
+            "Example: at 9th or lower, \"Monster Truck\" appears past 100m and \"Drill\" past 220m.",
+            "The opponent distance shown at the top right in Duel helps you get a feel for it, but Duel uses different thresholds."
+          ],
+          "jp": [
+            "抽選した瞬間の自分から1位までの距離でテーブルが変わります。境目は25m / 100m / 220m / 400mです。",
+            "テーブルは少しずつではなく境目をまたいだ瞬間に一気に切り替わるため、境目のすぐ手前と先では結果が大きく違います。",
+            "例: 9位以下では100mを越えると「モンスタートラック」、220mを越えると「ドリル」も出ます。",
+            "距離感はデュエルの画面右上に表示される相手との距離が参考になります。ただしデュエルは距離の境目が異なります。"
+          ],
+          "kr": [
+            "추첨 순간 자신과 1위 사이의 거리에 따라 테이블이 바뀝니다. 경계는 25m / 100m / 220m / 400m입니다.",
+            "테이블은 조금씩 바뀌지 않고 경계를 넘는 순간 한 번에 바뀌므로, 경계 바로 앞과 뒤의 결과가 크게 다릅니다.",
+            "예: 9위 이하는 100m를 넘으면 「몬스터 트럭」, 220m를 넘으면 「드릴」도 등장합니다.",
+            "듀얼 화면 오른쪽 위의 상대와의 거리 표시가 거리 감각을 익히는 데 도움이 됩니다. 단, 듀얼은 거리 경계가 다릅니다."
+          ]
+        }
+      },
+      {
+        "key": "placeDistance",
+        "start": 307,
+        "title": {
+          "en": "Place × Distance",
+          "jp": "順位と距離の組み合わせ",
+          "kr": "순위와 거리의 조합"
+        },
+        "points": {
+          "en": [
+            "Hazard: over half at 1st. At 3rd or lower, none once you are 25m+ behind 1st",
+            "Attack: most common at 2nd, about half regardless of distance",
+            "Global attacks (\"Weight\", \"King Boomboo\", \"Slime\", \"Darkchao\"): start appearing at 6th or lower and 100m+ behind",
+            "Defense (\"Tornado\", \"Shield\"): around 20% at 2nd–8th within 100m of 1st; decreases with distance and never appears at 9th or lower",
+            "Boost: increases the lower your place and the farther from 1st. \"Laser\", \"Triple Boost\", \"Monster Truck\" and \"Drill\" mainly appear at 6th or lower and 100m+, with \"Drill\" only even farther back",
+            "Special Item Box: no hazard items. Within 100m of 1st, about half are \"Shield\" at any place",
+            "Special Item Box at 100m+: boost items exceed 60% at 3rd or lower, and \"Triple Rocket Punch\" and \"Triple Homing Punch\" appear. For global attacks, \"Darkchao\" when close to 1st, \"Slime\" at 3rd or lower and 100m+"
+          ],
+          "jp": [
+            "設置: 1位では半分以上。3位以下は1位から25m以上離れると出ない",
+            "攻撃: 2位で最も多く、距離に関係なく半分ほど",
+            "全体攻撃(「ウェイト」「キングブーボー」「スライム」「ダークチャオ」): 6位以下・1位から100m以上で出始める",
+            "防御(「トルネード」「シールド」): 2〜8位・1位から100m未満で2割前後。離れるほど減り、9位以下では出ない",
+            "加速: 順位が下で1位から遠いほど増加。「レーザー」「トリプルブースト」「モンスタートラック」「ドリル」は主に6位以下・100m以上から、「ドリル」はさらに離れたときだけ出る",
+            "スペシャルアイテムボックス: 設置アイテムは出ない。1位から100m未満ならどの順位でも半分ほどが「シールド」",
+            "スペシャルアイテムボックス100m以上: 3位以下は加速アイテムが6割超、「トリプルロケットパンチ」「トリプルホーミングパンチ」も出る。全体攻撃は1位に近いと「ダークチャオ」、3位以下・100m以上で「スライム」"
+          ],
+          "kr": [
+            "설치: 1위에서 절반 이상. 3위 이하는 1위와 25m 이상 떨어지면 등장하지 않음",
+            "공격: 2위에서 가장 많고, 거리와 관계없이 약 절반",
+            "전체 공격(「웨이트」, 「킹 부부」, 「슬라임」, 「다크챠오」): 6위 이하·1위와 100m 이상부터 등장",
+            "방어(「토네이도」, 「방패」): 2~8위·1위와 100m 미만에서 20% 전후. 멀어질수록 줄고 9위 이하는 등장하지 않음",
+            "가속: 순위가 낮고 1위와 멀수록 증가. 「레이저」, 「트리플 부스트」, 「몬스터 트럭」, 「드릴」은 주로 6위 이하·100m 이상부터, 「드릴」은 더 멀어져야 등장",
+            "스페셜 아이템 박스: 설치 아이템 없음. 1위와 100m 미만이면 순위와 관계없이 약 절반이 「방패」",
+            "스페셜 아이템 박스 100m 이상: 3위 이하는 가속 아이템이 60% 이상, 「트리플 로켓 펀치」, 「트리플 호밍 펀치」도 등장. 전체 공격은 1위와 가까우면 「다크챠오」, 3위 이하·100m 이상이면 「슬라임」"
+          ]
+        }
+      },
+      {
+        "key": "duplicate",
+        "start": 402,
+        "title": {
+          "en": "④ Duplicate Limit",
+          "jp": "④重複制限",
+          "kr": "④ 중복 제한"
+        },
+        "points": {
+          "en": [
+            "An item you already hold is never drawn, and the other items become more likely instead. This includes Boosts added to your inventory during Item Fever.",
+            "Pairs where holding one blocks the other: \"Spiked Iron Ball\" ↔ \"Magnet\", \"Darkchao\" ↔ \"Slime\", \"Rocket Punch\" ↔ \"Triple Rocket Punch\", \"Homing Punch\" ↔ \"Triple Homing Punch\"",
+            "When several items are drawn at once (Double Box or \"Darkchao\"), the same item can rarely appear twice online, and the \"Spiked Iron Ball\" ↔ \"Magnet\" and \"Darkchao\" ↔ \"Slime\" pair limits do not apply.",
+            "Tip: at 1st, drawing while holding \"Spiked Iron Ball\" or \"Magnet\" removes both, making \"Tornado\" and \"Shield\" more likely. In a Special Item Box at 1st, holding \"Rocket Punch\" removes \"Triple Rocket Punch\", raising the odds of \"Shield\" and \"Boost\"."
+          ],
+          "jp": [
+            "すでに持っているアイテムは絶対に抽選されず、その分ほかのアイテムが出やすくなります。アイテムフィーバー中に手持ちに入る「ブースト」も対象です。",
+            "片方を持っているともう片方も出ない組: 「トゲ鉄球」↔「マグネット」、「ダークチャオ」↔「スライム」、「ロケットパンチ」↔「トリプルロケットパンチ」、「ホーミングパンチ」↔「トリプルホーミングパンチ」",
+            "ダブルボックスや「ダークチャオ」で同時に複数抽選するときは、オンラインでは稀に同じアイテムが2つ出ることがあり、「トゲ鉄球」↔「マグネット」、「ダークチャオ」↔「スライム」の組の制限はかかりません。",
+            "活用: 1位で「トゲ鉄球」か「マグネット」を持ったまま抽選すると両方が除かれ、「トルネード」「シールド」が出やすくなります。スペシャルアイテムボックスでも1位で「ロケットパンチ」を持ったまま抽選すると「トリプルロケットパンチ」が除かれ、「シールド」「ブースト」の確率が上がります。"
+          ],
+          "kr": [
+            "이미 가지고 있는 아이템은 절대 추첨되지 않으며, 그만큼 다른 아이템이 나오기 쉬워집니다. 아이템 피버 중 손에 들어온 「부스트」도 포함됩니다.",
+            "한쪽을 가지고 있으면 다른 쪽도 나오지 않는 조합: 「가시 철구」↔「마그넷」, 「다크챠오」↔「슬라임」, 「로켓 펀치」↔「트리플 로켓 펀치」, 「호밍 펀치」↔「트리플 호밍 펀치」",
+            "더블 박스나 「다크챠오」로 여러 개를 동시에 추첨할 때는 온라인에서 드물게 같은 아이템이 2개 나올 수 있으며, 「가시 철구」↔「마그넷」, 「다크챠오」↔「슬라임」 조합 제한은 적용되지 않습니다.",
+            "활용: 1위에서 「가시 철구」나 「마그넷」을 가진 채 추첨하면 둘 다 빠져 「토네이도」, 「방패」가 나오기 쉬워집니다. 스페셜 아이템 박스에서도 1위에서 「로켓 펀치」를 가진 채 추첨하면 「트리플 로켓 펀치」가 빠져 「방패」, 「부스트」 확률이 올라갑니다."
+          ]
+        }
+      },
+      {
+        "key": "roomLimit",
+        "start": 473,
+        "title": {
+          "en": "⑤ Room Limit",
+          "jp": "⑤出現数制限",
+          "kr": "⑤ 출현 수 제한"
+        },
+        "points": {
+          "en": [
+            "Max held at once across the whole room: \"King Boomboo\", \"Weight\", \"Darkchao\", \"Slime\" 1 each / \"Monster Truck\", \"Drill\", \"Omochao\" 3 each",
+            "\"Darkchao\" and \"Slime\" share a single slot. If someone keeps holding \"Darkchao\", \"Slime\" will not appear.",
+            "Late in a race, back-markers often already hold \"Monster Truck\" or \"Drill\" and hit the limit, so strong items feel rare even at low places.",
+            "Because of the limits and cooldowns, an attack warning above your head right after being hit by \"Slime\" is almost always \"Weight\"."
+          ],
+          "jp": [
+            "部屋全体で同時に持てる数: 「キングブーボー」「ウェイト」「ダークチャオ」「スライム」は1個、「モンスタートラック」「ドリル」「オモチャオ」は3個",
+            "「ダークチャオ」と「スライム」は合わせて1個までです。誰かが「ダークチャオ」を持ち続けていると「スライム」は出ません。",
+            "終盤は下位の人たちが「モンスタートラック」「ドリル」を持っていて上限に達していることが多く、下位でも強いアイテムが出づらくなります。",
+            "出現数制限とクールタイムにより、「スライム」で攻撃された直後に頭上の攻撃予告が出た場合は、ほぼ「ウェイト」です。"
+          ],
+          "kr": [
+            "방 전체에서 동시에 보유할 수 있는 수: 「킹 부부」, 「웨이트」, 「다크챠오」, 「슬라임」 1개 / 「몬스터 트럭」, 「드릴」, 「오모챠오」 3개",
+            "「다크챠오」와 「슬라임」은 합쳐서 1개까지입니다. 누군가 「다크챠오」를 계속 가지고 있으면 「슬라임」은 나오지 않습니다.",
+            "레이스 후반에는 하위권이 「몬스터 트럭」, 「드릴」을 이미 들고 있어 상한에 걸리는 경우가 많아, 하위권에서도 강한 아이템이 잘 나오지 않습니다.",
+            "출현 수 제한과 쿨타임 때문에, 「슬라임」에 맞은 직후 머리 위에 공격 예고가 뜨면 대부분 「웨이트」입니다."
+          ]
+        }
+      },
+      {
+        "key": "gadget",
+        "start": 531,
+        "title": {
+          "en": "Gadget Modifiers",
+          "jp": "ガジェット補正",
+          "kr": "가젯 보정"
+        },
+        "points": {
+          "en": [
+            "Each target item's value is multiplied, then everything is rescaled so the total returns to 100. Items without a multiplier therefore become less likely.",
+            "Example: at 1st with \"Defense Item Chance UP\" (x4): \"Tornado\" 10→40, \"Shield\" 5→20, total 145 → \"Tornado\" 27.6%, \"Shield\" 13.8%, \"Spiked Iron Ball\" 32%→22.1%",
+            "Items targeted by several gadgets get the multipliers multiplied together. Example: \"Short Fuse\" (x10) + \"Attack Item Chance UP\" (x4) → \"Bomb\" x40, about 74.8% at 1st"
+          ],
+          "jp": [
+            "対象アイテムの値に倍率を掛けたあと、合計が100になるように全体を割り直します。そのため倍率が掛からないアイテムの確率は下がります。",
+            "例: 1位で「防御アイテム確率アップ」(×4) → 「トルネード」10→40、「シールド」5→20、合計145 → 「トルネード」27.6%、「シールド」13.8%、「トゲ鉄球」32%→22.1%",
+            "複数のガジェットの対象になるアイテムは倍率を掛け合わせます。例: 「ボムクイックチャージ」(×10) + 「攻撃アイテム確率アップ」(×4) → 「ボム」×40、1位で約74.8%"
+          ],
+          "kr": [
+            "대상 아이템의 수치에 배율을 곱한 뒤, 전체 합이 100이 되도록 다시 나눕니다. 그래서 배율이 없는 아이템의 확률은 내려갑니다.",
+            "예: 1위에서 「방어 아이템 확률 UP」(×4) → 「토네이도」 10→40, 「방패」 5→20, 합계 145 → 「토네이도」 27.6%, 「방패」 13.8%, 「가시 철구」 32%→22.1%",
+            "여러 가젯의 대상이면 배율끼리 곱합니다. 예: 「폭탄봇 퀵 차지」(×10) + 「공격 아이템 확률 UP」(×4) → 「폭탄봇」 ×40, 1위에서 약 74.8%"
+          ]
+        }
+      }
+    ],
+    "gadgetTable": {
+      "label": {
+        "en": "Gadget Multipliers",
+        "jp": "ガジェット倍率",
+        "kr": "가젯 배율"
+      },
+      "gadget": {
+        "en": "Gadget",
+        "jp": "ガジェット",
+        "kr": "가젯"
+      },
+      "normal": {
+        "en": "Normal",
+        "jp": "通常",
+        "kr": "일반"
+      },
+      "super": {
+        "en": "Super Slot",
+        "jp": "スーパースロット",
+        "kr": "슈퍼 슬롯"
+      },
+      "rows": [
+        {
+          "id": "gadget_067",
+          "normal": 1.5,
+          "super": 2
+        },
+        {
+          "id": "gadget_093",
+          "normal": 1.5
+        },
+        {
+          "id": "gadget_064",
+          "normal": 4,
+          "super": 6
+        },
+        {
+          "id": "gadget_102",
+          "normal": 4
+        },
+        {
+          "id": "gadget_063",
+          "normal": 4,
+          "super": 6
+        },
+        {
+          "id": "gadget_065",
+          "normal": 4
+        },
+        {
+          "id": "gadget_066",
+          "normal": 4
+        },
+        {
+          "id": "gadget_101",
+          "normal": 9
+        },
+        {
+          "id": "gadget_072",
+          "normal": 10
+        },
+        {
+          "id": "gadget_073",
+          "normal": 10
+        },
+        {
+          "id": "gadget_074",
+          "normal": 10
+        },
+        {
+          "id": "gadget_068",
+          "super": 5
+        }
+      ]
+    }
   }
 }

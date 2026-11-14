@@ -751,6 +751,11 @@
       "jp": "アイテム確率",
       "kr": "아이템 확률 정보"
     },
+    "itemSubGuide": {
+      "en": "Probability Guide",
+      "jp": "確率解説",
+      "kr": "확률 해설"
+    },
     "itemProbOpenButton": {
       "en": "Open probability tool",
       "jp": "確率ツールを開く",
@@ -781,6 +786,11 @@
         "en": "Probability",
         "jp": "確率",
         "kr": "확률 정보"
+      },
+      "itemSubGuide": {
+        "en": "Guide",
+        "jp": "解説",
+        "kr": "확률 해설"
       }
     },
     "noItemsFound": {
