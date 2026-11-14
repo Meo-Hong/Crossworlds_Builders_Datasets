@@ -82,7 +82,7 @@
         },
         "detail" : {
             "en" : "In \"Time Trial\", you can only get the last third boost.\nDoes not appear during the first 30 seconds of a race.\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nWhen \"Monster Truck\" and \"Drill\" hit their per-race limit (3 each), the remaining items become more likely, making \"Triple Boost\" easier to get.",
-            "jp" : "「タイムトライアル」では最後の3回目のブーストしか取得できません。\nレース開始から30秒間は出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。\n「モンスタートラック」と「ドリル」が出現数制限(部屋全体でそれぞれ3個)に達すると、その分ほかのアイテムの確率が上がり、「トリプルブースト」が出やすくなります。",
+            "jp" : "「タイムトライアル」では最後の3回目のブーストしか取得できません。\nレース開始から30秒間は出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。\n「モンスタートラック」と「ドリル」が出現数制限(部屋全体で同時にそれぞれ3個)に達すると、その分ほかのアイテムの確率が上がり、「トリプルブースト」が出やすくなります。",
             "kr" : "\"타임 트라이얼\"에서는 마지막 3번째 부스트만 얻을 수도 있습니다.\n레이스 시작 후 30초 동안은 등장하지 않습니다.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n「몬스터 트럭」, 「드릴」이 출현 수 제한(한 레이스 동시 각 3개)에 걸리면 그만큼 「트리플 부스트」가 나오기 쉬워짐."
         },
         "image" : "Triple Boost.webp",
@@ -633,7 +633,7 @@
         "order" : 18,
         "name" : {
             "en" : "King Boomboo",
-            "jp" : "キングブーボー",
+            "jp" : "キングブーブ",
             "kr" : "킹 부부"
         },
         "type" : ["Attack"],
@@ -729,9 +729,9 @@
             "kr" : "1위와 2위 머신에 추를 떨어트려 뭉개버립니다.\n공격받은 머신은 아이템을 하나 떨어뜨립니다."
         },
         "detail" : {
-            "en" : "Since this item is only applied to the Machines in 1st and 2nd place, it is safe for the 3rd place.\nDoes not appear during the first 30 seconds of a race, nor for 30 seconds after someone obtains it.\nBecause of the per-race limit and cooldowns, an attack warning above your head right after being hit by \"Slime\" is almost always \"Weight\".",
-            "jp" : "このアイテムは1位と2位のマシンにのみ適用されるため、3位の場合はこの攻撃に対して安全です。\nレース開始から30秒間は出現せず、誰かが獲得してから30秒間も出現しません。\n出現数制限とクールタイムにより、「スライム」で攻撃された直後に頭上の攻撃予告が出た場合は、ほぼ「ウェイト」です。",
-            "kr" : "1위와 2위에게만 적용되는 아이템이므로, 3위는 이 공격에 안전.\n레이스 시작 후 30초 동안은 등장하지 않으며, 누군가 획득한 뒤 30초 동안도 등장하지 않습니다.\n출현 수 제한과 쿨타임 때문에, 「슬라임」에 맞은 직후 머리 위에 공격 예고가 뜨면 대부분 「웨이트」."
+            "en" : "Since this item is only applied to the Machines in 1st and 2nd place, it is safe for the 3rd place.\nDoes not appear during the first 30 seconds of a race, nor for 30 seconds after someone obtains it.\nCombining the per-race limit and cooldowns, if an attack warning appears above your head right after being hit by \"Slime\", you can expect it to be \"Weight\".",
+            "jp" : "このアイテムは1位と2位のマシンにのみ適用されるため、3位の場合はこの攻撃に対して安全です。\nレース開始から30秒間は出現せず、誰かが獲得してから30秒間も出現しません。\n出現数制限とクールタイムを合わせると、「スライム」で攻撃された直後に頭上の攻撃予告が出た場合は、ほぼ「ウェイト」が来ると予想できます。",
+            "kr" : "1위와 2위에게만 적용되는 아이템이므로, 3위는 이 공격에 안전.\n레이스 시작 후 30초 동안은 등장하지 않으며, 누군가 획득한 뒤 30초 동안도 등장하지 않습니다.\n출현 수 제한과 쿨타임 때문에, 「슬라임」에 맞은 직후 머리 위에 공격 예고가 뜨면 거의 「웨이트」로 예상 가능."
         },
         "image" : "Weight.webp",
         "gadget" : [
