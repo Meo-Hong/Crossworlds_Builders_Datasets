@@ -81,9 +81,9 @@
             "kr" : "3번 가속할 수 있습니다.\n3번째에는 더욱 길고 강한 부스트를 사용합니다."
         },
         "detail" : {
-            "en" : "In \"Time Trial\", you can only get the last third boost.\nDoes not appear during the first 30 seconds of a race.\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nWhen \"Monster Truck\" and \"Drill\" hit their room-wide limit (3 each), the remaining items become more likely, making \"Triple Boost\" easier to get.",
+            "en" : "In \"Time Trial\", you can only get the last third boost.\nDoes not appear during the first 30 seconds of a race.\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nWhen \"Monster Truck\" and \"Drill\" hit their per-race limit (3 each), the remaining items become more likely, making \"Triple Boost\" easier to get.",
             "jp" : "「タイムトライアル」では最後の3回目のブーストしか取得できません。\nレース開始から30秒間は出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。\n「モンスタートラック」と「ドリル」が出現数制限(部屋全体でそれぞれ3個)に達すると、その分ほかのアイテムの確率が上がり、「トリプルブースト」が出やすくなります。",
-            "kr" : "\"타임 트라이얼\"에서는 마지막 3번째 부스트만 얻을 수도 있습니다.\n레이스 시작 후 30초 동안은 등장하지 않습니다.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n「몬스터 트럭」, 「드릴」이 출현 수 제한(방 전체 각 3개)에 걸리면 그만큼 「트리플 부스트」가 나오기 쉬워짐."
+            "kr" : "\"타임 트라이얼\"에서는 마지막 3번째 부스트만 얻을 수도 있습니다.\n레이스 시작 후 30초 동안은 등장하지 않습니다.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n「몬스터 트럭」, 「드릴」이 출현 수 제한(한 레이스 동시 각 3개)에 걸리면 그만큼 「트리플 부스트」가 나오기 쉬워짐."
         },
         "image" : "Triple Boost.webp",
         "gadget" : [
@@ -690,9 +690,9 @@
             "kr" : "자신을 제외한 모든 머신의 시야를 차단하고, 속도도 떨어뜨립니다.\n공격받은 머신은 아이템을 모두 떨어뜨립니다."
         },
         "detail" : {
-            "en" : "Unusually, In the case of hit with slime, \"Quick Recovery\" is not applied because it is judged to be \"on attack.\"\nDoes not appear during the first 50 seconds of a race, nor for 50 seconds after someone obtains it.\nOnly 1 can exist across the whole room combined with \"Darkchao\", and it does not appear while you hold \"Darkchao\". If someone keeps holding a \"Darkchao\" (e.g. from \"Dark Chao Starter\"), \"Slime\" will not appear.",
+            "en" : "Unusually, In the case of hit with slime, \"Quick Recovery\" is not applied because it is judged to be \"on attack.\"\nDoes not appear during the first 50 seconds of a race, nor for 50 seconds after someone obtains it.\nOnly 1 can exist at a time in a race combined with \"Darkchao\", and it does not appear while you hold \"Darkchao\". If someone keeps holding a \"Darkchao\" (e.g. from \"Dark Chao Starter\"), \"Slime\" will not appear.",
             "jp" : "スライムに当たった場合は、「クイックリカバー」が適用されません。\n「攻撃中」と判断されるためです。\nレース開始から50秒間は出現せず、誰かが獲得してから50秒間も出現しません。\n「ダークチャオ」と合わせて部屋全体で同時に1個までで、「ダークチャオ」を持っていると出現しません。誰かが「最初からダークチャオ」などで「ダークチャオ」を持ち続けていると「スライム」は出ません。",
-            "kr" : "특이하게 슬라임을 맞은 상태에서는 「공격 중」 판정 상태이기 때문에 「퀵 리커버」가 적용되지 않습니다.\n레이스 시작 후 50초 동안은 등장하지 않으며, 누군가 획득한 뒤 50초 동안도 등장하지 않습니다.\n「다크챠오」와 합쳐 방 전체 1개까지만 보유 가능. 누군가 「다크챠오」를 가지고 있으면 미등장 (「처음부터 다크챠오」 포함)."
+            "kr" : "특이하게 슬라임을 맞은 상태에서는 「공격 중」 판정 상태이기 때문에 「퀵 리커버」가 적용되지 않습니다.\n레이스 시작 후 50초 동안은 등장하지 않으며, 누군가 획득한 뒤 50초 동안도 등장하지 않습니다.\n「다크챠오」와 합쳐 한 레이스 동시 1개까지만 보유 가능. 누군가 「다크챠오」를 가지고 있으면 미등장 (「처음부터 다크챠오」 포함)."
         },
         "image" : "Slime.webp",
         "gadget" : [
@@ -729,7 +729,7 @@
             "kr" : "1위와 2위 머신에 추를 떨어트려 뭉개버립니다.\n공격받은 머신은 아이템을 하나 떨어뜨립니다."
         },
         "detail" : {
-            "en" : "Since this item is only applied to the Machines in 1st and 2nd place, it is safe for the 3rd place.\nDoes not appear during the first 30 seconds of a race, nor for 30 seconds after someone obtains it.\nBecause of the room limit and cooldowns, an attack warning above your head right after being hit by \"Slime\" is almost always \"Weight\".",
+            "en" : "Since this item is only applied to the Machines in 1st and 2nd place, it is safe for the 3rd place.\nDoes not appear during the first 30 seconds of a race, nor for 30 seconds after someone obtains it.\nBecause of the per-race limit and cooldowns, an attack warning above your head right after being hit by \"Slime\" is almost always \"Weight\".",
             "jp" : "このアイテムは1位と2位のマシンにのみ適用されるため、3位の場合はこの攻撃に対して安全です。\nレース開始から30秒間は出現せず、誰かが獲得してから30秒間も出現しません。\n出現数制限とクールタイムにより、「スライム」で攻撃された直後に頭上の攻撃予告が出た場合は、ほぼ「ウェイト」です。",
             "kr" : "1위와 2위에게만 적용되는 아이템이므로, 3위는 이 공격에 안전.\n레이스 시작 후 30초 동안은 등장하지 않으며, 누군가 획득한 뒤 30초 동안도 등장하지 않습니다.\n출현 수 제한과 쿨타임 때문에, 「슬라임」에 맞은 직후 머리 위에 공격 예고가 뜨면 대부분 「웨이트」."
         },
@@ -768,9 +768,9 @@
             "kr" : "모든 머신에 아이템을 강제로 부여합니다.\n이미 아이템을 가지고 있는 경우에는 다시 획득합니다."
         },
         "detail" : {
-            "en" : "With the slot increased, you get three items.\nYou can cope with it by listening to a small laugh before appearing in the warp ring.\nDoes not appear during the first 50 seconds of a race, nor for 50 seconds after someone obtains it.\nOnly 1 can exist across the whole room combined with \"Slime\", and it does not appear while you hold \"Slime\".\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nItems received at the same time can rarely be duplicates.",
+            "en" : "With the slot increased, you get three items.\nYou can cope with it by listening to a small laugh before appearing in the warp ring.\nDoes not appear during the first 50 seconds of a race, nor for 50 seconds after someone obtains it.\nOnly 1 can exist at a time in a race combined with \"Slime\", and it does not appear while you hold \"Slime\".\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nItems received at the same time can rarely be duplicates.",
             "jp" : "スロットが増加した状態では、3つのアイテムを獲得します。\nワープリングに登場する前に小さな笑い声が聞こえるので、対処が可能です。\nレース開始から50秒間は出現せず、誰かが獲得してから50秒間も出現しません。\n「スライム」と合わせて部屋全体で同時に1個までで、「スライム」を持っていると出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。\n同時に獲得するアイテム同士は、稀に同じアイテムになることがあります。",
-            "kr" : "슬롯 증가가 된 상태에서는 3개의 아이템을 획득합니다.\n워프 링에서 등장하기 전에 작은 웃음소리가 들려 대처 가능.\n레이스 시작 후 50초 동안은 등장하지 않으며, 누군가 획득한 뒤 50초 동안도 등장하지 않습니다.\n「슬라임」과 합쳐 방 전체 1개까지만 보유 가능. 누군가 「슬라임」을 가지고 있으면 미등장.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n동시에 받는 아이템끼리는 드물게 같은 아이템이 나올 수 있습니다."
+            "kr" : "슬롯 증가가 된 상태에서는 3개의 아이템을 획득합니다.\n워프 링에서 등장하기 전에 작은 웃음소리가 들려 대처 가능.\n레이스 시작 후 50초 동안은 등장하지 않으며, 누군가 획득한 뒤 50초 동안도 등장하지 않습니다.\n「슬라임」과 합쳐 한 레이스 동시 1개까지만 보유 가능. 누군가 「슬라임」을 가지고 있으면 미등장.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n동시에 받는 아이템끼리는 드물게 같은 아이템이 나올 수 있습니다."
         },
         "image" : "DarkChao.webp",
         "gadget" : [
