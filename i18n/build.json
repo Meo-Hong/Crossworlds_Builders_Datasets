@@ -636,9 +636,9 @@
       "kr": "링 대미지"
     },
     "sameTimeCount": {
-      "en": "Multiple stocks allowed",
-      "jp": "複数ストック可能",
-      "kr": "동시 스톡 가능"
+      "en": "Hold Limit",
+      "jp": "所持上限",
+      "kr": "보유 상한"
     },
     "useCaseButton": {
       "en": "Use cases",

@@ -17,15 +17,16 @@
             "kr" : "가속합니다."
         },
         "detail" : {
-            "en" : "Unique items available in \"Time Trial\".\nCan be used to Dodge various attack items.\nAn essential item to go through a run-off area or shortcut without deceleration.\nCan overlap with drift charge boost.\nSince v2.0.0, even while holding either 'Boost' or 'Double Boost', the one you don't hold can still appear from item boxes.",
-            "jp" : "「タイムトライアル」でも使用可能なアイテム。\nさまざまな攻撃アイテムを回避するのに活用できます。\nランオフエリアや近道を減速せずに通過するために必須のアイテム。\nドリフトチャージブーストと重ね合わせ可能。\nv2.0.0以降、「ブースト」と「ダブルブースト」のどちらかを所持していても、所持していない方はアイテムボックスから出現します。",
-            "kr" : "\"타임 트라이얼\"에서도 사용 가능한 아이템.\n다양한 공격 아이템을 회피하는데 활용 가능.\n런오프 구역이나 지름길을 감속 없이 지나가기 위해 필수적인 아이템.\n드리프트 차지 부스트와 중첩 가능.\nv2.0.0부터 '부스트'와 '더블 부스트' 중 하나를 보유하고 있어도, 보유하지 않은 쪽은 아이템 상자에서 나옵니다."
+            "en" : "Unique items available in \"Time Trial\".\nCan be used to Dodge various attack items.\nAn essential item to go through a run-off area or shortcut without deceleration.\nCan overlap with drift charge boost.\nSince v2.0.0, even while holding either 'Boost' or 'Double Boost', the one you don't hold can still appear from item boxes.\nNo Boost from item boxes while holding a Boost (including one from Item Fever).\n\"Boost Starter\" in a Super Slot: appearance rate x5.",
+            "jp" : "「タイムトライアル」でも使用可能なアイテム。\nさまざまな攻撃アイテムを回避するのに活用できます。\nランオフエリアや近道を減速せずに通過するために必須のアイテム。\nドリフトチャージブーストと重ね合わせ可能。\nv2.0.0以降、「ブースト」と「ダブルブースト」のどちらかを所持していても、所持していない方はアイテムボックスから出現します。\n「ブースト」所持中は「ブースト」出現なし(アイテムフィーバーで入手した「ブースト」も含む)。\nスーパースロットの「最初からブースト」装備時、出現率5倍。",
+            "kr" : "\"타임 트라이얼\"에서도 사용 가능한 아이템입니다.\n다양한 공격 아이템 회피에 활용 가능.\n런오프 구역이나 지름길을 감속 없이 지나가기 위한 필수 아이템.\n드리프트 차지 부스트와 중첩 가능.\nv2.0.0부터 '부스트'와 '더블 부스트' 중 하나를 보유하고 있어도, 보유하지 않은 쪽은 아이템 상자에서 나옵니다.\n「부스트」를 가지고 있으면 「부스트」가 등장하지 않습니다. (아이템 피버로 받은 「부스트」 포함)\n슈퍼 슬롯에 「처음부터 부스트」를 장착하면 등장 확률이 5배가 됩니다."
         },
         "image" : "Boost.webp",
         "gadget" : [
             "gadget_066",
             "gadget_067",
-            "gadget_068"
+            "gadget_068",
+            "gadget_117"
         ],
         "use_exam" : []
     },
@@ -47,15 +48,18 @@
             "kr" : "2번 가속할 수 있습니다."
         },
         "detail" : {
-            "en" : "Only available after equipping the \"Double Boost Specialist\" gadget.\nSince v2.0.0, even while holding either 'Boost' or 'Double Boost', the one you don't hold can still appear from item boxes.",
-            "jp" : "「ダブルブースト追加」ガジェットを装備した後に使用可能。\nv2.0.0以降、「ブースト」と「ダブルブースト」のどちらかを所持していても、所持していない方はアイテムボックスから出現します。",
-            "kr" : "전용 가젯 「더블 부스트 추가」착용 후에만 사용/획득 가능\nv2.0.0부터 '부스트'와 '더블 부스트' 중 하나를 보유하고 있어도, 보유하지 않은 쪽은 아이템 상자에서 나옵니다."
+            "en" : "Only appears from Item Boxes after equipping the \"Double Boost Specialist\" gadget.\nAlso available with the \"Speedy Shortcut Kit\", which includes \"Double Boost Specialist\".\nAlso obtained after falling off the course with \"Second Wind\" or \"Damage Support Kit\" (since v2.0.0).\nSince v2.0.0, even while holding either 'Boost' or 'Double Boost', the one you don't hold can still appear from item boxes.",
+            "jp" : "「ダブルブースト追加」ガジェットを装備した場合のみアイテムボックスから入手可能。\n「ダブルブースト追加」を内包する「加速ショートカットキット」でも使用可能。\n「落下時ブーストリカバー」「ダメージサポートキット」装備時、コース落下後に入手可能(v2.0.0~)。\nv2.0.0以降、「ブースト」と「ダブルブースト」のどちらかを所持していても、所持していない方はアイテムボックスから出現します。",
+            "kr" : "전용 가젯 「더블 부스트 추가」를 착용해야만 아이템 상자에서 획득할 수 있습니다.\n「더블 부스트 추가」가 포함된 「가속 지름길 키트」로도 사용/획득할 수 있습니다.\n「낙하 시 부스트 리커버」, 「대미지 서포트 키트」를 착용하면 코스에서 떨어진 뒤 획득할 수 있습니다. (v2.0.0~)\nv2.0.0부터 '부스트'와 '더블 부스트' 중 하나를 보유하고 있어도, 보유하지 않은 쪽은 아이템 상자에서 나옵니다."
         },
         "image" : "Double Boost.webp",
         "gadget" : [
+            "gadget_052",
             "gadget_066",
             "gadget_067",
-            "gadget_069"
+            "gadget_069",
+            "gadget_078",
+            "gadget_117"
         ],
         "use_exam" : []
     },
@@ -77,9 +81,9 @@
             "kr" : "3번 가속할 수 있습니다.\n3번째에는 더욱 길고 강한 부스트를 사용합니다."
         },
         "detail" : {
-            "en" : "In \"Time Trial\", you can only get the last third boost.\nCan be obtained as a replacement item when you cannot get \"Drill\", or \"Monster Truck\".",
-            "jp" : "「タイムトライアル」では最後の3回目のブーストしか取得できません。\n「ドリル」, 「モンスタートラック」を取得できない場合は代替アイテムとして取得できます。",
-            "kr" : "\"타임 트라이얼\"에서는 마지막 3번째 부스트만 얻을 수도 있음.\n  「드릴」, 「몬스터 트럭」을 얻을 수 없을 때 대체 아이템으로 얻을 수 있음."
+            "en" : "In \"Time Trial\", you can only get the last third boost.\nDoes not appear during the first 30 seconds of a race.\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nWhen \"Monster Truck\" and \"Drill\" hit their room-wide limit (3 each), the remaining items become more likely, making \"Triple Boost\" easier to get.",
+            "jp" : "「タイムトライアル」では最後の3回目のブーストしか取得できません。\nレース開始から30秒間は出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。\n「モンスタートラック」と「ドリル」が出現数制限(部屋全体でそれぞれ3個)に達すると、その分ほかのアイテムの確率が上がり、「トリプルブースト」が出やすくなります。",
+            "kr" : "\"타임 트라이얼\"에서는 마지막 3번째 부스트만 얻을 수도 있습니다.\n레이스 시작 후 30초 동안은 등장하지 않습니다.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n「몬스터 트럭」, 「드릴」이 출현 수 제한(방 전체 각 3개)에 걸리면 그만큼 「트리플 부스트」가 나오기 쉬워짐."
         },
         "image" : "Triple Boost.webp",
         "gadget" : [
@@ -108,9 +112,9 @@
             "kr" : "레이저로 변신하여 전방의 머신을 향해 고속으로 이동합니다."
         },
         "detail" : {
-            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.",
-            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。",
-            "kr" : "정해진 경로를 따라 이동합니다.\n지름길을 돌파하는데에도 사용합니다.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
+            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.\nDoes not appear during the first 15 seconds of a race.",
+            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。\nレース開始から15秒間は出現しません。",
+            "kr" : "정해진 경로를 따라 이동합니다.\n지름길 돌파에도 활용 가능.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다.\n레이스 시작 후 15초 동안은 등장하지 않습니다."
         },
         "image" : "Laser.webp",
         "gadget" : [
@@ -140,9 +144,9 @@
             "kr" : "드릴로 변신하여 자동으로 주행합니다."
         },
         "detail" : {
-            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nCan be used to obtain items while in use.\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.",
-            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\n使用中にアイテムを取得できます。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。",
-            "kr" : "정해진 경로를 따라 이동합니다.\n지름길 돌파에 활용 가능.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n드릴 사용 중에는 아이템 획득이 가능합니다.\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
+            "en" : "Move along the charted path.\nCan also be used to bypass shortcuts.\nWhen used outside the course, it is forcibly moved into the course.\nCan be used to obtain items while in use.\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.\nDoes not appear during the first 30 seconds of a race.\nMainly appears at 9th place or lower when you are 220m or more behind 1st place.",
+            "jp" : "指定されたパスに沿って移動します。\n近道を通過するためにも使用できます。\nコース外で使用する場合は、強制的にコース内に移動します。\n使用中にアイテムを取得できます。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。\nレース開始から30秒間は出現しません。\n主に9位以下で、1位から220m以上離れていると出現します。",
+            "kr" : "정해진 경로를 따라 이동합니다.\n지름길 돌파에 활용 가능.\n코스 밖에서 사용 시, 강제로 코스 안으로 이동하여 진행합니다.\n드릴 사용 중에는 아이템 획득이 가능합니다.\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다.\n레이스 시작 후 30초 동안은 등장하지 않습니다.\n주로 9위 이하에서 1위와 220m 이상 떨어졌을 때 등장합니다."
         },
         "image" : "Drill.webp",
         "gadget" : [
@@ -180,7 +184,7 @@
         "detail" : {
             "en" : "Only available after equipping the \"Warp Ring Specialist\" gadget.\n It is temporarily unavailable online (World Match, Legend Competition, Festa) (as of v2.0.0).\nIn v2.0.0, the minimum speed during the effect was raised from 240 to 250km/h.",
             "jp" : "「ワープリング追加」ガジェットを装備した後に使用可能。\n現在オンラインでは使用できません(ワールドマッチ, レジェンドコンペ, フェスタ) (v2.0.0 時点)。\nv2.0.0で効果中の速度下限が240 → 250km/hに上昇しました。",
-            "kr" : "전용 가젯「워프 링 추가」착용 후에만 사용/획득 가능.\n현재 온라인에서 사용 불가능(월드 매치, 레전드 대회, 페스타) (v2.0.0 기준)\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
+            "kr" : "전용 가젯 「워프 링 추가」를 착용해야만 사용/획득할 수 있습니다.\n현재 온라인(월드 매치, 레전드 대회, 페스타)에서는 사용할 수 없습니다. (v2.0.0 기준)\nv2.0.0에서 효과 중 속도 하한이 240 → 250km/h로 상향되었습니다."
         },
         "image" : "WarpRing.webp",
         "gadget" : [
@@ -217,9 +221,9 @@
             "kr" : "몬스터 트럭으로 변신하여 부딪히면 머신을 뭉개버립니다."
         },
         "detail" : {
-            "en" : "The usage time varies depending on the distance from 1st place.\nTravels at a faster speed than normal.",
-            "jp" : "1位との距離によって使用時間が異なります。\n通常よりも速い速度で走行します。",
-            "kr" : "1등과의 거리에 따라 사용 시간이 달라집니다.\n통상보다 더 빠른 속도로 주행합니다."
+            "en" : "The usage time varies depending on the distance from 1st place.\nTravels at a faster speed than normal.\nDoes not appear during the first 30 seconds of a race.\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.",
+            "jp" : "1位との距離によって使用時間が異なります。\n通常よりも速い速度で走行します。\nレース開始から30秒間は出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。",
+            "kr" : "1등과의 거리에 따라 사용 시간이 달라집니다.\n통상보다 더 빠른 속도로 주행합니다.\n레이스 시작 후 30초 동안은 등장하지 않습니다.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다."
         },
         "image" : "MonsterTruck.webp",
         "gadget" : [
@@ -259,7 +263,7 @@
         "detail" : {
             "en" : "Omochao spreads rings for about 6 seconds.\n(If you use \"Go Go Omochao\", it lasts 10 seconds and you can get more rings. Raised from 8 to 10 seconds in v2.0.0)\nCan be used in the run-off area without deceleration, so it can be used in the run-off area.\nCan be used as a straight acceleration item by using the \"Ring Gain Boost\" gadget.",
             "jp" : "オモチャオがリングを約6秒間散らす。\n(「がんばれオモチャオ」を使用すると、10秒間に延びてより多くのリングを獲得可能。v2.0.0で8秒 → 10秒に上昇)\nリングを取得すれば,ランオフエリアを走行中に減速しないため,ランオフ区間で活用できる。\n「リングゲットダッシュ」ガジェットを使用すると、直線加速アイテムとしても使用可能です。",
-            "kr" : "오모챠오가 링을 약 6초간 흩뿌립니다.\n(「힘내라 오모챠오」 사용 시, 10초로 증가해 더 많은 링을 획득 가능. v2.0.0에서 8초 → 10초로 상향)\n링을 얻으면 런오프 구역을 달릴 때 감속이 되지 않아 런오프 구간에서 활용 가능.\n「링 대시」가젯을 활용하면 직진 가속 아이템으로도 활용 가능."
+            "kr" : "오모챠오가 링을 약 6초간 흩뿌립니다.\n「힘내라 오모챠오」 사용 시 10초로 늘어나 더 많은 링을 획득할 수 있습니다. (v2.0.0에서 8초 → 10초로 상향)\n링을 얻으면 런오프 구역에서 감속되지 않아 런오프 구간에서 활용 가능.\n「링 대시」 가젯과 함께 쓰면 직진 가속 아이템으로도 활용 가능."
         },
         "image" : "Omochao.webp",
         "gadget" : [
@@ -317,9 +321,9 @@
             "kr" : "전방의 머신을 호밍하여 공격합니다."
         },
         "detail" : {
-            "en" : "\"Homing Punch\" has better guidance performance than \"Rocket Punch\"'s locked state.\nNot affected by the \"Giant Rocket Punch\" gadget.\nSince v2.0.0, it no longer hits the player who used it.",
-            "jp" : "「ホーミングパンチ」は「ロケットパンチ」のロック状態よりも優れた誘導性能を持ちます。\n「ロケットパンチ 巨大化」ガジェットの影響を受けません。\nv2.0.0以降、使用したプレイヤー自身には命中しません。",
-            "kr" : "「호밍 펀치」의 유도 성능은 「로켓 펀치」의 록 온 상태의 유도 성능보다 더 뛰어납니다. 「로켓 펀치 거대화」가젯의 영향을 받지 않습니다.\nv2.0.0부터 사용한 플레이어 자신에게는 명중하지 않습니다."
+            "en" : "\"Homing Punch\" has better guidance performance than \"Rocket Punch\"'s locked state.\nNot affected by the \"Giant Rocket Punch\" gadget.\nSince v2.0.0, it no longer hits the player who used it.\nDoes not appear while you hold \"Triple Homing Punch\".",
+            "jp" : "「ホーミングパンチ」は「ロケットパンチ」のロック状態よりも優れた誘導性能を持ちます。\n「ロケットパンチ 巨大化」ガジェットの影響を受けません。\nv2.0.0以降、使用したプレイヤー自身には命中しません。\n「トリプルホーミングパンチ」を持っていると出現しません。",
+            "kr" : "「호밍 펀치」의 유도 성능은 「로켓 펀치」의 록 온 상태의 유도 성능보다 더 뛰어납니다. 「로켓 펀치 거대화」 가젯의 영향을 받지 않습니다.\nv2.0.0부터 사용한 플레이어 자신에게는 명중하지 않습니다.\n「트리플 호밍 펀치」를 가지고 있으면 등장하지 않습니다."
         },
         "image" : "HomingPunch.webp",
         "gadget" : [
@@ -395,9 +399,9 @@
             "kr" : "「호밍 펀치」를 3번 사용할 수 있습니다."
         },
         "detail" : {
-            "en" : "Triple Homing Punch appears only in the \"Special Item Box\".",
-            "jp" : "「トリプルホーミングパンチ」は 「スペシャルアイテムボックス」にのみ出現します。",
-            "kr" : "「트리플 호밍 펀치」는 통상적으로는 등장하지 않습니다. 「스페셜 아이템 박스」에서만 등장합니다."
+            "en" : "Triple Homing Punch appears only in the \"Special Item Box\".\nDoes not appear while you hold \"Homing Punch\".",
+            "jp" : "「トリプルホーミングパンチ」は 「スペシャルアイテムボックス」にのみ出現します。\n「ホーミングパンチ」を持っていると出現しません。",
+            "kr" : "「트리플 호밍 펀치」는 통상적으로는 등장하지 않습니다. 「스페셜 아이템 박스」에서만 등장합니다.\n「호밍 펀치」를 가지고 있으면 등장하지 않습니다."
         },
         "image" : "TripleHomingPunch.webp",
         "gadget" : [
@@ -433,9 +437,9 @@
             "kr" : "직진하여 벽에 부딪히면 튕기는 펀치를 발사합니다.\n록 온 중에는 호밍하여 공격합니다."
         },
         "detail" : {
-            "en" : "When equipped with the \"Giant Rocket Punch\" gadget, the appearance rate of Rocket Punch increases, and you can use a larger Rocket Punch.\nThe guidance performance of the Rocket Punch is not as good as the guidance performance of the \"Homing Punch\". If you collide with a wall while locked, it will disappear.\nIt bounces off walls up to 2 times when thrown forward and up to 2 times when thrown backward. (Changed in v2.0.0: forward 6 → 2, backward 3 → 2)",
-            "jp" : "「ロケットパンチ 巨大化」ガジェットを装備すると、「ロケットパンチ」の出現率が上がり、より大きなロケットパンチを使用できます。\n「ロケットパンチ」の誘導性能は「ホーミングパンチ」の誘導性能よりも劣ります。ロック中に壁に衝突すると消えます。\n壁での反射回数は前方投擲で最大2回、後方投擲で最大2回です。(v2.0.0で前方6回 → 2回、後方3回 → 2回に変更)",
-            "kr" : "「로켓 펀치 거대화」가젯을 착용하면 로켓 펀치의 등장확률이 올라가고, 더 큰 로켓 펀치를 사용 가능.\n「로켓 펀치」의 유도 성능은 「호밍 펀치」의 유도 성능보다 좋지 않습니다. 록 온 중인 상태에서 벽에 부딪히면 사라집니다.\n벽에 부딪혀 튕기는 횟수는 앞으로 던질 때 최대 2회, 뒤로 던질 때 최대 2회입니다. (v2.0.0에서 앞 6회 → 2회, 뒤 3회 → 2회로 변경)"
+            "en" : "When equipped with the \"Giant Rocket Punch\" gadget, the appearance rate of Rocket Punch increases, and you can use a larger Rocket Punch.\nThe guidance performance of the Rocket Punch is not as good as the guidance performance of the \"Homing Punch\". If you collide with a wall while locked, it will disappear.\nIt bounces off walls up to 2 times when thrown forward and up to 2 times when thrown backward. (Changed in v2.0.0: forward 6 → 2, backward 3 → 2)\nDoes not appear while you hold \"Triple Rocket Punch\".\nOpening a Special Item Box at 1st place while holding \"Rocket Punch\" removes \"Triple Rocket Punch\" from the pool, raising the odds of \"Shield\" and \"Boost\".",
+            "jp" : "「ロケットパンチ 巨大化」ガジェットを装備すると、「ロケットパンチ」の出現率が上がり、より大きなロケットパンチを使用できます。\n「ロケットパンチ」の誘導性能は「ホーミングパンチ」の誘導性能よりも劣ります。ロック中に壁に衝突すると消えます。\n壁での反射回数は前方投擲で最大2回、後方投擲で最大2回です。(v2.0.0で前方6回 → 2回、後方3回 → 2回に変更)\n「トリプルロケットパンチ」を持っていると出現しません。\n1位で「ロケットパンチ」を持ったままスペシャルアイテムボックスを割ると「トリプルロケットパンチ」が除かれ、「シールド」「ブースト」の確率が上がります。",
+            "kr" : "「로켓 펀치 거대화」 가젯을 착용하면 로켓 펀치의 등장 확률이 올라가고, 더 큰 로켓 펀치를 사용할 수 있습니다.\n「로켓 펀치」의 유도 성능은 「호밍 펀치」의 유도 성능보다 좋지 않습니다. 록 온 중인 상태에서 벽에 부딪히면 사라집니다.\n벽에 부딪혀 튕기는 횟수는 앞으로 던질 때 최대 2회, 뒤로 던질 때 최대 2회입니다. (v2.0.0에서 앞 6회 → 2회, 뒤 3회 → 2회로 변경)\n「트리플 로켓 펀치」를 가지고 있으면 등장하지 않습니다.\n1위에서 「로켓 펀치」 보유 중 스페셜 아이템 박스 획득 시 「방패」, 「부스트」 확률 상승."
         },
         "image" : "RocketPunch.webp",
         "gadget" : [
@@ -516,9 +520,9 @@
             "kr" : "「로켓 펀치」를 3번 사용할 수 있습니다." 
         },
         "detail" : {
-            "en" : "Triple Rocket Punch appears only in the \"Special Item Box\".",
-            "jp" : "「トリプルロケットパンチ」は 「スペシャルアイテムボックス」にのみ出現します。",
-            "kr" : "「트리플 로켓 펀치」는 통상적으로는 등장하지 않습니다. 「스페셜 아이템 박스」에서만 등장합니다."
+            "en" : "Triple Rocket Punch appears only in the \"Special Item Box\".\nDoes not appear while you hold \"Rocket Punch\".",
+            "jp" : "「トリプルロケットパンチ」は 「スペシャルアイテムボックス」にのみ出現します。\n「ロケットパンチ」を持っていると出現しません。",
+            "kr" : "「트리플 로켓 펀치」는 통상적으로는 등장하지 않습니다. 「스페셜 아이템 박스」에서만 등장합니다.\n「로켓 펀치」를 가지고 있으면 등장하지 않습니다."
         },
         "image" : "TripleRocketPunch.webp",
         "gadget" : [
@@ -558,9 +562,9 @@
             "kr" : "전방의 머신을 호밍하여 두 동강 냅니다.\n상대는 아이템을 하나 떨어뜨립니다."
         },
         "detail" : {
-            "en" : "The speed of the bomb is slower than \"Rocket Punch\" and \"Homing Punch\", so it is necessary to respond to it.\nCan be canceled by walls or other items.\nIf two different cutters fly at the same time toward the same machine, they will cancel each other out and disappear.\nSince v2.0.0, it no longer hits the player who used it.\nSince v2.0.0, it is destroyed immediately when it hits an invincible racer.",
-            "jp" : "「ロケットパンチ」, 「ホーミングパンチ」よりも爆弾の速度が遅いため、対応が必要です。\n壁や他のアイテムでキャンセル可能です。\n2つの異なるカッターが同じマシンに同時に向かって飛ぶ場合、互いにキャンセルされて消えます。\nv2.0.0以降、使用したプレイヤー自身には命中しません。\nv2.0.0以降、無敵状態のレーサーに命中すると即座に破壊されます。",
-            "kr" : "날아오는 속도가 「로켓 펀치」, 「호밍 펀치」보다 느리며, 잘리기까지 시간이 걸리기에 대응을 해야합니다.\n벽이나 다른 아이템으로 상쇄 가능.\n서로 다른 커터가 같은 머신을 향해 동시에 날아간다면 서로 상쇄되어 없어집니다.\nv2.0.0부터 사용한 플레이어 자신에게는 명중하지 않습니다.\nv2.0.0부터 무적 상태의 레이서에게 명중하면 즉시 파괴됩니다."
+            "en" : "The speed of the bomb is slower than \"Rocket Punch\" and \"Homing Punch\", so it is necessary to respond to it.\nCan be canceled by walls or other items.\nIf two different cutters fly at the same time toward the same machine, they will cancel each other out and disappear.\nSince v2.0.0, it no longer hits the player who used it.\nSince v2.0.0, it is destroyed immediately when it hits an invincible racer.\nIf you open an item box in a low position while holding a Boost within the first 15 seconds, neither Boost nor Laser can appear, so \"Slicer\" becomes likely.",
+            "jp" : "「ロケットパンチ」, 「ホーミングパンチ」よりも爆弾の速度が遅いため、対応が必要です。\n壁や他のアイテムでキャンセル可能です。\n2つの異なるカッターが同じマシンに同時に向かって飛ぶ場合、互いにキャンセルされて消えます。\nv2.0.0以降、使用したプレイヤー自身には命中しません。\nv2.0.0以降、無敵状態のレーサーに命中すると即座に破壊されます。\nレース開始15秒以内に下位で「ブースト」を持ったままアイテムボックスを割ると、「ブースト」も「レーザー」も出ないため「カッター」が出やすくなります。",
+            "kr" : "날아오는 속도가 「로켓 펀치」, 「호밍 펀치」보다 느리며, 잘리기까지 시간이 걸리기에 대응해야 합니다.\n벽이나 다른 아이템으로 상쇄할 수 있습니다.\n서로 다른 커터가 같은 머신을 향해 동시에 날아가면 서로 상쇄되어 없어집니다.\nv2.0.0부터 사용한 플레이어 자신에게는 명중하지 않습니다.\nv2.0.0부터 무적 상태의 레이서에게 명중하면 즉시 파괴됩니다.\n레이스 시작 15초 이내에 하위권에서 「부스트」를 가진 채 아이템 상자를 열면, 「부스트」와 「레이저」가 모두 나오지 않아 「커터」가 나오기 쉽습니다."
         },
         "image" : "Slicer.webp",
         "gadget" : [
@@ -601,7 +605,7 @@
         "detail" : {
             "en" : "By equipping the \"Quick Charge Bomb\" gadget, the appearance rate of the bomb increases, and the charge speed increases.\nThe bomb can be charged up to 3 stages.\n1st stage : A bomb that explodes when it hits a wall\n2nd stage : A bomb that is larger and bounces off the wall when it hits a wall\n3rd stage : A bomb that is larger and causes a crush judgment when it passes through.",
             "jp" : "「ボムクイックチャージ」ガジェットを装備すると、ボムの出現率が上がり、充電速度が上がります。\nボムは最大3段階まで充電できます。\n1段階目 : 壁に当たると爆発するボム\n2段階目 : 1段階目よりも大きく、壁に当たると跳ね返るボム\n3段階目 : 2段階目よりも大きく、通過するとクラッシュ判定が追加されるボム",
-            "kr" : "가젯 「폭탄봇 퀵 차지」로 획득 확률 업 및 차지 속도 상승.\n폭탄은 총 3단계까지 차지 가능.\n1단계 : 벽에 부딪히면 바로 터지는 폭탄\n2단계 : 1단계보다 더 크고 벽에 부딪히면 튕겨져나가는 폭탄\n3단계 : 2단계보다 더 크고 폭탄이 지나갈 때 짓뭉개기 판정이 추가."
+            "kr" : "가젯 「폭탄봇 퀵 차지」를 착용하면 획득 확률과 차지 속도가 올라갑니다.\n폭탄은 총 3단계까지 차지할 수 있습니다.\n1단계 : 벽에 부딪히면 바로 터짐\n2단계 : 1단계보다 더 크고, 벽에 부딪히면 튕겨 나감\n3단계 : 2단계보다 더 크고, 지나갈 때 짓뭉개기 판정이 추가됨"
         },
         "image" : "Bomb.webp",
         "gadget" : [
@@ -642,9 +646,9 @@
             "kr" : "「킹 부부」를 소환하여 선두에 있는 머신을 공격합니다."
         },
         "detail" : {
-            "en" : "King Boom Boo is a wide-area attack that can involve multiple Machines.\nAlso, the attack of King Boom Boo has a spinning effect even if there are rings left, so it can be slowed down.\nYou can avoid the attack of King Boom Boo by using a boost at the right time.\nYou can also avoid King Boom Boo's attack with the dash from the \"Hit and Run\" gadget.",
-            "jp" : "「キングブーブ」は広域攻撃で、複数のマシンに関与できます。\nまた、「キングブーブ」の攻撃は、リングが残っていてもスピンする効果があるため、減速できます。\n適切なタイミングでブーストを使用すると、「キングブーブ」の攻撃を回避できます。\n「アタックダッシュ」ガジェットのダッシュでも「キングブーブ」の攻撃を回避できます。",
-            "kr" : "킹 부부를 소환하여 선두에 있는 머신을 공격합니다. 이 공격은 광역 공격이며, 여러 대의 머신이 휘말릴 수 있습니다.\n또한, 킹 부부의 공격은 링이 남아 있어도 스핀하여 감속하는 효과가 있습니다.\n타이밍에 맞춰 부스트를 사용하여 킹 부부의 공격을 회피할 수 있습니다.\n「어택 대시」 가젯의 대시로도 킹 부부의 공격을 회피할 수 있습니다."
+            "en" : "King Boom Boo is a wide-area attack that can involve multiple Machines.\nAlso, the attack of King Boom Boo has a spinning effect even if there are rings left, so it can be slowed down.\nDoes not appear during the first 30 seconds of a race, nor for 60 seconds after someone obtains it.\nYou can avoid the attack of King Boom Boo by using a boost at the right time.\nYou can also avoid King Boom Boo's attack with the dash from the \"Hit and Run\" gadget.",
+            "jp" : "「キングブーブ」は広域攻撃で、複数のマシンに関与できます。\nまた、「キングブーブ」の攻撃は、リングが残っていてもスピンする効果があるため、減速できます。\nレース開始から30秒間は出現せず、誰かが獲得してから60秒間も出現しません。\n適切なタイミングでブーストを使用すると、「キングブーブ」の攻撃を回避できます。\n「アタックダッシュ」ガジェットのダッシュでも「キングブーブ」の攻撃を回避できます。",
+            "kr" : "킹 부부를 소환하여 선두에 있는 머신을 공격합니다. 이 공격은 광역 공격이며, 여러 대의 머신이 휘말릴 수 있습니다.\n또한, 킹 부부의 공격은 링이 남아 있어도 스핀하여 감속하는 효과가 있습니다.\n레이스 시작 후 30초 동안은 등장하지 않으며, 누군가 획득한 뒤 60초 동안도 등장하지 않습니다.\n타이밍에 맞춰 부스트를 사용하면 킹 부부의 공격 회피 가능.\n「어택 대시」 가젯의 대시로도 킹 부부의 공격 회피 가능."
         },
         "image" : "KingBoomBoo.webp",
         "gadget" : [
@@ -686,9 +690,9 @@
             "kr" : "자신을 제외한 모든 머신의 시야를 차단하고, 속도도 떨어뜨립니다.\n공격받은 머신은 아이템을 모두 떨어뜨립니다."
         },
         "detail" : {
-            "en" : "Unusually, In the case of hit with slime, \"Quick Recovery\" is not applied because it is judged to be \"on attack.\"",
-            "jp" : "スライムに当たった場合は、「クイックリカバー」が適用されません。\n「攻撃中」と判断されるためです。",
-            "kr" : "특이하게 슬라임을 맞은 상태에서는 「공격 중」판정 상태이기 때문에 「퀵 리커버」가 적용되지 않습니다."
+            "en" : "Unusually, In the case of hit with slime, \"Quick Recovery\" is not applied because it is judged to be \"on attack.\"\nDoes not appear during the first 50 seconds of a race, nor for 50 seconds after someone obtains it.\nOnly 1 can exist across the whole room combined with \"Darkchao\", and it does not appear while you hold \"Darkchao\". If someone keeps holding a \"Darkchao\" (e.g. from \"Dark Chao Starter\"), \"Slime\" will not appear.",
+            "jp" : "スライムに当たった場合は、「クイックリカバー」が適用されません。\n「攻撃中」と判断されるためです。\nレース開始から50秒間は出現せず、誰かが獲得してから50秒間も出現しません。\n「ダークチャオ」と合わせて部屋全体で同時に1個までで、「ダークチャオ」を持っていると出現しません。誰かが「最初からダークチャオ」などで「ダークチャオ」を持ち続けていると「スライム」は出ません。",
+            "kr" : "특이하게 슬라임을 맞은 상태에서는 「공격 중」 판정 상태이기 때문에 「퀵 리커버」가 적용되지 않습니다.\n레이스 시작 후 50초 동안은 등장하지 않으며, 누군가 획득한 뒤 50초 동안도 등장하지 않습니다.\n「다크챠오」와 합쳐 방 전체 1개까지만 보유 가능. 누군가 「다크챠오」를 가지고 있으면 미등장 (「처음부터 다크챠오」 포함)."
         },
         "image" : "Slime.webp",
         "gadget" : [
@@ -725,9 +729,9 @@
             "kr" : "1위와 2위 머신에 추를 떨어트려 뭉개버립니다.\n공격받은 머신은 아이템을 하나 떨어뜨립니다."
         },
         "detail" : {
-            "en" : "Since this item is only applied to the Machines in 1st and 2nd place, it is safe for the 3rd place.",
-            "jp" : "このアイテムは1位と2位のマシンにのみ適用されるため、3位の場合はこの攻撃に対して安全です。",
-            "kr" : "1위와 2위에게만 적용되는 아이템이므로, 3위의 경우에는 이 공격에 대해 안전합니다."
+            "en" : "Since this item is only applied to the Machines in 1st and 2nd place, it is safe for the 3rd place.\nDoes not appear during the first 30 seconds of a race, nor for 30 seconds after someone obtains it.\nBecause of the room limit and cooldowns, an attack warning above your head right after being hit by \"Slime\" is almost always \"Weight\".",
+            "jp" : "このアイテムは1位と2位のマシンにのみ適用されるため、3位の場合はこの攻撃に対して安全です。\nレース開始から30秒間は出現せず、誰かが獲得してから30秒間も出現しません。\n出現数制限とクールタイムにより、「スライム」で攻撃された直後に頭上の攻撃予告が出た場合は、ほぼ「ウェイト」です。",
+            "kr" : "1위와 2위에게만 적용되는 아이템이므로, 3위는 이 공격에 안전.\n레이스 시작 후 30초 동안은 등장하지 않으며, 누군가 획득한 뒤 30초 동안도 등장하지 않습니다.\n출현 수 제한과 쿨타임 때문에, 「슬라임」에 맞은 직후 머리 위에 공격 예고가 뜨면 대부분 「웨이트」."
         },
         "image" : "Weight.webp",
         "gadget" : [
@@ -764,9 +768,9 @@
             "kr" : "모든 머신에 아이템을 강제로 부여합니다.\n이미 아이템을 가지고 있는 경우에는 다시 획득합니다."
         },
         "detail" : {
-            "en" : "With the slot increased, you get three items.\nYou can cope with it by listening to a small laugh before appearing in the warp ring.",
-            "jp" : "スロットが増加した状態では、3つのアイテムを獲得します。\nワープリングに登場する前に小さな笑い声が聞こえるので、対処が可能です。",
-            "kr" : "슬롯 증가가 된 상태에서는 3개의 아이템을 획득합니다.\n워프 링에서 등장하기 전에 작게 웃음소리를 들을 수 있어 대처가 가능합니다."
+            "en" : "With the slot increased, you get three items.\nYou can cope with it by listening to a small laugh before appearing in the warp ring.\nDoes not appear during the first 50 seconds of a race, nor for 50 seconds after someone obtains it.\nOnly 1 can exist across the whole room combined with \"Slime\", and it does not appear while you hold \"Slime\".\nMainly appears at 6th place or lower when you are 100m or more behind 1st place.\nItems received at the same time can rarely be duplicates.",
+            "jp" : "スロットが増加した状態では、3つのアイテムを獲得します。\nワープリングに登場する前に小さな笑い声が聞こえるので、対処が可能です。\nレース開始から50秒間は出現せず、誰かが獲得してから50秒間も出現しません。\n「スライム」と合わせて部屋全体で同時に1個までで、「スライム」を持っていると出現しません。\n主に6位以下で、1位から100m以上離れていると出現します。\n同時に獲得するアイテム同士は、稀に同じアイテムになることがあります。",
+            "kr" : "슬롯 증가가 된 상태에서는 3개의 아이템을 획득합니다.\n워프 링에서 등장하기 전에 작은 웃음소리가 들려 대처 가능.\n레이스 시작 후 50초 동안은 등장하지 않으며, 누군가 획득한 뒤 50초 동안도 등장하지 않습니다.\n「슬라임」과 합쳐 방 전체 1개까지만 보유 가능. 누군가 「슬라임」을 가지고 있으면 미등장.\n주로 6위 이하에서 1위와 100m 이상 떨어졌을 때 등장합니다.\n동시에 받는 아이템끼리는 드물게 같은 아이템이 나올 수 있습니다."
         },
         "image" : "DarkChao.webp",
         "gadget" : [
@@ -804,7 +808,7 @@
         "detail" : {
             "en" : "When sucking in item attacks and course obstacles, you temporarily become \"on attack\" and can attack the Machine right behind you.\nWhile Void is active, the Void item remains in the stock.",
             "jp" : "アイテム攻撃やコースの障害物を吸い込むと、一時的に攻撃状態になり、すぐ後ろにいるマシンを攻撃できます。\nヴォイドを発動中は、ストックにヴォイドアイテムが保持されます。",
-            "kr" : "아이템 공격, 코스 장애물을 빨아들이면 일시적으로 공격상태가 되어 바로 뒤에 있는 머신을 공격할 수 있습니다.\n보이드를 발동 중에는 스톡에 보이드 아이템이 유지됩니다."
+            "kr" : "아이템 공격, 코스 장애물을 빨아들이면 일시적으로 공격 상태가 되어 바로 뒤에 있는 머신을 공격할 수 있습니다.\n보이드를 발동 중에는 스톡에 보이드 아이템이 유지됩니다."
         },
         "image" : "Void.webp",
         "gadget" : [
@@ -842,9 +846,9 @@
             "kr" : "일정 시간 동안 모든 공격을 무효화하며 부딪혀도 잘 튕겨나가지 않습니다."
         },
         "detail" : {
-            "en" : "For 5 seconds, you become \"invincible\" and can defend against all attacks.\nIt is a one-time item that disappears immediately after use.",
-            "jp" : "5秒間、「無敵」状態になり、すべての攻撃を防ぎます。\n使用するとすぐに消える1回限りのアイテムです。",
-            "kr" : "5초 동안 「무적」 상태가 되어 모든 공격을 방어할 수 있습니다. 사용하는 즉시 사라지는 즉발형 아이템입니다."
+            "en" : "For 5 seconds, you become \"invincible\" and can defend against all attacks.\nIt is a one-time item that disappears immediately after use.\nFrom Special Item Boxes within 100m of 1st place, about half of the draws are \"Shield\" regardless of place.",
+            "jp" : "5秒間、「無敵」状態になり、すべての攻撃を防ぎます。\n使用するとすぐに消える1回限りのアイテムです。\nスペシャルアイテムボックスでは、1位から100m未満ならどの順位でも半分ほどが「シールド」です。",
+            "kr" : "5초 동안 「무적」 상태가 되어 모든 공격을 방어할 수 있습니다. 사용하는 즉시 사라지는 즉발형 아이템입니다.\n스페셜 아이템 박스에서는 1위와 100m 미만이면 순위와 관계없이 약 절반이 「방패」입니다."
         },
         "image" : "Shield.webp",
         "gadget" : [
@@ -872,9 +876,9 @@
             "kr" : "사용자 주변에 회오리를 발생시켜 공격을 일부 무효화하고, 회오리에 닿은 머신에 대미지를 줍니다."
         },
         "detail" : {
-            "en" : "For 3 seconds, you create a tornado around you, negating some incoming attacks and dealing damage to other Machines that come in contact while active.\nIt is a one-time item that disappears immediately after use.",
-            "jp" : "3秒間、あなたの周囲に竜巻を発生させて攻撃を一部無効化し、竜巻に接触したマシンにダメージを与えます。\n使用するとすぐに消える1回限りのアイテムです。",
-            "kr" : "3초 동안 토네이도를 발동하여 아이템을 무효화 및 주변의 머신을 공격합니다.\n아이템을 사용하는 즉시 사라지는 즉발형 아이템입니다."
+            "en" : "For 3 seconds, you create a tornado around you, negating some incoming attacks and dealing damage to other Machines that come in contact while active.\nIt is a one-time item that disappears immediately after use.\nDoes not appear during the first 15 seconds of a race.",
+            "jp" : "3秒間、あなたの周囲に竜巻を発生させて攻撃を一部無効化し、竜巻に接触したマシンにダメージを与えます。\n使用するとすぐに消える1回限りのアイテムです。\nレース開始から15秒間は出現しません。",
+            "kr" : "3초 동안 토네이도를 발동하여 아이템을 무효화하고 주변의 머신을 공격합니다.\n아이템을 사용하는 즉시 사라지는 즉발형 아이템입니다.\n레이스 시작 후 15초 동안은 등장하지 않습니다."
         },
         "image" : "Tornado.webp",
         "gadget" : [
@@ -912,9 +916,9 @@
             "kr" : "접촉하면 머신에 대미지를 주는 장애물을 설치합니다."
         },
         "detail" : {
-            "en" : "When equipped with the \"Giant Spiked Iron Ball\" gadget, the appearance rate increases, and you can install a larger Spiked Iron Ball.\nWhen installing while pushing the stick forward, it is thrown forward.\nIt disappears immediately when hit.",
-            "jp" : "「トゲ鉄球巨大化」ガジェットを装備すると、トゲ鉄球の出現率が上がり、より大きなトゲ鉄球を設置できます。\nスティックを前に押し出しながら設置すると、前に投げられます。\n接触するとすぐに消えます。",
-            "kr" : "「가시 철구 거대화」가젯을 착용하면 등장확률이 올라가고 더 큰 가시 철구를 설치 가능.\n스틱을 앞으로 밀면서 설치하면 전방으로 투척합니다.\n맞으면 바로 사라집니다."
+            "en" : "When equipped with the \"Giant Spiked Iron Ball\" gadget, the appearance rate increases, and you can install a larger Spiked Iron Ball.\nWhen installing while pushing the stick forward, it is thrown forward.\nIt disappears immediately when hit.\nNever appears from Special Item Boxes.\nDoes not appear while you hold \"Magnet\".",
+            "jp" : "「トゲ鉄球巨大化」ガジェットを装備すると、トゲ鉄球の出現率が上がり、より大きなトゲ鉄球を設置できます。\nスティックを前に押し出しながら設置すると、前に投げられます。\n接触するとすぐに消えます。\nスペシャルアイテムボックスからは出現しません。\n「マグネット」を持っていると出現しません。",
+            "kr" : "「가시 철구 거대화」 가젯을 착용하면 등장 확률이 올라가고 더 큰 가시 철구를 설치할 수 있습니다.\n스틱을 앞으로 밀면서 설치하면 전방으로 투척합니다.\n맞으면 바로 사라집니다.\n스페셜 아이템 박스에서는 등장하지 않습니다.\n「마그넷」을 가지고 있으면 등장하지 않습니다."
         },
         "image" : "SpikedIronBall.webp",
         "gadget" : [
@@ -953,9 +957,9 @@
             "kr" : "주변 머신을 끌어당기는 장애물을 설치합니다."
         },
         "detail" : {
-            "en" : "A magnet that slows down the speed of the Machine when it comes into contact.\nWhen installing while pushing the stick forward, it is thrown forward.\nThe magnet disappears when it collides with another Machine while attached.",
-            "jp" : "接触したマシンの速度を減速させる磁石を設置します。\nスティックを前に押し出しながら設置すると、前に投げられます。\n磁石が付いた状態で他のマシンに衝突すると、磁石が消えます。",
-            "kr" : "접촉하면 머신의 속도를 급감시키는 자석.\n스틱을 앞으로 밀면서 설치하면 전방으로 투척합니다.\n자석이 붙은 상태에서 머신끼리 부딪히면 자석이 바로 사라집니다."
+            "en" : "A magnet that slows down the speed of the Machine when it comes into contact.\nWhen installing while pushing the stick forward, it is thrown forward.\nThe magnet disappears when it collides with another Machine while attached.\nNever appears from Special Item Boxes.\nDoes not appear while you hold \"Spiked Iron Ball\".",
+            "jp" : "接触したマシンの速度を減速させる磁石を設置します。\nスティックを前に押し出しながら設置すると、前に投げられます。\n磁石が付いた状態で他のマシンに衝突すると、磁石が消えます。\nスペシャルアイテムボックスからは出現しません。\n「トゲ鉄球」を持っていると出現しません。",
+            "kr" : "접촉하면 머신의 속도를 급감시키는 자석입니다.\n스틱을 앞으로 밀면서 설치하면 전방으로 투척합니다.\n자석이 붙은 상태에서 머신끼리 부딪히면 자석이 바로 사라집니다.\n스페셜 아이템 박스에서는 등장하지 않습니다.\n「가시 철구」를 가지고 있으면 등장하지 않습니다."
         },
         "image" : "Magnet.webp",
         "gadget" : [
@@ -990,13 +994,13 @@
         "damage" : [20],
         "description" : {
             "en" : "Loads 3 \"Solar Bullets,\" allowing you to aim with the crosshair and fire in a straight line. Exclusive item for the DLC map \"Wily Castle.\"",
-            "jp" : "3発の「ソーラーバレット」を装填し、照準器で狙いを定め、直線上に発射します。DLCマップ「ワイリー城」専用アイテム。",
+            "jp" : "3発の「ソーラーバレット」を装填し、照準器で狙いを定め、直線上に発射します。DLCマップ「ワイリーキャッスル」専用アイテム。",
             "kr" : "3발의 「솔라 불릿」을 장전하여 조준경으로 조준해 직선으로 발사합니다. DLC 맵 「와일리 성」전용 아이템."
         },
         "detail" : {
             "en" : "This is the \"Mega Buster,\" the signature weapon of \"Mega Man\" from the \"Mega Man series\".\nUpon acquiring the item, three \"Solar Bullets\" are loaded.\nUse the crosshair to aim and shoot down other racers, obstacles, and more. (Rings can be obtained from certain obstacles.)\nA \"Mettaur\" yields 10 rings, while the \"Yellow Devil\" and \"Wily Machine 2\" yield 30 rings.\nWhen hit, it drops 20 rings like a normal obstacle.\n\"Mega Man\" and \"Proto Man\" feature exclusive equipped models. (When you have the item, the model is \"Mega Buster\" equipped).\nThis is an exclusive item for the DLC map, \"Wily Castle.\"",
-            "jp" : "『ロックマン』シリーズに登場する「ロックマン」の専用武装である「ロックバスター」。\nアイテム獲得時、3発の「ソーラーバレット」が装填されます。\nこれを照準器で狙い、他のレーサーや障害物などを撃墜させます（一部の障害物からはリングを獲得可能）。\n「メットール」は10リング、「イエローデビル」と「ワイリーマシン2号」は30リングを獲得できます。\nヒット 時, 通常の障害物と同様に 20 リングをドロップします。\n「ロックマン」と「ブルース」には専用の着用モデリングが用意されています。(アイテム所持時はモデリングが「ロックバスター」着用中)\nDLCマップ「ワイリー城」の専用アイテムです。",
-            "kr" : "『록맨 시리즈』에 등장하는 「록맨」의 전용 무장인 「록 버스터」.\n 아이템 획득 시, 3발의 「솔라 불릿」이 장전됩니다.\n이를 조준경으로 조준해 다른 레이서, 장애물 등을 발사하여 격추 시킵니다. (일부 장애물은 링 획득 가능)\n\"메톨\"은 10링, \"옐로 데빌\"과 \"와일리 머신 2호\"는 30링.\n히트 시, 일반적인 장애물 판정처럼 링 20개를 떨어트리며, 감속이 일어납니다.\n「록맨」, 「블루스」는 전용 착용 모델링을 가지고 있습니다. (아이템 소지 시 모델링이 록 버스터 착용 중)\nDLC 맵 「와일리 성」전용 아이템."
+            "jp" : "『ロックマン』シリーズに登場する「ロックマン」の専用武装である「ロックバスター」。\nアイテム獲得時、3発の「ソーラーバレット」が装填されます。\nこれを照準器で狙い、他のレーサーや障害物などを撃墜させます（一部の障害物からはリングを獲得可能）。\n「メットール」は10リング、「イエローデビル」と「ワイリーマシン2号」は30リングを獲得できます。\nヒット 時, 通常の障害物と同様に 20 リングをドロップします。\n「ロックマン」と「ブルース」には専用の着用モデリングが用意されています。(アイテム所持時はモデリングが「ロックバスター」着用中)\nDLCマップ「ワイリーキャッスル」の専用アイテムです。",
+            "kr" : "『록맨 시리즈』에 등장하는 「록맨」의 전용 무장인 「록 버스터」입니다.\n아이템 획득 시, 3발의 「솔라 불릿」이 장전됩니다.\n이를 조준경으로 조준해 다른 레이서, 장애물 등을 발사하여 격추시킵니다. (일부 장애물은 링 획득 가능)\n\"메톨\"은 10링, \"옐로 데빌\"과 \"와일리 머신 2호\"는 30링을 획득할 수 있습니다.\n히트 시, 일반적인 장애물 판정처럼 링 20개를 떨어트리며 감속이 일어납니다.\n「록맨」, 「블루스」는 전용 착용 모델링을 가지고 있습니다. (아이템 소지 시 모델링이 록 버스터 착용 중)\nDLC 맵 「와일리 성」 전용 아이템입니다."
         },
         "image" : "MegaBuster.webp",
         "gadget" : [
