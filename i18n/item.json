@@ -125,14 +125,37 @@
       "kr": "추첨 규칙 정리"
     },
     "basisNote": {
-      "en": "Based on a 12-player individual race in v2.0.0. Team races and Duel follow the same rules, but some values differ.",
-      "jp": "ver2.0.0・12人個人戦が基準です。チーム戦・デュエルもルールは共通ですが、一部の数値が異なります。",
-      "kr": "v2.0.0, 12인 개인전 기준입니다. 팀전·듀얼도 규칙은 같지만 일부 수치가 다릅니다."
+      "en": "v2.0.0 · 12-player race (some values differ in Team and Duel)",
+      "jp": "ver2.0.0・12人個人戦基準(チーム戦・デュエルは一部数値が異なる)",
+      "kr": "v2.0.0 · 12인 개인전 기준 (팀전·듀얼은 일부 수치 다름)"
     },
     "playFrom": {
       "en": "Watch from {time} on YouTube",
       "jp": "{time}からYouTubeで見る",
       "kr": "{time}부터 YouTube에서 보기"
+    },
+    "stageLabels": {
+      "en": {
+        "nav": "Rule nav",
+        "prev": "Previous",
+        "next": "Next",
+        "pick": "Pick rule",
+        "swipeHint": "Swipe to switch"
+      },
+      "jp": {
+        "nav": "ルール移動",
+        "prev": "前へ",
+        "next": "次へ",
+        "pick": "ルール選択",
+        "swipeHint": "左右スワイプで切替"
+      },
+      "kr": {
+        "nav": "규칙 이동",
+        "prev": "이전",
+        "next": "다음",
+        "pick": "규칙 선택",
+        "swipeHint": "좌우로 밀면 다음·이전"
+      }
     },
     "linksLabel": {
       "en": "References",
@@ -160,7 +183,7 @@
         },
         "points": {
           "en": [
-            "The item table changes across 5 tiers: 1st / 2nd / 3rd–5th / 6th–8th / 9th–12th. Within the same tier, the draw pool is identical.",
+            "The item table changes across 5 tiers (1st / 2nd / 3rd–5th / 6th–8th / 9th–12th). Within the same tier, the draw pool is identical.",
             "1st: mostly hazard items such as \"Spiked Iron Ball\" and \"Magnet\"",
             "2nd: more attack items such as punches and \"Slicer\"",
             "3rd–5th: no hazard items; more \"Boost\" and \"Void\"",
@@ -317,25 +340,28 @@
         "key": "roomLimit",
         "start": 473,
         "title": {
-          "en": "⑤ Room Limit",
+          "en": "⑤ Appearance Limit",
           "jp": "⑤出現数制限",
           "kr": "⑤ 출현 수 제한"
         },
         "points": {
           "en": [
-            "Max held at once across the whole room: \"King Boomboo\", \"Weight\", \"Darkchao\", \"Slime\" 1 each / \"Monster Truck\", \"Drill\", \"Omochao\" 3 each",
+            "Max 1 at a time per race: \"King Boomboo\", \"Weight\", \"Darkchao\", \"Slime\"",
+            "Max 3 at a time per race: \"Monster Truck\", \"Drill\", \"Omochao\"",
             "\"Darkchao\" and \"Slime\" share a single slot. If someone keeps holding \"Darkchao\", \"Slime\" will not appear.",
             "Late in a race, back-markers often already hold \"Monster Truck\" or \"Drill\" and hit the limit, so strong items feel rare even at low places.",
             "Because of the limits and cooldowns, an attack warning above your head right after being hit by \"Slime\" is almost always \"Weight\"."
           ],
           "jp": [
-            "部屋全体で同時に持てる数: 「キングブーボー」「ウェイト」「ダークチャオ」「スライム」は1個、「モンスタートラック」「ドリル」「オモチャオ」は3個",
+            "部屋全体で1個まで: 「キングブーボー」「ウェイト」「ダークチャオ」「スライム」",
+            "部屋全体で3個まで: 「モンスタートラック」「ドリル」「オモチャオ」",
             "「ダークチャオ」と「スライム」は合わせて1個までです。誰かが「ダークチャオ」を持ち続けていると「スライム」は出ません。",
             "終盤は下位の人たちが「モンスタートラック」「ドリル」を持っていて上限に達していることが多く、下位でも強いアイテムが出づらくなります。",
             "出現数制限とクールタイムにより、「スライム」で攻撃された直後に頭上の攻撃予告が出た場合は、ほぼ「ウェイト」です。"
           ],
           "kr": [
-            "방 전체에서 동시에 보유할 수 있는 수: 「킹 부부」, 「웨이트」, 「다크챠오」, 「슬라임」 1개 / 「몬스터 트럭」, 「드릴」, 「오모챠오」 3개",
+            "한 레이스 동시 1개까지: 「킹 부부」, 「웨이트」, 「다크챠오」, 「슬라임」",
+            "한 레이스 동시 3개까지: 「몬스터 트럭」, 「드릴」, 「오모챠오」",
             "「다크챠오」와 「슬라임」은 합쳐서 1개까지입니다. 누군가 「다크챠오」를 계속 가지고 있으면 「슬라임」은 나오지 않습니다.",
             "레이스 후반에는 하위권이 「몬스터 트럭」, 「드릴」을 이미 들고 있어 상한에 걸리는 경우가 많아, 하위권에서도 강한 아이템이 잘 나오지 않습니다.",
             "출현 수 제한과 쿨타임 때문에, 「슬라임」에 맞은 직후 머리 위에 공격 예고가 뜨면 대부분 「웨이트」입니다."
