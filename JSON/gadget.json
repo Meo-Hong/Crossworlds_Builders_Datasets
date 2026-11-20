@@ -883,6 +883,40 @@
     ],
     "Technique Upgrade": [
         {
+            "id": "gadget_135",
+            "name": {
+                "en": "Overtake Button",
+                "jp": "オーバーテイクボタン",
+                "kr": "오버테이크 버튼"
+            },
+            "description": {
+                "en": "Press 「Gadget Button」 whenever you like to activate a 'Powerful Boost'. Can be used only once per race. (Same effect as the 3rd boost of 'Triple Boost'; works separately from items)",
+                "jp": "好きな時に「ガジェットボタン」を押すと、'強力なブースト'を発動する。レース中に1回だけ使用可能。('トリプルブースト'の3回目のブーストと同じ効果、アイテムとは別に機能)",
+                "kr": "원하는 타이밍에 「가젯 버튼」을 눌러 '강력한 부스트'를 발동합니다. 레이스 중 단 한 번만 사용할 수 있습니다. ('트리플 부스트'의 3번째 부스트와 같은 효과, 아이템과 별도로 기능)"
+            },
+            "gadget_type": "Technique Upgrade",
+            "slots": 3,
+            "image": "gadget_135.png",
+            "unlock": {
+                "en": [
+                    "Earn 150 points in \"McLaren Racing Festival\""
+                ],
+                "jp": [
+                    "「マクラーレン レーシングフェスタ」で150ポイント獲得"
+                ],
+                "kr": [
+                    "「맥라렌 레이싱 페스타」에서 150 포인트 획득"
+                ]
+            },
+            "effect": {
+                "en": "Activate a 'Powerful Boost' with 「Gadget Button」 (once per race)",
+                "jp": "「ガジェットボタン」で'強力なブースト'発動 (レース中1回)",
+                "kr": "「가젯 버튼」으로 '강력한 부스트' 발동 (레이스 중 1회)"
+            },
+            "patch": {},
+            "stat_table": null
+        },
+        {
             "id": "gadget_119",
             "name": {
                 "en": "Hit and Run",
