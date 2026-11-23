@@ -178,9 +178,9 @@
                 "kr": "런 오프 보너스"
             },
             "description": {
-                "en": "Get Rings every 0.24 seconds when using Speed items to cross deceleration areas. (Ring 5) (Have to be at 170+km/h to get rings)",
-                "jp": "加速アイテムで減速エリアを通っている間、0.24秒ごとにリングを5枚獲得する。 (170km/h以上でなければリングは獲得できない)",
-                "kr": "가속 아이템을 사용하여 런 오프 구역을 통과하면 0.24초마다 링 5개 획득 (170km/h 이상으로 런 오프 구역을 통과 시 링 획득 가능)"
+                "en": "Get 5 Rings every 0.24 seconds while crossing run-off areas in the 'Ignore run-off' state. (Pink effect on the wheels)",
+                "jp": "「ランオフ無視」判定の状態でランオフエリアを通過すると、0.24秒ごとにリングを5枚獲得する。（タイヤにピンク色のエフェクトが出ている状態）",
+                "kr": "'런오프 무시' 판정 상태로 런 오프 구역을 통과하면 0.24초마다 링 5개 획득 (바퀴에 분홍색 이펙트가 나타나는 상태)"
             },
             "gadget_type": "Ring Gain",
             "slots": 1,
@@ -197,9 +197,9 @@
                 ]
             },
             "effect": {
-                "en": "Gain 5 rings every 0.24s in run-off area at 170+km/h.",
-                "jp": "170km/h以上でランオフエリアを通過時、0.24秒ごとにリングを5個獲得",
-                "kr": "170km/h 이상으로 런 오프 구역을 통과 시, 0.24초마다 링 5개 획득"
+                "en": "Gain 5 rings every 0.24s in run-off area while in the 'Ignore run-off' state.",
+                "jp": "「ランオフ無視」判定の状態でランオフエリアを通過時、0.24秒ごとにリングを5個獲得",
+                "kr": "'런오프 무시' 판정 상태로 런 오프 구역 통과 시, 0.24초마다 링 5개 획득"
             },
             "patch": {},
             "stat_table": null

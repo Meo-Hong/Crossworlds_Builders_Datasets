@@ -551,6 +551,8 @@
                     "The common effect is a momentary '+40km/h multiplier acceleration (boost)' together with '+10km/h (Additional Speed)'. The multiplier lasts only 0.05 seconds for 'Perfect Landing', and its duration is inconsistent for 'Perfect Charge Boost'. (Based on the Speed Document by Yoshister)",
                     "The duration of the Additional Speed was extended in v2.0.0: 0.5 → 1.0 seconds for 'Perfect Charge Boost', and 0.5/0.75/1 seconds for 'Perfect Landing' depending on the number of Air Tricks (1/2/3+), or 1.5/1.75/2 seconds in the Super Slot.",
                     "'Perfect Charge Boost' is a method of gaining additional acceleration by releasing the charge at the exact timing the drift charge increases by one level.",
+                    "While the 'Perfect Charge Boost' effect is active, your speed in run-off areas rises from about 125~127km/h to 132~136km/h, and up to the 180km/h range regardless of machine type when the Acceleration stat is at its maximum (100). However, if you decelerate in a run-off area, it only rises up to 140km/h. (Based on @Src_Higurin on X)",
+                    "When combined with the 'Spin Dash Kit', the effect lasts for the extended Charge Boost duration, allowing you to keep this run-off speed for longer.",
                     "'Perfect Landing' is a method of gaining additional acceleration by pressing the 'accelerate key/button' right before hitting the ground after successfully performing an air trick in mid-air.",
                     "The video below captures the moment a Perfect Boost is successfully performed."
                 ],
@@ -559,6 +561,8 @@
                     "共通効果として、瞬間的な「倍率加速 +40km/h（ブースト）」と「+10km/h（追加速度）」が同時に発動します。倍率加速は「ジャスト着地」では0.05秒と非常に短く、「ジャストチャージダッシュ」では持続時間が一定ではありません。（Speed Document by Yoshister 基準）",
                     "追加速度の持続時間はv2.0.0で延長されました。「ジャストチャージダッシュ」は0.5秒 → 1.0秒、「ジャスト着地」はエアトリックの回数（1/2/3回以上）に応じて0.5/0.75/1秒で、スーパースロットに装備すると1.5/1.75/2秒になります。",
                     "「ジャストチャージダッシュ」は、ドリフトチャージが1段階溜まるタイミングでチャージを終了し、追加加速を得る方式です。",
+                    "「ジャストチャージダッシュ」の効果中は、ランオフエリアの速度が約125~127km/hから132~136km/hに上昇し、アクセルの数値が最大（100）の場合はマシンタイプに関係なく180km/h台まで上昇します。ただし、ランオフエリアで減速すると140km/hまでしか上昇しません。（X @Src_Higurin 基準）",
+                    "「スピンダッシュキット」と組み合わせると、延長されたチャージダッシュの間この効果が持続するため、ランオフエリアでの速度をより長く維持できます。",
                     "「ジャスト着地」は、空中でエアトリックを成功させた後、地面に着地する直前に「アクセルキー/ボタン」を押して追加加速を得る方式です。",
                     "以下の映像は、ジャストダッシュに成功した瞬間を撮影したものです。"
                 ],
@@ -567,6 +571,8 @@
                     "공통 효과로 순간적인 '배율 가속 +40km/h(부스트)'와 '+10km/h(추가 속도)'가 함께 발동됩니다. 배율 가속은 「저스트 착지」에서는 0.05초로 아주 짧고, 「저스트 차지 대시」에서는 지속 시간이 일정하지 않습니다. (스피드 문서 · Speed Document by Yoshister 기준)",
                     "추가 속도의 지속 시간은 v2.0.0에서 늘어났습니다. 「저스트 차지 대시」는 0.5초 → 1.0초, 「저스트 착지」는 에어 트릭 횟수(1/2/3회 이상)에 따라 0.5/0.75/1초이며, 슈퍼 슬롯에 장착하면 1.5/1.75/2초가 됩니다.",
                     "「저스트 차지 대시」는 드리프트 차지가 한 단계 채워지는 타이밍에 차지를 종료하여 추가 가속을 얻는 방식입니다.",
+                    "「저스트 차지 대시」 효과 중에는 런오프 구역의 속도가 약 125~127km/h에서 132~136km/h로 상승하며, 액셀 수치가 최대(100)일 때는 머신 타입과 무관하게 180km/h대까지 상승합니다. 단, 런오프 구역에서 감속하면 140km/h까지만 상승합니다. (X · @Src_Higurin 기준)",
+                    "「스핀 대시 키트」와 조합하면 늘어난 차지 대시 동안 이 효과가 유지되어, 런오프 구역에서의 속도를 더 오래 유지할 수 있습니다.",
                     "「저스트 착지」는 공중에서 에어 트릭을 성공한 후, 바닥에 착지하기 바로 전에 '액셀 키/버튼'을 눌러서 추가 가속을 얻는 방식입니다.",
                     "아래 영상은 저스트 대시에 성공하였을 때 나오는 순간을 촬영한 것입니다."
                 ]
