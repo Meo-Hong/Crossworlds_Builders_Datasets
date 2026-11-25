@@ -349,6 +349,18 @@
                 "jp": "チャージレベルが満たされ次第、ドリフトを解除するとリングを獲得 (チャージレベル × 2リング)",
                 "kr": "차지 레벨이 채워지는 즉시 드리프트를 해제하면 레벨 × 2개의 링을 획득"
             },
+            "time_trial": {
+                "description": {
+                    "en": "Release the Drift as soon as a Charge Level is filled to get Rings. (Ring 3 / 6 / 9 / 12)",
+                    "jp": "チャージが溜まり切ったタイミングでダッシュすることでリングを獲得できるようになる。チャージのレベルに応じて手に入るリング枚数は変わり、レベル×3枚手に入る。",
+                    "kr": "차지 레벨이 채워지면 즉시 드리프트를 해제하여 링을 획득합니다. 차지 레벨에 따라 얻는 링의 개수가 달라지며, 레벨 * 3개의 링을 얻을 수 있습니다."
+                },
+                "effect": {
+                    "en": "Get Rings when releasing the Drift as soon as a Charge Level is filled. (Charge Level × 3 rings)",
+                    "jp": "チャージレベルが満たされ次第、ドリフトを解除するとリングを獲得 (チャージレベル × 3リング)",
+                    "kr": "차지 레벨이 채워지는 즉시 드리프트를 해제하면 레벨 × 3개의 링을 획득"
+                }
+            },
             "patch": {
                 "v2.0.0": {
                     "kr": "저스트 차지 성공 시 획득 링 개수 조정 ( 3/6/9개 → 2/4/6개 )\n타임 트라이얼에서는 기존과 동일 ( 3/6/9개 )"
@@ -560,6 +572,18 @@
                 "jp": "リングが1つ以上あるとき、'最高速度 最大+2km/h 上昇 (リング数に応じて変動)' + '全体のパラメーター +8' (1秒に 1リングを消費)",
                 "kr": "링이 1개 이상 일 때, '최고속도 최대 +2km/h 상승 (링 개수에 따라 변동)' + '머신의 파라미터가 +8 상승' (1초당 링 1개씩 소비)"
             },
+            "time_trial": {
+                "description": {
+                    "en": "When holding 1 or more Rings, 'fixed +2km/h to maximum speed' and '+8 to all stats'. Instead of losing 1 Ring per second.",
+                    "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 +2km/h 固定上昇' + 'マシンの全パラメーター +8 上昇'。",
+                    "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 2km/h 고정 증가' + '머신의 스탯 +8 상승'합니다."
+                },
+                "effect": {
+                    "en": "When holding 1 or more Rings, fixed +2km/h to maximum speed and +8 to all stats. (losing 1 Ring per second)",
+                    "jp": "リングが1つ以上あるとき、'最高速度 +2km/h 固定上昇' + '全体のパラメーター +8' (1秒に 1リングを消費)",
+                    "kr": "링이 1개 이상 일 때, '최고속도 +2km/h 고정 상승' + '머신의 파라미터가 +8 상승' (1초당 링 1개씩 소비)"
+                }
+            },
             "patch": {
                 "v1.4.1": {
                     "en": "Adjusted the combined effect of Ring Engine + Hyper Ring Engine (Max speed increase adjusted '11km/h → 9km/h', fixed an issue where having fewer Rings would increase stats drastically)",
@@ -567,7 +591,7 @@
                     "kr": "링 엔진 + 하이퍼 링 엔진 조합 시 효과 조정 (최고속도 상승량 조정 '11km/h → 9km/h', 링이 적은 상태에서 성능이 과도하게 상승하던 문제 수정)"
                 },
                 "v2.0.0": {
-                    "kr": "링 1개 이상 보유 시 파라미터 상승량 조정 ( +12 → +8 )\n최고속도 상승량 조정 ( +3km/h → +2km/h ), 링 개수에 따라 상승량이 달라지도록 변경\n타임 트라이얼에서는 최고속도 +2km/h 고정 상승 ( +3km/h → +2km/h )"
+                    "kr": "링 1개 이상 보유 시 파라미터 상승량 조정 ( +12 → +8 )\n최고속도 상승량 조정 ( +3km/h → +2km/h ), 링 개수에 따라 상승량이 달라지도록 변경\n타임 트라이얼에서는 최고속도 +2km/h 고정 상승 ( +3km/h → +2km/h ), 슈퍼 슬롯 장착 시 +3km/h 유지"
                 }
             },
             "stat_table": {
@@ -611,6 +635,18 @@
                 "jp": "リングが1つ以上あるとき、'最高速度 最大+3km/h 上昇 (リング数に応じて変動)' + 'マシンのパラメーターがリングの数だけ上昇' (最大パラメーター増加は100まで上昇, 1秒 1リングを消費)",
                 "kr": "링이 1개 이상 일 때, '최고속도 최대 3km/h 증가 (링 개수에 따라 변동)' + '머신의 파라미터가 링 개수만큼 상승' (최대 파라미터 100까지 상승, 1초에 링 1개씩 소비)"
             },
+            "time_trial": {
+                "description": {
+                    "en": "When holding 1 or more Rings, +4km/h to maximum speed + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second). (No extra boost when combined with 'Ring Engine')",
+                    "jp": "リングが1つ以上あるとき、'最高速度 +4km/h 上昇' + 'マシンの全パラメーターがリングの数だけ上昇'（パラメーターは最大100まで上昇し、1秒にリング1つを消費します）。(「リングエンジン」との同時装着による追加上昇効果なし)",
+                    "kr": "링이 1개 이상 일 때, '최고속도 4km/h 증가' + '머신의 스탯이 링 개수만큼 상승' (최대 스탯 상승 100까지 상승, 1초에 링 1개씩 소비). (「링 엔진」과 함께 장착 시 추가 상승 효과 없음)"
+                },
+                "effect": {
+                    "en": "When holding 1 or more Rings, +4km/h to maximum speed + increase all stats by the number of rings (maximum stat increase to 100, losing 1 ring per second)",
+                    "jp": "リングが1つ以上あるとき、'最高速度 +4km/h 上昇' + 'マシンのパラメーターがリングの数だけ上昇' (最大パラメーター増加は100まで上昇, 1秒 1リングを消費)",
+                    "kr": "링이 1개 이상 일 때, '최고속도 4km/h 증가' + '머신의 파라미터가 링 개수만큼 상승' (최대 파라미터 100까지 상승, 1초에 링 1개씩 소비)"
+                }
+            },
             "patch": {
                 "v1.4.1": {
                     "en": "Fixed a bug where the maximum speed increase was not applied when used alone\nMax speed increase adjusted ( +8km/h → +4km/h )\nAdjusted the combined effect of Ring Engine + Hyper Ring Engine (Max speed increase adjusted '11km/h → 9km/h', fixed an issue where having fewer Rings would increase stats drastically)",
@@ -618,7 +654,7 @@
                     "kr": "단독 사용 시, 최고속도 증가가 적용되지 않는 버그 수정\n최고속도 상승량 조정 ( +8km/h → +4km/h )\n링 엔진 + 하이퍼 링 엔진 조합 시 효과 조정 (최고속도 상승량 조정 '11km/h → 9km/h', 링이 적은 상태에서 성능이 과도하게 상승하던 문제 수정)"
                 },
                 "v2.0.0": {
-                    "kr": "최고속도 상승량 조정 ( +4km/h → +3km/h ), 링 개수에 따라 상승량이 달라지도록 변경\n링 엔진과 함께 장착 시 최고속도 +2km/h 추가 상승 효과 삭제"
+                    "kr": "최고속도 상승량 조정 ( +4km/h → +3km/h ), 링 개수에 따라 상승량이 달라지도록 변경\n링 엔진과 함께 장착 시 최고속도 +2km/h 추가 상승 효과 삭제\n타임 트라이얼에서는 Ver.1.4 성능 유지 (링 엔진과 함께 장착 시 추가 상승 효과는 삭제)"
                 }
             },
             "stat_table": {
@@ -2769,7 +2805,7 @@
             "description": {
                 "en": "Gain +1 in all stats each time you gain 15 rings. (Upgrade Effect is applied)",
                 "jp": "リングを15個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
-                "kr": "링을 15개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.) "
+                "kr": "링을 15개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.)"
             },
             "gadget_type": "Power Up",
             "slots": 1,
@@ -2790,9 +2826,21 @@
                 "jp": "リングを15個獲得するごとに全パラメーター +1",
                 "kr": "링을 15개 획득할 때마다 모든 파라미터 +1."
             },
+            "time_trial": {
+                "description": {
+                    "en": "Gain +1 in all stats each time you gain 10 rings. (Upgrade Effect is applied)",
+                    "jp": "リングを10個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
+                    "kr": "링을 10개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.)"
+                },
+                "effect": {
+                    "en": "Gain +1 in all stats each time you gain 10 rings.",
+                    "jp": "リングを10個獲得するごとに全パラメーター +1",
+                    "kr": "링을 10개 획득할 때마다 모든 파라미터 +1."
+                }
+            },
             "patch": {
                 "v2.0.0": {
-                    "kr": "진화에 필요한 링 개수 조정 ( 10개 → 15개 )"
+                    "kr": "진화에 필요한 링 개수 조정 ( 10개 → 15개 )\n타임 트라이얼에서는 기존과 동일 ( 10개 )"
                 }
             },
             "stat_table": {

@@ -339,6 +339,18 @@
                 "jp": "リングが1つ以上あるとき、'最高速度 最大+3km/h 上昇 (リング数に応じて変動)' + '全体のパラメーター +12' (1秒に 1リングを消費)",
                 "kr": "링이 1개 이상 일 때, '최고속도 최대 +3km/h 상승 (링 개수에 따라 변동)' + '머신의 파라미터가 +12 상승' (1초당 링 1개씩 소비)"
             },
+            "time_trial": {
+                "description": {
+                    "en": "When holding 1 or more Rings, 'fixed +3km/h to maximum speed' and '+12 to all stats'. Instead of losing 1 Ring per second.",
+                    "jp": "リングが1つ以上ある場合、1秒ごとにリングを1つ失う代わりに '最高速度 +3km/h 固定上昇' + 'マシンの全パラメーター +12 上昇'。",
+                    "kr": "링이 1개 이상 일 때, 1초에 링을 1개씩 잃는 대신 '최고속도 3km/h 고정 증가' + '머신의 스탯 +12 상승'합니다."
+                },
+                "effect": {
+                    "en": "When holding 1 or more Rings, fixed +3km/h to maximum speed and +12 to all stats. (losing 1 Ring per second)",
+                    "jp": "リングが1つ以上あるとき、'最高速度 +3km/h 固定上昇' + '全体のパラメーター +12' (1秒に 1リングを消費)",
+                    "kr": "링이 1개 이상 일 때, '최고속도 +3km/h 고정 상승' + '머신의 파라미터가 +12 상승' (1초당 링 1개씩 소비)"
+                }
+            },
             "stat_table": {
                 "burning": {
                     "speed": 12,
@@ -1690,7 +1702,7 @@
             "description": {
                 "en": "Gain +1 in all stats each time you gain 10 rings. (Upgrade Effect is applied)",
                 "jp": "リングを10個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
-                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.) "
+                "kr": "링을 10개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.)"
             },
             "gadget_type": "Power Up",
             "slots": 1,
@@ -1710,6 +1722,18 @@
                 "en": "Gain +1 in all stats each time you gain 10 rings.",
                 "jp": "リングを10個獲得するごとに全パラメーター +1",
                 "kr": "링을 10개 획득할 때마다 모든 파라미터 +1."
+            },
+            "time_trial": {
+                "description": {
+                    "en": "Gain +1 in all stats each time you gain 9 rings. (Upgrade Effect is applied)",
+                    "jp": "リングを9個獲得するごとに全パラメーター +1。(アップグレード効果が適用されます.)",
+                    "kr": "링을 9개 획득할 때마다 모든 파라미터 +1. (업그레이드 이펙트가 적용됩니다.)"
+                },
+                "effect": {
+                    "en": "Gain +1 in all stats each time you gain 9 rings.",
+                    "jp": "リングを9個獲得するごとに全パラメーター +1",
+                    "kr": "링을 9개 획득할 때마다 모든 파라미터 +1."
+                }
             },
             "stat_table": {
                 "evolution": {

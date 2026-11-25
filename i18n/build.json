@@ -200,6 +200,16 @@
       "jp": "通常スロット",
       "kr": "일반 슬롯"
     },
+    "timeTrialView": {
+      "en": "TT",
+      "jp": "TT",
+      "kr": "TT"
+    },
+    "timeTrialViewTitle": {
+      "en": "Time Trial spec",
+      "jp": "タイムトライアル専用性能",
+      "kr": "타임 트라이얼 전용 사양"
+    },
     "filterExpand": {
       "en": "More",
       "jp": "もっと",
