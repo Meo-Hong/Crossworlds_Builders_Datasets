@@ -553,6 +553,7 @@
                     "'Perfect Charge Boost' is a method of gaining additional acceleration by releasing the charge at the exact timing the drift charge increases by one level.",
                     "While the 'Perfect Charge Boost' effect is active, your speed in run-off areas rises from about 125~127km/h to 132~136km/h, and up to the 180km/h range regardless of machine type when the Acceleration stat is at its maximum (100). However, if you decelerate in a run-off area, it only rises up to 140km/h. (Based on @Src_Higurin on X)",
                     "When combined with the 'Spin Dash Kit', the effect lasts for the extended Charge Boost duration, allowing you to keep this run-off speed for longer.",
+                    "There is also a hypothesis that 'Perfect Charge Boost' raises the tachometer RPM and that this effect lasts for the whole drift boost. (Hypothesis · @GHShuffle on X)",
                     "'Perfect Landing' is a method of gaining additional acceleration by pressing the 'accelerate key/button' right before hitting the ground after successfully performing an air trick in mid-air.",
                     "The video below captures the moment a Perfect Boost is successfully performed."
                 ],
@@ -563,6 +564,7 @@
                     "「ジャストチャージダッシュ」は、ドリフトチャージが1段階溜まるタイミングでチャージを終了し、追加加速を得る方式です。",
                     "「ジャストチャージダッシュ」の効果中は、ランオフエリアの速度が約125~127km/hから132~136km/hに上昇し、アクセルの数値が最大（100）の場合はマシンタイプに関係なく180km/h台まで上昇します。ただし、ランオフエリアで減速すると140km/hまでしか上昇しません。（X @Src_Higurin 基準）",
                     "「スピンダッシュキット」と組み合わせると、延長されたチャージダッシュの間この効果が持続するため、ランオフエリアでの速度をより長く維持できます。",
+                    "「ジャストチャージダッシュ」が回転数(RPM)を上げ、その効果がドリフトブーストの間ずっと続くという仮説もあります。(仮説 · X @GHShuffle)",
                     "「ジャスト着地」は、空中でエアトリックを成功させた後、地面に着地する直前に「アクセルキー/ボタン」を押して追加加速を得る方式です。",
                     "以下の映像は、ジャストダッシュに成功した瞬間を撮影したものです。"
                 ],
@@ -573,6 +575,7 @@
                     "「저스트 차지 대시」는 드리프트 차지가 한 단계 채워지는 타이밍에 차지를 종료하여 추가 가속을 얻는 방식입니다.",
                     "「저스트 차지 대시」 효과 중에는 런오프 구역의 속도가 약 125~127km/h에서 132~136km/h로 상승하며, 액셀 수치가 최대(100)일 때는 머신 타입과 무관하게 180km/h대까지 상승합니다. 단, 런오프 구역에서 감속하면 140km/h까지만 상승합니다. (X · @Src_Higurin 기준)",
                     "「스핀 대시 키트」와 조합하면 늘어난 차지 대시 동안 이 효과가 유지되어, 런오프 구역에서의 속도를 더 오래 유지할 수 있습니다.",
+                    "「저스트 차지 대시」가 회전수(RPM)를 올리고, 그 효과가 드리프트 부스트 동안 계속 유지된다는 가설도 있습니다. (가설 · X · @GHShuffle)",
                     "「저스트 착지」는 공중에서 에어 트릭을 성공한 후, 바닥에 착지하기 바로 전에 '액셀 키/버튼'을 눌러서 추가 가속을 얻는 방식입니다.",
                     "아래 영상은 저스트 대시에 성공하였을 때 나오는 순간을 촬영한 것입니다."
                 ]
@@ -583,6 +586,10 @@
             ],
             "youtube": [
                 "https://youtu.be/3SabzpR9CYE?si=86DOCi2NksAoAi3r"
+            ],
+            "twitter": [
+                "https://x.com/GHShuffle/status/2121208787256123865",
+                "https://x.com/Src_Higurin/status/2124349866604421139"
             ]
         },
         "spin_dash":{
@@ -900,23 +907,29 @@
                     "\"Snap Drift\" is an advanced technique that applies \"Counter Drift\".",
                     "The execution is to 'momentarily perform a Direction Change Drift in the opposite direction mid-drift, immediately switch the drift back in the other direction, and then release the key'.",
                     "This technique is highly effective in circular turn sections. However, it is very difficult to master and easy to make mistakes.",
+                    "A video has been reported showing that a Snap Drift can dodge 'King Boomboo''s attack. (@yashiro6666 on X)",
                     "As I was fail to properly reproduce it, the example video has been replaced with a YouTube tutorial video from another person."
                 ],
                 "jp": [
                     "「スナップドリフト」は、「切りかえしドリフト」を応用した高度なテクニックです。",
                     "やり方は、「ドリフト中に瞬間的に反対方向へ切りかえしドリフトを行い、すぐにもう一度反対方向へドリフトを切り替えてからキーを離す」というものです。",
                     "このテクニックは円形のターン区間で非常に有効です。ただし、習熟するのが非常に難しく、ミスをしやすいです。",
+                    "「スナップドリフト」で「キングブーブ」の攻撃を回避できる映像が報告されています。(X @yashiro6666)",
                     "プレイの再現に失敗したため、動画は別の人のYouTube解説動画で代用しています。"
                 ],
                 "kr": [
                     "「스냅 드리프트」는 '방향 전환 드리프트'를 응용한 고급 테크닉입니다.",
                     "하는 방법은 '드리프트 중에 순간적으로 반대방향으로 방향 전환 드리프트 후, 바로 다시 반대 방향으로 드리프트 전환 후 떼기' 입니다.",
                     "이 테크닉은 원형 턴 구간에서 매우 효과적입니다. 다만 숙달하기 매우 까다롭고, 실수하기 쉽습니다.",
+                    "「스냅 드리프트」로 「킹 부부」의 공격을 회피할 수 있다는 영상이 제보되었습니다. (X · @yashiro6666)",
                     "재현에 실패해서 영상은 다른 사람의 유튜브 강의 영상으로 대체합니다."
                 ]
             },
             "youtube": [
                 "https://youtu.be/gLvgLCtD9Gs?si=NZE88HjzBgqdo3KN"
+            ],
+            "twitter": [
+                "https://x.com/yashiro6666/status/2121800147520942102"
             ]
         }
     }
