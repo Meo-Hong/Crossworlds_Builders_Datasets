@@ -197,8 +197,13 @@
     },
     "normalSlotView": {
       "en": "Normal Slot",
-      "jp": "通常スロット",
+      "jp": "通常",
       "kr": "일반 슬롯"
+    },
+    "superSlotView": {
+      "en": "Super Slot",
+      "jp": "スーパー",
+      "kr": "슈퍼 슬롯"
     },
     "timeTrialView": {
       "en": "TT",
